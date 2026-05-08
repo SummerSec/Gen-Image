@@ -1,0 +1,46 @@
+name: Sync Prompt Library
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync-prompts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository with submodules
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Update submodules to latest
+        run: git submodule update --init --remote --recursive
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate prompts
+        run: npm run sync:prompts
+
+      - name: Create pull request for prompt updates
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/sync-prompts
+          title: 'chore: sync prompt libraries'
+          commit-message: 'chore: sync prompt libraries'
+          body: |
+            自动同步子模块提示词并更新 `src/data/prompts.generated.ts`。
+          labels: |
+            automation

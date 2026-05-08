@@ -1,0 +1,6 @@
+[submodule "external/awesome-gpt-image-2-api-prompts"]
+	path = external/awesome-gpt-image-2-api-prompts
+	url = https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts
+[submodule "external/awesome-gpt-image-2"]
+	path = external/awesome-gpt-image-2
+	url = https://github.com/freestylefly/awesome-gpt-image-2

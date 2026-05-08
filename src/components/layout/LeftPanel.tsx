@@ -39,10 +39,12 @@ export default function LeftPanel() {
   };
 
   const handleRefUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (file) {
+    const files = Array.from(e.target.files ?? []);
+    files.forEach((file) => {
       addReferenceImage(URL.createObjectURL(file));
-    }
+    });
+    // Allow selecting the same file(s) again if needed
+    e.target.value = '';
   };
 
   return (
@@ -70,7 +72,7 @@ export default function LeftPanel() {
               ))}
               <label className="w-12 h-12 rounded-lg border border-dashed border-[#D1D5DB] flex items-center justify-center flex-shrink-0 cursor-pointer hover:border-[#9CA3AF] transition-colors">
                 <PlusIcon className="w-4 h-4 text-[#9CA3AF]" />
-                <input type="file" accept="image/*" className="hidden" onChange={handleRefUpload} />
+                <input type="file" accept="image/*" multiple className="hidden" onChange={handleRefUpload} />
               </label>
             </div>
           )}
@@ -80,7 +82,7 @@ export default function LeftPanel() {
             onChange={(e) => setPrompt(e.target.value)}
             onKeyDown={handlePromptKeyDown}
             placeholder="描述你想要生成的图像...（右侧点选模板会自动追加到这里）"
-            className="w-full min-h-[120px] resize-none bg-transparent border-none outline-none p-3 text-sm text-[#404040] placeholder-[#D1D5DB] leading-relaxed"
+            className="w-full min-h-[180px] resize-none bg-transparent border-none outline-none p-3 text-sm text-[#404040] placeholder-[#D1D5DB] leading-relaxed"
           />
 
           <div className="flex items-center justify-between gap-2 px-3 py-2 border-t border-[#F3F4F6]">
@@ -89,16 +91,16 @@ export default function LeftPanel() {
               <label className="flex items-center gap-1 text-[11px] leading-none text-[#9CA3AF] cursor-pointer hover:text-[#737373] transition-colors">
                 <PlusIcon className="w-3 h-3" />
                 添加参考图
-                <input type="file" accept="image/*" className="hidden" onChange={handleRefUpload} />
+                <input type="file" accept="image/*" multiple className="hidden" onChange={handleRefUpload} />
               </label>
             </div>
 
             {/* Right: 分辨率 + 数量 + 生成 */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1.5 flex-shrink-0">
               <select
                 value={resolution}
                 onChange={(e) => setResolution(e.target.value)}
-                className="h-6 rounded-full border border-[#E5E7EB] bg-white px-2 text-[11px] text-[#171717] outline-none cursor-pointer font-medium"
+                className="h-5 rounded-md border border-[#ECECEC] bg-white px-1.5 text-[8px] leading-none text-[#404040] outline-none cursor-pointer font-normal"
               >
                 {RESOLUTION_OPTIONS.map((r) => (
                   <option key={r.id} value={r.id}>{r.label}</option>
@@ -107,7 +109,7 @@ export default function LeftPanel() {
               <select
                 value={generateCount}
                 onChange={(e) => setGenerateCount(parseInt(e.target.value, 10))}
-                className="h-6 rounded-full border border-[#E5E7EB] bg-white px-2 text-[11px] text-[#171717] outline-none cursor-pointer font-medium"
+                className="h-5 rounded-md border border-[#ECECEC] bg-white px-1.5 text-[8px] leading-none text-[#404040] outline-none cursor-pointer font-normal"
                 title="生成数量"
               >
                 <option value={1}>1 张</option>
@@ -119,7 +121,7 @@ export default function LeftPanel() {
                 onClick={() => {
                   document.dispatchEvent(new CustomEvent('trigger-generate'));
                 }}
-                className="h-6 px-3 rounded-full bg-[#171717] text-white text-[11px] font-medium leading-none hover:bg-[#404040] transition-colors"
+                className="h-5 px-2.5 rounded-md bg-[#171717] text-white text-[8px] font-normal leading-none hover:bg-[#404040] transition-colors"
               >
                 生成
               </button>

@@ -1,73 +1,115 @@
-# React + TypeScript + Vite
+# Image Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI image generation workspace built with React + TypeScript + Vite.
 
-Currently, two official plugins are available:
+中文文档：[`README_zh.md`](./README_zh.md)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Screenshots
 
-## React Compiler
+Desktop:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Desktop Preview](./output/screenshot-final.png)
 
-## Expanding the ESLint configuration
+Mobile:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![Mobile Preview](./output/screenshot-mobile.png)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Prompt library from two upstream repositories (submodules):
+  - `freestylefly/awesome-gpt-image-2`
+  - `EvoLinkAI/awesome-gpt-image-2-API-and-Prompts`
+- Localized prompt thumbnails copied into this project (`public/prompt-thumbs/**`)
+- Prompt click behavior:
+  - Fill prompt textarea
+  - Load matching thumbnail into center preview
+- Multi-image generation per prompt (`1-4` requests, one request per image)
+- Reference image upload supports multi-select in one action
+- Preview supports zoom in/out and reset
+- API settings persisted in browser `localStorage`
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Tech Stack
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS 4
+- Zustand
+- OpenAI JS SDK
+
+## Requirements
+
+- Node.js 20+ recommended
+- Git (for submodules)
+- (Optional) GitHub CLI for repository automation
+
+## Quick Start
+
+```bash
+npm install
+powershell -ExecutionPolicy Bypass -File scripts/setup-prompt-submodules.ps1
+npm run sync:prompts
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open the URL printed by Vite (default `http://localhost:5173`).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Available Scripts
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- `npm run dev` - start dev server
+- `npm run build` - type-check + production build
+- `npm run preview` - preview production build
+- `npm run lint` - run ESLint
+- `npm run sync:prompts` - regenerate prompt data from submodules
+- `npm run sync:prompts:update` - update submodules then regenerate prompt data
+
+## Prompt Sync Workflow
+
+Prompt sync script: `scripts/sync-prompts.mjs`
+
+### Data Sources
+
+- `EvoLinkAI`: extracts only Simplified Chinese cases from `cases/*_zh-CN.md`
+- `freestylefly`: extracts case prompts from:
+  - `docs/gallery-part-1.md`
+  - `docs/gallery-part-2.md`
+  - (does not use templates page)
+
+### Thumbnail Strategy
+
+- Images are copied from submodules to local public assets:
+  - `public/prompt-thumbs/evolink/**`
+  - `public/prompt-thumbs/freestylefly/**`
+- Namespaces are isolated to avoid collisions.
+- Generated prompt data references local paths only.
+
+## Project Structure
+
+```text
+src/
+  components/
+  data/
+    prompts.ts
+    prompts.manual.ts
+    prompts.generated.ts
+  services/
+  store/
+scripts/
+  setup-prompt-submodules.ps1
+  sync-prompts.mjs
+external/
+  awesome-gpt-image-2
+  awesome-gpt-image-2-api-prompts
+public/
+  prompt-thumbs/
+```
+
+## Notes
+
+- `src/data/prompts.generated.ts` is auto-generated. Do not edit manually.
+- If submodules are unavailable, app falls back to `prompts.manual.ts`.
+- If prompt thumbnails fail to show, run:
+
+```bash
+npm run sync:prompts
 ```

@@ -3,31 +3,34 @@ import { PROMPT_LIBRARY_MANUAL } from './prompts.manual';
 
 export type { PromptCard };
 
-let cachedGenerated: PromptCard[] | null = null;
+let allPrompts: PromptCard[] = PROMPT_LIBRARY_MANUAL;
+let sourceLoaded = false;
 let isLoading = false;
 
 export function getPromptLibrary(): PromptCard[] {
-  return cachedGenerated ?? PROMPT_LIBRARY_MANUAL;
+  return allPrompts;
 }
 
 export function hasMorePrompts(): boolean {
-  return cachedGenerated === null;
+  return !sourceLoaded;
 }
 
 export async function loadMorePrompts(): Promise<PromptCard[]> {
-  if (cachedGenerated) return cachedGenerated;
-  if (isLoading) return PROMPT_LIBRARY_MANUAL;
+  if (sourceLoaded) return allPrompts;
+  if (isLoading) return allPrompts;
 
   isLoading = true;
   try {
     const mod = await import('./prompts.generated');
-    cachedGenerated = mod.PROMPT_LIBRARY_GENERATED.length > 0
+    allPrompts = mod.PROMPT_LIBRARY_GENERATED.length > 0
       ? mod.PROMPT_LIBRARY_GENERATED
       : PROMPT_LIBRARY_MANUAL;
-    return cachedGenerated;
+    sourceLoaded = true;
+    return allPrompts;
   } catch {
-    cachedGenerated = PROMPT_LIBRARY_MANUAL;
-    return cachedGenerated;
+    allPrompts = PROMPT_LIBRARY_MANUAL;
+    sourceLoaded = true;
+    return allPrompts;
   } finally {
     isLoading = false;
   }

@@ -4,8 +4,11 @@ import { getPromptLibrary, hasMorePrompts, loadMorePrompts } from '../../data/pr
 import { TABS } from '../../data/options';
 import { MagnifyingGlassIcon } from '../common/Icons';
 
+const PAGE_SIZE = 48;
+
 export default function RightPanel() {
-  const [loadState, setLoadState] = useState<'idle' | 'loading' | 'done'>('idle');
+  const [isSourceLoading, setIsSourceLoading] = useState(false);
+  const [visibleCountByKey, setVisibleCountByKey] = useState<Record<string, number>>({});
   const [tick, setTick] = useState(0);
   const sentinelRef = useRef<HTMLDivElement>(null);
 
@@ -16,40 +19,63 @@ export default function RightPanel() {
   const searchQuery = useStore((s) => s.searchQuery);
   const setSearchQuery = useStore((s) => s.setSearchQuery);
 
-  const filteredPrompts = useMemo(() => {
+  const normalizedQuery = searchQuery.trim().toLowerCase();
+  const paginationKey = normalizedQuery ? `${activeTab}::${normalizedQuery}` : activeTab;
+
+  const filteredAllPrompts = useMemo(() => {
     let list = getPromptLibrary();
     if (activeTab !== 'all') {
       list = list.filter((p) => p.category === activeTab);
     }
-    if (searchQuery.trim()) {
-      const q = searchQuery.toLowerCase();
+    if (normalizedQuery) {
       list = list.filter(
-        (p) => p.title.toLowerCase().includes(q) || p.prompt.toLowerCase().includes(q)
+        (p) => p.title.toLowerCase().includes(normalizedQuery) || p.prompt.toLowerCase().includes(normalizedQuery)
       );
     }
     return list;
-  }, [activeTab, searchQuery, tick]);
+  }, [activeTab, normalizedQuery, tick]);
 
-  const doLoadMore = useCallback(async () => {
-    if (!hasMorePrompts() || loadState === 'loading') return;
-    setLoadState('loading');
+  const visibleLimit = visibleCountByKey[paginationKey] ?? PAGE_SIZE;
+
+  const filteredPrompts = useMemo(
+    () => filteredAllPrompts.slice(0, visibleLimit),
+    [filteredAllPrompts, visibleLimit],
+  );
+
+  const hasMoreCurrent = filteredPrompts.length < filteredAllPrompts.length;
+
+  const doLoadSource = useCallback(async () => {
+    if (!hasMorePrompts() || isSourceLoading) return;
+    setIsSourceLoading(true);
     await loadMorePrompts();
-    setLoadState('done');
     setTick((t) => t + 1);
-  }, [loadState]);
+    setIsSourceLoading(false);
+  }, [isSourceLoading]);
+
+  const doLoadMore = useCallback(() => {
+    if (!hasMoreCurrent || isSourceLoading) return;
+    setVisibleCountByKey((prev) => ({
+      ...prev,
+      [paginationKey]: (prev[paginationKey] ?? PAGE_SIZE) + PAGE_SIZE,
+    }));
+  }, [hasMoreCurrent, isSourceLoading, paginationKey]);
+
+  useEffect(() => {
+    void doLoadSource();
+  }, [doLoadSource]);
 
   useEffect(() => {
     const el = sentinelRef.current;
-    if (!el || !hasMorePrompts()) return;
+    if (!el || !hasMoreCurrent) return;
     const observer = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) doLoadMore(); },
       { rootMargin: '200px' },
     );
     observer.observe(el);
     return () => observer.disconnect();
-  }, [doLoadMore, filteredPrompts.length]);
+  }, [doLoadMore, hasMoreCurrent, filteredPrompts.length]);
 
-  const totalCount = filteredPrompts.length;
+  const totalCount = filteredAllPrompts.length;
 
   return (
     <aside className="w-full lg:w-[320px] xl:w-[360px] bg-white border-l border-[#E5E7EB] flex flex-col flex-shrink-0 overflow-hidden">
@@ -150,10 +176,10 @@ export default function RightPanel() {
               );
             })}
             {/* Sentinel for infinite scroll */}
-            {hasMorePrompts() && <div ref={sentinelRef} className="h-4 col-span-2" />}
+            {hasMoreCurrent && <div ref={sentinelRef} className="h-4 col-span-2" />}
 
             {/* Loading indicator */}
-            {loadState === 'loading' && (
+            {isSourceLoading && (
               <div className="col-span-2 flex items-center justify-center gap-2 py-4 text-xs text-[#9CA3AF]">
                 <div className="w-3 h-3 border border-[#9CA3AF] border-t-transparent rounded-full animate-spin" />
                 加载更多...
@@ -161,7 +187,7 @@ export default function RightPanel() {
             )}
 
             {/* All loaded */}
-            {loadState === 'done' && !hasMorePrompts() && (
+            {!isSourceLoading && !hasMoreCurrent && (
               <p className="col-span-2 sticky bottom-0 text-center text-[10px] text-[#D1D5DB] py-2 bg-white/95">
                 已加载全部 {totalCount} 条提示词
               </p>

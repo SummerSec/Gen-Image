@@ -1,4 +1,4 @@
-import { useRef, useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useStore } from '../../store/useStore';
 import { generateImage } from '../../services/api';
 import {
@@ -30,7 +30,6 @@ export default function CanvasArea() {
   const history = useStore((s) => s.history);
   const historyIndex = useStore((s) => s.historyIndex);
   const setHistoryIndex = useStore((s) => s.setHistoryIndex);
-  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [zoom, setZoom] = useState(1);
@@ -41,24 +40,6 @@ export default function CanvasArea() {
   useEffect(() => {
     setZoom(1);
   }, [generatedImage]);
-
-  const handleUpload = useCallback(
-    (e: React.ChangeEvent<HTMLInputElement>) => {
-      const file = e.target.files?.[0];
-      if (file) {
-        const url = URL.createObjectURL(file);
-        setGeneratedImage(url);
-        addHistory({
-          id: Date.now().toString(),
-          url,
-          prompt: '上传的图片',
-          model: '上传',
-          timestamp: Date.now(),
-        });
-      }
-    },
-    [setGeneratedImage, addHistory],
-  );
 
   const handleGenerate = useCallback(async () => {
     if (!prompt.trim() || isGenerating) return;
@@ -283,14 +264,6 @@ export default function CanvasArea() {
             <path d="M17 6l4 4-4 4" />
           </svg>
         </button>
-
-        <label className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] cursor-pointer transition-colors" title="上传图片">
-          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
-            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-            <path d="M17 8l-5-5-5 5M12 3v12" />
-          </svg>
-          <input ref={fileInputRef} type="file" accept="image/*" className="hidden" onChange={handleUpload} />
-        </label>
 
         <div className="w-px h-5 bg-[#E5E7EB] mx-1" />
 

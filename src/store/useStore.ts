@@ -89,7 +89,7 @@ export const useStore = create<AppState>()(
       setActiveTab: (v) => set({ activeTab: v }),
       apiKey: '',
       setApiKey: (v) => set({ apiKey: v }),
-      baseUrl: 'https://right.codes/gpt/v1',
+      baseUrl: 'https://www.right.codes/draw',
       setBaseUrl: (v) => set({ baseUrl: v }),
     }),
     {

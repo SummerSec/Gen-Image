@@ -1,11 +1,3 @@
-import OpenAI from 'openai';
-
-const RESOLUTION_SIZES: Record<string, string> = {
-  '1k': '1024x1024',
-  '2k': '2048x2048',
-  '4k': '4096x4096',
-};
-
 const RATIO_SIZES: Record<string, { w: number; h: number }> = {
   '1:1': { w: 1024, h: 1024 },
   '3:4': { w: 768, h: 1024 },
@@ -13,14 +5,6 @@ const RATIO_SIZES: Record<string, { w: number; h: number }> = {
   '9:16': { w: 576, h: 1024 },
   '16:9': { w: 1024, h: 576 },
 };
-
-function getClient(apiKey: string, baseUrl: string): OpenAI {
-  return new OpenAI({
-    apiKey,
-    baseURL: baseUrl.replace(/\/$/, ''),
-    dangerouslyAllowBrowser: true,
-  });
-}
 
 export interface GenerateParams {
   prompt: string;
@@ -35,92 +19,66 @@ export interface GenerateParams {
   baseUrl: string;
 }
 
-export async function generateImage(params: GenerateParams): Promise<string> {
-  const { prompt, model, aspectRatio, referenceImages, apiKey, baseUrl } = params;
-  const size = RESOLUTION_SIZES[params.resolution] || '1024x1024';
-
-  console.log('generateImage params:', params);
-  const client = getClient(apiKey, baseUrl);
-
-  if (referenceImages.length > 0) {
-    // Image-to-image / edit mode
-    return generateWithReference(client, prompt, model, size, referenceImages, aspectRatio, params.style);
-  }
-
-  // Text-to-image: POST /gpt/v1/images/generations
-  try {
-    const resp = (await client.images.generate({
-      model,
-      prompt,
-      n: 1,
-      size,
-      response_format: 'b64_json',
-    } as unknown as OpenAI.Images.ImageGenerateParams)) as { data: Array<{ b64_json?: string; url?: string }> };
-
-    const item = resp.data[0];
-    if (item?.b64_json) {
-      return `data:image/png;base64,${item.b64_json}`;
-    }
-    if (item?.url) {
-      return item.url;
-    }
-    throw new Error('API 未返回图片数据');
-  } catch (err) {
-    console.error('生成失败:', err);
-    throw err;
-  }
+interface ImagesGenerationsResponse {
+  created: number;
+  data: Array<{ url?: string; b64_json?: string }>;
+  usage: { total_tokens: number; input_tokens: number; output_tokens: number };
 }
 
-async function generateWithReference(
-  client: OpenAI,
-  prompt: string,
-  model: string,
-  _size: string,
-  referenceImages: string[],
-  _aspectRatio: string,
-  _style?: string
-): Promise<string> {
-  // Image edit with reference: uses chat completions endpoint
-  const content: OpenAI.Chat.Completions.ChatCompletionContentPart[] = [];
+export async function generateImage(params: GenerateParams): Promise<string> {
+  const { prompt, model, aspectRatio, referenceImages, apiKey, baseUrl } = params;
+  const size = getSizeForRatio(aspectRatio);
 
-  for (const refUrl of referenceImages) {
-    // Convert to base64 if it's a blob URL
-    if (refUrl.startsWith('blob:')) {
-      const base64 = await blobUrlToBase64(refUrl);
-      content.push({
-        type: 'image_url',
-        image_url: { url: base64 },
-      });
-    } else if (refUrl.startsWith('data:')) {
-      content.push({
-        type: 'image_url',
-        image_url: { url: refUrl },
-      });
+  console.log('generateImage params:', params);
+
+  const url = `${baseUrl.replace(/\/$/, '')}/images/generations`;
+
+  const body: Record<string, unknown> = {
+    model,
+    prompt,
+    size,
+    response_format: 'url',
+  };
+
+  if (referenceImages.length > 0) {
+    const images: string[] = [];
+    for (const refUrl of referenceImages) {
+      if (refUrl.startsWith('blob:')) {
+        images.push(await blobUrlToBase64(refUrl));
+      } else if (refUrl.startsWith('data:')) {
+        images.push(refUrl);
+      } else {
+        images.push(refUrl);
+      }
     }
+    body.image = images;
   }
 
-  content.push({ type: 'text', text: prompt });
-
-  const resp = await client.chat.completions.create({
-    model,
-    messages: [{ role: 'user', content }],
+  const resp = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${apiKey}`,
+    },
+    body: JSON.stringify(body),
   });
 
-  const msg = resp.choices[0]?.message?.content;
-  if (!msg) throw new Error('API 未返回内容');
-
-  // Parse base64 image from markdown: ![image](data:image/png;base64,...)
-  const base64Match = msg.match(/!\[.*?\]\((data:image\/[^;]+;base64,[^)]+)\)/);
-  if (base64Match) {
-    return base64Match[1];
+  if (!resp.ok) {
+    const errText = await resp.text().catch(() => 'Unknown error');
+    throw new Error(`API 请求失败 (${resp.status}): ${errText}`);
   }
 
-  // Try raw base64
-  if (msg.startsWith('data:image/')) {
-    return msg;
+  const data: ImagesGenerationsResponse = await resp.json();
+  const item = data.data[0];
+
+  if (item?.url) {
+    return item.url;
+  }
+  if (item?.b64_json) {
+    return `data:image/png;base64,${item.b64_json}`;
   }
 
-  throw new Error('无法解析返回的图片数据');
+  throw new Error('API 未返回图片数据');
 }
 
 async function blobUrlToBase64(blobUrl: string): Promise<string> {

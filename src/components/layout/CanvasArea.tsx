@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useStore } from '../../store/useStore';
 import { generateImage } from '../../services/api';
+import { RATIO_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
 import {
   ImageIcon,
   DownloadIcon,
@@ -54,11 +55,16 @@ export default function CanvasArea() {
     setGenerationProgress({ current: 0, total: generateCount });
 
     try {
+      const ratioLabel = RATIO_OPTIONS.find((r) => r.id === aspectRatio)?.label;
+      const resLabel = RESOLUTION_OPTIONS.find((r) => r.id === resolution)?.label;
+      const sizeParts = [resLabel, ratioLabel].filter(Boolean);
+      const sizePrefix = sizeParts.length > 0 ? `请生成${sizeParts.join('、')}的图片。` : '';
+
       const fullPrompt = style
-        ? `[风格: ${style}] ${negativePrompt ? `避免: ${negativePrompt}. ` : ''}${prompt}`
+        ? `[风格: ${style}] ${negativePrompt ? `避免: ${negativePrompt}. ` : ''}${sizePrefix}${prompt}`
         : negativePrompt
-          ? `避免: ${negativePrompt}. ${prompt}`
-          : prompt;
+          ? `${sizePrefix}避免: ${negativePrompt}. ${prompt}`
+          : `${sizePrefix}${prompt}`;
       for (let i = 0; i < generateCount; i += 1) {
         setGenerationProgress({ current: i + 1, total: generateCount });
         const imageUrl = await generateImage({

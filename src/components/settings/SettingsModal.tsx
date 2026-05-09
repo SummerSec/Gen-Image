@@ -51,10 +51,10 @@ export default function SettingsModal({ open, onClose }: Props) {
               type="text"
               value={localUrl}
               onChange={(e) => setLocalUrl(e.target.value)}
-              placeholder="https://right.codes/gpt/v1"
+              placeholder="https://www.right.codes/draw"
               className="w-full h-10 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#171717] placeholder-[#D1D5DB] outline-none focus:border-[#9CA3AF]"
             />
-            <p className="text-[10px] text-[#9CA3AF] mt-1">API 网关地址，例如 right.codes</p>
+            <p className="text-[10px] text-[#9CA3AF] mt-1">API 网关地址，例如 https://www.right.codes/draw</p>
           </div>
 
           <div>

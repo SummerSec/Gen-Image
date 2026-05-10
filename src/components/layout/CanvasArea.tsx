@@ -79,8 +79,11 @@ export default function CanvasArea() {
     setGenerationProgress({ current: 0, total: currentGenerateCount });
 
     try {
-      const ratioLabel = RATIO_OPTIONS.find((r) => r.id === currentAspectRatio)?.label;
+      const ratioOption = RATIO_OPTIONS.find((r) => r.id === currentAspectRatio);
       const resLabel = RESOLUTION_OPTIONS.find((r) => r.id === currentResolution)?.label;
+      const ratioLabel = ratioOption
+        ? `${ratioOption.label}比例${ratioOption.desc.replace(':', '：')}`
+        : undefined;
       const sizeParts = [resLabel, ratioLabel].filter(Boolean);
       const sizePrefix = sizeParts.length > 0 ? `请生成${sizeParts.join('、')}的图片。` : '';
 

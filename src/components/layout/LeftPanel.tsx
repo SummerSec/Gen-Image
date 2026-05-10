@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useStore } from '../../store/useStore';
 import { STYLE_OPTIONS, RATIO_OPTIONS, MODEL_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
 import { PlusIcon } from '../common/Icons';
@@ -22,6 +23,7 @@ export default function LeftPanel() {
   const referenceImages = useStore((s) => s.referenceImages);
   const addReferenceImage = useStore((s) => s.addReferenceImage);
   const removeReferenceImage = useStore((s) => s.removeReferenceImage);
+  const [promptEditorOpen, setPromptEditorOpen] = useState(false);
 
   const handlePromptKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key !== 'Tab') return;
@@ -93,6 +95,13 @@ export default function LeftPanel() {
                 添加参考图
                 <input type="file" accept="image/*" multiple className="hidden" onChange={handleRefUpload} />
               </label>
+              <button
+                type="button"
+                onClick={() => setPromptEditorOpen(true)}
+                className="text-[11px] leading-none text-[#9CA3AF] hover:text-[#737373] transition-colors"
+              >
+                放大编辑
+              </button>
             </div>
 
             {/* Right: 分辨率 + 数量 + 生成 */}
@@ -219,6 +228,42 @@ export default function LeftPanel() {
           </div>
         </div>
       </div>
+
+      {promptEditorOpen && (
+        <div className="fixed inset-0 z-50 bg-black/40 p-4 lg:p-6">
+          <div className="mx-auto flex h-full max-w-5xl flex-col overflow-hidden rounded-2xl border border-[#E5E7EB] bg-white shadow-2xl">
+            <div className="flex items-center justify-between gap-3 border-b border-[#E5E7EB] px-5 py-4">
+              <div>
+                <h2 className="text-base font-semibold text-[#171717]">提示词放大编辑</h2>
+                <p className="mt-0.5 text-xs text-[#9CA3AF]">
+                  内容会实时同步到左侧提示词输入框
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setPromptEditorOpen(false)}
+                className="h-9 rounded-full border border-[#E5E7EB] px-4 text-sm text-[#737373] hover:border-[#D1D5DB] hover:text-[#171717]"
+              >
+                完成
+              </button>
+            </div>
+
+            <textarea
+              value={prompt}
+              onChange={(e) => setPrompt(e.target.value)}
+              onKeyDown={handlePromptKeyDown}
+              autoFocus
+              placeholder="在这里编辑较长的提示词..."
+              className="min-h-0 flex-1 resize-none border-none bg-[#FCFCFC] p-5 text-base leading-8 text-[#262626] outline-none placeholder-[#C7CDD5]"
+            />
+
+            <div className="flex items-center justify-between border-t border-[#E5E7EB] px-5 py-3 text-xs text-[#9CA3AF]">
+              <span>{prompt.length} 字符</span>
+              <span>Tab 可插入缩进</span>
+            </div>
+          </div>
+        </div>
+      )}
     </aside>
   );
 }

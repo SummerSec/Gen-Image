@@ -47,6 +47,9 @@ interface AppState {
   setBaseUrl: (v: string) => void;
 }
 
+const DEFAULT_BASE_URL = 'https://www.right.codes/draw/v1';
+const LEGACY_DEFAULT_BASE_URL = 'https://www.right.codes/draw';
+
 export const useStore = create<AppState>()(
   persist(
     (set) => ({
@@ -89,12 +92,22 @@ export const useStore = create<AppState>()(
       setActiveTab: (v) => set({ activeTab: v }),
       apiKey: '',
       setApiKey: (v) => set({ apiKey: v }),
-      baseUrl: 'https://www.right.codes/draw',
+      baseUrl: DEFAULT_BASE_URL,
       setBaseUrl: (v) => set({ baseUrl: v }),
     }),
     {
       name: 'gen-image-settings',
       storage: createJSONStorage(() => localStorage),
+      version: 1,
+      migrate: (persistedState) => {
+        const state = persistedState as Partial<AppState>;
+
+        if (state.baseUrl === LEGACY_DEFAULT_BASE_URL) {
+          return { ...state, baseUrl: DEFAULT_BASE_URL };
+        }
+
+        return state;
+      },
       partialize: (state) => ({
         apiKey: state.apiKey,
         baseUrl: state.baseUrl,

@@ -65,9 +65,9 @@ export default function CanvasArea() {
         : negativePrompt
           ? `${sizePrefix}避免: ${negativePrompt}. ${prompt}`
           : `${sizePrefix}${prompt}`;
-      for (let i = 0; i < generateCount; i += 1) {
-        setGenerationProgress({ current: i + 1, total: generateCount });
-        const imageUrl = await generateImage({
+      let completed = 0;
+      const tasks = Array.from({ length: generateCount }, () =>
+        generateImage({
           prompt: fullPrompt,
           negativePrompt,
           model,
@@ -78,12 +78,20 @@ export default function CanvasArea() {
           referenceImages,
           apiKey,
           baseUrl,
-        });
+        }).then((imageUrl) => {
+          completed += 1;
+          setGenerationProgress({ current: completed, total: generateCount });
+          return imageUrl;
+        }),
+      );
 
-        setGeneratedImage(imageUrl);
+      const results = await Promise.all(tasks);
+
+      for (let i = 0; i < results.length; i += 1) {
+        setGeneratedImage(results[i]);
         addHistory({
           id: `${Date.now()}-${i}`,
-          url: imageUrl,
+          url: results[i],
           prompt: prompt,
           model: model,
           timestamp: Date.now(),

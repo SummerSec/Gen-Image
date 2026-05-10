@@ -16,6 +16,10 @@ English README: [`README.md`](./README.md)
   <img src="./output/screenshot-mobile.png" alt="移动端预览" width="260" />
 </p>
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=SummerSec/Gen-Image&type=Date)](https://www.star-history.com/#SummerSec/Gen-Image&Date)
+
 ## 功能概览
 
 - 通过子模块接入两个提示词仓库：

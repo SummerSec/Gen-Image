@@ -16,6 +16,10 @@ Mobile:
   <img src="./output/screenshot-mobile.png" alt="Mobile Preview" width="260" />
 </p>
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=SummerSec/Gen-Image&type=Date)](https://www.star-history.com/#SummerSec/Gen-Image&Date)
+
 ## Features
 
 - Prompt library from two upstream repositories (submodules):

@@ -12,11 +12,6 @@ export default function App() {
   return (
     <div className="h-screen flex flex-col bg-[#F8F9FA] overflow-hidden">
       <Topbar
-        onMobileMenu={(panel: string) => {
-          if (panel === 'prompt') setMobilePanel('left');
-          else if (panel === 'library') setMobilePanel('right');
-          else setMobilePanel('none');
-        }}
         onSettings={() => setSettingsOpen(true)}
       />
 

@@ -1,6 +1,6 @@
 import { useStore } from '../../store/useStore';
 
-export default function Topbar({ onMobileMenu: _onMobileMenu, onSettings }: { onMobileMenu: (panel: string) => void; onSettings?: () => void }) {
+export default function Topbar({ onSettings }: { onSettings?: () => void }) {
   const searchQuery = useStore((s) => s.searchQuery);
   const setSearchQuery = useStore((s) => s.setSearchQuery);
 
@@ -17,6 +17,14 @@ export default function Topbar({ onMobileMenu: _onMobileMenu, onSettings }: { on
         <span className="font-semibold text-base text-[#171717] whitespace-nowrap hidden sm:inline">
           Image Studio
         </span>
+        <div
+          className="flex items-center gap-1 rounded-full border border-emerald-200 bg-emerald-50 px-2 py-1 text-[11px] font-medium text-emerald-700"
+          title={`当前版本：v${__APP_VERSION__}，状态：Beta`}
+        >
+          <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
+          <span className="hidden sm:inline">v{__APP_VERSION__}</span>
+          <span>Beta</span>
+        </div>
       </div>
 
       <div className="flex-1 max-w-md mx-2 lg:mx-4">

@@ -12,7 +12,9 @@ English README: [`README.md`](./README.md)
 
 移动端：
 
-![移动端预览](./output/screenshot-mobile.png)
+<p align="center">
+  <img src="./output/screenshot-mobile.png" alt="移动端预览" width="260" />
+</p>
 
 ## 功能概览
 

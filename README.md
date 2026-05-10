@@ -12,7 +12,9 @@ Desktop:
 
 Mobile:
 
-![Mobile Preview](./output/screenshot-mobile.png)
+<p align="center">
+  <img src="./output/screenshot-mobile.png" alt="Mobile Preview" width="260" />
+</p>
 
 ## Features
 

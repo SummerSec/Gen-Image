@@ -67,8 +67,7 @@ export async function generateImage(params: GenerateParams): Promise<string> {
   });
 
   if (!resp.ok) {
-    const errText = await resp.text().catch(() => 'Unknown error');
-    throw new Error(`API 请求失败 (${resp.status}): ${errText}`);
+    throw new Error(await formatApiError(resp));
   }
 
   const data: ImagesGenerationsResponse = await resp.json();
@@ -101,6 +100,20 @@ function withCorsProxy(url: string): string {
   }
 
   return `${CORS_PROXY_URL}${url}`;
+}
+
+async function formatApiError(resp: Response): Promise<string> {
+  const errText = await resp.text().catch(() => '');
+
+  if (resp.status === 524) {
+    return 'API 请求失败 (524)：图片生成耗时过长，源站响应超时。请稍后重试，或减少一次生成张数。';
+  }
+
+  if (errText.trim().startsWith('<!DOCTYPE html') || errText.includes('<html')) {
+    return `API 请求失败 (${resp.status})：服务端返回了 HTML 错误页，请稍后重试。`;
+  }
+
+  return `API 请求失败 (${resp.status}): ${errText || 'Unknown error'}`;
 }
 
 export function getSizeForRatio(ratio: string): string {

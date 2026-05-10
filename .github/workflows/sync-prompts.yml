@@ -35,6 +35,7 @@ jobs:
         run: npm run sync:prompts
 
       - name: Create pull request for prompt updates
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
           branch: chore/sync-prompts
@@ -44,3 +45,9 @@ jobs:
             自动同步子模块提示词并更新 `src/data/prompts.generated.ts`。
           labels: |
             automation
+
+      - name: Enable auto-merge for prompt updates
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge ${{ steps.cpr.outputs.pull-request-number }} --squash --auto --delete-branch

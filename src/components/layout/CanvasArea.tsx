@@ -35,12 +35,27 @@ export default function CanvasArea() {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [zoom, setZoom] = useState(1);
   const [generationProgress, setGenerationProgress] = useState<{ current: number; total: number } | null>(null);
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
 
   const clampZoom = (value: number) => Math.min(4, Math.max(0.25, value));
 
   useEffect(() => {
     setZoom(1);
   }, [generatedImage]);
+
+  useEffect(() => {
+    if (!isGenerating) {
+      setElapsedSeconds(0);
+      return;
+    }
+
+    const startedAt = Date.now();
+    const timer = window.setInterval(() => {
+      setElapsedSeconds(Math.floor((Date.now() - startedAt) / 1000));
+    }, 1000);
+
+    return () => window.clearInterval(timer);
+  }, [isGenerating]);
 
   const handleGenerate = useCallback(async () => {
     if (!prompt.trim() || isGenerating) return;
@@ -65,9 +80,10 @@ export default function CanvasArea() {
         : negativePrompt
           ? `${sizePrefix}避免: ${negativePrompt}. ${prompt}`
           : `${sizePrefix}${prompt}`;
-      let completed = 0;
-      const tasks = Array.from({ length: generateCount }, () =>
-        generateImage({
+
+      for (let i = 0; i < generateCount; i += 1) {
+        setGenerationProgress({ current: i, total: generateCount });
+        const imageUrl = await generateImage({
           prompt: fullPrompt,
           negativePrompt,
           model,
@@ -78,20 +94,13 @@ export default function CanvasArea() {
           referenceImages,
           apiKey,
           baseUrl,
-        }).then((imageUrl) => {
-          completed += 1;
-          setGenerationProgress({ current: completed, total: generateCount });
-          return imageUrl;
-        }),
-      );
+        });
 
-      const results = await Promise.all(tasks);
-
-      for (let i = 0; i < results.length; i += 1) {
-        setGeneratedImage(results[i]);
+        setGenerationProgress({ current: i + 1, total: generateCount });
+        setGeneratedImage(imageUrl);
         addHistory({
           id: `${Date.now()}-${i}`,
-          url: results[i],
+          url: imageUrl,
           prompt: prompt,
           model: model,
           timestamp: Date.now(),
@@ -219,6 +228,9 @@ export default function CanvasArea() {
             <p className="text-sm font-medium text-[#737373]">
               {generationProgress ? `正在生成 ${generationProgress.current}/${generationProgress.total}` : '正在生成中...'}
             </p>
+            <p className="text-xs font-medium text-[#9CA3AF]">
+              已等待 {elapsedSeconds}s
+            </p>
             <p className="text-xs text-[#9CA3AF] max-w-[280px] text-center">
               正在调用 {model} 请求生成图片，请稍候
             </p>
@@ -244,7 +256,9 @@ export default function CanvasArea() {
           {isGenerating ? (
             <>
               <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-              {generationProgress ? `生成中 ${generationProgress.current}/${generationProgress.total}` : '生成中...'}
+              {generationProgress
+                ? `生成中 ${generationProgress.current}/${generationProgress.total} · ${elapsedSeconds}s`
+                : `生成中 ${elapsedSeconds}s`}
             </>
           ) : (
             <>

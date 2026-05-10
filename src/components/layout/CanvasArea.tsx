@@ -16,18 +16,8 @@ export default function CanvasArea() {
   const isGenerating = useStore((s) => s.isGenerating);
   const prompt = useStore((s) => s.prompt);
   const model = useStore((s) => s.model);
-  const resolution = useStore((s) => s.resolution);
-  const aspectRatio = useStore((s) => s.aspectRatio);
-  const style = useStore((s) => s.style);
-  const cfgScale = useStore((s) => s.cfgScale);
-  const generateCount = useStore((s) => s.generateCount);
-  const negativePrompt = useStore((s) => s.negativePrompt);
-  const referenceImages = useStore((s) => s.referenceImages);
   const apiKey = useStore((s) => s.apiKey);
-  const baseUrl = useStore((s) => s.baseUrl);
   const setGeneratedImage = useStore((s) => s.setGeneratedImage);
-  const setIsGenerating = useStore((s) => s.setIsGenerating);
-  const addHistory = useStore((s) => s.addHistory);
   const history = useStore((s) => s.history);
   const historyIndex = useStore((s) => s.historyIndex);
   const setHistoryIndex = useStore((s) => s.setHistoryIndex);
@@ -58,51 +48,70 @@ export default function CanvasArea() {
   }, [isGenerating]);
 
   const handleGenerate = useCallback(async () => {
-    if (!prompt.trim() || isGenerating) return;
+    const state = useStore.getState();
+    const {
+      prompt: currentPrompt,
+      isGenerating: currentlyGenerating,
+      apiKey: currentApiKey,
+      generateCount: currentGenerateCount,
+      aspectRatio: currentAspectRatio,
+      resolution: currentResolution,
+      style: currentStyle,
+      negativePrompt: currentNegativePrompt,
+      model: currentModel,
+      cfgScale: currentCfgScale,
+      referenceImages: currentReferenceImages,
+      baseUrl: currentBaseUrl,
+      setIsGenerating: setGenerating,
+      setGeneratedImage: setImage,
+      addHistory: addHistoryItem,
+    } = state;
 
-    if (!apiKey.trim()) {
+    if (!currentPrompt.trim() || currentlyGenerating) return;
+
+    if (!currentApiKey.trim()) {
       setErrorMsg('请先配置 API Key（点击顶部 ⚙ 设置按钮）');
       return;
     }
 
     setErrorMsg(null);
-    setIsGenerating(true);
-    setGenerationProgress({ current: 0, total: generateCount });
+    setGenerating(true);
+    setGenerationProgress({ current: 0, total: currentGenerateCount });
 
     try {
-      const ratioLabel = RATIO_OPTIONS.find((r) => r.id === aspectRatio)?.label;
-      const resLabel = RESOLUTION_OPTIONS.find((r) => r.id === resolution)?.label;
+      const ratioLabel = RATIO_OPTIONS.find((r) => r.id === currentAspectRatio)?.label;
+      const resLabel = RESOLUTION_OPTIONS.find((r) => r.id === currentResolution)?.label;
       const sizeParts = [resLabel, ratioLabel].filter(Boolean);
       const sizePrefix = sizeParts.length > 0 ? `请生成${sizeParts.join('、')}的图片。` : '';
 
-      const fullPrompt = style
-        ? `[风格: ${style}] ${negativePrompt ? `避免: ${negativePrompt}. ` : ''}${sizePrefix}${prompt}`
-        : negativePrompt
-          ? `${sizePrefix}避免: ${negativePrompt}. ${prompt}`
-          : `${sizePrefix}${prompt}`;
+      const fullPrompt = currentStyle
+        ? `[风格: ${currentStyle}] ${currentNegativePrompt ? `避免: ${currentNegativePrompt}. ` : ''}${sizePrefix}${currentPrompt}`
+        : currentNegativePrompt
+          ? `${sizePrefix}避免: ${currentNegativePrompt}. ${currentPrompt}`
+          : `${sizePrefix}${currentPrompt}`;
 
-      for (let i = 0; i < generateCount; i += 1) {
-        setGenerationProgress({ current: i, total: generateCount });
+      for (let i = 0; i < currentGenerateCount; i += 1) {
+        setGenerationProgress({ current: i, total: currentGenerateCount });
         const imageUrl = await generateImage({
           prompt: fullPrompt,
-          negativePrompt,
-          model,
-          resolution,
-          aspectRatio,
-          style,
-          cfgScale,
-          referenceImages,
-          apiKey,
-          baseUrl,
+          negativePrompt: currentNegativePrompt,
+          model: currentModel,
+          resolution: currentResolution,
+          aspectRatio: currentAspectRatio,
+          style: currentStyle,
+          cfgScale: currentCfgScale,
+          referenceImages: currentReferenceImages,
+          apiKey: currentApiKey,
+          baseUrl: currentBaseUrl,
         });
 
-        setGenerationProgress({ current: i + 1, total: generateCount });
-        setGeneratedImage(imageUrl);
-        addHistory({
+        setGenerationProgress({ current: i + 1, total: currentGenerateCount });
+        setImage(imageUrl);
+        addHistoryItem({
           id: `${Date.now()}-${i}`,
           url: imageUrl,
-          prompt: prompt,
-          model: model,
+          prompt: currentPrompt,
+          model: currentModel,
           timestamp: Date.now(),
         });
       }
@@ -112,26 +121,10 @@ export default function CanvasArea() {
       setErrorMsg(msg);
       console.error('生成失败:', err);
     } finally {
-      setIsGenerating(false);
+      setGenerating(false);
       setGenerationProgress(null);
     }
-  }, [
-    prompt,
-    isGenerating,
-    model,
-    resolution,
-    aspectRatio,
-    style,
-    cfgScale,
-    negativePrompt,
-    referenceImages,
-    generateCount,
-    apiKey,
-    baseUrl,
-    setIsGenerating,
-    setGeneratedImage,
-    addHistory,
-  ]);
+  }, []);
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {

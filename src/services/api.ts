@@ -6,6 +6,8 @@ const RATIO_SIZES: Record<string, { w: number; h: number }> = {
   '16:9': { w: 1024, h: 576 },
 };
 
+const CORS_PROXY_URL = 'https://proxy.sumsec.me/';
+
 export interface GenerateParams {
   prompt: string;
   negativePrompt?: string;
@@ -31,7 +33,8 @@ export async function generateImage(params: GenerateParams): Promise<string> {
 
   console.log('generateImage params:', params);
 
-  const url = `${baseUrl.replace(/\/$/, '')}/images/generations`;
+  const apiUrl = `${baseUrl.replace(/\/$/, '')}/images/generations`;
+  const url = withCorsProxy(apiUrl);
 
   const body: Record<string, unknown> = {
     model,
@@ -90,6 +93,14 @@ async function blobUrlToBase64(blobUrl: string): Promise<string> {
     reader.onerror = reject;
     reader.readAsDataURL(blob);
   });
+}
+
+function withCorsProxy(url: string): string {
+  if (url.startsWith(CORS_PROXY_URL)) {
+    return url;
+  }
+
+  return `${CORS_PROXY_URL}${url}`;
 }
 
 export function getSizeForRatio(ratio: string): string {

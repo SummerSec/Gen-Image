@@ -55,11 +55,13 @@ export async function generateImage(params: GenerateParams): Promise<string> {
     const { useCorsProxy, corsProxyUrl } = useStore.getState();
     const url = useCorsProxy ? `${corsProxyUrl}${apiUrl}` : apiUrl;
 
+    // Prefer b64_json on HTTPS pages to avoid mixed content issues with HTTP image URLs
+    const preferBase64 = typeof window !== 'undefined' && window.location.protocol === 'https:';
     const body: Record<string, unknown> = {
       model,
       prompt,
       size,
-      response_format: 'url',
+      response_format: preferBase64 ? 'b64_json' : 'url',
     };
 
     const images: string[] = [];
@@ -101,13 +103,15 @@ export async function generateImage(params: GenerateParams): Promise<string> {
   }
 
   // Standard path: use OpenAI SDK
+  // Prefer b64_json on HTTPS pages to avoid mixed content issues with HTTP image URLs
+  const preferBase64 = typeof window !== 'undefined' && window.location.protocol === 'https:';
   const client = createClient(apiKey, baseUrl);
   const response = await client.images.generate({
     prompt,
     model,
     size,
     n: 1,
-    response_format: 'url',
+    response_format: preferBase64 ? 'b64_json' : 'url',
   });
 
   const item = response.data?.[0];

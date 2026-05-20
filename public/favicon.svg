@@ -1,5 +1,4 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- 背景光晕 -->
   <defs>
     <linearGradient id="gGradient" x1="30%" y1="20%" x2="80%" y2="90%" gradientUnits="objectBoundingBox">
       <stop offset="0%" stop-color="#4A00E0"/>
@@ -7,7 +6,7 @@
       <stop offset="100%" stop-color="#C800FF"/>
     </linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -15,19 +14,15 @@
     </filter>
   </defs>
 
-  <!-- 主图形 -->
   <g filter="url(#glow)">
-    <!-- G 字母 -->
-    <text x="256" y="340" font-family="Arial Black, sans-serif" font-size="320" font-weight="900"
+    <text x="256" y="380" font-family="Arial Black, sans-serif" font-size="420" font-weight="900"
           fill="url(#gGradient)" text-anchor="middle" dominant-baseline="middle" opacity="0.95">G</text>
 
-    <!-- 画笔 -->
-    <path d="M320 280 L380 220 Q400 200 410 240 L360 300 Z" fill="#00F0FF" opacity="0.9"/>
-    <rect x="355" y="235" width="18" height="85" rx="8" fill="#00F0FF" transform="rotate(-35 370 280)"/>
+    <path d="M340 300 L410 225 Q435 200 445 245 L385 320 Z" fill="#00F0FF" opacity="0.9"/>
+    <rect x="380" y="245" width="22" height="100" rx="10" fill="#00F0FF" transform="rotate(-35 395 295)"/>
   </g>
 
-  <!-- 微粒子装饰 -->
-  <circle cx="180" cy="160" r="12" fill="#A0FFFC" opacity="0.8"/>
-  <circle cx="380" cy="140" r="8" fill="#FF80FF" opacity="0.7"/>
-  <circle cx="150" cy="380" r="10" fill="#7BFFCC" opacity="0.6"/>
+  <circle cx="140" cy="120" r="16" fill="#A0FFFC" opacity="0.8"/>
+  <circle cx="410" cy="100" r="11" fill="#FF80FF" opacity="0.7"/>
+  <circle cx="110" cy="400" r="13" fill="#7BFFCC" opacity="0.6"/>
 </svg>

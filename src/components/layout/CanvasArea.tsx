@@ -111,7 +111,7 @@ export default function CanvasArea() {
           baseUrl: currentBaseUrl,
         });
 
-        const finalUrl = watermarkEnabled ? await applyWatermark(imageUrl) : imageUrl;
+        const finalUrl = useStore.getState().watermarkEnabled ? await applyWatermark(imageUrl) : imageUrl;
 
         setGenerationProgress({ current: i + 1, total: currentGenerateCount });
         setImage(finalUrl);

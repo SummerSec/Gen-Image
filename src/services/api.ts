@@ -138,23 +138,34 @@ async function blobUrlToBase64(blobUrl: string): Promise<string> {
 
 /**
  * Ensure the image URL can be rendered on the current page.
+ * Proxy is used when:
+ *   - The image host is an IP address (not a domain name), regardless of protocol
+ *   - The image is HTTP and the page is HTTPS (mixed content)
  * Fallback chain:
- *   1. Return original URL (works if same protocol or page is HTTP)
- *   2. Use self-hosted /api/img-proxy (Vercel serverless function)
- *   3. Fetch via CORS proxy → convert to base64 data URL
+ *   1. Use self-hosted /api/img-proxy (Vercel serverless function)
+ *   2. Fetch via external CORS proxy → convert to base64 data URL
  */
 async function ensureSecureImageUrl(imageUrl: string): Promise<string> {
-  // Already safe: data URL or HTTPS link — use directly
-  if (imageUrl.startsWith('data:') || imageUrl.startsWith('https://')) {
+  // data URL — always safe
+  if (imageUrl.startsWith('data:')) {
     return imageUrl;
   }
 
-  // HTTP image but page is also HTTP — no mixed content issue
-  if (typeof window !== 'undefined' && window.location.protocol === 'http:') {
+  // Determine if the host is an IP address
+  const isIpHost = /^https?:\/\/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/.test(imageUrl);
+
+  // Determine if there's a mixed content issue (HTTP image on HTTPS page)
+  const isMixedContent =
+    imageUrl.startsWith('http://') &&
+    typeof window !== 'undefined' &&
+    window.location.protocol === 'https:';
+
+  // If host is a domain and no mixed content issue — use directly
+  if (!isIpHost && !isMixedContent) {
     return imageUrl;
   }
 
-  // HTTP image on HTTPS page — use server-side proxy
+  // Need proxy: either IP-based host or mixed content
   // Step 1: Self-hosted image proxy (same origin, no CORS/mixed content issues)
   try {
     const proxyUrl = `/api/img-proxy?url=${encodeURIComponent(imageUrl)}`;
@@ -181,7 +192,7 @@ async function ensureSecureImageUrl(imageUrl: string): Promise<string> {
   }
 
   // All fallbacks exhausted — return original URL
-  console.warn('[ensureSecureImageUrl] 无法转换 HTTP 图片，返回原始链接:', imageUrl);
+  console.warn('[ensureSecureImageUrl] 无法转换图片，返回原始链接:', imageUrl);
   return imageUrl;
 }
 

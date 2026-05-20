@@ -68,7 +68,14 @@ export default function SettingsModal({ open, onClose }: Props) {
           </div>
 
           <div className="flex items-center justify-between">
-            <label className="text-xs font-medium text-[#737373]">CORS 代理</label>
+            <label className="text-xs font-medium text-[#737373] flex items-center gap-1.5">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+              CORS 代理
+            </label>
             <button
               onClick={() => setLocalUseCorsProxy(!localUseCorsProxy)}
               className={`relative w-10 h-5 rounded-full transition-colors duration-200 ${

@@ -91,7 +91,7 @@ export async function generateImage(params: GenerateParams): Promise<string> {
     const item = data.data[0];
 
     if (item?.url) {
-      return item.url;
+      return ensureSecureImageUrl(item.url);
     }
     if (item?.b64_json) {
       return `data:image/png;base64,${item.b64_json}`;
@@ -112,7 +112,7 @@ export async function generateImage(params: GenerateParams): Promise<string> {
 
   const item = response.data?.[0];
   if (item?.url) {
-    return item.url;
+    return ensureSecureImageUrl(item.url);
   }
   if (item?.b64_json) {
     return `data:image/png;base64,${item.b64_json}`;
@@ -124,6 +124,64 @@ export async function generateImage(params: GenerateParams): Promise<string> {
 async function blobUrlToBase64(blobUrl: string): Promise<string> {
   const resp = await fetch(blobUrl);
   const blob = await resp.blob();
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onloadend = () => resolve(reader.result as string);
+    reader.onerror = reject;
+    reader.readAsDataURL(blob);
+  });
+}
+
+/**
+ * Ensure the image URL can be rendered on the current page.
+ * Fallback chain:
+ *   1. Return original URL (works if same protocol or page is HTTP)
+ *   2. Fetch via CORS proxy → convert to base64 data URL
+ *   3. Direct fetch → convert to base64 data URL (last resort)
+ */
+async function ensureSecureImageUrl(imageUrl: string): Promise<string> {
+  // Already safe: data URL or HTTPS link — use directly
+  if (imageUrl.startsWith('data:') || imageUrl.startsWith('https://')) {
+    return imageUrl;
+  }
+
+  // HTTP image but page is also HTTP — no mixed content issue
+  if (typeof window !== 'undefined' && window.location.protocol === 'http:') {
+    return imageUrl;
+  }
+
+  // HTTP image on HTTPS page — must convert to data URL
+  // Step 1: Try CORS proxy (HTTPS proxy avoids mixed content block)
+  const { useCorsProxy, corsProxyUrl } = useStore.getState();
+  if (useCorsProxy && corsProxyUrl) {
+    try {
+      const proxyUrl = `${corsProxyUrl}${imageUrl}`;
+      const resp = await fetch(proxyUrl);
+      if (resp.ok) {
+        return await blobToDataUrl(await resp.blob());
+      }
+    } catch {
+      // CORS proxy failed, try next fallback
+    }
+  }
+
+  // Step 2: Direct fetch (may work if browser/environment allows it)
+  try {
+    const resp = await fetch(imageUrl);
+    if (resp.ok) {
+      return await blobToDataUrl(await resp.blob());
+    }
+  } catch {
+    // Direct fetch also failed
+  }
+
+  // All fallbacks exhausted — return original URL and let the browser attempt it
+  // (will likely be blocked, but at least we tried)
+  console.warn('[ensureSecureImageUrl] 无法转换 HTTP 图片，返回原始链接:', imageUrl);
+  return imageUrl;
+}
+
+function blobToDataUrl(blob: Blob): Promise<string> {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
     reader.onloadend = () => resolve(reader.result as string);

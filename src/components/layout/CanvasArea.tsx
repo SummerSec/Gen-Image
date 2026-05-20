@@ -28,11 +28,13 @@ export default function CanvasArea() {
   const [generationProgress, setGenerationProgress] = useState<{ current: number; total: number } | null>(null);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [shareMsg, setShareMsg] = useState<string | null>(null);
+  const [imgLoadFailed, setImgLoadFailed] = useState(false);
 
   const clampZoom = (value: number) => Math.min(4, Math.max(0.25, value));
 
   useEffect(() => {
     setZoom(1);
+    setImgLoadFailed(false);
   }, [generatedImage]);
 
   useEffect(() => {
@@ -95,33 +97,45 @@ export default function CanvasArea() {
           ? `${sizePrefix}避免: ${currentNegativePrompt}. ${currentPrompt}`
           : `${sizePrefix}${currentPrompt}`;
 
-      for (let i = 0; i < currentGenerateCount; i += 1) {
-        setGenerationProgress({ current: i, total: currentGenerateCount });
-        const imageUrl = await generateImage({
-          prompt: fullPrompt,
-          negativePrompt: currentNegativePrompt,
-          model: currentModel,
-          resolution: currentResolution,
-          aspectRatio: currentAspectRatio,
-          style: currentStyle,
-          cfgScale: currentCfgScale,
-          referenceImages: currentReferenceImages,
-          apiKey: currentApiKey,
-          baseUrl: currentBaseUrl,
-        });
+      // Fire all generation requests in parallel
+      const generateParams = {
+        prompt: fullPrompt,
+        negativePrompt: currentNegativePrompt,
+        model: currentModel,
+        resolution: currentResolution,
+        aspectRatio: currentAspectRatio,
+        style: currentStyle,
+        cfgScale: currentCfgScale,
+        referenceImages: currentReferenceImages,
+        apiKey: currentApiKey,
+        baseUrl: currentBaseUrl,
+      };
 
-        const finalUrl = useStore.getState().watermarkEnabled ? await applyWatermark(imageUrl) : imageUrl;
+      let completedCount = 0;
+      setGenerationProgress({ current: 0, total: currentGenerateCount });
 
-        setGenerationProgress({ current: i + 1, total: currentGenerateCount });
-        setImage(finalUrl);
-        addHistoryItem({
-          id: `${Date.now()}-${i}`,
-          url: finalUrl,
-          prompt: currentPrompt,
-          model: currentModel,
-          timestamp: Date.now(),
-        });
-      }
+      const tasks = Array.from({ length: currentGenerateCount }, (_, i) =>
+        generateImage(generateParams).then(async (imageUrl) => {
+          const finalUrl = useStore.getState().watermarkEnabled
+            ? await applyWatermark(imageUrl)
+            : imageUrl;
+
+          completedCount += 1;
+          setGenerationProgress({ current: completedCount, total: currentGenerateCount });
+          setImage(finalUrl);
+          addHistoryItem({
+            id: `${Date.now()}-${i}`,
+            url: finalUrl,
+            prompt: currentPrompt,
+            model: currentModel,
+            timestamp: Date.now(),
+          });
+
+          return finalUrl;
+        }),
+      );
+
+      await Promise.all(tasks);
     } catch (err) {
       const msg =
         err instanceof Error ? err.message : '生成失败，请检查 API Key 和网络连接';
@@ -239,12 +253,47 @@ export default function CanvasArea() {
             </div>
 
             <div className="p-3 bg-[#FCFCFC] overflow-auto flex-1 min-h-0 flex items-center justify-center">
-              <img
-                src={generatedImage}
-                alt="生成的图片"
-                className="block max-w-full max-h-full object-contain"
-                style={{ transform: `scale(${zoom})`, transformOrigin: 'center center' }}
-              />
+              {imgLoadFailed ? (
+                <div className="flex flex-col items-center gap-4 p-6 max-w-md text-center">
+                  <svg className="w-12 h-12 text-[#D1D5DB]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <path d="M3 16l5-5 3 3 5-5 5 5" />
+                  </svg>
+                  <p className="text-sm text-[#737373]">图片无法在当前页面加载（可能因为 HTTP/HTTPS 协议限制）</p>
+                  <a
+                    href={generatedImage}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#171717] text-white text-sm font-medium hover:bg-[#404040] transition-colors"
+                  >
+                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                      <polyline points="15 3 21 3 21 9" />
+                      <line x1="10" y1="14" x2="21" y2="3" />
+                    </svg>
+                    在新标签页打开图片
+                  </a>
+                  <button
+                    onClick={() => {
+                      navigator.clipboard.writeText(generatedImage!);
+                      setShareMsg('图片链接已复制');
+                      setTimeout(() => setShareMsg(null), 2000);
+                    }}
+                    className="text-xs text-[#9CA3AF] hover:text-[#171717] underline"
+                  >
+                    复制图片链接
+                  </button>
+                  <p className="text-xs text-[#D1D5DB] break-all">{generatedImage}</p>
+                </div>
+              ) : (
+                <img
+                  src={generatedImage}
+                  alt="生成的图片"
+                  className="block max-w-full max-h-full object-contain"
+                  style={{ transform: `scale(${zoom})`, transformOrigin: 'center center' }}
+                  onError={() => setImgLoadFailed(true)}
+                />
+              )}
             </div>
           </div>
         ) : isGenerating ? (

@@ -18,7 +18,6 @@ export default function CanvasArea() {
   const prompt = useStore((s) => s.prompt);
   const model = useStore((s) => s.model);
   const apiKey = useStore((s) => s.apiKey);
-  const watermarkEnabled = useStore((s) => s.watermarkEnabled);
   const setGeneratedImage = useStore((s) => s.setGeneratedImage);
   const history = useStore((s) => s.history);
   const historyIndex = useStore((s) => s.historyIndex);

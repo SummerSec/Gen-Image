@@ -4,37 +4,55 @@
  *
  * Usage: /api/img-proxy?url=http://example.com/image.png
  */
-export default async function handler(req, res) {
-  const { url } = req.query;
+export const config = {
+  runtime: 'edge',
+};
 
-  if (!url || typeof url !== 'string') {
-    return res.status(400).json({ error: 'Missing "url" query parameter' });
+export default async function handler(request) {
+  const { searchParams } = new URL(request.url);
+  const url = searchParams.get('url');
+
+  if (!url) {
+    return new Response(JSON.stringify({ error: 'Missing "url" query parameter' }), {
+      status: 400,
+      headers: { 'Content-Type': 'application/json' },
+    });
   }
 
-  // Only allow proxying image URLs (basic validation)
   if (!url.startsWith('http://') && !url.startsWith('https://')) {
-    return res.status(400).json({ error: 'Invalid URL scheme, must be http or https' });
+    return new Response(JSON.stringify({ error: 'Invalid URL scheme' }), {
+      status: 400,
+      headers: { 'Content-Type': 'application/json' },
+    });
   }
 
   try {
     const response = await fetch(url, {
-      headers: {
-        'User-Agent': 'ImageStudio-Proxy/1.0',
-      },
+      headers: { 'User-Agent': 'ImageStudio-Proxy/1.0' },
     });
 
     if (!response.ok) {
-      return res.status(response.status).json({ error: `Upstream returned ${response.status}` });
+      return new Response(JSON.stringify({ error: `Upstream returned ${response.status}` }), {
+        status: response.status,
+        headers: { 'Content-Type': 'application/json' },
+      });
     }
 
     const contentType = response.headers.get('content-type') || 'image/png';
-    const buffer = Buffer.from(await response.arrayBuffer());
+    const body = await response.arrayBuffer();
 
-    res.setHeader('Content-Type', contentType);
-    res.setHeader('Cache-Control', 'public, max-age=86400, s-maxage=86400');
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    return res.status(200).send(buffer);
+    return new Response(body, {
+      status: 200,
+      headers: {
+        'Content-Type': contentType,
+        'Cache-Control': 'public, max-age=86400, s-maxage=86400',
+        'Access-Control-Allow-Origin': '*',
+      },
+    });
   } catch (err) {
-    return res.status(502).json({ error: 'Failed to fetch image', detail: err.message });
+    return new Response(JSON.stringify({ error: 'Failed to fetch image', detail: err.message }), {
+      status: 502,
+      headers: { 'Content-Type': 'application/json' },
+    });
   }
 }

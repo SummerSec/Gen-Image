@@ -11,22 +11,32 @@ export default function SettingsModal({ open, onClose }: Props) {
   const setApiKey = useStore((s) => s.setApiKey);
   const baseUrl = useStore((s) => s.baseUrl);
   const setBaseUrl = useStore((s) => s.setBaseUrl);
+  const useCorsProxy = useStore((s) => s.useCorsProxy);
+  const setUseCorsProxy = useStore((s) => s.setUseCorsProxy);
+  const corsProxyUrl = useStore((s) => s.corsProxyUrl);
+  const setCorsProxyUrl = useStore((s) => s.setCorsProxyUrl);
 
   const [localKey, setLocalKey] = useState(apiKey);
   const [localUrl, setLocalUrl] = useState(baseUrl);
+  const [localUseCorsProxy, setLocalUseCorsProxy] = useState(useCorsProxy);
+  const [localCorsProxyUrl, setLocalCorsProxyUrl] = useState(corsProxyUrl);
   const [saved, setSaved] = useState(false);
 
   useEffect(() => {
     if (!open) return;
     setLocalKey(apiKey);
     setLocalUrl(baseUrl);
-  }, [open, apiKey, baseUrl]);
+    setLocalUseCorsProxy(useCorsProxy);
+    setLocalCorsProxyUrl(corsProxyUrl);
+  }, [open, apiKey, baseUrl, useCorsProxy, corsProxyUrl]);
 
   if (!open) return null;
 
   const handleSave = () => {
     setApiKey(localKey.trim());
     setBaseUrl(localUrl.trim());
+    setUseCorsProxy(localUseCorsProxy);
+    setCorsProxyUrl(localCorsProxyUrl.trim());
     setSaved(true);
     setTimeout(() => setSaved(false), 1500);
   };
@@ -46,16 +56,45 @@ export default function SettingsModal({ open, onClose }: Props) {
 
         <div className="p-6 flex flex-col gap-4">
           <div>
-            <label className="text-xs font-medium text-[#737373] mb-1.5 block">API Base URL</label>
+            <label className="text-xs font-medium text-[#737373] mb-1.5 block">OpenAI API Base URL</label>
             <input
               type="text"
               value={localUrl}
               onChange={(e) => setLocalUrl(e.target.value)}
-              placeholder="https://www.right.codes/draw"
+              placeholder="https://www.right.codes/draw/v1"
               className="w-full h-10 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#171717] placeholder-[#D1D5DB] outline-none focus:border-[#9CA3AF]"
             />
-            <p className="text-[10px] text-[#9CA3AF] mt-1">API 网关地址，例如 https://www.right.codes/draw</p>
+            <p className="text-[10px] text-[#9CA3AF] mt-1">OpenAI 兼容 API 的 Base URL（SDK 自动追加 /images/generations），例如 https://api.openai.com/v1</p>
           </div>
+
+          <div className="flex items-center justify-between">
+            <label className="text-xs font-medium text-[#737373]">CORS 代理</label>
+            <button
+              onClick={() => setLocalUseCorsProxy(!localUseCorsProxy)}
+              className={`relative w-10 h-5 rounded-full transition-colors duration-200 ${
+                localUseCorsProxy ? 'bg-[#171717]' : 'bg-[#D1D5DB]'
+              }`}
+            >
+              <span
+                className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform duration-200 ${
+                  localUseCorsProxy ? 'translate-x-5' : 'translate-x-0'
+                }`}
+              />
+            </button>
+          </div>
+
+          {localUseCorsProxy && (
+            <div>
+              <label className="text-xs font-medium text-[#737373] mb-1.5 block">代理地址</label>
+              <input
+                type="text"
+                value={localCorsProxyUrl}
+                onChange={(e) => setLocalCorsProxyUrl(e.target.value)}
+                placeholder="https://proxy.sumsec.me/"
+                className="w-full h-10 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#171717] placeholder-[#D1D5DB] outline-none focus:border-[#9CA3AF]"
+              />
+            </div>
+          )}
 
           <div>
             <label className="text-xs font-medium text-[#737373] mb-1.5 block">API Key</label>

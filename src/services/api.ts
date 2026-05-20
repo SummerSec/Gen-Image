@@ -1,3 +1,6 @@
+import OpenAI from 'openai';
+import { useStore } from '../store/useStore';
+
 const RATIO_SIZES: Record<string, { w: number; h: number }> = {
   '1:1': { w: 1024, h: 1024 },
   '3:4': { w: 768, h: 1024 },
@@ -5,8 +8,6 @@ const RATIO_SIZES: Record<string, { w: number; h: number }> = {
   '9:16': { w: 576, h: 1024 },
   '16:9': { w: 1024, h: 576 },
 };
-
-const CORS_PROXY_URL = 'https://proxy.sumsec.me/';
 
 export interface GenerateParams {
   prompt: string;
@@ -21,29 +22,46 @@ export interface GenerateParams {
   baseUrl: string;
 }
 
-interface ImagesGenerationsResponse {
-  created: number;
-  data: Array<{ url?: string; b64_json?: string }>;
-  usage: { total_tokens: number; input_tokens: number; output_tokens: number };
+function createClient(apiKey: string, baseUrl: string): OpenAI {
+  const normalizedBaseUrl = baseUrl.replace(/\/$/, '');
+  const { useCorsProxy, corsProxyUrl } = useStore.getState();
+
+  return new OpenAI({
+    apiKey,
+    baseURL: normalizedBaseUrl,
+    dangerouslyAllowBrowser: true,
+    fetch: (input, init) => {
+      if (!useCorsProxy) return fetch(input, init);
+      const url =
+        typeof input === 'string'
+          ? input
+          : input instanceof URL
+            ? input.toString()
+            : input instanceof Request
+              ? input.url
+              : String(input);
+      return fetch(`${corsProxyUrl}${url}`, init);
+    },
+  });
 }
 
 export async function generateImage(params: GenerateParams): Promise<string> {
   const { prompt, model, aspectRatio, referenceImages, apiKey, baseUrl } = params;
   const size = getSizeForRatio(aspectRatio);
 
-  console.log('generateImage params:', params);
-
-  const apiUrl = `${baseUrl.replace(/\/$/, '')}/images/generations`;
-  const url = withCorsProxy(apiUrl);
-
-  const body: Record<string, unknown> = {
-    model,
-    prompt,
-    size,
-    response_format: 'url',
-  };
-
+  // Provider-specific extension: reference images via `image` array in body
   if (referenceImages.length > 0) {
+    const apiUrl = `${baseUrl.replace(/\/$/, '')}/images/generations`;
+    const { useCorsProxy, corsProxyUrl } = useStore.getState();
+    const url = useCorsProxy ? `${corsProxyUrl}${apiUrl}` : apiUrl;
+
+    const body: Record<string, unknown> = {
+      model,
+      prompt,
+      size,
+      response_format: 'url',
+    };
+
     const images: string[] = [];
     for (const refUrl of referenceImages) {
       if (refUrl.startsWith('blob:')) {
@@ -55,24 +73,44 @@ export async function generateImage(params: GenerateParams): Promise<string> {
       }
     }
     body.image = images;
+
+    const resp = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify(body),
+    });
+
+    if (!resp.ok) {
+      throw new Error(await formatApiError(resp));
+    }
+
+    const data = await resp.json();
+    const item = data.data[0];
+
+    if (item?.url) {
+      return item.url;
+    }
+    if (item?.b64_json) {
+      return `data:image/png;base64,${item.b64_json}`;
+    }
+
+    throw new Error('API 未返回图片数据');
   }
 
-  const resp = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify(body),
+  // Standard path: use OpenAI SDK
+  const client = createClient(apiKey, baseUrl);
+  const response = await client.images.generate({
+    prompt,
+    model,
+    size,
+    n: 1,
+    response_format: 'url',
   });
 
-  if (!resp.ok) {
-    throw new Error(await formatApiError(resp));
-  }
-
-  const data: ImagesGenerationsResponse = await resp.json();
-  const item = data.data[0];
-
+  const item = response.data?.[0];
   if (item?.url) {
     return item.url;
   }
@@ -92,14 +130,6 @@ async function blobUrlToBase64(blobUrl: string): Promise<string> {
     reader.onerror = reject;
     reader.readAsDataURL(blob);
   });
-}
-
-function withCorsProxy(url: string): string {
-  if (url.startsWith(CORS_PROXY_URL)) {
-    return url;
-  }
-
-  return `${CORS_PROXY_URL}${url}`;
 }
 
 async function formatApiError(resp: Response): Promise<string> {

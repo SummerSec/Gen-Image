@@ -45,8 +45,14 @@ interface AppState {
   setApiKey: (v: string) => void;
   baseUrl: string;
   setBaseUrl: (v: string) => void;
+  useCorsProxy: boolean;
+  setUseCorsProxy: (v: boolean) => void;
+  corsProxyUrl: string;
+  setCorsProxyUrl: (v: string) => void;
 }
 
+// 作为 OpenAI SDK 的 baseURL 传入，SDK 自动追加 /images/generations
+// 可替换为任意 OpenAI 兼容 API 地址，如 https://api.openai.com/v1
 const DEFAULT_BASE_URL = 'https://www.right.codes/draw/v1';
 const LEGACY_DEFAULT_BASE_URL = 'https://www.right.codes/draw';
 
@@ -94,6 +100,10 @@ export const useStore = create<AppState>()(
       setApiKey: (v) => set({ apiKey: v }),
       baseUrl: DEFAULT_BASE_URL,
       setBaseUrl: (v) => set({ baseUrl: v }),
+      useCorsProxy: true,
+      setUseCorsProxy: (v) => set({ useCorsProxy: v }),
+      corsProxyUrl: 'https://proxy.sumsec.me/',
+      setCorsProxyUrl: (v) => set({ corsProxyUrl: v }),
     }),
     {
       name: 'gen-image-settings',
@@ -111,6 +121,8 @@ export const useStore = create<AppState>()(
       partialize: (state) => ({
         apiKey: state.apiKey,
         baseUrl: state.baseUrl,
+        useCorsProxy: state.useCorsProxy,
+        corsProxyUrl: state.corsProxyUrl,
       }),
     },
   ),

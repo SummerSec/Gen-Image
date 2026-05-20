@@ -15,12 +15,18 @@ export default function SettingsModal({ open, onClose }: Props) {
   const setUseCorsProxy = useStore((s) => s.setUseCorsProxy);
   const corsProxyUrl = useStore((s) => s.corsProxyUrl);
   const setCorsProxyUrl = useStore((s) => s.setCorsProxyUrl);
+  const isAdmin = useStore((s) => s.isAdmin);
+  const setIsAdmin = useStore((s) => s.setIsAdmin);
+  const watermarkEnabled = useStore((s) => s.watermarkEnabled);
+  const setWatermarkEnabled = useStore((s) => s.setWatermarkEnabled);
 
   const [localKey, setLocalKey] = useState(apiKey);
   const [localUrl, setLocalUrl] = useState(baseUrl);
   const [localUseCorsProxy, setLocalUseCorsProxy] = useState(useCorsProxy);
   const [localCorsProxyUrl, setLocalCorsProxyUrl] = useState(corsProxyUrl);
   const [saved, setSaved] = useState(false);
+  const [adminPassword, setAdminPassword] = useState('');
+  const [adminError, setAdminError] = useState('');
 
   useEffect(() => {
     if (!open) return;
@@ -39,6 +45,27 @@ export default function SettingsModal({ open, onClose }: Props) {
     setCorsProxyUrl(localCorsProxyUrl.trim());
     setSaved(true);
     setTimeout(() => setSaved(false), 1500);
+  };
+
+  const handleAdminLogin = () => {
+    const envPassword = import.meta.env.VITE_ADMIN_PASSWORD;
+    if (!envPassword) {
+      setAdminError('未配置管理员密码（VITE_ADMIN_PASSWORD）');
+      return;
+    }
+    if (adminPassword === envPassword) {
+      setIsAdmin(true);
+      setAdminPassword('');
+      setAdminError('');
+    } else {
+      setAdminError('密码错误');
+    }
+  };
+
+  const handleAdminLogout = () => {
+    setIsAdmin(false);
+    setAdminPassword('');
+    setAdminError('');
   };
 
   return (
@@ -119,6 +146,66 @@ export default function SettingsModal({ open, onClose }: Props) {
               }}
             />
             <p className="text-[10px] text-[#9CA3AF] mt-1">密钥仅存储在本地浏览器（localStorage）中</p>
+          </div>
+
+          {/* Admin Section */}
+          <div className="border-t border-[#E5E7EB] pt-4">
+            <h3 className="text-sm font-medium text-[#171717] mb-3">管理员</h3>
+
+            {isAdmin ? (
+              <div className="flex flex-col gap-3">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs text-[#737373]">水印开关</span>
+                  <button
+                    onClick={() => setWatermarkEnabled(!watermarkEnabled)}
+                    className={`relative w-10 h-5 rounded-full transition-colors duration-200 ${
+                      watermarkEnabled ? 'bg-[#171717]' : 'bg-[#D1D5DB]'
+                    }`}
+                  >
+                    <span
+                      className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform duration-200 ${
+                        watermarkEnabled ? 'translate-x-5' : 'translate-x-0'
+                      }`}
+                    />
+                  </button>
+                </div>
+                <p className="text-[10px] text-[#9CA3AF]">
+                  {watermarkEnabled ? '已开启：生成图片右下角添加 gen-img.sumsec.me 水印' : '已关闭：生成图片不添加水印'}
+                </p>
+                <button
+                  onClick={handleAdminLogout}
+                  className="h-8 rounded-lg border border-[#E5E7EB] px-3 text-xs text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] transition-colors self-start"
+                >
+                  退出管理员
+                </button>
+              </div>
+            ) : (
+              <div className="flex flex-col gap-2">
+                <div className="flex gap-2">
+                  <input
+                    type="password"
+                    value={adminPassword}
+                    onChange={(e) => {
+                      setAdminPassword(e.target.value);
+                      setAdminError('');
+                    }}
+                    onKeyDown={(e) => { if (e.key === 'Enter') handleAdminLogin(); }}
+                    placeholder="输入管理员密码"
+                    className="flex-1 h-10 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#171717] placeholder-[#D1D5DB] outline-none focus:border-[#9CA3AF]"
+                  />
+                  <button
+                    onClick={handleAdminLogin}
+                    className="h-10 px-4 rounded-lg bg-[#171717] text-white text-sm font-medium hover:bg-[#404040] transition-colors"
+                  >
+                    验证
+                  </button>
+                </div>
+                {adminError && (
+                  <p className="text-[11px] text-red-500">{adminError}</p>
+                )}
+                <p className="text-[10px] text-[#9CA3AF]">在 Vercel 环境变量中设置 VITE_ADMIN_PASSWORD</p>
+              </div>
+            )}
           </div>
 
           <button

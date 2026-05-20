@@ -49,6 +49,10 @@ interface AppState {
   setUseCorsProxy: (v: boolean) => void;
   corsProxyUrl: string;
   setCorsProxyUrl: (v: string) => void;
+  isAdmin: boolean;
+  setIsAdmin: (v: boolean) => void;
+  watermarkEnabled: boolean;
+  setWatermarkEnabled: (v: boolean) => void;
 }
 
 // 作为 OpenAI SDK 的 baseURL 传入，SDK 自动追加 /images/generations
@@ -67,7 +71,7 @@ export const useStore = create<AppState>()(
       setModel: (v) => set({ model: v }),
       resolution: '1k',
       setResolution: (v) => set({ resolution: v }),
-      aspectRatio: '1:1',
+      aspectRatio: '16:9',
       setAspectRatio: (v) => set({ aspectRatio: v }),
       style: '',
       setStyle: (v) => set({ style: v }),
@@ -104,6 +108,10 @@ export const useStore = create<AppState>()(
       setUseCorsProxy: (v) => set({ useCorsProxy: v }),
       corsProxyUrl: 'https://proxy.sumsec.me/',
       setCorsProxyUrl: (v) => set({ corsProxyUrl: v }),
+      isAdmin: false,
+      setIsAdmin: (v) => set({ isAdmin: v }),
+      watermarkEnabled: true,
+      setWatermarkEnabled: (v) => set({ watermarkEnabled: v }),
     }),
     {
       name: 'gen-image-settings',
@@ -123,6 +131,7 @@ export const useStore = create<AppState>()(
         baseUrl: state.baseUrl,
         useCorsProxy: state.useCorsProxy,
         corsProxyUrl: state.corsProxyUrl,
+        watermarkEnabled: state.watermarkEnabled,
       }),
     },
   ),

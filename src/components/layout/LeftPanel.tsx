@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useStore } from '../../store/useStore';
-import { STYLE_OPTIONS, RATIO_OPTIONS, MODEL_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
+import { STYLE_OPTIONS, RATIO_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
 import { PlusIcon } from '../common/Icons';
 
 export default function LeftPanel() {
@@ -149,18 +149,16 @@ export default function LeftPanel() {
           />
         </div>
 
-        {/* Model Select */}
+        {/* Model Input */}
         <div>
           <label className="text-xs font-medium text-[#737373] mb-1.5 block">模型</label>
-          <select
+          <input
+            type="text"
             value={model}
             onChange={(e) => setModel(e.target.value)}
-            className="w-full h-10 rounded-lg border border-[#E5E7EB] bg-white px-3 text-sm text-[#171717] outline-none cursor-pointer"
-          >
-            {MODEL_OPTIONS.map((m) => (
-              <option key={m.id} value={m.id}>{m.label}</option>
-            ))}
-          </select>
+            placeholder="输入模型 ID..."
+            className="w-full h-10 rounded-lg border border-[#E5E7EB] bg-white px-3 text-sm text-[#171717] placeholder-[#D1D5DB] outline-none focus:border-[#D1D5DB]"
+          />
         </div>
 
         {/* Type Grid */}

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useStore } from '../../store/useStore';
 import { generateImage } from '../../services/api';
+import { applyWatermark } from '../../services/watermark';
 import { RATIO_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
 import {
   ImageIcon,
@@ -17,6 +18,7 @@ export default function CanvasArea() {
   const prompt = useStore((s) => s.prompt);
   const model = useStore((s) => s.model);
   const apiKey = useStore((s) => s.apiKey);
+  const watermarkEnabled = useStore((s) => s.watermarkEnabled);
   const setGeneratedImage = useStore((s) => s.setGeneratedImage);
   const history = useStore((s) => s.history);
   const historyIndex = useStore((s) => s.historyIndex);
@@ -26,6 +28,7 @@ export default function CanvasArea() {
   const [zoom, setZoom] = useState(1);
   const [generationProgress, setGenerationProgress] = useState<{ current: number; total: number } | null>(null);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [shareMsg, setShareMsg] = useState<string | null>(null);
 
   const clampZoom = (value: number) => Math.min(4, Math.max(0.25, value));
 
@@ -108,11 +111,13 @@ export default function CanvasArea() {
           baseUrl: currentBaseUrl,
         });
 
+        const finalUrl = watermarkEnabled ? await applyWatermark(imageUrl) : imageUrl;
+
         setGenerationProgress({ current: i + 1, total: currentGenerateCount });
-        setImage(imageUrl);
+        setImage(finalUrl);
         addHistoryItem({
           id: `${Date.now()}-${i}`,
-          url: imageUrl,
+          url: finalUrl,
           prompt: currentPrompt,
           model: currentModel,
           timestamp: Date.now(),
@@ -152,6 +157,31 @@ export default function CanvasArea() {
     a.href = generatedImage;
     a.download = 'generated-image.png';
     a.click();
+  };
+
+  const handleShare = async () => {
+    if (!generatedImage) return;
+    try {
+      if (generatedImage.startsWith('data:')) {
+        const resp = await fetch(generatedImage);
+        const blob = await resp.blob();
+        await navigator.clipboard.write([
+          new ClipboardItem({ [blob.type]: blob }),
+        ]);
+      } else {
+        await navigator.clipboard.writeText(generatedImage);
+      }
+      setShareMsg('图片已复制到剪贴板');
+    } catch {
+      // Fallback: copy as text
+      try {
+        await navigator.clipboard.writeText(generatedImage);
+        setShareMsg('链接已复制到剪贴板');
+      } catch {
+        setShareMsg('复制失败，请尝试下载后分享');
+      }
+    }
+    setTimeout(() => setShareMsg(null), 2000);
   };
 
   const handleUndo = () => {
@@ -242,6 +272,13 @@ export default function CanvasArea() {
         )}
       </div>
 
+      {/* Share Toast */}
+      {shareMsg && (
+        <div className="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 bg-[#171717] text-white text-sm px-4 py-2 rounded-full shadow-lg">
+          {shareMsg}
+        </div>
+      )}
+
       {/* Generate Button + Action Icons */}
       <div className="flex items-center justify-center gap-3 px-6 py-3 border-t border-[#E5E7EB] bg-white">
         <button
@@ -309,6 +346,7 @@ export default function CanvasArea() {
         </button>
 
         <button
+          onClick={handleShare}
           disabled={!generatedImage}
           className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
           title="分享"

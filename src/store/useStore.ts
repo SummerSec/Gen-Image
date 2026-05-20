@@ -129,6 +129,7 @@ export const useStore = create<AppState>()(
       partialize: (state) => ({
         apiKey: state.apiKey,
         baseUrl: state.baseUrl,
+        model: state.model,
         useCorsProxy: state.useCorsProxy,
         corsProxyUrl: state.corsProxyUrl,
         watermarkEnabled: state.watermarkEnabled,

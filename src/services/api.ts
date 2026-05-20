@@ -140,8 +140,8 @@ async function blobUrlToBase64(blobUrl: string): Promise<string> {
  * Ensure the image URL can be rendered on the current page.
  * Fallback chain:
  *   1. Return original URL (works if same protocol or page is HTTP)
- *   2. Fetch via CORS proxy → convert to base64 data URL
- *   3. Direct fetch → convert to base64 data URL (last resort)
+ *   2. Use self-hosted /api/img-proxy (Vercel serverless function)
+ *   3. Fetch via CORS proxy → convert to base64 data URL
  */
 async function ensureSecureImageUrl(imageUrl: string): Promise<string> {
   // Already safe: data URL or HTTPS link — use directly
@@ -154,8 +154,19 @@ async function ensureSecureImageUrl(imageUrl: string): Promise<string> {
     return imageUrl;
   }
 
-  // HTTP image on HTTPS page — must convert to data URL
-  // Step 1: Try CORS proxy (HTTPS proxy avoids mixed content block)
+  // HTTP image on HTTPS page — use server-side proxy
+  // Step 1: Self-hosted image proxy (same origin, no CORS/mixed content issues)
+  try {
+    const proxyUrl = `/api/img-proxy?url=${encodeURIComponent(imageUrl)}`;
+    const resp = await fetch(proxyUrl);
+    if (resp.ok) {
+      return await blobToDataUrl(await resp.blob());
+    }
+  } catch {
+    // Self-hosted proxy failed
+  }
+
+  // Step 2: Try external CORS proxy
   const { useCorsProxy, corsProxyUrl } = useStore.getState();
   if (useCorsProxy && corsProxyUrl) {
     try {
@@ -165,22 +176,11 @@ async function ensureSecureImageUrl(imageUrl: string): Promise<string> {
         return await blobToDataUrl(await resp.blob());
       }
     } catch {
-      // CORS proxy failed, try next fallback
+      // CORS proxy failed
     }
   }
 
-  // Step 2: Direct fetch (may work if browser/environment allows it)
-  try {
-    const resp = await fetch(imageUrl);
-    if (resp.ok) {
-      return await blobToDataUrl(await resp.blob());
-    }
-  } catch {
-    // Direct fetch also failed
-  }
-
-  // All fallbacks exhausted — return original URL and let the browser attempt it
-  // (will likely be blocked, but at least we tried)
+  // All fallbacks exhausted — return original URL
   console.warn('[ensureSecureImageUrl] 无法转换 HTTP 图片，返回原始链接:', imageUrl);
   return imageUrl;
 }

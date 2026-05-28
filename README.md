@@ -119,3 +119,8 @@ public/
 ```bash
 npm run sync:prompts
 ```
+
+## Friendship Link
+
+Thanks for the support and feedback from the friends at [LINUX DO](https://linux.do/). 
+

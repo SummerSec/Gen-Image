@@ -1,25 +1,24 @@
-# DESIGN.md — Image Studio (Linear-adapted, dark tool theme)
+# DESIGN.md — Image Studio (Linear-adapted, light tool theme)
 
-来源参考：Linear（VoltAgent/awesome-design-md）。本文件是面向本项目「三栏图像生成工作台」的落地适配版。
+来源参考：Linear（VoltAgent/awesome-design-md）。本文件是面向本项目「三栏图像生成工作台」的落地适配版（浅色）。
 
 ## 主题与氛围
-深色画布让生成图片成为主角；靠「表面层级 + 发丝边框」而非阴影建立层次；薰衣草蓝作为唯一强调色，仅用于主 CTA / 焦点环 / 品牌标。
+干净的浅色画布 + 白色卡片；靠「细边框 + 轻微表面层级」而非重阴影建立层次；薰衣草蓝作为唯一强调色，仅用于主 CTA / 焦点环 / 品牌标。
 
 ## 颜色 tokens
 ```
 --accent:        #5e6ad2   /* 主 CTA、焦点、品牌标（克制使用） */
---accent-hover:  #828fff
---accent-focus:  #5e69d1
---canvas:        #010102   /* 页面底色，勿用纯黑 #000 */
---surface-1:     #0f1011   /* 卡片 / 面板 */
---surface-2:     #141516   /* 悬浮 / 选中态 */
---surface-3:     #18191a   /* 下拉 / 子导航 */
---hairline:      #23252a   /* 1px 边框、分隔线 */
---hairline-strong:#34343a
---ink:           #f7f8f8   /* 主文字 */
---ink-muted:     #d0d6e0   /* 次级 */
---ink-subtle:    #8a8f98   /* 三级 / 占位 */
---ink-tertiary:  #62666d   /* 禁用 / 脚注 */
+--accent-hover:  #4f58c9
+--canvas:        #F7F8FA   /* 页面底色 */
+--surface-1:     #FFFFFF   /* 卡片 / 面板 */
+--surface-2:     #F1F2F5   /* 输入 / 悬浮 / 选中态 */
+--surface-3:     #E8EAEF
+--hairline:      #E5E7EB   /* 1px 边框、分隔线 */
+--hairline-strong:#D1D5DB
+--ink:           #18181B   /* 主文字 */
+--ink-muted:     #3F3F46   /* 次级 */
+--ink-subtle:    #71717A   /* 三级 / 占位 */
+--ink-tertiary:  #A1A1AA   /* 禁用 / 脚注 */
 --success:       #27a644
 ```
 
@@ -44,5 +43,5 @@
 - **标签胶囊**：默认 `--canvas`+`--ink-subtle`，选中 `--surface-2`+`--ink`。
 
 ## Do / Don't
-- Do：四级表面阶梯做层次；薰衣草蓝克制；display 负字距；图片面板用 16px。
-- Don't：纯黑画布；薰衣草蓝当背景/填充；第二个高饱和强调色；CTA 胶囊化；滥用阴影/光晕。
+- Do：用表面层级 + 细边框做层次；薰衣草蓝克制；display 负字距；图片面板用 16px。
+- Don't：薰衣草蓝当背景/填充；第二个高饱和强调色；CTA 胶囊化；滥用重阴影/光晕。

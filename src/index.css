@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-studio-bg: #010102;
-  --color-studio-border: #23252a;
-  --color-studio-text: #f7f8f8;
-  --color-studio-muted: #8a8f98;
-  --color-studio-faint: #62666d;
+  --color-studio-bg: #F7F8FA;
+  --color-studio-border: #E5E7EB;
+  --color-studio-text: #18181B;
+  --color-studio-muted: #71717A;
+  --color-studio-faint: #A1A1AA;
   --color-studio-black: #5e6ad2;
-  --color-studio-surface: #0f1011;
+  --color-studio-surface: #FFFFFF;
   --color-studio-accent: #5e6ad2;
 }
 
@@ -48,7 +48,7 @@ input:focus-visible, textarea:focus-visible, select:focus-visible, button:focus-
 /* Horizontal discoverable scrollbar for tab strips */
 .horizontal-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color: #34343a transparent;
+  scrollbar-color: #D1D5DB transparent;
 }
 
 .horizontal-scrollbar::-webkit-scrollbar {
@@ -60,12 +60,12 @@ input:focus-visible, textarea:focus-visible, select:focus-visible, button:focus-
 }
 
 .horizontal-scrollbar::-webkit-scrollbar-thumb {
-  background: #34343a;
+  background: #D1D5DB;
   border-radius: 999px;
 }
 
 .horizontal-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #4b4b52;
+  background: #B0B4BB;
 }
 
 /* Range slider */
@@ -73,7 +73,7 @@ input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   height: 6px;
-  background: #23252a;
+  background: #E5E7EB;
   border-radius: 999px;
   outline: none;
 }
@@ -85,7 +85,7 @@ input[type="range"]::-webkit-slider-thumb {
   height: 16px;
   border-radius: 50%;
   background: #5e6ad2;
-  border: 2px solid #0f1011;
+  border: 2px solid #FFFFFF;
   box-shadow: 0 1px 4px rgba(0,0,0,0.4);
   cursor: pointer;
 }

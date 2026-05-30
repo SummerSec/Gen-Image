@@ -1,6 +1,6 @@
 # Image Studio
 
-AI image generation workspace built with React + TypeScript + Vite.
+A conversational AI image-generation workspace built with React + TypeScript + Vite, working with any OpenAI-compatible image API.
 
 中文文档：[`README_zh.md`](./README_zh.md)
 
@@ -22,17 +22,20 @@ Mobile:
 
 ## Features
 
-- Prompt library from two upstream repositories (submodules):
-  - `freestylefly/awesome-gpt-image-2`
-  - `EvoLinkAI/awesome-gpt-image-2-API-and-Prompts`
-- Localized prompt thumbnails copied into this project (`public/prompt-thumbs/**`)
-- Prompt click behavior:
-  - Fill prompt textarea
-  - Load matching thumbnail into center preview
-- Multi-image generation per prompt (`1-4` requests, one request per image)
-- Reference image upload supports multi-select in one action
-- Preview supports zoom in/out and reset
-- API settings persisted in browser `localStorage`
+- **Conversational workspace**: a chat thread in the center, a composer at the bottom, and a collapsible right panel (prompt library / history).
+- **Prompt library**: two upstream repos wired in as submodules; thumbnails localized to `public/prompt-thumbs/**`. Clicking a card fills the prompt and sets it as a reference image.
+- **Reference images**: multi-select upload, clipboard paste, drag-and-drop; turn any result into a reference; click to enlarge. References are consumed (cleared) after each send.
+- **Multi-image generation**: 1–4 images per request.
+- **Inpainting**: built-in mask editor to repaint a brushed region from a prompt.
+- **Generation timer**: shows elapsed seconds while generating.
+- **History**: persisted in the browser's IndexedDB; clearable from settings.
+- **Multiple API profiles**: save several Base URL / model / key sets and switch anytime.
+- **API mode**: choose Images API (`/v1/images`) or Responses API (`/v1/responses` + image_generation tool).
+- **base64 toggle**: optionally append `response_format: b64_json` to the request body.
+- **CORS proxy**: optional, to work around browser cross-origin limits.
+- **Image watermark**: on by default (`gen-img.sumsec.me`, bottom-right); only an admin can disable it.
+- **Light Linear-style UI**, body font is LXGW WenKai (霞鹜文楷).
+- All settings persisted in browser `localStorage`.
 
 ## Tech Stack
 
@@ -47,7 +50,7 @@ Mobile:
 
 - Node.js 20+ recommended
 - Git (for submodules)
-- (Optional) GitHub CLI for repository automation
+- (Optional) GitHub CLI
 
 ## Quick Start
 
@@ -59,6 +62,12 @@ npm run dev
 ```
 
 Open the URL printed by Vite (default `http://localhost:5173`).
+
+On first run, set the Base URL, model ID, and API Key in **Settings → API**.
+
+## Environment Variables
+
+- `VITE_ADMIN_PASSWORD`: admin password. Enter it in Settings → Options to unlock disabling the image watermark. When unset, the watermark stays on and cannot be turned off.
 
 ## Available Scripts
 
@@ -76,10 +85,7 @@ Prompt sync script: `scripts/sync-prompts.mjs`
 ### Data Sources
 
 - `EvoLinkAI`: extracts only Simplified Chinese cases from `cases/*_zh-CN.md`
-- `freestylefly`: extracts case prompts from:
-  - `docs/gallery-part-1.md`
-  - `docs/gallery-part-2.md`
-  - (does not use templates page)
+- `freestylefly`: extracts case prompts from `docs/gallery-part-1.md` and `docs/gallery-part-2.md`
 
 ### Thumbnail Strategy
 
@@ -94,12 +100,16 @@ Prompt sync script: `scripts/sync-prompts.mjs`
 ```text
 src/
   components/
+    chat/        conversation thread + composer
+    layout/      topbar, right panel
+    canvas/      mask editor (inpainting)
+    settings/    settings modal
   data/
     prompts.ts
     prompts.manual.ts
     prompts.generated.ts
-  services/
-  store/
+  services/      api.ts, idb.ts, watermark.ts
+  store/         Zustand state
 scripts/
   setup-prompt-submodules.ps1
   sync-prompts.mjs
@@ -113,14 +123,9 @@ public/
 ## Notes
 
 - `src/data/prompts.generated.ts` is auto-generated. Do not edit manually.
-- If submodules are unavailable, app falls back to `prompts.manual.ts`.
-- If prompt thumbnails fail to show, run:
-
-```bash
-npm run sync:prompts
-```
+- If submodules are unavailable, the app falls back to `prompts.manual.ts`.
+- If prompt thumbnails fail to show, run `npm run sync:prompts`.
 
 ## Friendship Link
 
-Thanks for the support and feedback from the friends at [LINUX DO](https://linux.do/). 
-
+Thanks for the support and feedback from the friends at [LINUX DO](https://linux.do/).

@@ -49,6 +49,10 @@ export async function generateImage(params: GenerateParams): Promise<string> {
   const { prompt, model, aspectRatio, referenceImages, apiKey, baseUrl } = params;
   const size = getSizeForRatio(aspectRatio);
 
+  if (useStore.getState().apiMode === 'responses') {
+    return generateViaResponses({ prompt, model, size, referenceImages, apiKey, baseUrl });
+  }
+
   // Provider-specific extension: reference images via `image` array in body
   if (referenceImages.length > 0) {
     const apiUrl = `${baseUrl.replace(/\/$/, '')}/images/generations`;
@@ -165,6 +169,37 @@ export async function editImage(params: {
     return ensureSecureImageUrl(item.url);
   }
   throw new Error('API 未返回图片数据');
+}
+
+// Responses API path: POST /responses with the image_generation tool.
+async function generateViaResponses(params: {
+  prompt: string; model: string; size: string; referenceImages: string[]; apiKey: string; baseUrl: string;
+}): Promise<string> {
+  const apiUrl = `${params.baseUrl.replace(/\/$/, '')}/responses`;
+  const { useCorsProxy, corsProxyUrl } = useStore.getState();
+  const url = useCorsProxy ? `${corsProxyUrl}${apiUrl}` : apiUrl;
+
+  const content: Record<string, unknown>[] = [{ type: 'input_text', text: params.prompt }];
+  for (const refUrl of params.referenceImages) {
+    const dataUrl = refUrl.startsWith('blob:') ? await blobUrlToBase64(refUrl) : refUrl;
+    content.push({ type: 'input_image', image_url: dataUrl });
+  }
+
+  const resp = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${params.apiKey}` },
+    body: JSON.stringify({
+      model: params.model,
+      input: [{ role: 'user', content }],
+      tools: [{ type: 'image_generation', size: params.size }],
+    }),
+  });
+  if (!resp.ok) throw new Error(await formatApiError(resp));
+
+  const data = await resp.json();
+  const b64 = data.output?.find((o: { type?: string }) => o.type === 'image_generation_call')?.result;
+  if (b64) return `data:image/png;base64,${b64}`;
+  throw new Error('Responses API 未返回图片数据');
 }
 
 async function blobUrlToBase64(blobUrl: string): Promise<string> {

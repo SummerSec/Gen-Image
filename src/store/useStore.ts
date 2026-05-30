@@ -79,6 +79,8 @@ interface AppState {
   setApiKey: (v: string) => void;
   baseUrl: string;
   setBaseUrl: (v: string) => void;
+  apiMode: 'images' | 'responses';
+  setApiMode: (v: 'images' | 'responses') => void;
   apiProfiles: ApiProfile[];
   activeProfileId: string;
   saveCurrentAsProfile: (name: string) => void;
@@ -176,6 +178,8 @@ export const useStore = create<AppState>()(
       setApiKey: (v) => set({ apiKey: v }),
       baseUrl: DEFAULT_BASE_URL,
       setBaseUrl: (v) => set({ baseUrl: v }),
+      apiMode: 'images',
+      setApiMode: (v) => set({ apiMode: v }),
       apiProfiles: [],
       activeProfileId: '',
       saveCurrentAsProfile: (name) =>
@@ -228,6 +232,7 @@ export const useStore = create<AppState>()(
         apiKey: state.apiKey,
         baseUrl: state.baseUrl,
         model: state.model,
+        apiMode: state.apiMode,
         apiProfiles: state.apiProfiles,
         activeProfileId: state.activeProfileId,
         useCorsProxy: state.useCorsProxy,

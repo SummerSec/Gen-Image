@@ -28,6 +28,8 @@ export default function SettingsModal({ open, onClose }: Props) {
   const setApiKey = useStore((s) => s.setApiKey);
   const baseUrl = useStore((s) => s.baseUrl);
   const setBaseUrl = useStore((s) => s.setBaseUrl);
+  const apiMode = useStore((s) => s.apiMode);
+  const setApiMode = useStore((s) => s.setApiMode);
   const model = useStore((s) => s.model);
   const setModel = useStore((s) => s.setModel);
   const responseFormatB64 = useStore((s) => s.responseFormatB64);
@@ -51,6 +53,7 @@ export default function SettingsModal({ open, onClose }: Props) {
   const [section, setSection] = useState<Section>('api');
   const [localKey, setLocalKey] = useState(apiKey);
   const [localUrl, setLocalUrl] = useState(baseUrl);
+  const [localApiMode, setLocalApiMode] = useState(apiMode);
   const [localModel, setLocalModel] = useState(model);
   const [localB64, setLocalB64] = useState(responseFormatB64);
   const [localUseCorsProxy, setLocalUseCorsProxy] = useState(useCorsProxy);
@@ -64,17 +67,19 @@ export default function SettingsModal({ open, onClose }: Props) {
     if (!open) return;
     setLocalKey(apiKey);
     setLocalUrl(baseUrl);
+    setLocalApiMode(apiMode);
     setLocalModel(model);
     setLocalB64(responseFormatB64);
     setLocalUseCorsProxy(useCorsProxy);
     setLocalCorsProxyUrl(corsProxyUrl);
-  }, [open, apiKey, baseUrl, model, responseFormatB64, useCorsProxy, corsProxyUrl]);
+  }, [open, apiKey, baseUrl, apiMode, model, responseFormatB64, useCorsProxy, corsProxyUrl]);
 
   if (!open) return null;
 
   const handleSave = () => {
     setApiKey(localKey.trim());
     setBaseUrl(localUrl.trim());
+    setApiMode(localApiMode);
     setModel(localModel.trim());
     setResponseFormatB64(localB64);
     setUseCorsProxy(localUseCorsProxy);
@@ -128,6 +133,14 @@ export default function SettingsModal({ open, onClose }: Props) {
                   <label className="text-xs font-medium text-[#71717A] mb-1.5 block">API Base URL</label>
                   <input type="text" value={localUrl} onChange={(e) => setLocalUrl(e.target.value)} placeholder="https://api.openai.com/v1" className={inputCls} />
                   <p className="text-[10px] text-[#71717A] mt-1">OpenAI 兼容 API 的 Base URL（自动追加 /images/generations）</p>
+                </div>
+                <div>
+                  <label className="text-xs font-medium text-[#71717A] mb-1.5 block">API 接口</label>
+                  <select value={localApiMode} onChange={(e) => setLocalApiMode(e.target.value as 'images' | 'responses')} className={`${inputCls} cursor-pointer`}>
+                    <option value="images">Images API (/v1/images)</option>
+                    <option value="responses">Responses API (/v1/responses)</option>
+                  </select>
+                  <p className="text-[10px] text-[#71717A] mt-1">Images API 走 /images/generations；Responses API 走 /responses + image_generation 工具。按服务商支持情况选择。</p>
                 </div>
                 <div>
                   <label className="text-xs font-medium text-[#71717A] mb-1.5 block">模型 ID</label>

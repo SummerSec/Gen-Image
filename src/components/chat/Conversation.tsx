@@ -6,14 +6,26 @@ import { ImageIcon } from '../common/Icons';
 
 export default function Conversation() {
   const messages = useStore((s) => s.messages);
+  const isGenerating = useStore((s) => s.isGenerating);
   const addReferenceImage = useStore((s) => s.addReferenceImage);
   const [maskImg, setMaskImg] = useState<string | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
+  const [elapsed, setElapsed] = useState(0);
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
+
+  useEffect(() => {
+    if (!isGenerating) {
+      setElapsed(0);
+      return;
+    }
+    const start = Date.now();
+    const t = window.setInterval(() => setElapsed(Math.floor((Date.now() - start) / 1000)), 1000);
+    return () => window.clearInterval(t);
+  }, [isGenerating]);
 
   const download = (url: string) => {
     const a = document.createElement('a');
@@ -39,7 +51,7 @@ export default function Conversation() {
                   <div className="max-w-[80%] rounded-2xl rounded-br-sm bg-[#5e6ad2] text-white px-3.5 py-2 text-sm whitespace-pre-wrap">{m.text}</div>
                 ) : m.pending ? (
                   <div className="flex items-center gap-2 rounded-2xl bg-white border border-[#E5E7EB] px-4 py-3 text-sm text-[#71717A]">
-                    <span className="w-4 h-4 border-2 border-[#5e6ad2] border-t-transparent rounded-full animate-spin" />生成中…
+                    <span className="w-4 h-4 border-2 border-[#5e6ad2] border-t-transparent rounded-full animate-spin" />生成中… {elapsed}s
                   </div>
                 ) : m.image ? (
                   <div className="group relative max-w-[80%] rounded-2xl overflow-hidden border border-[#E5E7EB] bg-white">

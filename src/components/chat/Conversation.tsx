@@ -8,6 +8,7 @@ export default function Conversation() {
   const messages = useStore((s) => s.messages);
   const addReferenceImage = useStore((s) => s.addReferenceImage);
   const [maskImg, setMaskImg] = useState<string | null>(null);
+  const [preview, setPreview] = useState<string | null>(null);
   const endRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -42,7 +43,9 @@ export default function Conversation() {
                   </div>
                 ) : m.image ? (
                   <div className="group relative max-w-[80%] rounded-2xl overflow-hidden border border-[#E5E7EB] bg-white">
-                    <img src={m.image} alt="" className="block max-h-[60vh] w-auto" />
+                    <button type="button" onClick={() => setPreview(m.image!)} className="block" title="点击放大">
+                      <img src={m.image} alt="" className="block max-h-[60vh] w-auto" />
+                    </button>
                     <div className="absolute bottom-2 right-2 flex gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
                       <button onClick={() => addReferenceImage(m.image!)} className="h-7 px-2.5 rounded-full bg-black/60 text-white text-[11px] hover:bg-black/75">转参考图</button>
                       <button onClick={() => setMaskImg(m.image!)} className="h-7 px-2.5 rounded-full bg-black/60 text-white text-[11px] hover:bg-black/75">局部重绘</button>
@@ -64,6 +67,12 @@ export default function Conversation() {
       </div>
 
       <MaskEditor open={!!maskImg} imageUrl={maskImg} onClose={() => setMaskImg(null)} />
+
+      {preview && (
+        <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-6" onClick={() => setPreview(null)}>
+          <img src={preview} alt="" className="max-h-full max-w-full object-contain rounded-lg" />
+        </div>
+      )}
     </main>
   );
 }

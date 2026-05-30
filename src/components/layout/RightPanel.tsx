@@ -180,9 +180,12 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
               return (
                 <button
                   key={card.id}
-                  onClick={() => setPrompt(card.prompt)}
+                  onClick={() => {
+                    setPrompt(card.prompt);
+                    if (card.thumbnail) addReferenceImage(card.thumbnail);
+                  }}
                   className="text-left rounded-xl border border-[#E5E7EB] bg-[#FFFFFF] overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all"
-                  title={`点击填入输入框 · 来源：${card.source}`}
+                  title={`点击：填入提示词 + 添加示例图为参考 · 来源：${card.source}`}
                 >
                   <div className={`aspect-[1/1.16] bg-gradient-to-br ${gradient} flex items-center justify-center overflow-hidden`}>
                     {card.thumbnail ? (

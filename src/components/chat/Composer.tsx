@@ -22,6 +22,7 @@ export default function Composer() {
   const removeReferenceImage = useStore((s) => s.removeReferenceImage);
   const isGenerating = useStore((s) => s.isGenerating);
   const [dragOver, setDragOver] = useState(false);
+  const [preview, setPreview] = useState<string | null>(null);
 
   const addFiles = (files: File[]) =>
     files.filter((f) => f.type.startsWith('image/')).forEach((f) => addReferenceImage(URL.createObjectURL(f)));
@@ -90,7 +91,9 @@ export default function Composer() {
         <div className="flex gap-2 p-3 pb-0 overflow-x-auto scrollbar-hide">
           {referenceImages.map((url, i) => (
             <div key={i} className="relative w-12 h-12 rounded-lg border border-[#E5E7EB] flex-shrink-0 overflow-hidden">
-              <img src={url} alt="" className="w-full h-full object-cover" />
+              <button type="button" onClick={() => setPreview(url)} className="block w-full h-full" title="点击放大">
+                <img src={url} alt="" className="w-full h-full object-cover" />
+              </button>
               <button onClick={() => removeReferenceImage(i)} className="absolute top-0.5 right-0.5 w-4 h-4 rounded-full bg-black/60 text-white text-[10px] leading-none">×</button>
             </div>
           ))}
@@ -124,6 +127,12 @@ export default function Composer() {
           {isGenerating ? '生成中…' : '发送'}
         </button>
       </div>
+
+      {preview && (
+        <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-6" onClick={() => setPreview(null)}>
+          <img src={preview} alt="" className="max-h-full max-w-full object-contain rounded-lg" />
+        </div>
+      )}
     </div>
   );
 }

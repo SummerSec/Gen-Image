@@ -36,9 +36,13 @@ input, textarea, select {
   font: inherit;
 }
 
-input:focus-visible, textarea:focus-visible, select:focus-visible, button:focus-visible {
+input:focus-visible, select:focus-visible, button:focus-visible {
   outline: 2px solid rgba(94, 106, 210, 0.5);
   outline-offset: 2px;
+}
+
+textarea:focus-visible {
+  outline: none;
 }
 
 /* Custom scrollbar */

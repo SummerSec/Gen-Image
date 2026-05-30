@@ -54,6 +54,7 @@ export default function Composer() {
     // iterate on last result when no explicit reference is provided
     const lastImg = [...st.messages].reverse().find((m) => m.role === 'assistant' && m.image)?.image;
     const refs = st.referenceImages.length ? st.referenceImages : lastImg ? [lastImg] : [];
+    st.setReferenceImages([]); // consume references once sent
 
     try {
       await Promise.all(

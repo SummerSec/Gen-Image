@@ -78,23 +78,23 @@ export default function RightPanel() {
   const totalCount = filteredAllPrompts.length;
 
   return (
-    <aside className="w-full lg:w-[320px] xl:w-[360px] bg-white border-l border-[#E5E7EB] flex flex-col flex-shrink-0 overflow-hidden">
+    <aside className="w-full lg:w-[320px] xl:w-[360px] bg-[#0f1011] border-l border-[#23252a] flex flex-col flex-shrink-0 overflow-hidden">
       {/* Header */}
       <div className="px-5 pt-4 pb-0">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-sm font-medium text-[#737373]">提示词库</h2>
-          <span className="text-[10px] text-[#9CA3AF]">{totalCount} 条</span>
+          <h2 className="text-sm font-medium text-[#8a8f98]">提示词库</h2>
+          <span className="text-[10px] text-[#8a8f98]">{totalCount} 条</span>
         </div>
 
         {/* Search */}
-        <div className="flex items-center bg-[#F3F4F6] rounded-full h-10 px-3 gap-2 mb-3">
-          <MagnifyingGlassIcon className="w-4 h-4 text-[#9CA3AF] flex-shrink-0" />
+        <div className="flex items-center bg-[#141516] rounded-full h-10 px-3 gap-2 mb-3">
+          <MagnifyingGlassIcon className="w-4 h-4 text-[#8a8f98] flex-shrink-0" />
           <input
             type="text"
             placeholder="搜索提示词..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="bg-transparent border-none outline-none text-sm text-[#171717] placeholder-[#9CA3AF] w-full min-w-0"
+            className="bg-transparent border-none outline-none text-sm text-[#f7f8f8] placeholder-[#8a8f98] w-full min-w-0"
           />
         </div>
 
@@ -107,8 +107,8 @@ export default function RightPanel() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`h-7 px-3 rounded-full text-xs font-medium whitespace-nowrap transition-colors flex-shrink-0 ${
                   activeTab === tab.id
-                    ? 'bg-[#171717] text-white'
-                    : 'text-[#737373] hover:text-[#171717] hover:bg-[#F3F4F6]'
+                    ? 'bg-[#5e6ad2] text-white'
+                    : 'text-[#8a8f98] hover:text-[#f7f8f8] hover:bg-[#141516]'
                 }`}
               >
                 {tab.label}
@@ -144,7 +144,7 @@ export default function RightPanel() {
                 vfx: '特效',
                 scene: '场景',
               };
-              const gradient = gradients[card.category] || 'from-[#F5F5F5] to-[#EEEEEE]';
+              const gradient = gradients[card.category] || 'from-[#141516] to-[#18191a]';
               return (
                 <button
                   key={card.id}
@@ -154,7 +154,7 @@ export default function RightPanel() {
                       setGeneratedImage(card.thumbnail);
                     }
                   }}
-                  className="text-left rounded-xl border border-[#E5E7EB] bg-white overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all"
+                  className="text-left rounded-xl border border-[#23252a] bg-[#0f1011] overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all"
                   title={`来源：${card.source}`}
                 >
                   <div className={`aspect-[1/1.16] bg-gradient-to-br ${gradient} flex items-center justify-center overflow-hidden`}>
@@ -167,8 +167,8 @@ export default function RightPanel() {
                     )}
                   </div>
                   <div className="p-2">
-                    <p className="text-xs font-medium text-[#171717] truncate">{card.title}</p>
-                    <p className="text-[10px] text-[#9CA3AF] mt-0.5 truncate">
+                    <p className="text-xs font-medium text-[#f7f8f8] truncate">{card.title}</p>
+                    <p className="text-[10px] text-[#8a8f98] mt-0.5 truncate">
                       {categoryLabelMap[card.category] || card.category} · {card.source}
                     </p>
                   </div>
@@ -180,21 +180,21 @@ export default function RightPanel() {
 
             {/* Loading indicator */}
             {isSourceLoading && (
-              <div className="col-span-2 flex items-center justify-center gap-2 py-4 text-xs text-[#9CA3AF]">
-                <div className="w-3 h-3 border border-[#9CA3AF] border-t-transparent rounded-full animate-spin" />
+              <div className="col-span-2 flex items-center justify-center gap-2 py-4 text-xs text-[#8a8f98]">
+                <div className="w-3 h-3 border border-[#8a8f98] border-t-transparent rounded-full animate-spin" />
                 加载更多...
               </div>
             )}
 
             {/* All loaded */}
             {!isSourceLoading && !hasMoreCurrent && (
-              <p className="col-span-2 sticky bottom-0 text-center text-[10px] text-[#D1D5DB] py-2 bg-white/95">
+              <p className="col-span-2 sticky bottom-0 text-center text-[10px] text-[#62666d] py-2 bg-[#0f1011]/95">
                 已加载全部 {totalCount} 条提示词
               </p>
             )}
           </div>
         ) : (
-          <p className="text-sm text-[#9CA3AF] mt-4">没有匹配的提示词</p>
+          <p className="text-sm text-[#8a8f98] mt-4">没有匹配的提示词</p>
         )}
       </div>
     </aside>

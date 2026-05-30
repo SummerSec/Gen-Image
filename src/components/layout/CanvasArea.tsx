@@ -219,11 +219,11 @@ export default function CanvasArea() {
   };
 
   return (
-    <main className="flex-1 flex flex-col min-w-0 bg-[#F8F9FA]">
+    <main className="flex-1 flex flex-col min-w-0 bg-[#010102]">
       {/* Image Stage */}
       <div className="flex-1 flex items-center justify-center p-6 min-h-0">
         {errorMsg && (
-          <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 bg-red-50 border border-red-200 text-red-700 rounded-xl px-4 py-2.5 text-sm max-w-md text-center shadow-lg">
+          <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 bg-[#0f1011] border border-red-500/40 text-red-400 rounded-xl px-4 py-2.5 text-sm max-w-md text-center shadow-lg">
             {errorMsg}
             <button onClick={() => setErrorMsg(null)} className="ml-3 text-red-400 hover:text-red-600 font-bold">
               ×
@@ -232,44 +232,44 @@ export default function CanvasArea() {
         )}
 
         {generatedImage ? (
-          <div className="rounded-2xl border border-[#E5E7EB] bg-white shadow-lg overflow-hidden w-full h-full max-w-full max-h-full min-w-0 flex flex-col">
-            <div className="flex items-center justify-end gap-1.5 px-3 py-2 border-b border-[#F3F4F6] bg-white">
+          <div className="rounded-2xl border border-[#23252a] bg-[#0f1011] shadow-lg overflow-hidden w-full h-full max-w-full max-h-full min-w-0 flex flex-col">
+            <div className="flex items-center justify-end gap-1.5 px-3 py-2 border-b border-[#23252a] bg-[#0f1011]">
               <button
                 onClick={() => setZoom((z) => clampZoom(z - 0.1))}
-                className="w-7 h-7 rounded-full border border-[#E5E7EB] text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] text-sm leading-none"
+                className="w-7 h-7 rounded-full border border-[#23252a] text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] text-sm leading-none"
                 title="缩小"
               >
                 -
               </button>
               <button
                 onClick={() => setZoom(1)}
-                className="min-w-[56px] h-7 px-2 rounded-full border border-[#E5E7EB] text-[11px] text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB]"
+                className="min-w-[56px] h-7 px-2 rounded-full border border-[#23252a] text-[11px] text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a]"
                 title="重置缩放"
               >
                 {Math.round(zoom * 100)}%
               </button>
               <button
                 onClick={() => setZoom((z) => clampZoom(z + 0.1))}
-                className="w-7 h-7 rounded-full border border-[#E5E7EB] text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] text-sm leading-none"
+                className="w-7 h-7 rounded-full border border-[#23252a] text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] text-sm leading-none"
                 title="放大"
               >
                 +
               </button>
             </div>
 
-            <div className="p-3 bg-[#FCFCFC] overflow-auto flex-1 min-h-0 flex items-center justify-center">
+            <div className="p-3 bg-[#0f1011] overflow-auto flex-1 min-h-0 flex items-center justify-center">
               {imgLoadFailed ? (
                 <div className="flex flex-col items-center gap-4 p-6 max-w-md text-center">
-                  <svg className="w-12 h-12 text-[#D1D5DB]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
+                  <svg className="w-12 h-12 text-[#62666d]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
                     <rect x="3" y="3" width="18" height="18" rx="2" />
                     <path d="M3 16l5-5 3 3 5-5 5 5" />
                   </svg>
-                  <p className="text-sm text-[#737373]">图片无法在当前页面加载（可能因为 HTTP/HTTPS 协议限制）</p>
+                  <p className="text-sm text-[#8a8f98]">图片无法在当前页面加载（可能因为 HTTP/HTTPS 协议限制）</p>
                   <a
                     href={generatedImage}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#171717] text-white text-sm font-medium hover:bg-[#404040] transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#828fff] transition-colors"
                   >
                     <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
                       <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
@@ -284,11 +284,11 @@ export default function CanvasArea() {
                       setShareMsg('图片链接已复制');
                       setTimeout(() => setShareMsg(null), 2000);
                     }}
-                    className="text-xs text-[#9CA3AF] hover:text-[#171717] underline"
+                    className="text-xs text-[#8a8f98] hover:text-[#f7f8f8] underline"
                   >
                     复制图片链接
                   </button>
-                  <p className="text-xs text-[#D1D5DB] break-all">{generatedImage}</p>
+                  <p className="text-xs text-[#62666d] break-all">{generatedImage}</p>
                 </div>
               ) : (
                 <img
@@ -302,23 +302,23 @@ export default function CanvasArea() {
             </div>
           </div>
         ) : isGenerating ? (
-          <div className="w-[377px] aspect-square max-w-[calc(100%-64px)] max-h-[60vh] rounded-2xl border border-[#E5E7EB] bg-[#F5F5F5] flex flex-col items-center justify-center gap-3">
-            <div className="w-8 h-8 border-2 border-[#171717] border-t-transparent rounded-full animate-spin" />
-            <p className="text-sm font-medium text-[#737373]">
+          <div className="w-[377px] aspect-square max-w-[calc(100%-64px)] max-h-[60vh] rounded-2xl border border-[#23252a] bg-[#0f1011] flex flex-col items-center justify-center gap-3">
+            <div className="w-8 h-8 border-2 border-[#5e6ad2] border-t-transparent rounded-full animate-spin" />
+            <p className="text-sm font-medium text-[#8a8f98]">
               {generationProgress ? `正在生成 ${generationProgress.current}/${generationProgress.total}` : '正在生成中...'}
             </p>
-            <p className="text-xs font-medium text-[#9CA3AF]">
+            <p className="text-xs font-medium text-[#8a8f98]">
               已等待 {elapsedSeconds}s
             </p>
-            <p className="text-xs text-[#9CA3AF] max-w-[280px] text-center">
+            <p className="text-xs text-[#8a8f98] max-w-[280px] text-center">
               正在调用 {model} 请求生成图片，请稍候
             </p>
           </div>
         ) : (
-          <div className="w-[377px] aspect-square max-w-[calc(100%-64px)] max-h-[60vh] rounded-2xl border-2 border-dashed border-[#E5E7EB] bg-transparent flex flex-col items-center justify-center gap-3">
-            <ImageIcon className="w-10 h-10 text-[#D1D5DB]" />
-            <p className="text-lg font-medium text-[#9CA3AF]">生成预览</p>
-            <p className="text-xs text-[#D1D5DB]">
+          <div className="w-[377px] aspect-square max-w-[calc(100%-64px)] max-h-[60vh] rounded-2xl border-2 border-dashed border-[#23252a] bg-transparent flex flex-col items-center justify-center gap-3">
+            <ImageIcon className="w-10 h-10 text-[#62666d]" />
+            <p className="text-lg font-medium text-[#8a8f98]">生成预览</p>
+            <p className="text-xs text-[#62666d]">
               {apiKey ? '输入提示词并点击生成按钮' : '请先设置 API Key（点击 ⚙ 按钮）'}
             </p>
           </div>
@@ -327,17 +327,17 @@ export default function CanvasArea() {
 
       {/* Share Toast */}
       {shareMsg && (
-        <div className="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 bg-[#171717] text-white text-sm px-4 py-2 rounded-full shadow-lg">
+        <div className="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 bg-[#5e6ad2] text-white text-sm px-4 py-2 rounded-full shadow-lg">
           {shareMsg}
         </div>
       )}
 
       {/* Generate Button + Action Icons */}
-      <div className="flex items-center justify-center gap-3 px-6 py-3 border-t border-[#E5E7EB] bg-white">
+      <div className="flex items-center justify-center gap-3 px-6 py-3 border-t border-[#23252a] bg-[#0f1011]">
         <button
           onClick={handleGenerate}
           disabled={!prompt.trim() || isGenerating}
-          className="flex items-center gap-2 h-10 px-8 rounded-full bg-[#171717] text-white text-sm font-medium hover:bg-[#404040] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          className="flex items-center gap-2 h-10 px-8 rounded-full bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#828fff] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
           {isGenerating ? (
             <>
@@ -354,12 +354,12 @@ export default function CanvasArea() {
           )}
         </button>
 
-        <div className="w-px h-5 bg-[#E5E7EB] mx-1" />
+        <div className="w-px h-5 bg-[#23252a] mx-1" />
 
         <button
           onClick={handleUndo}
           disabled={historyIndex >= history.length - 1}
-          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          className="w-9 h-9 rounded-full border border-[#23252a] bg-[#0f1011] flex items-center justify-center text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] disabled:opacity-40 transition-colors"
           title="撤销"
         >
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
@@ -370,7 +370,7 @@ export default function CanvasArea() {
         <button
           onClick={handleRedo}
           disabled={historyIndex <= 0}
-          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          className="w-9 h-9 rounded-full border border-[#23252a] bg-[#0f1011] flex items-center justify-center text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] disabled:opacity-40 transition-colors"
           title="重做"
         >
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
@@ -379,12 +379,12 @@ export default function CanvasArea() {
           </svg>
         </button>
 
-        <div className="w-px h-5 bg-[#E5E7EB] mx-1" />
+        <div className="w-px h-5 bg-[#23252a] mx-1" />
 
         <button
           onClick={handleDownload}
           disabled={!generatedImage}
-          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          className="w-9 h-9 rounded-full border border-[#23252a] bg-[#0f1011] flex items-center justify-center text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] disabled:opacity-40 transition-colors"
           title="下载"
         >
           <DownloadIcon className="w-4 h-4" />
@@ -399,7 +399,7 @@ export default function CanvasArea() {
             }
           }}
           disabled={!generatedImage}
-          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          className="w-9 h-9 rounded-full border border-[#23252a] bg-[#0f1011] flex items-center justify-center text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] disabled:opacity-40 transition-colors"
           title="转为参考图"
         >
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -412,7 +412,7 @@ export default function CanvasArea() {
         <button
           onClick={() => setMaskOpen(true)}
           disabled={!generatedImage}
-          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          className="w-9 h-9 rounded-full border border-[#23252a] bg-[#0f1011] flex items-center justify-center text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] disabled:opacity-40 transition-colors"
           title="局部重绘"
         >
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -425,7 +425,7 @@ export default function CanvasArea() {
 
         <button
           disabled={!generatedImage}
-          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          className="w-9 h-9 rounded-full border border-[#23252a] bg-[#0f1011] flex items-center justify-center text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] disabled:opacity-40 transition-colors"
           title="保存"
         >
           <BookmarkIcon className="w-4 h-4" />
@@ -434,7 +434,7 @@ export default function CanvasArea() {
         <button
           onClick={handleShare}
           disabled={!generatedImage}
-          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          className="w-9 h-9 rounded-full border border-[#23252a] bg-[#0f1011] flex items-center justify-center text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] disabled:opacity-40 transition-colors"
           title="分享"
         >
           <ShareIcon className="w-4 h-4" />
@@ -442,7 +442,7 @@ export default function CanvasArea() {
 
         <button
           disabled={!generatedImage}
-          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          className="w-9 h-9 rounded-full border border-[#23252a] bg-[#0f1011] flex items-center justify-center text-[#8a8f98] hover:text-[#f7f8f8] hover:border-[#34343a] disabled:opacity-40 transition-colors"
           title="删除"
           onClick={() => setGeneratedImage(null)}
         >
@@ -452,13 +452,13 @@ export default function CanvasArea() {
 
       {/* History Thumbnails */}
       {history.length > 0 && (
-        <div className="flex items-center gap-2 px-6 py-3 border-t border-[#E5E7EB] bg-white/60 overflow-x-auto scrollbar-hide">
-          <span className="text-xs text-[#9CA3AF] flex-shrink-0">历史</span>
+        <div className="flex items-center gap-2 px-6 py-3 border-t border-[#23252a] bg-[#0f1011]/60 overflow-x-auto scrollbar-hide">
+          <span className="text-xs text-[#8a8f98] flex-shrink-0">历史</span>
           {history.map((item, i) => (
             <div
               key={item.id}
               className={`group relative w-14 h-14 rounded-xl border-2 flex-shrink-0 overflow-hidden p-0.5 transition-colors ${
-                i === historyIndex ? 'border-[#171717]' : 'border-transparent'
+                i === historyIndex ? 'border-[#5e6ad2]' : 'border-transparent'
               }`}
             >
               <button

@@ -65,31 +65,31 @@ export default function AgentChat({ open, onClose }: Props) {
 
   return (
     <div className="fixed inset-0 z-50 bg-black/40 flex flex-col p-4 lg:p-6">
-      <div className="mx-auto flex h-full w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-[#E5E7EB] bg-white shadow-2xl">
-        <div className="flex items-center justify-between border-b border-[#E5E7EB] px-5 py-3">
+      <div className="mx-auto flex h-full w-full max-w-2xl flex-col overflow-hidden rounded-2xl border border-[#23252a] bg-[#0f1011] shadow-2xl">
+        <div className="flex items-center justify-between border-b border-[#23252a] px-5 py-3">
           <div>
-            <h2 className="text-base font-semibold text-[#171717]">Agent 对话模式</h2>
-            <p className="mt-0.5 text-xs text-[#9CA3AF]">多轮对话，自动记忆上下文并在上一张结果上继续修改</p>
+            <h2 className="text-base font-semibold text-[#f7f8f8]">Agent 对话模式</h2>
+            <p className="mt-0.5 text-xs text-[#8a8f98]">多轮对话，自动记忆上下文并在上一张结果上继续修改</p>
           </div>
-          <button onClick={onClose} className="h-8 w-8 rounded-full border border-[#E5E7EB] text-[#737373] hover:text-[#171717]">×</button>
+          <button onClick={onClose} className="h-8 w-8 rounded-full border border-[#23252a] text-[#8a8f98] hover:text-[#f7f8f8]">×</button>
         </div>
 
         <div className="flex-1 min-h-0 overflow-y-auto p-4 flex flex-col gap-3">
           {messages.length === 0 && (
-            <p className="text-sm text-[#9CA3AF] text-center mt-8">输入第一条指令开始，例如「画一只戴帽子的柴犬」</p>
+            <p className="text-sm text-[#8a8f98] text-center mt-8">输入第一条指令开始，例如「画一只戴帽子的柴犬」</p>
           )}
           {messages.map((m, i) => (
             <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-              <div className={`max-w-[80%] rounded-2xl px-3 py-2 text-sm ${m.role === 'user' ? 'bg-[#171717] text-white' : 'bg-[#F3F4F6] text-[#171717]'}`}>
+              <div className={`max-w-[80%] rounded-2xl px-3 py-2 text-sm ${m.role === 'user' ? 'bg-[#5e6ad2] text-white' : 'bg-[#141516] text-[#f7f8f8]'}`}>
                 {m.text && <p className="whitespace-pre-wrap">{m.text}</p>}
                 {m.image && <img src={m.image} alt="" className="rounded-lg max-h-72" />}
               </div>
             </div>
           ))}
-          {busy && <p className="text-xs text-[#9CA3AF]">生成中...</p>}
+          {busy && <p className="text-xs text-[#8a8f98]">生成中...</p>}
         </div>
 
-        <div className="flex items-end gap-2 border-t border-[#E5E7EB] p-3">
+        <div className="flex items-end gap-2 border-t border-[#23252a] p-3">
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}
@@ -100,12 +100,12 @@ export default function AgentChat({ open, onClose }: Props) {
               }
             }}
             placeholder="输入指令，Enter 发送 / Shift+Enter 换行"
-            className="flex-1 min-h-[44px] max-h-32 resize-none rounded-xl border border-[#E5E7EB] px-3 py-2 text-sm outline-none focus:border-[#9CA3AF]"
+            className="flex-1 min-h-[44px] max-h-32 resize-none rounded-xl border border-[#23252a] px-3 py-2 text-sm outline-none focus:border-[#5e6ad2]"
           />
           <button
             onClick={send}
             disabled={busy || !input.trim()}
-            className="h-11 rounded-xl bg-[#171717] px-5 text-sm font-medium text-white hover:bg-[#404040] disabled:opacity-50"
+            className="h-11 rounded-xl bg-[#5e6ad2] px-5 text-sm font-medium text-white hover:bg-[#828fff] disabled:opacity-50"
           >
             发送
           </button>

@@ -67,9 +67,9 @@ export default function LeftPanel() {
   };
 
   return (
-    <aside className="w-full lg:w-[280px] bg-white border-r border-[#E5E7EB] flex flex-col flex-shrink-0 overflow-y-auto scrollbar-hide">
+    <aside className="w-full lg:w-[280px] bg-[#0f1011] border-r border-[#23252a] flex flex-col flex-shrink-0 overflow-y-auto scrollbar-hide">
       <div className="p-4 pb-0">
-        <h2 className="text-sm font-medium text-[#737373] mb-3">提示词</h2>
+        <h2 className="text-sm font-medium text-[#8a8f98] mb-3">提示词</h2>
       </div>
 
       <div className="px-4 flex flex-col gap-3">
@@ -82,15 +82,15 @@ export default function LeftPanel() {
             setDragOver(false);
             addImageFiles(Array.from(e.dataTransfer.files));
           }}
-          className={`border rounded-xl bg-white shadow-sm overflow-hidden transition-colors ${
-            dragOver ? 'border-[#171717] ring-2 ring-[#171717]/10' : 'border-[#E5E7EB]'
+          className={`border rounded-xl bg-[#0f1011] shadow-sm overflow-hidden transition-colors ${
+            dragOver ? 'border-[#5e6ad2] ring-2 ring-[#5e6ad2]/30' : 'border-[#23252a]'
           }`}
         >
           {/* Reference Images */}
           {referenceImages.length > 0 && (
             <div className="flex gap-2 p-3 pb-0 overflow-x-auto scrollbar-hide">
               {referenceImages.map((url, i) => (
-                <div key={i} className="relative w-12 h-12 rounded-lg border border-[#E5E7EB] flex-shrink-0 overflow-hidden">
+                <div key={i} className="relative w-12 h-12 rounded-lg border border-[#23252a] flex-shrink-0 overflow-hidden">
                   <img src={url} alt="" className="w-full h-full object-cover" />
                   <button
                     onClick={() => removeReferenceImage(i)}
@@ -100,8 +100,8 @@ export default function LeftPanel() {
                   </button>
                 </div>
               ))}
-              <label className="w-12 h-12 rounded-lg border border-dashed border-[#D1D5DB] flex items-center justify-center flex-shrink-0 cursor-pointer hover:border-[#9CA3AF] transition-colors">
-                <PlusIcon className="w-4 h-4 text-[#9CA3AF]" />
+              <label className="w-12 h-12 rounded-lg border border-dashed border-[#34343a] flex items-center justify-center flex-shrink-0 cursor-pointer hover:border-[#34343a] transition-colors">
+                <PlusIcon className="w-4 h-4 text-[#8a8f98]" />
                 <input type="file" accept="image/*" multiple className="hidden" onChange={handleRefUpload} />
               </label>
             </div>
@@ -112,13 +112,13 @@ export default function LeftPanel() {
             onChange={(e) => setPrompt(e.target.value)}
             onKeyDown={handlePromptKeyDown}
             placeholder="描述你想要生成的图像...（可粘贴/拖拽图片作为参考图）"
-            className="w-full min-h-[180px] resize-none bg-transparent border-none outline-none p-3 text-sm text-[#404040] placeholder-[#D1D5DB] leading-relaxed"
+            className="w-full min-h-[180px] resize-none bg-transparent border-none outline-none p-3 text-sm text-[#d0d6e0] placeholder-[#62666d] leading-relaxed"
           />
 
-          <div className="flex items-center justify-between gap-2 px-3 py-2 border-t border-[#F3F4F6]">
+          <div className="flex items-center justify-between gap-2 px-3 py-2 border-t border-[#23252a]">
             {/* Left: 添加参考图 */}
             <div className="flex items-center gap-2">
-              <label className="flex items-center gap-1 text-[11px] leading-none text-[#9CA3AF] cursor-pointer hover:text-[#737373] transition-colors">
+              <label className="flex items-center gap-1 text-[11px] leading-none text-[#8a8f98] cursor-pointer hover:text-[#d0d6e0] transition-colors">
                 <PlusIcon className="w-3 h-3" />
                 添加参考图
                 <input type="file" accept="image/*" multiple className="hidden" onChange={handleRefUpload} />
@@ -126,7 +126,7 @@ export default function LeftPanel() {
               <button
                 type="button"
                 onClick={() => setPromptEditorOpen(true)}
-                className="text-[11px] leading-none text-[#9CA3AF] hover:text-[#737373] transition-colors"
+                className="text-[11px] leading-none text-[#8a8f98] hover:text-[#d0d6e0] transition-colors"
               >
                 放大编辑
               </button>
@@ -137,7 +137,7 @@ export default function LeftPanel() {
               <select
                 value={resolution}
                 onChange={(e) => setResolution(e.target.value)}
-                className="h-5 rounded-md border border-[#ECECEC] bg-white px-1.5 text-[8px] leading-none text-[#404040] outline-none cursor-pointer font-normal"
+                className="h-5 rounded-md border border-[#23252a] bg-[#0f1011] px-1.5 text-[8px] leading-none text-[#d0d6e0] outline-none cursor-pointer font-normal"
               >
                 {RESOLUTION_OPTIONS.map((r) => (
                   <option key={r.id} value={r.id}>{r.label}</option>
@@ -146,7 +146,7 @@ export default function LeftPanel() {
               <select
                 value={generateCount}
                 onChange={(e) => setGenerateCount(parseInt(e.target.value, 10))}
-                className="h-5 rounded-md border border-[#ECECEC] bg-white px-1.5 text-[8px] leading-none text-[#404040] outline-none cursor-pointer font-normal"
+                className="h-5 rounded-md border border-[#23252a] bg-[#0f1011] px-1.5 text-[8px] leading-none text-[#d0d6e0] outline-none cursor-pointer font-normal"
                 title="生成数量"
               >
                 <option value={1}>1 张</option>
@@ -158,7 +158,7 @@ export default function LeftPanel() {
                 onClick={() => {
                   document.dispatchEvent(new CustomEvent('trigger-generate'));
                 }}
-                className="h-5 px-2.5 rounded-md bg-[#171717] text-white text-[8px] font-normal leading-none hover:bg-[#404040] transition-colors"
+                className="h-5 px-2.5 rounded-md bg-[#5e6ad2] text-white text-[8px] font-normal leading-none hover:bg-[#828fff] transition-colors"
               >
                 生成
               </button>
@@ -173,25 +173,25 @@ export default function LeftPanel() {
             value={negativePrompt}
             onChange={(e) => setNegativePrompt(e.target.value)}
             placeholder="负面提示词（不想要的元素）..."
-            className="w-full h-10 rounded-lg border border-[#E5E7EB] bg-white px-3 text-sm text-[#404040] placeholder-[#D1D5DB] outline-none focus:border-[#D1D5DB]"
+            className="w-full h-10 rounded-lg border border-[#23252a] bg-[#0f1011] px-3 text-sm text-[#d0d6e0] placeholder-[#62666d] outline-none focus:border-[#34343a]"
           />
         </div>
 
         {/* Model Input */}
         <div>
-          <label className="text-xs font-medium text-[#737373] mb-1.5 block">模型</label>
+          <label className="text-xs font-medium text-[#8a8f98] mb-1.5 block">模型</label>
           <input
             type="text"
             value={model}
             onChange={(e) => setModel(e.target.value)}
             placeholder="输入模型 ID..."
-            className="w-full h-10 rounded-lg border border-[#E5E7EB] bg-white px-3 text-sm text-[#171717] placeholder-[#D1D5DB] outline-none focus:border-[#D1D5DB]"
+            className="w-full h-10 rounded-lg border border-[#23252a] bg-[#0f1011] px-3 text-sm text-[#f7f8f8] placeholder-[#62666d] outline-none focus:border-[#34343a]"
           />
         </div>
 
         {/* Type Grid */}
         <div>
-          <label className="text-xs font-medium text-[#737373] mb-1.5 block">类型</label>
+          <label className="text-xs font-medium text-[#8a8f98] mb-1.5 block">类型</label>
           <div className="grid grid-cols-4 gap-1.5">
             {STYLE_OPTIONS.map((opt) => (
               <button
@@ -199,8 +199,8 @@ export default function LeftPanel() {
                 onClick={() => setStyle(style === opt.id ? '' : opt.id)}
                 className={`h-14 rounded-lg border text-xs font-medium flex flex-col items-center justify-center gap-0.5 transition-colors ${
                   style === opt.id
-                    ? 'bg-[#171717] text-white border-[#171717]'
-                    : 'bg-white text-[#404040] border-[#E5E7EB] hover:border-[#D1D5DB]'
+                    ? 'bg-[#5e6ad2] text-white border-[#5e6ad2]'
+                    : 'bg-[#0f1011] text-[#d0d6e0] border-[#23252a] hover:border-[#34343a]'
                 }`}
               >
                 <span className="text-sm">{opt.icon}</span>
@@ -212,7 +212,7 @@ export default function LeftPanel() {
 
         {/* Aspect Ratio */}
         <div>
-          <label className="text-xs font-medium text-[#737373] mb-1.5 block">画幅比例</label>
+          <label className="text-xs font-medium text-[#8a8f98] mb-1.5 block">画幅比例</label>
           <div className="grid grid-cols-5 gap-1.5">
             {RATIO_OPTIONS.map((opt) => (
               <button
@@ -220,8 +220,8 @@ export default function LeftPanel() {
                 onClick={() => setAspectRatio(opt.id)}
                 className={`h-12 rounded-lg border text-xs font-medium transition-colors ${
                   aspectRatio === opt.id
-                    ? 'bg-[#171717] text-white border-[#171717]'
-                    : 'bg-white text-[#525252] border-[#E5E7EB] hover:border-[#D1D5DB]'
+                    ? 'bg-[#5e6ad2] text-white border-[#5e6ad2]'
+                    : 'bg-[#0f1011] text-[#d0d6e0] border-[#23252a] hover:border-[#34343a]'
                 }`}
               >
                 <span className="flex flex-col items-center leading-tight">
@@ -236,8 +236,8 @@ export default function LeftPanel() {
         {/* Detail Intensity Slider */}
         <div className="pb-4">
           <div className="flex items-center justify-between mb-1.5">
-            <label className="text-xs font-medium text-[#737373]">细节强度</label>
-            <span className="text-xs text-[#9CA3AF]">{cfgScale}</span>
+            <label className="text-xs font-medium text-[#8a8f98]">细节强度</label>
+            <span className="text-xs text-[#8a8f98]">{cfgScale}</span>
           </div>
           <input
             type="range"
@@ -248,7 +248,7 @@ export default function LeftPanel() {
             onChange={(e) => setCfgScale(parseFloat(e.target.value))}
             className="w-full"
           />
-          <div className="flex justify-between text-[10px] text-[#9CA3AF] mt-0.5">
+          <div className="flex justify-between text-[10px] text-[#8a8f98] mt-0.5">
             <span>柔和</span>
             <span>锐利</span>
           </div>
@@ -257,18 +257,18 @@ export default function LeftPanel() {
 
       {promptEditorOpen && (
         <div className="fixed inset-0 z-50 bg-black/40 p-4 lg:p-6">
-          <div className="mx-auto flex h-full max-w-5xl flex-col overflow-hidden rounded-2xl border border-[#E5E7EB] bg-white shadow-2xl">
-            <div className="flex items-center justify-between gap-3 border-b border-[#E5E7EB] px-5 py-4">
+          <div className="mx-auto flex h-full max-w-5xl flex-col overflow-hidden rounded-2xl border border-[#23252a] bg-[#0f1011] shadow-2xl">
+            <div className="flex items-center justify-between gap-3 border-b border-[#23252a] px-5 py-4">
               <div>
-                <h2 className="text-base font-semibold text-[#171717]">提示词放大编辑</h2>
-                <p className="mt-0.5 text-xs text-[#9CA3AF]">
+                <h2 className="text-base font-semibold text-[#f7f8f8]">提示词放大编辑</h2>
+                <p className="mt-0.5 text-xs text-[#8a8f98]">
                   内容会实时同步到左侧提示词输入框
                 </p>
               </div>
               <button
                 type="button"
                 onClick={() => setPromptEditorOpen(false)}
-                className="h-9 rounded-full border border-[#E5E7EB] px-4 text-sm text-[#737373] hover:border-[#D1D5DB] hover:text-[#171717]"
+                className="h-9 rounded-full border border-[#23252a] px-4 text-sm text-[#8a8f98] hover:border-[#34343a] hover:text-[#f7f8f8]"
               >
                 完成
               </button>
@@ -280,10 +280,10 @@ export default function LeftPanel() {
               onKeyDown={handlePromptKeyDown}
               autoFocus
               placeholder="在这里编辑较长的提示词..."
-              className="min-h-0 flex-1 resize-none border-none bg-[#FCFCFC] p-5 text-base leading-8 text-[#262626] outline-none placeholder-[#C7CDD5]"
+              className="min-h-0 flex-1 resize-none border-none bg-[#0f1011] p-5 text-base leading-8 text-[#f7f8f8] outline-none placeholder-[#62666d]"
             />
 
-            <div className="flex items-center justify-between border-t border-[#E5E7EB] px-5 py-3 text-xs text-[#9CA3AF]">
+            <div className="flex items-center justify-between border-t border-[#23252a] px-5 py-3 text-xs text-[#8a8f98]">
               <span>{prompt.length} 字符</span>
               <span>Tab 可插入缩进</span>
             </div>

@@ -18,7 +18,7 @@ export default function App() {
   }, [hydrateHistory]);
 
   return (
-    <div className="h-screen flex flex-col bg-[#F8F9FA] overflow-hidden">
+    <div className="h-screen flex flex-col bg-[#010102] overflow-hidden">
       <Topbar
         onSettings={() => setSettingsOpen(true)}
         onAgent={() => setAgentOpen(true)}
@@ -43,11 +43,11 @@ export default function App() {
       </div>
 
       {/* Mobile Bottom Nav */}
-      <div className="lg:hidden flex items-center justify-around h-14 bg-white border-t border-[#E5E7EB] flex-shrink-0">
+      <div className="lg:hidden flex items-center justify-around h-14 bg-[#0f1011] border-t border-[#23252a] flex-shrink-0">
         <button
           onClick={() => setMobilePanel(mobilePanel === 'left' ? 'none' : 'left')}
           className={`flex flex-col items-center gap-0.5 text-xs font-medium transition-colors ${
-            mobilePanel === 'left' ? 'text-[#171717]' : 'text-[#9CA3AF]'
+            mobilePanel === 'left' ? 'text-[#f7f8f8]' : 'text-[#8a8f98]'
           }`}
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -59,7 +59,7 @@ export default function App() {
         <button
           onClick={() => setMobilePanel('none')}
           className={`flex flex-col items-center gap-0.5 text-xs font-medium transition-colors ${
-            mobilePanel === 'none' ? 'text-[#171717]' : 'text-[#9CA3AF]'
+            mobilePanel === 'none' ? 'text-[#f7f8f8]' : 'text-[#8a8f98]'
           }`}
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -72,7 +72,7 @@ export default function App() {
         <button
           onClick={() => setMobilePanel(mobilePanel === 'right' ? 'none' : 'right')}
           className={`flex flex-col items-center gap-0.5 text-xs font-medium transition-colors ${
-            mobilePanel === 'right' ? 'text-[#171717]' : 'text-[#9CA3AF]'
+            mobilePanel === 'right' ? 'text-[#f7f8f8]' : 'text-[#8a8f98]'
           }`}
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">

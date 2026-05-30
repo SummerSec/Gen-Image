@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-studio-bg: #F8F9FA;
-  --color-studio-border: #E5E7EB;
-  --color-studio-text: #171717;
-  --color-studio-muted: #737373;
-  --color-studio-faint: #9CA3AF;
-  --color-studio-black: #171717;
-  --color-studio-surface: #FFFFFF;
-  --color-studio-accent: #7F22FE;
+  --color-studio-bg: #010102;
+  --color-studio-border: #23252a;
+  --color-studio-text: #f7f8f8;
+  --color-studio-muted: #8a8f98;
+  --color-studio-faint: #62666d;
+  --color-studio-black: #5e6ad2;
+  --color-studio-surface: #0f1011;
+  --color-studio-accent: #5e6ad2;
 }
 
 body {
@@ -37,7 +37,7 @@ input, textarea, select {
 }
 
 input:focus-visible, textarea:focus-visible, select:focus-visible, button:focus-visible {
-  outline: 2px solid rgba(127, 34, 254, 0.3);
+  outline: 2px solid rgba(94, 106, 210, 0.5);
   outline-offset: 2px;
 }
 
@@ -48,7 +48,7 @@ input:focus-visible, textarea:focus-visible, select:focus-visible, button:focus-
 /* Horizontal discoverable scrollbar for tab strips */
 .horizontal-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color: #d1d5db transparent;
+  scrollbar-color: #34343a transparent;
 }
 
 .horizontal-scrollbar::-webkit-scrollbar {
@@ -60,12 +60,12 @@ input:focus-visible, textarea:focus-visible, select:focus-visible, button:focus-
 }
 
 .horizontal-scrollbar::-webkit-scrollbar-thumb {
-  background: #d1d5db;
+  background: #34343a;
   border-radius: 999px;
 }
 
 .horizontal-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #9ca3af;
+  background: #4b4b52;
 }
 
 /* Range slider */
@@ -73,7 +73,7 @@ input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   height: 6px;
-  background: #E5E7EB;
+  background: #23252a;
   border-radius: 999px;
   outline: none;
 }
@@ -84,8 +84,8 @@ input[type="range"]::-webkit-slider-thumb {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #171717;
-  border: 2px solid #fff;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  background: #5e6ad2;
+  border: 2px solid #0f1011;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
   cursor: pointer;
 }

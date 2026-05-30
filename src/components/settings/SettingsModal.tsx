@@ -6,13 +6,12 @@ interface Props {
   onClose: () => void;
 }
 
-type Section = 'api' | 'options' | 'data' | 'admin' | 'about';
+type Section = 'api' | 'options' | 'data' | 'about';
 
 const NAV: { id: Section; label: string }[] = [
   { id: 'api', label: 'API 配置' },
   { id: 'options', label: '接口选项' },
   { id: 'data', label: '数据管理' },
-  { id: 'admin', label: '管理员' },
   { id: 'about', label: '关于' },
 ];
 
@@ -43,8 +42,6 @@ export default function SettingsModal({ open, onClose }: Props) {
   const setUseCorsProxy = useStore((s) => s.setUseCorsProxy);
   const corsProxyUrl = useStore((s) => s.corsProxyUrl);
   const setCorsProxyUrl = useStore((s) => s.setCorsProxyUrl);
-  const isAdmin = useStore((s) => s.isAdmin);
-  const setIsAdmin = useStore((s) => s.setIsAdmin);
   const watermarkEnabled = useStore((s) => s.watermarkEnabled);
   const setWatermarkEnabled = useStore((s) => s.setWatermarkEnabled);
   const history = useStore((s) => s.history);
@@ -60,8 +57,6 @@ export default function SettingsModal({ open, onClose }: Props) {
   const [localCorsProxyUrl, setLocalCorsProxyUrl] = useState(corsProxyUrl);
   const [saved, setSaved] = useState(false);
   const [profileName, setProfileName] = useState('');
-  const [adminPassword, setAdminPassword] = useState('');
-  const [adminError, setAdminError] = useState('');
 
   useEffect(() => {
     if (!open) return;
@@ -86,18 +81,6 @@ export default function SettingsModal({ open, onClose }: Props) {
     setCorsProxyUrl(localCorsProxyUrl.trim());
     setSaved(true);
     setTimeout(() => setSaved(false), 1500);
-  };
-
-  const handleAdminLogin = () => {
-    const envPassword = import.meta.env.VITE_ADMIN_PASSWORD;
-    if (!envPassword) return setAdminError('未配置管理员密码（VITE_ADMIN_PASSWORD）');
-    if (adminPassword === envPassword) {
-      setIsAdmin(true);
-      setAdminPassword('');
-      setAdminError('');
-    } else {
-      setAdminError('密码错误');
-    }
   };
 
   return (
@@ -195,6 +178,12 @@ export default function SettingsModal({ open, onClose }: Props) {
                     <input type="text" value={localCorsProxyUrl} onChange={(e) => setLocalCorsProxyUrl(e.target.value)} placeholder="https://proxy.sumsec.me/" className={inputCls} />
                   </div>
                 )}
+
+                <div className="flex items-center justify-between border-t border-[#E5E7EB] pt-4">
+                  <label className="text-xs font-medium text-[#71717A]">生成图片水印</label>
+                  <Toggle on={watermarkEnabled} onClick={() => setWatermarkEnabled(!watermarkEnabled)} />
+                </div>
+                <p className="text-[10px] text-[#71717A] -mt-2">{watermarkEnabled ? '已开启：生成图片右下角添加 gen-img.sumsec.me 水印' : '已关闭：生成图片不添加水印'}</p>
               </>
             )}
 
@@ -204,28 +193,6 @@ export default function SettingsModal({ open, onClose }: Props) {
                 <p className="text-[10px] text-[#71717A] mb-3">共 {history.length} 条，存储于浏览器 IndexedDB。</p>
                 <button onClick={() => { if (confirm('确定清空全部历史记录？此操作不可恢复。')) clearHistory(); }} className="h-9 px-4 rounded-lg border border-red-200 text-sm text-red-600 hover:bg-red-50 transition-colors">清空历史记录</button>
               </div>
-            )}
-
-            {section === 'admin' && (
-              isAdmin ? (
-                <div className="flex flex-col gap-3">
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs text-[#71717A]">水印开关</span>
-                    <Toggle on={watermarkEnabled} onClick={() => setWatermarkEnabled(!watermarkEnabled)} />
-                  </div>
-                  <p className="text-[10px] text-[#71717A]">{watermarkEnabled ? '已开启：生成图片右下角添加 gen-img.sumsec.me 水印' : '已关闭：生成图片不添加水印'}</p>
-                  <button onClick={() => setIsAdmin(false)} className="h-8 rounded-lg border border-[#E5E7EB] px-3 text-xs text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB] transition-colors self-start">退出管理员</button>
-                </div>
-              ) : (
-                <div className="flex flex-col gap-2">
-                  <div className="flex gap-2">
-                    <input type="password" value={adminPassword} onChange={(e) => { setAdminPassword(e.target.value); setAdminError(''); }} onKeyDown={(e) => { if (e.key === 'Enter') handleAdminLogin(); }} placeholder="输入管理员密码" className="flex-1 h-10 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#5e6ad2]" />
-                    <button onClick={handleAdminLogin} className="h-10 px-4 rounded-lg bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#4F58C9] transition-colors">验证</button>
-                  </div>
-                  {adminError && <p className="text-[11px] text-red-500">{adminError}</p>}
-                  <p className="text-[10px] text-[#71717A]">在 Vercel 环境变量中设置 VITE_ADMIN_PASSWORD</p>
-                </div>
-              )
             )}
 
             {section === 'about' && (

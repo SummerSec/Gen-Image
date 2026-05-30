@@ -42,6 +42,8 @@ export default function SettingsModal({ open, onClose }: Props) {
   const setUseCorsProxy = useStore((s) => s.setUseCorsProxy);
   const corsProxyUrl = useStore((s) => s.corsProxyUrl);
   const setCorsProxyUrl = useStore((s) => s.setCorsProxyUrl);
+  const isAdmin = useStore((s) => s.isAdmin);
+  const setIsAdmin = useStore((s) => s.setIsAdmin);
   const watermarkEnabled = useStore((s) => s.watermarkEnabled);
   const setWatermarkEnabled = useStore((s) => s.setWatermarkEnabled);
   const history = useStore((s) => s.history);
@@ -57,6 +59,8 @@ export default function SettingsModal({ open, onClose }: Props) {
   const [localCorsProxyUrl, setLocalCorsProxyUrl] = useState(corsProxyUrl);
   const [saved, setSaved] = useState(false);
   const [profileName, setProfileName] = useState('');
+  const [adminPassword, setAdminPassword] = useState('');
+  const [adminError, setAdminError] = useState('');
 
   useEffect(() => {
     if (!open) return;
@@ -81,6 +85,18 @@ export default function SettingsModal({ open, onClose }: Props) {
     setCorsProxyUrl(localCorsProxyUrl.trim());
     setSaved(true);
     setTimeout(() => setSaved(false), 1500);
+  };
+
+  const handleAdminLogin = () => {
+    const envPassword = import.meta.env.VITE_ADMIN_PASSWORD;
+    if (!envPassword) return setAdminError('未配置管理员密码（VITE_ADMIN_PASSWORD）');
+    if (adminPassword === envPassword) {
+      setIsAdmin(true);
+      setAdminPassword('');
+      setAdminError('');
+    } else {
+      setAdminError('密码错误');
+    }
   };
 
   return (
@@ -181,9 +197,23 @@ export default function SettingsModal({ open, onClose }: Props) {
 
                 <div className="flex items-center justify-between border-t border-[#E5E7EB] pt-4">
                   <label className="text-xs font-medium text-[#71717A]">生成图片水印</label>
-                  <Toggle on={watermarkEnabled} onClick={() => setWatermarkEnabled(!watermarkEnabled)} />
+                  {isAdmin ? (
+                    <Toggle on={watermarkEnabled} onClick={() => setWatermarkEnabled(!watermarkEnabled)} />
+                  ) : (
+                    <span className="text-[11px] text-[#A1A1AA]">{watermarkEnabled ? '已开启' : '已关闭'} · 仅管理员可改</span>
+                  )}
                 </div>
-                <p className="text-[10px] text-[#71717A] -mt-2">{watermarkEnabled ? '已开启：生成图片右下角添加 gen-img.sumsec.me 水印' : '已关闭：生成图片不添加水印'}</p>
+                <p className="text-[10px] text-[#71717A] -mt-2">默认开启：生成图片右下角添加 gen-img.sumsec.me 水印，仅管理员可关闭。</p>
+                {!isAdmin && (
+                  <div className="flex gap-2">
+                    <input type="password" value={adminPassword} onChange={(e) => { setAdminPassword(e.target.value); setAdminError(''); }} onKeyDown={(e) => { if (e.key === 'Enter') handleAdminLogin(); }} placeholder="管理员密码（关闭水印）" className="flex-1 h-9 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#5e6ad2]" />
+                    <button onClick={handleAdminLogin} className="h-9 px-4 rounded-lg bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#4F58C9] transition-colors">验证</button>
+                  </div>
+                )}
+                {adminError && <p className="text-[11px] text-red-500 -mt-2">{adminError}</p>}
+                {isAdmin && (
+                  <button onClick={() => setIsAdmin(false)} className="h-8 rounded-lg border border-[#E5E7EB] px-3 text-xs text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB] transition-colors self-start">退出管理员</button>
+                )}
               </>
             )}
 

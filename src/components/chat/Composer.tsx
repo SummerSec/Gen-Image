@@ -9,8 +9,6 @@ import { PlusIcon } from '../common/Icons';
 export default function Composer() {
   const prompt = useStore((s) => s.prompt);
   const setPrompt = useStore((s) => s.setPrompt);
-  const model = useStore((s) => s.model);
-  const setModel = useStore((s) => s.setModel);
   const aspectRatio = useStore((s) => s.aspectRatio);
   const setAspectRatio = useStore((s) => s.setAspectRatio);
   const resolution = useStore((s) => s.resolution);
@@ -113,7 +111,6 @@ export default function Composer() {
           <PlusIcon className="w-3.5 h-3.5 flex-shrink-0" />参考图
           <input type="file" accept="image/*" multiple className="hidden" onChange={(e) => { addFiles(Array.from(e.target.files ?? [])); e.target.value = ''; }} />
         </label>
-        <input value={model} onChange={(e) => setModel(e.target.value)} placeholder="模型 ID" className="h-7 w-44 rounded-md border border-[#E5E7EB] px-2 text-[12px] text-[#3F3F46] outline-none focus:border-[#5e6ad2]" />
         <select value={aspectRatio} onChange={(e) => setAspectRatio(e.target.value)} className="h-7 rounded-md border border-[#E5E7EB] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer">
           {RATIO_OPTIONS.map((r) => <option key={r.id} value={r.id}>{r.label} {r.desc}</option>)}
         </select>

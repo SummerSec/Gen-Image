@@ -86,6 +86,8 @@ interface AppState {
   deleteProfile: (id: string) => void;
   useCorsProxy: boolean;
   setUseCorsProxy: (v: boolean) => void;
+  responseFormatB64: boolean;
+  setResponseFormatB64: (v: boolean) => void;
   corsProxyUrl: string;
   setCorsProxyUrl: (v: string) => void;
   isAdmin: boolean;
@@ -200,6 +202,8 @@ export const useStore = create<AppState>()(
         })),
       useCorsProxy: true,
       setUseCorsProxy: (v) => set({ useCorsProxy: v }),
+      responseFormatB64: true,
+      setResponseFormatB64: (v) => set({ responseFormatB64: v }),
       corsProxyUrl: 'https://proxy.sumsec.me/',
       setCorsProxyUrl: (v) => set({ corsProxyUrl: v }),
       isAdmin: false,
@@ -228,6 +232,7 @@ export const useStore = create<AppState>()(
         activeProfileId: state.activeProfileId,
         useCorsProxy: state.useCorsProxy,
         corsProxyUrl: state.corsProxyUrl,
+        responseFormatB64: state.responseFormatB64,
         watermarkEnabled: state.watermarkEnabled,
       }),
     },

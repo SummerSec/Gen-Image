@@ -11,6 +11,10 @@ export default function SettingsModal({ open, onClose }: Props) {
   const setApiKey = useStore((s) => s.setApiKey);
   const baseUrl = useStore((s) => s.baseUrl);
   const setBaseUrl = useStore((s) => s.setBaseUrl);
+  const model = useStore((s) => s.model);
+  const setModel = useStore((s) => s.setModel);
+  const responseFormatB64 = useStore((s) => s.responseFormatB64);
+  const setResponseFormatB64 = useStore((s) => s.setResponseFormatB64);
   const apiProfiles = useStore((s) => s.apiProfiles);
   const activeProfileId = useStore((s) => s.activeProfileId);
   const saveCurrentAsProfile = useStore((s) => s.saveCurrentAsProfile);
@@ -27,6 +31,8 @@ export default function SettingsModal({ open, onClose }: Props) {
 
   const [localKey, setLocalKey] = useState(apiKey);
   const [localUrl, setLocalUrl] = useState(baseUrl);
+  const [localModel, setLocalModel] = useState(model);
+  const [localB64, setLocalB64] = useState(responseFormatB64);
   const [localUseCorsProxy, setLocalUseCorsProxy] = useState(useCorsProxy);
   const [localCorsProxyUrl, setLocalCorsProxyUrl] = useState(corsProxyUrl);
   const [saved, setSaved] = useState(false);
@@ -38,15 +44,19 @@ export default function SettingsModal({ open, onClose }: Props) {
     if (!open) return;
     setLocalKey(apiKey);
     setLocalUrl(baseUrl);
+    setLocalModel(model);
+    setLocalB64(responseFormatB64);
     setLocalUseCorsProxy(useCorsProxy);
     setLocalCorsProxyUrl(corsProxyUrl);
-  }, [open, apiKey, baseUrl, useCorsProxy, corsProxyUrl]);
+  }, [open, apiKey, baseUrl, model, responseFormatB64, useCorsProxy, corsProxyUrl]);
 
   if (!open) return null;
 
   const handleSave = () => {
     setApiKey(localKey.trim());
     setBaseUrl(localUrl.trim());
+    setModel(localModel.trim());
+    setResponseFormatB64(localB64);
     setUseCorsProxy(localUseCorsProxy);
     setCorsProxyUrl(localCorsProxyUrl.trim());
     setSaved(true);
@@ -99,6 +109,28 @@ export default function SettingsModal({ open, onClose }: Props) {
             />
             <p className="text-[10px] text-[#71717A] mt-1">OpenAI 兼容 API 的 Base URL（SDK 自动追加 /images/generations），例如 https://api.openai.com/v1</p>
           </div>
+
+          <div>
+            <label className="text-xs font-medium text-[#71717A] mb-1.5 block">模型 ID</label>
+            <input
+              type="text"
+              value={localModel}
+              onChange={(e) => setLocalModel(e.target.value)}
+              placeholder="gpt-image-2"
+              className="w-full h-10 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#5e6ad2]"
+            />
+          </div>
+
+          <div className="flex items-center justify-between">
+            <label className="text-xs font-medium text-[#71717A]">返回 base64 图片数据</label>
+            <button
+              onClick={() => setLocalB64(!localB64)}
+              className={`relative w-10 h-5 rounded-full transition-colors duration-200 ${localB64 ? 'bg-[#5e6ad2]' : 'bg-[#D1D5DB]'}`}
+            >
+              <span className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-[#FFFFFF] shadow transition-transform duration-200 ${localB64 ? 'translate-x-5' : 'translate-x-0'}`} />
+            </button>
+          </div>
+          <p className="text-[10px] text-[#71717A] -mt-2">开启后在请求体追加 response_format: b64_json，接口直接返回 Base64 图片数据而非 URL。并非所有服务商和网关都支持，若报错可关闭。</p>
 
           <div className="flex items-center justify-between">
             <label className="text-xs font-medium text-[#71717A] flex items-center gap-1.5">

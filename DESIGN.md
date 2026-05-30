@@ -23,9 +23,9 @@
 ```
 
 ## 字体
-- 正文/标题：**Inter**（500/600/700），display 用负字距。
+- 正文/标题：**LXGW WenKai 霞鹜文楷**（jsDelivr webfont，中英文统一）。
 - 等宽：**JetBrains Mono**（版本号、ID、参数）。
-- 层级：display 600 + 负字距；正文 16px/400；caption 12px；button 14px/500。
+- 层级：正文 16px/400；caption 12px；button 14px/500。
 
 ## 圆角
 按钮 / 输入 `8px`；卡片 `12px`；图片面板 `16px`；状态胶囊 / 头像 `9999px`。
@@ -38,10 +38,10 @@
 - **主按钮**：`--accent` 底 + 白字 + 8px 圆角；hover→`--accent-hover`。
 - **次按钮**：`--surface-1` 底 + `--ink` + 1px `--hairline`。
 - **卡片/面板**：`--surface-1` + 1px `--hairline` + 12px；悬浮升到 `--surface-2`。
-- **输入框**：`--surface-1` 底；聚焦 2px `--accent-focus` 焦点环（50% 透明）。
+- **输入框**：`--surface-1` 底；聚焦 2px `--accent` 焦点环（50% 透明）。
 - **顶栏/底栏**：`--canvas` 底，高 56px。
 - **标签胶囊**：默认 `--canvas`+`--ink-subtle`，选中 `--surface-2`+`--ink`。
 
 ## Do / Don't
-- Do：用表面层级 + 细边框做层次；薰衣草蓝克制；display 负字距；图片面板用 16px。
+- Do：用表面层级 + 细边框做层次；薰衣草蓝克制；图片面板用 16px。
 - Don't：薰衣草蓝当背景/填充；第二个高饱和强调色；CTA 胶囊化；滥用重阴影/光晕。

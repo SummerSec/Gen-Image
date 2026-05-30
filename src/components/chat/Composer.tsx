@@ -1,0 +1,129 @@
+import { useEffect, useState } from 'react';
+import { useStore } from '../../store/useStore';
+import { generateImage } from '../../services/api';
+import { applyWatermark } from '../../services/watermark';
+import { RATIO_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
+import { PlusIcon } from '../common/Icons';
+
+// Unified composer: prompt + params + reference images + send (single-shot or iterative).
+export default function Composer() {
+  const prompt = useStore((s) => s.prompt);
+  const setPrompt = useStore((s) => s.setPrompt);
+  const model = useStore((s) => s.model);
+  const setModel = useStore((s) => s.setModel);
+  const aspectRatio = useStore((s) => s.aspectRatio);
+  const setAspectRatio = useStore((s) => s.setAspectRatio);
+  const resolution = useStore((s) => s.resolution);
+  const setResolution = useStore((s) => s.setResolution);
+  const generateCount = useStore((s) => s.generateCount);
+  const setGenerateCount = useStore((s) => s.setGenerateCount);
+  const referenceImages = useStore((s) => s.referenceImages);
+  const addReferenceImage = useStore((s) => s.addReferenceImage);
+  const removeReferenceImage = useStore((s) => s.removeReferenceImage);
+  const isGenerating = useStore((s) => s.isGenerating);
+  const [dragOver, setDragOver] = useState(false);
+
+  const addFiles = (files: File[]) =>
+    files.filter((f) => f.type.startsWith('image/')).forEach((f) => addReferenceImage(URL.createObjectURL(f)));
+
+  useEffect(() => {
+    const onPaste = (e: ClipboardEvent) => {
+      const fs = Array.from(e.clipboardData?.files ?? []);
+      if (fs.some((f) => f.type.startsWith('image/'))) addFiles(fs);
+    };
+    window.addEventListener('paste', onPaste);
+    return () => window.removeEventListener('paste', onPaste);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const send = async () => {
+    const text = prompt.trim();
+    const st = useStore.getState();
+    if (!text || st.isGenerating) return;
+    if (!st.apiKey.trim()) {
+      st.addMessage({ id: `${Date.now()}-e`, role: 'assistant', text: '请先在设置中配置 API Key（点击顶部 ⚙ 按钮）' });
+      return;
+    }
+    st.addMessage({ id: `${Date.now()}-u`, role: 'user', text });
+    setPrompt('');
+    st.setIsGenerating(true);
+
+    const ratio = RATIO_OPTIONS.find((r) => r.id === st.aspectRatio);
+    const resLabel = RESOLUTION_OPTIONS.find((r) => r.id === st.resolution)?.label;
+    const parts = [resLabel, ratio ? `${ratio.label}比例${ratio.desc}` : undefined].filter(Boolean);
+    const fullPrompt = (parts.length ? `请生成${parts.join('、')}的图片。` : '') + text;
+    // iterate on last result when no explicit reference is provided
+    const lastImg = [...st.messages].reverse().find((m) => m.role === 'assistant' && m.image)?.image;
+    const refs = st.referenceImages.length ? st.referenceImages : lastImg ? [lastImg] : [];
+
+    try {
+      await Promise.all(
+        Array.from({ length: st.generateCount }, async (_, i) => {
+          const id = `${Date.now()}-a${i}`;
+          st.addMessage({ id, role: 'assistant', pending: true });
+          try {
+            let url = await generateImage({
+              prompt: fullPrompt, model: st.model, resolution: st.resolution, aspectRatio: st.aspectRatio,
+              style: st.style, cfgScale: st.cfgScale, referenceImages: refs, apiKey: st.apiKey, baseUrl: st.baseUrl,
+            });
+            if (st.watermarkEnabled) url = await applyWatermark(url);
+            st.updateMessage(id, { image: url, pending: false });
+            st.addHistory({ id: `${id}-h`, url, prompt: text, model: st.model, timestamp: Date.now() });
+          } catch (err) {
+            st.updateMessage(id, { pending: false, text: err instanceof Error ? err.message : '生成失败' });
+          }
+        }),
+      );
+    } finally {
+      st.setIsGenerating(false);
+    }
+  };
+
+  return (
+    <div
+      onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
+      onDragLeave={() => setDragOver(false)}
+      onDrop={(e) => { e.preventDefault(); setDragOver(false); addFiles(Array.from(e.dataTransfer.files)); }}
+      className={`mx-auto w-full max-w-3xl rounded-2xl border bg-white shadow-sm transition-colors ${dragOver ? 'border-[#5e6ad2] ring-2 ring-[#5e6ad2]/20' : 'border-[#E5E7EB]'}`}
+    >
+      {referenceImages.length > 0 && (
+        <div className="flex gap-2 p-3 pb-0 overflow-x-auto scrollbar-hide">
+          {referenceImages.map((url, i) => (
+            <div key={i} className="relative w-12 h-12 rounded-lg border border-[#E5E7EB] flex-shrink-0 overflow-hidden">
+              <img src={url} alt="" className="w-full h-full object-cover" />
+              <button onClick={() => removeReferenceImage(i)} className="absolute top-0.5 right-0.5 w-4 h-4 rounded-full bg-black/60 text-white text-[10px] leading-none">×</button>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <textarea
+        value={prompt}
+        onChange={(e) => setPrompt(e.target.value)}
+        onKeyDown={(e) => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) { e.preventDefault(); void send(); } }}
+        placeholder="描述你想生成的图像，Ctrl/⌘+Enter 发送（可粘贴/拖拽参考图，右侧词库点选填入）"
+        className="w-full min-h-[72px] max-h-48 resize-none bg-transparent border-none outline-none p-3 text-sm text-[#18181B] placeholder-[#A1A1AA] leading-relaxed"
+      />
+
+      <div className="flex flex-wrap items-center gap-2 px-3 py-2 border-t border-[#E5E7EB]">
+        <label className="flex items-center gap-1 text-[12px] text-[#71717A] cursor-pointer hover:text-[#3F3F46] whitespace-nowrap">
+          <PlusIcon className="w-3.5 h-3.5 flex-shrink-0" />参考图
+          <input type="file" accept="image/*" multiple className="hidden" onChange={(e) => { addFiles(Array.from(e.target.files ?? [])); e.target.value = ''; }} />
+        </label>
+        <input value={model} onChange={(e) => setModel(e.target.value)} placeholder="模型 ID" className="h-7 w-28 rounded-md border border-[#E5E7EB] px-2 text-[12px] text-[#3F3F46] outline-none focus:border-[#5e6ad2]" />
+        <select value={aspectRatio} onChange={(e) => setAspectRatio(e.target.value)} className="h-7 rounded-md border border-[#E5E7EB] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer">
+          {RATIO_OPTIONS.map((r) => <option key={r.id} value={r.id}>{r.label} {r.desc}</option>)}
+        </select>
+        <select value={resolution} onChange={(e) => setResolution(e.target.value)} className="h-7 rounded-md border border-[#E5E7EB] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer">
+          {RESOLUTION_OPTIONS.map((r) => <option key={r.id} value={r.id}>{r.label}</option>)}
+        </select>
+        <select value={generateCount} onChange={(e) => setGenerateCount(parseInt(e.target.value, 10))} className="h-7 rounded-md border border-[#E5E7EB] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer">
+          {[1, 2, 3, 4].map((n) => <option key={n} value={n}>{n} 张</option>)}
+        </select>
+        <button onClick={send} disabled={isGenerating || !prompt.trim()} className="ml-auto h-8 px-5 rounded-full bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#4F58C9] disabled:opacity-50 whitespace-nowrap">
+          {isGenerating ? '生成中…' : '发送'}
+        </button>
+      </div>
+    </div>
+  );
+}

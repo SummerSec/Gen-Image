@@ -22,6 +22,14 @@ export interface ApiProfile {
   model: string;
 }
 
+export interface ChatMessage {
+  id: string;
+  role: 'user' | 'assistant';
+  text?: string;
+  image?: string;
+  pending?: boolean;
+}
+
 function persistHistory(history: HistoryItem[]) {
   if (historyHydrated) void idbSet(HISTORY_KEY, history);
 }
@@ -48,6 +56,10 @@ interface AppState {
   removeReferenceImage: (index: number) => void;
   generatedImage: string | null;
   setGeneratedImage: (url: string | null) => void;
+  messages: ChatMessage[];
+  addMessage: (m: ChatMessage) => void;
+  updateMessage: (id: string, patch: Partial<ChatMessage>) => void;
+  newSession: () => void;
   isGenerating: boolean;
   setIsGenerating: (v: boolean) => void;
   history: HistoryItem[];
@@ -112,6 +124,11 @@ export const useStore = create<AppState>()(
         set((s) => ({ referenceImages: s.referenceImages.filter((_, i) => i !== index) })),
       generatedImage: null,
       setGeneratedImage: (url) => set({ generatedImage: url }),
+      messages: [],
+      addMessage: (m) => set((s) => ({ messages: [...s.messages, m] })),
+      updateMessage: (id, patch) =>
+        set((s) => ({ messages: s.messages.map((m) => (m.id === id ? { ...m, ...patch } : m)) })),
+      newSession: () => set({ messages: [], referenceImages: [], prompt: '' }),
       isGenerating: false,
       setIsGenerating: (v) => set({ isGenerating: v }),
       history: [],

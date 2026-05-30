@@ -6,18 +6,22 @@ import { MagnifyingGlassIcon } from '../common/Icons';
 
 const PAGE_SIZE = 48;
 
-export default function RightPanel() {
+export default function RightPanel({ onClose }: { onClose?: () => void }) {
   const [isSourceLoading, setIsSourceLoading] = useState(false);
   const [visibleCountByKey, setVisibleCountByKey] = useState<Record<string, number>>({});
   const [tick, setTick] = useState(0);
+  const [panelTab, setPanelTab] = useState<'library' | 'history'>('library');
   const sentinelRef = useRef<HTMLDivElement>(null);
 
   const activeTab = useStore((s) => s.activeTab);
   const setActiveTab = useStore((s) => s.setActiveTab);
   const setPrompt = useStore((s) => s.setPrompt);
-  const setGeneratedImage = useStore((s) => s.setGeneratedImage);
   const searchQuery = useStore((s) => s.searchQuery);
   const setSearchQuery = useStore((s) => s.setSearchQuery);
+  const history = useStore((s) => s.history);
+  const addReferenceImage = useStore((s) => s.addReferenceImage);
+  const removeHistory = useStore((s) => s.removeHistory);
+  const toggleFavorite = useStore((s) => s.toggleFavorite);
 
   const normalizedQuery = searchQuery.trim().toLowerCase();
   const paginationKey = normalizedQuery ? `${activeTab}::${normalizedQuery}` : activeTab;
@@ -78,48 +82,76 @@ export default function RightPanel() {
   const totalCount = filteredAllPrompts.length;
 
   return (
-    <aside className="w-full lg:w-[320px] xl:w-[360px] bg-[#FFFFFF] border-l border-[#E5E7EB] flex flex-col flex-shrink-0 overflow-hidden">
+    <aside className="w-full h-full bg-[#FFFFFF] border-l border-[#E5E7EB] flex flex-col overflow-hidden">
       {/* Header */}
       <div className="px-5 pt-4 pb-0">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-sm font-medium text-[#71717A]">提示词库</h2>
-          <span className="text-[10px] text-[#71717A]">{totalCount} 条</span>
-        </div>
-
-        {/* Search */}
-        <div className="flex items-center bg-[#F1F2F5] rounded-full h-10 px-3 gap-2 mb-3">
-          <MagnifyingGlassIcon className="w-4 h-4 text-[#71717A] flex-shrink-0" />
-          <input
-            type="text"
-            placeholder="搜索提示词..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="bg-transparent border-none outline-none text-sm text-[#18181B] placeholder-[#71717A] w-full min-w-0"
-          />
-        </div>
-
-        {/* Tabs */}
-        <div className="relative pb-3">
-          <div className="flex gap-1 overflow-x-auto horizontal-scrollbar pr-8 pb-1">
-            {TABS.map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
-                className={`h-7 px-3 rounded-full text-xs font-medium whitespace-nowrap transition-colors flex-shrink-0 ${
-                  activeTab === tab.id
-                    ? 'bg-[#5e6ad2] text-white'
-                    : 'text-[#71717A] hover:text-[#18181B] hover:bg-[#F1F2F5]'
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
+        <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center gap-1 rounded-full bg-[#F1F2F5] p-0.5">
+            <button onClick={() => setPanelTab('library')} className={`h-7 px-3 rounded-full text-xs font-medium transition-colors ${panelTab === 'library' ? 'bg-white text-[#18181B] shadow-sm' : 'text-[#71717A]'}`}>提示词库</button>
+            <button onClick={() => setPanelTab('history')} className={`h-7 px-3 rounded-full text-xs font-medium transition-colors ${panelTab === 'history' ? 'bg-white text-[#18181B] shadow-sm' : 'text-[#71717A]'}`}>历史 {history.length > 0 && `(${history.length})`}</button>
           </div>
-          <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent" />
+          {onClose && (
+            <button onClick={onClose} className="w-7 h-7 rounded-full border border-[#E5E7EB] flex items-center justify-center text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB]" title="收起">×</button>
+          )}
         </div>
+
+        {panelTab === 'library' && (
+          <>
+            {/* Search */}
+            <div className="flex items-center bg-[#F1F2F5] rounded-full h-10 px-3 gap-2 mb-3">
+              <MagnifyingGlassIcon className="w-4 h-4 text-[#71717A] flex-shrink-0" />
+              <input
+                type="text"
+                placeholder="搜索提示词..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="bg-transparent border-none outline-none text-sm text-[#18181B] placeholder-[#71717A] w-full min-w-0"
+              />
+            </div>
+
+            {/* Tabs */}
+            <div className="relative pb-3">
+              <div className="flex gap-1 overflow-x-auto horizontal-scrollbar pr-8 pb-1">
+                {TABS.map((tab) => (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveTab(tab.id)}
+                    className={`h-7 px-3 rounded-full text-xs font-medium whitespace-nowrap transition-colors flex-shrink-0 ${
+                      activeTab === tab.id
+                        ? 'bg-[#5e6ad2] text-white'
+                        : 'text-[#71717A] hover:text-[#18181B] hover:bg-[#F1F2F5]'
+                    }`}
+                  >
+                    {tab.label}
+                  </button>
+                ))}
+              </div>
+              <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent" />
+            </div>
+          </>
+        )}
       </div>
 
-      {/* Grid */}
+      {panelTab === 'history' ? (
+        <div className="flex-1 overflow-y-auto px-5 pb-6 scrollbar-hide">
+          {history.length === 0 ? (
+            <p className="text-sm text-[#71717A] mt-4">暂无历史记录</p>
+          ) : (
+            <div className="grid grid-cols-2 gap-3">
+              {history.map((item) => (
+                <div key={item.id} className="group relative rounded-xl border border-[#E5E7EB] overflow-hidden">
+                  <button onClick={() => addReferenceImage(item.url)} className="block w-full" title="点击转为参考图">
+                    <img src={item.url} alt="" className="w-full aspect-square object-cover" loading="lazy" />
+                  </button>
+                  <button onClick={() => toggleFavorite(item.id)} className={`absolute top-1 left-1 w-5 h-5 rounded-full text-[10px] flex items-center justify-center ${item.favorite ? 'bg-amber-400 text-white' : 'bg-black/40 text-white opacity-0 group-hover:opacity-100'}`}>★</button>
+                  <button onClick={() => removeHistory(item.id)} className="absolute top-1 right-1 w-5 h-5 rounded-full bg-black/50 text-white text-[11px] flex items-center justify-center opacity-0 group-hover:opacity-100">×</button>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      ) : (
+      /* Grid */
       <div className="flex-1 overflow-y-auto px-5 pb-6 scrollbar-hide">
         {filteredPrompts.length > 0 ? (
           <div className="grid grid-cols-2 gap-3">
@@ -148,14 +180,9 @@ export default function RightPanel() {
               return (
                 <button
                   key={card.id}
-                  onClick={() => {
-                    setPrompt(card.prompt);
-                    if (card.thumbnail) {
-                      setGeneratedImage(card.thumbnail);
-                    }
-                  }}
+                  onClick={() => setPrompt(card.prompt)}
                   className="text-left rounded-xl border border-[#E5E7EB] bg-[#FFFFFF] overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all"
-                  title={`来源：${card.source}`}
+                  title={`点击填入输入框 · 来源：${card.source}`}
                 >
                   <div className={`aspect-[1/1.16] bg-gradient-to-br ${gradient} flex items-center justify-center overflow-hidden`}>
                     {card.thumbnail ? (
@@ -197,6 +224,7 @@ export default function RightPanel() {
           <p className="text-sm text-[#71717A] mt-4">没有匹配的提示词</p>
         )}
       </div>
+      )}
     </aside>
   );
 }

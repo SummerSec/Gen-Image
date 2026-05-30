@@ -75,9 +75,9 @@ export default function MaskEditor({ open, imageUrl, onClose }: Props) {
     new Promise((res) => c.toBlob((b) => res(b!), 'image/png'));
 
   const handleApply = async () => {
-    const { prompt, model, apiKey, baseUrl, aspectRatio, watermarkEnabled, setGeneratedImage, addHistory } =
+    const { prompt, model, apiKey, baseUrl, aspectRatio, watermarkEnabled, setGeneratedImage, addHistory, addMessage } =
       useStore.getState();
-    if (!prompt.trim()) return setError('请先在左侧填写提示词，描述要替换的内容');
+    if (!prompt.trim()) return setError('请先在下方输入框填写提示词，描述要替换的内容');
     if (!apiKey.trim()) return setError('请先配置 API Key');
     setBusy(true);
     setError(null);
@@ -86,7 +86,9 @@ export default function MaskEditor({ open, imageUrl, onClose }: Props) {
       let result = await editImage({ image, mask, prompt, model, size: getSizeForRatio(aspectRatio), apiKey, baseUrl });
       if (watermarkEnabled) result = await applyWatermark(result);
       setGeneratedImage(result);
-      addHistory({ id: `${Date.now()}-edit`, url: result, prompt, model, timestamp: Date.now() });
+      addMessage({ id: `${Date.now()}-u`, role: 'user', text: `局部重绘：${prompt}` });
+      addMessage({ id: `${Date.now()}-edit`, role: 'assistant', image: result });
+      addHistory({ id: `${Date.now()}-edit-h`, url: result, prompt, model, timestamp: Date.now() });
       onClose();
     } catch (err) {
       setError(err instanceof Error ? err.message : '局部重绘失败');

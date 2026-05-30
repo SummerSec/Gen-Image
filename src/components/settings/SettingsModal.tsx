@@ -11,6 +11,11 @@ export default function SettingsModal({ open, onClose }: Props) {
   const setApiKey = useStore((s) => s.setApiKey);
   const baseUrl = useStore((s) => s.baseUrl);
   const setBaseUrl = useStore((s) => s.setBaseUrl);
+  const apiProfiles = useStore((s) => s.apiProfiles);
+  const activeProfileId = useStore((s) => s.activeProfileId);
+  const saveCurrentAsProfile = useStore((s) => s.saveCurrentAsProfile);
+  const applyProfile = useStore((s) => s.applyProfile);
+  const deleteProfile = useStore((s) => s.deleteProfile);
   const useCorsProxy = useStore((s) => s.useCorsProxy);
   const setUseCorsProxy = useStore((s) => s.setUseCorsProxy);
   const corsProxyUrl = useStore((s) => s.corsProxyUrl);
@@ -25,6 +30,7 @@ export default function SettingsModal({ open, onClose }: Props) {
   const [localUseCorsProxy, setLocalUseCorsProxy] = useState(useCorsProxy);
   const [localCorsProxyUrl, setLocalCorsProxyUrl] = useState(corsProxyUrl);
   const [saved, setSaved] = useState(false);
+  const [profileName, setProfileName] = useState('');
   const [adminPassword, setAdminPassword] = useState('');
   const [adminError, setAdminError] = useState('');
 
@@ -146,6 +152,64 @@ export default function SettingsModal({ open, onClose }: Props) {
               }}
             />
             <p className="text-[10px] text-[#9CA3AF] mt-1">密钥仅存储在本地浏览器（localStorage）中</p>
+          </div>
+
+          {/* API Profiles */}
+          <div className="border-t border-[#E5E7EB] pt-4">
+            <h3 className="text-sm font-medium text-[#171717] mb-2">配置管理</h3>
+            {apiProfiles.length > 0 && (
+              <div className="flex flex-col gap-1.5 mb-3">
+                {apiProfiles.map((p) => (
+                  <div
+                    key={p.id}
+                    className={`flex items-center gap-2 rounded-lg border px-3 py-2 ${
+                      p.id === activeProfileId ? 'border-[#171717] bg-[#FAFAFA]' : 'border-[#E5E7EB]'
+                    }`}
+                  >
+                    <button
+                      onClick={() => {
+                        applyProfile(p.id);
+                        const s = useStore.getState();
+                        setLocalKey(s.apiKey);
+                        setLocalUrl(s.baseUrl);
+                      }}
+                      className="flex-1 text-left min-w-0"
+                    >
+                      <p className="text-xs font-medium text-[#171717] truncate">{p.name}</p>
+                      <p className="text-[10px] text-[#9CA3AF] truncate">{p.model} · {p.baseUrl}</p>
+                    </button>
+                    <button
+                      onClick={() => deleteProfile(p.id)}
+                      className="text-[#9CA3AF] hover:text-red-500 text-sm"
+                      title="删除配置"
+                    >
+                      ×
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+            <div className="flex gap-2">
+              <input
+                type="text"
+                value={profileName}
+                onChange={(e) => setProfileName(e.target.value)}
+                placeholder="配置名称"
+                className="flex-1 h-9 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#171717] placeholder-[#D1D5DB] outline-none focus:border-[#9CA3AF]"
+              />
+              <button
+                onClick={() => {
+                  setApiKey(localKey.trim());
+                  setBaseUrl(localUrl.trim());
+                  saveCurrentAsProfile(profileName);
+                  setProfileName('');
+                }}
+                className="h-9 px-4 rounded-lg border border-[#E5E7EB] text-sm text-[#171717] hover:border-[#D1D5DB] transition-colors"
+              >
+                另存为
+              </button>
+            </div>
+            <p className="text-[10px] text-[#9CA3AF] mt-1">保存当前 Base URL / API Key / 模型为一套配置，可随时切换</p>
           </div>
 
           {/* Admin Section */}

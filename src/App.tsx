@@ -1,18 +1,27 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Topbar from './components/layout/Topbar';
 import LeftPanel from './components/layout/LeftPanel';
 import CanvasArea from './components/layout/CanvasArea';
 import RightPanel from './components/layout/RightPanel';
 import SettingsModal from './components/settings/SettingsModal';
+import AgentChat from './components/agent/AgentChat';
+import { useStore } from './store/useStore';
 
 export default function App() {
   const [mobilePanel, setMobilePanel] = useState<'none' | 'left' | 'right'>('none');
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [agentOpen, setAgentOpen] = useState(false);
+  const hydrateHistory = useStore((s) => s.hydrateHistory);
+
+  useEffect(() => {
+    void hydrateHistory();
+  }, [hydrateHistory]);
 
   return (
     <div className="h-screen flex flex-col bg-[#F8F9FA] overflow-hidden">
       <Topbar
         onSettings={() => setSettingsOpen(true)}
+        onAgent={() => setAgentOpen(true)}
       />
 
       {/* Desktop Layout */}
@@ -74,6 +83,7 @@ export default function App() {
       </div>
 
       <SettingsModal open={settingsOpen} onClose={() => setSettingsOpen(false)} />
+      <AgentChat open={agentOpen} onClose={() => setAgentOpen(false)} />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
+import { idbGet, idbSet } from '../services/idb';
 
 export interface HistoryItem {
   id: string;
@@ -7,6 +8,22 @@ export interface HistoryItem {
   prompt: string;
   model: string;
   timestamp: number;
+  favorite?: boolean;
+}
+
+const HISTORY_KEY = 'history';
+let historyHydrated = false;
+
+export interface ApiProfile {
+  id: string;
+  name: string;
+  apiKey: string;
+  baseUrl: string;
+  model: string;
+}
+
+function persistHistory(history: HistoryItem[]) {
+  if (historyHydrated) void idbSet(HISTORY_KEY, history);
 }
 
 interface AppState {
@@ -35,6 +52,10 @@ interface AppState {
   setIsGenerating: (v: boolean) => void;
   history: HistoryItem[];
   addHistory: (item: HistoryItem) => void;
+  removeHistory: (id: string) => void;
+  clearHistory: () => void;
+  toggleFavorite: (id: string) => void;
+  hydrateHistory: () => Promise<void>;
   historyIndex: number;
   setHistoryIndex: (v: number) => void;
   searchQuery: string;
@@ -45,6 +66,11 @@ interface AppState {
   setApiKey: (v: string) => void;
   baseUrl: string;
   setBaseUrl: (v: string) => void;
+  apiProfiles: ApiProfile[];
+  activeProfileId: string;
+  saveCurrentAsProfile: (name: string) => void;
+  applyProfile: (id: string) => void;
+  deleteProfile: (id: string) => void;
   useCorsProxy: boolean;
   setUseCorsProxy: (v: boolean) => void;
   corsProxyUrl: string;
@@ -90,10 +116,35 @@ export const useStore = create<AppState>()(
       setIsGenerating: (v) => set({ isGenerating: v }),
       history: [],
       addHistory: (item) =>
-        set((s) => ({
-          history: [item, ...s.history].slice(0, 20),
-          historyIndex: 0,
-        })),
+        set((s) => {
+          const history = [item, ...s.history];
+          persistHistory(history);
+          return { history, historyIndex: 0 };
+        }),
+      removeHistory: (id) =>
+        set((s) => {
+          const history = s.history.filter((h) => h.id !== id);
+          persistHistory(history);
+          return { history, historyIndex: 0 };
+        }),
+      clearHistory: () =>
+        set(() => {
+          persistHistory([]);
+          return { history: [], historyIndex: 0 };
+        }),
+      toggleFavorite: (id) =>
+        set((s) => {
+          const history = s.history.map((h) =>
+            h.id === id ? { ...h, favorite: !h.favorite } : h,
+          );
+          persistHistory(history);
+          return { history };
+        }),
+      hydrateHistory: async () => {
+        const stored = await idbGet<HistoryItem[]>(HISTORY_KEY);
+        historyHydrated = true;
+        if (stored?.length) set({ history: stored });
+      },
       historyIndex: 0,
       setHistoryIndex: (v) => set({ historyIndex: v }),
       searchQuery: '',
@@ -104,6 +155,30 @@ export const useStore = create<AppState>()(
       setApiKey: (v) => set({ apiKey: v }),
       baseUrl: DEFAULT_BASE_URL,
       setBaseUrl: (v) => set({ baseUrl: v }),
+      apiProfiles: [],
+      activeProfileId: '',
+      saveCurrentAsProfile: (name) =>
+        set((s) => {
+          const profile: ApiProfile = {
+            id: `${Date.now()}`,
+            name: name.trim() || `配置 ${s.apiProfiles.length + 1}`,
+            apiKey: s.apiKey,
+            baseUrl: s.baseUrl,
+            model: s.model,
+          };
+          return { apiProfiles: [...s.apiProfiles, profile], activeProfileId: profile.id };
+        }),
+      applyProfile: (id) =>
+        set((s) => {
+          const p = s.apiProfiles.find((x) => x.id === id);
+          if (!p) return {};
+          return { apiKey: p.apiKey, baseUrl: p.baseUrl, model: p.model, activeProfileId: id };
+        }),
+      deleteProfile: (id) =>
+        set((s) => ({
+          apiProfiles: s.apiProfiles.filter((x) => x.id !== id),
+          activeProfileId: s.activeProfileId === id ? '' : s.activeProfileId,
+        })),
       useCorsProxy: true,
       setUseCorsProxy: (v) => set({ useCorsProxy: v }),
       corsProxyUrl: 'https://proxy.sumsec.me/',
@@ -130,6 +205,8 @@ export const useStore = create<AppState>()(
         apiKey: state.apiKey,
         baseUrl: state.baseUrl,
         model: state.model,
+        apiProfiles: state.apiProfiles,
+        activeProfileId: state.activeProfileId,
         useCorsProxy: state.useCorsProxy,
         corsProxyUrl: state.corsProxyUrl,
         watermarkEnabled: state.watermarkEnabled,

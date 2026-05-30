@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useStore } from '../../store/useStore';
 import { STYLE_OPTIONS, RATIO_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
 import { PlusIcon } from '../common/Icons';
@@ -24,6 +24,26 @@ export default function LeftPanel() {
   const addReferenceImage = useStore((s) => s.addReferenceImage);
   const removeReferenceImage = useStore((s) => s.removeReferenceImage);
   const [promptEditorOpen, setPromptEditorOpen] = useState(false);
+  const [dragOver, setDragOver] = useState(false);
+
+  const addImageFiles = (files: File[]) => {
+    files
+      .filter((f) => f.type.startsWith('image/'))
+      .forEach((file) => addReferenceImage(URL.createObjectURL(file)));
+  };
+
+  // Paste image from clipboard while this panel is mounted
+  useEffect(() => {
+    const onPaste = (e: ClipboardEvent) => {
+      const files = Array.from(e.clipboardData?.files ?? []);
+      if (files.some((f) => f.type.startsWith('image/'))) {
+        addImageFiles(files);
+      }
+    };
+    window.addEventListener('paste', onPaste);
+    return () => window.removeEventListener('paste', onPaste);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handlePromptKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key !== 'Tab') return;
@@ -41,10 +61,7 @@ export default function LeftPanel() {
   };
 
   const handleRefUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const files = Array.from(e.target.files ?? []);
-    files.forEach((file) => {
-      addReferenceImage(URL.createObjectURL(file));
-    });
+    addImageFiles(Array.from(e.target.files ?? []));
     // Allow selecting the same file(s) again if needed
     e.target.value = '';
   };
@@ -57,7 +74,18 @@ export default function LeftPanel() {
 
       <div className="px-4 flex flex-col gap-3">
         {/* Prompt Card */}
-        <div className="border border-[#E5E7EB] rounded-xl bg-white shadow-sm overflow-hidden">
+        <div
+          onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
+          onDragLeave={() => setDragOver(false)}
+          onDrop={(e) => {
+            e.preventDefault();
+            setDragOver(false);
+            addImageFiles(Array.from(e.dataTransfer.files));
+          }}
+          className={`border rounded-xl bg-white shadow-sm overflow-hidden transition-colors ${
+            dragOver ? 'border-[#171717] ring-2 ring-[#171717]/10' : 'border-[#E5E7EB]'
+          }`}
+        >
           {/* Reference Images */}
           {referenceImages.length > 0 && (
             <div className="flex gap-2 p-3 pb-0 overflow-x-auto scrollbar-hide">
@@ -83,7 +111,7 @@ export default function LeftPanel() {
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
             onKeyDown={handlePromptKeyDown}
-            placeholder="描述你想要生成的图像...（右侧点选模板会自动追加到这里）"
+            placeholder="描述你想要生成的图像...（可粘贴/拖拽图片作为参考图）"
             className="w-full min-h-[180px] resize-none bg-transparent border-none outline-none p-3 text-sm text-[#404040] placeholder-[#D1D5DB] leading-relaxed"
           />
 

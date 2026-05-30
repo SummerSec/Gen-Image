@@ -125,6 +125,48 @@ export async function generateImage(params: GenerateParams): Promise<string> {
   throw new Error('API 未返回图片数据');
 }
 
+export async function editImage(params: {
+  image: Blob;
+  mask: Blob;
+  prompt: string;
+  model: string;
+  size: string;
+  apiKey: string;
+  baseUrl: string;
+}): Promise<string> {
+  const apiUrl = `${params.baseUrl.replace(/\/$/, '')}/images/edits`;
+  const { useCorsProxy, corsProxyUrl } = useStore.getState();
+  const url = useCorsProxy ? `${corsProxyUrl}${apiUrl}` : apiUrl;
+
+  const form = new FormData();
+  form.append('model', params.model);
+  form.append('prompt', params.prompt);
+  form.append('image', params.image, 'image.png');
+  form.append('mask', params.mask, 'mask.png');
+  form.append('size', params.size);
+  form.append('n', '1');
+
+  const resp = await fetch(url, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${params.apiKey}` },
+    body: form,
+  });
+
+  if (!resp.ok) {
+    throw new Error(await formatApiError(resp));
+  }
+
+  const data = await resp.json();
+  const item = data.data?.[0];
+  if (item?.b64_json) {
+    return `data:image/png;base64,${item.b64_json}`;
+  }
+  if (item?.url) {
+    return ensureSecureImageUrl(item.url);
+  }
+  throw new Error('API 未返回图片数据');
+}
+
 async function blobUrlToBase64(blobUrl: string): Promise<string> {
   const resp = await fetch(blobUrl);
   const blob = await resp.blob();

@@ -3,6 +3,7 @@ import { useStore } from '../../store/useStore';
 import { generateImage } from '../../services/api';
 import { applyWatermark } from '../../services/watermark';
 import { RATIO_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
+import MaskEditor from '../canvas/MaskEditor';
 import {
   ImageIcon,
   DownloadIcon,
@@ -22,6 +23,9 @@ export default function CanvasArea() {
   const history = useStore((s) => s.history);
   const historyIndex = useStore((s) => s.historyIndex);
   const setHistoryIndex = useStore((s) => s.setHistoryIndex);
+  const removeHistory = useStore((s) => s.removeHistory);
+  const toggleFavorite = useStore((s) => s.toggleFavorite);
+  const addReferenceImage = useStore((s) => s.addReferenceImage);
 
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [zoom, setZoom] = useState(1);
@@ -29,6 +33,7 @@ export default function CanvasArea() {
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [shareMsg, setShareMsg] = useState<string | null>(null);
   const [imgLoadFailed, setImgLoadFailed] = useState(false);
+  const [maskOpen, setMaskOpen] = useState(false);
 
   const clampZoom = (value: number) => Math.min(4, Math.max(0.25, value));
 
@@ -386,6 +391,39 @@ export default function CanvasArea() {
         </button>
 
         <button
+          onClick={() => {
+            if (generatedImage) {
+              addReferenceImage(generatedImage);
+              setShareMsg('已添加为参考图');
+              setTimeout(() => setShareMsg(null), 2000);
+            }
+          }}
+          disabled={!generatedImage}
+          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          title="转为参考图"
+        >
+          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <circle cx="9" cy="9" r="2" />
+            <path d="M21 15l-5-5L5 21" />
+          </svg>
+        </button>
+
+        <button
+          onClick={() => setMaskOpen(true)}
+          disabled={!generatedImage}
+          className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
+          title="局部重绘"
+        >
+          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M12 19l7-7 3 3-7 7-3-3z" />
+            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+            <path d="M2 2l7.586 7.586" />
+            <circle cx="11" cy="11" r="2" />
+          </svg>
+        </button>
+
+        <button
           disabled={!generatedImage}
           className="w-9 h-9 rounded-full border border-[#E5E7EB] bg-white flex items-center justify-center text-[#737373] hover:text-[#171717] hover:border-[#D1D5DB] disabled:opacity-40 transition-colors"
           title="保存"
@@ -417,21 +455,43 @@ export default function CanvasArea() {
         <div className="flex items-center gap-2 px-6 py-3 border-t border-[#E5E7EB] bg-white/60 overflow-x-auto scrollbar-hide">
           <span className="text-xs text-[#9CA3AF] flex-shrink-0">历史</span>
           {history.map((item, i) => (
-            <button
+            <div
               key={item.id}
-              onClick={() => {
-                setHistoryIndex(i);
-                setGeneratedImage(item.url);
-              }}
-              className={`w-14 h-14 rounded-xl border-2 flex-shrink-0 overflow-hidden p-0.5 transition-colors ${
+              className={`group relative w-14 h-14 rounded-xl border-2 flex-shrink-0 overflow-hidden p-0.5 transition-colors ${
                 i === historyIndex ? 'border-[#171717]' : 'border-transparent'
               }`}
             >
-              <img src={item.url} alt="" className="w-full h-full object-cover rounded-[10px]" />
-            </button>
+              <button
+                onClick={() => {
+                  setHistoryIndex(i);
+                  setGeneratedImage(item.url);
+                }}
+                className="w-full h-full"
+              >
+                <img src={item.url} alt="" className="w-full h-full object-cover rounded-[10px]" />
+              </button>
+              <button
+                onClick={() => toggleFavorite(item.id)}
+                className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full text-[9px] leading-none flex items-center justify-center ${
+                  item.favorite ? 'bg-amber-400 text-white' : 'bg-black/40 text-white opacity-0 group-hover:opacity-100'
+                }`}
+                title="收藏"
+              >
+                ★
+              </button>
+              <button
+                onClick={() => removeHistory(item.id)}
+                className="absolute top-0.5 right-0.5 w-4 h-4 rounded-full bg-black/50 text-white text-[10px] leading-none flex items-center justify-center opacity-0 group-hover:opacity-100"
+                title="删除"
+              >
+                ×
+              </button>
+            </div>
           ))}
         </div>
       )}
+
+      <MaskEditor open={maskOpen} imageUrl={generatedImage} onClose={() => setMaskOpen(false)} />
     </main>
   );
 }

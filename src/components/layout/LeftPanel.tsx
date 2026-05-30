@@ -115,18 +115,18 @@ export default function LeftPanel() {
             className="w-full min-h-[180px] resize-none bg-transparent border-none outline-none p-3 text-sm text-[#3F3F46] placeholder-[#A1A1AA] leading-relaxed"
           />
 
-          <div className="flex items-center justify-between gap-2 px-3 py-2 border-t border-[#E5E7EB]">
+          <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 px-3 py-2 border-t border-[#E5E7EB]">
             {/* Left: 添加参考图 */}
-            <div className="flex items-center gap-2">
-              <label className="flex items-center gap-1 text-[11px] leading-none text-[#71717A] cursor-pointer hover:text-[#3F3F46] transition-colors">
-                <PlusIcon className="w-3 h-3" />
+            <div className="flex items-center gap-3 flex-shrink-0">
+              <label className="flex items-center gap-1 text-[11px] leading-none text-[#71717A] cursor-pointer hover:text-[#3F3F46] transition-colors whitespace-nowrap">
+                <PlusIcon className="w-3 h-3 flex-shrink-0" />
                 添加参考图
                 <input type="file" accept="image/*" multiple className="hidden" onChange={handleRefUpload} />
               </label>
               <button
                 type="button"
                 onClick={() => setPromptEditorOpen(true)}
-                className="text-[11px] leading-none text-[#71717A] hover:text-[#3F3F46] transition-colors"
+                className="text-[11px] leading-none text-[#71717A] hover:text-[#3F3F46] transition-colors whitespace-nowrap"
               >
                 放大编辑
               </button>
@@ -137,7 +137,7 @@ export default function LeftPanel() {
               <select
                 value={resolution}
                 onChange={(e) => setResolution(e.target.value)}
-                className="h-5 rounded-md border border-[#E5E7EB] bg-[#FFFFFF] px-1.5 text-[8px] leading-none text-[#3F3F46] outline-none cursor-pointer font-normal"
+                className="h-7 rounded-md border border-[#E5E7EB] bg-[#FFFFFF] px-2 text-[11px] leading-none text-[#3F3F46] outline-none cursor-pointer"
               >
                 {RESOLUTION_OPTIONS.map((r) => (
                   <option key={r.id} value={r.id}>{r.label}</option>
@@ -146,7 +146,7 @@ export default function LeftPanel() {
               <select
                 value={generateCount}
                 onChange={(e) => setGenerateCount(parseInt(e.target.value, 10))}
-                className="h-5 rounded-md border border-[#E5E7EB] bg-[#FFFFFF] px-1.5 text-[8px] leading-none text-[#3F3F46] outline-none cursor-pointer font-normal"
+                className="h-7 rounded-md border border-[#E5E7EB] bg-[#FFFFFF] px-2 text-[11px] leading-none text-[#3F3F46] outline-none cursor-pointer"
                 title="生成数量"
               >
                 <option value={1}>1 张</option>
@@ -158,7 +158,7 @@ export default function LeftPanel() {
                 onClick={() => {
                   document.dispatchEvent(new CustomEvent('trigger-generate'));
                 }}
-                className="h-5 px-2.5 rounded-md bg-[#5e6ad2] text-white text-[8px] font-normal leading-none hover:bg-[#4F58C9] transition-colors"
+                className="h-7 px-3 rounded-md bg-[#5e6ad2] text-white text-[11px] font-medium leading-none hover:bg-[#4F58C9] transition-colors whitespace-nowrap"
               >
                 生成
               </button>
@@ -204,7 +204,7 @@ export default function LeftPanel() {
                 }`}
               >
                 <span className="text-sm">{opt.icon}</span>
-                <span className="text-[10px] leading-none">{opt.label}</span>
+                <span className="text-[10px] leading-none whitespace-nowrap">{opt.label}</span>
               </button>
             ))}
           </div>
@@ -225,7 +225,7 @@ export default function LeftPanel() {
                 }`}
               >
                 <span className="flex flex-col items-center leading-tight">
-                  <span className="text-[11px]">{opt.label}</span>
+                  <span className="text-[11px] whitespace-nowrap">{opt.label}</span>
                   <span className="text-[9px] opacity-60">{opt.desc}</span>
                 </span>
               </button>

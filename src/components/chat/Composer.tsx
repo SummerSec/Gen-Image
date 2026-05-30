@@ -84,7 +84,7 @@ export default function Composer() {
       onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
       onDragLeave={() => setDragOver(false)}
       onDrop={(e) => { e.preventDefault(); setDragOver(false); addFiles(Array.from(e.dataTransfer.files)); }}
-      className={`mx-auto w-full max-w-3xl rounded-2xl border bg-white shadow-sm transition-colors ${dragOver ? 'border-[#5e6ad2] ring-2 ring-[#5e6ad2]/20' : 'border-[#E5E7EB]'}`}
+      className={`mx-auto w-full max-w-3xl rounded-2xl border bg-white shadow-sm transition-colors focus-within:border-[#5e6ad2] focus-within:ring-2 focus-within:ring-[#5e6ad2]/20 ${dragOver ? 'border-[#5e6ad2] ring-2 ring-[#5e6ad2]/20' : 'border-[#E5E7EB]'}`}
     >
       {referenceImages.length > 0 && (
         <div className="flex gap-2 p-3 pb-0 overflow-x-auto scrollbar-hide">
@@ -102,7 +102,7 @@ export default function Composer() {
         onChange={(e) => setPrompt(e.target.value)}
         onKeyDown={(e) => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) { e.preventDefault(); void send(); } }}
         placeholder="描述你想生成的图像，Ctrl/⌘+Enter 发送（可粘贴/拖拽参考图，右侧词库点选填入）"
-        className="w-full min-h-[72px] max-h-48 resize-none bg-transparent border-none outline-none p-3 text-sm text-[#18181B] placeholder-[#A1A1AA] leading-relaxed"
+        className="w-full min-h-[72px] max-h-48 resize-none bg-transparent border-none outline-none focus-visible:outline-none p-3 text-sm text-[#18181B] placeholder-[#A1A1AA] leading-relaxed"
       />
 
       <div className="flex flex-wrap items-center gap-2 px-3 py-2 border-t border-[#E5E7EB]">
@@ -110,7 +110,7 @@ export default function Composer() {
           <PlusIcon className="w-3.5 h-3.5 flex-shrink-0" />参考图
           <input type="file" accept="image/*" multiple className="hidden" onChange={(e) => { addFiles(Array.from(e.target.files ?? [])); e.target.value = ''; }} />
         </label>
-        <input value={model} onChange={(e) => setModel(e.target.value)} placeholder="模型 ID" className="h-7 w-28 rounded-md border border-[#E5E7EB] px-2 text-[12px] text-[#3F3F46] outline-none focus:border-[#5e6ad2]" />
+        <input value={model} onChange={(e) => setModel(e.target.value)} placeholder="模型 ID" className="h-7 w-44 rounded-md border border-[#E5E7EB] px-2 text-[12px] text-[#3F3F46] outline-none focus:border-[#5e6ad2]" />
         <select value={aspectRatio} onChange={(e) => setAspectRatio(e.target.value)} className="h-7 rounded-md border border-[#E5E7EB] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer">
           {RATIO_OPTIONS.map((r) => <option key={r.id} value={r.id}>{r.label} {r.desc}</option>)}
         </select>

@@ -20,6 +20,7 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
   const setSearchQuery = useStore((s) => s.setSearchQuery);
   const history = useStore((s) => s.history);
   const addReferenceImage = useStore((s) => s.addReferenceImage);
+  const setReferenceImages = useStore((s) => s.setReferenceImages);
   const removeHistory = useStore((s) => s.removeHistory);
   const toggleFavorite = useStore((s) => s.toggleFavorite);
 
@@ -182,7 +183,7 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
                   key={card.id}
                   onClick={() => {
                     setPrompt(card.prompt);
-                    if (card.thumbnail) addReferenceImage(card.thumbnail);
+                    setReferenceImages(card.thumbnail ? [card.thumbnail] : []);
                   }}
                   className="text-left rounded-xl border border-[#E5E7EB] bg-[#FFFFFF] overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all"
                   title={`点击：填入提示词 + 添加示例图为参考 · 来源：${card.source}`}

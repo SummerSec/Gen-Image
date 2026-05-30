@@ -53,6 +53,7 @@ interface AppState {
   setGenerateCount: (v: number) => void;
   referenceImages: string[];
   addReferenceImage: (url: string) => void;
+  setReferenceImages: (urls: string[]) => void;
   removeReferenceImage: (index: number) => void;
   generatedImage: string | null;
   setGeneratedImage: (url: string | null) => void;
@@ -120,6 +121,7 @@ export const useStore = create<AppState>()(
       referenceImages: [],
       addReferenceImage: (url) =>
         set((s) => ({ referenceImages: [...s.referenceImages, url] })),
+      setReferenceImages: (urls) => set({ referenceImages: urls }),
       removeReferenceImage: (index) =>
         set((s) => ({ referenceImages: s.referenceImages.filter((_, i) => i !== index) })),
       generatedImage: null,

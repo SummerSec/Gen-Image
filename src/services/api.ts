@@ -70,13 +70,7 @@ export async function generateImage(params: GenerateParams): Promise<string> {
 
     const images: string[] = [];
     for (const refUrl of referenceImages) {
-      if (refUrl.startsWith('blob:')) {
-        images.push(await blobUrlToBase64(refUrl));
-      } else if (refUrl.startsWith('data:')) {
-        images.push(refUrl);
-      } else {
-        images.push(refUrl);
-      }
+      images.push(await toBase64Image(refUrl));
     }
     body.image = images;
 
@@ -181,8 +175,7 @@ async function generateViaResponses(params: {
 
   const content: Record<string, unknown>[] = [{ type: 'input_text', text: params.prompt }];
   for (const refUrl of params.referenceImages) {
-    const dataUrl = refUrl.startsWith('blob:') ? await blobUrlToBase64(refUrl) : refUrl;
-    content.push({ type: 'input_image', image_url: dataUrl });
+    content.push({ type: 'input_image', image_url: await toBase64Image(refUrl) });
   }
 
   const resp = await fetch(url, {
@@ -211,6 +204,16 @@ async function blobUrlToBase64(blobUrl: string): Promise<string> {
     reader.onerror = reject;
     reader.readAsDataURL(blob);
   });
+}
+
+// Convert any reference image (blob:/relative/http) to a base64 data URL; data: passes through.
+async function toBase64Image(url: string): Promise<string> {
+  if (url.startsWith('data:')) return url;
+  try {
+    return await blobUrlToBase64(url);
+  } catch {
+    return url; // fallback to original on failure (e.g. cross-origin CORS)
+  }
 }
 
 /**

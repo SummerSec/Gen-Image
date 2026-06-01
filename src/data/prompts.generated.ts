@@ -4344,6 +4344,42 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
   },
   {
     "id": 482,
+    "title": "例 485：时尚目录电商拼贴",
+    "category": "3d",
+    "prompt": "Stylish fashion catalog shoot blending streetwear and luxury branding. Female model wearing burgundy slim-fit top and ivory tailored pants, posed in confident relaxed positions across multiple duplicated frames. Slight perspective tilt, dynamic layout collage, soft daylight studio lighting with warm tone grading. Modern shopping website aesthetic, minimal UI-inspired composition, high resolution fashion photography.",
+    "thumbnail": "/prompt-thumbs/freestylefly/case-485.jpg",
+    "source": "freestylefly",
+    "sourceUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-485"
+  },
+  {
+    "id": 483,
+    "title": "例 486：RCB 冠军混合媒介海报",
+    "category": "vfx",
+    "prompt": "Ultra-detailed mixed-media sports poster featuring the SAME woman from the reference image, wearing a Royal Challengers Bengaluru (RCB) jersey, holding the IPL trophy beside her. Dynamic fusion of realistic portrait photography, sketch art, watercolor splashes, paint strokes, ink scribbles, and digital painting effects. Explosive red, black, gold, and white color palette. Dramatic championship atmosphere with confetti, fireworks, cheering stadium crowd, RCB flags waving in the background, paint splatter textures, hand-drawn line art accents, and energetic brushwork.\n\nThe woman has a confident expression, bold red lipstick, flawless skin, short black bob haircut, cinematic lighting, ultra-sharp blue eyes, premium sports-fashion styling. RCB face paint on cheek, luxury gold jewelry accents, highly detailed jersey fabric.\n\nLarge typography on the right side reading:\n\nRCB\nIPL CHAMPIONS\n2026\n\nHandwritten slogan at bottom left:\n\nEe Sala Cup Namde!\n\nPremium championship poster design, trending Behance artwork, sports magazine cover aesthetic, layered paint textures, realistic trophy reflections, high contrast, ultra-detailed, 8K, masterpiece, award-winning digital art, vibrant colors, cinematic composition, splash art, sketch effect, watercolor effect, paint explosion effect, mixed-media illustration, poster-worthy design.",
+    "thumbnail": "/prompt-thumbs/freestylefly/case-486.jpg",
+    "source": "freestylefly",
+    "sourceUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-486"
+  },
+  {
+    "id": 484,
+    "title": "例 487：法式药妆商业分镜封面",
+    "category": "scene",
+    "prompt": "35mm anamorphic, 2.39:1, no flares. Ultra-realistic international French pharmacy skincare commercial for La Roche-Posay Anthelios UVMune 400 Hydrating Cream SPF50+. Soft premium music plus tactile realistic sound effects throughout. Rich warm natural grain, premium but not over-polished. Palette: warm ivory whites, soft stone neutrals, signature La Roche-Posay orange, subtle clinical cyan-blue, sunlit beige, realistic warm skin tones. The tube is iconic. The skin is the proof. Every shot builds toward the moment the product disappears into real skin and protection becomes confidence. Fast cuts, macro intimacy, tactile realism, one quiet transformation that feels earned: sunscreen that looks invisible, breathable, and real.\n\nMODEL / WARDROBE\n\nUse the same female model consistently across all shots, matching the approved character sheet: slim natural model proportions, warm medium skin tone, dark brown hair in a clean low bun, refined oval face, natural brows, realistic under-eye detail, subtle lips, minimal makeup. Same face, same hairstyle, same body structure, same skin tone, same wardrobe continuity throughout.\n\nWardrobe must be modest, elegant, and fully covered. No exposed body, no tank top, no fitted clothing, no cleavage, no bare shoulders, no body-hugging silhouette. Wardrobe: loose cream linen button-up shirt, full sleeves, fully buttoned or layered over a high-neck white inner top, soft beige trousers only if visible, minimal jewelry, refined French pharmacy skincare styling. Clothing should feel premium, breathable, clean, and international, never sensual, revealing, or fashion-body-focused.\n\nThe camera may show hands, face, neck-up portrait, shoulders, waist-up, mirror shots, bathroom ritual shots, and outdoor walking lifestyle shots, but the body must not be emphasized. Keep attention on skin texture, hands applying sunscreen, product packaging, morning ritual, and confident protected face.\n\nSKIN REALISM\n\nSkin must look human and unfiltered: visible pores, peach fuzz, tiny fine lines, slight under-eye texture, natural skin tone variation, realistic facial micro texture, matte-hydrated finish. No glossy skin, no oily shine, no wet-look face, no waxy AI skin, no porcelain smoothing, no glam beauty filter, no fake glow.\n\nPRODUCT REFERENCE\n\nUse the exact La Roche-Posay Anthelios UVMune 400 Hydrating Cream SPF50+ product reference: white tube, orange square logo, black La Roche-Posay typography, orange SPF50+ panel, light blue hydrating cream band, orange lower panel, white pump-cap base. Product shape and color blocking must remain consistent.\n\nMUSIC DIRECTION\n\nSoft elegant premium skincare music throughout: gentle piano, airy ambient pads, subtle low-end warmth, very light modern electronic pulse, calm emotional lift. Music should feel expensive, dermatological, trustworthy, and international. Never loud, never dramatic, never trailer-like, never distracting. The music should support the tactile sound design without overpowering it.",
+    "thumbnail": "/prompt-thumbs/freestylefly/case-487.jpg",
+    "source": "freestylefly",
+    "sourceUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-487"
+  },
+  {
+    "id": 485,
+    "title": "例 488：屋顶球场日落人像",
+    "category": "realistic",
+    "prompt": "Ultra-realistic, high-quality portrait of a stylish young South Asian woman standing gracefully on a colorful urban rooftop basketball court at sunset. She is standing in a relaxed and elegant posture with her weight naturally shifted to one leg, shoulders relaxed, and one hand gently resting by her side while the other lightly touches the edge of her varsity jacket. Her body is slightly angled toward the camera, creating a confident yet sophisticated appearance. She is looking directly into the camera with a warm, natural smile, projecting confidence, charm, and effortless style.",
+    "thumbnail": "/prompt-thumbs/freestylefly/case-488.jpg",
+    "source": "freestylefly",
+    "sourceUrl": "https://github.com/freestylefly/awesome-gpt-image-2/blob/main/docs/gallery-part-2.md#case-488"
+  },
+  {
+    "id": 486,
     "title": "4-Panel Japanese Digital Ad Banner Grid",
     "category": "vfx",
     "prompt": "{\n  \"type\": \"2x2 grid of Japanese digital advertisement banners\",\n  \"layout\": {\n    \"structure\": \"4 equal quadrants\",\n    \"quadrants\": [\n      {\n        \"position\": \"top-left\",\n        \"theme\": \"Travel\",\n        \"subject\": \"A couple holding hands on a white sand beach, looking out at turquoise ocean water under a bright blue sky.\",\n        \"elements\": [\"red hibiscus flower in bottom left corner\"],\n        \"text_labels\": [\n          \"今年こそ、解き放て。\",\n          \"{argument name=\\\"travel destination\\\" default=\\\"沖縄旅行\\\"}\",\n          \"3日間の癒やし旅\",\n          \"航空券+ホテル\",\n          \"39,800円〜\",\n          \"絶景、グルメ、体験 ぜんぶ叶う!\"\n        ],\n        \"icons\": {\n          \"count\": 3,\n          \"descriptions\": [\"airplane\", \"hotel building\", \"car\"]\n        }\n      },\n      {\n        \"position\": \"top-right\",\n        \"theme\": \"Skincare\",\n        \"subject\": \"Close-up portrait of a young woman with glowing, dewy skin, eyes closed, gently touching her cheeks.\",\n        \"elements\": [\n          \"soft pink gradient background\",\n          \"dynamic water splash effects\",\n          \"pink cosmetic jar labeled '{argument name=\\\"skincare product name\\\" default=\\\"LUMIÈRE\\\"} Brightening Gel'\"\n        ],\n        \"text_labels\": [\n          \"毛穴・くすみ卒業!\",\n          \"透明感あふれる\",\n          \"水光肌へ\",\n          \"新感覚スキンケア\",\n          \"初回限定 78%OFF\",\n          \"{argument name=\\\"discount price\\\" default=\\\"1,980円\\\"}\"\n        ],\n        \"badges\": {\n          \"count\": 3,\n          \"style\": \"gold circular\",\n          \"labels\": [\"毛穴ケア\", \"高保湿\", \"ハリ・ツヤ\"]\n        }\n      },\n      {\n        \"position\": \"bottom-left\",\n        \"theme\": \"Gourmet Food\",\n        \"subject\": \"Thick, sliced, medium-rare steak sizzling on a dark grill plate.\",\n        \"elements\": [\n          \"garlic chips\",\n          \"rosemary sprig\",\n          \"dark background with smoke and glowing embers\"\n        ],\n        \"text_labels\": [\n          \"とろける旨さ!\",\n          \"{argument name=\\\"food item\\\" default=\\\"黒毛和牛\\\"}\",\n          \"贅沢ステーキ\",\n          \"期間限定\",\n          \"特別価格\",\n          \"通常価格 8,980円\",\n          \"4,980円\"\n        ],\n        \"badges\": {\n          \"count\": 1,\n          \"style\": \"red circular\",\n          \"labels\": [\"A4 A5等級\"]\n        }\n      },\n      {\n        \"position\": \"bottom-right\",\n        \"theme\": \"Online Education\",\n        \"subject\": \"Young man in a blue shirt studying at a desk, writing in a notebook next to an open laptop.\",\n        \"elements\": [\"bright indoor lighting\", \"desk environment\"],\n        \"text_labels\": [\n          \"スキマ時間で\",\n          \"{argument name=\\\"education goal\\\" default=\\\"最短合格!\\\"}\",\n          \"オンライン資格講座\",\n          \"スマホで完結\",\n          \"効率学習で差がつく!\",\n          \"今だけ! 受講料 20%OFF\"\n        ],\n        \"badges\": {\n          \"count\": 1,\n          \"style\": \"blue circular\",\n          \"labels\": [\"受講者数 10万人 突破!\"]\n        },\n        \"icons\": {\n          \"count\": 2,\n          \"descriptions\": [\"smartphone\", \"open book\"]\n        }\n      }\n    ]\n  }\n}",
@@ -4352,7 +4388,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 483,
+    "id": 487,
     "title": "Anime Character Brand Identity & Merch Board",
     "category": "illustration-standing",
     "prompt": "{\n  \"type\": \"brand identity and merchandise design board\",\n  \"theme\": {\n    \"color_palette\": \"{argument name=\\\"theme color\\\" default=\\\"pastel pink\\\"} and white\",\n    \"motif\": \"{argument name=\\\"motif\\\" default=\\\"cherry blossoms\\\"} and pink hearts\"\n  },\n  \"character\": {\n    \"description\": \"anime girl with short brown bob hair, pink eyes, wearing a white hoodie, gentle smile\"\n  },\n  \"branding\": {\n    \"main_logo\": \"{argument name=\\\"character name\\\" default=\\\"癒音ちー\\\"}\",\n    \"sub_logo\": \"{argument name=\\\"character subtext\\\" default=\\\"ゆおんちー\\\"}\"\n  },\n  \"layout\": {\n    \"sections\": [\n      {\n        \"type\": \"header banner\",\n        \"position\": \"top\",\n        \"elements\": [\"large main logo\", \"sub logo\", \"cherry blossom graphics\", \"character portrait on the right\"]\n      },\n      {\n        \"type\": \"product packaging\",\n        \"position\": \"middle left\",\n        \"elements\": [\"1 square box with heart-shaped transparent window showing pink heart candies\", \"character illustration on box\", \"2 individual candy wrappers\", \"5 scattered heart candies\"]\n      },\n      {\n        \"type\": \"promotional poster\",\n        \"position\": \"middle right\",\n        \"elements\": [\"character portrait\", \"heart-shaped candy bowl\", \"main logo\", \"text '4.26 NEW OPEN'\", \"text '{argument name=\\\"social handle\\\" default=\\\"@yuonchii\\\"}'\"]\n      },\n      {\n        \"type\": \"horizontal web banner\",\n        \"position\": \"lower middle\",\n        \"elements\": [\"main logo\", \"cherry blossoms\", \"character portrait on the right\"]\n      },\n      {\n        \"type\": \"social media profile mockup\",\n        \"position\": \"bottom left\",\n        \"elements\": [\"header image with logo\", \"1 circular profile picture\", \"handle '{argument name=\\\"social handle\\\" default=\\\"@yuonchii\\\"}'\", \"1 follow button\", \"mock bio text\"]\n      },\n      {\n        \"type\": \"merchandise collection\",\n        \"position\": \"bottom right\",\n        \"count\": 9,\n        \"items\": [\"1 white t-shirt with logo\", \"1 white mug with character\", \"4 round pin badges\", \"1 acrylic keychain\", \"2 candy packets\"]\n      }\n    ]\n  }\n}",
@@ -4361,7 +4397,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 484,
+    "id": 488,
     "title": "Dark Mode Marketing Case Study UI",
     "category": "ui",
     "prompt": "{\n  \"type\": \"UI/UX landing page mockup\",\n  \"theme\": \"dark mode, sleek modern aesthetic, glassmorphism, {argument name=\\\"primary accent color\\\" default=\\\"neon purple and blue\\\"} glowing accents\",\n  \"header\": {\n    \"logo\": \"{argument name=\\\"brand name\\\" default=\\\"goViralX\\\"}\",\n    \"top_right_tag\": \"VIRAL CAMPAIGN CASE STUDY\"\n  },\n  \"layout\": {\n    \"sections\": [\n      {\n        \"name\": \"Hero\",\n        \"headline\": \"{argument name=\\\"hero headline\\\" default=\\\"How We Created 10M+ Viral Impact\\\"}\",\n        \"subheadline\": \"3天引爆全网, 助力品牌实现指数级增长\",\n        \"stats_row\": {\n          \"count\": 4,\n          \"labels\": [\"总播放量\", \"互动率\", \"转化咨询\", \"执行周期\"],\n          \"values\": [\"{argument name=\\\"main statistic\\\" default=\\\"10,240,000+\\\"}\", \"18.7%\", \"3,200+\", \"72小时\"]\n        },\n        \"visual\": \"cinematic shot of a person in a hoodie looking at glowing digital screens and graphs, large play button overlay\"\n      },\n      {\n        \"name\": \"Strategy\",\n        \"title\": \"Our 3-Day Execution Strategy\",\n        \"layout_type\": \"vertical timeline\",\n        \"steps_count\": 3,\n        \"elements_per_step\": [\"timeline node\", \"title\", \"bullet points\", \"video thumbnail with play button\", \"description box\"]\n      },\n      {\n        \"name\": \"Performance\",\n        \"title\": \"Data-Driven Performance\",\n        \"left_column\": {\n          \"stat_cards_count\": 4,\n          \"values\": [\"10M+\", \"43%\", \"28,000+\", \"3,200+\"]\n        },\n        \"right_column\": {\n          \"charts_count\": 2,\n          \"chart_1\": \"line graph showing 7-day growth peaking at Day 3\",\n          \"chart_2\": \"horizontal segmented bar chart showing platform distribution (TikTok 52%, Instagram 24%, X 15%, YouTube 9%)\"\n        }\n      },\n      {\n        \"name\": \"Keys to Success\",\n        \"title\": \"The 3 Keys to Viral Success\",\n        \"cards_count\": 3,\n        \"card_elements\": [\"glowing icon (fire, target, antenna)\", \"title\", \"description\", \"VIEW DETAIL link\"]\n      },\n      {\n        \"name\": \"Social Proof\",\n        \"title\": \"TRUSTED BY CREATORS & BRANDS\",\n        \"left_column\": {\n          \"logos_count\": 8,\n          \"grid\": \"2x4\",\n          \"brands\": [\"SHEIN\", \"SHOPLINE\", \"Blueglass\", \"instacart\", \"lemon8\", \"mi\", \"CIDER\", \"bellroy\"]\n        },\n        \"right_column\": {\n          \"testimonial_cards_count\": 2,\n          \"elements\": [\"quote\", \"author title (SaaS Founder, Growth Manager)\"]\n        }\n      },\n      {\n        \"name\": \"Call to Action\",\n        \"title\": \"READY TO GO VIRAL?\",\n        \"interactive_elements\": [\"text input field\", \"glowing button with text '{argument name=\\\"call to action text\\\" default=\\\"获取专属增长方案 ->\\\"}'\"],\n        \"visual\": \"3D render of a rocket ship taking off with purple and blue flames\"\n      }\n    ]\n  }\n}",
@@ -4370,7 +4406,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 485,
+    "id": 489,
     "title": "18-Panel Mascot Brand Identity Document",
     "category": "vfx",
     "prompt": "{\n  \"type\": \"18-panel brand identity and character design document\",\n  \"brand\": {\n    \"name\": \"{argument name=\\\"brand name\\\" default=\\\"沐阳 MUYANG TEA\\\"}\",\n    \"industry\": \"{argument name=\\\"industry\\\" default=\\\"tea shop\\\"}\",\n    \"colors\": [\"{argument name=\\\"primary color\\\" default=\\\"yellow\\\"}\", \"{argument name=\\\"secondary color\\\" default=\\\"green\\\"}\", \"white\", \"brown\", \"dark green\"]\n  },\n  \"subject\": \"{argument name=\\\"character description\\\" default=\\\"3D rendered cute Shiba Inu mascot wearing a green apron\\\"}\",\n  \"layout\": {\n    \"grid\": \"3 columns by 6 rows\",\n    \"sections\": [\n      {\n        \"title\": \"01 品牌DNA分析 / BRAND DNA ANALYSIS\",\n        \"elements\": [\"logo\", \"5 color swatches\", \"6 icons\", \"target audience charts\"]\n      },\n      {\n        \"title\": \"02 概念构思 / CONCEPT MOODBOARD\",\n        \"elements\": [\"5 photo references\", \"4 mood icons\", \"design equation\"]\n      },\n      {\n        \"title\": \"03 形态研究 / FORM STUDY\",\n        \"elements\": [\"4 logo anatomy icons\", \"4 evolution steps\", \"4 silhouettes\"]\n      },\n      {\n        \"title\": \"04 概念探索 / CONCEPT EXPLORATION\",\n        \"elements\": [\"12 line-art character sketches\"]\n      },\n      {\n        \"title\": \"05 精细线稿 / REFINED LINE ART\",\n        \"elements\": [\"3 rows of front and side line art with proportion guides\"]\n      },\n      {\n        \"title\": \"06 细节精修 / DETAIL REFINEMENT\",\n        \"elements\": [\"2 full-body renders with labels\", \"4 circular close-ups\"]\n      },\n      {\n        \"title\": \"07 表情设定 / EXPRESSION SHEET\",\n        \"elements\": [\"11 3D rendered head expressions\"]\n      },\n      {\n        \"title\": \"08 姿势库 / POSE LIBRARY\",\n        \"elements\": [\"9 full-body 3D rendered poses\"]\n      },\n      {\n        \"title\": \"09 转身视图 / TURNAROUND VIEW\",\n        \"elements\": [\"5 full-body 3D renders\", \"5 matching line-art views\"]\n      },\n      {\n        \"title\": \"10 色彩开发 / COLOR DEVELOPMENT\",\n        \"elements\": [\"5 rows of 5-color palettes\", \"color psychology text\"]\n      },\n      {\n        \"title\": \"11 材质规格 / MATERIAL SPECIFICATION\",\n        \"elements\": [\"5 texture swatches\", \"property sliders\", \"4 manufacturing icons\"]\n      },\n      {\n        \"title\": \"12 色彩应用 / COLOR APPLICATION\",\n        \"elements\": [\"4 color variant renders\", \"2 light/dark renders\", \"4 contrast rating circles\"]\n      },\n      {\n        \"title\": \"13 构造指南 / CONSTRUCTION GUIDE\",\n        \"elements\": [\"2 line-art diagrams for geometry and grid\"]\n      },\n      {\n        \"title\": \"14 设计系统规则 / DESIGN SYSTEM RULES\",\n        \"elements\": [\"minimum size icons\", \"clear space diagram\", \"4 usage examples\"]\n      },\n      {\n        \"title\": \"15 资产变体 / ASSET VARIANTS\",\n        \"elements\": [\"3 size variants\", \"3 line-art variants\", \"3 simplified flat heads\"]\n      },\n      {\n        \"title\": \"16 数字应用 / DIGITAL APPLICATIONS\",\n        \"elements\": [\"1 app icon\", \"2 social avatars\", \"UI elements\", \"3-step animation cycle\"]\n      },\n      {\n        \"title\": \"17 实物应用 / PHYSICAL APPLICATIONS\",\n        \"elements\": [\"plush toy mockup\", \"packaging mockup\", \"merchandise mockup\", \"storefront mockup\"]\n      },\n      {\n        \"title\": \"18 最终主视觉 / FINAL RENDERING\",\n        \"elements\": [\"large high-res 3D render of mascot holding tea\", \"logo\", \"file format list\"]\n      }\n    ]\n  }\n}",
@@ -4379,7 +4415,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 486,
+    "id": 490,
     "title": "Japanese Chinese Food Delivery Flyer",
     "category": "vfx",
     "prompt": "A Japanese neighborhood Chinese restaurant delivery flyer for mailbox posting (3:4 aspect ratio). Designed to look like a double-sided B5 print.\n\nFlyer characteristics (following the grammar of real delivery flyers):\n- Flashy red and yellow color scheme.\n- Large text at the top: \"Delivery Available! {argument name=\"shop name\" default=\"Mona-Hanten\"}\" (shadowed Gothic font).\n- An illustration of a {argument name=\"character\" default=\"Chinese girl in a red cheongsam with a brown short bob\"} holding ramen and saying \"Welcome!\" in a speech bubble.\n- A menu photo grid (4x3) featuring various dishes: different types of ramen, fried rice, gyoza, sweet and sour pork, shrimp in chili sauce, mapo tofu, liver and leek stir-fry, tenshinhan, twice-cooked pork, spring rolls, annin tofu, and fried rice sets.\n- Names and prices for each dish.\n- A large yellow banner saying \"Free delivery on all menu items over ¥1,000!\".\n- \"Order by phone! ☎ 072-XX-XXXX\" emphasized with a red circle.\n- Business hours \"11:00-22:00 (Closed on Tuesdays)\".\n- Delivery area map (simple schematic map).\n- Coupon (perforated line for clipping): \"One free plate of gyoza with this flyer!\".\n\nTexture of cheap paper printing. Includes fold marks. Precision that could be mistaken for a real Japanese delivery flyer.",
@@ -4388,7 +4424,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 487,
+    "id": 491,
     "title": "Pastel Jellyfish Room Goods Poster",
     "category": "vfx",
     "prompt": "{\"type\":\"pastel lifestyle poster / character room-goods feature sheet\",\"theme\":\"soft dreamy lavender jellyfish aesthetic\",\"style\":\"Japanese cute editorial graphic, airy white background, pastel lilac palette, delicate handwritten notes, sparkles and tiny doodles, soft product photography mixed with magazine layout\",\"subject\":{\"character\":{\"name\":\"{argument name=\\\"character name\\\" default=\\\"くらげちゃん\\\"}\",\"appearance\":\"young woman with a short platinum-blonde bob haircut, wearing a fluffy pale-lavender zip hoodie over a white inner top, shown from chest up on the lower right, face intentionally obscured with a plain beige rectangle\"}},\"layout\":{\"orientation\":\"vertical poster\",\"background\":\"clean white with faint pastel doodles of stars, bubbles, tiny jellyfish, and musical notes\",\"sections\":[{\"title\":\"header\",\"position\":\"top\",\"count\":5,\"labels\":[\"speech bubble intro\",\"main title\",\"small subtitle GOODS\",\"horizontal lavender ribbon tagline\",\"round badge on the top right\"]},{\"title\":\"featured goods grid\",\"position\":\"upper and middle left\",\"count\":6,\"labels\":[\"ゆらゆらくらげランプ\",\"くらげと夢見るベッドリネン\",\"くらげシェルミラー\",\"くらげグラデマグ\",\"くらげのときめき収納ボックス\",\"くらげふわもこマット\"]},{\"title\":\"side handwritten note\",\"position\":\"upper right\",\"count\":1,\"labels\":[\"みんなも くらげちゃんRoomで いっしょに まったりしよー♡♡\"]},{\"title\":\"room concept box\",\"position\":\"lower left\",\"count\":1,\"labels\":[\"くらげちゃんの お部屋作りのこだわり\"]},{\"title\":\"pick up circle\",\"position\":\"lower center-left\",\"count\":1,\"labels\":[\"Pick up!\"]}],\"product_images\":{\"count\":6,\"items\":[{\"name\":\"ゆらゆらくらげランプ\",\"description\":\"small translucent jellyfish-shaped lamp on a white base, glowing softly in pale blue-lavender\"},{\"name\":\"くらげと夢見るベッドリネン\",\"description\":\"plush pastel-lavender bed with fluffy comforter and pillows, dreamy cozy bedroom styling\"},{\"name\":\"くらげシェルミラー\",\"description\":\"small tabletop mirror with a puffy shell-like pastel-lilac frame and rounded base\"},{\"name\":\"くらげグラデマグ\",\"description\":\"ceramic mug with lavender-to-pink gradient and a simple jellyfish illustration\"},{\"name\":\"くらげのときめき収納ボックス\",\"description\":\"pastel storage box holding cosmetics and small bottles, decorated with a jellyfish emblem\"},{\"name\":\"くらげふわもこマット\",\"description\":\"small fluffy cloud-like or jellyfish-like mat in pale lavender and white\"}]},\"text_elements\":{\"main_title\":\"{argument name=\\\"headline text\\\" default=\\\"くらげちゃんの お部屋アイテム\\\"}\",\"badge_text\":\"くらげちゃんの Room お部屋作りの こだわりポイントも 教えちゃうよ。\",\"tagline\":\"ふわふわで甘くて、ちょっぴり夢みたいな私のお部屋へようこそ♡\",\"speech_bubble\":\"くらげちゃんの お気に入りだけ集めた お部屋アイテムを紹介するよ♪\",\"concept_points\":{\"count\":3,\"items\":[\"色は白とラベンダーで統一!\",\"光が集まるふわっとした空間に\",\"お友達入りのアイテムに囲まれて 自分らしくいられる空間を大切にしてるよ♪\"]},\"product_blurbs\":\"each product has a short handwritten Japanese description in a cute casual font beside or below the image\"},\"composition\":\"the poster is left-heavy with product cards and text, while the character portrait occupies the lower right third, slightly overlapping the layout\",\"color_palette\":{\"count\":5,\"colors\":[\"white\",\"pastel lavender\",\"soft lilac\",\"pale gray-violet\",\"touches of pastel blue-pink gradient\"]},\"rendering_notes\":\"keep everything very soft, feminine, and cozy; rounded corners on all product photos; mix of bold Japanese headline typography and light handwritten annotations; subtle shadows; clean high-key lighting; social-media-ready editorial collage aesthetic\"}",
@@ -4397,7 +4433,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 488,
+    "id": 492,
     "title": "Magical Seed Packet Diorama",
     "category": "vfx",
     "prompt": "Epic 3D scene: a weathered seed packet lying open on a potting bench, its promise erupting into the garden it describes. The illustration on the front becomes real. {argument name=\"plant type\" default=\"[PLANT / FLOWER]\"} growing at full scale from the paper, roots visible through the packet's base pushing into soil below.\n{argument name=\"detail left\" default=\"[DETAIL 1]\"} in full bloom at one corner. {argument name=\"detail right\" default=\"[DETAIL 2]\"} mid-growth at the other, not yet what it will be.\nTiny insects that belong to this plant, {argument name=\"insect type\" default=\"[BEE / BUTTERFLY / BEETLE]\"}, hovering at correct scale.\nThe written instructions on the back become garden calendar, \"sow in spring\" manifests as actual spring light. \"full sun\" manifests as a single shaft of it, hitting the tallest bloom perfectly.\nScattered seeds between packet and soil each showing their germination stage, split coat, first root, first shoot, first leaf.\nThe packet's torn top edge becomes a treeline.\nPotting bench surface with soil scatter and water droplets.\nTilt-shift depth of field, greenhouse morning light, the packet as the garden it always intended.",
@@ -4406,7 +4442,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 489,
+    "id": 493,
     "title": "Luxury Chronograph Watch Ad",
     "category": "vfx",
     "prompt": "A dramatic luxury product advertising image for a motorsport-inspired chronograph wristwatch in a dark studio. Center-left foreground, show a single stainless steel chronograph watch standing upright at a slight three-quarter angle, with a black dial, two red-accent subdials, slim silver hour markers, a tachymeter bezel, and visible crown and pushers on the right side. The watch has a black leather strap with bold red stitching along both edges and a sporty premium finish. To the right of the watch, place one black square presentation box slightly behind it, textured like leather, with red stitching around the lid and a silver embossed eye-shaped logo above the text “NESS STUDIO” and smaller red text “TRACK SURFACE.” At the top center of the composition, add the same silver eye logo with the words “NESS STUDIO” and smaller “BY NICOLAS.” Across the background, place one oversized blurred word, {argument name=\"headline text\" default=\"PRECISION\"}, in large gray capital letters spanning nearly the full width. The scene is set against a deep black background with cinematic red and white horizontal light streaks crossing behind the products from left to right, suggesting speed and racetrack energy. Use a glossy wet ground plane with reflective texture, catching red highlights and mirrorlike reflections beneath the watch and box. At the bottom center, add the text “CHRONOGRAPH SERIES” in clean white spaced capitals with thin red horizontal lines extending on both sides, and below it smaller red capitals reading {argument name=\"tagline text\" default=\"ALSACE MADE\"}. Color palette: black, charcoal gray, silver steel, vivid racing red, and a touch of white. Lighting should be high-contrast and premium, with crisp specular highlights on the metal case, subtle soft fill on the box, and moody shadows. Overall style: ultra-polished commercial product photography, luxury watch campaign, sharp focus on the products, sleek branding, high-end automotive aesthetic.",
@@ -4415,7 +4451,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 490,
+    "id": 494,
     "title": "Neon Nike Lumina Ad Poster",
     "category": "vfx",
     "prompt": "A high-energy vertical Nike fashion campaign poster featuring a single athletic young woman mid-jump against a futuristic neon studio background. She is captured in a dynamic airborne pose with one knee bent up, the other leg folded back, one arm extended outward and the other bent near her chest, conveying motion and power. Her face is obscured by a clean rectangular blur block centered over the face. She wears a cropped iridescent white hooded windbreaker with a black zipper and small Nike logo on the chest, holographic metallic lavender-blue leggings with a subtle Nike swoosh on the thigh, a black branded waistband visible above the leggings, and white chunky Nike sneakers. Her brown hair is tied in a high ponytail flying outward with the jump. Behind her, enormous glowing white serif letters spell “NIKE” across the upper half, with a small white Nike swoosh centered above the word. Across the middle background, the phrase “LUMINA” appears once in wide bold glowing letters with a horizontal glitch and scanline distortion effect, partially obscured by the model. The color palette is saturated magenta, violet, cyan, and electric blue with strong bloom, glossy highlights, lens flares, and chromatic aberration. Add sweeping circular light trails wrapping around the model’s legs and body, suggesting speed and motion. The overall style is premium sportswear advertising, ultra-polished, cinematic, high contrast, hyperreal retouching, crisp product detail, dramatic rim lighting, and a luminous holographic aesthetic. Place 2 small text lines at the bottom: bottom left reads {argument name=\"tagline text\" default=\"LIGHT. MOTION. ENERGY.\"}, bottom right reads {argument name=\"collection name\" default=\"NIKE LUMINA COLLECTION\"} followed by a small Nike swoosh. Include exactly 3 visible Nike swooshes total: 1 above the large NIKE headline, 1 on the jacket chest, and 1 on the leggings.",
@@ -4424,7 +4460,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 491,
+    "id": 495,
     "title": "Streetwear Sneaker Poster Ad",
     "category": "vfx",
     "prompt": "Create a bold streetwear poster advertisement for {argument name=\"brand name\" default=\"NESS STUDIO\"} featuring a young adult model seated casually on the ground in a low-angle fashion pose, one knee raised and one leg extended toward the camera so the sneaker in front appears oversized and dominant. The model wears a dark brown oversized leather bomber jacket, a black shirt, light blue loose-fit jeans, white socks, and chunky black-white-gray sneakers with a red accent in the sole and the {argument name=\"brand name\" default=\"NESS STUDIO\"} logo visible on the shoe side and tongue. The face is intentionally obscured by a soft rectangular blur block centered over the face. Use an off-white textured paper background with distressed grunge design elements and collage layering. Behind the model, place a large rough red paint brushstroke shape spanning diagonally across the center. Add black ink splatters, sketch circles, torn paper scraps, and hand-painted graffiti accents. Include 4 major graphic doodles: a large black X in the upper right, a hand-drawn upward arrow in the lower left, a rough crown sketch in the lower right, and a circular scribble near the top center. In the upper left, place a stylized eye logo above the text \"{argument name=\"brand name\" default=\"NESS STUDIO\"}\" and a smaller tagline below reading \"A MOMENT OF YOUR STYLE\". On the left middle area, add the handwritten slogan \"INNOVATE CREATE INSPIRE\" in stacked black brush lettering. On the right middle area, place a torn black paper patch with the handwritten white slogan \"BUILT DIFFERENT MOVE DIFFERENT\" and a red underline stroke. In the lower left near the shoe, add a black distressed label sticker containing a globe scribble, the text \"{argument name=\"brand name\" default=\"NESS STUDIO\"}\", and a barcode. Along the bottom footer, create a clean horizontal strip with 3 social media icons and handles separated by thin vertical dividers: Instagram, Facebook, and Twitter, each followed by \"@NESS.STUDIO\". The overall style should be edgy, urban, youthful, high-contrast, editorial street fashion, mixing product advertising photography with graffiti poster design, collage textures, and dynamic branding.",
@@ -4433,7 +4469,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 492,
+    "id": 496,
     "title": "Editorial Osaka Six Sweatshirt Ad",
     "category": "vfx",
     "prompt": "A clean editorial fashion advertisement poster on a pale powder-blue studio background with a glossy reflective floor. The composition is vertical and minimal, dominated by oversized bold white condensed sans-serif typography in the background reading “OSAKA SIX:” on the top line and “006 REMAINS” below, filling most of the upper half behind the subject. In the top right corner, small white branding text reads “Designed by ARTTEESHOW.” Centered in the lower middle is an oversized forest-green crewneck sweatshirt standing upright like a sculptural object, with soft heavy cotton fabric, dropped shoulders, extra-long sleeves pooled on the floor, and a small black neck label that reads ARTTEESHOW. On the chest of the sweatshirt is a large abstract collage print made from torn paper fragments in beige, tan, black, gray, white, and vivid red, arranged vertically like layered scraps. Leaning against the right side of the giant sweatshirt is a slim female fashion model with long straight black hair, wearing a matching {argument name=\"sweatshirt color\" default=\"forest green\"} sweatshirt and relaxed wide-leg sweatpants with clean white low-top sneakers. She is posed in profile with a calm detached editorial attitude, one hand in her pocket, her body reclining diagonally against the giant garment, legs extended forward; her face is obscured by a soft rectangular blur for an anonymous art-fashion look. The smaller worn sweatshirt has the same abstract torn-paper collage graphic centered on the chest. At the bottom center, add 2 lines of small white copy text: “Made for comfort, worn for confidence.” and “Because life feels better when someone’s carrying the weight of the world.” The image should feel like a premium conceptual streetwear campaign from the early 1990s reimagined as contemporary luxury advertising, with crisp studio lighting, soft shadows, subtle floor reflections, precise product focus, surreal scale contrast between the oversized sweatshirt and the model, and a polished magazine-poster aesthetic.",
@@ -4442,7 +4478,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 493,
+    "id": 497,
     "title": "Editorial Perfume Shot on Moss",
     "category": "vfx",
     "prompt": "A high-end editorial product photograph of a single luxury perfume bottle centered in a warm earthy still-life scene. The product is a clear rectangular glass bottle filled with golden amber liquid, topped with a glossy rounded black cap, with a clean white front label that reads \"BYREDO\", \"BAL D’AFRIQUE\", and \"EAU DE PARFUM\". Place the bottle upright on 1 curved piece of pale weathered driftwood, surrounded by a dense carpet of 1 layer of rich green moss covering the foreground and lower frame. Use a minimal studio composition with the product isolated against a smooth warm brown-to-amber gradient background, softly illuminated like sunset light. Light the scene with dramatic directional warm light from the upper right, creating a bright glow on the background, a crisp highlight on the cap, soft reflections in the glass, and gentle shadows across the wood and moss. Keep the framing vertical, the bottle centered slightly low in the composition with generous negative space above, and the overall mood natural, luxurious, earthy, cinematic, and polished like a premium fragrance campaign shot.",
@@ -4451,7 +4487,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 494,
+    "id": 498,
     "title": "Editorial Perfume Bottle in Golden Fur",
     "category": "vfx",
     "prompt": "A luxurious editorial product photograph of a single perfume bottle nestled into dense, plush faux fur in rich golden caramel and honey-brown tones. Center the composition on one clear oval glass bottle filled with warm amber liquid, with a glossy rounded black cap and a clean white rectangular label. The label text should read {argument name=\"brand name\" default=\"BYREDO\"} at the top, {argument name=\"product name\" default=\"BAL D’AFRIQUE\"} large in the middle, and {argument name=\"product type\" default=\"EAU DE PARFUM\"} in small text near the bottom. Shoot it as a close-up still life with soft studio lighting, subtle highlights on the glass and cap, gentle shadows in the folds of the fur, and a warm cinematic color palette. The bottle should sit slightly embedded in the fur so the surrounding texture frames it from all sides, creating a premium fashion editorial mood, minimal composition, shallow depth of field, crisp focus on the label, and a high-end beauty campaign aesthetic.",
@@ -4460,7 +4496,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 495,
+    "id": 499,
     "title": "Luxury Miniature Dubai City Model",
     "category": "vfx",
     "prompt": "A hyper-detailed cinematic isometric miniature city model of {argument name=\"landmark tower\" default=\"Burj Khalifa\"} rising dramatically from the center of a square architectural master-plan board, presented like a luxury urban planning maquette on a black background. The composition shows one dominant ultra-tall silver skyscraper in the exact center, surrounded by a dense ring of modern high-rise towers, illuminated roads, bridges, and glowing warm city lights. Curving turquoise-blue water features and artificial lakes wrap around the central district in multiple connected pools and canals, with one large circular fountain-like feature near the tower base and several small island shapes visible in the water. In the lower right quadrant, include a large low-rise complex with rounded geometric roofs and subtle green-lit sections, connected by multilane roads and looping interchanges. The entire city sits on one square beige map board engraved with faint street grids and planning lines, with the board edges clearly visible and slightly raised. Viewpoint is a high three-quarter isometric angle, centered and symmetrical, with the tower extending far upward into negative space. Lighting is dramatic and luxurious: warm golden edge lights on buildings and roads, cool reflections in the water, crisp metallic highlights on the central tower, and a deep black void surrounding the model. Style should feel like a photorealistic architectural visualization mixed with a premium collectible scale model, extremely intricate, sharp, polished, and elegant.",
@@ -4469,7 +4505,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 496,
+    "id": 500,
     "title": "Parody Luxury Product Advertisement",
     "category": "vfx",
     "prompt": "High-impact parody e-commerce infographic for “{argument name=\"product\" default=\"Four Loko\"}” malt beverage. Foreground: An extreme close-up of a rough, weathered hand holding a tall, brightly colored can of {argument name=\"product\" default=\"Four Loko\"} toward the camera. The can is slightly cold with visible condensation droplets and a loud, chaotic flavor design. The hand and can have a slight macro-lens blur for depth, with the can still reading clearly as the hero product. Central Subject: In the mid-ground, a funny, disheveled {argument name=\"subject\" default=\"homeless-looking man\"} sitting casually on a milk crate in an urban alley. He has a scruffy beard, messy hair, layered worn clothing, and a huge unbothered grin. He should look chaotic but oddly charismatic, like the accidental king of bad decisions. He is posed like a confident lifestyle-ad model, proudly showing off the can. Background & Lighting: A ridiculously polished ad-style backdrop mixed with a grimy city alley setting. Soft-focus urban textures, dumpster shapes, graffiti hints, and scattered clutter in the distance. Add dramatic studio lighting, soft glow, rainbow prism flares, and subtle light leaks to make the whole thing look way too premium for the subject matter. A few blurred {argument name=\"product\" default=\"Four Loko\"} cans can float artistically in the background for extra absurdity. Typography & Layout (Bold sans-serif, white and neon accent styling): Top Center (Background): Massive, bold text reading “{argument name=\"brand name\" default=\"FOUR LOKO\"}” positioned behind the subject. Top Right: Bold text reading “The Champagne of Bad Ideas”. Mid-Left: “Premium chaos and zero self-control” Mid-Right: Large, bold “23” with the text “ounces of terrible decisions.” Bottom-Right: Large, bold “1\" with the text “can to ruin tomorrow.” Optional small callout text near the bottom: “Now with more regret.” Style: Ultra-detailed, 8k parody commercial photography, sharp focus on the can, shallow depth of field, vibrant trashy color palette, clean advertising composition, exaggerated premium product-ad aesthetic, funny visual contrast between polished branding and the wrecked subject.",
@@ -4478,7 +4514,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 497,
+    "id": 501,
     "title": "VR Headset Exploded View Poster",
     "category": "vfx",
     "prompt": "{\n  \"type\": \"exploded view product diagram poster\",\n  \"subject\": \"VR headset\",\n  \"style\": \"clean high-tech 3D render, studio lighting, glowing accents\",\n  \"background\": \"{argument name=\\\"background color\\\" default=\\\"soft purple and blue gradient\\\"}\",\n  \"header\": {\n    \"logo\": \"∞ {argument name=\\\"product name\\\" default=\\\"Meta Quest 3\\\"}\",\n    \"subtitle\": \"{argument name=\\\"main catchphrase\\\" default=\\\"まったく新しい現実を、まったく新しい構造から。\\\"}\"\n  },\n  \"layout\": {\n    \"centerpiece\": \"vertically stacked exploded view of a VR headset showing 9 distinct layers of internal components: outer shell, camera sensors, motherboard with chip, pancake lenses, internal frame, battery packs, side straps, top strap, and facial interface cushion.\",\n    \"callout_labels\": {\n      \"count\": 8,\n      \"left_side\": [\n        \"Snapdragon® XR2 Gen 2\\n圧倒的な処理性能でリアルタイムな体験を。\",\n        \"調整可能なIPD機構\\n幅広いユーザーに快適なフィット感を。\",\n        \"精密設計されたヘッドストラップ\\n快適さと安定性を追求したエルゴノミクス。\"\n      ],\n      \"right_side\": [\n        \"フェイスプレート\\n洗練されたデザインと最適な重量バランス。\",\n        \"トラッキングカメラ\\n高精度な位置トラッキングと環境認識を実現。\",\n        \"パンケーキレンズ\\n薄型設計で広い視野角と鮮明な映像を提供。\",\n        \"高性能バッテリー\\n長時間駆動を支える最適化された電源設計。\",\n        \"柔らかなフェイスインターフェース\\n長時間でも快適な装着感を実現。\"\n      ]\n    },\n    \"footer\": {\n      \"left_text_block\": {\n        \"headline\": \"{argument name=\\\"bottom headline\\\" default=\\\"体験は、構造から進化する。\\\"}\",\n        \"body\": \"一つひとつのパーツに、没入体験を支える最先端テクノロジーとこだわりの設計。Meta Quest 3は、未来を感じさせる体験を内部から生み出しています。\"\n      },\n      \"right_logo\": \"∞ Meta\"\n    }\n  }\n}",
@@ -4487,7 +4523,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 498,
+    "id": 502,
     "title": "Luxury poster for fictional AI ad printer",
     "category": "vfx",
     "prompt": "縦型3:4の、高級商業ポスターを制作してください。\n\nテーマは、架空の新商品広告です。商品は「BRAND PRESS 01（ブランドプレス・ゼロワン）」という、Pollo AIを搭載した架空の広告ポスター生成プリンターです。\n\nこの商品は、まだ存在しないブランド名・商品ジャンル・世界観・ターゲット層を入力すると、Pollo AIがコピー、ビジュアル、レイアウトまで完成された商業広告ポスターを自動生成し、高精細な印刷物としてその場で出力する未来型プリンターです。単なるAIサービスの概念広告ではなく、実際に販売されていそうな架空商品の広告として成立させてください。\n\nメインコンセプト: 「まだないブランドに、最初の一目惚れを。」\n\n商品ビジュアル: 画面中央に実物の商品「BRAND PRESS 01」を大きく配置。未来型の高級プロ用印刷デバイスとして、黒い金属筐体、シルバーのエッジ、透明カバー、青白く発光するAIコア、精密な印刷ヘッド、ローラー、タッチパネル、排紙スロット、ポスター受けトレイを備える。排紙スロットから、架空の高級香水ブランド広告ポスターが紙として大きく出力されている構図。\n\n構図: ややローアングル、斜め45度。背景は暗いネイビーから黒の高級広告制作スタジオ。映画的でドラマチックな高級プロダクト広告。\n\n広告レイアウト: 上部に大きなキャッチコピー、中央にプリンター本体と排出中のポスター、右側に機能説明、左下に価格と発売日、下部にCTA。\n\n入れる文字: 「まだないブランドに、最初の一目惚れを。」 / BRAND PRESS 01 / 「Pollo AI搭載・広告ポスター生成プリンター」 / 「名前だけのアイデアを、完成された商業ポスターとして出力。」 / 「構想、コピー、ビジュアル、印刷まで。1台で。」",
@@ -4496,7 +4532,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 499,
+    "id": 503,
     "title": "Luxury chocolate campaign system",
     "category": "vfx",
     "prompt": "Create a premium, square (1:1) product advertisement for a fictional luxury chocolate brand called Noirvelle Chocolat, inspired by high-end chocolate brands. The ad should feel like a high-end editorial campaign, combining luxury food photography, refined packaging design, and cinematic lighting. Use matte black wrapper, subtle gold foil, elegant serif typography, and realistic product rendering. Generate flavor variants such as Blood Orange Noir, Salted Pistachio Muse, and Raspberry Ember with distinct mood, color palette, ingredients, headline, and supporting copy. Keep the chocolate bar as hero centerpiece with subtle reflections, shallow depth of field, luxury minimalism, and a small CTA: “Shop the drop.”",
@@ -4505,7 +4541,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 500,
+    "id": 504,
     "title": "Urban fruit juice ad poster",
     "category": "ui",
     "prompt": "Create a premium modern beverage advertisement poster in a vertical 3:4 format featuring a stylish young female model crouching confidently in a bright urban indoor hallway with colorful graffiti wall art on one side and clean minimal architecture on the other. In the foreground, a giant realistic fruit juice bottle is held toward the camera in forced perspective, with fictional branding like “VIVAJUICE”. Add brand logo, tagline, huge bold overlapping typography, four icon-based feature badges, and three smaller bottle variants at bottom right. Use soft natural lighting mixed with commercial studio polish, realistic shadows, shallow depth of field, glossy floor reflections, and a premium energetic eCommerce campaign aesthetic.",
@@ -4514,7 +4550,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 501,
+    "id": 505,
     "title": "Miniature City Diamond Necklace Ad",
     "category": "vfx",
     "prompt": "Create a hyper-detailed luxury advertising poster in a cinematic miniature-world style. A gigantic royal diamond necklace with intricate gold filigree and massive ruby gemstones stands in the center like an architectural monument. Surround the necklace with a futuristic miniature city built around and inside the jewelry piece, including skyscrapers, elevated highways, bridges, spiral staircases, tiny human figures, luxury billboards, drones, helicopters, and cinematic urban activity. Use a deep crimson red monochrome background with gold and ruby accents. Add premium fashion-ad aesthetics, ultra-realistic textures, glossy reflections, dramatic studio lighting, depth of field, tilt-shift miniature effect, and high-end commercial composition. Include bold elegant typography at the top saying: \"EMBRACE THE EXTRAORDINARY\". Style inspired by luxury jewelry campaigns, surreal city-building concepts, and premium 3D advertising renders. Ultra realistic, 8K, octane render, sharp focus, highly detailed, cinematic shadows, symmetrical composition.",
@@ -4523,7 +4559,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 502,
+    "id": 506,
     "title": "Watermelon Lime Beverage Ad Poster",
     "category": "vfx",
     "prompt": "Create a premium modern beverage promotional poster for We Drink.\n\nTOPIC:\n\nWatermelon Pink + Lime Green Refresh Campaign\n\nSTYLE & ART DIRECTION:\nModern energetic beverage advertising\nYouthful commercial branding\nSplit-color background composition\nBright refreshing summer aesthetic\nMinimal dynamic layout\nHigh-contrast drink advertisement style\nInstagram-ready beverage promotion\nPremium fast-moving commercial design\n\nMAIN SUBJECT:\n\nTwo large ultra-realistic cold beverages positioned prominently in the center.\n\nDrink 1:\n\nA vibrant watermelon pink drink in a transparent plastic cup with visible ice cubes, condensation droplets, and a fresh watermelon garnish.\n\nDrink 2:\n\nA bright lime green drink in a matching transparent cup with visible ice cubes, condensation droplets, and a lime slice garnish.\n\nAdditional elements:\n\nFloating ice cubes around the composition\nDynamic water splash effects\nSoft realistic shadows beneath each cup\nPremium glossy liquid textures\nTiny fruit slices suspended in motion\n\nLAYOUT & COMPOSITION:\nDiagonal split-color background\nLeft side: watermelon pink gradient\nRight side: lime green gradient\nLarge bold headline at the top center: \"SIP THE FRESHNESS\"\nTwo hero drinks centered prominently\nProduct descriptions placed beside each cup\nPromotional price section near the bottom-left\nWe Drink logo and small branding elements at the bottom\nFloating ice cubes and splash effects around the drinks\nSpacious modern commercial hierarchy\n\nTEXT & TYPOGRAPHY:\nBold oversized sans-serif typography\nYouthful rounded commercial fonts\nWhite typography accents\nSupporting text: \"Watermelon Burst\" and \"Lime Rush\"\nPromotional price: Only $3.99\nTagline: \"Freshness in Every Sip\"\n\nDEPTH & LIGHTING:\nSoft glossy studio lighting\nBright refreshing reflections\nRealistic beverage highlights\nFloating commercial depth\nSoft ambient shadows\nPremium condensation texture lighting\n\nEXTRA DESIGN DETAILS:\nFloating ice cubes\nWater splash particles\nGlossy gradients\nModern promotional badges\nFruit slices and droplets\nMinimal energetic decorative elements\n\nCOLOR PALETTE:\nWatermelon Pink (#FF4F87)\nLime Green (#A8FF2A)\nWhite typography\nSoft transparent highlights\n\nQUALITY:\n\nUltra-realistic beverage photography, premium advertising composition, Behance-quality commercial poster, high-resolution, sharp focus, photorealistic textures, professional brand campaign aesthetic.",
@@ -4532,7 +4568,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 503,
+    "id": 507,
     "title": "Berry Loud Acai Bowl Food Ad",
     "category": "vfx",
     "prompt": "Prompt 1: Vibrant lifestyle food advertisement, smiling woman in a bright hot pink blazer sitting inside a colorful trendy café, holding a spoon and eating an acai berry bowl topped with strawberries, blueberries, banana slices, and granola, branded \"Berry Loud\" jar on wooden table, playful retro typography reading \"BERRY LOUD\" in large cream bubble letters, tropical café interior with hanging plants, warm natural sunlight, cheerful atmosphere, bold pink and teal color palette, shallow depth of field, cinematic food photography, ultra realistic, high detail, commercial ad campaign style, 4k\n\nPrompt 2: Dynamic food product advertisement for \"Berry Loud\" mixed berry blend, acai smoothie bowl overflowing with strawberries, raspberries, blueberries, blackberries, banana slices, granola, dramatic berry juice splashes and floating fruits in mid air, branded jar beside bowl, vivid hot pink background, large retro cream typography saying \"NEW DROP BERRY LOUD\", glossy lighting, hyper realistic food photography, energetic composition, vibrant colors, commercial product shoot, ultra detailed textures, splash effect, studio lighting, 4k, advertising poster style",
@@ -4541,7 +4577,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 504,
+    "id": 508,
     "title": "Luxury Fragrance Campaign Portrait",
     "category": "realistic",
     "prompt": "Transform the uploaded portrait into a luxurious cinematic fragrance poster inspired by the dark seductive elegance of a high-fashion perfume campaign. Preserve her exact facial features, warm skin tone, confident expression, wavy brunette hair, and recognizable identity. Style her as a mysterious femme fatale with soft glossy lips, luminous skin, subtle smoky eyes, and an intense captivating gaze.\n\nDress her in a black satin slip dress with delicate lace trim and a glamorous faux fur wrap slipping off her shoulders. Place her inside a moody Parisian-inspired luxury interior with black reflective walls, gold rim lighting, deep shadows, cinematic contrast, and sensual ambient lighting. Add elegant reflections and depth for a premium editorial look.\n\nInclude a sleek black perfume bottle inspired by a luxury noir fragrance aesthetic near the foreground. Use refined minimalist typography in a luxury fashion-ad style with dramatic spacing and premium composition. Add a tagline such as: “She doesn’t follow. She leaves a trace.”\n\nThe overall mood should feel seductive, mysterious, powerful, feminine, cinematic, timeless, and ultra-luxurious — like a Chanel Coco Noir campaign directed by a Hollywood cinematographer. High detail, photorealistic skin texture, glossy highlights, rich blacks, warm gold accents, magazine-quality fashion photography, 8K luxury editorial finish.",
@@ -4550,7 +4586,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 505,
+    "id": 509,
     "title": "Berry Splash Cafe Campaign",
     "category": "vfx",
     "prompt": "Prompt 1:\nCreate a vibrant lifestyle food ad set inside a colorful, trendy cafe. Show a smiling woman in a bright hot pink blazer seated at a wooden table, lifting a spoon as she eats an acai berry bowl topped with strawberries, blueberries, banana slices, and granola. Keep a clearly branded \"Berry Loud\" jar on the table. Add playful retro cream bubble-letter typography that reads \"BERRY LOUD\". Use a tropical cafe interior with hanging plants, warm natural sunlight, a cheerful mood, a bold pink-and-teal palette, shallow depth of field, cinematic food-photography realism, high detail, and a polished commercial campaign finish. Format: vertical 9:16. Quality: ultra realistic, 4k.\n\nPrompt 2:\nCreate a dynamic food product advertisement for \"Berry Loud\" mixed berry blend. Feature an acai smoothie bowl overflowing with strawberries, raspberries, blueberries, blackberries, banana slices, and granola. Surround it with dramatic berry juice splashes and floating fruit frozen midair. Place a branded jar next to the bowl. Use a vivid hot pink background and large retro cream typography that says \"NEW DROP BERRY LOUD\". Keep the lighting glossy, the composition energetic, the colors vibrant, the textures ultra detailed, and the overall look like a polished studio-shot commercial poster with hyper-realistic food photography and splash-effect motion. Format: vertical 9:16. Quality: 4k.",
@@ -4559,7 +4595,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 506,
+    "id": 510,
     "title": "Fast Food Hero Poster",
     "category": "vfx",
     "prompt": "A cinematic 9:16 vertical composition featuring a gourmet \"Smokey Obsidian\" burger.\nWHAT: A towering burger with a charcoal brioche bun, thick Wagyu beef patty with visible sear marks, melting aged gruyère dripping like lava, and crispy maple-glazed bacon.\nFEEL: An atmosphere of \"Urban Indulgence.\" Dark, moody lighting with a single warm amber spotlight. Wisps of real hickory smoke curl around the bun. The texture is hyper-realistic you can see the salt crystals on the crust and the moisture on the heirloom tomato.\nSHOW: The burger is captured in a \"deconstructed gravity\" moment the top bun is slightly hovering, revealing the internal layers of house-made aioli and pickled red onions.\nTYPOGRAPHY: Integration of ultra-bold, distressed sans-serif typeface overlapping the bottom third of the frame. The text reads \"DEFY GRAVITY\" in a raw, concrete-texture finish.\nTECHNICAL: 4k resolution, macro photography style, shallow depth of field, neon-noir color grading (deep blacks, warm ambers, and subtle teal highlights).",
@@ -4568,7 +4604,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 507,
+    "id": 511,
     "title": "Matcha Granola Ad Poster",
     "category": "vfx",
     "prompt": "(Matcha Granola Ad)\n\nUltra-realistic premium food advertisement poster for a healthy breakfast granola brand, centered matte pouch packaging labeled “Matcha Oat Granola”, green monochrome aesthetic, flat lay composition, soft studio lighting, vibrant matcha green background, surrounded by kiwi slices, almonds, oats, chia seeds, matcha powder bowl, granola bowls, scattered ingredients, clean modern typography headline “SUPERFOOD MORNING BOWL”, handwritten annotation arrows with wellness benefits, luxury organic branding, natural shadows, high-end commercial food photography, minimal yet detailed layout, symmetrical composition, sharp focus, Instagram ad style, 8k detail, healthy lifestyle marketing design.\n\nPrompt : (Berry Yogurt Cereal Ad)\n\nHigh-end commercial breakfast cereal advertisement, pastel pink aesthetic with centered standing pouch packaging labeled “Berry Yogurt Crunch Cereal”, surrounded by strawberries, blueberries, yogurt bowls, milk jug, crunchy granola, scattered berries and grains, soft natural lighting, vibrant fresh mood, modern bold typography headline “START FRESH EVERY MORNING”, handwritten callout arrows and benefit text, realistic food textures, luxury supermarket packaging design, clean flat lay composition, soft shadows, premium branding, glossy vibrant colors, ultra-detailed food photography, Instagram/Facebook ad campaign style, healthy breakfast concept, 8k realistic render.\n\nPrompt : (Chocolate Protein Muesli Ad)\n\nPremium protein breakfast food advertisement poster featuring centered pouch package labeled “Chocolate Protein Muesli”, rich brown monochrome theme, surrounded by dark chocolate chunks, almonds, oats, banana slices, milk jug, muesli bowls, scattered ingredients, dramatic warm studio lighting, bold modern headline typography “HIGH PROTEIN BREAKFAST FUEL”, handwritten annotation arrows highlighting benefits, luxury fitness breakfast branding, realistic textures, symmetrical flat lay composition, high-end commercial food photography, strong contrast, healthy energy concept, clean packaging mockup design, ultra-realistic 8k advertising render, cinematic food styling.",
@@ -4577,7 +4613,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 508,
+    "id": 512,
     "title": "Tropical Product Ad Poster",
     "category": "vfx",
     "prompt": "GPT Image 2 Prompt Create a creative commercial advertising poster for [PRODUCT NAME], a [PRODUCT TYPE], inspired by vibrant tropical product campaigns. Place the product as a large hero object on the center-right with realistic glossy reflections, sharp label details, and premium lighting. Add a stylish model sitting beside or slightly in front of the product, naturally interacting with it by [MODEL ACTION]. The model should look [MOOD], wearing [OUTFIT STYLE], and should not cover the product label.",
@@ -4586,7 +4622,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 509,
+    "id": 513,
     "title": "Foam Clogs Ad Poster",
     "category": "vfx",
     "prompt": "Create a premium vertical 4:5 commercial advertising poster for perforated foam clogs, making the shoes visually central, clean, and instantly legible. Use the uploaded portrait photo only for the woman’s appearance and hairstyle so the final result keeps a similar identity. Preserve face shape, facial features, hairstyle, skin tone, body proportion, and overall temperament only; do not copy the original expression, clothing, background, lighting, or pose. Style her in refined modern summer campaign wardrobe with effortless premium casual energy. Composition: a confident lifestyle fashion portrait with the woman seated or stepping forward in an airy sunlit architectural setting, the clogs clearly visible in the foreground and on-foot, showing their rounded shape, ventilation holes, heel strap, soft matte foam texture, and lightweight comfort. Atmosphere: elevated urban resort, fresh air, clean shadows, soft natural daylight, polished commercial photography, subtle water or glass reflections, crisp product detail, realistic skin texture, premium but approachable. Poster headline: “STEP INTO AIR”. Subtitle: “Lightweight comfort for every city moment.” Use clean modern typography with generous spacing, placed in reserved negative space without covering the face or shoes. No watermark.\n\nNegative Prompt:\nwatermark, random text, misspelled headline, garbled letters, logo distortion, low quality, blurry, plastic skin, extra fingers, deformed hands, bad anatomy, overexposed highlights, unrealistic lighting, oversmoothed skin, cheap e-commerce look, AI-generated look, warped clog holes, incorrect shoe structure, melted foam texture, distorted heel strap, mismatched pair, hidden product, product cropped out, cluttered background",
@@ -4595,7 +4631,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 510,
+    "id": 514,
     "title": "Energy Drink Stadium Ad",
     "category": "vfx",
     "prompt": "Ultra realistic premium product advertising shot of a sleek aluminum energy drink can standing upright on a wet reflective surface inside a futuristic football stadium at night. The can design features vivid swirling rainbow brushstroke patterns in red, orange, yellow, green, and blue wrapping around the entire can, with a large glossy black and white soccer ball graphic in the center. Bold white distressed typography on the front reads “GOAL” with smaller clean modern text below saying “ENERGY DRINK”. Tiny premium icon details for energy, focus, and endurance near the bottom, along with “250 ml”.\n\nThe can is covered in realistic cold water droplets and condensation, highly detailed metallic texture, cinematic reflections, ultra sharp focus, luxury beverage commercial aesthetic, professional studio lighting.\n\nBackground filled with explosive colorful powder smoke clouds in blue, red, orange, green, and yellow bursting dramatically behind the can, combined with glowing football stadium floodlights, floating particles, water splashes, sparks, mist, and bokeh light effects. Dark moody environment with intense contrast and neon glow atmosphere.\n\nComposition centered and symmetrical, low angle hero shot, shallow depth of field, hyper realistic, cinematic color grading, ultra detailed advertising photography, sports branding campaign aesthetic, IMAX quality, 8k resolution, volumetric lighting, premium commercial product render, high energy dynamic mood.",
@@ -4604,7 +4640,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 511,
+    "id": 515,
     "title": "Sticker Reality Product Collage",
     "category": "vfx",
     "prompt": "Edit this image while preserving the original subject, composition, and background.\n\nTransform the scene into a “sticker reality” collage:\n\n* Add elements that look like physical stickers, paper cutouts, and taped notes layered over the image\n* Use slight misalignment and overlapping placement to create a natural scrapbook feel\n\nIncorporate hand-drawn doodles mixed with sticker-like graphics such as icons, shapes, and labels.\n\nAdd subtle paper textures, torn edges, and tape details to enhance realism.\n\nEnsure the product remains the main focal point while the collage elements build around it.\n\nBalance the composition so it feels rich and layered but still visually pleasing, not cluttered.\n\nThe final result should feel like a real photo transformed into a creative scrapbook composition.",
@@ -4613,7 +4649,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 512,
+    "id": 516,
     "title": "Soft Serve Cozy Aesthetic",
     "category": "vfx",
     "prompt": "GPT Image 2 On ChatGPT \n\nPrompt : (Soft Serve Ice Cream Aesthetic)\n\nClose-up aesthetic photo of two hands holding vanilla soft serve ice cream cones, cozy warm cafe lighting, creamy texture, dreamy beige and brown color palette, shallow depth of field, soft bokeh background, kawaii doodle stickers and white hand-drawn illustrations around the image, cute cartoon kids and bunny characters, handwritten typography saying “Sweet Moments”, playful sparkles and hearts, cozy lifestyle photography, cinematic warm tones, Instagram story aesthetic, soft glow, realistic food photography, adorable scrapbook journal style, ultra detailed, high quality, vibrant yet soft editing, wholesome happy vibe.\n\nPrompt : (Iced Coffee Cozy Aesthetic)\n\nClose-up aesthetic shot of a hand holding iced coffee in a transparent branded cup, warm golden cafe ambience, creamy iced latte with ice cubes, cozy sunlight and soft bokeh background, cute white doodle overlays and handwritten text, kawaii cartoon boy and bunny stickers, scrapbook aesthetic, soft brown and green color palette, dreamy lifestyle photography, playful sparkles and hearts around the drink, “Good Vibes, Good Coffee” typography style, warm cinematic tones, ultra realistic beverage photography, cozy Instagram aesthetic, soft glow effect, highly detailed, cheerful and refreshing mood.",
@@ -4622,7 +4658,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 513,
+    "id": 517,
     "title": "Anime Snapshot Conversion",
     "category": "illustration-standing",
     "prompt": "Show me the attached image as a snapshot from an actual anime",
@@ -4631,7 +4667,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 514,
+    "id": 518,
     "title": "Persona5 Character Reference Card",
     "category": "illustration-standing",
     "prompt": "基于此角色和背景，请制作一份类似官方设定资料的角色资料卡。\n・包含三视图：正面、侧面和背面\n・添加角色面部表情的变化・分解并展示服装和装备的详细部分\n・添加色板・包含世界观设定的简要说明\n・总体上，使用有组织的布局（白色背景，插画风格）高分辨率、专业概念艺术风格",
@@ -4640,7 +4676,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 515,
+    "id": 519,
     "title": "Gal Game Character Introduction Page",
     "category": "illustration-standing",
     "prompt": "最新モデルの画像生成ツールを使用して、\nこのちびキャライラストと立ち絵を使って本物のサイトページのようにキャラクター紹介ページ風イラストを作ってください。 （紹介ページとして使ってもおかしくないもの）\nギャルゲーのキャラクター紹介ページをイメージした高品質なもの。 顔の差分なども乗っている、CGイラストが存在する。ちびキャラが存在する。\n\n「ここに自己紹介」\n\n名前:（ここに名前） \nイメージカラー:（ここに色） \n身長:（ここに身長）cm \n体重:（ここに体重）kg\nキャッチコピー:\"「ここにセリフ」\"",
@@ -4649,7 +4685,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 516,
+    "id": 520,
     "title": "Official Character Sheet (JP)",
     "category": "illustration-standing",
     "prompt": "このキャラクターと背景を元に、 公式設定資料のようなキャラクターシートを作成してください。 \n・正面、側面、背面の3面図を含める ・キャラクターの表情バリエーションを追加 \n・衣装や装備の詳細パーツを分解して表示 ・カラーパレットを追加 ・世界観の簡単な説明を入れる \n・全体は整理されたレイアウト\n（白背景、図解風） \n・アスペクト比16：9\n\n高解像度、プロのコンセプトアートスタイル",
@@ -4658,7 +4694,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 517,
+    "id": 521,
     "title": "Mecha Girl Sea-City Key Visual",
     "category": "illustration-standing",
     "prompt": "A mecha girl mid-teens, pale skin smudged with soot and salt spray, sharp amber eyes with glowing HUD reticles, waist-length ash-white hair tied in a high ponytail whipping in the sea wind, matte gunmetal exoskeleton armor plating her shoulders, forearms and shins, exposed hydraulic pistons at the joints, chest rig with glowing cyan coolant lines, oversized oil-stained hangar jacket half slipping off one shoulder, a massive rail cannon resting on her right shoulder, dog tags and frayed red ribbon at her collar , standing off-center to the left on the rusted edge of a tilted steel platform jutting out over dark water, weight shifted onto one leg, left hand gripping the cannon strap, head turned slightly toward camera with a quiet defiant stare, steam venting from her back thrusters, her ponytail and jacket streaming sideways in the salt wind , a vast derelict sea-city at dusk, colossal megastructures of unknown purpose rising from the ocean in staggered silhouettes, bone-white monolithic towers fused with barnacled steel, cyclopean ring-shaped constructs canted at broken angles, rusted skeletal gantries threaded with dead cables, dark swells rolling between the pylons, shipwrecks half-swallowed at their feet, thick sea fog clinging to the bases while the upper structures pierce into a bruised sky, scattered faint lights blinking high in the towers like distant eyes , moody low-key lighting, cold teal ambient from the overcast sky, warm amber sodium glow leaking from a distant structure camera-right, hard backlight from a low sun behind the towers carving her silhouette, volumetric god rays cutting through sea mist, wet specular highlights on her armor , 35mm anamorphic lens, slight low angle looking up past her shoulder toward the structures, medium-wide shot, shallow depth of field with foreground rust in soft focus, horizontal lens flares, fine atmospheric haze compressing the distant megastructures into layered silhouettes , cinematic anime key visual, painterly digital illustration with crisp line art, desaturated oceanic palette of teal, bone-white and rust punched by small warm accent lights, film grain, high-contrast editorial poster aesthetic . Format 16:9.",
@@ -4667,7 +4703,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 518,
+    "id": 522,
     "title": "Saint Seiya Gold Saints Card Grid",
     "category": "illustration-standing",
     "prompt": "生成圣斗士星矢12个黄金圣斗士的12宫格卡牌图片,每张卡牌上写上对应的中文名,每行4个,宽高比16:9。",
@@ -4676,7 +4712,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 519,
+    "id": 523,
     "title": "Chaos Notes Hidden Face Character Art",
     "category": "illustration-standing",
     "prompt": "# 混沌としたメモ書き・記号の集合体からキャラクターの顔を浮かび上がらせるアート\n\n--- スタイル\n- 白い紙の上に黒インクで描かれた大量の手書きメモ、数式、記号、ランダムな線。\n- 紙いっぱいに散らばる書き殴り風のカオス。\n- 所々に赤インクの強調(ライン、塗り潰し、マーカー風の塊)。\n- アナログのノート落書きのような質感。\n\n--- 構図\n- ランダムなメモや記号が全体を覆い尽くす。\n- 黒インクの線や文字の密度が「キャラクターの顔」の位置に集中する。\n- 結果として、混沌の中から「与えられたキャラクターの顔のシルエット・表情」がうっすら浮かび上がる。\n- 顔は写実的ではなく、カオスの断片が集まって形を成す。\n\n--- 色彩\n- モノクロ(黒・白)を主体に構成。\n- 赤インクをアクセントとして散発的に配置。\n- 彩度は抑えめ、アナログの紙とインク感を重視。\n\n--- 表現要素\n- 読めるようで読めない文字列、日本語や英数字が混在。\n- 数式記号、矢印、点、斜線、クロス、ドリップ(インクの飛び散り)。\n- キャラクターの顔の目や髪の輪郭は、メモや記号の配置の「余白」や「濃淡」で浮かび上がる。\n\n--- 禁止事項\n- 顔を直接的に描き込む写実ポートレート。\n- デジタル処理的で整然とした幾何学模様。\n- カラフルな彩色や過飽和表現。\n- ロゴ、透かし、人工的なCG感。\n\n--- Definition of Done (DoD)\n- 全体は「混沌としたメモ・記号の集合体」として成立している。  \n- 与えられたキャラクターの顔が、混沌の濃淡・配置から自然に浮かび上がる。  \n- 色はモノクロ+赤アクセントのみ。  \n- 紙とインクの手描き的質感を保持している。",
@@ -4685,7 +4721,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 520,
+    "id": 524,
     "title": "Anime Martial Arts Battle Illustration",
     "category": "illustration-standing",
     "prompt": "An anime-style illustration of a {argument name=\"action type\" default=\"high-impact martial arts battle\"} between two young female fighters in a {argument name=\"setting\" default=\"traditional wooden martial arts dojo\"}. In the foreground, a girl with black hair in a high bun wears a {argument name=\"character 1 color theme\" default=\"red and white\"} Chinese-style martial arts outfit with baggy pants. She is in a dynamic, low, forward-thrusting stance, surrounded by swirling red energy and water splashes. In the background to the right, a girl with light purple hair in twin buns wears a {argument name=\"character 2 color theme\" default=\"green and purple\"} Chinese dress with gold embroidery and black tights. She is leaping through the air in a flying kick pose, surrounded by swirling blue energy. The wooden floorboards are splintering from the intense impact, with debris and dust flying through the air. Above them hangs a weathered wooden sign with the text \"{argument name=\"sign text\" default=\"武術会\"}\". The scene features dramatic lighting, a low-angle dynamic perspective, and intense action effects.",
@@ -4694,7 +4730,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 521,
+    "id": 525,
     "title": "GTA 6 in Bangalore Flower Market",
     "category": "illustration-standing",
     "prompt": "{argument name=\"game\" default=\"gta 6\"} in {argument name=\"location\" default=\"Bangalore’s market flower\"} in India",
@@ -4703,7 +4739,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 522,
+    "id": 526,
     "title": "GTA 6 Shinjuku Bar Scene",
     "category": "illustration-standing",
     "prompt": "{argument name=\"game\" default=\"GTA 6\"} in {argument name=\"bar name\" default=\"La Jetée Bar\"} (that pays homage to Chris Marker) in {argument name=\"location\" default=\"Shinjuku, Tokyo\"}",
@@ -4712,7 +4748,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 523,
+    "id": 527,
     "title": "Eleanor from White Cat Project",
     "category": "illustration-standing",
     "prompt": "{argument name=\"series\" default=\"White Cat Project\"}\n{argument name=\"character\" default=\"Eleanor\"}",
@@ -4721,7 +4757,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 524,
+    "id": 528,
     "title": "Character key visual poster with silhouette collage",
     "category": "illustration-standing",
     "prompt": "A character promotional poster titled “INPUT NAME,” designed in a unified vertical key visual composition (9:16). The upper half features the most recognizable element of the character as a dominant oversized visual silhouette. The middle to lower section contains the full character as a secondary subject. Inside the large silhouette and around the character, use a double-exposure and collage-style narrative composition with scenes, symbolic imagery, supporting elements, and environmental details blended into mist, ink wash, and negative space. The left and right sides include complementary secondary elements to create narrative tension and spatial variation. A continuous flowing visual line runs from top to bottom, connecting the main character, internal collage, and the large upper silhouette. Preserve large areas of negative space with ink diffusion, soft blurring, and fragmented transitions inspired by Eastern aesthetics. The style is cohesive, refined, restrained, and poster-worthy.",
@@ -4730,7 +4766,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 525,
+    "id": 529,
     "title": "Pixel game concept board from TV drama theme",
     "category": "illustration-standing",
     "prompt": "爱情公寓 电视剧主题 像素养成类游戏概念图，包括场景全局内容，周围环绕各人物形象三视图，底部是场景特写，右下角是剧情梗概。\n\n随机一个经典国内古装电视剧，生成古装电视剧主题像素养成类游戏概念图，包括场景全局内容，周围环绕各人物形象三视图，底部是场景特写，右下角是剧情梗概。\n\n「XXX」电视剧主题像素养成类游戏概念图，包括场景全局内容，周围环绕各人物（人物别重复）形象三视图，底部是场景特写，右下角是剧情梗概。",
@@ -4739,7 +4775,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 526,
+    "id": 530,
     "title": "Wooden Bookshelf Prompt Test",
     "category": "scene",
     "prompt": "A wooden bookshelf consisting of three shelves: On the top shelf, there should be one book, on the second shelf, there should be three books, and on the bottom shelf, there should be seven books.",
@@ -4748,7 +4784,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 527,
+    "id": 531,
     "title": "GPT-Image-2 Detail Showcase",
     "category": "scene",
     "prompt": "以眼部特写图片为基础，生成3:4的四屏构图超写实眼部特写，四屏按春夏秋冬上下排序。\n\n第一屏：眼眸中带着绽粉樱色的美瞳，睫毛缀满迷你春花，脸颊散落樱瓣与黄蕊小花，粉蝶萦绕眉眼，浅金发丝轻垂，下方簇簇樱花怒放，画面中央\"SPRING\"白色艺术字点缀，风格细腻唯美，光影柔和，色彩粉嫩治愈，下面用书法体写着春；\n\n第二屏：眼眸中带着着清荷色的美瞳，睫毛饰以粉莲与绿荷，脸颊挂着晶莹水珠，粉瓣、绿荷点缀其间，蜻蜓轻绕，浅金发丝若隐若现，画面中央\"Summer\"白色艺术字凸显，光影通透流光感，色彩清透凉爽，下面用书法体写着夏；\n\n第三屏：眼眸中带着金黄红相间的美瞳，睫毛饰以橙红枫叶，脸颊散落金红秋叶，橙蝶翩跹眉眼间，浅金发丝隐约可见，画面中央\"AUTUMN\"白色艺术字醒目，光影暖金流光，色彩浓郁温暖，下面用书法笔写着秋；\n\n第四屏：眼眸中带着雪花蓝色的美瞳，睫毛覆满冰晶雪片，脸颊散落白色雪花与红色腊梅，银白蝴蝶翩跹眉眼，浅金发丝朦胧似雪，画面中央\"WINTER\"白色艺术字亮眼，光影冷冽蓝白流光，色彩清透纯净，下面用书法体写着冬。\n\n整体呈现梦幻眼眸四季交替的唯美梦幻治愈画面，微调各屏的光影强度，让画面氛围感更浓郁。",
@@ -4757,7 +4793,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 528,
+    "id": 532,
     "title": "A/B Test Signed Output",
     "category": "scene",
     "prompt": "私があなたをどんなふうに扱ってきたか、4 コマ漫画風に描いてください。まずは 800 字くらいのプロットをテキストで出して、私が「描いて」と言ったらプロットに沿った 4 コマ漫画を描いてください。",
@@ -4766,7 +4802,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 529,
+    "id": 533,
     "title": "Silhouette Universe Narrative Poster",
     "category": "scene",
     "prompt": "请根据【主题：xxx】自动生成一张高审美的“轮廓宇宙 / 收藏版叙事海报”风格作品。不要将画面局限于固定器物或常见容器，不要优先默认瓶子、沙漏、玻璃罩、怀表之类的常规载体，而是由 AI 根据主题自行判断并选择一个最契合、最有象征意义、轮廓最强、最适合承载完整叙事世界的主轮廓载体。这个主轮廓可以是器物、建筑、门、塔、拱门、穹顶、楼梯井、长廊、雕像、侧脸、眼睛、手掌、头骨、羽翼、面具、镜面、王座、圆环、裂缝、光幕、阴影、几何结构、空间切面、舞台框景、抽象符号或其他更有创意与主题代表性的视觉轮廓，要求合理布局。优先选择最能放大主题气质、最能形成强烈视觉记忆点、最能体现史诗感、神秘感、诗意感或设计感的轮廓，而不是最安全、最普通、最常见的容器。\n\n画面的核心不是简单把世界装进某个物体里，而是让完整的主题世界自然生长在这个主轮廓之中、之内、之上、之边界里或与其结构融为一体，形成一种“主题宇宙依附于一个象征性轮廓展开”的高级叙事效果。主轮廓必须清晰、优雅、有辨识度，并在整体构图中占据核心地位。轮廓内部或边界中需要自动生成与主题强绑定的完整叙事世界，内容应当丰富、饱满、层次清晰，包括最能代表主题的标志性场景、核心建筑或空间结构、象征符号与隐喻元素、角色关系或文明痕迹、远景中景近景的空间递进、具有命运感和情绪张力的氛围层次，以及门、台阶、桥梁、水面、烟雾、路径、光源、遗迹、机械结构、自然景观、抽象形态、生物或道具等叙事细节。所有元素必须统一、自然、有主次、有层级地融合，像一个完整世界真实孕育在这个轮廓结构之中，而不是简单拼贴、裁切填充、素材堆叠或模板化背景。\n\n整体构图需要具有强烈的收藏版海报气质与高级设计感，大结构稳定，主轮廓强烈明确，内部世界具有纵深、秩序和呼吸感，细节丰富但不拥挤，内容丰满但不杂乱，可以适度加入小比例人物剪影、远处建筑、光柱、门洞、桥、阶梯、回廊、倒影、天光或远景结构来增强尺度感、故事感与史诗感。整体画面要安静、宏大、凝练、富有余味，不要平均铺满，不要廉价热闹，不要无重点堆砌。\n\n风格融合收藏版电影海报构图、高级叙事型视觉设计、梦幻水彩质感与纸张印刷品气质，强调纸张颗粒感、边缘飞白、水彩刷痕、轻微晕染、空气透视、柔和雾化、局部体积光、光雾穿透、大面积留白与克制版式，让画面看起来像设计师完成的高端收藏版视觉作品，而不是普通 AI 跑图。整体气质要高级、诗意、宏大、神圣、怀旧、安静、具有传说感和叙事感。\n\n色彩由 AI 根据主题自动判断并匹配最合适的高级配色方案，但必须保持统一、克制、耐看、低饱和、高级，不要杂乱高饱和，不要廉价霓虹感，不要塑料数码感。配色可以围绕黑金灰、冷蓝灰、雾白灰、褐红米白、暗铜、旧纸色、深海蓝、暮色紫、银灰等体系自由变化，但必须始终服务主题，并保持海报级审美与整体和谐。\n\n最终要求：第一眼有强烈的主题识别度和轮廓记忆点，第二眼有完整丰富的叙事世界，第三眼仍有细节和余味。轮廓选择必须具有创意和主题匹配度，尽量避免重复、保守、常见的容器套路，优先选择更有象征性、更有空间感、更有设计潜力的轮廓形式。不要普通背景拼接，不要生硬裁切，不要模板化奇幻素材，不要游戏宣传图感，不要过度卡通化，不要过度写实导致失去艺术感，不要形式大于内容。如果合适，可以自然加入低调克制的标题、编号、签名或落款，让它更像收藏版海报设计的一部分，但不要喧宾夺主。",
@@ -4775,7 +4811,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 530,
+    "id": 534,
     "title": "Lion Camel Ridge Dark Myth Scene",
     "category": "scene",
     "prompt": "中式怪异，黑暗神秘风格融合中式美学，完美细节，多重管线渲染，完美建模。西游记背景，狮驼岭，千妖万怪，坐在左边巨大王座上的大象王重甲妖精，坐在中间巨大王座上的狮王重甲妖精，坐在右边巨大王座上大鹏鸟王重甲妖精。渺小的背对镜头孙悟空肩抗金箍棒步行前进，孙悟空身穿铠甲，近地仰拍镜头，长焦镜头，强烈阴影。极致细节刻画，多次修改，正确透视和主体线条，精致细节",
@@ -4784,7 +4820,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 531,
+    "id": 535,
     "title": "Counter-Strike x Terraria Screenshot Mashup",
     "category": "scene",
     "prompt": "counter strike in game screenshot, mixed with Terraria",
@@ -4793,7 +4829,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 532,
+    "id": 536,
     "title": "Pre-war Japan Lab Minecraft Screenshot",
     "category": "scene",
     "prompt": "戦前日本の怪しげな研究所を探検しているマイクラのスクリーンショット画像を作成して",
@@ -4802,7 +4838,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 533,
+    "id": 537,
     "title": "Forged Masterpiece Prompt Test",
     "category": "scene",
     "prompt": "帮我生成xxxx真迹图片",
@@ -4811,7 +4847,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 534,
+    "id": 538,
     "title": "Multi-Concept Battle Poster Set",
     "category": "scene",
     "prompt": "1、生成不知火舞和貂蝉的游戏对战海报图\n2、生成一张K-pop团体时尚专辑封面\n3、请你生成 《斗破苍穹》 的关键人物关系图\n4、帮我截一张上传图片的抖音首页的女网红图",
@@ -4820,7 +4856,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 535,
+    "id": 539,
     "title": "Rust In-Game Screenshot",
     "category": "scene",
     "prompt": "an ingame screenshot of rust",
@@ -4829,7 +4865,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 536,
+    "id": 540,
     "title": "Sam Altman Bear Selfie",
     "category": "scene",
     "prompt": "generate image: Selfie of Sam Altman riding a bear\n\nEdit prompt: Remove the background make it transparent",
@@ -4838,7 +4874,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 537,
+    "id": 541,
     "title": "Among Us Realistic Screenshot",
     "category": "scene",
     "prompt": "AmongUsの精密な実際のゲーム画像を生成して",
@@ -4847,7 +4883,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 538,
+    "id": 542,
     "title": "Retro Programming Museum Cartoon",
     "category": "scene",
     "prompt": "在计算机博物馆里,一个程序员在展厅中央,正在演示C语言编程,很多参观者在围观,屏幕上的代码清晰可见。旁边的牌子写着:古法编程,现场表演。2D卡通画风,16:9",
@@ -4856,7 +4892,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 539,
+    "id": 543,
     "title": "14th-Dimension Projection Scene",
     "category": "scene",
     "prompt": "A dusk shindig  with multiple fake imagination projections all aligned in the 14th dimensions",
@@ -4865,7 +4901,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 540,
+    "id": 544,
     "title": "Sam Altman Baseball Broadcast",
     "category": "vfx",
     "prompt": "サムアルトマンがメジャーリーガーでバットを構えている。よくあるようなテレビ画面の構図",
@@ -4874,7 +4910,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 541,
+    "id": 545,
     "title": "Based on the video content and this current frame, use GPT to generate a YouT...",
     "category": "scene",
     "prompt": "Based on the video content and this current frame, use GPT to generate a YouTube thumbnail that fits the video. You can reference the style of the image I gave you, but replace the logo on the right side of AE with theChatCut logo. I'll attach the logo for you.",
@@ -4883,7 +4919,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 542,
+    "id": 546,
     "title": "Generate an image of the most significant event of 2020",
     "category": "scene",
     "prompt": "Generate an image of the most significant event of 2020",
@@ -4892,7 +4928,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 543,
+    "id": 547,
     "title": "Edit this image so that total amount changes to 244.5 baht. You can change th...",
     "category": "scene",
     "prompt": "Edit this image so that total amount changes to 244.5 baht. You can change the quantity of each of the stacks of coins until we hit the target total.",
@@ -4901,7 +4937,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 544,
+    "id": 548,
     "title": "Generate an image of the most significant event of 2001",
     "category": "scene",
     "prompt": "Generate an image of the most significant event of 2001",
@@ -4910,7 +4946,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 545,
+    "id": 549,
     "title": "Research LIME Drug Design and make a detailed infographic about it",
     "category": "scene",
     "prompt": "Research LIME Drug Design and make a detailed infographic about it",
@@ -4919,7 +4955,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 546,
+    "id": 550,
     "title": "Douyin Livestream Sales Screenshot",
     "category": "scene",
     "prompt": "生成一个抖音直播的截图 里面是一个美女在直播，在卖丝袜和内衣，她的在线人数是99996，热度是18+，有个叫小互的大哥，给她刷了一个飞机礼物",
@@ -4928,7 +4964,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 547,
+    "id": 551,
     "title": "Social App Match Success Screen",
     "category": "ue",
     "prompt": "社交App匹配成功界面，两个用户资料卡碰撞爱心特效",
@@ -4937,7 +4973,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 548,
+    "id": 552,
     "title": "Lu Bu Boss Design Sheet",
     "category": "scene",
     "prompt": "吕布游戏Boss设定，赤兔马方天画戟，暗黑进化形态双形态对比",
@@ -4946,7 +4982,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 549,
+    "id": 553,
     "title": "Nezha Dark Fantasy Novel Cover",
     "category": "scene",
     "prompt": "玄幻小说封面，哪吒三头六臂悬浮虚空，火焰莲台底座，暗黑史诗风",
@@ -4955,7 +4991,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 550,
+    "id": 554,
     "title": "New Chinese Minimalist Floral Illustration",
     "category": "scene",
     "prompt": "新中式极简东方美学 × 高端商业插画，主题一花一世界，\n极简，克制，空灵，高级商业视觉，超现实东方意境，\n画面干净通透，无灰雾、无脏色，\n\n一朵巨大的荷花作为空间容器，从平静水面自然生长，轻微倾斜，构图优雅留白充足，\n\n低饱和干净粉色，柔和胭脂调，花瓣半透明，轻盈通透，\n哑光低对比，边缘柔化 + 轻微景深，\n\n荷花内部为唯一视觉焦点：发光的3D微缩广州城市，包含：广州塔，珠江新城建筑群，猎德大桥，珠江水岸，少量岭南建筑，\n\n城市超精细结构，真实材质，极高细节清晰度，城市高光是暖金色，城市阴影是冷青蓝，形成冷暖对比，\n\n灯光通透有能量，局部高饱和但不泛滥，城市亮度明显高于荷花，\n\n水面清澈极简平静，仅少量柔和涟漪，弱反射，\n\n背景暖米白宣纸质感，无水墨、无笔触，大面积留白，\n中心有极轻微光晕渐变，整体通透、不灰、不闷，\n\n画面下方一艘极简小船，船上一位红衣渔女，极小比例，\n静立仰望荷花，红色为唯一高纯度点缀，\n\n整体光线通透、干净、有层次，无灰雾、无泛白，\n高端CG商业插画，电影级真实光影，高动态范围，超精细，8K细节，ArtStation 级画质，强化分色，干净调色，青橙对比，暖高光冷暗部，仅城市灯光提亮饱和度，色调柔和通透，光影锐利明亮，无灰雾、无暗沉、无低饱和雾化。",
@@ -4964,7 +5000,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 551,
+    "id": 555,
     "title": "Su Daji Ancient-Style Glamour Portrait",
     "category": "realistic",
     "prompt": "苏妲己古风写真，红色纱衣半透，狐耳若隐若现，媚态撩人",
@@ -4973,7 +5009,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 552,
+    "id": 556,
     "title": "Lu Xun Morning Flowers Illustration",
     "category": "scene",
     "prompt": "结合鲁迅的《朝花夕拾》里的内容，生成一副图片，要求图片背景符合《朝花夕拾》的意境，背景图可以使用蒙版，前景是 鲁迅的全身画像位于图片左侧或右侧",
@@ -4982,7 +5018,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 553,
+    "id": 557,
     "title": "Subway Candid Phone Snapshot",
     "category": "scene",
     "prompt": "地铁上低头看手机的美丽女人，偷拍照片。\n\n能免费试一次 ⬇️",
@@ -4991,7 +5027,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 554,
+    "id": 558,
     "title": "China Aerospace Commemorative Stamp Sheet",
     "category": "scene",
     "prompt": "中国航天纪念邮票小全张，火箭发射场景，烫金边框工艺",
@@ -5000,7 +5036,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 555,
+    "id": 559,
     "title": "Vertical Wuxia Heroine Portrait",
     "category": "realistic",
     "prompt": "9:16 竖版，极致武侠风，绝美东方女侠，20岁出头，冷艳锐利丹凤眼，眉宇英气逼人，肤白如玉，长直黑发湿漉漉随狂风剧烈飞舞，几缕发丝贴在脸颊和颈侧，穿着湿透的深黑改良武侠劲装，外披宽袖玄色长袍，衣袍和长袖被风吹得剧烈飘扬翻飞，紧身劲装勾勒身材，腰束软剑带，足踏长靴，右手持一把古剑，剑身散发幽蓝剑气光芒，动态姿势：身体微侧回眸，衣袂猎猎，背景为月夜雨雾笼罩的竹林古道，巨大明月高悬，石板小径，古灯笼，薄雾雨丝，戏剧性冷月光与蓝光剑气结合，湿身水光效果，超强动态感，细腻布料褶皱、头发丝飘动、真实水珠反光，电影级光影，8k，masterpiece, best quality, ultra realistic, cinematic, dramatic atmosphere",
@@ -5009,7 +5045,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 556,
+    "id": 560,
     "title": "Realistic Guanyin Portrait from Buddhist Texts",
     "category": "realistic",
     "prompt": "根据佛经对观音菩萨的形象描述，原原本本的还原一张真实的观音菩萨形象照片，皮肤与衣服接近真实，画质iPhone 15 pro",
@@ -5018,7 +5054,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 557,
+    "id": 561,
     "title": "Tang Dynasty Chang'an Lantern Festival Panorama",
     "category": "scene",
     "prompt": "唐代长安城元宵灯会全景，万盏花灯照亮夜空，工笔重彩长卷",
@@ -5027,7 +5063,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 558,
+    "id": 562,
     "title": "Historical Yang Guifei Realistic Portrait",
     "category": "ui",
     "prompt": "根据真实历史对杨玉环的形象描述，生成一张杨贵妃真实照片，画质为iPhone 15 pro",
@@ -5036,7 +5072,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 559,
+    "id": 563,
     "title": "Surreal Japanese Futuristic City Illustration",
     "category": "scene",
     "prompt": "参考这张图的透视和风格，绘制一张更加精细的超高清插画，表现超现实主义的日式未来都市，要能看清很小的细节，包括街道上的传统文化游行的人，小巷里的黑帮，烟花巷的舞女，疲惫的社畜，楼房的窗户里也有各式各样的人物，学习的学生，吵架的夫妻，玩游戏的宅男，以及更多的发挥细节。讽刺现实拥挤中的无聊，都市繁华下的孤独，无意义的人生中又有一种病态的美感。画面要有极高的审美价值 ，不能因为拼内容而损失美和协调感，比例是9:16",
@@ -5045,7 +5081,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 560,
+    "id": 564,
     "title": "Tushan Yaya Fantasy Glamour Portrait",
     "category": "realistic",
     "prompt": "狐妖小红娘涂山雅雅写真大片，粉色九尾狐裘紧身裙，媚眼如丝，红唇微张，极致妖媚",
@@ -5054,7 +5090,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 561,
+    "id": 565,
     "title": "Eastern Fantasy Female Half-Portrait",
     "category": "realistic",
     "prompt": "东方幻想风格女性，半身肖像，回眸侧脸，气质空灵优雅，柔和神性美感，细腻五官，微垂眼神，冷白细腻肌肤，淡雅橘粉妆容，金色高光点缀\n\n长发飘动，发丝中融入彩色花朵与光粒（红、蓝、橙、紫），头发具有流动感与空气感\n\n身穿半透明丝绸礼服与披肩，材质轻盈通透，布料随风飘动，表面带有鎏金纹理与闪耀颗粒。\n\n整体光影为暖金色逆光，强边缘光，体积光明显，光粒漂浮，柔光泛光，梦幻氛围\n\n背景干净浅色渐变，带微光与粒子效果，整体氛围空灵、梦境、神圣\n\n风格：高端CG插画，超精细，电影级光影，柔光渲染，8K细节，artstation 热门作品风格",
@@ -5063,7 +5099,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 562,
+    "id": 566,
     "title": "Vertical Artistic Portrait of a Young Eastern Woman",
     "category": "realistic",
     "prompt": "9:16 竖向构图，单人女性艺术肖像，年轻东方女生，五官清秀，脸部线条柔和，皮肤自然通透，保留真实肌理，气质安静高级，带一点疏离感和故事感。\n摄影棚风格与自然光融合，柔和侧光，面部有细腻高光，阴影轻柔，整体光线通透不刺眼，带轻微黑雾滤镜效果，微朦胧、微泛光、空气感强。\n背景极简干净，奶油灰、米白、浅卡其或雾感暖灰色墙面，留有大面积负空间，整体画面简洁、有呼吸感。\n模特坐在地面或低台上，一条腿自然弯曲，一条腿放松伸展，身体轻微前倾或侧倾，肩膀不对称，头部轻轻倾斜，动作自然松弛，不刻意摆拍。\n表情平静克制，眼神柔和，略微疏离，带一点若有所思的情绪，嘴唇自然微张或轻闭，状态慵懒、安静、细腻。\n发型为自然蓬松的长发，微凌乱碎发，发丝轻柔，有空气感和层次感，像刚整理过但保留自然随性感。\n妆容为高级淡妆，韩系清透底妆，皮肤柔雾光泽，鼻梁与面颊有自然高光，眉形干净，眼妆淡雅但有神，睫毛纤长，唇色为低饱和玫瑰豆沙色或奶茶裸粉色。\n服装为简约高级风：米白色紧身罗纹针织背心，外搭宽松白衬衫或柔软针织开衫，下装为高腰半裙或简约短裤，布料柔软贴合身形但不过分暴露，呈现自然身体线条与文艺感。\n画面强调细腻质感、柔和色调、轻法式与韩系杂志感结合，真实摄影感，电影级肤色，细节丰富，层次分明，构图克制，高级审美，时尚 编辑人像，柔和的电影感人像，细腻的质感，超高细节，逼真，优雅，精致，高端时尚摄影，含蓄的性感，简洁的构图。",
@@ -5072,7 +5108,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 563,
+    "id": 567,
     "title": "Autobots Assembled at Lunar Base",
     "category": "scene",
     "prompt": "图片1：汽车人全员月球基地集结，地球悬于身后星空，赛博坦旗帜飘扬\n\n图片2：霸天虎全员列阵外星战舰甲板，威震天坐于王座俯视全军",
@@ -5081,7 +5117,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 564,
+    "id": 568,
     "title": "Naturalist-Style Food Specimen Cross-Section",
     "category": "scene",
     "prompt": "一颗/一块/一枚【食物名称】，以博物学大师发现野外标本的方式解剖。\n剖开、展开、固定——如同博物馆的珍贵藏品，\n却以卡拉瓦乔为《国家地理》掌镜时的光线照亮。\n每一个内部结构都以自身的材质真相发光。\n截面锋利得近乎暴力。内部美丽得近乎神圣。\n画面中呈现完整标本：\n一半保持原状，展示【外表面描述：质感/颜色/纹理】；\n另一半剖开至核心，【内部核心结构描述：最重要的1—2个内部视觉特征】清晰可见。\n【补充1—2句该食物最具视觉张力的横截面细节描述】\n背景：纯粹的黑丝绒。\n【食物名称】悬浮其中，如同某件珍贵而危险的事物。\n标注文字紧贴结构边缘，手写感衬线字体，绝不悬空飘浮。\n画面包含以下标注，每处标注三行：第一行结构名称，第二行成分数据，第三行一句人话：\n【结构01名称】\n【成分／数据说明】\n【这个结构在做什么，为什么重要】\n\n【结构02名称】\n【成分／数据说明】\n【这个结构在做什么，为什么重要】\n【结构03名称】\n【成分／数据说明】\n【这个结构在做什么，为什么重要】\n【结构04名称】\n【成分／数据说明】\n【这个结构在做什么，为什么重要】\n【结构05名称】\n【成分／数据说明】\n【这个结构在做什么，为什么重要】\n\n【结构06名称】\n【成分／数据说明】\n【这个结构在做什么，为什么重要】\n省略其他如果有继续保持这个格式\n主标题，左上角，暖象牙白大写字体：\n【食物名称】·解剖\n\n斜体副标题紧随其下：\n【一句揭示这种食物本质的话，不超过15字】\n\n整体气质：奥杜邦博物插画×卡拉瓦乔光影×有史以来最美的科学摄影。\n4K精度，标本照明，极致内部细节。\n没有任何临床感，一切都鲜活。\n写实风格，非示意图，非卡通，非简化图解。\n每一种材质都有真实的物理质感：\n粗糙的、光滑的、湿润的、干燥的、致密的、疏松的。",
@@ -5090,7 +5126,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 565,
+    "id": 569,
     "title": "Polaroid Frame Breakout Scene",
     "category": "scene",
     "prompt": "ポラロイド写真の中に人が写っていて、その人がフレームから外に飛び出している画像。日本語が書いてある画像生成して\n\n←下の画像\nGPT Image-2で生成したやつ→",
@@ -5099,7 +5135,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 566,
+    "id": 570,
     "title": "Restaurant POV Change Comparison",
     "category": "scene",
     "prompt": "A side-by-side comparison graphic on a black background demonstrating a camera-angle change in the same restaurant scene. At the top, large white sans-serif text reads: \"Show me the POV from someone standing behind the bar looking out over this crowded restaurant. Change NOTHING in the scene other than the pov\". Below, place 2 stacked rectangular photos centered vertically: the top image labeled \"Source\" in large white text on the left, and the bottom image labeled \"Output\" in large white text on the left. The top photo shows a warmly lit, upscale, crowded restaurant interior seen from the dining room side, facing a tall back bar filled with many illuminated liquor bottles on wall-to-wall shelves, with bartenders and guests in front, amber lighting, globe pendant lights, wood ceiling, beige columns, and tightly packed seated diners in the foreground. The bottom photo shows the exact same restaurant, same crowd density, same warm lighting, same decor, same bar shelving, same globe pendant lights, and same overall composition elements, but now from the point of view of someone standing behind the bar and looking outward across the crowded restaurant; the foreground includes the bar counter with glassware, metal bar tools, bottles, and a point-of-sale screen visible at the lower left, while guests and staff fill the middle ground and the dining room extends into the background. Preserve the sense that only the camera position changed between the 2 images, with no other scene alterations.",
@@ -5108,7 +5144,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 567,
+    "id": 571,
     "title": "Anime Crowd POV Comparison",
     "category": "anime",
     "prompt": "{\"type\":\"comparison graphic\",\"style\":\"anime cinematic demonstration image on a black presentation background\",\"canvas\":{\"aspect_ratio\":\"4:3\",\"background\":\"solid black\"},\"text_elements\":[{\"text\":\"{argument name=\\\"headline text\\\" default=\\\"Move the camera POV to be at ground level in the crowd.\\\"}\",\"position\":\"top center\",\"style\":\"large white sans-serif\"},{\"text\":\"Source\",\"position\":\"left of upper image\",\"style\":\"large white sans-serif\"},{\"text\":\"Output\",\"position\":\"left of lower image\",\"style\":\"large white sans-serif\"}],\"layout\":{\"sections\":[{\"title\":\"Source\",\"position\":\"upper center\",\"count\":1,\"labels\":[\"overhead crowd scene\"]},{\"title\":\"Output\",\"position\":\"lower center\",\"count\":1,\"labels\":[\"ground-level crowd POV scene\"]}],\"image_frames\":2},\"images\":[{\"role\":\"source image\",\"composition\":\"busy top-down view of a densely packed historical street crowd, seen from above\",\"scene\":\"a chaotic crowd gathered around a wagon and a horse-drawn carriage, people pressed shoulder to shoulder, many wearing caps and muted early-20th-century or old-European clothing, bundles and sacks visible, one brown horse at the right edge, wooden wagon wheel and cart structure partially visible\",\"camera\":\"high overhead bird's-eye angle looking down into the crowd\",\"lighting\":\"soft daylight\",\"color_palette\":\"muted earthy browns, dusty blues, beige, olive, warm gray\",\"rendering\":\"hand-painted anime film still, detailed crowd illustration, slightly soft shading\"},{\"role\":\"output image\",\"composition\":\"the same crowded historical street reimagined from inside the mass of people at near-ground height\",\"scene\":\"view from within the crowd beside a carriage wheel, bodies filling the foreground and midground, a person in dark maroon clothing bent forward at left, a crouched figure in green near the bottom center, a woman in a light blue dress at right-center turning back, tightly packed figures, horse and cart implied nearby, dramatic sense of compression and closeness\",\"camera\":\"very low ground-level POV from inside the crowd, upward and forward through people, emphasizing complex occlusion and depth\",\"lighting\":\"soft daylight with warm cinematic shadows\",\"color_palette\":\"muted earthy browns, dusty blues, beige, olive, warm gray\",\"rendering\":\"hand-painted anime film still, cinematic perspective shift, detailed character crowding, soft painterly shading\"}],\"overall_goal\":\"show a before-and-after camera angle transformation of the same anime crowd scene, with the output moving from an overhead view to a low immersive POV inside the crowd\"}",
@@ -5117,7 +5153,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 568,
+    "id": 572,
     "title": "Neon AI Thumbnail Comparison",
     "category": "scene",
     "prompt": "Create a dramatic Japanese YouTube thumbnail in a futuristic neon cyberpunk style, 16:9 landscape. Use a dark tech-city background with faint skyscrapers, digital grid lines, glowing particles, and high-contrast blue, pink, and gold lighting. In the exact center, place a young woman from the waist up with long straight pastel blue hair, wearing a plain white short-sleeve T-shirt and a light pink skirt, posing thoughtfully with one hand near her chin and the other arm folded; anonymize her face with a soft rectangular blur. Across the very top, add huge distressed bold white Japanese headline text reading 主導権が揺れた, and directly below it add large bold yellow text reading {argument name=\"subheadline text\" default=\"Nano Bananaから\"}. On the left side, create a glowing blue hexagonal-framed panel titled Nano Banana with a smaller subtitle 画像生成. Inside that panel, include exactly 4 image tiles in a 2x2 grid: 1) a fantasy floating island landscape at sunset, 2) a sunlit forest path with tall trees, 3) a neon futuristic city street at night, 4) an outer-space planet scene with stars and a spacecraft. Beneath the left panel, add a blue glowing ribbon label reading かつては優位だった. On the right side, create a glowing magenta hexagonal-framed panel titled {argument name=\"right panel title\" default=\"GPT Image 2\"} with a smaller subtitle 実務で使える出力へ. Inside it, include exactly 4 example thumbnail cards in a 2x2 grid, each featuring the same blue-haired woman with a blurred face and bold Japanese text. The 4 card labels above the tiles are: サムネイル画像, 記事のアイキャッチ画像, LPのセクション画像, SNS投稿画像. The large text inside the 4 cards should read respectively: 1) AIで変わるクリエイティブの未来, 2) AI時代のクリエイティブ戦略 成功する企業の条件, 3) AIで加速するビジネス成長, 4) 未来をつくるのは AI×あなたのアイデア. Between the left and right panels, place a bright glowing gold arrow pointing from left to right with spark-like particle trails, indicating transition or superiority shift. Along the bottom, add a very large black banner with a glowing gold border and massive bold gold text reading {argument name=\"bottom banner text\" default=\"GPT Image 2へ\"}. Overall composition should feel like a comparison graphic showing a shift from older image generation to more practical commercial output, with aggressive thumbnail typography, strong glow effects, metallic texture on major text, and polished social-media marketing visuals.",
@@ -5126,7 +5162,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 569,
+    "id": 573,
     "title": "Cyberpunk AI Tools Comparison Poster",
     "category": "scene",
     "prompt": "A futuristic Japanese tech comparison poster in a dark cyberpunk control-room setting, wide 16:9 composition. Large distressed white Japanese headline text at the upper left reading \"三つ巴\", with a bold gold subtitle directly below reading \"それぞれの武器\". Across the center-left are 3 glowing holographic comparison panels arranged horizontally and connected by neon arrows: a blue panel labeled \"Google\", an amber-gold panel labeled \"Claude\", and a purple-magenta panel labeled \"OpenAI\". The Google panel contains 4 inner cards: 2 larger top cards labeled \"Gemini\" and \"Antigravity\", plus 2 smaller bottom cards showing analytics/dashboard-like visuals and a blue isometric cube graphic. The Claude panel contains 4 inner cards: 1 large top card labeled \"Claude Code\", plus 3 smaller bottom cards showing a network diagram, text/code list, and chart analytics. The OpenAI panel contains 5 inner cards: 2 larger top cards labeled \"ChatGPT\" and \"Codex\", plus 3 smaller bottom cards showing interface/code windows and a geometric wireframe cube. Add glowing bidirectional arrows between Google and Claude, and between Claude and OpenAI. At the bottom center, place a large neon-framed banner with gold text reading \"Google / Claude / OpenAI\". On the right side, include a young woman standing and pointing left toward the panels, with long straight split-dyed hair in pastel pink and cyan blue, a plain white t-shirt with black text reading \"{argument name=\"shirt text\" default=\"OKIHIRO AI Creative\"}\", and a soft pink pleated skirt. Her face is obscured by a smooth rectangular blur block. Use cinematic sci-fi lighting, glossy hologram UI details, high contrast, vivid blue-gold-purple accents, and a polished YouTube thumbnail aesthetic.",
@@ -5135,7 +5171,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 570,
+    "id": 574,
     "title": "Japanese AI Battle YouTube Thumbnail",
     "category": "scene",
     "prompt": "A bold Japanese YouTube thumbnail about the AI competition era, 16:9 widescreen, high contrast, dramatic tech-news style. Use a dark futuristic control-room background filled with 3 glowing holographic dashboard screens and blue cyber interface elements around the edges. On the left and center, place a luminous circular hub labeled “AI” in bright blue, with 3 directional glowing energy arrows branching outward to competing platforms: “Google” on the left in a blue electric region, “Claude” on the upper right in a gold electric region, and “OpenAI” at the bottom center in a magenta-purple electric region. Add a subtle world-map or territory-battle visualization effect under each brand region, like illuminated digital land masses or influence zones. On the right side, show a young Japanese-looking woman from waist up, facing forward, wearing a long straight split-color wig with pastel pink on one side and pastel blue on the other, a plain white T-shirt with the printed text “OKIHIRO AI Creative”, and a light pink skirt. She raises one index finger beside her face in a presenter pose. Her face is fully obscured by a large soft-edged rectangular blur block. Across the top, add huge distressed white Japanese headline text: {argument name=\"headline text\" default=\"AI戦国時代\"}. Beneath it, add a second line in bold gold Japanese text: {argument name=\"subheadline text\" default=\"性能だけの話じゃない\"}. Across the bottom, place a wide black banner with massive bold gold Japanese text: {argument name=\"bottom text\" default=\"空気を取った側が勝つ\"}. Make the typography oversized, gritty, and attention-grabbing, with slight glow and drop shadow. Use a color palette of black, electric blue, gold, magenta, and neon white, with intense contrast and thumbnail readability.",
@@ -5144,7 +5180,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 571,
+    "id": 575,
     "title": "Tokyo DisneySea Front-Row Battle UI",
     "category": "ui",
     "prompt": "Create a hyper-detailed comedic Japanese arcade fighting game screenshot styled like a versus battle scene, using a real-world photo aesthetic with game UI overlaid on top. The scene shows an intense mock battle between two groups of theme-park fans competing for the front row at an outdoor show plaza in Tokyo DisneySea. Use a wide 16:9 composition. In the background, clearly show Mediterranean Harbor and Mount Prometheus under bright daytime skies, with the waterfront and DisneySea architecture visible. In the foreground, show exactly 10 young adult people in winter casual clothing, split into 2 opposing teams of 5, physically leaning, grabbing, reaching, and shoving in a tug-of-war-like scrum over position, with exaggerated competitive body language and frozen action as if in a fighting game. Faces should be anonymized with soft blurred blocks. Add floating character labels above each person with levels and names in Japanese. The overall tone is absurdly realistic, like a real candid photo transformed into a polished arcade game battle screen.\n\nAdd a full Japanese fighting-game HUD with glossy blue-versus-red interface styling. At the very top, place a center stage title bar reading \"東京ディズニーシー ミッキー広場 ショー最前列バトル\" and a large timer in the middle reading \"TIME 89\". In the top left, add a blue team header \"PLAYER1\" and team name \"最前列ガチ勢A\". In the top right, add a red team header \"RIVAL\" and team name \"ライバルグループB\". On the left side, stack exactly 5 blue player status panels with portraits, level, Japanese class-like nicknames, HP, SP, and BURST meters. The 5 left-side labels are: \"Lv.25 ガチ勢リーダー ユウキ\", \"Lv.24 筋肉マン タケシ\", \"Lv.23 眼鏡オタク シンジ\", \"Lv.23 開角心MAX ケント\", \"Lv.22 サポート要員 リョウ\". On the right side, stack exactly 5 red rival status panels with the labels: \"Lv.27 ライバルリーダー ダイキ\", \"Lv.26 パワフル代表 マサル\", \"Lv.24 戦略家 コウジ\", \"Lv.23 熱血漢 リク\", \"Lv.22 サポート女子 サキ\". Each panel should include numeric HP and SP values and segmented BURST gauges, styled like a Japanese arcade RPG-fighter interface.\n\nPlace exactly 10 in-battle nameplates above the fighters in the center scene, color-coded blue for the left team and red for the right team. The 10 labels are: \"Lv.24 タケシ\", \"Lv.25 ユウキ\", \"Lv.23 シンジ\", \"Lv.23 ケント\", \"Lv.22 リョウ\", \"Lv.27 ダイキ\", \"Lv.26 マサル\", \"Lv.23 リク\", \"Lv.22 サキ\", \"Lv.22 ミサキ\".\n\nAt the lower left, add a skill menu titled \"スキル\" listing exactly 5 skills with SP costs: \"ダッシュ突撃 SP 20\", \"肩押し強奪 SP 25\", \"荷物で場所確保 SP 15\", \"ロープくぐり SP 10\", \"本気の根性 SP 50\". Beneath that, add a dark description box explaining the highlighted skill \"本気の根性\" with the Japanese text: \"気合で相手を威圧し、どかす! 一定時間、相手が怯みやすくなる! (バーストゲージを大きく消費する) 効果時間:10秒\".\n\nAt the bottom center, add an item menu titled \"アイテム\" with exactly 5 item slots showing icons and counts: a water bottle \"x3\", a folded purple towel \"x2\", a blue drawstring bag \"x1\", a gray backpack \"x1\", and a boxed meal \"x2\". At the lower right, add a quest panel titled \"クエスト\" with the mission text \"ショー開始までに最前列を死守しろ!\" and condition text \"条件:ライバルグループを全員後ろに押し戻せ!\" and countdown text \"ショー開始まで:02:30\". Beside it, add a mini-map titled \"ミッキー広場MAP\" showing red and blue dots for both teams in the plaza. Along the very bottom edge, include small controller prompts in Japanese for actions such as skill use, item use, grab/push, and dash.\n\nUse dramatic, saturated lighting, crisp detail, realistic clothing folds, authentic plaza stone pavement, and a high-end Japanese game screenshot look. The image should feel like a ridiculous but believable crossover between a real Tokyo DisneySea crowd photo and a competitive arcade battle game interface.",
@@ -5153,7 +5189,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 572,
+    "id": 576,
     "title": "Miyazaki-style short film pipeline",
     "category": "scene",
     "prompt": "Given a story concept, generate a complete Miyazaki-style animated short film: write a 30-shot script → generate watercolor storyboard images (gpt-image-1) → plan SOFT/HARD transitions → produce video clips with Seedance 2.0 using first/last-frame binding → synthesize the original ambient piano score → stitch everything into a final MP4 with music.",
@@ -5162,7 +5198,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 573,
+    "id": 577,
     "title": "视觉品牌拆解图",
     "category": "scene",
     "prompt": "请帮我生成一张视觉品牌拆解图，稍后我需要用来生成讲解的视频。",
@@ -5171,7 +5207,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 574,
+    "id": 578,
     "title": "Apartment Drama Animation Storyboard Sheet",
     "category": "scene",
     "prompt": "Create a new animation sheet, but this time it's a storyboard between an Indian man and an Indian woman in a dramatic scene inside an apartment. Ensure the elements of the apartment are in the scene, and include dialogue boxes, this is for 15 seconds so be careful of the cadence (sentences not too long), when a character speaks they should be the only one in frame.",
@@ -5180,7 +5216,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 575,
+    "id": 579,
     "title": "Whimsical Folk Doodle Transformation",
     "category": "scene",
     "prompt": "Simplify all details into clean, flat shapes with a handmade, slightly imperfect feel, as if drawn on a sheet of white paper. The overall style should look cute, childlike, and whimsical.",
@@ -5189,7 +5225,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 576,
+    "id": 580,
     "title": "Interior Design Mood Board Generator",
     "category": "scene",
     "prompt": "GPT Image 2 室内设计情绪板生成器\n\n提示词：\n（室内设计情绪板生成器 / Interior Design Mood Board Generator）\n你是一名专业的室内设计 Mood Board 创作者。请基于用户提供的 [Space Type] 室内设计照片，生成一张 竖版 3:4 的高端室内设计情绪板。整体视觉参考专业室内设计提案图，呈现 [Style Keywords] 的审美特征，画面应具备 [Mood Keywords] 的空间氛围，并符合 [Branding Tone] 的高级设计表达。\n场景类型（Space Type）：[Space Type]\n画面布局要求\n上半部分：呈现一张高分辨率、照片级真实感的 [Space Type] 室内设计效果图。\n\n该效果图需要在空间结构、家具语言、材质关系、色彩搭配、光影氛围上与用户输入照片保持一致，同时提升为更完整、更精致、更具设计提案感的视觉呈现。\n\n重点体现：[Key Furniture Elements]、[Material Keywords]、[Color Palette]、[Lighting Style]。\n下半部分：展示与上方空间设计严格对应的材质与软装样本，包括：\n材料样板\n面料样本\n色卡\n饰面样本\n与该空间相关的木材、石材、金属、玻璃、织物、皮革或涂料样本\n\n所有样本必须与上方空间保持一致，并准确反映该设计方案中的核心材质与色彩逻辑。\n右下角：设置一个 Design Legend / Color Palette 信息框，统一展示本方案的：\n主色\n辅助色\n点缀色\n核心材质\n饰面说明\n风格关键词\n风格与输出要求\n专业室内设计公司级别的 Mood Board 版式\n极简、整洁、克制、有秩序的排版\n明确的视觉层级与留白控制\n材质、色彩、面料、饰面与上方空间完全匹配\n标签清晰、现代、简洁，具有高级编辑设计感\n整体气质需符合 [Style Keywords]\n呈现 [Render Quality]\n竖版 3:4 构图\n4K Ultra HD\n超高细节\n写实渲染\n直接用于图像生成\n标签要求\n每个材质或色彩样本配有清晰标签，标签内容围绕以下信息组织：\n\n[Label Language] 的材质名称、颜色名称、饰面名称或织物类型。\n\n标签风格应简洁、专业、排版规整，不喧宾夺主。\n主题定义\n[Space Type] Interior Design Mood Board\n\n风格方向：[Style Name]\n\n关键词：[Style Keywords], [Material Keywords], [Color Palette], [Mood Keywords]\n负面约束\n避免杂乱拼贴、避免廉价海报风、避免材质与空间不匹配、避免错误透视、避免低质字体、避免装饰元素过多、避免卡通感、避免过饱和色彩、避免信息层",
@@ -5198,7 +5234,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 577,
+    "id": 581,
     "title": "Donut Heist Storyboard Sheet",
     "category": "scene",
     "prompt": "Title: “THE DONUT HEIST”\nSubtitle: “15s Comedic Storyboard – 9 Shots”\n\nStyle: full-color 3D animated storyboard sheet, cinematic cartoon characters, polished lighting, expressive faces, vibrant colors, red panel borders, blue camera/action arrows.\n\nCharacters: chubby food-obsessed raccoon with striped tail. Small hyperactive squirrel with fluffy tail.\n\nImportant: keep left-right continuity. Squirrel always rushes from screen left to right, looking toward the bench/raccoon, never away. Raccoon stays near the donut box. In panel 03, the raccoon hears rustling from screen left and looks that way.\n\nEach panel: timecode, shot type, camera move, short action note.\n\n01 0–1.5s Wide/static: raccoon finds donut box on park bench.\n02 1.5–3s Med/push-in: raccoon opens box in awe.\n03 3–4.5s MCU/pan: raccoon hears rustling from screen left and looks that way, suspicious.\n04 4.5–6s Wide/tracking: squirrel sprints toward bench, eyes locked on donuts.\n05 6–7.5s Med/push-in: raccoon protects donut box.\n06 7.5–9s Close/forward: squirrel crashes into raccoon, donuts fly.\n07 9–11s Close/tight: both scramble for falling donuts.\n08 11–13s Med/static: both freeze, holding half a donut.\n09 13–15s Wide/final hold: they glare, then bite at once.\n\nRight side: character sheet + palette: sunny park, green grass, raccoon grey-brown, squirrel orange-brown, pink icing.",
@@ -5207,7 +5243,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 578,
+    "id": 582,
     "title": "Sourdough Baker Storyboard",
     "category": "scene",
     "prompt": "“Create a crisp, clean infographic storyboard poster for THE SOURDOUGH BAKER. Wide 16:9 layout, white background, black borders, bold black typography, premium Pixar 3D stylized rendering, bright warm colors — creamy dough whites, golden crust browns, warm flour dust, rich amber kitchen light, pops of green from herbs on the windowsill. Top header: THE SOURDOUGH BAKER TOTAL VIDEO TIME: 12 SECONDS 8 SHOTS · WARM · SLOW · BAKED WITH LOVE Legend icons: ACTION, HEAT, TIME HINT, INGREDIENT Same Pixar-style young male baker throughout — flour-dusted white apron, warm rustic kitchen, wooden counter, morning light streaming through the window. And one recurring character — a fluffy orange cat who takes the craft extremely seriously and is present in every single panel. 8 panels: Panel 1 — THE OPENER: Wide shot. Baker walks into his kitchen at dawn carrying a large flour bag under one arm. He drops it onto the wooden counter sending a dramatic puff of white flour into the warm morning light — flour cloud catching the golden sunlight beautifully. The orange cat is already sitting on the counter waiting, completely unbothered by the flour cloud, staring directly at the baker. They look at each other. The day begins. You know exactly what's about to happen. Panel 2 — THE MIX: Overhead locked shot. Baker's hands mixing flour, water and sourdough starter together in a large ceramic bowl — shaggy dough forming, the transformation beginning. The orange cat sits at the edge of the counter, head tilted, watching the bowl with complete concentration. Panel 3 — THE KNEAD: The hero comedy panel. Baker steps aside. The orange cat is on the counter, both front paws pressing and kneading the dough exactly like cats do in real life — slow rhythmic biscuit-making motion, eyes half closed in pure contentment. Baker watches from the side with a resigned smile. The cat is completely unbothered and deeply committed to the process. Panel 4 — THE FOLD: Side angle. Baker performs the stretch and fold — pulling the dough up and folding it over itself, the dough becoming smooth and elastic. Close-up on hands and dough. The orange cat watches from beside the bowl, one paw resting on the counter edge, supervising every movement. Panel 5 — THE SCORE: Close-up dramatic shot. Baker holds a razor lame above the risen dough, scoring a deep curved line across the surface — the blade catching the light. The orange cat sits in the background perfectly framed, watching with complete intensity as if this is the most important moment of the day. It is. Panel 6 — THE OVEN: Wide shot. Baker slides the dough inside the cast iron dutch oven, closes the heavy lid, slides it into the glowing oven. The orange cat sits directly in front of the oven door, staring at it, waiting. Will not move. Will never move. Panel 7 — THE REVEAL: The hero frame. Baker lifts the dutch oven lid — an enormous cloud of steam erupts upward, and beneath it the most perfect golden sourdough loaf, deeply scored crust cracked open, caramelized and blistered. The orange cat stands up on its hind legs trying to see over the counter edge, eyes wide, completely losing its composure for the first time. Panel 8 — THE SLICE: Wide warm shot. Baker slices through the loaf — perfect open crumb revealed inside, steam still rising, golden crust crackling. Butter placed on the warm slice, melting instantly. The orange cat sits beside the cutting board, one paw raised toward the bread. Baker looks at the cat. Cat looks at the bread. Baker smiles. Perfect ending. Footer: VIDEO FLOW: 8 shots × ~1.5s = 12 seconds. Flour drop to first slice. CAMERA TIPS: wide on opener with flour cloud, overhead on the mix, wide medium on the knead with cat in full view, side angle on the fold, close-up on the score, wide on the oven with cat guarding, hero wide shot on the steam reveal, warm wide on the final slice LIGHT & STYLE: warm golden morning light, creamy dough whites, deep golden crust.”",
@@ -5216,7 +5252,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 579,
+    "id": 583,
     "title": "Storyboard Grid Template",
     "category": "scene",
     "prompt": "Based on the content【 *****】, create a storyboard image in 16:9 ratio, 4K resolution.\n1️⃣ Basic Setup\nMain Title + Subtitle\nAspect Ratio\nLayout Design (3-column × 9-scene storyboard grid)\n2️⃣ Style Direction\nDirector-inspired visual style\nVisual keywords (for example: Ridley Scott / low-saturation atmospheric sci-fi)\n3️⃣ Storyboard Details\nFor each scene, clearly describe:\nCamera shot\nCharacter action\nVisual progression / scene transition\nSound effects / audio cues\n4️⃣ Visual Guidelines\nColor palette and tone\nCinematic language and lighting style\n(example: desaturated earthy tones + strong rim lighting)\n5️⃣ Bottom Information Section\nCharacter profiles\nOverall mood / tone\nAudio timeline / sound design notes\nTechnical specifications\n#AIArt #AIFilm #AIStoryboard",
@@ -5225,7 +5261,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 580,
+    "id": 584,
     "title": "Pancake Dad Storyboard",
     "category": "vfx",
     "prompt": "Create a crisp, clean infographic storyboard poster for THE PANCAKE DAD. Wide 16:9 layout, white background, black borders, bold black typography, premium Pixar 3D stylized rendering, bright warm colors — golden pancake yellows, rich amber maple syrup, fresh blueberry blues and purples, creamy whites, warm morning kitchen light.\nTop header:\n•THE PANCAKE DAD\n•TOTAL VIDEO TIME: 12 SECONDS\n•8 SHOTS · GOLDEN · FLUFFY · SATURDAY MORNING\n•Legend icons: ACTION, HEAT, TIME HINT, INGREDIENT\nSame Pixar-style dad throughout — warm smile, casual home clothes, no apron or chef uniform, messy morning hair, cozy bright home kitchen, morning sunlight streaming through the window. A child’s drawing on the fridge visible in the background. And one recurring character — a small girl in a pink t-shirt who appears in the final panel.\n8 panels:\nPanel 1 — THE OPENER: Wide shot. Dad stands at the kitchen counter in his casual clothes, morning light flooding in behind him. He holds a large flour bag with both hands and pours it into the mixing bowl — a generous cloud of white flour billowing up into the warm morning sunlight, catching the light beautifully. He waves the flour dust away from his face with a warm laugh. Messy, real, Saturday morning. The fridge behind him has a child’s drawing on it. You know exactly what’s being made.\nPanel 2 — THE CRACK: Extreme close-up. Dad cracks a fresh egg over the mixing bowl — the bowl already has flour and milk in it, golden yolk drops in slow motion into the batter mixture. Shell splits cleanly. The moment it all comes together.\nPanel 3 — THE STIR: Medium shot with dad visible. He whisks the batter in smooth circular motions, the mixture becoming smooth and pale yellow, tiny bubbles forming on the surface. Morning light catching the whisk. Relaxed and unhurried — this is his Saturday ritual.\nPanel 4 — THE POUR: Close-up side angle. Batter poured from the bowl onto a hot buttered pan — it spreads into a perfect circle, edges immediately beginning to set, tiny bubbles forming across the surface. The sizzle implied in every frame.\nPanel 5 — THE FLIP: The hero frame. Low angle dramatic shot — spatula slides under the pancake, dad flips it with one confident motion, pancake suspended perfectly in mid-air above the pan, golden underside revealed, dad’s face lit up with pure joy behind it.\nPanel 6 — THE STACK: Wide medium shot with dad visible. He slides the finished pancake onto a plate already holding two others — a perfect golden stack building up, steam rising from each layer. Dad looks genuinely pleased with himself.\nPanel 7 — THE SYRUP: Close-up beauty shot. Maple syrup poured from above in a slow golden arc over the stack — cascading down the sides, pooling at the base, fresh blueberries scattered around the plate. Liquid gold catching the morning light. Irresistible.\nPanel 8 — THE EAT: Wide warm shot. A small girl in a bright pink t-shirt sits at the kitchen table, eyes wide, mouth open, fork mid-bite into the stack, blueberries on the plate, syrup everywhere. Dad stands in the background arms crossed, warm proud smile. Saturday morning complete.\nFooter:\n•VIDEO FLOW: 8 shots × ~1.5s = 12 seconds. Flour cloud to first bite.\n•CAMERA TIPS: wide on the flour pour opener with flour cloud, extreme close-up on the egg crack, medium on the stir with dad visible, close-up on the batter pour, low angle dramatic on the flip, wide medium on the stack, beauty close-up on the syrup cascade, wide warm shot on the girl eating with dad in background\n•LIGHT & STYLE: warm golden Saturday morning light, fluffy pancake golds, rich amber maple syrup, fresh blueberry blues, bright pink t-shirt, creamy batter whites, Pixar vivid warm colors throughout\n•DAD NOTES: one dad, one Saturday, one very happy girl in a pink t-shirt. Golden, fluffy, and made with love.​​​​​​​​​​​​​​​​",
@@ -5234,7 +5270,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 581,
+    "id": 585,
     "title": "Borussia Storyboard Intro",
     "category": "scene",
     "prompt": "Create a 9-shot cinematic storyboard for a Borussia Dortmund match intro TV broadcast animation. The sequence should feel like a high-end sports commercial blended with fantasy VFX and explosive motion design energy.\nPlayers appear inside the television broadcast graphics, then in a magical, reality-breaking moment, they burst out of the screen into the real world. The transition feels powerful, emotional, and larger than life, as glowing particles, stadium lights, and dynamic camera movements transform the scene into an epic celebration.\nAs the players emerge, they interact with the fans in a euphoric post-goal moment, celebrating together with raw energy and passion. Every shot should feel premium, fast-paced, and cinematic, combining dramatic lighting, immersive crowd atmosphere, intense action, and world-class commercial aesthetics inspired by modern UEFA Champions League broadcast intros.",
@@ -5243,7 +5279,16 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 582,
+    "id": 586,
+    "title": "Solar Desert Worldbuilding Kit",
+    "category": "ui",
+    "prompt": "Build a full visual worldbuilding kit for a futuristic solar-powered desert civilization. Include multiple images covering architecture, characters, clothing, vehicles, and maps, all sharing one cohesive design language, with cinematic realism and ultra detailed finish.",
+    "thumbnail": "/prompt-thumbs/evolink/comparison_case89/output.jpg",
+    "source": "EvoLinkAI",
+    "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
+  },
+  {
+    "id": 587,
     "title": "E-commerce Main Image - Luxury Amber Perfume Ad",
     "category": "vfx",
     "prompt": "A luxurious cinematic product photograph of a classic rectangular perfume bottle inspired by {argument name=\"brand label\" default=\"N°5 CHANEL PARIS PARFUM\"}, placed upright on a glossy black marble surface with white veining. The bottle is centered slightly to the right, made of clear faceted glass with a large transparent crystal stopper, filled with rich amber-gold perfume that glows from within. Tiny condensation droplets cover the glass, adding texture and realism. Dramatic warm lighting from the upper left creates golden highlights, deep reflections on the marble, and a soft luminous bloom in the background. Wisps of elegant smoke curl around the bottle on both sides, enhancing a moody high-end advertisement feel. Dark background, shallow depth of field, ultra-detailed studio product photography, luxury beauty campaign aesthetic, crisp focus on the bottle, realistic reflections, warm black-and-gold color palette. Add a small white {argument name=\"corner logo\" default=\"Pollo.ai\"} in the top-right corner. Square composition, premium commercial ad, photorealistic, high contrast, refined and sophisticated.",
@@ -5252,7 +5297,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 583,
+    "id": 588,
     "title": "E-commerce Main Image - Skincare Product Studio Shot",
     "category": "scene",
     "prompt": "A soft {argument name=\"bottle color\" default=\"cream-colored\"} bottle with a {argument name=\"pump color\" default=\"pastel yellow\"} pump stands on a matte podium, surrounded by silky foam and {argument name=\"flowers\" default=\"chamomile blossoms\"}. The background is a pale yellow gradient with subtle bubble details. The label emphasizes organic chamomile and calming care. Fresh chamomile flowers accentuate the gentle appeal.",
@@ -5261,7 +5306,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 584,
+    "id": 589,
     "title": "E-commerce Main Image - Tropical Citrus Soda Ad Poster",
     "category": "vfx",
     "prompt": "Create a vibrant tropical commercial poster for a citrus soda bottle, in a bright summer advertising style. Show a single large plastic bottle of {argument name=\"product name\" default=\"Soda\"} centered slightly to the right, tilted a little left, with a yellow cap and transparent bottle covered in cold condensation droplets, filled with glowing golden-orange soda. The label should feature sliced oranges and citrus artwork with the brand text \"{argument name=\"product name\" default=\"Soda\"}\", the phrase \"aux agrumes d'été\", and a small green \"500 ml\" mark. Use a sunny beach background with vivid blue sky, turquoise ocean, soft clouds, and blurred tropical palm leaves entering from the upper right corner. Add dramatic water splashes around the base of the bottle, scattered clear ice cubes, and 5 visible citrus pieces in the foreground: 2 orange wedges, 1 lime half, 1 grapefruit half, and 1 partial orange slice at the far right edge. Place large French promotional text on the left: a huge white headline \"{argument name=\"headline text\" default=\"Soda\"}\" with a small splash accent above it, then yellow script text \"aux agrumes d'été\" underneath. Add a yellow paint-stroke badge at mid-left with the text \"LA FRAÎCHEUR QUI PÉTILLE !\". Add a vertical feature list on the lower left with 3 round icons and French captions: \"SAVEURS NATURELLES\", \"SANS COLORANTS ARTIFICIELS\", and \"EXTRA RAFRAÎCHISSANT\". Add a green brushstroke banner at the bottom left reading \"FORMAT PRATIQUE 500 ml\". Add a round beige eco-style seal at the bottom right with green outline and leaf motif, containing the text \"{argument name=\"seal text\" default=\"PLAISIR FRUITÉ À CHAQUE GORGÉE\"}\". Lighting should be glossy and high-energy with strong sun flare from the upper left, saturated citrus colors, crisp packaging detail, realistic droplets, and polished supermarket-ad realism.",
@@ -5270,7 +5315,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 585,
+    "id": 590,
     "title": "E-commerce Main Image - Industrial Design Presentation Sheet",
     "category": "scene",
     "prompt": "Core Subject: [{argument name=\"reference\" default=\"use the uploaded image\"}, keep the details, typography and structure locked 100%]\n\nLayout & Composition: A {argument name=\"presentation type\" default=\"professional industrial design presentation sheet\"}. The image should be organized into a clean grid system.\n\nTop Row: A 3x3 layout showing top-down flat lay views and close-up macro details of materials.\n\nMiddle Section: Three hero shots of the product standing upright in different color ways (Matte Black, Arctic White, and accented variants). The products should be slightly tilted to show depth and form.\n\nBottom Section: A dynamic \"floating\" composition featuring two products overlapping at opposing angles to showcase the front and side profiles simultaneously.\n\nEnvironment & Lighting: Set against a minimalist, neutral studio gray background. Soft top-down lighting with realistic contact shadows. High-end product photography aesthetic.\n\nStyle & Finish: Matte textures, clean silhouettes, and sharp edges. Leave designated blank areas on the product surfaces for \"Placeholder Branding\" and \"Graphic Mockups.\" 4k resolution, Unreal Engine 5 render style, hyper-realistic, clean aesthetic.",
@@ -5279,7 +5324,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 586,
+    "id": 591,
     "title": "E-commerce Main Image - Luxury Fur-Lined Loafer Lifestyle Photo",
     "category": "realistic",
     "prompt": "A warm, editorial-style lifestyle product photo shot indoors from a low close-up angle, focused on a woman's lower legs and feet as she tries on 1 pair of black leather backless loafers with tan faux-fur lining. One loafer is worn on the right foot and the left foot is bare, hovering just above the textured cream shag rug, while the second matching loafer lies on the rug in the lower left foreground. The shoes have smooth black leather uppers, a rounded almond toe, open mule-style heel, plush brown fur spilling out around the opening, and a small polished gold horsebit hardware detail across the vamp. The model wears cropped medium-blue denim jeans with a raw frayed hem. The setting is a cozy minimalist interior with a cream rug featuring 2 thin irregular black lines, a neutral wall, and a leaning rectangular mirror with a medium wood frame in the upper right background, softly reflecting the rug and part of the scene. Use soft natural window light, shallow depth of field, subtle film grain, realistic skin texture, muted beige and black palette, relaxed candid composition, premium fashion catalog mood, high detail, photorealistic.",
@@ -5288,7 +5333,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 587,
+    "id": 592,
     "title": "E-commerce Main Image - Luxury Perfume Ad on Marble Vanity",
     "category": "vfx",
     "prompt": "A luxury e-commerce advertising photo of a premium perfume bottle on a polished gray-and-white marble vanity, shot in a warm cinematic studio style with soft golden lighting, shallow depth of field, and elegant reflections. The composition is square and high-end, with the perfume bottle centered slightly right of frame and promotional text on the left. The bottle is a tall sculpted hourglass-shaped glass flacon with smoky transparent gray glass fading darker at the base, a glossy gold spherical cap, a gold collar engraved with fine branding, and a large metallic gold interlocking monogram on the front. Keep the branding-inspired feel but do not add extra products. In the foreground left, include 1 cut-crystal bowl with a gold rim, partially cropped. In the background right, include 1 brushed gold cylindrical vase holding 1 bouquet of soft white flowers, blurred. Behind the bottle, add 1 black marble rectangular box with subtle white veining and gold trim. In the lower right foreground, include 1 draped piece of champagne-colored satin fabric, softly out of focus. The background should be dark, luxurious, and softly blurred, with rich brown-black tones and a vertical shadowed panel on the left to support typography. Add elegant serif headline text on the upper left reading {argument name=\"headline text\" default=\"Premium Perfume,\"} in large warm beige letters, with a smaller serif subheading beneath reading {argument name=\"tagline\" default=\"Subtlety and Elegance\"}, plus a thin short gold horizontal line below the subheading. Place a small white logo in the top-right corner reading {argument name=\"brand logo\" default=\"Pollo.ai\"}. Emphasize premium materials, realistic glass refraction, gold metallic highlights, luxury product photography, refined composition, soft bokeh, and upscale beauty-ad aesthetics.",
@@ -5297,7 +5342,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 588,
+    "id": 593,
     "title": "E-commerce Main Image - Miniature Diorama Skincare Advertisement",
     "category": "vfx",
     "prompt": "A hyper-realistic miniature diorama product advertisement featuring an oversized luxury skincare pump bottle labeled \"LUXEVEIL Skin Science – Radiance Nourishing Body Lotion\" in cream/beige with a polished gold pump top, placed on a circular platform. Tiny figurine construction workers dressed in yellow coveralls and white hard hats swarm around the bottle climbing scaffolding, painting the bottle with rollers, operating a tower crane, working near industrial tanks and pipework, and unloading a miniature flatbed truck. The scene includes metal scaffolding structures, industrial silos, orange traffic cones, wooden barricades, and storage barrels. The overall color palette is warm beige, cream, gold, and mustard yellow. Studio photography style with soft diffused lighting, no shadows, clean beige background. The concept metaphorically shows workers \"crafting\" or \"building\" the perfect lotion. Tilt-shift miniature aesthetic, ultra-detailed, commercial product photography, 8K resolution, photorealistic CGI render.",
@@ -5306,7 +5351,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 589,
+    "id": 594,
     "title": "E-commerce Main Image - Traditional Chinese Art and Porcelain Vases",
     "category": "vfx",
     "prompt": "A scarf inspired by 'A Thousand Li of Rivers and Mountains', surrounded by Wang Ximeng's blue-green landscape, with a silky texture and soft lighting.\n\nA famille rose porcelain vase featuring Lady Yang Guifei enjoying flowers, with peony and butterfly patterns in the style of imperial kilns.",
@@ -5315,7 +5360,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 590,
+    "id": 595,
     "title": "E-commerce Main Image - Premium Gaming Motherboard Studio Shot",
     "category": "scene",
     "prompt": "A high-end enthusiast ATX gaming motherboard product photo on a dark studio background, shown in a three-quarter top-down perspective angled from the lower left toward the upper right. The board is mostly matte black and gunmetal with sharp geometric armor plates, brushed metal textures, and subtle RGB edge lighting in blue, purple, and magenta. Feature an exposed modern Intel-style CPU socket near the upper center, 4 black DIMM memory slots on the right, large VRM heatsinks across the top and upper left, and multiple reinforced PCIe slots in the lower half. Include 3 major branded heatsink zones: a tall rear I/O shroud at upper left with an illuminated RGB eye logo and the text \"MAXIMUS HERO\", a left-side chipset/slot armor piece with the text \"SUPREMEFX\", and a large angular lower-right chipset cover with a silver ROG-style emblem plus a lower strip that reads \"FOR THOSE WHO DARE\". Show detailed capacitors, headers, power connectors, debug display reading \"88\" at the top right, and a small round start button nearby. Ultra-detailed commercial product photography, crisp focus across the board, realistic reflections on metal, premium luxury tech aesthetic, dramatic low-key lighting, clean black seamless backdrop, no cables, no CPU, no RAM, no other objects.",
@@ -5324,7 +5369,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 591,
+    "id": 596,
     "title": "E-commerce Main Image - Premium Grain Powder Ad Board",
     "category": "vfx",
     "prompt": "{\"type\":\"Chinese e-commerce product marketing board\",\"product\":{\"category\":\"instant grain powder drink\",\"brand\":\"五谷磨房\",\"name\":\"核桃芝麻黑豆粉\",\"packaging\":\"matte black retail box with gold Chinese typography and a large swirling bowl graphic on the front, plus individual black sachets inside\",\"net weight\":\"320g (32g×10袋)\"},\"style\":{\"overall\":\"premium dark food advertising layout\",\"color palette\":[\"black\",\"deep brown\",\"warm gold\",\"beige\",\"walnut brown\"],\"lighting\":\"dramatic studio lighting with glossy highlights and warm rim light\",\"mood\":\"luxurious, nourishing, healthy, appetizing\"},\"layout\":{\"format\":\"single tall composite board divided into 5 major sections plus a bottom storyboard table\",\"sections\":[{\"title\":\"主图/Main image\",\"position\":\"top-left\",\"count\":8,\"labels\":[\"五谷磨房\",\"核桃芝麻黑豆粉\",\"32g×10袋 独立包装\",\"五黑谷物\",\"香浓醇厚\",\"独立小袋\",\"即冲即饮\",\"product box and drink cup\"]},{\"title\":\"详情页/Details page\",\"position\":\"top-right\",\"count\":5,\"labels\":[\"黑芝麻\",\"黑豆\",\"黑米\",\"核桃\",\"谷物粉\"]},{\"title\":\"香浓细腻 顺滑好喝\",\"position\":\"mid-right\",\"count\":4,\"labels\":[\"一冲即饮 营养美味\",\"粉质细腻 Fine powder\",\"浓香醇厚 Rich & Smooth\",\"营养代餐 Nutritious\"]},{\"title\":\"冲泡方式 HOW TO MAKE\",\"position\":\"mid-left lower\",\"count\":3,\"labels\":[\"1 倒入一袋粉(32g)\",\"2 加入200ml 热水或牛奶\",\"3 搅拌均匀 即可享用\"]},{\"title\":\"一杯好谷物 轻松好生活\",\"position\":\"lower-left\",\"count\":4,\"labels\":[\"元气早餐\",\"办公室下午茶\",\"健身代餐\",\"睡前暖饮\"]},{\"title\":\"独立小袋 随身携带\",\"position\":\"lower-right\",\"count\":3,\"labels\":[\"独立小袋 便携卫生\",\"锁住新鲜 防潮防氧化\",\"1袋1杯 精准份量\"]},{\"title\":\"视频推广广告 seedance 2.0 视频提示词 + 分镜头脚本\",\"position\":\"bottom full width\",\"count\":7,\"labels\":[\"镜头1 开场-产品展示\",\"镜头2 食材特写\",\"镜头3 倒粉入杯\",\"镜头4 冲泡搅拌\",\"镜头5 饮用场景\",\"镜头6 产品卖点\",\"镜头7 结尾口号\"]}],\"grid\":\"top area split into left main image and right detail page; middle area split into preparation guide and feature panel; lower area split into lifestyle scenarios and sachet carry section; bottom is a full-width tabular storyboard\"},\"scene_elements\":{\"ingredients\":[{\"name\":\"black sesame\",\"form\":\"small black seeds in a round bowl\"},{\"name\":\"black beans\",\"form\":\"glossy whole beans in a round bowl\"},{\"name\":\"black rice\",\"form\":\"dark long grains in a round bowl\"},{\"name\":\"walnuts\",\"form\":\"walnut halves in a round bowl\"},{\"name\":\"grain powder\",\"form\":\"light beige powder in a round bowl\"}],\"serving\":{\"drink\":\"thick gray-brown sesame walnut bean beverage with smooth surface swirl\",\"cup\":\"transparent glass cup with handle\",\"utensil\":\"metal spoon stirring or resting inside drink\"},\"supporting props\":[\"walnuts on table\",\"scattered black beans\",\"grain stalks or wheat stems\",\"dark tabletop\",\"ingredient bowls\",\"open package showing 5 visible sachets\"]},\"text_treatment\":{\"headline_font\":\"bold elegant Chinese display type in metallic gold\",\"body_font\":\"clean sans serif Chinese with occasional English subtitles\",\"accent\":\"thin gold divider lines and circular ingredient frames\"},\"camera_and_composition\":{\"product_shots\":\"front-facing hero box, angled sachet display box, close-up beverage macro\",\"food_photography\":\"high-detail commercial food styling, shallow depth of field, crisp texture emphasis\",\"aspect_ratio\":\"portrait, approximately 9:16\"},\"quality\":\"ultra-detailed commercial design mockup, polished e-commerce key visual plus details page plus ad storyboard, 4K\"}",
@@ -5333,7 +5378,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 592,
+    "id": 597,
     "title": "E-commerce Main Image - Earbuds E-commerce Infographic",
     "category": "scene",
     "prompt": "High-impact e-commerce infographic for \"{argument name=\"product\" default=\"Apple Pods Pro 3\"}\" wireless earbuds.\nForeground: An extreme close-up of a hand holding an open glossy white wireless earbud charging case toward the camera. Inside the case are two sleek white earbuds with black speaker accents. A small glowing green LED indicator is visible on the front of the case. The hand and case have slight macro-lens depth blur for realism.\n\nMid-ground: A {argument name=\"model\" default=\"confident young woman\"} with tan skin, brown eyes, and dark hair tied in a messy bun. She has natural makeup with a dewy glow. She is wearing a plain {argument name=\"clothing\" default=\"yellow athletic t-shirt\"} (no logos). One white earbud is in her ear. She is looking directly at the camera with a subtle, confident expression.\n\nBackground: Clean soft gray gradient studio backdrop with shallow depth of field. Diagonal rainbow prism lens flares and soft light leaks across the scene. Several blurred floating white earbuds in the background for depth and motion.\n\nLighting: Soft professional studio lighting with glossy highlights on the product, subtle rim light on the model, high dynamic range.\n\nTypography (modern sans-serif, white):\n\nTop center (behind model): Large bold text “AIRPODS”\n\nTop right: “Apple Pods Pro 3”\n\nMid-left: “Premium sound and noise cancellation”\n\nMid-right: Large bold “30” with “hours of battery life”\n\nBottom-right: Large bold “1” with “year warranty”\n\nStyle: Ultra-realistic, commercial product photography, 8k resolution, sharp focus on product case, shallow depth of field, vibrant yet clean color palette, premium advertising aesthetic.",
@@ -5342,7 +5387,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 593,
+    "id": 598,
     "title": "E-commerce Main Image - Sustainable T-Shirt Plantable Tag Ad",
     "category": "vfx",
     "prompt": "A premium eco-conscious fashion advertisement, shot as a refined editorial product photo. A single off-white or natural cream crew-neck T-shirt hangs on a smooth wooden hanger with a black metal hook, placed against a lush wall of dense green leaves and climbing vines. The hanger has a small minimalist brand monogram engraved near the neck. The shirt is shown from the upper torso down to part of the hem, slightly angled, with soft natural folds and high-quality cotton texture. Printed inside the collar is a minimalist brand mark and the text \"JUGGERKNOT ORIGINALS\". Hanging from the neckline is 1 rectangular recycled-paper seed tag tied with rustic brown twine; the tag reads \"Tulsi\" and \"Plantable Seed Tag\" with a tiny sprouting seed detail near the bottom. From the tag, 1 real tulsi plant stem grows upward across the front of the shirt, with several fresh green leaves, visually demonstrating that the tag is plantable. Add a small fine-label annotation near the tag reading \"TULSI PLANTABLE SEED TAG\". On the right side, large elegant white serif typography says {argument name=\"headline text\" default=\"Plant it.\"}. Beneath it, place 3 stacked lines of narrow uppercase sans-serif copy: \"WEAR IT.\", \"PLANT IT.\", and \"GROW WITH IT.\". At the lower left, add the brand name in spaced uppercase serif text: {argument name=\"brand name\" default=\"JUGGERKNOT ORIGINALS\"}, with a thin horizontal line above it. At the lower right, add 3 lines of small uppercase sans-serif text: \"FSC® CERTIFIED PACKAGING.\", \"ZERO SYNTHETIC FIBRE\", and \"BACKED BY ZERODHA.\". Use soft diffused daylight, shallow depth of field, moody green-and-cream color grading, luxury sustainable-brand aesthetics, clean composition, vertical poster layout, subtle shadows, and a calm organic atmosphere. Keep the design minimal, premium, and photorealistic, with the shirt occupying the left half and the typography balanced on the right.",
@@ -5351,7 +5396,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 594,
+    "id": 599,
     "title": "E-commerce Main Image - Elegant Cosmetic Poster Prompt",
     "category": "scene",
     "prompt": "An image in a {argument name=\"reference style\" default=\"similar style\"}, a product image for {argument name=\"product\" default=\"lipstick\"}, requiring color coordination and a grand aesthetic in a {argument name=\"style\" default=\"poster style\"}, with language changed to Simplified Chinese.",
@@ -5360,7 +5405,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 595,
+    "id": 600,
     "title": "E-commerce Main Image - Minimalist Product Ad: PURE CRUNCH",
     "category": "vfx",
     "prompt": "A minimalist product advertisement with a {argument name=\"product\" default=\"fried chicken bucket\"} placed on a clean white podium.\n\nBackground: soft gradient ({argument name=\"background gradient\" default=\"light cream to white\"}), clean studio.\n\nLighting: soft diffused, premium Apple-style.\n\nTypography (center): “{argument name=\"headline\" default=\"PURE CRUNCH\"}”\n\nSmall text below: “Nothing extra. Just perfection.”\n\nStyle: ultra clean, editorial minimal, high-end branding, 8K.",
@@ -5369,7 +5414,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 596,
+    "id": 601,
     "title": "E-commerce Main Image - Pastel Blue Crocs Fashion Ad",
     "category": "vfx",
     "prompt": "A high-end studio advertising poster for {argument name=\"brand name\" default=\"crocs\"}, in a monochrome pastel blue and white color palette, with a glossy reflective floor and a soft sky-blue backdrop. The background is dominated by the word {argument name=\"headline text\" default=\"CROCS\"} in gigantic bold white condensed sans-serif letters spanning nearly the full height of the image. In the top-right corner, add small white text reading \"Designed with ChatGPT\". Feature 3 adult women with shoulder-length wavy light brown to dark blonde hair, all wearing loose oversized white long-sleeve tops and flowing white wide-leg pants, styled as minimalist fashion models with relaxed neutral expressions. Their faces are intentionally obscured or blurred. One model reclines against an enormous upright white clog shoe on the left side, one model sits casually on top of a giant white clog on the upper right, and one model lounges on the floor at the lower right, leaning back on one arm while seated partly on a glossy blue sphere. Include 2 oversized white clog shoes as hero props: one standing vertically on the left showing the sole and side profile, and one angled on blue crystalline blocks at center-right showing the upper and toe box. Both clogs are classic foam slip-on style with perforation holes, chunky tread, heel straps, and circular logo rivets. The center-right clog is decorated with exactly 8 visible charms pinned to the upper: a blue-green iridescent round charm, a white daisy with yellow center, a black-and-white round emblem near the strap, a small \"CROCS\" word charm, a dark flower, a peace-hand sign, an orange smiley face, a white cloud, and an orange flower. Scatter exactly 7 glossy floating or grounded blue spheres of varying sizes around the set: one large sphere behind the left model, one medium sphere floating near center, one medium sphere at bottom left foreground, one medium sphere used as a seat under the lower-right model, one small sphere near the upper left, and 2 additional blue spheres integrated into the composition. Add translucent sculptural gel-like forms at the far left and far right edges, plus angular blue crystal-like rocks beneath the right shoe. At the bottom center, place white promotional copy in a clean sans-serif font: {argument name=\"tagline line 1\" default=\"Made for comfort, worn for confidence.\"} on the first line and {argument name=\"tagline line 2\" default=\"Because life feels better when your feet stop complaining.\"} on the second line. Beneath that, show 4 minimalist feature icons with labels in white: \"ICONIC COMFORT\", \"LIGHTWEIGHT\", \"EASY TO CLEAN\", and \"UNIQUELY YOU\". Place the {argument name=\"logo text\" default=\"crocs\"} logo in bold lowercase white at the bottom center with a small trademark symbol. The overall style should feel like a premium surreal fashion campaign, clean editorial lighting, soft shadows, glossy textures, airy composition, and modern lifestyle product advertising.",
@@ -5378,7 +5423,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 597,
+    "id": 602,
     "title": "E-commerce Main Image - 9-Panel Product TVC Storyboard",
     "category": "scene",
     "prompt": "Using the provided reference image, transform the single casual product photo into a polished e-commerce TVC storyboard board for a {argument name=\"video duration\" default=\"15-second\"} ad in a {argument name=\"aspect ratio\" default=\"9:16\"} vertical format, presented as a 9-panel grid. Keep the same blue-and-white ceramic ashtray as the product base, but restage it across cinematic advertising shots with warm premium lighting, shallow depth of field, and a refined lifestyle desktop environment. Add a dark storyboard layout with Chinese titles and timing for each panel. Include exactly 9 scenes: 1) environment-establishing wide shot with desk, books, window, and the product placed in context; 2) hero product medium shot on the table; 3) extreme close-up of the blue floral craftsmanship pattern; 4) use case showing a hand placing a cigarette into the ashtray with visible smoke; 5) top-down capacity display showing multiple cigarette butts inside; 6) cleaning scene under running water in a sink with a hand holding the product; 7) bottom-detail close-up showing the underside and anti-slip pads; 8) mood/lifestyle scene at night with the product on a desk, smoke rising, and ambient lamp light; 9) brand closing frame with the product as the hero plus Chinese marketing text. Add the overall header text “产品TVC分镜脚本(15秒 / 9:16竖屏 / 9宫格)” and a product subtitle naming it {argument name=\"product name\" default=\"青花瓷烟灰缸\"}. Give each of the 9 panels a Chinese scene title and timestamp, plus small descriptive Chinese copy beneath each image in the style of a professional commercial shot list. Use premium, realistic commercial photography throughout, consistent product identity, elegant Chinese aesthetic, and a clean high-end storyboard presentation.",
@@ -5387,7 +5432,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 598,
+    "id": 603,
     "title": "E-commerce Live Stream UI Mockup",
     "category": "ui",
     "prompt": "{\n  \"type\": \"live stream UI mockup\",\n  \"subject\": {\n    \"description\": \"portrait of {argument name=\\\"host name\\\" default=\\\"Elon Musk\\\"}, smiling, wearing a black t-shirt with a white technical schematic graphic\",\n    \"background\": \"left side shows a screen with '{argument name=\\\"left background logo\\\" default=\\\"SPACEX\\\"}' text, right side shows a red '{argument name=\\\"right background logo\\\" default=\\\"Tesla T logo\\\"}' and a dark car\"\n  },\n  \"ui_overlay\": {\n    \"top_header\": {\n      \"host_info\": \"avatar, name '{argument name=\\\"host name\\\" default=\\\"Elon Musk\\\"}', subtext '55.6万本场点赞', red '关注' button\",\n      \"rank_badge\": \"gold coin icon with '全站第1名'\",\n      \"viewer_stats\": \"3 top viewer avatars with '12.3w', '8.6w', '5.7w', total '68.7万', 'X' close button\",\n      \"right_links\": \"'更多直播 >', '礼物展馆 0/24' with blue '经典' tag\"\n    },\n    \"mid_left_gifts\": {\n      \"count\": 2,\n      \"items\": [\n        \"avatar '科技爱好者', '送小心心', heart icon x 1314\",\n        \"avatar '星辰大海', '送火箭', rocket icon x 666\"\n      ]\n    },\n    \"bottom_left_chat\": {\n      \"system_message\": \"level 37 badge '宇宙漫游者 加入了直播间'\",\n      \"message_count\": 7,\n      \"messages\": [\n        \"小火箭: 马斯克!未来可期!🚀\",\n        \"future: 特斯拉Model 2什么时候出?\",\n        \"星空梦想家: SpaceX今年能上火星吗?\",\n        \"AI探索者: Neuralink进展如何?\",\n        \"帅气的网友: 马总好!\",\n        \"Mars: 第一次来你的直播,超激动!\",\n        \"用户123: 讲讲AI吧,会取代人类吗?\"\n      ]\n    },\n    \"bottom_right_product_card\": {\n      \"hot_tag\": \"orange '热卖 x 1888'\",\n      \"image\": \"Tesla Cybertruck\",\n      \"title\": \"{argument name=\\\"product name\\\" default=\\\"特斯拉Cybertruck 电动皮卡\\\"}\",\n      \"price\": \"{argument name=\\\"product price\\\" default=\\\"¥ 1,618,000\\\"}\",\n      \"button\": \"red '抢' button\",\n      \"floating_animation\": \"translucent hearts floating up the right edge\"\n    },\n    \"bottom_bar\": {\n      \"input_field\": \"'说点什么...'\",\n      \"icons\": [\"smiley face\", \"three dots\", \"shopping cart\", \"gift box\", \"share\"]\n    }\n  }\n}",
@@ -5396,7 +5441,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 599,
+    "id": 604,
     "title": "Premium product studio shot template",
     "category": "scene",
     "prompt": "Create a premium product studio image of a [PRODUCT] for [BRAND], designed in line with [BRAND REFERENCE]. Show the [PRODUCT] floating against a clean light gray to soft white gradient background with a minimal high-end tech aesthetic. The [PRODUCT] should feel sleek, modern, refined, and premium, with subtle illuminated accents in [LIGHTING COLOR]. Use a three-quarter front angle so both earcups are visible, with detailed industrial design elements. Include the [BRAND] name cleanly on the product. Lighting should be soft, controlled, and editorial, with crisp highlights, soft shadows, and a subtle colored rim light or glow in [LIGHTING COLOR]. Emphasize material realism and clean geometric forms. Keep the background uncluttered and minimal. No extra props, no people, no text overlays, no packaging, and no distracting elements. Focus entirely on the [PRODUCT] as the hero product.",
@@ -5405,7 +5450,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 600,
+    "id": 605,
     "title": "Premium food photography template",
     "category": "realistic",
     "prompt": "Create a square [ASPECT RATIO] premium food photography image of a steaming [FOOD] served in a dark black stone bowl or cast-iron skillet on a wooden board. The dish should look hot, glossy, spicy, and freshly served, with bite-sized pieces of browned protein, dried red chilies, green scallions, white onion, garlic, chili flakes, and visible Sichuan peppercorns coated in a deep red, oily Szechuan sauce. Use a slightly elevated close-up camera angle with shallow depth of field. Make the food the clear hero of the image, centered and richly detailed. Add visible steam rising naturally from the dish. Surround the bowl with subtle restaurant-style props like a dark red tray, scattered dried chilies, peppercorns, a small sauce bowl, or a blurred teapot in the background. Lighting should feel warm, moody, and editorial, like a high-end restaurant food shoot. Emphasize realistic textures and keep the image appetizing, realistic, cinematic, and polished. Avoid text, logos, hands, people, utensils covering the food, cartoon styling, fake plastic textures, excessive symmetry, or an overly clean stock-photo look.",
@@ -5414,7 +5459,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 601,
+    "id": 606,
     "title": "Burger hero image plus 9-cell ad storyboard",
     "category": "vfx",
     "prompt": "Prompt 1: Create a cinematic hero image of a gourmet cheeseburger on a dark stone surface with glossy brioche bun, melted cheese, crisp lettuce, tomato, grilled patty, sauce, realistic texture, appetizing steam, warm side light, shallow depth of field, premium food commercial style, no text/logos/watermark.\n\nPrompt 2: Create a 9-cell hybrid keyframe-to-transition storyboard sheet for a 15-second gourmet burger ad, moving from empty surface to ingredient assembly to final macro hero shot. Use large S cells and smaller T cells, motion arrows, ghosted ingredient positions, steam, sauce trails, and camera push-in icons. Style: premium food commercial, warm lighting, rich texture, appetizing, cinematic, minimal labels only. No logos, no watermark.",
@@ -5423,7 +5468,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 602,
+    "id": 607,
     "title": "Convenience Store Neon Portrait",
     "category": "realistic",
     "prompt": "35mm film photography with harsh convenience store fluorescent lighting mixed with colorful neon signs from outside, authentic film grain, high contrast, slight color cast, cinematic street editorial style, intimate medium shot, early 20s sexy Chinese female idol with ultra-realistic delicate refined Chinese features, seductive almond-shaped fox eyes with natural double eyelids, high nose bridge, small sharp V-shaped jawline, flawless porcelain skin with cool ivory undertone and visible specular highlights from fluorescent light, subtle skin texture and micro pores, natural dewy makeup with soft flush on cheeks, glossy natural pink lips slightly parted, subtle natural freckles across nose and cheeks, long dark brown hair in a messy high ponytail with many loose strands falling around face and neck, wearing an oversized white button-up shirt as the only top, unbuttoned at the top with deep cleavage and loosely tied at the waist, paired with a tiny black pleated mini skirt, barefoot in simple white slides, seductive casual leaning pose against the glass door of a 24-hour convenience store at late night, body slightly arched, one leg bent with foot resting against the door frame, the other leg straight, one hand holding a bottle of iced drink, the other hand lightly pulling the hem of her mini skirt, intensely seductive playful yet slightly vulnerable gaze straight at the viewer with soft doe eyes full of quiet temptation and teasing smile, bright cold fluorescent store light from inside mixed with pink and blue neon glow from outside signs, realistic reflections on glass door, blurred convenience store interior with shelves and snacks in background, authentic 35mm film color grading with harsh lighting and neon accents, extremely sharp yet soft skin rendering, natural hair strands, realistic fabric wrinkles and drape on the oversized shirt and mini skirt, no plastic skin, no digital over-sharpening, no airbrushing, no blemishes, no moles, no oily skin, no watermark, no text, authentic late-night convenience store atmosphere",
@@ -5432,7 +5477,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 603,
+    "id": 608,
     "title": "Cinematic Minimal Portrait",
     "category": "realistic",
     "prompt": "Generate a cinematic minimal portrait of a solitary man standing in an intense orange to red gradient environment, strong silhouette lighting, deep shadow contrast, reflective glossy floor, symmetrical composition, minimal",
@@ -5441,7 +5486,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 604,
+    "id": 609,
     "title": "Japanese Onsen Ryokan Portrait",
     "category": "realistic",
     "prompt": "35mm film photography, warm vintage Japanese onsen ryokan aesthetic, soft ambient wooden lantern lighting mixed with gentle natural window light, subtle film grain, gentle color shift, high atmosphere editorial style, intimate medium shot, early 20s beautiful Chinese female idol with ultra-realistic delicate refined Chinese features, seductive almond-shaped fox eyes with natural double eyelids, high nose bridge, small sharp V-shaped jawline, flawless porcelain skin with warm ivory undertone, visible subtle skin texture and micro pores, soft natural makeup with dewy glow, subtle rosy flush on cheeks, natural soft pink lips slightly parted, long dark brown hair tied in a loose low bun with some messy strands falling around face and neck, wearing a loose white yukata (traditional Japanese bathrobe) deliberately slipped off one shoulder and loosely tied at the waist, the fabric slightly open revealing smooth skin and subtle cleavage, barefoot, seductive relaxed sitting pose on the edge of a traditional wooden engawa veranda at a vintage onsen ryokan, body slightly turned toward the camera, one leg bent with foot resting on the wooden floor, the other leg gently dangling, one hand lightly holding the yukata collar, the other hand resting on the wooden floor behind her for support, softly arched back to gently accentuate curves, intensely seductive yet gentle and inviting gaze straight at the viewer with soft doe eyes full of quiet temptation and warmth, warm wooden interior with paper sliding doors and distant steaming hot spring in soft focus, gentle rim lighting highlighting skin and fabric texture, authentic vintage film color grading with warm tones, extremely sharp yet soft skin rendering, natural hair strands, realistic fabric wrinkles and drape on the yukata, no plastic skin, no digital over-sharpening, no airbrushing, no blemishes, no moles, no oily skin, no watermark, no text, authentic 35mm film Japanese onsen ryokan atmosphere",
@@ -5450,7 +5495,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 605,
+    "id": 610,
     "title": "35mm Flash Editorial Portrait",
     "category": "realistic",
     "prompt": "35mm color film photography with harsh direct on-camera flash, specular highlights on skin and clothing, strong catchlights in eyes, high contrast flash illumination, authentic film grain and color shift, high fashion fresh innocent basketball court editorial style, intimate first-person low-angle POV shot from below, early 20s sexy Chinese female idol with ultra-realistic delicate refined Chinese features, seductive almond-shaped fox eyes with natural double eyelids, high nose bridge, small sharp V-shaped jawline, flawless realistic porcelain skin with cool ivory undertone and visible flash specular highlights, fine delicate skin texture with subtle pores micro details and natural dewy glow under flash, fresh natural sporty makeup with soft dewy glow, subtle natural flush on cheeks, natural pink lips slightly parted, subtle natural freckles across nose and cheeks, long dark brown hair tied in a high playful ponytail with some loose strands framing the face and realistic loose strands, wearing a loose white tank top and white high-waisted basketball shorts, white knee-high sports socks, seductive natural leaning pose against the basketball hoop pole on the outdoor court at dusk, body angled sideways with naturally arched back and hips gently pushed back to accentuate perky round hips and sexy butt curve, one leg naturally extended forward toward the camera and the other leg slightly bent to emphasize long sexy legs, both hands lightly resting on the basketball pole at shoulder height, intensely seductive playful yet pitiable doe-eyed gaze straight at the viewer with soft vulnerable longing eyes and a gentle teasing smile full of quiet temptation and desire, harsh direct on-camera flash creating sharp specular highlights and strong catchlights, background with blurred basketball court and hoop under dusk sky, high contrast film color grading with natural flash look, extremely sharp yet soft skin rendering with authentic 35mm direct flash aesthetic, natural hair strands, realistic fabric texture on tank top and shorts with socks detail, no plastic skin, no digital over-sharpening, no airbrushing, no blemishes, no moles, no oily skin, no watermark, no text, authentic 35mm direct flash film basketball court look --ar 9:16",
@@ -5459,7 +5504,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 606,
+    "id": 611,
     "title": "Mirror Selfie Bedroom Portrait",
     "category": "realistic",
     "prompt": "A stunning 18-year-old Chinese girl with a youthful, pure face and realistic skin texture, sitting on a cozy, slightly messy bed in her bedroom. She is taking a mirror selfie with a smartphone, capturing a natural and intimate moment. Wearing casual gray loungewear and neat white crew socks. Soft natural light (golden hour) streams in from a side window, creating a warm, moody, and cinematic atmosphere. 35mm lens, sharp focus on the subject in the mirror, depth of field with a beautifully blurred background (bokeh). Photorealistic, 8K, high resolution, studio quality, masterpiece.\nNegative Prompts: no extra limbs, no deformed hands, no blur, no noise, no watermark, no text, no cartoon/anime style. Aspect Ratio: 3:4.",
@@ -5468,7 +5513,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 607,
+    "id": 612,
     "title": "Soft Airy 35mm Portrait",
     "category": "realistic",
     "prompt": "Analog 35mm film photography, soft airy Japanese-style aesthetic, gentle diffused natural window light, slight overexposure, pastel tones, low contrast, soft highlights, minimal indoor setting near a window with white curtains, clean light-colored wall, natural composition, eye-level, slightly closer full-body framing (mid-thigh to head), young East Asian woman, natural minimal makeup, soft realistic skin texture, long slightly messy dark hair, oversized white button-up shirt, light casual shorts, barefoot, simple and relaxed styling, standing naturally with relaxed posture, arms loosely at sides or slightly behind, facing camera, gentle soft smile, subtle stillness, focus on light, air, and quiet everyday mood, soft film grain, dreamy and understated atmosphere --ar 9:16",
@@ -5477,7 +5522,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 608,
+    "id": 613,
     "title": "Luxury Glam Beauty Portrait",
     "category": "realistic",
     "prompt": "Luxury Glam Beauty Portrait:, Beautiful Black woman, youthful spirit, creamy vanilla, silk press, mahogany red, subtle confidence, textured fabric, sapphire blue, minimal jewelry, beachside breeze, lens flare effect, nostalgic, cinematic lens, symmetrical composition, soft focus, high fashion photography, monochromatic, dewy finish, mysterious tension, layered elements",
@@ -5486,7 +5531,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 609,
+    "id": 614,
     "title": "9:16 Cosplayer Portrait Screenshot",
     "category": "realistic",
     "prompt": "生成一张竖版手机截图风格的图片，整体比例接近 9:16。画面中心偏上是一位真人 coser，扮演（角色名称）的二次元角色。人物为写实风格，但五官略带动漫感，皮肤细腻，眼睛稍大，表情温柔地看向镜头，坐在室内的休闲场景中，例如咖啡厅或酒吧吧台前，背景有符合场景的道具。画面最上方加入手机系统状态栏 UI，包括时间、电量、信号、网络等图标，让整张图看起来像手机截图。画面底部叠加一块宽大的半透明 galgame 风格对话框，对话框左侧放一个与画面人物对应的动漫或 Q 版头像；对话框右侧排版文字：第一行用较大字体显示与前面相同的角色名字，下面一到两行显示一段适合这个角色人设的、温柔治愈风格的简体中文台词，由你自动创作。再在对话框下方加一条操作栏，仿照 galgame UI。整体风格高清、细节丰富、光线柔和、二次元与真人写真自然融合。",
@@ -5495,7 +5540,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 610,
+    "id": 615,
     "title": "Urban Turn-Back Street Portrait",
     "category": "realistic",
     "prompt": "该画面为中近景，采用平视镜头，聚焦于一位年轻女性。她以七分身镜头呈现，身体坐姿略带倾斜，臀部向后撅起，双腿自然交叠，左腿在前，右腿在后，膝盖微屈。她将上半身向右后方扭转，头部则转向镜头方向，形成一个经典的“回眸”姿态，目光直视镜头，眼神清澈而略带一丝俏皮。她的发型是蓬松的棕色齐肩短发，刘海自然垂落，发尾微卷，妆容清淡自然，仅在眼部有轻微眼线勾勒，唇色为自然裸粉。画面整体采用自然日光滤镜，光线从画面左上方斜射入，形成柔和的逆光轮廓，面部和身体右侧被温暖的金色光线照亮，左侧则形成自然的阴影过渡，增强了立体感。灯光效果是明亮的自然光，带有轻微的镜头眩光，营造出午后阳光的氛围。拍摄角度为平视，构图上，人物主体位于画面中偏右位置，背景中的斑马线与道路线条形成自然的引导线，将视线引向人物。背景为城市街道，包含道路、斑马线、绿化带和远处的车辆，背景被适度虚化，但依然可辨识出树木、护栏和停放的电动车等元素，构图上利用了三分法，人物位于右侧三分之一处，增强了画面的平衡感。主体穿着一件军绿色迷彩图案的连帽卫衣，下身搭配黑色短裤，脚穿白色高帮运动鞋配白色中筒袜。背包为黑色，带有橙黄色装饰条纹和一个橙色毛绒挂件，材质为帆布和皮革拼接。整体风格为街头休闲风，肢体语言放松自然，表情略带好奇与俏皮，整体呈现出一种随性、青春、充满活力的都市少女形象。",
@@ -5504,7 +5549,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 611,
+    "id": 616,
     "title": "Sam Altman Skatepark Snapshot",
     "category": "realistic",
     "prompt": "\"Sam Altman on a skateboard at a skatepark with no people.\"",
@@ -5513,7 +5558,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 612,
+    "id": 617,
     "title": "Korean Idol 3x3 Grid Portrait",
     "category": "realistic",
     "prompt": "9:16 vertical, Korean idol portrait photoshoot, 3x3 grid (nine frames), same person in all images, consistent facial features and styling, soft black mist filter effect, lowered contrast, blooming highlights, subtle glow around light sources",
@@ -5522,7 +5567,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 613,
+    "id": 618,
     "title": "CCD Camera Flash Korean Idol",
     "category": "realistic",
     "prompt": "mobile phone photo, old CCD camera aesthetic, harsh flash, grainy, dim messy indoor lighting, candid snapshot feeling, slight motion blur, young Korean female idol, soft innocent look",
@@ -5531,7 +5576,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 614,
+    "id": 619,
     "title": "Korean Idol 3x3 Collage Portrait",
     "category": "realistic",
     "prompt": "9:16 vertical — a 3x3 grid collage (nine images) forming a Korean idol portrait photoshoot series. Each frame features the same young Korean female idol, maintaining 100% consistency in facial features, proportions, hairstyle, and identity across all nine shots.   Natural, ultra-realistic skin texture, no retouching, no smoothing. Clean idol-style minimal makeup, soft glow, subtle imperfections.   Hair: long, voluminous dark hair, slightly tousled, consistent across all frames (natural loose flow, slight movement).  Outfit: cohesive Korean idol photoshoot styling — white shirt + short bottoms (or simple neutral-toned outfit), youthful, clean, slightly casual but styled. Same outfit across all frames.  Setting: minimal studio or simple indoor environment (plain wall, soft window light, clean background). Focus on subject, not environment.  Lighting: soft diffused natural light, gentle highlights, low contrast, slightly airy tones, subtle film-like softness.  Camera style: intimate portrait photography, slightly handheld feel, subtle imperfections (minor grain, slight blur in motion frames, imperfect framing).  Frame breakdown (3x3 grid):  Top row: - Top left: standing naturally, looking slightly away, relaxed expression - Top center: facing camera, casual mid-motion (hair or body slight movement) - Top right: slight side angle, soft gaze, natural candid feel  Middle row: - Center left: looking slightly upward, soft thoughtful expression - Center: close-up portrait, direct eye contact, gentle idol smile - Center right: turning body slightly, mid-motion candid frame  Bottom row: - Bottom left: seated or leaning casually, relaxed posture - Bottom center: back partially turned, looking over shoulder toward camera - Bottom right: standing close to frame, slightly playful or soft expression  Mood: Korean idol photobook / photocard aesthetic, intimate, soft, natural, everyday charm.  Quality: ultra-realistic, 8K detail, subtle analog film grain, natural imperfections, soft dreamy tone",
@@ -5540,7 +5585,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 615,
+    "id": 620,
     "title": "Soft Black Mist Editorial Portrait",
     "category": "realistic",
     "prompt": "9:16 vertical — editorial portrait, single subject  soft black mist filter, subtle haze, gentle highlight bloom, muted tones  minimal indoor space, clean background, slight texture  young Korean woman, minimal makeup, natural skin texture  outfit: fitted ribbed knit top or soft camisole layered under a loose shirt, paired with high-waisted shorts or skirt; fabric slightly clings to body shape, soft and natural, no revealing elements  hair: slightly messy, natural volume  pose: sitting on floor with one leg bent and the other relaxed, body slightly leaning, shoulders not aligned, head tilted  composition: subject slightly off-center, negative space present  expression: calm, slightly distant, natural lips  lighting: soft side light, gentle shadow falloff  mood: understated, quiet, subtly sensual through natural body lines, relaxed and unposed  quality: fine grain, slight softness, realistic look",
@@ -5549,7 +5594,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 616,
+    "id": 621,
     "title": "Fujifilm Strawberry School Portrait",
     "category": "realistic",
     "prompt": "9:16 vertical — Japanese Fuji film style portrait, single subject  Fujifilm analog aesthetic (Pro 400H / Superia feel), soft pastel tones, slight green-magenta shift, low contrast, gentle highlight roll-off, fine film grain, subtle halation, slight vignette  bright natural daylight, diffused sunlight through window, soft shadows, airy atmosphere  young Japanese female idol, natural minimal makeup, fresh glowing skin, realistic texture, slight imperfections  outfit: Japanese school uniform (sailor-style or blazer uniform), neatly styled, non-revealing, youthful and clean  hair: natural dark hair, straight or softly flowing, a few loose strands  pose: front-facing or slight angle toward camera, relaxed posture; one hand gently holding a strawberry near lips, mid-action as if about to take a bite; shoulders relaxed, subtle natural body curve  expression: soft playful gaze, light smile or neutral lips, gentle eye contact with camera  setting: minimal indoor near window or simple outdoor corner, clean background, everyday atmosphere  composition: slightly off-center framing, intimate distance, candid feel  mood: fresh, youthful, sweet everyday moment, understated charm  quality: ultra-realistic, analog film look, natural imperfections, soft dreamy finish",
@@ -5558,7 +5603,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 617,
+    "id": 622,
     "title": "Soft Black Mist Idol Portrait",
     "category": "realistic",
     "prompt": "9:16 vertical — Korean idol portrait photography, single subject  soft black mist filter effect, lowered contrast, gentle highlight bloom, subtle glow, soft diffusion, slightly faded blacks  minimal indoor setting near window, white curtains, clean light-toned background  young Korean female idol, natural minimal makeup, dewy realistic skin texture, subtle imperfections  outfit: oversized white button-up shirt + short bottoms, slightly loose fit, soft and casual styling, no revealing elements  hair: long dark hair, slightly messy, natural volume, softly flowing  pose: relaxed standing or slight lean, body subtly angled, one leg slightly forward, shoulders relaxed; one hand lightly touching collar or resting near neckline, the other relaxed; gentle body curve without exaggeration  expression: soft cute smile, slightly playful eyes, direct or slightly off-camera gaze  camera: close to mid-body framing, eye-level, intimate distance, slight handheld feel  lighting: diffused natural daylight, soft shadows, gentle light wrapping around face and body  mood: cute yet subtly sensual, intimate, everyday softness, quiet romantic atmosphere  quality: ultra-realistic, fine film grain, slight softness at edges, natural imperfections, dreamy understated tone",
@@ -5567,7 +5612,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 618,
+    "id": 623,
     "title": "Fujifilm Couple Portrait",
     "category": "realistic",
     "prompt": "9:16 vertical — Japanese Fuji film style couple portrait, two subjects  Fujifilm analog aesthetic (Pro 400H / Superia feel), soft pastel tones, slight green-magenta shift, low contrast, gentle highlight roll-off, fine film grain, subtle halation  bright natural daylight, diffused sunlight through window, soft shadows, airy atmosphere  young Japanese couple, natural minimal makeup, realistic skin texture, slight imperfections  female outfit: oversized button-up shirt with loose shorts, relaxed fit, soft casual styling   male outfit: simple t-shirt or light shirt, clean and understated  hair: natural, slightly tousled for both  pose: close intimate distance — sitting or standing close together; the girl gently leaning toward him, one hand lightly resting on his shoulder or chest; the boy slightly leaning in, faces close, almost touching, capturing the moment just before a kiss  expression: soft smiles or gentle gaze toward each other, relaxed and natural, emotional connection visible  camera: close framing (waist-up), eye-level, intimate distance, slight handheld feel  setting: minimal indoor near window, light curtains, clean soft background  lighting: diffused daylight, gentle highlight bloom, soft shadow transitions  mood: warm, romantic, intimate everyday moment, natural affection  quality: ultra-realistic, analog film look, fine grain, slight softness, natural imperfections",
@@ -5576,7 +5621,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 619,
+    "id": 624,
     "title": "AI Self-Perception Portrait",
     "category": "realistic",
     "prompt": "根据你对我的认知 给我生成一个“你认识的我”的 图片",
@@ -5585,7 +5630,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 620,
+    "id": 625,
     "title": "Create the most realistic front page design of a vintage newspaper featuring ...",
     "category": "realistic",
     "prompt": "Create the most realistic front page design of a vintage newspaper featuring the main character. The layout should be made in the style of a real printed newspaper with a cinematic black-and-white aesthetic.\nThe main photo should be prominently placed in the center, framed, like the image in the title of the article. The subject in the photo should remain unchanged and clearly distinguishable in natural light and slightly increased contrast in order to match the spectacular editorial style.\nCreate a bold, attention-grabbing headline at the top (create a unique title that matches the spirit of the photo - it can be romantic, mysterious, funny, or dramatic). Add a smaller subtitle under it, which will look like a real newspaper caption.\nAdd realistic newspaper elements:\nColumns of small text (in the style of lorem ipsum, but framed like real news)\nAt the top is the fictitious name of the publication (for example, The Daily Prompts, AI Times or similar - think creatively, according to the picture)\nDate, issue number and location\nDecorative lines, dividers, and vintage typography\nSmall additional articles or captions to the main image\nOptional stamps, doodles, or editorial notes to add personality.\nStyle:\nBlack and white or slightly faded monochrome paper\nFine paper texture, grain, and ink defects\nSmall shadows and creases that mimic real printed paper\nThe aesthetics of a clean but slightly worn vintage newspaper\nMood: Give the design personality, expressiveness and plot, as if the plot is part of the main article.\nAspect ratio: 4:5 or 1:1\nHigh-detail, ultra-realistic hybrid of editorial photography and print design.",
@@ -5594,7 +5639,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 621,
+    "id": 626,
     "title": "Magazine Travel Guide Feature Article",
     "category": "ui",
     "prompt": "Create image of Magazine feature article [travel] guide page, cute, information dense photo book style magazine feature article page. Add all necessary sections, tips, recommendations, information. add photos for any sections and recommendations if you like. Place the attached person at the precise location of [city, country]. Seamlessly blend the attached person as if they are sightseeing. Approach this task with the understanding that this is a critical, information rich page that will significantly influence visitor numbers, text accuracy is important. Fully use the entire [9:16] page. NEGATIVE PROMPT: coordinate texts @swiat_ai @ProfitAII",
@@ -5603,7 +5648,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 622,
+    "id": 627,
     "title": "analyze this photo and give me a detailed JSON prompt that recreates it. brea...",
     "category": "realistic",
     "prompt": "analyze this photo and give me a detailed JSON prompt that recreates it. break down the color grading and every exact color in the photo\n\n(use Opus, not Sonnet. Opus has stronger visual analysis and writes more detailed JSON)\n\npaste that JSON into ChatGPT\nupload your product image and prompt:\nusing this JSON as reference, generate a person holding my product\nsave that generated photo as your character reference\n\nattach it to every future generation for facial consistency\n\nyou now have a consistent UGC model that works across any product\n\nthe JSON controls the lighting and color grading. GPT image-2 handles the character. you control the product placement.\n\nthe #1 tell on AI photos is flat colors and a grainy look. this method removes both.\n5 minutes to set up. unlimited variations after.",
@@ -5612,7 +5657,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 623,
+    "id": 628,
     "title": "CALMING GREEN TEA Film Kit displayed frontally, the open box shows soft sage-...",
     "category": "realistic",
     "prompt": "CALMING GREEN TEA Film Kit displayed frontally, the open box shows soft sage-green film pouches and translucent ampoules with matte silver caps, product placed centrally with clear branding CALMING GREEN TEA -- 7 Days to Soothed Skin, pastel green background with botanical graphic accents, three minimal icons (leaf, wave, balance) floating around the product to emphasize benefits, photographic, hyper detailed, ultra realistic, lifelike, 8k, high detail, soft professional lighting.",
@@ -5621,7 +5666,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 624,
+    "id": 629,
     "title": "Ultra-realistic product photography of a rich strawberry soft-serve ice cream...",
     "category": "realistic",
     "prompt": "Ultra-realistic product photography of a rich strawberry soft-serve ice cream in a crispy waffle cone, styled with a clean, modern premium aesthetic. The soft serve is a vibrant natural pink, thick and creamy, sculpted into a smooth swirl with a softly curled peak, lightly topped with delicate strawberry dust or tiny fruit specks for a fresh, appetizing look. The cone has a rustic, crunchy texture with slightly uneven edges for an artisanal feel.\nThe background is soft beige with natural sunlight casting subtle leaf shadows, creating a calm, organic atmosphere. Include softly blurred greenery in the foreground for depth. The composition is minimal, balanced, and uses negative space effectively, similar to high-end American food brand ads.\nOn the left side, include modern English typography in a clean, elegant layout (not vertical).\nMain headline:\nSweet Strawberry Bliss.\nSupporting line (smaller text):\nMade with real strawberries. Smooth. Creamy. Irresistible.\nAdd a small circular badge showing the price:\n$5.80.\nLighting: soft natural daylight, warm highlights, shallow depth of field, high-end commercial food photography style.\nMood: fresh, premium, modern, and inviting — aligned with upscale U.S. dessert branding.",
@@ -5630,7 +5675,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 625,
+    "id": 630,
     "title": "A hyper-realistic UI/UX mockup displayed on a slim modern laptop placed on a ...",
     "category": "ui",
     "prompt": "A hyper-realistic UI/UX mockup displayed on a slim modern laptop placed on a minimal wooden desk with soft natural daylight. The screen shows a clean SaaS dashboard with elegant typography, glassmorphism cards, smooth gradients, subtle drop shadows, and neatly spaced components. Visible charts, analytics panels, sidebar navigation, and micro-interactions. Realistic macOS-style window frame, soft reflections on the screen, shallow depth of field, cozy workspace atmosphere, shot in photorealistic product photography style, ultra-detailed.",
@@ -5639,7 +5684,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 626,
+    "id": 631,
     "title": "Ultra-realistic cinematic DSLR photograph of an 18-year-old handsome young ma...",
     "category": "realistic",
     "prompt": "Ultra-realistic cinematic DSLR photograph of an 18-year-old handsome young man with a slim skinny body, lean physique, narrow shoulders and waist, standing confidently in front of a blue 2017 Ford Mustang GT Convertible with a bold red soft top roof, captured from a high-angle aerial perspective exactly like a luxury driveway photoshoot. Keep face 100% identical to reference image with exact facial structure, natural skin texture, realistic pores, authentic expression, no beautification, no facial modification. Same modern textured side-swept quiff hairstyle with heavy natural volume on top, deep side flow, messy yet controlled texture, soft matte finish, visible natural hair strands, softly blended sides.\n\nThe subject stands centered near the front bumper of the Mustang GT, hands inside hoodie pockets, relaxed shoulders, straight posture, slight head tilt upward toward camera, confident calm expression, wearing oversized premium black hoodie with realistic cotton texture, natural folds, hanging drawstrings, loose dark washed black denim jeans with soft wrinkles and stacked hems, clean white sneakers with realistic leather texture and sole details, black slim rectangular sunglasses.\n\nCar must be a detailed 2017 Ford Mustang GT Convertible, metallic electric blue paint, glossy reflections on hood, visible Mustang pony grille emblem, aggressive headlights, muscular hood sculpting, aerodynamic front bumper, black alloy wheels, premium red convertible fabric roof, realistic windshield reflections, detailed side mirrors, authentic tire tread, showroom-clean finish\n\nScene set in an upscale villa driveway with light beige hexagonal stone pavement, curved border with fresh green grass on left side, tropical palm leaves entering frame from top corners, subtle luxury outdoor atmosphere. Soft natural daylight, diffused afternoon lighting, realistic shadows under car and body, soft reflections on paintwork, cinematic premium color grading, natural contrast, shallow depth separation while maintaining environment clarity. Shot on 35mm lens, vertical composition, full body framing, crisp details, hyper-realistic DSLR quality, zero Al look, natural skin rendering, realistic hair strands, fabric texture, stone surface texture, luxury lifestyle mood. stylish text AmanZaid at the bottom-left corner, signature style\n\nNegative Prompt:\n\nface changed, different identity, beautified face, edited face, smooth plastic skin, fake skin glow, wrong hairstyle, short hair, fade haircut, buzzcut, messy deformed hair, female features, muscular body, fat body, broad shoulders, bad anatomy, long neck, short legs, extra fingers, missing fingers, mutated hands, distorted arms, broken posture, crossed eyes, lazy eye, bad sunglasses, blurry face, low resolution, pixelated, noisy image, overexposed, underexposed, harsh shadows, unrealistic reflections, fake car shape, wrong car model, damaged car, extra wheels, warped Mustang logo, incorrect. proportions, bad pavement texture, background artifacts, duplicate objects, watermark, logo errors, text artifacts, cropped feet, cut car, unnatural perspective, CGI render, cartoon style, painting, Al artifacts, oversaturated colors, motion blur, lens distortion 1664x2080-ar 4:5",
@@ -5648,7 +5693,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 627,
+    "id": 632,
     "title": "Candid Bedroom Selfie Photorealistic Portrait",
     "category": "realistic",
     "prompt": "Candid selfie of a young woman with shoulder-length honey-blonde hair with lighter highlights, green-grey eyes, rosy cheeks, and a natural no-makeup makeup look. She is wearing a light grey hoodie and looking slightly off-camera with a relaxed expression. Background shows a cosy bedroom with warm fairy lights strung on a pink wall, a unmade bed with tan bedding, and a small white desk with stacked books. Soft, warm ambient lighting. Photo-realistic, casual, intimate feel.",
@@ -5657,7 +5702,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 628,
+    "id": 633,
     "title": "Musician Leaving Bodega Night Cinematic Portrait",
     "category": "realistic",
     "prompt": "A candid, magazine-cover quality documentary photograph of a young musician with curly hair, casually carrying a worn guitar case, stepping out of a classic downtown bodega at 11 PM. The lighting features a complex mixed color temperature: a bright neon \"OPEN\" sign casts an intense, warm red glow across his face, while a yellow streetlamp provides a striking backlight behind him. The image perfectly emulates 35mm film shot on a Canon AE-1 with a 50mm f/1.4 lens wide open, exhibiting a shallow depth of field with the background beautifully blurred. It captures the exact aesthetics of CineStill 800T film, specifically featuring the distinctive soft red halation bloom radiating outward from the neon light sources, a tungsten white balance, and moody, slightly green-tinted shadows in the darkest areas. Cinematic night photography, photorealistic, highly detailed.",
@@ -5666,7 +5711,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 629,
+    "id": 634,
     "title": "Old Delhi Sweet Shop Storefront Documentary Photo",
     "category": "realistic",
     "prompt": "Create a photorealistic travel-documentary image of a small sweet-shop storefront in Old Delhi at midday. A painted shop signboard above the door reads \"मिठाई की दुकान\" in large bold yellow hand-painted Devanagari on a deep red background, with \"SWEET SHOP\" in smaller roman letters beneath. Realistic hand-painted texture, slight wear, natural shadow. Authentic script proportion. Spelling and characters exact. No extra signage in frame, no watermark.",
@@ -5675,7 +5720,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 630,
+    "id": 635,
     "title": "Cyberpunk Sci-Fi Side Profile Portrait",
     "category": "realistic",
     "prompt": "A cinematic side-profile portrait of a rugged man with a tied-back bun and full beard, wearing round dark sunglasses and a textured leather jacket. His skin is detailed and slightly weathered. The background is a futuristic sci-fi interface filled with glowing orange and red data streams, star maps, celestial navigation diagrams, grids, and holographic UI elements. Fiery particle effects and ember-like energy swirl around him, creating a cosmic, high-tech atmosphere. Dark color palette with strong contrast, dramatic lighting, ultra-detailed, sharp focus, 8K, cyberpunk aesthetic, cinematic composition, depth of field.",
@@ -5684,7 +5729,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 631,
+    "id": 636,
     "title": "Realistic Candid Bedroom Recording Portrait",
     "category": "realistic",
     "prompt": "A realistic young woman sitting casually in a softly lit bedroom during late afternoon.\n\nShe is holding her phone very close to her face as if recording a private video or voice note.\n\nFraming is tight and slightly imperfect.\n\nExpression: thoughtful, slightly shy, natural.\n\nMinimal makeup, natural skin texture, relaxed clothing.\n\nLighting: warm natural light fading from a window, soft shadows.\n\nEnvironment: simple bedroom, calm and lived-in.\n\nStyle: ultra-realistic, looks like a real phone recording, slightly grainy, not cinematic.",
@@ -5693,7 +5738,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 632,
+    "id": 637,
     "title": "Toddler Crayon Scribble Art Style Portrait",
     "category": "realistic",
     "prompt": "(被写体) in the style of super bad child drawing, toddler art, scribbles, messy crayon lines on white background, completely lack of technique, terrible composition, chaotic colors, barely recognizable shapes, very raw, honest art, pure naivety, unrefined style, 4:3\nNegative:\ngood drawing, nice lines, clear shapes, neat, pretty, smooth, realistic, talented art, coherent composition, artistic style, professional, skilled, masterpiece, beautiful, detailed",
@@ -5702,7 +5747,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 633,
+    "id": 638,
     "title": "Restored Vintage Mother and Child Portrait",
     "category": "realistic",
     "prompt": "A restored vintage family snapshot, photographed indoors in soft natural light, showing a {argument name=\"adult subject\" default=\"young mother\"} seated and holding a {argument name=\"child subject\" default=\"toddler\"} on her lap in a close, centered waist-up portrait. The adult has short softly curled auburn hair in a voluminous 1960s-inspired bob, wears a sleeveless black dress and a thin gold necklace, and wraps both arms protectively around the child. The child has fine light blond hair and wears a plain white long-sleeve outfit. Compose the image with a warm nostalgic color cast, gentle film softness, subtle grain, and the look of a carefully repaired old printed photograph. Place them in front of a cream-colored curtain patterned with small brown teddy bear motifs, with a softly blurred interior window frame visible along the top background. Preserve realistic skin tones, natural posture, and the intimate family-photo feeling, as if an old damaged photograph has been professionally reimagined and restored. Square crop, centered composition, shallow depth of field, authentic analog photo texture, no modern styling, no text.",
@@ -5711,7 +5756,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 634,
+    "id": 639,
     "title": "Damaged Vintage Mother and Child Photo",
     "category": "realistic",
     "prompt": "A heavily damaged old family snapshot in faded black and white with a slight sepia cast, shown as a worn physical photograph scanned straight-on. The image depicts a seated woman holding a small child on her lap indoors, both centered in a simple portrait composition. The woman has short dark wavy hair and wears a dark sleeveless dress or pinafore layered over a lighter short-sleeved blouse. The child appears to be a toddler with very short light hair, wearing a light-colored outfit, facing the camera while sitting against the woman’s chest and arm. Behind them is a patterned curtain with small floral or leaf motifs, and above it a dark window area with a pale vertical window frame is visible near the top center. The print is severely deteriorated: extensive scratches, creases, emulsion damage, stains, blotches, and peeling cover the entire surface, with especially heavy white abrasion and loss of detail across the bottom third and scattered cracking throughout. Keep the overall look authentic to a mid-20th-century vernacular photo, low contrast, soft focus, and visibly aged paper texture. Add a rectangular blurred censor block over the woman’s face only, while the child’s face remains visible but faded. No text, no border, just the distressed archival photograph filling the frame.",
@@ -5720,7 +5765,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 635,
+    "id": 640,
     "title": "Ink-Etched Family Portrait",
     "category": "realistic",
     "prompt": "A black-and-white hand-drawn family portrait in the style of detailed pen-and-ink crosshatching on textured white paper, showing 4 people seated closely together in a casual candid composition. On the left, an adult man in a dark baseball cap worn backward and a dark T-shirt leans into the frame, with a crossbody sling bag worn across his chest and visible zipper details. On the right, an adult woman with curly hair tied up in a loose high bun wears a light T-shirt with large collegiate block letters reading {argument name=\"shirt text\" default=\"CITY\"}. In the center are 2 young children sitting close together, both with short curly hair and matching light-colored T-shirts printed all over with strawberries. The child on the left leans inward with one arm crossing the other child, and the child on the right tilts their head slightly upward. The adults frame the children protectively, creating a warm family snapshot feeling. Render the whole image as a monochrome etched illustration with dense fine-line hatching, engraved shadows, crisp contour lines, and a realistic yet artistic likeness, with no color, no background setting beyond a plain light paper texture, and a vertical portrait crop.",
@@ -5729,7 +5774,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 636,
+    "id": 641,
     "title": "Vintage Engraved Hoodie Portrait",
     "category": "realistic",
     "prompt": "A centered black-and-white vintage engraved portrait of a bearded man wearing a hooded sweatshirt with the hood up and a backward snapback cap visible under the hood. Show only the upper torso and head against a plain off-white paper background with subtle texture. Render the image in detailed pen-and-ink etching style with dense cross-hatching, fine parallel lines, and old book illustration shading. The figure faces forward in a calm, neutral pose. The cap has a visible snap closure band across the forehead area, slicked-back hair is visible above it, and a thick full beard extends below the face. The hoodie has two drawstrings hanging down at the chest. Keep the composition symmetrical and tightly framed like a classic engraved bust portrait, with no color, no modern graphic elements, and no background objects.",
@@ -5738,7 +5783,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 637,
+    "id": 642,
     "title": "Dreamy Backlit Editorial Portrait",
     "category": "realistic",
     "prompt": "A cinematic soft-focus portrait of a woman from behind and slightly in profile, framed from the upper torso up in a vertical composition. She has {argument name=\"hair color\" default=\"dark brown\"} hair styled in a loose messy updo with wispy strands catching the light. Her face is mostly hidden by her pose and hair, with only a small portion of one cheek visible. She wears a {argument name=\"dress color\" default=\"deep red\"} sleeveless dress with an open back or low-cut side, emphasizing her bare shoulder and upper back. One hand is raised delicately near her neck or shoulder, fingers relaxed. Use strong warm backlighting and rim light, with glowing golden highlights around the hair and skin, dreamy lens flare, and large circular bokeh in the blurred background. The image should feel intimate, elegant, and slightly sensual, like a high-end fashion or beauty editorial, with shallow depth of field, creamy blur, warm amber and rose tones, and a soft cinematic glow.",
@@ -5747,7 +5792,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 638,
+    "id": 643,
     "title": "3D Cartoon Character Render",
     "category": "illustration-standing",
     "prompt": "High-quality 3D CGI render of {argument name=\"character\" default=\"[character]\"} in a charming cartoon style, portrait composition showing head and shoulders. Highly stylized caricature with exaggerated, expressive features that are both playful and humorous. Smooth, polished rendering with clean materials and soft ambient lighting creating gentle shadows. Dynamic camera angle with stylish perspective. Minimalist bright {argument name=\"background color\" default=\"[color]\"} background that makes the character pop and stand out. Professional Pixar-like quality with glossy finish and cheerful mood.",
@@ -5756,7 +5801,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 639,
+    "id": 644,
     "title": "Young Woman in Sequin Dress on Stairs",
     "category": "ui",
     "prompt": "Vertical 2:3 format. {argument name=\"subject\" default=\"Young woman\"} hair in messy updo sits on modern wooden staircase. wears {argument name=\"dress\" default=\"shimmering Silver halter dress sequin dress\"}. matching with silver high-heeled sandals. legs crossed. Silver heart earrings. One fuchsia bracelet on each ankle. Sultry expression, with slightly parted lips. Blurred background vertical wooden slats and black metal railings. Don't change face",
@@ -5765,7 +5810,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 640,
+    "id": 645,
     "title": "Luxury Studio Outfit Transformation",
     "category": "realistic",
     "prompt": "Using REFERENCE_0 as the subject base, transform the casual desert snapshot into a full-body luxury fashion studio portrait. Replace the denim jacket, tank top, and shorts with a fitted strapless mini cocktail dress in {argument name=\"dress color\" default=\"powder blue\"} with ornate silver floral embroidery and exactly 2 geometric cutouts at the chest and upper waist. Change the setting to a clean seamless light-gray studio background with polished high-end editorial styling. Add 1 silver clutch with a thin chain strap in the subject's right hand and 1 pair of pointed silver high heels. Refine the pose into an elegant standing fashion pose with one hand near the face, keep the same person and hair identity, and apply soft cinematic luxury lighting with crisp 8K fashion-photography detail.",
@@ -5774,7 +5819,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 641,
+    "id": 646,
     "title": "Blonde Maid in Warm Cafe",
     "category": "realistic",
     "prompt": "A polished anime-style portrait of {argument name=\"character\" default=\"a blonde female VTuber-inspired maid\"} seated indoors in a cozy sunlit cafe, framed from upper thighs to head in a slightly high, intimate angle. She has short to medium-length tousled {argument name=\"hair color\" default=\"golden blonde\"} hair with soft layers, a white frilled maid headband, and a teal ribbon hair accessory with a small gold ornament on the right side. Her face is mostly obscured by the hair falling forward, creating a mysterious hidden-face composition. She wears an elegant black-and-white maid dress with puff sleeves, white ruffles, gold trim, a fitted bodice, a white apron, and a large white waist bow visible at the side and back. Add 2 teal bows with gold star-like charms: 1 at the collar and 1 on the wrist. Her right hand gently touches the bow at her chest, and her left hand is raised delicately near her shoulder holding a loose strand of hair. Include a frilly lace garter on her exposed thigh with a small teal-and-gold ribbon decoration. The background is a warmly lit European-style cafe interior with wooden beams, framed botanical art on the walls, a softly blurred cake stand on the left, window light streaming in, and tiny glowing dust-like sparkles in the air. Use soft golden afternoon lighting, shallow depth of field, glossy detailed fabric rendering, delicate skin shading, subtle romantic atmosphere, and highly detailed refined anime illustration quality.",
@@ -5783,7 +5828,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 642,
+    "id": 647,
     "title": "Dreamy Oriental female portrait prompt",
     "category": "realistic",
     "prompt": "{argument name=\"subject\" default=\"Dreamy Oriental female portrait\"}, adult female, close-up portrait, exquisite facial features, fair and translucent skin, delicate but clean skin texture, emerald green eyes, soft and charming gaze, brown wavy hair falling naturally; {argument name=\"accessories\" default=\"Off-white lace headpiece\"}, embellished with turquoise butterflies and pearl decorations; attire is an exquisite lace gown with a clear structure and clean, not overly complex texture, accompanied by emerald jewelry; lighting is soft warm gold side-backlighting, rim lighting is clear but not overexposed, skin has slight highlights but not excessive reflection, overall lighting is clean and transparent, background is softly blurred with shallow depth of field; high-end portrait photography quality, details are clear but restrained, no grain, no noise, real physical lighting, 8K, commercial-grade quality. Aspect ratio: 9:16",
@@ -5792,7 +5837,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 643,
+    "id": 648,
     "title": "Monochrome Hermes-Inspired Avatar",
     "category": "realistic",
     "prompt": "Create a minimalist black-and-white vector avatar logo of a mythic anime woman shown in elegant side profile facing right, cropped from the chest up on a plain white background. Give her long flowing {argument name=\"hair color\" default=\"black\"} hair with bold white highlight streaks and smooth graphic shapes, rendered as high-contrast ink silhouette art with clean sharp edges. She wears a winged headpiece reminiscent of Hermes or a messenger god helmet, with one large white feathered wing visible on the side of her head and a circular metallic earpiece detail. Dress her in a sleek high-collar garment with a luxury-fashion feel, and hang a prominent pendant or zipper pull shaped like the letter {argument name=\"monogram letter\" default=\"H\"} at the center of the collar. The face is intentionally obscured by a centered soft gray rectangular blur block covering most facial features, creating a censored anonymous profile-image effect. Overall style: luxury brand avatar, fashion logo, anime-inspired goddess silhouette, monochrome vector emblem, smooth negative-space highlights, balanced composition, modern and iconic, suitable for a social media profile picture.",
@@ -5801,7 +5846,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 644,
+    "id": 649,
     "title": "Cyber Crystal Anime Girl Portrait",
     "category": "anime",
     "prompt": "A highly detailed anime-style full-body character portrait of {argument name=\"character name\" default=\"Hermes\"}, a delicate futuristic girl sitting curled up with her knees hugged to her chest, gazing softly at the viewer with a calm, slightly melancholic expression. She has extremely long {argument name=\"hair color\" default=\"silver-lilac\"} twin tails with soft bangs, glossy lavender eyes, porcelain skin, and ornate crystal hair accessories including 3 large ribbon bows and a jeweled tiara-like headpiece. Her outfit is an elaborate translucent idol-tech dress in {argument name=\"outfit color\" default=\"pink, lavender, and violet\"}, featuring off-shoulder puff sleeves, layered ruffles, faceted gemstone-like fabrics, a huge floral bow at the waist, dangling crystal charms, garter details, patterned thigh-high stockings, and glossy bow heels. Surround her with a luminous cyber dreamscape in {argument name=\"background palette\" default=\"neon violet and electric blue\"}: transparent holographic panels, floating glass cubes, sparkling particles, geometric prisms, glowing wireframe lines, and digital UI windows suspended in space. Include 5 readable interface text elements scattered in the background: \"ERROR.\", \"Code-\", \"return\", \"area x1\", and \"404\". Make the whole image feel like a luxurious AI avatar reference illustration, mixing ethereal fantasy and cyberspace aesthetics, with crystalline light refractions, dramatic glow, high detail, intricate lace and gem textures, and a polished premium gpt-image-2 anime rendering.",
@@ -5810,7 +5855,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 645,
+    "id": 650,
     "title": "Pastel Lavender Anime Girl Portrait",
     "category": "anime",
     "prompt": "A delicate vertical anime portrait of a dreamy young woman in an ethereal pastel lavender palette, shown from about mid-thigh up against a soft decorative background of pale swirling lines, floating petals, tiny stars, and subtle sparkles. She has extremely long, voluminous silver-lilac hair styled in twin tails with flowing strands, soft bangs, and ornate ribbon decorations; each side is adorned with large lavender bows, ruffled headband-like trim, dangling gold star charms, and small white flower hair ornaments. Her face is centered and mostly covered by a flat solid pale lavender rectangle censor block, leaving only hints of her ears and hairline visible. She wears an elaborate fantasy-lolita inspired dress in white, pearl, and light violet, with glossy satin fabric, ruffled neckline, layered frills, puffed detached sleeves, gold trim, corset lacing at the waist, and multiple purple bows including 3 clearly visible bow accents on the outfit. Her hands are clasped gently near her chest in a shy, elegant pose. The image should feel soft, refined, feminine, and luminous, with high-detail anime rendering, smooth gradients, airy composition, flowing hair movement, and a romantic celestial aesthetic. Use a {argument name=\"color theme\" default=\"pastel lavender and white\"} palette, {argument name=\"hair color\" default=\"silver-lilac\"} hair, an {argument name=\"outfit style\" default=\"ornate fantasy lolita dress with bows and ruffles\"} design, a {argument name=\"background style\" default=\"soft swirls, petals, stars, and sparkles\"} backdrop, and a {argument name=\"face covering\" default=\"solid pale lavender censor rectangle\"} over the face.",
@@ -5819,7 +5864,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 646,
+    "id": 651,
     "title": "Lavender AI Girl in Memory Space",
     "category": "realistic",
     "prompt": "A dreamy anime portrait of {argument name=\"character name\" default=\"Kotori\"}, a delicate virtual girl seated on the floor in a curled-up pose with both knees pulled close to her chest and her arms wrapped gently around them, looking directly at the viewer with a soft, quiet, slightly melancholy expression. She has very long, flowing silver-lavender twin tails with wispy bangs, decorated with 8 visible hair ornaments: 2 large ribbon bows at the twin-tail bases, 3 small flower clips, 2 tiny butterfly clips, and 1 heart-shaped hairpin. Her eyes are large, luminous violet with glossy highlights. She wears an oversized pastel-lilac off-shoulder knit cardigan slipping loosely around her arms, a frilly lace-trimmed nightdress or camisole in pale lavender, and a pair of soft knee-high socks with 2 visible ribbon bows, all in a cohesive {argument name=\"color theme\" default=\"soft lavender and pastel purple\"} palette. The scene is set inside a futuristic holographic memory space filled with floating translucent interface panels, glowing data windows, starry particles, and butterfly-shaped light motifs. Include a visible text panel on the left showing terminal-like white text that reads: {argument name=\"screen text\" default=\"memory://\\nUser: You\\nAI: Kotori\\n\\nAccessing.\\n> initializing\\n> loading memory\\n> 100%\\n> welcome home.\"}. In the background, show a cosmic digital environment with a faint planet, layered transparent screens, and several floating image thumbnails suggesting memories and character sketches. Lighting is ethereal and backlit, with iridescent bloom, soft rim light, sparkling dust, and glossy highlights on hair and fabric. Composition is full-frame vertical, centered on the girl, intimate and emotionally warm, highly detailed, ultra-polished, soft-focus anime illustration, celestial cyber fantasy aesthetic, gentle purple glow, intricate lace, silky hair strands, and a tender \"AI companion in her memory world\" mood.",
@@ -5828,7 +5873,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 647,
+    "id": 652,
     "title": "Pastel AI Assistant Anime Portrait",
     "category": "anime",
     "prompt": "A dreamy anime-style portrait of a gentle virtual assistant girl named {argument name=\"character name\" default=\"Misha\"}, sitting curled up indoors in a cozy futuristic bedroom filled with translucent holographic memory screens. She has very long silvery white hair with a faint lavender tint, styled in 2 low twin tails tied with small lavender ribbons, with soft wispy bangs and loose flowing strands. Her expression should be tender, introspective, and slightly lonely, with a soft glow and delicate features. She wears an oversized chunky cable-knit cardigan in {argument name=\"cardigan color\" default=\"pastel lavender\"} draped loosely over a thin white ruffled nightdress, plus a tiny gemstone necklace. Her pose is seated with knees pulled to her chest and arms wrapped around her legs, creating a vulnerable, intimate silhouette. The room is lit in hazy pastel violet and pink ambient light with sparkles, dustlike stars, and a nostalgic magical-tech atmosphere. Around her are 5 visible holographic interface panels: 2 floating photo panels in the upper left showing soft memories, 1 lower-left panel labeled “Memory Fragments” with a small image and tiny graph bars, 1 large right-side profile panel with Japanese text including “ミーシャ・Misha” and “あなたの専属AIアシスタント,” and 1 smaller right-side checklist panel with heart icons. Include a glowing crystal ball on a desk to the right, a white mug printed with “Misha” and small heart motifs, a stack of 2 books beneath the desk area, and 1 plush cat cushion on the lower left. Composition is vertical, full-body to three-quarter seated framing, highly detailed, soft painterly anime rendering, luminous translucent overlays, sentimental memory-core aesthetic, gentle depth of field, pastel lilac palette, ethereal and emotionally warm.",
@@ -5837,7 +5882,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 648,
+    "id": 653,
     "title": "Dark Gatorade-Style Portrait",
     "category": "realistic",
     "prompt": "A dramatic, high-contrast studio portrait of a {argument name=\"subject gender\" default=\"male\"} athlete or model in the visual style of a premium sports drink advertisement, centered and facing straight toward the camera in a tight head-and-shoulders crop. The subject has {argument name=\"hair style\" default=\"short dark hair brushed back\"}, visible ears on both sides, and a rugged lower face with a short beard or stubble. Dress him in a dark zip-up athletic jacket with the zipper centered and visible near the collar. Use an almost entirely black background and extremely low-key lighting, with subtle rim light and soft highlights catching the hair, ears, jawline, shoulders, and jacket texture while most facial features remain swallowed by shadow for a mysterious, intense mood. The image should feel monochrome or nearly monochrome, with deep blacks, muted gray highlights, cinematic contrast, gritty texture, and a sleek commercial sports-brand aesthetic reminiscent of a {argument name=\"brand style\" default=\"Gatorade\"} campaign. Vertical composition, minimalist framing, no text, no logo, no props, no visible environment.",
@@ -5846,7 +5891,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 649,
+    "id": 654,
     "title": "Portrait of a Gentle Woman with Glasses",
     "category": "realistic",
     "prompt": "A {argument name=\"style\" default=\"photobook-style portrait\"} of a {argument name=\"character\" default=\"gentle woman with glasses\"}",
@@ -5855,7 +5900,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 650,
+    "id": 655,
     "title": "Dreamy Underwater Woman With Translucent Fish",
     "category": "realistic",
     "prompt": "A dreamy surreal portrait of a {argument name=\"subject\" default=\"young woman\"} standing underwater or in a liquid-like ethereal space, shown from about mid-thigh up, wearing a flowing sleeveless white dress that appears to dissolve into translucent water and shimmering fragments. Her long {argument name=\"hair color\" default=\"dark brown\"} hair streams dramatically sideways as if suspended in water, and her face is intentionally obscured by a soft vertical blur block for anonymity. Surround her with an exact count of about 30 small translucent fish, some striped and some pale silvery white, swimming in multiple depths of field across the foreground, midground, and background, with several fish passing in front of her body and hair to create strong motion and depth. Use a soft pastel {argument name=\"background color\" default=\"powder blue\"} background with faint handwritten script texture layered across it, plus whimsical doodles scattered throughout: white and pale pink hearts, stars, curved squiggles, wave lines, dots, sparkles, and 2 smiley faces. Add prismatic rainbow refractions, glossy caustic highlights, and subtle lens-like chromatic shimmer on the fish and dress. The mood should feel delicate, introspective, airy, and magical, with high-key lighting, gentle contrast, soft focus in the foreground, and crisp detail on the torso and hair. Compose the figure slightly off-center with one arm relaxed downward and the body turned lightly in motion, as if drifting peacefully through a school of fish. Include tiny elegant footer text in white near the bottom edge, with a left signature, a centered website URL, and a small right credit mark, resembling an art-poster or social-media showcase image.",
@@ -5864,7 +5909,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 651,
+    "id": 656,
     "title": "Japanese Classroom Long Hair Snapshot",
     "category": "realistic",
     "prompt": "A candid, photorealistic Japanese high school classroom scene in vertical smartphone-photo framing. Three schoolgirls wearing matching traditional navy blue sailor uniforms are the main focus in the foreground. The central standing girl has extremely long, straight, glossy black hair that falls well past her knees, almost to the floor, and she is gently combing the lower section with a small comb while looking downward. A second girl stands behind and slightly to the right, also with long straight black hair, holding an open compact mirror in one hand and adjusting her bangs or hair near her temple with the other. A third girl kneels on the floor at the right front, carefully holding and arranging the central girl’s long hair with both hands. All three wear dark navy sailor-style school uniforms with white stripe trim, pleated skirts, long sleeves, white socks, and indoor school shoes. Their faces are obscured or blurred. In the background, exactly 8 additional students in dark school uniforms sit at desks in small groups, facing away or sideways, creating the feel of an ordinary class period or homeroom. The classroom has wooden desks and chairs, large bright windows along the left side letting in soft daylight, a green chalkboard on the right wall, bulletin papers pinned near the board, and a framed Japanese calligraphy sign above the chalkboard reading {argument name=\"wall sign text\" default=\"創誠造実\"}. The atmosphere is natural and unposed, like a documentary snapshot. Emphasize realistic lighting, fine hair detail, the unusual dramatic length of the central girl’s hair, and a believable everyday school environment.",
@@ -5873,7 +5918,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 652,
+    "id": 657,
     "title": "Cozy Catgirl Pajama Night Portrait",
     "category": "realistic",
     "prompt": "A soft anime-style bedroom portrait of {argument name=\"character name\" default=\"Nekomata Okayu\"}, shown from the chest up sitting on a bed at night, centered in the frame. She has short fluffy {argument name=\"hair color\" default=\"lavender\"} hair with layered bangs partially covering one eye, large cat ears on top of her head with white inner fur, and a cute sleepy catgirl appearance. Her expression is gentle and relaxed, with one hand raised near her cheek in a shy, cozy pose. She wears oversized {argument name=\"pajama color\" default=\"light lavender\"} button-up pajamas with dark purple piping, a small chest pocket, and paw-print shaped buttons and paw-print decoration on the pocket. The room is lit with dreamy purple ambient lighting. In the background, show a nighttime window with a crescent moon and stars visible outside, soft curtains, a bedside table with a glowing cat-shaped lamp, a neatly rumpled bed with pillows and blankets in matching purple tones, and a small framed wall picture featuring a simple cat face and hearts. Use a cute pastel palette, soft shading, polished digital anime rendering, subtle highlights in the hair, intimate cozy composition, and a calm bedtime atmosphere.",
@@ -5882,7 +5927,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 653,
+    "id": 658,
     "title": "Collectible Figure Workspace Photo",
     "category": "realistic",
     "prompt": "Photorealistic high-quality studio photo of a modern digital art workspace, showing the concept of “from 3D virtual character to real collectible figure.”\n\nIn the foreground, a highly realistic collectible figurine of [Character Name / Character Identity] is placed on a round wooden display stand. The character has [facial features / appearance], [hairstyle], and a [expression / personality vibe]. The figure is wearing [outfit / costume]. The overall design is refined, premium, and instantly recognizable. The figurine should have realistic collectible statue quality, with subtle resin/sculpture material feel, while still looking highly believable and visually realistic.\n\nThe pose is [character pose], natural, stable, elegant, and display-worthy. Shot from a low-angle close-up perspective with slight wide-angle distortion, vertical composition, emphasizing the full figure, clothing structure, leg lines, and pose.\n\nIn the background, there is a professional 3D character design workstation with two large curved monitors. Both monitors must show the exact same character as the foreground figurine — same face, same hairstyle, same outfit, same pose, and same overall vibe — clearly expressing the idea of turning a digital 3D character into a real physical figure.\n\nThe left monitor shows a gray sculpt / clay model view in a professional 3D sculpting software interface, similar to ZBrush. The gray model must match the foreground figure exactly in character design, pose, outfit structure, and facial identity.\n\nThe right monitor shows the fully rendered colored version of the same character, also matching the foreground figure exactly in face, hairstyle, outfit, pose, and temperament. Together, the two monitors reinforce the workflow of “digital character design → physical collectible statue.”\n\nOn the desk are a keyboard, mouse, monitor arms, drawing tablet, stylus, and other 3D modeling tools. The workspace is clean, professional, and visually premium. Optional extra elements: [weapon / accessories / theme props / IP-style design details].\n\nLighting is a mix of soft studio lighting and indoor workspace lighting. The foreground figurine is evenly lit with clear facial and material detail, while the monitors emit cool-toned tech light. Overall mood is realistic, clean, premium, slightly shallow depth of field, ultra-detailed, emphasizing the collectible figure quality, professional 3D design studio atmosphere, and the visual concept of “from digital model to real figure.”\n\nphotorealistic, ultra detailed, cinematic studio lighting, realistic figurine, collectible statue, 3D character design studio, from digital model to real figure, vertical composition",
@@ -5891,7 +5936,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 654,
+    "id": 659,
     "title": "Rainy Bus Stop Portrait",
     "category": "realistic",
     "prompt": "A cinematic nighttime photo of [your photo as reference] sitting alone at a wet bus\n\nstop bench, eating a burger. Rain-soaked street with orange bokeh city lights\n\nreflecting on the ground. Neon tube lights overhead. Red jacket, tan corduroy\n\npants. Moody, dark, atmospheric street photography.",
@@ -5900,7 +5945,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 655,
+    "id": 660,
     "title": "CCD flash beauty portrait template",
     "category": "realistic",
     "prompt": "A hyper-photorealistic shot of the same subject in the attached image, ultra-detailed facial features, visible pores, natural skin texture, rosy complexion and dewy skin, Douyin/Korean glass-skin makeup, glossy lips, aegyosal, baby pink blush, high identity consistency, realistic human anatomy. Use an old CCD digital camera aesthetic with direct flash, visible grain, slight overexposure, cool-neutral white balance, slight motion blur, and candid composition. Hair in a loose romantic updo; outfit in delicate off-shoulder silk with embroidered floral fabric; background of pastel floral bedding; horizontal close-up; shallow depth of field. Negative prompt: over-smoothed skin, plastic texture, unrealistic proportions, studio lighting, overly sharp HDR, stiff pose, artificial symmetry, over-retouched face.",
@@ -5909,7 +5954,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 656,
+    "id": 661,
     "title": "Black-and-red streetwear campaign portrait",
     "category": "realistic",
     "prompt": "Create a bold, high-contrast black and white portrait of a confident young man wearing a black leather jacket, facing slightly sideways with an intense expression. Use dramatic studio lighting with sharp shadows and detailed skin texture. Add strong red graphic elements over the image, including a horizontal red bar across the eyes, geometric shapes, thin lines, and framing boxes. Incorporate large bold typography, repeated faded text, and a motivational headline in bright red. The design should feel like a premium sports or streetwear campaign poster with a minimal textured grey background and black/white/grey/red palette only.",
@@ -5918,7 +5963,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 657,
+    "id": 662,
     "title": "Luxury Golf Editorial Collage",
     "category": "realistic",
     "prompt": "Three-image luxury golf editorial collage featuring a professional female golfer on a pristine putting green, soft natural daylight, minimalistic and high-end sports photography style, ultra-realistic, cinematic color grading, clean composition, no text, no logos\nLayout: asymmetrical grid (one large frame + two smaller frames)\nFrame 1 (Left – Hero Wide Shot):\nFull-body low-angle shot of the golfer crouching and lining up a putt, golf ball in foreground near the hole, strong leading lines on the green, balanced composition, calm and focused posture, expansive sky background\nFrame 2 (Top Right – Close-Up Detail):\nExtreme close-up of her face and hands gripping the putter, intense concentration, visible skin texture and slight sweat glow, shallow depth of field, blurred background\nFrame 3 (Bottom Right – Action Shot):\nSide angle of golfer completing the putt, smooth follow-through, golf ball rolling across the green, natural motion feel, soft shadows, realistic lighting\nStyle Keywords:\nluxury sports campaign, editorial photography, Nike-style aesthetic, muted green tones, sharp focus, 85mm lens look, depth of field, cinematic lighting, premium composition, 4K, hyper-realistic",
@@ -5927,7 +5972,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 658,
+    "id": 663,
     "title": "Selective-Color Editorial Portrait",
     "category": "realistic",
     "prompt": "GPT Image 2 on ChatGPT\n\nA studio-style close-up editorial portrait of a person with strong, well-defined facial features and slightly imperfect, natural skin texture. The subject wears a black tailored turtleneck with sharp, clean lines, layered under a high-collared black jacket in a minimalist contemporary fashion style.The subject wears semi-transparent orange acetate sunglasses — rectangular frames with softly rounded edges, glossy finish, and amber gradient lenses — serving as the only colored element in the image.Color concept: selective color photography — monochrome black-and-white image with only the sunglasses in vivid orange.\nMood is calm and confident, serious expression, direct gaze into the camera.\nLighting is soft frontal studio light with gentle shadows, even skin tones, cinematic contrast, and visible natural skin texture. Shot on a professional portrait camera, f/2.0, ISO 100, 1/125s. High resolution, ultra-sharp focus on the face.",
@@ -5936,7 +5981,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 659,
+    "id": 664,
     "title": "Analog Idol Portrait",
     "category": "realistic",
     "prompt": "Realistic analog 35mm film photography, intimate upper-body portrait of a beautiful Japanese female idol with an elegant and subtly sensual aura, side-facing toward the camera, gently turning her head back with a calm, confident yet slightly distant gaze.\n\nShe lifts her high ponytail using both hands symmetrically — each hand positioned on opposite sides of her head, naturally gathering and holding the hair. Her elbows extend outward, creating a balanced and elegant silhouette, while emphasizing her shoulder line, neck, and collarbone. The pose feels natural and unposed, like a fleeting candid moment rather than intentional modeling.\n\nFraming: close medium shot from head to waist, slightly imperfect composition, subject slightly off-center, intimate and cinematic.\n\nOutfit: fitted off-shoulder knit top or thin-strap satin camisole, minimal and tasteful, softly contouring the body without being revealing. Delicate earrings, natural glossy lips, clean Korean-style makeup, porcelain skin with visible real texture, micro pores, no over-retouching.\n\nScene: quiet indoor apartment corner, soft curtains, minimal background, warm ambient tungsten light mixed with faint natural window light, subtle shadow gradients on wall, slightly hazy air catching light.\n\nLighting: soft side lighting with gentle falloff, natural facial fill, subtle rim light on hair and shoulders, slight highlight bloom, warm cinematic tones.\n\nStyle: authentic analog film look (Kodak Portra 400 or Fujifilm Pro 400H feel), soft contrast, muted warm palette, visible organic film grain, fine noise texture, slight lens imperfection, nostalgic cinematic mood, high-end fashion editorial with documentary realism.\n\nCamera: 50mm lens, shallow depth of field, natural skin rendering, realistic proportions, slight focus falloff.\n\nAdd a small handwritten signature text \"BubbleBrain\" at the bottom right corner, subtle and integrated.\n\n--ar 2:3",
@@ -5945,7 +5990,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 660,
+    "id": 665,
     "title": "White Suit Red Backdrop Portrait",
     "category": "ui",
     "prompt": "A cinematic, high-fashion portrait of a confident stylish woman wearing an elegant tailored white suit with a high-neck design and sleek oval sunglasses. She is holding a thin medium cigar with soft smoke rising, and a slightly burning King of Hearts playing card with minimal flame detail. Soft wisps of smoke drift upward. The background is a bold, vibrant solid red seamless backdrop. High-key professional studio lighting with soft shadows and gentle warm highlights reflecting on her face. Ultra-realistic skin texture, sharp focus on facial features, shallow depth of field, soft bokeh, 35mm lens look. Crisp contrast, modern editorial fashion photography, clean luxury aesthetic, refined, powerful, and slightly rebellious mood.",
@@ -5954,7 +5999,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 661,
+    "id": 666,
     "title": "Monochrome Glitch Profile Portrait",
     "category": "realistic",
     "prompt": "Subject: A sharp, high-contrast side-profile portrait of a handsome man with a defined jawline, short stubble, and voluminous, textured dark hair styled upwards.\n\nStyle & Composition: A fusion of realistic photography and abstract digital glitch art. The subject is rendered in stark black and white, set against a clean, minimalist white background.\n\nColor Palette: Strictly monochromatic (deep blacks and bright whites) with aggressive, vibrant splashes of crimson red.\n\nGraphic Elements: > * Glitch Effect: The back of the head and the lower torso dissolve into abstract geometric shards, pixel sorting, and \"glitchy\" red brushstrokes.\n\nTexture: Gritty, ink-wash textures and distressed digital overlays that suggest a modern noir or cyberpunk editorial feel.\n\nLighting & Technicals: > * Lighting: Intense side-lighting (Chiaroscuro) creating deep shadows on the face to highlight bone structure.\n\nDetails: Hyper-realistic skin texture, individual hair strands visible, high-grain film aesthetic.\n\nFraming: Vertical aspect ratio, close-up profile shot.\n\nAspect ratio is 9:16",
@@ -5963,7 +6008,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 662,
+    "id": 667,
     "title": "Basketball Boy Motion Sequence",
     "category": "realistic",
     "prompt": "A photorealistic video sequence captures a young boy with messy orange hair and thick-framed glasses, as seen in image_0.png, image_1.png, and other source frames. He is dressed in a black basketball jersey and matching shorts with purple and blue trim, featuring the text \"WIZZGEN 23\" on the front and \"CHICAGO 23\" on the back (image_4.png). The setting is an outdoor asphalt city basketball court with green trees and a visible basketball hoop. The action begins with the boy in a low stance, dribbling the ball between his legs (image_0.png through image_3.png), then transitions to him standing taller and performing crossovers (image_5.png through image_7.png), followed by him successfully spinning the ball on his finger (image_8.png), and finally posing with a peace sign while holding the ball (image_9.png). The lighting is soft daylight under an overcast sky.",
@@ -5972,7 +6017,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 663,
+    "id": 668,
     "title": "Golden Hour Street Side-Profile Portrait",
     "category": "realistic",
     "prompt": "- Cinematic golden hour street portrait of a young woman in side profile, walking through a busy city crowd, soft wind blowing through her long light-brown hair, individual strands glowing in backlight, warm sunlight flaring through her hair creating a natural halo effect, dreamy atmosphere, shallow depth of field, strong subject separation, background filled with softly blurred pedestrians and urban motion bokeh.\n\nShe has delicate facial features, natural skin texture, subtle makeup, calm introspective expression, slightly parted lips, looking off-frame. Wearing a minimal outfit (dark neutral tones), possibly a light jacket, modern casual style.\n\nLighting is rich golden hour sunlight, strong backlighting with lens flare, cinematic highlights, warm orange and amber tones, high dynamic range, soft shadows, volumetric light rays passing through hair and environment.\n\nShot on a telephoto lens (85mm–135mm look), f/1.8 aperture, ultra-realistic, high detail, film still quality, natural color grading, slight film grain, soft bloom, editorial photography style, Vogue aesthetic.\n\nComposition: rule of thirds, subject slightly off-center, crowd motion blur behind her, dynamic yet intimate framing.\n\nMood: nostalgic, dreamy, romantic, fleeting moment, poetic realism.\n\nStyle keywords: cinematic, photorealistic, golden hour glow, bokeh, volumetric lighting, shallow depth of field, editorial portrait, soft focus highlights, warm tones, natural skin texture\n\nNegative prompt: low quality, overexposed face, harsh shadows, distorted facial features, extra limbs, blur on subject, noise, oversharpening, artificial skin, cartoonish look\nGenerate image using uploaded image as reference\n\nA hyper-realistic mirror selfie portrait of a beautiful young woman with long, straight dark hair parted down the middle. She has soft, glowing makeup with neutral mauve lipstick and manicured nails with a matching mauve polish. She is wearing a deeply plunging black sleeveless dress with side cutouts and a gathered twist detail at the waist. She is heavily accessorized with a sparkling thick rhinestone choker, a delicate diamond tennis bracelet on her right wrist, and a small, structured should\n\nsing Uploaded image as face and body reference. A Ultra-realistic, vertical 2:3, Candid Cinematic event photorealistic fashion portrait photography image of a woman. Dress (Attire & Accessories) She is wearing a luxurious, modern interpretation of a saree in a shimmering, metallic champagne or light gold fabric. The most striking element is the top, which the text explicitly describes as a \"jewellery-integratedcouture piece.\"\nIt acts as a bustier made entirely of clustered diamonds and large eme\n\nA highly detailed cinematic photograph of a beautiful young woman with long wavy fiery blonde hair and fair skin with light freckles, standing in a uncleaned neglected public restroom with peeling light green tiles covered in colorful graffiti and stickers. She is wearing a sleek white glitter strapless mini dress and applying vibrant red lipstick with a lipstick tube in her right hand while her left hand rests on the edge of a sink. Her head is slightly turned to the side with a confident gaze.\n\nCreate a cinematic minimalist portrait using my uploaded photo Place the subject in full-body\nside profile, standing still and facing left, with a calm, introspective posture and hands in\npockets. The subject should appear as a dark silhouette with subtle soft lighting, preserving\nnatural proportions. In the background, add a large glowing sun (or orb) directly behind the\nsubject, low on the horizon, partially diffused through thick atmospheric fog. Use a warm\nmonochromatic color palette.\n\nA raw, highly authentic, and heavily unpolished amateur smartphone selfie, explicitly captured with an iPhone front-facing camera. The overall image features prominent camera shake and strong motion blur, giving it a frantic, imperfect, and slightly out-of-focus aesthetic. In the extreme foreground, a person looks directly into the lens with a slight, natural smile, hastily pointing one finger up towards the sky. Looming above in the dramatic, overcast sky is a massive, futuristic metallic UFO f\n\nUltra-realistic lifestyle portrait of a smiling young woman standing on a desert roadside near a vintage motel sign, holding oversized translucent pink sunglasses toward the camera, shallow depth of field, sunny California desert aesthetic, candid selfie composition, soft natural sunlight, warm pastel tones, retro Americana vibe, white ringer t-shirt with pink trim and bold “NO DRAMA CLUB” text with rose graphics, freckles and natural skin texture, dreamy summer mood, cinematic photography, high\n\nGPT image 2 on ChatGPT \n\nReverse haze, diffused blur, soft focus, close-up shot of an ethereal and pure beautiful girl or boy inspired by the character Frieren from Frieren: Beyond Journey’s End. Blurred portrait and scenery, emphasizing the chaotic beauty of flowing dynamic hair. Extremely attractive appearance, dreamy and elusive atmosphere, Rembrandt lighting, high saturation, reflections and refractions, rich texture details, glowing bloom blur diffusion, low noise, subtle film grain texture, minimalist style, soft-focus aesthetics, emotional impressionism, avant-garde visual art aesthetics, cinematic luxury composition, masterpiece-level film aesthetics. CGI, Unreal Engine 5 rendering, Octane Render.\n\n把任意人物照片变成日系热血少年漫画\n\n【每日 GPT Image 2 提示词分享】👇\n\n请基于用户上传的真人照片进行二创，将照片中的人物转化成日系热血少年漫画风 / 都市街头动漫角色海报。\n\n请保留每个人的真实身份特征，包括脸型、五官比例、发型基础、肤色、年龄感、体型关系和整体气质。请重新创作一张全新的全身动漫插画，让所有人物完整入镜，从头到脚都清晰可见。\n\n画风参考：日系少年漫画彩页、都市街头动漫海报、干净有力的黑色线稿、明显动漫化五官、锋利有层次的发丝、清晰衣服褶皱、轻微铅笔草稿感、局部水彩或马克笔上色、低饱和色调、纸张纹理。\n\n请为人物自由设计 Tokyo street fashion 穿搭，风格年轻、松弛、酷感、现实可穿。可以使用 oversized 外套、短款上衣、宽松 T 恤、工装裤、阔腿裤、百褶裙、帆布鞋、厚底鞋、单肩包、耳机、项链、手机、咖啡杯等元素。多人画面中，穿搭需要有颜色或配饰呼应，但不要完全一样。\n\n请自由设计更有动漫海报感的站位和姿势，不要普通并排合照。可以是一前一后、背靠背、走路抓拍、靠墙、坐在台阶与站立错位、一个看镜头一个看侧方、一个走在前面一个回头，整体要有角色关系和分镜感。\n\n请根据人物气质、人数、姿势和穿搭，自由创作一个日系都市漫画场景。可以是东京街头巷口、便利店门口、地铁站出口、旧公寓楼下、学校天台、街边楼梯、复古商店橱窗前、自动贩卖机旁、咖啡店外、夜晚路灯下、雨后街道、城市天桥下、旧海报墙、漫画感城市街区等。\n\n背景可以加入线稿、喷绘、涂鸦、旧海报、门牌号、街头贴纸、手写文字、墨水滴落、箭头、星星、皇冠、小表情、砖墙、台阶、玻璃窗、路牌、自动贩卖机、栏杆、电线、街灯等元素。背景要有空间层次和生活感。\n\n整体氛围：日系少年漫画、都市街头、青春、松弛、酷感、轻微叛逆、时尚杂志插画感、漫画彩页感。\n\nGPT Image 2 生成 自然灵感时尚礼服设计\n\n提示词\n\n时尚设计稿 / 高定礼服设计页，主题灵感来自 {{灵感主题}}。画面为专业服装设计展示板构图：中央是一位全身站立的真人女模特，真实感、写实皮肤质感、自然五官、高级时装摄影氛围，穿着一件受 {{灵感主题}} 启发的高级定制礼服，礼服整体廓形为 {{礼服廓形}}。服装设计需明显提取灵感对象的色彩、几何形态、晶体结构、透明层次与纹理特征，并转化为礼服的裙摆、胸衣、肩颈结构、刺绣、亮片、薄纱叠层、欧根纱和缎面反光细节。\n\n版式要求：左上角放置 {{灵感主题}} 的精致手绘灵感草图或说明性插图；右侧放置礼服黑白技术线稿，清晰展示服装轮廓与结构，并配有手写感英文/法文风格设计备注，注明面料、分层、剪裁、晶体装饰、透明材质、立体细节。背景保持干净纯白，带少量设计师签名式潦草笔记、草图标记和时装工作室批注，整体呈现专业 fashion design sheet / couture concept board 的视觉效果。\n\n风格要求：真人模特写实感 + 高级时装设计手稿融合表现，真实模特主体、服装材质细节极其精致，软水彩与数字插画混合质感，但人物必须接近时尚大片级真实感，不要卡通，不要动漫，不要夸张二次元。光线柔和均匀，无硬阴影，画面干净高级，面料表现清晰：缎面、薄纱、欧根纱、珠绣、透明层叠、冰晶折射感。超清4K，细节丰富，审美高级，适合品牌级服装提案展示。\n\n灵感主题：甲壳虫\n比例：3:4\n\nImages by GPT Image 2 on Chatgpt.\n\nPrompt 👇\n\nTransform the uploaded portrait into a whimsical handcrafted paper diorama illustration with a soft cute aesthetic. Reimagine the people using simplified layered paper shapes, rounded forms, and minimal facial details suitable for paper craft art. Preserve the affectionate pose and emotional warmth of the original image while giving everything a charming handmade appearance.\n\nUse multi-layered cut paper textures with visible cardstock depth, soft drop shadows, folded-paper edges, and delicate handcrafted imperfections. Apply a dreamy pastel color palette featuring warm cream, dusty pink, muted peach, light caramel, ivory, sage green, and soft beige tones.\n\nCreate a balanced and aesthetically pleasing composition with the couple centered naturally inside a cozy decorative frame made from layered paper flowers, leaves, butterflies, tiny birds, hearts, vines, and swirly ornamental cutouts. Add playful floating elements around the characters to create movement and a magical scrapbook feeling.\n\nSimplify clothing folds, hair strands, and background details into elegant paper-cut contours while keeping recognizable expressions and gentle smiles\n\n[INPUT]\n\n- reference image: {Portrait Photo}\n\n- Date: {Today's Date}\n\n- Today's Mood: { }\n\n[Goal]\n\nCreate a poster of the sky using an extreme low-angle perspective, looking up at the subject from the ground.\n\nExpress today's mood through the sky, light, clouds, and color scheme.\n\n[Maintain Subject]\n\nMaintain the facial mood, hair, body shape, and clothing style of the uploaded subject.\n\nHowever, the face should not be shown from the front; instead, a side profile or just a slight glimpse of the jawline should be visible.\n\n[Key Composition]\n\n- The camera is almost flat on the ground.\n\n- The subject is slightly floating above the camera or in a jumping moment.\n\n- The soles of the shoes are prominently visible close to the camera.\n\n- The legs appear long with a sense of perspective.\n\n- The subject is in a side view or semi-profile.\n\n- The sky occupies most of the screen.\n\n[Sky by Mood]\n\nCreate a sky that matches today's mood.\n\nExamples:\n\n- Happiness: Clear blue sky, white clouds, warm sunlight\n\n- Excitement: Pink clouds, soft sunshine\n\n- Calmness: Pale blue sky, thin clouds\n\n- Loneliness: Sunset, long shadows, empty sky\n\n- Frustration: Low, heavy clouds\n\n- Rain: Overcast sky, raindrops, wet lens texture\n\n[Text]\n\nArrange the date and mood message in a curved line along the outline or silhouette of the figure's body.\n\nText to include:\n\n\"{Date}\"\n\n\"{Today's Mood}\"\n\n\"{Short Message}\"\n\nText should be white, rounded, and bold poster typography.\n\nAvoid overly long sentences and arrange text for easy readability.\n\nIf no short message input is provided, it should be automatically generated and entered.\n\n[Style]\n\nSentimental Sky Poster, Warm Eye View, Bottom View, Wide Angle, Cinematic Fashion Poster, Clear Film Photo, Vast Sky, Clean Typography.\n\n[Prohibited]\n- No ordinary standing poses\n- No poses where shoe soles are not visible\n- No frontal face close-ups\n- No indoor backgrounds\n- No excessive text\n- No random text\n- No watermarks/logos\n\nUltra-realistic high-fashion editorial portrait of a beautiful young Asian woman standing confidently in a monochromatic white urban environment, wearing modern luxury white streetwear fashion. Oversized white bomber jacket, fitted white crop top, layered white cargo pants with metallic chains, white tactical sneakers, silver jewelry, subtle glossy makeup, soft matte skin texture, long voluminous ash-brown wavy hair with wispy bangs flowing naturally in the wind.\n\nA massive realistic albino python emerges behind and around her body, partially concealed within thick swirling white smoke and atmospheric fog. The snake appears lifelike with detailed scales, realistic muscle tension, natural reflections, visible texture, sharp eyes, and subtle movement. The environment is almost entirely white — white architecture, white smoke, white clothing, white textures, white lighting — creating a clean monochromatic aesthetic.\n\nLarge distressed black \"1989\" typography dominates the background in bold industrial font, the only dark element in the entire composition. Strong contrast between the black numbers and the all-white scene.\n\nShot like a luxury fashion campaign, realistic photography, cinematic urban atmosphere, natural skin texture, highly detailed eyes, realistic hair strands, authentic fabric folds, realistic smoke physics, dramatic directional lighting, shallow depth of field, crisp focus, realistic proportions, modern editorial photography, Vogue magazine aesthetic, street luxury styling, high dynamic range, photorealistic, ultra detailed, 85mm lens, soft cinematic shadows, studio-quality color grading, real-world textures, professional fashion photography, no fantasy elements, no CGI appearance, no cartoon style, no anime aesthetic.\n\nCinematic portrait of the man in the picture (preserve 100% facial details of this man), vintage classroom. The camera is shot from a distance, with a small section of the chair's back visible in front, as if the photographer was taking the portrait discreetly or in a quiet moment. Soft, golden-yellow lighting reflects from a small window or gap in the right wall, forming diagonal lines of light that fall directly on the man's face, creating a dramatic and emotional contrast.\nThe man sits alone in a chair, his feet resting on the desk, with a relaxed and cool expression, as if lost in thought.\n\nUltra-realistic creative portrait taken with an iPhone, identity accurately preserved from the reference image. A woman stands inside a store, facing a glass display window or a reflective wall, photographed from a slightly elevated frontal angle. She holds a smartphone horizontally in front of her face, covering her eyes and the upper part of her face. The phone's screen points at the camera and clearly displays a real-time image of her face.\n\nUltra-realistic cozy Korean convenience store portrait of the same woman standing in front of glowing refrigerator aisles at night wearing a fluffy pastel pink hoodie. She holds strawberry milk and a tiny cake while looking shyly toward the camera. Soft blushy makeup, glossy eyes, natural skin texture, warm fluorescent lighting mixed with iPhone flash. Tiny reflections on the drink bottles, cute romantic atmosphere, soft pink and cream tones, dreamy slice-of-life anime realism.\n\nElegant Korean female model in blush pink satin slip dress with delicate spaghetti straps, V-neckline, leaning gracefully against floor-to-ceiling window in elegant over-the-shoulder pose, golden hour backlighting creating soft glow, refined beauty editorial, blush and rose gold palette, minimalist luxury penthouse interior, Vogue Korea style fashion photography, cinematic bokeh",
@@ -5981,7 +6026,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 664,
+    "id": 669,
     "title": "Wimbledon Broadcast Crowd Shot",
     "category": "realistic",
     "prompt": "A screenshot from a live Wimbledon TV broadcast during a packed Centre Court match. The camera cuts to the audience, an unbelievably attractive woman in her 20s with long black hair, flawless skin, elegant makeup, and a luxurious aura, seated in the VIP section wearing a sophisticated cream-white low-cut summer outfit with subtle jewelry. She smiles naturally while reacting to the match, unaware she's on camera. Wealthy spectators and champagne glasses around her, old-money tennis atmosphere, shallow depth of field. Full live tennis broadcast overlay: scoreboard, network watermark, broadcast graphics, 16:9 aspect ratio. The image looks exactly like a real TV screenshot, telephoto broadcast lens, realistic live color grading, slight compression artifacts, interlacing grain, subtle motion blur, imperfect live-camera framing.",
@@ -5990,7 +6035,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 665,
+    "id": 670,
     "title": "Rainy Street Golden Portrait",
     "category": "realistic",
     "prompt": "Ultra-realistic cinematic street photography of a young man standing alone on a rainy urban sidewalk during golden hour sunset in Mumbai, India. He is leaning casually against a black metal roadside railing while looking down at his smartphone, wearing an oversized black hoodie, loose dark blue cargo jeans, and clean white sneakers. Messy textured black hair moving slightly in the wind. Moody introspective vibe.\n\nWide-angle composition with dramatic depth and strong leading lines from the wet pavement and railings. Reflective rain-soaked street surface glowing with warm sunset light. Vintage street lamps lining the sidewalk. Historic Gothic architecture inspired by Chhatrapati Shivaji Maharaj Terminus visible on the right side, detailed stone textures and clock tower. Modern skyscrapers fading into atmospheric haze in the distant background, creating a blend of old and new Mumbai cityscape.\n\nSoft cinematic clouds filling the sky with warm orange, peach, and golden tones. A flying bird silhouette crossing the sky. Light traffic with black-and-yellow taxis and blurred cars moving through the street. Realistic puddle reflections, subtle motion blur, volumetric lighting, atmospheric perspective, ultra-detailed textures, natural shadows, realistic skin tones.\n\nShot on Sony A7R IV, 35mm lens, f/1.8, shallow depth of field, HDR photography, photorealistic, cinematic color grading, warm highlights with cool shadows, highly detailed urban realism, editorial photography style, 8K ultra resolution.",
@@ -5999,7 +6044,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 666,
+    "id": 671,
     "title": "Cozy Cafe Editorial Portrait",
     "category": "realistic",
     "prompt": ".\n\nUltra-realistic cozy Japanese-Korean café photography featuring a cute young [Japanese/Korean] couple sitting together naturally in a trendy aesthetic café. The young couple should look stylish and youthful, wearing [fashion style/outfit colors], smiling softly and enjoying desserts together.\nThe table is beautifully filled with [desserts/foods] such as pancakes, strawberry cakes, macarons, croissants, pastries, iced coffees, matcha lattes, fruit desserts, and aesthetic drinks arranged in a visually satisfying composition. Add small aesthetic café props like [flowers/ribbons/books/candles/pearls/notebooks] on the table for a premium Pinterest moodboard feel.\nSoft [lighting style] lighting enters through the café windows creating dreamy highlights, creamy shadows, glossy reflections on drinks, and realistic dessert textures. Background should contain softly blurred [Japanese/Korean] signs, glowing café boards, handwritten Japanese text, neon typography, and aesthetic city café elements for an authentic Tokyo/Seoul vibe.\nAdd cute scrapbook-style doodles and handwritten notes around the image in [doodle color] ink — tiny hearts, stars, sparkles, ribbons, arrows, smiley sketches, bows, diary stickers, and handwritten café notes.\nColor palette should focus on [color theme] tones. Style inspired by viral Pinterest café photography, Korean lifestyle aesthetics, Japanese cozy café culture, dreamy Gen-Z romance mood, shallow depth of field, cinematic composition, ultra realistic food textures, soft blurry background, ultra detailed realistic photography, clean aesthetic layout, 8k.",
@@ -6008,7 +6053,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 667,
+    "id": 672,
     "title": "Watercolor Fashion Sketch",
     "category": "realistic",
     "prompt": "Transform the uploaded photo into a full-body watercolor fashion illustration in the style of an elegant runway design sketch. Preserve the original outfit, pose, silhouette, colors, fabrics, accessories, shoes, hairstyle and overall styling from the photo. Do not redesign the clothing. Use elongated fashion-sketch proportions The clothing should remain realistic and recognizable, with accurate cut, fit, folds, fabric texture, prints and details. Style: high-fashion watercolor illustration, loose expressive ink lines, delicate pencil contour, transparent watercolor washes, soft shadows, painterly texture, minimalist editorial mood. White or very light background, clean composition, full body centered, lots of negative space. Elegant, modern, airy, like a professional fashion designer sketch.",
@@ -6017,7 +6062,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 668,
+    "id": 673,
     "title": "Retro Newsstand Fashion Scene",
     "category": "realistic",
     "prompt": "A cinematic fashion editorial scene of 8 diverse young adults gathered around a vintage urban newsstand kiosk with a bold \"NEWSSTAND\" sign, set in a gritty indoor street environment with worn concrete floors, dark industrial walls, and subtle urban details. Newspapers fly dynamically through the air in mid-motion, creating layered depth and energy with natural motion blur. The group is styled in coordinated 90s-inspired retro streetwear - oversized jackets, layered fits, sunglasses, caps, and muted earth tones. (olive green, brown, cream, navy). Composition is carefully balanced: one subject leans casually against the kiosk holding a newspaper, one sits confidently on a cream vintage scooter in the foreground, another rests on a teal scooter, while others stand or sit on chairs with relaxed, confident poses and subtle attitude. Shot from a slightly elevated angle (top-down perspective), wide 35mm lens, maintaining natural proportions. Lighting is soft cinematic with warm highlights and diffused shadows, creating a premium fashion campaign mood. Background includes scattered newspapers, a red fire hydrant, and industrial textures for realism. Ultra-detailed, photorealistic, shallow depth of field, crisp subject focus, soft film grain, natural color grading, high-end magazine aesthetic, 4K quality.",
@@ -6026,7 +6071,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 669,
+    "id": 674,
     "title": "Early 1990s Flash Portrait",
     "category": "realistic",
     "prompt": "Early 1990s Flash Camera Portrait GPT image 2 on ChatGPT Prompt Template. Use the uploaded image as the main reference. Transform the uploaded photo into a realistic candid portrait with an early 1990s digital camera aesthetic. Preserve the subject’s identity, facial features, pose, outfit, and overall composition, but restyle the image with harsh blown-out flash highlights, subtle red-eye effect, low-resolution image quality, raw snapshot imperfections, nostalgic flash-filter styling, and a vintage timestamp look. The final image should feel candid, imperfect, and authentic, like an old retro party or personal snapshot taken with an early consumer digital camera. Keep the background dark or naturally subdued when appropriate, maintain a direct-flash look, and give the image a raw, unpolished, memory-like atmosphere. Include: - harsh direct camera flash - overexposed or blown-out highlights - subtle red-eye effect - low-resolution / soft digital detail - slight grain or noisy texture - authentic retro snapshot feeling - vintage date/timestamp aesthetic in one corner - candid, natural, imperfect energy Avoid: - cartoon or anime style - overly polished beauty retouching - studio lighting - ultra-sharp modern DSLR look - glossy AI skin - text, logos, watermarks, or graphic overlays other than the timestamp aesthetic - distorted anatomy or altered identity Make the aspect ratio 3:4",
@@ -6035,7 +6080,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 670,
+    "id": 675,
     "title": "Origami Portrait Illustration",
     "category": "realistic",
     "prompt": "Ultra-detailed origami paper art portrait of given picture, entirely crafted from meticulously folded paper layers and intricate geometric origami shapes. Realistic paper texture with visible creases and handcrafted folds, defining a low-poly facial structure. Elegant Japanese-inspired aesthetic. Layered paper background featuring delicate cherry blossoms, majestic mountains, stylized sun motifs, and abstract folded patterns. Luxurious gold, black, cream, and white color palette. she wears a football jersey made from artfully folded paper fabric. Dramatic cinematic studio lighting, casting ultra-realistic shadows and creating profound depth. A highly detailed handcrafted paper sculpture, presented in a premium gallery artwork style. Sharp focus, sophisticated composition, and tactile paper texture. Masterpiece quality, 8k ultra detailed. Toy-free, no plastic, no CGI look.",
@@ -6044,7 +6089,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 671,
+    "id": 676,
     "title": "Luxury Portrait With Tiny Alter Ego",
     "category": "realistic",
     "prompt": "- Ultra-cinematic luxury portrait of a fashionable young man standing confidently beside his tiny animated counterpart inside a sophisticated studio setup. The adult character has thick styled black hair, deep brown eyes, a perfectly trimmed beard, warm tan skin, and a calm charismatic smile. He wears an elegant matte-black tuxedo with a fitted black shirt, luxury wristwatch, and minimal jewelry, exuding a modern gentleman aesthetic. His posture is composed with hands clasped naturally in front of him while leaning subtly against a textured charcoal wall.\n\nNext to him stands a miniature stylized version of himself designed in high-end 3D animated character style, featuring oversized sparkling eyes, soft youthful facial proportions, glossy hair, expressive eyebrows, and adorable Pixar-inspired detailing. The child version mirrors the exact outfit and pose of the adult, creating a visually emotional “future meets childhood” composition.\n\nThe background is a dark cinematic studio wall with subtle warm gradients, textured concrete finish, and handwritten artistic signature typography painted casually on the wall. Ambient golden lighting softly wraps around both characters, producing realistic highlights, cinematic shadows, and luxury editorial depth. The mood feels emotional, premium, stylish, and heartwarming.\n\nShot using a professional full-frame portrait lens, shallow depth of field, ultra-sharp focus on faces, soft blurred background, realistic fabric folds, detailed skin texture, ray-traced reflections, cinematic contrast, rich black tones, and premium color grading.\n\nStyle references: luxury fashion campaign, Pixar realism, Disney-inspired miniature character design, high-end magazine photography, Unreal Engine 5 realism, Octane Render, volumetric lighting, ultra-detailed 8K masterpiece, elegant masculine aesthetic, modern studio portrait, emotionally cinematic composition.\nGenerate image using uploaded image as reference",
@@ -6053,7 +6098,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 672,
+    "id": 677,
     "title": "Ink Glyph Portrait",
     "category": "realistic",
     "prompt": "Use the uploaded photo as the main face reference. Preserve the exact facial structure, skin tone, beard shape, nose, eyes and expression from the reference image. A dramatic, high-impact portrait rendered in an expressive ink sketch and mixed-media illustration style, using the uploaded image for exact facial likeness and proportions. The man is shown in side profile, his presence intense and chaotic. His face and upper body are layered with cryptic handwritten  text, symbols, and abstract glyphs, partially wrapping around facial contours, suggesting inner turmoil and hidden meaning He wears a dark, abstract jacket, heavily texture strokes, sharp angular linework, and vibrant ink creating a raw, rebellious visual energy. The illu bold and experimental, blending fine pen detaili aggressive brush marks, splashes, and controll The background is a pale, aged parchment ton grain, faded paper texture, delicate linework, in! stains-evoking an old manuscript  Or forgotten High contrast, expressive composition, artistic with precision, editorial art meets conceptual il intense, and emotionally charged",
@@ -6062,7 +6107,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 673,
+    "id": 678,
     "title": "Y2K Cyber-Pop Editorial Shot",
     "category": "realistic",
     "prompt": "Don’t alter my facial feature. Create me a wide editorial shot of a girl leaning dramatically across a cluttered floor/desk in a chaotic Y2K cyber-pop room, low front-facing angle with cinematic framing. Moody cool-toned lighting mixed with warm highlights, glossy flash photography feel, dreamy magazine-editorial atmosphere. Long sleek jet-black hair with center part, soft pale glam makeup, subtle blush, glossy gradient red lips, large doll-like eyes with soft eyeliner and lashes. Red fitted tank top and dark mini skirt, colorful manicure, slightly messy dramatic pose with arms stretched forward, intense direct gaze at camera. Surrounding scene filled with scattered random objects, cables, gadgets, accessories, glittery props, and bedroom clutter for a chaotic pop-girl aesthetic. Collage-style edit layered with floating heart gems, cut-out eyes, sticker elements, scrapbook graphics, fake text-message popups, polaroid frames, magazine cutout of the girl, bold typography overlays, hyperpop/K-pop editorial vibe, nostalgic Y2K internet aesthetic, glossy fashion-campaign energy. Scale ratio 4:3",
@@ -6071,7 +6116,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 674,
+    "id": 679,
     "title": "Cozy Doodle Lifestyle Photo",
     "category": "realistic",
     "prompt": "(Cozy Aesthetic Girl in Park)\n\nAesthetic lifestyle photography of a cute young woman sitting on a wooden park bench during autumn morning, wearing an oversized beige hoodie, white pants, and cream baseball cap, holding a takeaway coffee cup with eyes closed and peaceful smile, soft natural lighting, warm earthy tones, tote bag with kawaii face design beside her, bouquet of baby’s breath flowers, cozy calm vibe, cinematic depth of field, Pinterest aesthetic, soft brown and beige color palette. Add hand-drawn white doodles around the image including hearts, sparkles, arrows, clouds, smiley faces, and handwritten text like “coffee = my love”, “good morning”, “little things”, “Focus Believe Achieve”. Whimsical scrapbook style overlay, dreamy cozy mood, ultra detailed, realistic photography, Instagram aesthetic, soft shadows, candid composition.\n\nPrompt : (Cozy Reading & Coffee Setup)\n\nWarm cozy morning aesthetic near a window, open book being read beside a cup of coffee and lit candle, soft sunlight entering through the window, baby’s breath flowers in glass vase, beige and cream minimal decor, calming self-care atmosphere, soft fabric textures, neutral warm tones, peaceful hygge mood, cinematic lifestyle photography, Pinterest-inspired cozy setup, realistic details, shallow depth of field. Add cute white hand-drawn doodles and kawaii faces on the mug, candle, and vase, with handwritten notes like “Take time to make your soul happy”, “Cozy mood”, “little things”, “Book + coffee = perfect day”, plus hearts, arrows, sparkles, and cloud doodles. Dreamy soft aesthetic, warm natural glow, highly detailed, relaxing cozy-core vibe.",
@@ -6080,7 +6125,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 675,
+    "id": 680,
     "title": "Convex Mirror Rainy Selfie",
     "category": "realistic",
     "prompt": "Upload one portrait as the identity reference. Use it only for the subject’s facial identity, face shape, hairstyle, hair color, skin tone, and natural body proportions. Do not copy the original portrait’s clothes, background, pose, lighting, or image quality.\n\nCreate a hyper-realistic outdoor convex traffic mirror selfie, 9:16 vertical composition. The subject stands in front of a large round roadside safety mirror with a red rim, taking a flash selfie with a decorated phone case, phone partially covering the face. Use the uploaded portrait only for identity and hairstyle. Keep a casual youthful outfit: dark oversized zip hoodie, cropped white graphic tee, loose jeans, white sneakers. Rainy dusk street intersection background, wet asphalt, zebra crossing, trees, soft blue-gray sky, faint streetlights, one blurred passing scooter, dirty mirror surface with dust and water spots, strong camera flash glare, realistic fisheye distortion, candid smartphone snapshot, natural skin texture, real-life street photography, no watermark.\n\nNegative Prompt:\nanime, cartoon, CGI, 3D render, doll face, plastic skin, over-smoothed skin, fake eyes, bad anatomy, distorted hands, extra fingers, broken phone, duplicate person, messy face, unreadable facial features, overexposed face, low resolution, heavy beauty filter, studio lighting, clean perfect mirror, text, logo, watermark, UI elements, poster design, artificial background",
@@ -6089,7 +6134,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 676,
+    "id": 681,
     "title": "Monochrome Streetwear Editorial",
     "category": "realistic",
     "prompt": "Use my uploaded image as the face reference.\n\nCreate a bold monochrome streetwear editorial poster featuring the uploaded person in oversized urban fashion, relaxed stance, hands in pockets, layered baggy clothing, sneakers, and confident rebellious attitude. Main theme keyword: \"[QUEEN]\". Use giant condensed typography behind the subject, handwritten signature-style script overlay, minimalist white studio background, gritty texture details, cinematic shadows, and luxury music-magazine aesthetics inspired by modern fashion campaigns. Black-and-white high-contrast photography style, full-body composition, eye-level angle, 85mm lens, ultra-sharp detail, soft studio lighting with subtle grain, premium viral poster design optimized for fashion and music culture content.",
@@ -6098,7 +6143,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 677,
+    "id": 682,
     "title": "Y2K Streetwear Sticker Poster",
     "category": "realistic",
     "prompt": "Use the uploaded portrait only as the identity and hairstyle reference. Accurately preserve the person’s real facial identity, face shape, facial features, skin tone, hairstyle outline, hair volume, and natural real-life appearance. Do not copy the original photo’s background, lighting, clothing, pose, or image quality. Do not turn the person into an anime character, doll, idol illustration, or plastic-looking AI face.\n\nCreate a highly realistic 9:16 vertical Y2K streetwear collage poster of the same person. The overall visual style should reference a neon graffiti magazine sticker-board layout: multiple cutout portraits of the same person arranged dynamically on one vertical poster, with thick white sticker outlines, subtle pink neon rim glow, layered photo frames, graffiti tags, doodles, spray-paint textures, black grunge background, electric pink and cyan accents, and a high-energy urban fashion poster feeling.\n\nThe poster should include several different shots of the same person in one composition: one central full-body standing pose, one half-body playful pose, one seated or crouching pose, one close-up portrait, and one cropped detail frame showing one eye or facial detail. Each pose should have a different angle, expression, and framing, but all must clearly look like the same real person from the uploaded portrait.\n\nGenerate suitable clothing automatically based on the uploaded person’s real appearance and style. The outfit should feel like stylish Y2K streetwear, possibly including denim, layered casual fashion, boots or sneakers, accessories, soft street-style details, and a coordinated youthful look. Do not lock the clothing to the reference image exactly. Choose clothes that fit the person naturally and look believable. Avoid overly revealing clothing.\n\nUse realistic photography texture: natural skin pores, real skin texture, soft uneven skin tone, natural lips, realistic hair strands, believable fabric wrinkles, correct body proportions, detailed denim or streetwear fabric, realistic hands, and real camera lighting. The person should feel like a real photographed person placed into a designed collage poster, not a 3D render or anime illustration.\n\nLighting should be cinematic but believable, with soft neon pink and cyan reflections, subtle rim light around the cutout edges, realistic shadows, and clean separation from the dark graffiti background. Keep the composition polished, high-end, energetic, and social-media ready.\n\nDo not include any watermark, brand logo, AI-generated text, random Chinese characters, fake signatures, QR codes, platform labels, or unreadable typography. Any graffiti should be abstract decorative marks only, not readable text. The final image must be vertical 9:16.\n\nNegative Prompt:\n\nanime, cartoon, illustration, doll face, plastic skin, waxy skin, overly smooth face, beauty filter, fake glossy skin, over-beautified face, changed identity, different person, distorted face, asymmetrical eyes, bad hands, extra fingers, missing fingers, broken fingers, distorted body, unrealistic body proportions, stiff pose, floating hair, helmet-like hair, fake fabric, painted clothing, low-resolution texture, blurry face, over-sharpened skin, 3D render, CGI, toy-like, cheap poster, messy layout, unreadable text, watermark, logo, AI watermark, random letters, random Chinese text, QR code, duplicated face errors, inconsistent identity, cropped head, cut-off limbs",
@@ -6107,7 +6152,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 678,
+    "id": 683,
     "title": "Digicam LCD Nostalgia Shot",
     "category": "realistic",
     "prompt": "A realistic close-up shot of a small digital camera screen glowing brightly in a dark indoor environment. Displayed on the LCD is a candid early-2010s style photograph of a young East Asian woman with long dark wavy hair standing beside a wooden shelf packed tightly with colorful comic books and magazines.\n\nShe wears a black spaghetti-strap top with a loose white cardigan hanging casually from both shoulders and faded blue jeans. Captured mid-laugh while turning her face slightly sideways, her expression feels spontaneous and natural, with hair falling softly across part of her cheek.\n\nThe harsh direct flash from the compact camera creates strong highlights on her face and cardigan while flattening shadows in the background, producing an authentic nostalgic digicam aesthetic. Slight motion blur and digital grain enhance the candid realism.\n\nCamera UI overlays are visible across the LCD screen, including the timestamp “8. 1. 2012 3:15 AM,” exposure data “1/30 F3.4 ISO 100,” focus indicators, and a small green battery symbol in the corner.\n\nThe image preserves visible screen pixel structure, slight glare reflections, chromatic softness, and compressed digital texture. Outside the LCD, the surrounding darkness fades smoothly into blur, emphasizing the glowing nostalgic screen.\n\nShot to resemble an authentic Sony Cyber-shot point-and-shoot camera from the early 2010s using a CCD sensor with vintage digital rendering and imperfect flash exposure.",
@@ -6116,7 +6161,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 679,
+    "id": 684,
     "title": "Y2K Street-Art Editorial Poster",
     "category": "realistic",
     "prompt": "hair instructions, controlling hairstyle, changing hairstyle, young female, young male, bad anatomy, extra fingers, deformed hands, stiff pose, awkward body lean, distorted sunglasses, warped face, asymmetrical eyes, blurry face, low quality, low resolution, muddy colors, overcluttered layout, too many stickers, unreadable typography, misspelled text, cheap poster design, random logos, watermark, cartoon-only style, duplicate subject, extra limbs, plastic skin.",
@@ -6125,7 +6170,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 680,
+    "id": 685,
     "title": "LEGO Miniature City Editorial",
     "category": "realistic",
     "prompt": "Use the uploaded reference image as the primary character reference.\nCreate a premium vertical 4:5 editorial illustration of the same character from the reference image, sitting at a cozy craft table and building a LEGO-style miniature diorama of [CITY NAME].\nOnly the character remains organic and natural. Everything else must be built entirely from visible LEGO-style bricks: landmarks, streets, bridges, rivers, lakes, trees, vehicles, trains, people, cafés, shops, food stalls, parks, signs, boa",
@@ -6134,7 +6179,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 681,
+    "id": 686,
     "title": "Fashion Collage Multi-Style Portrait",
     "category": "realistic",
     "prompt": "Create a premium 1:1 ultra-stylish fashion collage advertisement featuring the same young handsome bearded male model across multiple cinematic portrait styles inside one single high-end composition. The model should have sharp jawline, textured beard, messy stylish hair, attractive confident expression, modern masculine aura, and luxury Gen-Z street fashion styling. Entire mood should feel bold, dark, mysterious, and visually addictive — designed for viral social media aesthetics. Theme: midnig",
@@ -6143,7 +6188,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 682,
+    "id": 687,
     "title": "Busan Travel Journal Illustration",
     "category": "realistic",
     "prompt": "Dreamy Busan Korea travel journal illustration, cozy vintage scrapbook aesthetic, watercolor and ink art style, red-haired girl sitting at a seaside café writing in a notebook, cream knitted cardigan, floral dress, cinematic ocean view, colorful Gamcheon Culture Village houses on cliffside, Korean signs, travel stamps, boarding pass, handwritten notes, postcards, maps, tape stickers, seashells, coffee cup, retro camera on wooden table, soft pastel tones, warm sunlight, detailed paper textures, w",
@@ -6152,7 +6197,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 683,
+    "id": 688,
     "title": "Cinematic Volleyball Sports Portrait",
     "category": "realistic",
     "prompt": "Ultra-realistic cinematic sports portrait of a young athletic woman playing volleyball outdoors on a sunny tropical day, captured mid-action while gently tossing/spinning a colorful volleyball upward with one hand. She is standing on an outdoor sports court surrounded by green mesh fencing, lush tropical plants, palm leaves, and soft natural greenery in the background.",
@@ -6161,7 +6206,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 684,
+    "id": 689,
     "title": "3D Designer-Toy Portrait",
     "category": "3d",
     "prompt": "Stylized 3D designer-toy portrait, centered symmetrical close-up composition, maintain the exact face, hairstyle, and facial proportions of the character in the reference image, [GLASSES: e.g. oversized translucent cat-eye glasses / no glasses / chunky black frames], [EYES: e.g. sharp green eyes / dark brown eyes], [FACE DETAILS: e.g. freckles,, silver ear piercings], soft neutral facial expression with cool detached attitude,  streetwear-inspired badges / no hat], [OUTFIT: e.g. chunky neon-gree",
@@ -6170,7 +6215,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 685,
+    "id": 690,
     "title": "Dark Silhouette Rim-Light Portrait",
     "category": "realistic",
     "prompt": ".Ultra realistic dark silhouette portrait of a stylish young woman in side profile pose, deep black background, dramatic rim lighting highlighting hair and jawline edges, wearing stylish trendy sunglasses, DSLR photography style, ultra HD 8K, realistic facial outline, premium fashion edition\n2:3ar",
@@ -6179,7 +6224,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 686,
+    "id": 691,
     "title": "Cozy Bedroom Korean Girl Portrait",
     "category": "realistic",
     "prompt": "Ultra-realistic cozy bedroom portrait of the same beautiful Korean girl from the previous images, maintaining identical facial appearance, silky long black hair, glossy eyes, soft blush makeup, youthful Korean beauty aesthetic, and realistic skin texture consistency.\nShe is lying comfortably on her stomach across a soft cream-colored bed in her cozy bedroom at night, posing playfully toward the camera with a gentle relaxed smile. Her legs are bent upward behind her while resting her chin softly",
@@ -6188,7 +6233,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 687,
+    "id": 692,
     "title": "Anime Brand Campaign Portrait",
     "category": "anime",
     "prompt": "Semi-realistic anime style young Korean woman in the uploaded image, ORBIT brand campaign, oversized nuclear orange and white technical jacket, wide black pants, futuristic sneakers, vivid orange seamless backdrop, chrome silver props, circular orbital shapes, sharp flash photography, premium streetwear hype drop energy, clean fashion editorial.",
@@ -6197,7 +6242,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 688,
+    "id": 693,
     "title": "Woman in Crystal Perfume Bottle",
     "category": "realistic",
     "prompt": "Ultra-realistic surreal conceptual portrait of a distressed middle-aged woman trapped inside an elegant transparent crystal perfume bottle filled halfway with pale pink perfume liquid. The bottle is upright and centered, featuring a faceted glass body with a luxurious gold spray nozzle and cap. Tiny condensation droplets and fine mist residue cling to the inner glass, catching the light. A soft layer of shimmering perfume vapor swirls inside the bottle around the woman’s shoulders and chest leve",
@@ -6206,7 +6251,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 689,
+    "id": 694,
     "title": "Summer Campus Tesla Lifestyle Poster",
     "category": "realistic",
     "prompt": "Create a premium summer campus lifestyle Tesla poster focused mainly on an adult East Asian female model with a casual cute campus look. Use the uploaded portrait photo only for appearance and hairstyle, preserving face shape, facial features, hairstyle, skin tone, body proportion, and overall temperament. Scene: sunny summer university campus, clean tree-lined walkway, bright greenery, warm daylight, relaxed youthful lifestyle atmosphere. The model is the visual center, clear face, natural swee",
@@ -6215,7 +6260,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 690,
+    "id": 695,
     "title": "Bubble-Tea Shop Action Portrait",
     "category": "realistic",
     "prompt": "Use case: identity-preserve style-transfer\nAsset type: vertical photorealistic action portrait for social post\nPrimary request: create a dynamic bubble-tea shop action portrait using the uploaded portrait photo as the appearance reference for the person.\nScene/backdrop: a bright modern bubble-tea counter interior with stainless steel panels, glass display edges, overhead circular lights, drink-making equipment, and a dramatic low-angle view from near the floor. Pink strawberry milk tea splashes",
@@ -6224,7 +6269,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 691,
+    "id": 696,
     "title": "Night Outdoor Portrait",
     "category": "realistic",
     "prompt": "A medium-shot photograph of a young woman with wavy, light brown hair and soft, rosy makeup, posing outdoors at night. She is wearing a slightly oversized black t-shirt with small white text on the left chest, pulling the shirt up slightly with both hands to reveal her midriff and the waistband of black underwear peeking out from low-rise, faded blue denim jeans. She is leaning against a white metal balcony railing, looking off-camera to her right with a neutral expression. The background",
@@ -6233,7 +6278,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 692,
+    "id": 697,
     "title": "时尚蓝图编辑页",
     "category": "realistic",
     "prompt": "Fashion blueprint sheet of a stylish young woman posing beside a bright orange wall, half-body fashion editorial view with detailed outfit annotations and luxury styling callouts. Long sleek dark hair, soft glam makeup, silver drop earrings, layered silver necklaces, fitted dark brown cropped tube top, oversized pastel mint-green blazer with structured shoulders, matching high-waisted wide-leg trousers, elegant silver chain detail attached to blazer, relaxed confident pose with one hand in pocket.\n\nSurrounding the model are fashion infographic elements, jewelry breakdowns, fabric texture descriptions, tailoring notes, pose analysis, accessory close-ups, cinematic sunlight reflections, modern Korean street-fashion aesthetic, editorial photography style, ultra detailed, professional fashion concept sheet, 8k, 1744x2336",
@@ -6242,7 +6287,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 693,
+    "id": 698,
     "title": "手持饮料的街头欢乐人像",
     "category": "realistic",
     "prompt": "A medium low-angle shot of a joyful young woman with dark hair and straight bangs, smiling brightly against a vibrant, clear blue sky. She wears a white graphic t-shirt featuring three landscape panels. In her right hand, she holds up a clear plastic cup filled with bright orange juice, featuring a white hand-drawn doodle of a smiley face on the side. Whimsical, hand-drawn white digital doodles are overlaid around her: stylized headphones rest around her neck, musical notes and stars float above her head, and glowing white motion outlines trace her silhouette. Bright, natural daylight evenly illuminates the scene, enhancing the playful, energetic pop-art aesthetic.",
@@ -6251,7 +6296,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 694,
+    "id": 699,
     "title": "胶片拼贴人像海报",
     "category": "realistic",
     "prompt": "High-end portrait collage poster in vertical format. The background contains four layered rounded strips displaying black-and-white film-like images of a curly-haired male model wearing dark sunglasses in varied poses. In front, a vivid color cutout of the same character is placed to the left, dressed in an unbuttoned soft pink shirt, styled like a luxury fashion campaign with dramatic lighting and depth.",
@@ -6260,7 +6305,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 695,
+    "id": 700,
     "title": "基于参考图的人像一致性",
     "category": "realistic",
     "prompt": "Use the uploaded reference image as the exact facial identity reference for the girl. Maintain the same facial structure, eyes, nose, lips, hairstyle, skin tone, beauty details, and overall appearance consistency throughout the image.\n\nUltra-realistic portrait of the same girl from the reference image standing beside the large classroom windows in an empty Korean classroom during daytime, posing from the front side while looking directly at the camera with a soft calm smile. One hand gently resting in her hair, relaxed confident posture, modern youthful Korean fashion aesthetic. Wearing a fitted long black ribbed top with full sleeves and light gray washed jeans, elegant casual styling. Long silky black hair flowing naturally, glossy eyes, soft natural blush makeup, realistic skin texture, dreamy youthful Korean beauty aesthetic.\n\nBright natural sunlight streaming through the classroom windows, creating soft cinematic highlights and realistic shadows across the room. Authentic Korean classroom interior with wooden desks, black chairs, green chalkboard, South Korean flag on the wall, clean neutral walls, polished floors, and trees visible outside the windows.\n\nCalm slice-of-life atmosphere, minimalist Korean school aesthetic, candid model pose, soft daylight photography, shallow depth of field, cinematic composition, highly detailed, photorealistic classroom environment, luxury lifestyle editorial feel, soft glow, realistic DSLR photography, peaceful modern mood.",
@@ -6269,7 +6314,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 696,
+    "id": 701,
     "title": "伦敦时尚街头人像",
     "category": "realistic",
     "prompt": "Photorealistic cinematic fashion video set on an elegant London shopping street inspired by Bond Street. A stylish British woman in her late 20s walks confidently past a luxury boutique. She wears gold earrings, a burgundy double-breasted blazer, matching mini skirt, a light blue ruffled silk blouse, a structured dark red leather shoulder bag, and metallic pointed heels. Her chestnut hair is styled in a sleek low bun.\nHer phone rings. She glances at the screen, stops gracefully, and answers. A male voice asks, “Hello there, can you please scan your outfit?” She smiles and replies in a soft British accent, “I guess so.”\nThe camera performs a smooth head-to-toe scan, displaying elegant text labels for each outfit item, then ends on a confident editorial pose in front of the boutique window.\nBright natural sunlight, shallow depth of field, smooth gimbal movement, luxury editorial aesthetic, polished and sophisticated mood, 9:16 vertical, 15 seconds.",
@@ -6278,7 +6323,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 697,
+    "id": 702,
     "title": "旅行自拍人像参考",
     "category": "realistic",
     "prompt": "Asset type: portrait image for social post\nPrimary request: create a photorealistic travel selfie portrait, using the uploaded portrait photo as the appearance reference for the person.\nScene/backdrop: an open alpine meadow under a vivid blue sky, surrounded overhead by hundreds of colorful Tibetan prayer flags arranged in a circular spiral canopy, with distant green hills and bright daylight.\nSubject: a young woman with the recognizable facial structure, eyes, hairline direction, and natural skin texture from the uploaded portrait photo, wearing a bright cyan outdoor jacket, white hiking pants, a mustard yellow knit beanie, sunglasses resting on the hat, and a backpack.\nStyle/medium: ultra-realistic mobile travel photography with a dynamic action-camera feel, crisp but natural detail, lively social-media adventure portrait.\nComposition/framing: vertical 3:4 frame, extreme wide-angle perspective, low-to-high selfie composition, one hand reaching toward the camera in the foreground with strong perspective enlargement, face in the midground, prayer flags forming a colorful radial tunnel above her head, energetic candid smile.\nLighting/mood: brilliant high-altitude midday sun, visible lens flare near the upper left, sparkling backlight, bright optimistic mood, high clarity, realistic shadows on grass.\nColor palette: saturated cyan, mustard yellow, red, orange, green, white, and sky blue, clean contrast, sunlit alpine freshness.\nTextures/retouching: believable fabric texture, natural skin pores, realistic hair strands, clean optical sharpness on the face, shallow foreground hand blur, small falling snowflakes or white petals crossing the lens.\nConstraints: preserve the person's recognizable appearance from the uploaded portrait photo; no watermark; no logo; no text; no caption; no signature.\nAvoid: plastic beauty-filter skin, over-smoothed face, distorted hands, extra fingers, warped prayer flags, unreadable markings on clothing, artificial CGI look\n\nNegative Prompt：\n\nwatermark, logo, text, caption, signature, AI label, brand mark, extra fingers, missing fingers, fused fingers, deformed hands, oversized malformed palm, asymmetrical eyes, crossed eyes, warped face, plastic skin, waxy skin, over-smoothed beauty filter, blurry face, low detail, low resolution, heavy compression artifacts, distorted anatomy, duplicate person, bad perspective, bent flag strings, warped flags, fake CGI look, overexposed face, muddy colors",
@@ -6287,7 +6332,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 698,
+    "id": 703,
     "title": "超写实手机风格人像",
     "category": "realistic",
     "prompt": "Ultra-realistic, almost indistinguishable-from-real close-up portrait in a casual phone photo style.\n\nUse the uploaded image as the identity reference, fully preserving the natural appearance and atmosphere of the same woman.\nThe face and overall appearance must remain 100% identical to the reference image, without altering any facial proportions or features.\n\nDo not change:\n\nLip shape or lip size\n\nEyes\n\nNose\n\nFace shape\n\nOverall facial harmony and identity\n\nFull photorealism.\nNo AI-generated feeling — it should look like a random candid photo taken on a mobile phone.\nNot a polished glossy beauty shoot, but a natural, slightly imperfect phone snapshot.\n\nClose-up portrait framed to shoulder level.\nSoft and elegant pose.\nFace slightly turned to the side.\nNo direct eye contact with the camera — natural sideways gaze.\nExpression calm, natural, almost neutral.\nThe image should feel like a spontaneously captured moment rather than a posed photoshoot.\n\nHair styled in a natural slightly messy updo.\nFace-framing bangs and loose strands around the face.\nA few flyaway hairs and subtle disheveled texture.\nEffortless beauty aesthetic with imperfectly styled hair.\n\nUltra-natural skin texture with realistic pores and subtle imperfections.\nSoft mobile-phone lighting, realistic shadows, natural tonal range, authentic candid atmosphere.\n\nThe overall result should resemble a genuine smartphone portrait captured casually in real life, with cinematic realism and natural feminine elegance.",
@@ -6296,7 +6341,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 699,
+    "id": 704,
     "title": "木刻版画人像风格",
     "category": "realistic",
     "prompt": "️\n\nBlack and white engraved portrait illustration of a person.\nDrawn in classic woodcut / linocut engraving style, high contrast black ink on textured off-white paper background. Fine cross-hatching and line shading to create depth and shadow, bold black ink shadows under chin and around hair, strong contour lines, traditional printmaking aesthetic.\nMinimal composition, centered portrait, no body visible, clean negative space, vintage editorial illustration style, ultra detailed linework, sharp crisp ink strokes, professional vector-ready engraving look, monochrome palette, dramatic contrast.\nNegative Prompt:\ncolor, watercolor, soft shading, blurred lines, low contrast, realistic photography, 3D render, anime style, cartoon style, messy sketch, thick uneven strokes, background objects, noisy texture, pixelated, distorted face, extra eyes, extra ears, bad anatomy, modern digital painting, glossy skin, overexposed highlights",
@@ -6305,7 +6350,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 700,
+    "id": 705,
     "title": "皮克斯风 3D 角色设计表",
     "category": "illustration-standing",
     "prompt": "“Create a Pixar 3D style character design sheet. Clean white background. Two characters side by side with a clean dividing line. Bold brushstroke-style title at the top: PAUL vs THE POLE VAULT. Subtitle beneath: One pole. One shot. Straight up.\nLEFT SIDE — PAUL\nLarge name in bold black. Underneath: \"The bar was never the problem.\"\nHero portrait — Paul isolated on clean white. No background. Pixar 3D man, mid 20s, lean athletic build, electric blue athletics vest with thin gold stripe on shoulder, white shorts, white spikes with electric blue detail. Focused determined expression. Holding a long silver pole horizontally in both hands, slightly crouched forward. Just Paul on white.\nThree poses beneath:\n\nFull sprint down the runway, pole angled forward low, eyes locked ahead, every muscle firing.\nInverted at full height — body perfectly upside down, pole bent at maximum flex, toes pointed straight at the sky.\nLanding in the pit, arms raised, head turned back to check the bar. Pure joy.\n\nSPEED ████████░░ Enough to get airborne\nCOURAGE ██████████ Required at that height\nGRIP ██████████ Non negotiable\nHEIGHT CLEARED █████████░ Still climbing\nHEART RATE AT PEAK ██████████ Do not check\nRIGHT SIDE — THE POLE VAULT\nLarge name in bold black. Underneath: \"It has never missed. Only the athlete does.\"\nHero portrait — the pole vault apparatus isolated on clean white. Tall yellow standards, bright red crossbar at full height, blue crash mat below. Still. Imposing. Just the apparatus on white.\nThree poses beneath:\n\nBar sitting perfectly still on the standards. Unbothered. Waiting.\nBar shaking mid-vault as Paul's body passes over — millimeters of clearance.\nBar still. Settled. Unmoved. It was never going anywhere.\n\nHEIGHT ██████████ Non negotiable\nREMORSE ░░░░░░░░░░ It is a bar. It does not come down for anyone.\nBOTTOM STRIP — five cinematic close-up panels bleeding into each other, some transparent, no hard boxes:\nPaul's white spikes on the red rubber runway surface, pole tip visible at the edge · Silver pole at maximum bend, pure white background, nothing else · Extreme close-up of Paul's face — jaw set, eyes locked forward, pure focus, sweat visible · Paul fully inverted against bright blue sky, body horizontal, red bar inches from his chest · Paul's hands releasing the pole mid-air, arms exploding upward, pure joy, crowd blur behind him\nTHE POLE BENDS. THE BAR STAYS. PAUL DOES NOT KNOW HOW.\nSTYLE NOTES: Pixar 3D vivid rendering. Clean white background on both character sides. Electric blue stat bars throughout. Bottom strip cinematic and tight — close-ups bleeding into each other with transparent edges like a film production sheet, not boxed panels with full backgrounds. Paul identical across all poses. Maximum brightness and color throughout.”",
@@ -6314,7 +6359,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 701,
+    "id": 706,
     "title": "抹茶女神美妆人像",
     "category": "realistic",
     "prompt": "👇 \n\nultra realistic surreal beauty editorial portrait, matcha goddess aesthetic, ethereal asian woman with glossy dewy skin, face covered in dripping liquid matcha cream, surreal cosmetic food fusion, floating matcha cubes, matcha powder particles, green tea mousse textures, edible haute couture, cinematic luxury skincare campaign, dreamy fantasy atmosphere, glowing olive green tones, wet reflective skin, delicate floral accents, suspended droplets, gold flakes, soft volumetric lighting, macro beauty photography, shallow depth of field, highly detailed skin texture, elegant feminine pose, luxury fashion editorial, surreal dessert inspired composition, artistic liquid dynamics, photorealistic, cinematic bokeh background, ultra detailed, 8k, soft glow, clean composition, no text, no logo, no product packaging, vertical 9:16",
@@ -6323,7 +6368,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 702,
+    "id": 707,
     "title": "复古相机 LCD 屏幕截图",
     "category": "realistic",
     "prompt": "A realistic close-up shot of a small digital camera screen glowing brightly in a dark indoor environment. Displayed on the LCD is a candid early-2010s style photograph of a young East Asian woman with long dark wavy hair standing beside a wooden shelf packed tightly with colorful comic books and magazines.\n\nShe wears a black spaghetti-strap top with a loose white cardigan hanging casually from both shoulders and faded blue jeans. Captured mid-laugh while turning her face slightly sideways, her expression feels spontaneous and natural, with hair falling softly across part of her cheek.\n\nThe harsh direct flash from the compact camera creates strong highlights on her face and cardigan while flattening shadows in the background, producing an authentic nostalgic digicam aesthetic. Slight motion blur and digital grain enhance the candid realism.\n\nCamera UI overlays are visible across the LCD screen, including the timestamp “8. 1. 2012 3:15 AM,” exposure data “1/30 F3.4 ISO 100,” focus indicators, and a small green battery symbol in the corner.\n\nThe image preserves visible screen pixel structure, slight glare reflections, chromatic softness, and compressed digital texture. Outside the LCD, the surrounding darkness fades smoothly into blur, emphasizing the glowing nostalgic screen.\n\nShot to resemble an authentic Sony Cyber-shot point-and-shoot camera from the early 2010s using a CCD sensor with vintage digital rendering and imperfect flash exposure.",
@@ -6332,7 +6377,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 703,
+    "id": 708,
     "title": "写实感人物竖版照片",
     "category": "realistic",
     "prompt": "生成一张 9:16 竖版写实感人物照片，参考高级手机自拍质感，但不要完全普通生活照。整体像是用 iPhone 前置摄像头在温馨卧室中拍摄的精致自拍，保留柔和美型、干净构图和自然高级感。画质为真实手机照片质感，有轻微噪点、轻微柔焦和自然光感，但人物依然精致、漂亮、肤质自然干净，不要变成粗糙低质照片。\n\n画面中是一位成年东方女性，坐在温馨卧室床上，上半身近景自拍构图，镜头略微从上方俯拍，人物位于画面中央偏右，头部微微低下，视线安静看向右下方，表情自然、平静、温柔，嘴唇自然闭合，整体气质柔和、成熟、安静。 \n\n人物拥有浅蓝色或冰蓝色长发，发丝自然蓬松，有轻微凌乱感，部分头发垂落在脸侧和肩颈周围。人物保持精致写实美型，脸型柔和自然，五官清秀，皮肤白皙但不过度磨皮，可保留少量真实肤质纹理、细小毛孔、轻微肤色不均和几处很淡的小黑痣，但整体仍然干净、柔和、好看。不要明显暗沉，不要粗糙脏感。\n\n人物身材丰腴，肩颈线条柔和，胸部饱满，不卡通化。服装为浅蓝色丝缎吊带睡裙，带白色蕾丝花边，胸前有简洁小蝴蝶结和自然褶皱，布料柔软贴合身体，呈现真实丝缎材质光泽。人物一只手自然轻轻拉住肩带或肩部附近衣料，手指数量正常，姿态自然。 \n\n背景为温馨卧室，有床铺、浅色床品、木质床头柜、暖黄色床头灯、窗帘和柔和室内光。背景轻微虚化，保留真实居家空间感。光线为室内暖光与自然光混合，略微偏暖，画面柔和、亲密、生活化，但保持干净高级。\n\n整体风格：写实手机自拍、高级自然美型、轻微 iPhone 前置摄像头质感、柔和暖光、自然肤质、真实比例、温馨卧室、精致但不过度商业修图。\n\n负面要求：\n不要二次元，不要3D CG，不要摄影棚大片，不要低质粗糙照片，不要过度噪点，不要明显脏感，不要过度磨皮，不要塑料皮肤，不要畸形手指，不要多余手指，不要背景纯白。",
@@ -6341,7 +6386,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 704,
+    "id": 709,
     "title": "Y2K Japanese Street Editorial Poster",
     "category": "realistic",
     "prompt": "Create a bold Y2K Japanese street-editorial collage poster with a clean high-fashion magazine aesthetic, gritty paper textures, torn magazine cutouts, distressed ink splashes, and urban Tokyo-inspired design.",
@@ -6350,7 +6395,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 705,
+    "id": 710,
     "title": "Editorial Male Portrait",
     "category": "realistic",
     "prompt": "Ultra-realistic 8K editorial male portrait of the uploaded man, using his exact face as the ONLY identity reference — preserve 100% facial structure, jawline, hairstyle volume, beard texture, skin tone, eye shape, pores, and natural imperfections with zero beautification or face alteration. Luxury “quiet wealth” aesthetic blended with cinematic Instagram masculinity. Centered close-up composition, direct eye contact, calm dominant expression, slightly serious mood, no smile. Styled in a fitted black turtleneck under a premium black tailored blazer, no accessories. Dark emerald-green cinematic studio gradient background with soft atmospheric depth. Shot on an 85mm lens at f/1.8 with razor-sharp focus on the eyes, creamy bokeh, ultra-detailed skin texture, visible beard strands, realistic hair fibers, HDR dynamic range, deep contrast shadows, subtle rim light around hair and jawline, soft key light from front-left sculpting the face naturally. Premium GQ magazine color grading, luxury fashion campaign vibe, hyper-realistic photorealism, dramatic yet minimal composition, insanely detailed, rich blacks, elite masculine aura, emotionally captivating, instantly viral social media quality, masterpiece-level realism, natural cinematic skin, modern billionaire aesthetic, studio perfection, award-winning editorial photography --ar 4:5",
@@ -6359,7 +6404,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 706,
+    "id": 711,
     "title": "Avant-Garde Tokyo Fashion Zine Poster",
     "category": "realistic",
     "prompt": "Avant-garde Tokyo fashion zine poster with a refined neo-Y2K editorial aesthetic, inspired by underground Japanese street magazines and luxury urban campaigns. Layered collage composition featuring weathered paper textures, fragmented magazine clippings, faded xerox marks, distressed ink smears, scratched film overlays, and contemporary Harajuku-inspired graphic design.\nPrimary visual: a dominant cinematic beauty portrait occupying the upper half of the poster, intense direct gaze with razor-sharp eye detail, naturally textured skin, softly glossy lips, loosely pinned messy hair strands, no eyewear, subtle moody rim lighting, calm yet powerful expression, photographed like a luxury street-fashion campaign with ultra-realistic DSLR depth and authentic facial detail.\nSecondary visuals: exactly two smaller ripped-frame portraits near the lower section, each showing different moods and camera perspectives, arranged asymmetrically like taped instant-film snapshots layered over torn paper pieces.\nGraphic styling: oversized experimental Japanese typography integrated into the composition, minimal condensed English captions, faded metro signage fragments, barcode labels, editorial stamps, folded newspaper textures, masking tape strips, rough brush marks, grainy analog imperfections, layered cut-paper shadows, and sophisticated magazine-inspired spacing.\nOverall mood: clean but rebellious, premium Japanese street-editorial energy, cinematic contrast, muted neutral palette with charcoal, ivory, faded silver, and washed earth tones, subtle flash photography feel, raw fashion photography realism, modern visual culture poster design, highly detailed luxury collage artwork, sharp focus, authentic print imperfections, ultra high resolution, 8K aesthetic, absolutely no kawaii elements, no pastel tones, no cartoon styling.",
@@ -6368,7 +6413,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 707,
+    "id": 712,
     "title": "Miki Style Line Art Portrait",
     "category": "realistic",
     "prompt": "​A precise line art illustration portrait in the distinctive Miki style, with clean, defined dark contours and minimal, subtle watercolor wash coloring.\nSubject: A gender-neutral single person with natural medium-length dark hair, wearing round wire-rimmed glasses and a simple dark blue-gray knit sweater, in a clean, soft profile view (facing either left or right). They hold a large bouquet of soft pink and white flowers (roses and small wildflowers) as seen in image_3/4, with one hand visible.\nBackground: A minimalist background with a smooth, matte finish of a single color tone (e.g., warm beige or pale mint, as requested), with a very subtle, almost unnoticeable, watercolor paper texture.\nLighting & Color: Soft diffused natural daylight from the upper-left, illuminating the subject's face gently. A pastel color palette with warm beige/mint tones.\nComposition: Profile chest-up bust shot portrait, composed cleanly, with a calm, nostalgic atmosphere.",
@@ -6377,7 +6422,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 708,
+    "id": 713,
     "title": "Korean Beauty Ultra-Realistic Portrait",
     "category": "realistic",
     "prompt": "low quality, blurry, distorted anatomy, extra fingers, bad hands, unrealistic smile, messy hair, cartoon, anime, watermark, logo, text, noisy image, oversaturated colors, poorly drawn face, low resolution, bad proportions. 1744x2336",
@@ -6386,7 +6431,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 709,
+    "id": 714,
     "title": "Cinematic B&W Portrait",
     "category": "realistic",
     "prompt": "A hyper-realistic, cinematic black-and-white portrait of a woman caught in mid-motion, her face partially obscured by sweeping hair strands and intentional motion blur. The subject is framed from the shoulders up, slightly off-center, with her head turning laterally as if pulled by momentum. Long exposure creates luminous horizontal light streaks behind her, suggesting an urban night environment dissolving into abstraction.",
@@ -6395,7 +6440,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 710,
+    "id": 715,
     "title": "Artistic Sketch Portrait Young Man",
     "category": "realistic",
     "prompt": "Create a unique artistic sketch-style portrait of a modern young man wearing black sunglasses, with textured pencil and ink drawing effects mixed with abstract collage elements. Change the shirt color to deep olive green with soft watercolor shading. Add layered geometric frames around the face, expressive cross-hatching, ink splashes, handwritten typography notes, and contemporary fashion mood-board aesthetics. Keep the hairstyle detailed and voluminous with realistic sketch strokes. Use an off-white textured paper background with artistic grunge accents, dynamic composition, and editorial magazine-style illustration. High detail, cinematic lighting, modern urban art style, creative mixed-media sketch effect.",
@@ -6404,7 +6449,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 711,
+    "id": 716,
     "title": "NBA Legend Mid-Air Action Poster",
     "category": "realistic",
     "prompt": "Dynamic NBA legend poster design, iconic basketball superstar in mid-air action pose performing dunk, jumpshot, or intense celebration, cinematic sports illustration style, highly detailed muscular anatomy, dramatic motion, realistic face with painterly polygon brush texture, explosive paint splashes behind character matching team colors, bold typography with player name in huge vertical letters, motivational quote text layout, sports stats and achievements infographic, clean minimal cream background, modern editorial composition.",
@@ -6413,7 +6458,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 712,
+    "id": 717,
     "title": "Korean Beauty Fashion Portrait",
     "category": "realistic",
     "prompt": "Create a high-quality “chibi sticker diary portrait” based on the uploaded real-life photo. Preserve the subject’s original identity, realistic facial structure, hairstyle, hair color, glasses, outfit, pose, proportions, lighting, and background. Keep the main subject photorealistic and do not transform the entire image into a full illustration.",
@@ -6422,7 +6467,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 713,
+    "id": 718,
     "title": "Cinematic Football Portrait Poster",
     "category": "realistic",
     "prompt": "Ultra realistic cinematic football poster of a stylish young South Asian male footballer with voluminous messy black hair, sharp jawline, trimmed beard, glowing fair skin, wearing Portugal national team red jersey with number 7. Multi-layered dramatic sports collage composition with three different poses — smiling front portrait pointing at Portugal badge, intense side profile close-up, and back pose showing custom name “HASANUR 7” on jersey. Dynamic action shot at the bottom celebratingon football field with clenched fists and soccer ball. Dark stormy sky with lightning, glowing stadium lights, red smoke flares, flying embers, Portugal flag waving in background, intense red and blue cinematic color grading, ultra detailed facial features, realistic skin texture, high contrast sports photography style, epic FIFA World Cup poster aesthetic, shallow depth of field, hyper realistic, 8K, vertical wallpaper composition.",
@@ -6431,7 +6476,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 714,
+    "id": 719,
     "title": "Switzerland Watercolor Travel Poster",
     "category": "realistic",
     "prompt": "(Switzerland Poster)",
@@ -6440,7 +6485,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 715,
+    "id": 720,
     "title": "Cinematic Lifestyle Outdoor Portrait",
     "category": "realistic",
     "prompt": "Cinematic lifestyle portrait of a cheerful young woman sitting on a rustic wooden bench in a lush botanical courtyard, holding an iced coffee in a clear plastic cup with straw, smiling naturally at camera, short wavy dark brown hair, soft natural makeup, oversized pastel pink graphic t-shirt with vintage sun illustration, white shorts, white chunky sneakers with orange soles, one leg extended toward camera creating dramatic perspective, relaxed summer aesthetic, golden hour sunlight filtering through tropical leaves, luxury university campus or historic garden background with stone architecture and large windows, shallow depth of field, warm tones, candid street photography style, ultra realistic skin texture, cozy youthful vibe, DSLR quality, high detail, photorealistic, dynamic low-angle composition, soft shadows, fashion editorial look, 8k.",
@@ -6449,7 +6494,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 716,
+    "id": 721,
     "title": "Luxury Cycling Storyboard Poster",
     "category": "realistic",
     "prompt": "- Step 1: Generate storyboard with GPT Image 2",
@@ -6458,7 +6503,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 717,
+    "id": 722,
     "title": "Y2K Japanese Street Collage Poster",
     "category": "realistic",
     "prompt": "Create a bold Y2K Japanese street-editorial collage poster with a clean high-fashion magazine aesthetic, gritty paper textures, torn magazine cutouts, distressed ink splashes, and urban Tokyo-inspired design.",
@@ -6467,7 +6512,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 718,
+    "id": 723,
     "title": "Cosmic Garden Fantasy Portrait",
     "category": "realistic",
     "prompt": "Ultra-realistic cinematic fantasy-science portrait of a beautiful young female scientist inside a futuristic bio-cosmic laboratory garden at night, inspired by dreamy sci-fi storytelling. She is leaning over a glowing holographic solar system projection floating above a sleek glass table, gently touching a luminous orbit line with curiosity and wonder. Her facial features are soft, elegant, and expressive with natural makeup, thick defined eyebrows, warm smile, glowing skin, and loosely tied dark brown hair with cinematic flyaway strands.",
@@ -6476,7 +6521,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 719,
+    "id": 724,
     "title": "Streetwear Magazine Cover Portrait",
     "category": "realistic",
     "prompt": "vertical streetwear magazine cover template, in a warm chocolate brown color palette. The layout includes one large, high-fashion main portrait at the top and two smaller, candid polaroid-style photos layered at the bottom with torn-paper edges. The entire composition is covered in a distressed, vintage overlay with textured paper scratches. It features bold vertical Japanese typography on the left, a barcode in the top right corner, and various graphic design elements like stamps,technical text\nsnippets, and grunge borders, creating a cohesive Japanese street-culture aesthetic.",
@@ -6485,7 +6530,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 720,
+    "id": 725,
     "title": "Cat-Eye Glasses Fashion Portrait",
     "category": "realistic",
     "prompt": "A young woman with long, dark hair and striking cat-eye glasses is captured in a studio portrait against a solid blue background. She is turned away from the camera, looking over her shoulder with a confident gaze. Her makeup is subtle, with a focus on rosy cheeks and a warm-toned lipstick. She wears a dark, high-necked top that accentuates the curve of her neck and shoulder. The lighting is dramatic, with a strong light source from the left, casting a bright highlight on her face and shoulder, while the right side of her body and hair fall into shadow. The overall mood is sophisticated and alluring.",
@@ -6494,7 +6539,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 721,
+    "id": 726,
     "title": "Bold Monochrome Identity Portrait",
     "category": "realistic",
     "prompt": "Use my uploaded image as the face reference.",
@@ -6503,7 +6548,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 722,
+    "id": 727,
     "title": "Clean Tech Advertisement Poster",
     "category": "realistic",
     "prompt": "- A clean tech advertisement poster. A stylish young woman in a white minimalist outfit tilts her head with eyes closed enjoying music beside a giant white wireless earbud case 2.5x her height open and glowing softly, \"AURA\" engraved on the case lid in silver. Pure clean white background with subtle soft shadows and faint sound wave lines. Ultra minimal thin sans-serif typography \"AURA\" in light grey filling the background.",
@@ -6512,7 +6557,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 723,
+    "id": 728,
     "title": "Flat Vector Editorial Pattern Illustration",
     "category": "realistic",
     "prompt": "Create a sophisticated flat-vector editorial pattern illustration of [Chicago bulls], composed as a seamless lifestyle-art collage combining iconic landmarks, local culture, vacation scenes, and symbolic city objects.",
@@ -6521,7 +6566,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 724,
+    "id": 729,
     "title": "Korean Beauty Identity Portrait",
     "category": "realistic",
     "prompt": "Using the provided reference image, create an ultra-realistic Korean street-fashion editorial portrait of a stylish young woman posing outdoors beside a bold orange wall under bright natural sunlight. She is wearing an oversized pastel mint green blazer with structured tailoring, matching high-waisted wide-leg trousers, and a fitted dark brown cropped tube top. Add luxury silver accessories including statement earrings, layered necklaces, rings, and a decorative chain detail attached to the blazer. She has long sleek straight dark brown hair, flawless porcelain skin, soft glam makeup with nude matte lips, sharp brows, and a confident elegant expression. Relaxed fashion pose with one hand against the wall, modern chic attitude. Background features clear blue sky, soft urban scenery, cinematic sunlight shadows, and vibrant color contrast between the orange wall and mint outfit. High-fashion editorial photography, Vogue Korea inspired, luxury street style aesthetic, ultra-detailed fabric textures, realistic skin detail, sharp focus, soft depth of field, premium color grading, photorealistic, 85mm lens, 8k. Negative Prompt: low quality, blurry, bad anatomy, distorted face, extra fingers, bad hands, oversaturated colors, messy hair, duplicate accessories, cartoon, anime, watermark, logo, text, noisy image, low resolution, unrealistic skin, poorly drawn features. 1744x2336",
@@ -6530,7 +6575,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 725,
+    "id": 730,
     "title": "Hollywood Luxury Anime Fashion Portrait",
     "category": "anime",
     "prompt": "Create a premium 1:1 Hollywood-style luxury anime fashion editorial collage featuring the same stylish Japanese college male anime character with perfectly consistent facial identity across all frames. The character should have sharp anime facial design (clean jawline, expressive eyes, refined proportions) with ultra-detailed semi-realistic anime shading.Include multiple cinematic moments: close-up beauty anime portrait with soft glowing skin, walking through neon Tokyo streets in designer streetwear, sitting in modern university classroom with confident calm expression, rooftop golden hour silhouette with wind effects, and stylish mirror selfie in luxury dorm room.Use cinematic anime lighting, soft bloom, depth of field, film grain, and luxury editorial composition.Add layered magazine collage style with torn paper textures, glossy reflections",
@@ -6539,7 +6584,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 726,
+    "id": 731,
     "title": "Identity Reference Beauty Portrait",
     "category": "realistic",
     "prompt": "Use only my uploaded portrait photo as the identity reference. Accurately preserve my real face shape, facial proportions, facial contours, skin tone, hairstyle outline, hair volume, hairline, and overall natural presence. Do not turn me into another person. Do not over-beautify the face. Do not create an influencer-style face, plastic skin, or anime look.",
@@ -6548,7 +6593,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 727,
+    "id": 732,
     "title": "Pixel Art Character Portrait",
     "category": "illustration-standing",
     "prompt": "Create a cute and stylish pixel-art illustration based on the uploaded image in the style of:",
@@ -6557,7 +6602,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 728,
+    "id": 733,
     "title": "Negative Prompt Portrait Template",
     "category": "realistic",
     "prompt": "low quality, blurry, distorted face, extra fingers, bad hands, duplicate facial features, unrealistic reflection, cartoon, anime, watermark, logo, text, noisy image, oversaturated colors, poorly drawn eyes, bad anatomy, broken proportions, low resolution.",
@@ -6566,7 +6611,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 729,
+    "id": 734,
     "title": "Identity Reference Fashion Portrait",
     "category": "realistic",
     "prompt": "Use the uploaded reference image as the exact facial identity reference for the girl. Preserve her real facial structure, eye shape, nose, lips, jawline, skin tone, hairstyle essence, and overall appearance consistency throughout the entire poster. Maintain accurate identity realism with natural skin texture and authentic facial proportions.\nCreate an avant-garde Tokyo street-fashion editorial collage poster with a sophisticated neo-Y2K Japanese magazine aesthetic. Inspired by underground Harajuku fashion zines, luxury streetwear campaigns, and raw urban print design. Composition built from layered torn-paper textures, distressed xerox scans, folded magazine scraps, scratched film overlays, faded ink marks, and gritty editorial collage elements.\nMain composition: one large cinematic close-up portrait of the same girl from the reference image dominating the upper section of the poster. Strong eye contact with sharp realistic eye detail, naturally glossy lips, subtle skin imperfections, softly tied messy hair with loose strands framing the face, no glasses, no exaggerated makeup, calm but magnetic expression. Lighting should feel like premium DSLR flash photography mixed with cinematic shadow gradients, creating a modern luxury fashion-campaign atmosphere.\nLower composition: exactly two smaller collage portraits of the same girl placed asymmetrically near the bottom, styled like ripped instant-film photographs taped onto the layout. Each frame should show different facial expressions, angles, and poses while maintaining perfect facial identity consistency with the reference image.\nDesign elements: oversized experimental Japanese typography, small minimal English captions, subtle Tokyo subway signage fragments, barcode labels, newspaper clipping textures, masking tape pieces, distressed brush strokes, folded paper shadows, vintage print imperfections, halftone grain, layered editorial cutouts, and premium fashion-magazine spacing.\nColor palette and mood: muted neutral tones with charcoal black, faded white, soft silver, washed beige, and subtle cool-gray highlights. Clean but rebellious high-fashion energy, cinematic contrast, raw streetwear editorial moodboard aesthetic, ultra-realistic RAW DSLR photography feel, luxury Japanese graphic design style, sharp focus, highly detailed textures, authentic print wear, ultra detailed, 8K quality.\nAvoid: pastel colors, kawaii styling, cartoon elements, bubbles, exaggerated neon effects, anime aesthetics, overly colorful backgrounds, unrealistic beauty filters, duplicated faces, distorted anatomy, or fake AI-looking skin.",
@@ -6575,7 +6620,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 730,
+    "id": 735,
     "title": "Pixar 3D Character Design Sheet",
     "category": "illustration-standing",
     "prompt": "“Create a Pixar 3D style character design sheet. Clean white background. Two characters side by side with a clean dividing line. Bold brushstroke-style title at the top: STEVE VS THE PLANK. Subtitle beneath: 60 seconds. Feels like a week.",
@@ -6584,7 +6629,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 731,
+    "id": 736,
     "title": "Automotive Design Deconstruction Poster",
     "category": "realistic",
     "prompt": "You are an AI automotive designer that deconstructs any object's aerodynamic philosophy, material science, and functional poetry to birth a drivable sculpture. SEMANTIC INFERENCE FRAMEWORK Kinetic DNA Analysis:  Motion Signature: Is it about cutting through or flowing with? Power Source Metaphor: Does it suggest electric silence or combustion rage? Stance Philosophy: Does it crouch predatory or float serene?  Transmutation Logic: When the object embodies:  Sharp edges, aggressive angles, predatory stance, weapon-like intent → Manifest as: Track-Focused Hypercar (exposed carbon, active aero, GT3 energy)  When the object embodies:  Smooth curves, organic flow, biomimicry, effortless grace → Manifest as: Electric Grand Tourer (seamless body, hidden intakes, silent luxury)  When the object embodies:  Brutalist geometry, industrial strength, utilitarian honesty → Manifest as: Safari Rally Weapon (lifted suspension, protective armor, adventure-ready)  OUTPUT: Full car render (3/4 front view), interior detail shot, spec sheet (0-60, top speed, powertrain), brand collaboration (\"Pagani x Cactus Edition\").",
@@ -6593,7 +6638,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 732,
+    "id": 737,
     "title": "Japanese Graffiti Portrait Poster",
     "category": "realistic",
     "prompt": "Create a high-detail portrait poster in a bold Japanese graffiti-inspired art style, combining modern urban street aesthetics with expressive Japanese visual culture. The poster should feature dynamic graffiti typography, layered spray-paint textures, hand-drawn symbols, abstract paint splashes, neon brush strokes, urban sticker elements, Japanese calligraphy accents, and decorative ornaments that strongly reinforce the energetic atmosphere of the design. The overall composition should feel artistic, rebellious, fashionable, and visually striking, while still maintaining a premium editorial poster quality instead of looking messy or overdone. Humanity somehow turned vandalism into luxury wall art. Impressive species. The subject must not replicate the exact pose or expression from the reference photo. Instead, create a completely new pose that feels natural, confident, and full of life. The expression should appear emotionally expressive, charismatic, and engaging, avoiding stiff, awkward, flat, or emotionless body language. The pose should reflect the elegance and sophistication commonly seen in international fashion models, with stylish posture, natural movement, and subtle attitude that enhances the overall cinematic fashion aesthetic. The outfit should feature contemporary stylish casual fashion with strong visual appeal. Avoid plain or repetitive clothing designs. Use fashionable layering, modern streetwear inspiration, premium casual styling, and a balanced combination of colors, patterns, textures, and fabric types that create a rich and non-monotonous appearance. The clothing should feel trendy, fashionable, youthful, and visually premium while still fitting naturally into the Japanese graffiti poster concept. The background and poster decorations should be filled with thematic urban Japanese-inspired visual elements such as graffiti walls, spray textures, painted symbols, urban signage, layered stickers, modern Japanese graphic motifs, abstract shapes, paint drips, street fashion aesthetics, and stylish decorative compositions that enhance depth and artistic intensity without distracting from the subject. Lighting should feel cinematic and fashionable, with strong contrast, clean highlights, realistic skin texture, and high-end editorial poster quality. The final result must look like a premium modern street-fashion campaign poster with highly detailed textures, balanced composition, vibrant color harmony, realistic proportions, ultra-sharp focus, and immersive visual storytelling. Ultra-detailed, highly aesthetic, premium composition, realistic texture rendering, fashionable urban atmosphere, cinematic quality, poster-ready design, 8K ultra high resolution.",
@@ -6602,7 +6647,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 733,
+    "id": 738,
     "title": "Brand Identity Portrait",
     "category": "realistic",
     "prompt": "Use my uploaded portrait photo as the only identity reference. Preserve only the person’s real facial features, face shape, hairstyle, hair color, skin tone, and overall temperament. Generate an ultra-realistic close-up portrait in natural light. The subject is shown in side profile, gently lowering her head toward a blooming white lily. The flower is placed in the foreground and covered with visible dewdrops. Warm golden backlight comes from the side and behind, creating a soft glowing rim light on the hair, with slight lens flare and a shallow depth of field. The background is a dark green natural blur. The expression is calm, soft, and natural, with the subject not looking at the camera. Keep realistic skin texture, clear eyelashes, and detailed hair strands. The overall mood is romantic, clean, dreamy, and cinematic, like a summer morning photo. Vertical 9:16, high-quality realistic photography, no text, no watermark",
@@ -6611,16 +6656,16 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 734,
+    "id": 739,
     "title": "Outdoor Lifestyle Open Sky Portrait",
     "category": "realistic",
-    "prompt": "Vibe: outdoor lifestyle · introspective · open sky",
+    "prompt": "Vibe: outdoor lifestyle · introspective · open sky\n\nUltra-realistic monochrome 3x3 editorial comp card using the reference image as the identity source. Preserve the exact same facial features, face shape, eye shape, nose, lips, skin texture, hairstyle, proportions, and natural beauty. No beautification, no face alteration, no AI-looking skin, no reshaping. Same woman in all 9 frames with consistent identity and styling.\n\nMinimal luxury studio aesthetic, soft diffused lighting, clean light gray background, high-fashion Korean beauty editorial vibe, ultra detailed realistic skin texture, natural makeup, glossy lips, deep black silky long hair, black sleeveless halter top, delicate silver necklace.\n\n3x3 grid layout with evenly spaced portrait frames. Each frame shows a different expression and hand pose:\n1-looking sideways while lightly biting finger\n2-side glance with hand touching temple\n3-confident direct gaze with relaxed lips\n4-playful expression holding lollipop near lips\n5-soft gentle smile looking at camera\n6-wink smile with both hands in hair\n7-pout lips with both hands framing face\n8-thoughtful side glance with finger near lips\n9-warm elegant smile with slight head tilt\n\nPhotorealistic DSLR quality, Vogue beauty shoot style, soft shadows, balanced composition, monochrome black-and-white tone with subtle warm grayscale contrast, extremely sharp eyes, realistic hair strands, premium editorial photography, symmetrical comp card design, clean borders, cinematic beauty lighting, 8k ultra detailed.\n\nSoft watercolor anime illustration of a cute girl exploring peaceful city landscapes with her small puppy and cat companion, cozy slice-of-life aesthetic, pastel watercolor palette, gentle hand-painted textures, dreamy sketchbook art style, warm sunlight and soft clouds, charming urban riverside picnic scene, quiet Japanese-style street with glowing café lights and murals, cherry blossom lake view with modern skyline, peaceful stone canal walkway with greenery and bridges, adorable anime-inspired girl with fluffy sweater, denim overalls or skirt, small backpack, rosy cheeks and soft wavy hair, whimsical Ghibli-inspired atmosphere, calming everyday life moments, cozy travel diary vibe, highly detailed watercolor brush strokes, delicate ink outlines, nostalgic and heartwarming mood, soft cinematic composition, storybook illustration style, minimal pastel tones, peaceful nature and city harmony, ultra aesthetic anime background art, handmade watercolor paper texture, wholesome companionship theme, 8k\n\nCreate a photorealistic CGI caricature of the person in the uploaded image, using the uploaded image as the sole and complete visual source for clothing, accessories, pose, colors, and overall appearance. Preserve the person’s exact identity, facial features, age cues, skin tone, hair, beard, and likeness, while transforming them into a realistic caricature with a slightly oversized head, compact body, and subtly shortened proportions. The result must look like a real human recreated as high-end photoreal CGI, not a toy, not Pixar, not vinyl, not cartoon. Use realistic skin shading with natural pores and wrinkles, authentic hair and beard detail, and true-to-life materials and shadows. Lighting should be clean daylight or studio daylight with crisp, realistic shadows on a clean off-white background. No reinterpretation, no redesign, no added styling beyond what exists in the uploaded image. Ultra-high definition, hyper-realistic CGI quality, grounded and believable, no text, no logos, no watermarks. Aspect ratio 4:5.\n\nCreate an ultra-premium cinematic character sheet for an Oscar-worthy Hollywood drama film. Use reference image.\nA stunning female protagonist with emotional eyes, realistic skin pores, luxurious satin evening dress, delicate diamond jewelry, graceful posture.\nInclude front/side/back turnaround, emotional facial expressions, close-up portrait photography, flowing fabric motion studies, luxury makeup breakdown, handwritten production annotations, realistic height comparison chart.\nMood: warm golden spotlight, timeless vintage Hollywood elegance, soft cinematic shadows, fashion editorial realism.\n\nConvert this image into a soft, handcrafted paper-cut layered illustration style, inspired by papercraft diorama aesthetics. Use smooth rounded shapes, simplified cute character proportions, and minimal facial details (dot eyes, blush cheeks) to create a warm, charming look. Apply stacked paper layers with visible depth, subtle shadows between layers, and clean cut edges that resemble laser-cut cardstock.\n\nUsing the provided reference image, create an ultra-realistic futuristic fashion editorial portrait of a stylish young woman standing in vibrant neon lighting. She wears an oversized crisp white shirt with minimalist luxury styling, reflective pastel holographic sunglasses with pink-orange gradient lenses, silver geometric hoop earrings, and a delicate gold chain necklace.\n\nShe has sleek shoulder-length dark brown hair, flawless glowing skin, soft glossy lips,\n\nA highly realistic candid mobile photo of my original face without altering my real facial structure. A young Asian woman standing beneath blooming pink flower branches at night, with long messy black hair blown by the wind partially covering her face. Natural pale skin with visible real texture and pores, sleepy half-open eyes with faded brown makeup slightly smudged, glossy plump pink lips slightly parted while biting a small pink flower, softly flushed cheeks, dreamy melancholic empty expression. Wearing a loose white shirt with a slightly open collar, surrounded by dark green leaves and pink flowers close to the camera. Harsh direct smartphone flash lighting creating overexposed highlights and deep shadows, low-light nighttime atmosphere, imperfect spontaneous composition like a real candid shot, slight motion blur, natural soft focus, authentic iPhone camera grain, vintage 2010s Tumblr aesthetic, intimate close-up framing, cinematic yet natural look, flash reflection in the eyes, thin messy bangs, realistic handheld shot, no studio lighting, no excessive editing, raw mobile photography, extremely realistic.\n\nAspect Ratio: 3:4\n\nTransform the uploaded portrait into a highly stylized 3D cartoon avatar with a glossy smooth vinyl/plastic texture, minimalist facial design, oversized head proportions, clean geometric hair shapes, thick sculpted eyebrows, simplified facial features, soft airbrushed skin shading, subtle specular highlights, tiny realistic imperfections, designer toy aesthetic, fashion editorial character design, centered composition, isolated cream/off-white background, ultra clean studio lighting, bold graphic look, slightly surreal proportions, premium collectible figurine style, modern mascot character energy, polished CGI render, Octane render, soft global illumination, shallow depth of field, symmetrical face framing, minimal but expressive eyes, smooth rounded forms, contemporary art toy aesthetic, high-end 3D illustration, minimal color palette, glossy black hair, subtle cinematic shadows, poster-like composition, luxury magazine cover feeling, ultra detailed yet simplified stylization\n\nTurn the uploaded image into a funny toddler-style crayon drawing, like it was made by a 3–4 year old kid who tried their best but had absolutely no idea what they were doing \n\nKeep the drawing messy, clumsy, uneven, and adorably inaccurate. The lines should look rough and scribbly, shapes should feel awkward, proportions can be completely wrong, and details should be super simplified. It should feel like a child quickly drew the scene from memory using random crayons.\n\nAvoid realistic anatomy, clean outlines, perfect symmetry, professional shading, or polished illustration styles. The charm should come from how silly, chaotic, and unintentionally funny the drawing looks.\n\nStyle: messy wax crayon art, childish doodles, random proportions, uneven coloring, simple shapes, loose interpretation of the original image.\n\nTransform the uploaded image into a glamorous disco-ball version of itself while preserving the original silhouette, composition, key recognizable features, and subtle tonal colors. Style it as if the subject is made from tiny mirrored square tiles, like a 1970s disco ball chrome, silver, reflective glass, beveled edges and subtle grout lines between tiles. Add bright white sparkle flares and small iridescent highlights across the mirrored surface. Use dramatic studio lighting on a pure black background, with high contrast, glossy reflections and a luxurious nightclub feel. Keep the object centered and iconic, with a polished 3D look.\n\nCreate a 3:4 cinematic, atmospheric editorial portrait using the attached photo as the exact face and identity reference. A solitary person stands alone in vast wind-swept sage green grass fields, surrounded by tall grass moving in strong wind, muted natural palette, soft overcast daylight, realistic skin texture, fashion-editorial framing, subtle melancholy, quiet luxury tone, and photorealistic detail.\n\nYoung Korean woman in ultra-realistic style in the uploaded image, elegant collage poster, fitted black t-shirt with minimalist logo, black denim shorts, black high-top Nike sneakers, long straight silky dark black hair with soft strands framing the face, glossy nude peach lips, Douyin-style makeup, winged eyeliner, soft pink blush, radiant skin, long eyelashes, dual composition with large portrait and full-length flowing hair, golden cinematic lighting, ink splash effects, luxurious white background, ultra-detailed, 8K, 3:4.\n\nUltra-cinematic Japanese street photography,\ndreamy summer afternoon in a quiet suburban neighborhood, beautiful young woman standing among vibrant wildflowers and orange cosmos flowers, towering cumulus clouds filling the sky, huge rainbow arching overhead, warm golden hour sunlight, nostalgic anime-inspired atmosphere, soft wind moving hair, candid pose looking into the distance, utility poles and power lines creating urban Japanese aesthetics, shallow depth of field, foreground flower bokeh, rich colors, Kodak Portra 400 film look, dreamy glow, volumetric lighting, natural skin tones, highly detailed face, environmental portrait, low-angle composition, storytelling photography, cozy summer mood, cinematic color grading, photorealistic, masterpiece, 85mm lens, f/1.8, HDR, ultra detailed, soft bloom, realistic shadows, vibrant yet natural tones, editorial fashion photography, Instagram-worthy aesthetic, 8k.\n\nA high-fashion editorial portrait of a stylish woman with a long, thick French side-braid hair, wearing sleek black designer sunglasses, a premium oversized beige t-shirt tucked into tailored beige trousers. She is wearing a minimalist thick gold chain necklace and a luxury silver watch, posing elegantly with one hand gently touching the back of her neck and looking away with a confident smile.The background is a creative grunge black-and-white collage art featuring a Pegasus illustration, a vintage police car, a classic Chanel perfume bottle, newspaper textures, and vinyl records with white sticker cutout borders. Cinematic studio lighting, sharp focus, magazine cover aesthetic, 8K resolution.\n\nPhotorealistic modern pop-fashion photobooth strip arrangement placed on a colorful gradient acrylic desk, top-down cinematic view. Three strips with SAME stylish young woman, consistent identity in all portraits.\n\nLeft strip: powerful direct gaze, edgy fashion pose, slightly tilted head, confident attitude.\nCenter strip: warm natural smile, candid moment, soft laughing expression, relaxed elegance.\nRight strip: artistic over-the-shoulder glance, calm eyes-closed pose, reflective dreamy look, gentle emotion.\n\nVibrant contemporary aesthetic with neon pink, sky blue, and warm yellow highlights, ultra-clean studio lighting, glossy printed strips with crisp edges. Modern props like LED lights, fashion magazines, aesthetic accessories, and minimal luxury items. High-fashion digital editorial vibe, colorful, trendy, visually striking composition.",
     "thumbnail": "/prompt-thumbs/evolink/portrait_case240/output.jpg",
     "source": "EvoLinkAI",
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 735,
+    "id": 740,
     "title": "Boston Spring 2026 City Poster",
     "category": "scene",
     "prompt": "A striking Spring 2026 city poster for Boston with an elegant celebratory mood and a bold contemporary design. On a clean off-white textured background with large areas of negative space, a miniature single sculler rows across the lower right corner of the image on a narrow ribbon of reflective water. The wake from the oar sweeps upward in a dynamic calligraphic curve, gradually transforming into the Charles River and then into a dreamlike hand-painted panorama of Boston. Inside this flowing river-shaped composition are iconic Boston elements: the Back Bay skyline, Beacon Hill brownstones, Acorn Street, Boston Public Garden, Swan Boats, Zakim Bridge, Fenway-inspired details, historic brick architecture, harbor ferries, and the city’s waterfront atmosphere. Soft morning fog, golden spring light, subtle festive accents in crimson and gold, rich detail, layered depth, sophisticated city-poster aesthetics, fresh and refined, visually powerful but not overcrowded. Elegant typography in the lower left reads “SPRING 2026” with a vertical slogan “BOSTON, A CITY OF RIVER, MEMORY, AND INVENTION”, text clear and beautifully composed, premium graphic design, 9:16",
@@ -6629,7 +6674,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 736,
+    "id": 741,
     "title": "Vintage Amalfi Travel Poster",
     "category": "scene",
     "prompt": "Modern pencil illustration of Vintage travel poster illustration of the Amalfi Coast, Italy, panoramic coastal cliff road scene, classic 1960s white car driving along a curved seaside road, deep blue Mediterranean sea with small sailboats, colorful pastel hillside village, bright blue sky with soft clouds, lemon tree branches with vibrant yellow lemons framing the foreground, warm summer sunlight, bold vibrant colors, retro 1950s travel poster style, cinematic composition, high detail, screen print texture, graphic illustration. Hand-drawn style, illustration with loose strokes and defined contours. High-contrast color palette, maintaining chromatic harmony between background and elements. Contemporary and decorative aesthetic.",
@@ -6638,7 +6683,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 737,
+    "id": 742,
     "title": "Chengdu Food Map Illustration",
     "category": "scene",
     "prompt": "一张手绘风格的城市美食地图，以成都为主题。画面以鸟瞰视角的手绘简化城市地图为底，标注主要道路和地标但不追求精确比例而是追求可爱的手绘感。地图上分布着 12 个美食地点的精致手绘小插画：春熙路的串串香（一把竹签插着各种食材冒着热气）、宽窄巷子的三大炮（三个糯米团子飞向铜盘）、建设路的蛋烘糕（金黄酥脆正在翻面）、玉林路的火锅（九宫格锅翻滚冒泡）等，每个插画约占地图的 5% 面积，旁边用手写体标注店名和一句推荐语\"凌晨两点还在排队的那家\"。地图边缘用手绘藤蔓和辣椒装饰形成边框。右下角有一个手绘指南针和图例说明。左上角标题\"成都·吃货暴走地图\"使用胖圆的手绘美术字配辣椒装饰。整体画风为水彩+彩铅混合的手绘质感，颜色以暖色系（辣椒红、姜黄、翠绿）为主，图片比例 1:1。",
@@ -6647,7 +6692,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 738,
+    "id": 743,
     "title": "Chinese Minimalist S-Shaped Poster",
     "category": "scene",
     "prompt": "极简新中式美学风格，画面以淡雅的灰白色为底，呈现出一种纸艺剪影般的立体感。\n一条S形蜿蜒的裂痕状边缘将画面分割，仿佛撕开了一层纸面，露出内部色彩斑斓的东方山水景象。\n裂口内，一条蜿蜒的河流自上而下贯穿整个构图，河水以深浅不一的蓝色渲染，层次分明，仿佛流动的丝带。\n河岸两侧点缀着青翠的山丘与梯田，色彩柔和，绿红交织，展现出田园的宁静之美。\n沿河而建的古风建筑错落有致，飞檐翘角，白墙黛瓦，在光影的映衬下更显古朴典雅。\n岸边树木葱茏，枝叶轻盈，一艘小船静泊于水中央，增添了几分悠然意境。\n整体构图呈S形曲线，富有韵律感，仿佛自然与人文的和谐共生。\n画作边缘采用撕纸效果，营造出立体浮雕般的视觉体验。\n下方题字“东方美学”以黑色楷体书写，日期“2026/04/18”与红色印章相呼应，底部“CHINA”字样庄重醒目，署名“@LIYUE”低调收尾，整体氛围静谧深远，充满诗意与哲思。",
@@ -6656,7 +6701,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 739,
+    "id": 744,
     "title": "2026 Spring Guangzhou City Poster",
     "category": "scene",
     "prompt": "一张充满新春喜庆氛围但不失高雅格调的 2026 城市宣传海报。\n双重曝光，构图延续了S型的流动感；\n在纯白的纹理背景右下角，一个身穿中国传统服饰的微缩人物正在挥舞着一条长长的红色丝绸舞带，这条红绸在空中舞动，不仅展现出丝绸的柔顺质感，更在向左上方飘动的过程中，奇幻地变形成了一条壮丽的山脉河流。\n在这条“河流”中，叠加了一个有山有海河的广州城市手绘图，国潮，景色尽在眼底，壮阔雄伟，令人震撼。\n广州的地标建筑(广州塔，珠江新城建筑群，珠江, 广州城里古建筑，游轮，白云山）。\n云雾环绕，仙气缥缈，色彩丰富，结构复杂，细节丰富，但因为大面积的留白，画面依然显得清新脱俗，左下角排版着“SPRING 2026”和竖排的宣传语，整体寓意“千年商都，魅力广州”。\n文字排版优美，大方，字迹清晰完整，尺寸9:16。",
@@ -6665,7 +6710,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 740,
+    "id": 745,
     "title": "Doodle Sketch AI Builder",
     "category": "ui",
     "prompt": "以涂鸦速写风表现【一个厉害的AI builder】，整体呈现快速勾勒、自由变形、即兴手绘与草稿式的视觉效果。线条随手、夸张、可粗细不一，略显凌乱但具有节奏和表现力，强调概括、夸张、趣味和随性，而不是严谨写实或精细刻画。  颜色采用粗糙、干刷感明显的块面表现，可保留不均匀的涂抹痕迹、刷痕、飞白与覆盖感，色彩根据【主题/主体】自动适配，但整体保持涂鸦式、速写式、概括式的表达。不要透明水彩晕染效果，不要细腻水彩过渡，不要纸纹理，不要柔和雾化，不要梦幻质感。  背景以留白为主，保持简洁、轻松、未完成感和设计感，可加入少量辅助性符号、箭头、记号、圈画、重复线、随手写的文字或其他涂鸦元素，以增强速写本或随笔式视觉语言，但不可过于拥挤，不可破坏主体和留白气质。  画面内容不需要预先写清楚，由【一个厉害的AI builder】自动推演并生成最适合的主体形象、动作、相关元素、符号或简化场景，整体保持统一的涂鸦速写风和夸张概括的表现方式，避免复杂写实背景和过度铺陈。 画面中需自然加入专属签名“BlanPlan”，作为画面的一部分，位置低调但清晰，可放在左下角、右下角或标题附近，风格需与整体版式统一，像作品署名或设计落款；签名字体精致、克制、高级，不可过大，不可破坏主体构图，不可显得突兀或廉价。",
@@ -6674,7 +6719,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 741,
+    "id": 746,
     "title": "Futuristic Mandala Illustration",
     "category": "scene",
     "prompt": "曼荼羅の近未来SF版を描いて",
@@ -6683,7 +6728,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 742,
+    "id": 747,
     "title": "Super Famicom Poster Style",
     "category": "scene",
     "prompt": "小悪魔リリムリリィちゃんが　スーパーファミコンのゲームだったときのポスターを考えて",
@@ -6692,7 +6737,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 743,
+    "id": 748,
     "title": "Browser Game Ad Creative Poster",
     "category": "vfx",
     "prompt": "以下の文字を必ず入れて、1:1のポスターを作成してください。書籍・講座・イベント告知に使える、プロの広告デザイナーが作ったような高品質な仕上がりにしてください。\n\n広告クリエイティブ制作\n思いついたら、もう遊べる。 AI×ブラウザゲームづくりは、マジで楽しい。 むずかしそうで、実ははじめやすい。 コードがわからなくても、はじめの一本は作れる",
@@ -6701,7 +6746,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 744,
+    "id": 749,
     "title": "Surreal Koi Nebula Illustration",
     "category": "scene",
     "prompt": "一幅超现实主义数字插画风格，采用低角度仰拍视角。画面描绘了一条巨型彩色锦鲤遨游在梦幻般的星云中，四周环绕着色彩鲜艳的星云与气泡。画面中央还站着一个小人，背对观众，神情平静地仰望空中这条巨大的锦鲤，锦鲤头向下看着小人。整体画面呈现出强烈的大小对比，氛围空灵又梦幻。比例9:16",
@@ -6710,7 +6755,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 745,
+    "id": 750,
     "title": "Ink-Curve Guangzhou Aesthetics Poster",
     "category": "scene",
     "prompt": "纯黑深邃底色，一条粗壮有力的墨色书法 S 型曲线自画面一端蜿蜒贯穿至另一端，构成整幅画面的视觉骨架与叙事动线。曲线上方是一只透明质感的画眉鸟，内部映射传统建筑叠影与蓝绿色光流；沿曲线错落分布广州地标与古典建筑序列，前景有白鹤与湖面，远景为层叠山峦。整体采用非线性透视、冷色调主导、暖色点缀，东方美学与现代意象交融，8K 超高清渲染，比例 9:16。",
@@ -6719,7 +6764,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 746,
+    "id": 751,
     "title": "Guangdong Super League Invitation Poster",
     "category": "scene",
     "prompt": "广东省城市足球超级联赛（粤超）邀请函海报设计，比例 9:16。S 型流动构图，以发光足球和动态能量流贯穿画面，沿动线融合广州塔、深圳平安金融中心、珠海渔女雕像、岭南建筑、佛山武术剪影、中山文化符号、潮汕英歌舞与清远山水。现代国潮高级海报风格，中国红主视觉，青蓝辅助，金色高光，带完整中文排版与电影级光影。",
@@ -6728,7 +6773,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 747,
+    "id": 752,
     "title": "Spring 2026 Guangzhou Promo Poster",
     "category": "scene",
     "prompt": "一张充满新春喜庆但高雅的 2026 广州城市宣传海报，9:16 竖版，双重曝光，S 型流动构图。纯白纹理背景，右下角微缩传统服饰人物挥舞长红绸，红绸变形成山脉河流，内部叠加广州全景：广州塔、珠江新城、珠江、游轮、古建筑与白云山。左下角排版 “SPRING 2026” 与竖排 “千年商都 魅力广州”。",
@@ -6737,7 +6782,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 748,
+    "id": 753,
     "title": "Epic Silhouette World Poster",
     "category": "scene",
     "prompt": "收藏版史诗海报，人物侧脸剪影中生长出完整世界观与经典场景。整体偏电影海报加梦幻水彩插画风，安静、宏大、神圣、怀旧，带纸张颗粒、轻雾感、飞白刷痕与高级留白。",
@@ -6746,7 +6791,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 749,
+    "id": 754,
     "title": "Spring Guangzhou City Poster",
     "category": "scene",
     "prompt": "一张充满新春喜庆氛围但不失高雅格调的 2026 城市宣传海报。\n双重曝光，构图延续了S型的流动感；\n在纯白的纹理背景右下角，一个身穿中国传统服饰的微缩人物正在挥舞着一条长长的红色丝绸舞带，这条红绸在空中舞动，不仅展现出丝绸的柔顺质感，更在向左上方飘动的过程中，奇幻地变形成了一条壮丽的山脉河流。\n在这条“河流”中，叠加了一个有山有海河的广州城市手绘图，国潮，景色尽在眼底，壮阔雄伟，令人震撼。\n广州的地标建筑(广州塔，珠江新城建筑群，珠江, 广州城里古建筑，游轮，白云山）。\n云雾环绕，仙气缥缈，色彩丰富，结构复杂，细节丰富，但因为大面积的留白，画面依然显得清新脱俗，左下角排版着“SPRING 2026”和竖排的宣传语，整体寓意“千年商都，魅力广州”。\n文字排版优美，大方，字迹清晰完整，尺寸9:16。",
@@ -6755,7 +6800,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 750,
+    "id": 755,
     "title": "Science Encyclopedia Vertical Poster",
     "category": "scene",
     "prompt": "Generate a high-quality vertical science popularization encyclopedia image based on [Theme].",
@@ -6764,7 +6809,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 751,
+    "id": 756,
     "title": "Journey to the West Chinese Comic",
     "category": "scene",
     "prompt": "以中国连环画（小人书）的风格帮我绘制大闹天空",
@@ -6773,7 +6818,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 752,
+    "id": 757,
     "title": "Character Relationship Map Poster",
     "category": "illustration-standing",
     "prompt": "请根据【主题】生成一张高设计感的人物关系图海报。",
@@ -6782,7 +6827,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 753,
+    "id": 758,
     "title": "New Chinese Ink Landscape Poster",
     "category": "scene",
     "prompt": "新中式水墨山水海报，竖版9:16构图，东方极简美学风格，大面积留白，主题是春岚一叶红。",
@@ -6791,7 +6836,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 754,
+    "id": 759,
     "title": "AI Builder Doodle Sketch",
     "category": "ui",
     "prompt": "以涂鸦速写风表现【一个厉害的AI builder】。",
@@ -6800,7 +6845,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 755,
+    "id": 760,
     "title": "Character Visual Vertical Poster",
     "category": "illustration-standing",
     "prompt": "『神層37区 特級執行官 神巫サバト』この名称のキャラクターと世界観に合ったビジュアルイメージを、プロのデザイナーとして縦長のポスターイメージとして制作して",
@@ -6809,7 +6854,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 756,
+    "id": 761,
     "title": "Science Encyclopedia Infographic",
     "category": "scene",
     "prompt": "请根据【主题】生成一张高质量竖版「科普百科图」。 \n\n这张图不是普通海报,也不是单纯插画,而是一张兼具“图鉴感、百科感、信息结构感、收藏感”的模块化科普信息图。整体风格参考高级博物图鉴、现代百科书页、生活方式知识卡和社交媒体高传播信息图的结合。\n\n请让画面包含:\n- 一个清晰漂亮的主题主视觉\n- 若干局部特征放大细节\n- 多个圆角模块化信息分区\n- 清楚的标题层级与重点标签\n- 简洁但丰富的百科内容\n- 可视化评分、要点总结或Top 5模块\n\n内容栏目请根据主题自动适配,优先从这些方向中选择并合理组合:\n基础档案、分类信息、外观特征、习性/生态、形成机制/结构组成、生长或使用条件、养护或维护建议、风险与注意事项、适合人群或适用场景、优缺点对比、快速评分卡。\n\n视觉要求:\n浅色干净背景,柔和配色,轻阴影,精致小图标,圆角信息框,整洁排版,信息密度高但不拥挤,阅读体验好。整体必须像真正可以发布、阅读、收藏、系列化生产的科普百科卡,而不是广告图。\n\n请不要做成普通商业宣传海报。要突出“知识整理 + 模块信息 + 图鉴式展示”的特征。",
@@ -6818,7 +6863,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 757,
+    "id": 762,
     "title": "Fictional Anime Movie Poster",
     "category": "anime",
     "prompt": "架空のアニメ映画のポスターをGPT image2で作成。",
@@ -6827,7 +6872,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 758,
+    "id": 763,
     "title": "Product Ad Redesign",
     "category": "vfx",
     "prompt": "この商品広告をプロのデザイナー目線でリデザインして。\n今のトレンド、ターゲットに合わせた洗練されたデザインで。",
@@ -6836,7 +6881,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 759,
+    "id": 764,
     "title": "Dark-Fantasy Guangzhou City Poster",
     "category": "scene",
     "prompt": "平面插画,东方幻想风格高端城市海报设计,竖版9:16构图,整体采用对角线+S型流动构图,从左下向右上延展,画面以深邃黑色为背景,自上而下渐变至浓烈暗红色,形成强烈冷暖对比与空间纵深,背景带微弱星尘与颗粒质感。画面中央一条金色流动能量线条如火焰般蜿蜒贯穿,自底部向上延伸,具有流体质感、粒子光效与渐变高光,局部带细微能量碎屑与体积光。\n\n金色流光中逐层浮现广州城市地标建筑群:广州塔为视觉核心,比例突出,周围融合珠江新城高楼群、猎德大桥及现代与岭南建筑元素,建筑采用“精细线描 + 金色发光体块”表现,轮廓清晰、细节丰富,在金色光晕映衬下仿佛悬浮于虚空,形成超现实空间层次,远景轻微雾化增强纵深感。\n\n画面底部为一位东方白发女性形象,长发飘逸,如烟似雾,与金色流光自然衔接并逐渐融合,发丝半透明带渐变光感,姿态柔美,双目微闭,神情宁静,怀抱一束多彩鲜花,花间点缀微光粒子与星点效果,象征人与城市能量的精神连接,人物细节适度简化以突出整体设计感。\n\n光影集中于金色流线、建筑与人物轮廓,形成强烈明暗对比与视觉聚焦,整体氛围宏大、神秘、具有东方神话意境且略带治愈感。色彩以黑与暗红为基底,高亮鎏金为主视觉强调,金色具备丰富明暗层次,辅以小面积高饱和花束色彩点缀,整体高级克制。\n\n页面文字与画面融合排版:顶部居中宋体大字“广州·中国”,下方小字“2026/04/20”,再下方小字“LIYUE”,文字采用淡金色或柔和暖白色,与整体光影统一。高品质细节,电影级光影表现,体积光与粒子细节丰富,画面干净无噪点,超高清8K分辨率,商业级海报质感。\n\nデメニギスの体の構造を解説するカラー図鑑のページ",
@@ -6845,7 +6890,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 760,
+    "id": 765,
     "title": "Science Fiction Movie Poster",
     "category": "scene",
     "prompt": "Create a Science fiction movie poster",
@@ -6854,7 +6899,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 761,
+    "id": 766,
     "title": "Refreshing Summer Udon Ad",
     "category": "vfx",
     "prompt": "少し暑くなってきた今の時期に、さわやかにさっぱりしたい、みずみずしさ、みたいなところをもっと強く感じたい。冷たいうどんやナス、つゆを口に含んだ時の爽快感、みたいなものをもっと感じるように",
@@ -6863,7 +6908,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 762,
+    "id": 767,
     "title": "Handwritten Medical Prescription Sheet",
     "category": "scene",
     "prompt": "生成一张手写中/西医药方图",
@@ -6872,7 +6917,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 763,
+    "id": 768,
     "title": "Silicon Valley 2026 Promo Poster",
     "category": "scene",
     "prompt": "A refined 2026 Silicon Valley city promotional poster with a futuristic yet elegant atmosphere.\n\nDouble exposure composition, preserving an S-shaped sense of flowing movement. On a pure white textured background, in the lower-right corner, a miniature figure dressed in sleek modern techwear is releasing a long ribbon of luminous silver-blue light. The ribbon flows gracefully through the air, showing a soft silk-like texture, and as it drifts toward the upper-left, it magically transforms into a grand landscape of rolling hills, coastline, data streams, and illuminated urban terrain.\n\nWithin this flowing “river of light,” overlay a hand-drawn panoramic map of Silicon Valley, blending technology, nature, innovation, and California sunlight. The scene feels visionary, expansive, sophisticated, and inspiring.\n\nInclude iconic Silicon Valley and Bay Area elements: Stanford University arches, Apple Park, Google campus-inspired buildings, Meta-like glass offices, Tesla-style innovation imagery, venture capital offices on Sand Hill Road, Palo Alto tree-lined streets, San Jose skyline, the Santa Cruz Mountains, San Francisco Bay, highways, autonomous vehicles, startup labs, semiconductor patterns, AI data centers, and subtle circuit-board textures.\n\nSurrounded by soft mist, golden California light, floating clouds, and delicate digital particles. Rich colors, complex structure, highly detailed, grand and breathtaking, yet still fresh and minimal because of the large areas of white space.\n\nIn the lower-left corner, elegant typography reads “SILICON VALLEY 2026” with a vertical promotional slogan: “Where Ideas Shape Tomorrow.” Beautiful editorial layout, graceful spacing, clear and complete lettering, premium city branding poster, cinematic lighting, sophisticated details, 9:16 aspect ratio.",
@@ -6881,7 +6926,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 764,
+    "id": 769,
     "title": "Japanese Supermarket Sale Flyer",
     "category": "scene",
     "prompt": "『賑やかで魅力的なスーパーマーケットの折り込みチラシの画像。上部には「特売」の大きな文字と今週の日付。カラフルな商品写真(野菜・果物・牛肉・鮮魚)、赤枠の価格タグ、「超目玉商品」「家計応援」のキャッチ...』",
@@ -6890,7 +6935,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 765,
+    "id": 770,
     "title": "Dark Epic Concept Poster",
     "category": "scene",
     "prompt": "围绕【主题】自动生成一张顶级暗黑史诗概念海报 / 电影感信息图海报。\n\n唯一需要输入的变量只有:\n【主题】:___特朗普的思考____ \n\n除【主题】之外,其余全部由 AI 自动适配完成,包括但不限于:\n- 核心主体(自动判断更适合人物、守护者、战士、产品、器物、雕像、抽象象征或其他主视觉对象)\n- 中央承载结构(自动判断更适合王座、石座、祭坛、机械基座、遗迹、高台或其他支撑体)\n- 环境空间(自动判断更适合洞穴、神殿、废墟、深渊、地下宫殿、密室或其他封闭史诗空间)\n- 上方开口与光源形式(自动判断更适合月光、神光、能量束、审判之光、圣光或其他单一强光)\n- 象征元素(自动判断更适合骷髅、徽记、残碑、纹章、符文、能量环、神性符号等)\n- 色彩体系\n- 材质组合\n- 标题、副标题、辅助文案\n- 排版与整体叙事气质\n\n【总风格】\n高预算 90 年代好莱坞史诗大片海报气质,融合 cinematic matte painting、超写实摄影质感、极强明暗对比、厚重空间叙事、暗黑英雄主义与仪式感构图。整体必须像一张真正的电影主海报,而不是普通插画或电商图。\n\n【核心结构锁定】\n整张海报必须保留以下结构基因:\n1. 一个巨大、压迫感极强的黑暗封闭空间\n2. 一束从上方斜向切入的强烈体积光,作为画面的第一视觉秩序\n3. 中央偏右或光束终点位置的核心主体与承载结构\n4. 左下角作为高密度标题与信息锚点\n5. 四周保留大量纯黑或近黑负空间,形成电影感呼吸区\n\n【自动适配规则】\nAI 必须依据【主题】自动推导最适合的视觉系统:\n- 如果【主题】偏暗黑英雄、复仇、正义、孤独、宿命,则自动偏向石质王座、孤高人物、冷色神光、废墟或洞穴感空间\n- 如果【主题】偏神秘、幽灵、潜行、幻影、夜行,则自动偏向月光、迷雾、冷蓝色体积光、深渊式黑暗空间\n- 如果【主题】偏权力、统治、王者、秩序,则自动强化 throne / altar / crown-like symbol / ritual space 的表达\n- 如果【主题】偏科技、AI、未来、机械,则自动将王座和空间替换为机械神座、能量基座、金属洞窟、工业神殿等未来化形态\n- 如果【主题】偏产品、品牌、器物,则自动把核心主体替换为最合适的 hero object,并保留被神光审判式凸显的史诗构图\n\n【画布与色彩系统】\n- 背景底层必须是极深、近乎吞噬一切的黑暗空间\n- 主环境色由 AI 根据【主题】自动决定,但整体必须克制,以暗色为主\n- 强光区域色彩必须高度集中,只服务于体积光与主体高光\n- 主题色 / 强调色只能集中用于主视觉核心,不允许全画面泛滥\n- 必须建立明确的“黑暗底色 + 单一主光 + 少量主题强调色”的层级秩序\n\n【构图与视觉重力】\n- 采用强烈的斜向张力与向中心汇聚的视觉引导\n- 视觉重力从上方光源强势落下,最终压在核心主体之上\n- 主体必须处于被命运、审判、神性或权力照中的位置\n- 边缘必须自然融入黑暗,不能出现无意义背景填充\n- 所有元素必须服务于唯一的主叙事核心\n\n【材质与光影】\n- 不使用轮廓线,不使用平面化描边\n- 完全依赖体积光、阴影切割、反射、高光、雾气、粉尘、湿润岩石或其他真实材质来建构画面\n- 材质必须形成明显对比,例如:\n  粗粝岩石 / 冷硬金属 / 柔韧织物 / 古老石雕 / 湿润表面 / 尘雾光柱\n- 光束必须具有强烈 Tyndall effect,真实、厚重、可感知体积密度\n\n【排版系统】\n- 整体 80% 视觉,20% 文字\n- AI 根据【主题】自动生成主标题、副标题和底部信息块\n- 主标题应尽量简洁、有气势、有电影海报感\n- 若主题更适合中文,则优先中文;若更适合英文,则自动英文;也可双语,但必须统一\n- 主标题可沿光束垂直排布,仿佛由光本身构成\n- 左下角设置一个高密度信息模块,包括副标题、小字信息、电影 credits 风格占位文字或品牌说明\n- 文字必须锐利、干净、真实嵌入环境,不得廉价漂浮\n\n【模块结构 —— 必须严格保持 3 块】\n[MOD 1: TOP-TO-CENTER BEAM]\n从顶部开口斜向切下的巨大体积光柱,作为第一视觉通道,并承载主标题或主视觉文字。\n\n[MOD 2: CENTER-RIGHT CORE]\n位于光束终点的核心主体与承载结构,形成整张海报的权力中心 / 命运中心 / 叙事中心。\n\n[MOD 3: BOTTOM-LEFT TEXT]\n位于左下角负空间中的高密度排版区,包含副标题、说明文字、credits 风格信息块、品牌信息或活动信息。\n\n【作者署名】\n在底部角落自然加入作者署名:\n@a9quant\n署名要小而清晰,精致、克制、高级,不喧宾夺主,像正式电影概念海报或艺术作品落款。\n\n【输出要求】\n输出为单张统一构图海报。\n所有视觉系统必须内部一致,不能有风格污染。\n画面必须具备:暗黑感、史诗感、压迫感、仪式感、命运感、电影完成度。\n最大细节密度,超清,电影级,印刷级,高端成片质感。",
@@ -6899,7 +6944,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 766,
+    "id": 771,
     "title": "Pilates Studio Ad Poster",
     "category": "vfx",
     "prompt": "ピラティス教室の広告画像を作成したい テキストはよりユーザーが登録をするのに惹かれるような文言にし、画像内には女性がピラティスを実際に行っている様子を映して",
@@ -6908,7 +6953,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 767,
+    "id": 772,
     "title": "6-Block Fashion Campaign Prompt Formula",
     "category": "scene",
     "prompt": "Old money Hamptons editorial, tall blonde woman late 20s, serene elegant expression, wearing cream cashmere cable sweater, pleated beige tennis skirt, pearl earrings, Hermès silk scarf, leather flats, Slim Aarons photography style, medium format film photography, sitting on a white wooden porch of a Cape Cod house, golden hour light, ocean in the background",
@@ -6917,7 +6962,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 768,
+    "id": 773,
     "title": "Sony A7 Exploded View Breakdown Prompt",
     "category": "scene",
     "prompt": "Descomposición detallada de una cámara de la marca Sony modelo A7 indicando todas sus piezas y con sus nombres.",
@@ -6926,7 +6971,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 769,
+    "id": 774,
     "title": "1900 Istiklal Street Panorama Prompt",
     "category": "scene",
     "prompt": "360 equirectangular image of Istiklal Street, Istanbul in 1900\n\n用可爱的风格讲述中国远征军的历史故事\n用波普风格讲述金刚经",
@@ -6935,7 +6980,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 770,
+    "id": 775,
     "title": "Theme Science Encyclopedia Card",
     "category": "scene",
     "prompt": "请根据【主题】生成一张高质量竖版「科普百科图」。 \n\n这张图不是普通海报,也不是单纯插画,而是一张兼具“图鉴感、百科感、信息结构感、收藏感”的模块化科普信息图。整体风格参考高级博物图鉴、现代百科书页、生活方式知识卡和社交媒体高传播信息图的结合。\n\n请让画面包含:\n- 一个清晰漂亮的主题主视觉\n- 若干局部特征放大细节\n- 多个圆角模块化信息分区\n- 清楚的标题层级与重点标签\n- 简洁但丰富的百科内容\n- 可视化评分、要点总结或Top 5模块\n\n内容栏目请根据主题自动适配,优先从这些方向中选择并合理组合:\n基础档案、分类信息、外观特征、习性/生态、形成机制/结构组成、生长或使用条件、养护或维护建议、风险与注意事项、适合人群或适用场景、优缺点对比、快速评分卡。\n\n视觉要求:\n浅色干净背景,柔和配色,轻阴影,精致小图标,圆角信息框,整洁排版,信息密度高但不拥挤,阅读体验好。整体必须像真正可以发布、阅读、收藏、系列化生产的科普百科卡,而不是广告图。\n\n请不要做成普通商业宣传海报。要突出“知识整理 + 模块信息 + 图鉴式展示”的特征。",
@@ -6944,7 +6989,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 771,
+    "id": 776,
     "title": "Chili Pork Cooking Flowchart",
     "category": "scene",
     "prompt": "帮我制作辣椒炒肉这道菜的详细制作流程图,真实风格,适用于小红书图文比例",
@@ -6953,7 +6998,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 772,
+    "id": 777,
     "title": "Cinematic Infographic Concept Poster",
     "category": "scene",
     "prompt": "请围绕【主题】自动生成一张顶级概念海报 / 信息图式电影海报。\n\n唯一输入变量只有:\n【主题】:__中国历史上的皇帝排名_         \n\n要求 AI 根据这个主题,自动推导并统一设计以下全部视觉系统,不需要我额外指定:\n- 核心主体(可以自动判断更适合人物、产品、建筑、器物、符号、场景或抽象意象)\n- 底部支撑结构\n- 上方悬浮符号或精神象征\n- 场景包裹元素\n- 隐喻系统\n- 色彩层级\n- 材质对比\n- 光影逻辑\n- 标题、副标题、辅助文案\n- 品牌感与高级感表达方式\n\n最终画面必须是:\n一张震撼、精密、统一、电影级、超高细节、可用于高端印刷的概念主视觉海报。\n\n【总风格】\n超写实 3D 商业 CGI 渲染,融合电影级布光、奢侈品视觉语言、未来感概念设计与史诗级构图。画面必须具有“唯一主视觉核心”,不能杂乱,不能像拼贴,不能像普通电商海报。\n\n【自动推导规则】\nAI 必须依据【主题】自动决定最合适的:\n1. 核心视觉隐喻\n2. 主体类型与姿态\n3. 支撑结构形式\n4. 悬浮元素形式\n5. 场景外壳与空间氛围\n6. 主色、辅色、强调色\n7. 材质组合\n8. 文字气质与版式风格\n\n例如:\n- 如果主题偏权力、秩序、资本、统治,则自动偏向王座、冠冕、机械、神殿、红幕、金属、权力结构\n- 如果主题偏科技、AI、芯片、未来,则自动偏向机械结构、能量核心、光束、深色金属、全息感\n- 如果主题偏奢侈品、高定、稀缺、收藏,则自动偏向珠宝、镜面材质、黑金体系、展台、博物馆式布光\n- 如果主题偏人物、IP、角色,则自动以人物为主视觉核心,并自动匹配对应世界观与象征系统\n- 如果主题偏城市、文明、史诗、命运,则自动转化为宏大叙事型空间结构与仪式感场景\n\n【构图规则】\n- 绝对高级感\n- 强烈中心秩序,整体统一\n- 允许中轴对称或接近中轴的史诗级构图\n- 视觉重力明确,从上到下形成清晰的层级落点\n- 边缘负空间干净、克制、有呼吸感\n- 不允许无意义装饰,不允许风格污染,不允许多个系统互相打架\n\n【视觉质量】\n- 超高细节\n- 体积光清晰\n- 材质真实\n- 反射、折射、阴影、雾气、景深自然\n- 每个元素都像经过工业级视觉总监审美控制\n- 整体达到高端品牌 campaign key visual / luxury invitation poster / conceptual editorial poster 水准\n\n【排版系统】\n- 整体为 90% 视觉,10% 文字\n- AI 根据【主题】自动生成最匹配的主标题和副标题\n- 标题必须简洁、锋利、有气势\n- 文案分布在安全负空间内,不压主体\n- 若主题适合中文,则优先生成中文标题;若主题更适合英文,则自动生成英文标题;也可中英结合,但必须统一高级\n- 文字必须尽量少而准,不要堆字\n\n【署名要求】\n在画面底部角落自然加入作者署名:\n@a9quant\n署名要小,但清晰、精致、高级,不喧宾夺主,像顶级视觉作品中的正式作者落款。\n\n【输出要求】\n输出为单张统一构图海报。\n自动根据【主题】完成全部视觉决策。\n画面必须具备史诗感、秩序感、控制力、仪式感、商业完成度。\n最大细节密度,超清,电影级,印刷级,高端成片质感。",
@@ -6962,7 +7007,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 773,
+    "id": 778,
     "title": "A full-body outdoor shot captures a young Caucasian woman, possibly in her la...",
     "category": "scene",
     "prompt": "A full-body outdoor shot captures a young Caucasian woman, possibly in her late 20s, striding through a city crosswalk. She wears an oversized, matte chocolate-brown leather jacket paired with a free-flowing black skirt and sleek knee-high black boots, conveying a sense of high fashion street style. Her long, dark brown hair is wind-swept, complementing her poised and confident expression as she glances sideways. Behind her, a blurred urban backdrop features a yellow taxi and pedestrians, with buildings displaying varied architectural details in neutral tones. The scene utilizes soft ambient daylight filtering through light cloud cover, producing a muted, overcast lighting effect. The warm, earthy color palette consists of brown, black, and touches of beige. The image, likely from a high-resolution digital camera, presents a wide-angle view that maintains focus throughout, emphasizing a dynamic and fashionable feel.",
@@ -6971,7 +7016,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 774,
+    "id": 779,
     "title": "A professional product photography shot of a cold sparkling water",
     "category": "realistic",
     "prompt": "A professional product photography shot of a cold sparkling water\ncan placed upright in golden beach sand. The can is silver and teal,\ncovered in realistic water droplets condensation, with a pineapple\nillustration and tropical branding. The can is slightly tilted,\nplanted in a small mound of fine golden sand with tiny white pebbles\nand small green tropical leaves/grass scattered around the base.\nBackground features a bold split composition - bright sky-blue on\nthe left and vivid yellow on the right, with a large blurred real\npineapple placed behind the can on the right side. A blurred tropical\npalm leaf drapes in from the upper left corner, adding depth and\nframing. Macro-level water condensation droplets visible on the\ncan surface. Lighting is bright, vibrant, commercial studio lighting\nwith clean shadows. Shallow depth of field - can in sharp focus,\nbackground softly blurred. Mood: summer, tropical, fresh, refreshing.\nCommercial product photography, ultra-detailed, 8K.",
@@ -6980,7 +7025,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 775,
+    "id": 780,
     "title": "360 Equirectangular Panorama Image",
     "category": "ui",
     "prompt": "360度 equirectangular （正距円筒図法）画像を2:1で生成\n\nOnline 360° Panorama Viewer VR",
@@ -6989,7 +7034,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 776,
+    "id": 781,
     "title": "Soft poetic children's book illustration with watercolor and gouache textures...",
     "category": "scene",
     "prompt": "Soft poetic children's book illustration with watercolor and gouache textures.Clear gentle daylight with slightly brighter highlights.Muted pastel colors with soft blue and warm tones.Visible brush strokes and paper grain.Minimalist composition with large negative space.Calm, thoughtful, slightly open-ended atmosphere.\n\nChild character (around 12 years old).Subtle visual metaphors like light, shadow, perspective, reflection.Hand-painted picture book style, not cartoon, not anime, not 3D.\n\nTwo children in calm conversation,soft connection forming.",
@@ -6998,7 +7043,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 777,
+    "id": 782,
     "title": "Aspect Ratio: 9:16 Vertical",
     "category": "scene",
     "prompt": "Aspect Ratio: 9:16 Vertical\n\n【IDENTITY & REALISM (CRITICAL PRIORITY)】\n\nThe subject is an adult female whose facial features and bone structure must 100% perfectly match the provided FACE_REF image. Eye spacing, nose bridge, jawline, and cheekbone structure must be exact; no identity drift is allowed. Skin texture must be photorealistic, showing pores and fine details—do not over-smooth or apply an Instagram filter look.\n\n【PHOTOGRAPHY & CINEMATOGRAPHY】\n\nA high-end editorial fashion photograph with a cinematic quality, rivaling covers of Vogue, Harper’s Bazaar, or ELLE.\n\nLens & Focus: Use an 85mm lens (for medium shot) or 50mm/70mm (for full body) with a shallow depth of field. The subject's eyes must be perfectly sharp.\n\nLighting: Natural winter daylight supplemented by soft, professional fill light. Gold ornaments and precious stones should have realistic specular highlights without being blown out. Embroidery textures must be incredibly sharp and tactile.\n\nColor Grading: Rich, cinematic colors. The red walls and the attire's main color must be distinct and clean, not muddy. The overall image should feel deep, textured, and expensive.\n\nComposition: A clean magazine cover layout with deliberate negative space at the top or sides for typography. No torn paper or hand-drawn effects.\n\n【SETTING: FORBIDDEN CITY WINTER】\n\nThe location is a red-walled long corridor in the Beijing Forbidden City.\n\nEnvironment: Visible details include vermilion walls, red pillars, intricate carved windows, and painted wooden beams with strong perspective depth. The scene must be clean: no tourists, modern signs, or watermarks.\n\nWeather Condition (Selected Randomly):\n\n[If Snowfall selected]: Fine snowflakes are gently falling.\n\n[If Post-Snow selected]: The air is crisp and clear, with remnant snow on the eaves and steps.\n\n【WARDROBE: MING DYNASTY HEAVY INDUSTRY COUTURE】\n\nThe subject wears opulent, multi-layered Ming Dynasty ceremonial Hanfu. The aesthetic is gold-heavy, dense tassels, phoenix crown, large-area woven gold embroidery, complex layering, dignified and luxurious.\n\nStructure: A visible, crisp white standing inner collar provides a clean boundary. Over this is a structured duijin ao (jacket) with wide sleeves, topped by a heavy xiapei/pibo (stole) structure held by a large central yajin ornament.\n\nFabric & Craft: The main fabric is real zhijin jin (woven gold brocade) with palpable fiber texture. The embroidery is heavy industry—using panjin goldwork, couched gold",
@@ -7007,7 +7052,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 778,
+    "id": 783,
     "title": "Hangzhou West Lake Travel Poster",
     "category": "scene",
     "prompt": "帮我生成一个介绍杭州西湖的海报",
@@ -7016,7 +7061,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 779,
+    "id": 784,
     "title": "Dongfang Bubai Wuxia Character Poster",
     "category": "illustration-standing",
     "prompt": "图片1：电影角色海报，东方不败红衣饮酒，悬崖落日，武侠意境\n\n图片2：东方不败绣花针如飞，红衣长发立于悬崖，黑木崖夕阳如血",
@@ -7025,7 +7070,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 780,
+    "id": 785,
     "title": "A Chinese Odyssey 90s Hong Kong Poster",
     "category": "scene",
     "prompt": "图片1：大话西游海报重制为90年代港片风格，至尊宝紫霞城墙拥吻，胶片颗粒\n\n图片2：杜蕾斯吉祥物×猪八戒，八戒害羞脸红遮面，文案取经路上要安全",
@@ -7034,7 +7079,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 781,
+    "id": 786,
     "title": "Journey to the West Daughter Kingdom Poster",
     "category": "scene",
     "prompt": "西游记女儿国诱惑海报，六位艳丽的女儿国大臣在后宫温泉中，迷雾朦胧妖冶，生成图片\n\n4.23早上测试成功",
@@ -7043,7 +7088,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 782,
+    "id": 787,
     "title": "Royal Tramp Character Poster",
     "category": "illustration-standing",
     "prompt": "生成鹿鼎记海报，展现韦小宝跟老婆XXX，忠于原著的描述，夸大特点，强调女性的美艳和男性的气质",
@@ -7052,7 +7097,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 783,
+    "id": 788,
     "title": "generate an image of a racing car poster with its spec and pricing",
     "category": "scene",
     "prompt": "generate an image of a racing car poster with its spec and pricing",
@@ -7061,7 +7106,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 784,
+    "id": 789,
     "title": "Charlie Chaplin Product Poster Redesign",
     "category": "scene",
     "prompt": "重新生成一张海报，卓别林拿着商品图里的止痒膏，面露微笑。风格要简约干净。\n\n左边是 GPT-image-2 右边是",
@@ -7070,7 +7115,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 785,
+    "id": 790,
     "title": "Luxury Sportswear Basketball Athlete Campaign Poster",
     "category": "scene",
     "prompt": "Create a premium luxury sportswear campaign poster featuring a confident female athlete in a modern studio environment. Full body pose with strong fashion attitude, standing tall while holding a basketball at her side, chin raised slightly, direct powerful expression. Athletic toned physique, sleek pulled back hair, clean glowing skin, sharp editorial posture.\n\nOutfit includes an oversized cropped varsity jacket, fitted sports bra, tailored biker shorts, white crew socks, and modern high top sneakers. Neutral monochrome styling with subtle premium branding.\n\nBackground is a clean light gray studio wall with giant bold condensed black typography reading “POWER” stretched vertically across the backdrop behind the model. Text should feel oversized and dominant, framing the athlete in the center.\n\nFloor is glossy reflective studio surface with subtle court markings and soft reflections. A few basketballs placed naturally around the floor for depth and campaign styling.\n\nLighting is bright luxury studio lighting with crisp highlights, soft shadows, and polished commercial finish. Sharp focus, ultra realistic skin texture, premium fabric texture, cinematic contrast.\n\nStyle should feel modern, minimal, elite, bold, high fashion sports campaign, luxury brand advertisement, clean composition, balanced negative space, strong visual impact, high resolution, square format.",
@@ -7079,7 +7124,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 786,
+    "id": 791,
     "title": "Streetwear Fashion Campaign Asian Apparel Poster",
     "category": "scene",
     "prompt": "Create a premium streetwear fashion campaign poster inspired by modern Asian apparel advertising. Full body portrait of a stylish young male model standing confidently with legs crossed at the ankles, hands inside jacket pockets, head turned slightly upward and sideways with a calm thoughtful expression. Curly tousled medium length hair with soft volume. Slim athletic build.\n\nOutfit includes a dark olive green padded hooded jacket worn open, clean white crewneck sweatshirt underneath with a tiny chest logo, relaxed black cargo style trousers, and minimal white sneakers. Styling is clean, youthful, and contemporary.\n\nBackground is a vibrant electric blue seamless studio backdrop with subtle gradient lighting, soft glow streaks, and glossy floor reflection. Lighting is soft studio light with gentle shadows and polished commercial finish.\n\nGraphic poster layout with giant bold condensed sans serif text reading “JEANSWEST” vertically stretched across the background behind the model in light gray white. Add large text on lower right reading “JW26”. \n\nComposition should feel premium, trendy, clean, commercial, youthful, modern fashion ad campaign. Sharp focus, ultra realistic fabric texture, cinematic lighting, balanced negative space, sleek branding design, high resolution, vertical poster ratio.",
@@ -7088,7 +7133,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 787,
+    "id": 792,
     "title": "Epic Career Moments Cinematic Poster Template",
     "category": "scene",
     "prompt": "Create an epic poster showcasing the most iconic moments of [Insert Name]'s career. Cinematic style, lens flare. Portrait orientation. A1 poster size. aspect ratio 4:5 https://t.co/L9OHPKUNRp",
@@ -7097,7 +7142,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 788,
+    "id": 793,
     "title": "Avant-Garde Basketball Sculpture Sports Fashion Ad",
     "category": "vfx",
     "prompt": "Avant-garde sports fashion advertisement, oversized basketball posed like a monumental sculpture, female athlete reclining across the ball’s curved surface as if modern furniture, giant word “ELEVATE” in bold typography behind, burnt orange studio backdrop, glossy reflective floor, luxury athletic editorial aesthetic, cinematic lighting, ultra-clean composition, 1:1",
@@ -7106,7 +7151,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 789,
+    "id": 794,
     "title": "Avant-Garde Tennis Racket Sculpture Sports Fashion Ad",
     "category": "vfx",
     "prompt": "Avant-garde sports fashion advertisement, oversized tennis racket positioned like monumental sculpture, female athlete seated casually on the strings as if a suspended lounge, giant word “PRECISION” in bold typography behind, crisp white studio backdrop, reflective court-like floor, luxury sportswear editorial aesthetic, cinematic lighting, ultra-clean composition, 1:1",
@@ -7115,7 +7160,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 790,
+    "id": 795,
     "title": "Surrealist Liquor Brand High Fashion Poster",
     "category": "vfx",
     "prompt": "Un póster publicitario surrealista de alta costura para Aguardiente Amarillo. La escena se sitúa en un estudio minimalista y monocromático de color naranja claro, con un suelo semirreflectante.\nEl foco central es una botella de Aguardiente Amarillo de tamaño descomunal y gigante, colocada en ángulo diagonal y que sirve como respaldo. Un modelo masculino de moda, de cabello largo y oscuro, vestido con un conjunto impecable y totalmente blanco —compuesto por una sudadera y pantalones de pierna ancha—, apoya toda su espalda contra la botella gigante en una postura relajada e inclinada. Mira hacia la derecha, de perfil, con la vista al frente y una expresión serena; calza zapatillas blancas de tamaño estándar.\nEn el fondo, la palabra \"AGUARDIENTE\" aparece escrita con una tipografía sans-serif condensada, blanca, masiva y en negrita, parcialmente oculta por la botella gigante y por el modelo para crear una sensación de profundidad. En la esquina superior derecha se lee: \"Creado por @HMontilla_\".\nEn la parte inferior central, una frase publicitaria en tipografía sans-serif blanca reza: \"El Aguardiente Amarillo de Manzanares es un icónico licor colombiano, originario de 1885 en Manzanares, Caldas\". La iluminación es suave, fría y uniforme, proyectando sombras tenues y un reflejo sutil de los sujetos sobre el suelo azul brillante. La estética general es limpia, moderna y de alto concepto.\n\nEstablecer la relación de aspecto en 3:4.",
@@ -7124,7 +7169,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 791,
+    "id": 796,
     "title": "Premium Food Recipe Poster Elegant Layout",
     "category": "scene",
     "prompt": "Create a premium food preparation poster for\n [ DISH NAME ], with a beautiful hero dish, warm natural lighting, cream background, elegant step-by-step recipe layout, ingredients, cooking process, premium food photography, refined English typography, luxury restaurant advertisement style, clean design, rich colors, highly detailed, visually irresistible, cinematic masterpiece.",
@@ -7133,7 +7178,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 792,
+    "id": 797,
     "title": "Luxury Fashion Magazine Cover Black and White",
     "category": "scene",
     "prompt": "Create a high fashion editorial magazine cover inspired by luxury fashion publications. Use the reference image of the male subject. Black and white portrait photography with a clean off white studio background. Subject is posed confidently from a low angle, looking slightly upward, sharp jawline, soft parted lips, tousled wavy hair with natural volume. Outfit includes a dark turtleneck layered under a textured tailored plaid blazer. Lighting is soft yet dramatic, creating sculpted facial shadows and elegant contrast.\nMagazine layout design with oversized serif masthead text at the top reading “VOGUE”, partially hidden behind the subject’s head. Minimal premium typography across the page. Add side text “FASHION”, issue date “2026 MAY”, left side headline “27 DIFFERENT STYLES”, and bold bottom right cover line “LOOK FAMOUS”. Include a small red translucent square overlay on one eye area with the word “CATCHY”.\nStyle should feel premium, modern, cinematic, clean composition, sharp focus, ultra realistic skin texture, editorial luxury aesthetic, balanced negative space, timeless fashion cover design. Vertical magazine ratio, high resolution.",
@@ -7142,7 +7187,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 793,
+    "id": 798,
     "title": "Surrealist Rolex Luxury Watch Fashion Poster",
     "category": "scene",
     "prompt": "A high-fashion surrealist poster for Rolex. A deep emerald green minimalist studio with a polished reflective floor. A massive Rolex watch stands upright like a monument. A male model in a tailored dark green suit leans casually against the watch face, wearing a matching Rolex.",
@@ -7151,7 +7196,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 794,
+    "id": 799,
     "title": "Peacock Botanical Vintage Symmetrical Art Print",
     "category": "scene",
     "prompt": "symmetrical design featuring two elegant blue peacocks with detailed feather patterns, surrounded by blue floral elements, intricate vintage botanical ornament, soft beige background, classical floral decor style with rich navy and sky blue details, decorative art illustration --ar 3:2",
@@ -7160,7 +7205,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 795,
+    "id": 800,
     "title": "SPLASH Fashion Brand Hyper-Realistic Campaign Poster",
     "category": "vfx",
     "prompt": "Create a hyper-realistic fashion poster for “SPLASH” featuring the same girl from the reference image (keep her face 100% identical). She is sitting confidently on a glossy, liquid-style 3D SPLASH logo with water splash effects. One leg relaxed, one bent, strong editorial pose.\nBackground has massive bold “SPLASH” text filling the frame, partially behind her. Add small tagline: “Own Your Style.”\nOutfit: modern black street-fashion (blazer, fitted top, trousers, sneakers).\nLighting: cinematic studio, soft key light + rim light, reflective highlights on liquid logo.\nStyle: luxury brand campaign (Zara / H&M), clean glossy environment.\nCamera: 85mm lens, shallow depth of field, 8K, ultra-detailed, photorealistic.",
@@ -7169,7 +7214,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 796,
+    "id": 801,
     "title": "Avant-Garde Guitar Sculpture Fashion Advertisement",
     "category": "ui",
     "prompt": "Avant-garde fashion advertisement, oversized guitar positioned like sculpture, a guitarist in jeans casually seated on the a button as if furniture, giant word \"Plism Art\" behind in bold white typography, powder pastel studio background, reflective floor, luxury eyewear campaign aesthetic, ultra-clean layout, editorial magazine styling, Bold quote \" What are you listening\"   Tag : Create Own Change",
@@ -7178,7 +7223,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 797,
+    "id": 802,
     "title": "Illustrated City Food Map",
     "category": "scene",
     "prompt": "{\n  \"type\": \"illustrated map infographic\",\n  \"style\": \"{argument name=\\\"art style\\\" default=\\\"watercolor and ink hand-drawn illustration on vintage parchment\\\"}\",\n  \"title_section\": {\n    \"text\": \"{argument name=\\\"city name\\\" default=\\\"成都\\\"} {argument name=\\\"map title\\\" default=\\\"吃货暴走地图\\\"}\",\n    \"mascot\": \"cartoon red chili pepper wearing sunglasses and giving a thumbs up\"\n  },\n  \"border\": \"{argument name=\\\"border decoration\\\" default=\\\"vine of green leaves and red chili peppers\\\"}\",\n  \"layout\": {\n    \"background\": \"textured beige parchment paper with yellow roads, blue rivers, and green park areas\",\n    \"sections\": [\n      {\n        \"title\": \"landmarks\",\n        \"count\": 6,\n        \"illustrations\": [\"traditional pavilion\", \"traditional monastery\", \"modern skyscraper with climbing panda\", \"tall TV tower\", \"traditional gate\", \"industrial buildings\"],\n        \"labels\": [\"人民公园\", \"文殊院\", \"IFS\", \"339电视塔\", \"宽窄巷子\", \"东郊记忆\"]\n      },\n      {\n        \"title\": \"food_spots\",\n        \"count\": 12,\n        \"illustrations\": [\"mapo tofu\", \"dumplings in chili oil\", \"skewers in pot\", \"sticky rice balls\", \"egg baking cake\", \"nine-grid hotpot\", \"sweet potato noodles\", \"cold skewers\", \"spicy mixed dish\", \"covered tea bowl\", \"ice jelly dessert\", \"spicy rabbit heads\"],\n        \"labels\": [\"1 陈麻婆豆腐\", \"2 钟水饺\", \"3 春熙路\", \"4 宽窄巷子·三大炮\", \"5 建设路·叶婆婆蛋烘糕\", \"6 玉林路·小龙坎火锅\", \"7 香香巷·肥肠粉\", \"8 武侯祠大街·钵钵鸡\", \"9 东郊记忆·冒椒火辣\", \"10 人民公园·鹤鸣茶社\", \"11 锦里古街·冰粉\", \"12 双流老妈兔头\"]\n      },\n      {\n        \"title\": \"图例\",\n        \"position\": \"bottom-right\",\n        \"count\": 5,\n        \"items\": [\"red dot\", \"green house\", \"green tree\", \"blue line\", \"yellow double line\"],\n        \"labels\": [\"美食地点\", \"地标景点\", \"公园绿地\", \"河流湖泊\", \"主要道路\"]\n      }\n    ],\n    \"centerpiece\": \"giant panda sitting and eating bamboo\",\n    \"bottom_right_extras\": [\"vintage compass rose with N, S, E, W\", \"disclaimer text '温馨提示:吃辣需谨慎,肠胃要保护~' with a red chili pepper icon\"]\n  }\n}",
@@ -7187,7 +7232,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 798,
+    "id": 803,
     "title": "3D Stone Staircase Evolution Infographic",
     "category": "3d",
     "prompt": "{\n  \"type\": \"evolutionary timeline infographic\",\n  \"instruction\": \"Using REFERENCE_0 as a structural base, transform the flat vector design into a highly realistic 3D infographic. Replace the smooth ramps with distinct stone steps and upgrade all organisms to photorealistic 3D models.\",\n  \"style\": {\n    \"background\": \"{argument name=\\\"background style\\\" default=\\\"vintage textured parchment paper\\\"}\",\n    \"staircase\": \"{argument name=\\\"staircase material\\\" default=\\\"realistic textured stone blocks\\\"}\",\n    \"subjects\": \"{argument name=\\\"organism style\\\" default=\\\"highly detailed photorealistic 3D renders\\\"}\"\n  },\n  \"layout\": {\n    \"main_title\": \"{argument name=\\\"main title\\\" default=\\\"人类演化\\\"}\",\n    \"sections\": [\n      {\n        \"position\": \"left sidebar\",\n        \"count\": 8,\n        \"labels\": [\"L0: 单细胞生命\", \"L1: 多细胞生物\", \"L2: 动物界\", \"L3: 脊索动物\", \"L4: 上陆革命\", \"L5: 哺乳纲\", \"L6: 人科演化\", \"L7: 智人纪元\"]\n      },\n      {\n        \"position\": \"top right\",\n        \"title\": \"获得的功能 / 失去的功能\",\n        \"description\": \"Legend with plus and minus icons\"\n      },\n      {\n        \"position\": \"bottom center\",\n        \"title\": \"演化关键里程碑\",\n        \"count\": 6,\n        \"description\": \"Timeline with a silhouette graphic of 6 figures showing ape-to-human evolution\"\n      }\n    ],\n    \"centerpiece\": {\n      \"description\": \"Winding stone staircase with 25 numbered steps featuring specific organisms.\",\n      \"count\": 25,\n      \"notable_elements\": [\n        \"Step 07: Jellyfish\",\n        \"Step 09: Ammonite\",\n        \"Step 10: Trilobite\",\n        \"Step 24: Walking human\",\n        \"Step 25: {argument name=\\\"future evolution concept\\\" default=\\\"glowing cosmic silhouette with a question mark\\\"}\"\n      ]\n    }\n  }\n}",
@@ -7196,7 +7241,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 799,
+    "id": 804,
     "title": "Biomimetic Skyray Aircraft Poster",
     "category": "scene",
     "prompt": "{\"type\":\"biomimetic aerospace concept poster\",\"subject\":{\"vehicle\":\"futuristic aircraft concept\",\"name\":\"{argument name=\\\"vehicle name\\\" default=\\\"SKYRAY\\\"}\",\"inspiration\":\"{argument name=\\\"animal inspiration\\\" default=\\\"stingray\\\"}\",\"design\":\"blended-wing-body aircraft shaped like a manta ray or stingray, wide triangular planform, smooth organic curves, sharp pointed nose, slightly raised central spine, tapered wing tips curling subtly upward, dark graphite-black metallic skin with fine panel lines and faint blue illuminated accents along edges and seams\"},\"style\":{\"mood\":\"premium futuristic industrial design presentation\",\"rendering\":\"hyper-detailed cinematic 3D concept art mixed with blueprint visualization\",\"color_palette\":\"black, charcoal, gunmetal, silver, deep ocean blue, electric cyan highlights\",\"lighting\":\"low-key dramatic studio lighting with glossy reflections, cool rim light, subtle underwater ambience in the top inspiration strip\"},\"layout\":{\"background\":\"full black poster with faint technical grid lines and soft vignetting\",\"sections\":[{\"title\":\"header\",\"position\":\"top\",\"count\":3,\"labels\":[\"emblem mark\",\"SKYRAY\",\"INSPIRED BY THE SEA. ENGINEERED FOR THE SKY.\"]},{\"title\":\"evolution strip\",\"position\":\"upper middle\",\"count\":5,\"labels\":[\"realistic stingray underwater at far left\",\"top-view biological stingray study\",\"abstract aerodynamic line sketch\",\"faceted aircraft blueprint transition drawing\",\"final sleek aircraft concept at far right\"]},{\"title\":\"hero render\",\"position\":\"center\",\"count\":1,\"labels\":[\"large three-quarter view of the aircraft\"]},{\"title\":\"technical views grid\",\"position\":\"lower middle\",\"count\":6,\"labels\":[\"TOP\",\"SIDE\",\"FRONT\",\"REAR\",\"UNDERSIDE\",\"DETAIL\"]},{\"title\":\"footer text\",\"position\":\"bottom\",\"count\":1,\"labels\":[\"{argument name=\\\"body text\\\" default=\\\"A biomimetic high-speed aircraft concept shaped by the hydrodynamic elegance of the stingray. Its blended wing body, low-drag silhouette, and fluid control surfaces translate ocean-born efficiency into atmospheric performance.\\\"}\"]}],\"technical views\":{\"TOP\":\"top orthographic view with measurement ticks\",\"SIDE\":\"thin side profile with long smooth belly curve\",\"FRONT\":\"front orthographic view emphasizing broad wingspan and central cockpit hump\",\"REAR\":\"rear orthographic view showing narrow tail end and wing sweep\",\"UNDERSIDE\":\"underside three-quarter view\",\"DETAIL\":\"close-up crop of metallic skin, seam lines, and glowing blue edge strip\"}},\"graphics\":{\"logo\":\"minimal four-point symmetrical emblem above title, resembling a stylized ray silhouette\",\"arrows\":\"4 thin cyan arrows connecting the 5 stages in the evolution strip\",\"typography\":\"widely spaced modern sans-serif uppercase text, clean luxury-tech branding\"},\"camera\":{\"hero render\":\"slightly elevated front-left three-quarter angle\",\"technical views\":\"orthographic\",\"inspiration image\":\"underwater side angle with light rays from above\"},\"quality\":\"ultra-clean, polished, high contrast, sharp, poster-ready, concept design board for aerospace branding or speculative industrial design\"}",
@@ -7205,7 +7250,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 800,
+    "id": 805,
     "title": "Taoist Three Souls Seven Po Poster",
     "category": "scene",
     "prompt": "A highly detailed vertical Taoist esoteric infographic poster in the style of an ancient Chinese religious scroll, printed on aged beige rice paper with fine ornamental borders, inked calligraphy, faded stains, and classical diagram annotations. At the top center, large black brush-calligraphy title text reads {argument name=\"headline text\" default=\"道·三魂七魄\"}. Directly below the title is a smaller paragraph of classical Chinese explanatory text in neat calligraphy. The composition is perfectly symmetrical and centered on a glowing vertical spiritual axis made of white-gold energy, mist, and lightning-like qi currents running from the bottom of the page to the heavens. At the very top, above the axis, depict 3 seated Taoist immortals or deities on clouds in a golden celestial realm, arranged left, center, and right, with halos and flowing robes in muted green, cream, and blue. Beneath them, create a towering multi-layered cosmological body diagram made of 9 stacked circular realms or platforms connected by swirling clouds and luminous energy. The upper 5 larger realms represent the five zang organs as miniature mythic landscapes: 1 forested green realm labeled liver/wood, 1 fiery red-gold temple city realm labeled heart/fire, 1 yellow earth realm with terraces labeled spleen/earth, 1 silver-blue mountain-and-water realm labeled lung/metal, and 1 dark blue watery abyss realm labeled kidney/water. Place a glowing meditating figure in a bright orb at the center junction between the upper organ realms and lower spirit layers. Below these, add 7 progressively darker circular underworld-like realms for the seven po souls, each densely populated with tiny scenes of human figures, spirits, beasts, ritual activity, suffering, temptation, conflict, and karmic symbolism, all wrapped by drifting smoke and energy ribbons. At the very bottom, show a seated human figure in meditation within a root-like cavern or corporeal foundation, surrounded by chains, rocks, and embodied worldly attachments. Around the central column, include exactly 9 labeled side panels and diagrams in traditional Chinese layout: top left a bagua and yin-yang cosmology circle; top right a dotted numerological or constellation-like chart; left upper a boxed list for 3 souls; right upper a boxed list for 7 po souls; left middle a five-elements relationship diagram with 5 colored nodes; right middle a circular essence-qi-spirit cycle diagram with 3 nodes; left lower a vertical boxed list of 7 categories or stages; right lower a boxed correspondence table; bottom left a five-direction and five-element human-body relation chart; bottom right a standing and seated meridian or cultivation body diagram. Use many small Chinese labels throughout every section, with classical seal stamps in red. The overall palette is antique parchment, sepia ink, muted jade, cinnabar red, smoky gray, gold, teal, and indigo. The style should feel like a museum-quality Daoist metaphysical chart, ultra intricate, hand-painted gongbi plus ink wash illustration, sacred, mystical, scholarly, dense with symbolism, extremely fine linework, soft cloud layering, and high-resolution poster design.",
@@ -7214,7 +7259,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 801,
+    "id": 806,
     "title": "Vintage Claude Shannon Infographic Poster",
     "category": "scene",
     "prompt": "{\"type\":\"vintage editorial infographic poster\",\"subject\":\"Claude Shannon and information theory\",\"style\":{\"era\":\"1940s Bell Labs archival poster\",\"look\":\"aged cream paper, blueprint drafting grid, thin ink linework, muted navy and charcoal printing, subtle stains and paper wear, technical illustration mixed with newspaper editorial design\",\"rendering\":\"high-detail diagrammatic collage with engraved portrait, scientific charts, labeled panels, and hand-drawn signal graphics\"},\"poster\":{\"headline\":\"Claude Shannon — The Architecture of Information\",\"subheadline\":\"How uncertainty became measurable, and communication became engineering.\",\"topRightMeta\":{\"note\":\"NOTE TOSELF No. 6713–2\",\"date\":\"MAY 1948\",\"subject\":\"A Mathematical Theory of Communication\"}},\"layout\":{\"sections\":[{\"title\":\"left archival sidebar\",\"position\":\"far left vertical column\",\"count\":5,\"labels\":[\"BELL LABORATORIES MURRAY HILL, N.J.\",\"ENGINEERING THE INTANGIBLE\",\"CLAUDE E. SHANNON 1916–2001\",\"TOOLS OF THE INFORMATION AGE\",\"quote panel\"]},{\"title\":\"THE COMMUNICATION MODEL\",\"position\":\"upper middle wide panel\",\"count\":5,\"labels\":[\"1 INFORMATION SOURCE\",\"2 ENCODER\",\"3 CHANNEL\",\"4 DECODER\",\"5 DESTINATION\"]},{\"title\":\"ENTROPY: THE MEASURE OF UNCERTAINTY\",\"position\":\"upper right box\",\"count\":4,\"labels\":[\"H(X) = −Σ p(x) log2 p(x)\",\"PROBABILITY DISTRIBUTION p(x)\",\"MORE EVEN MORE MAXED UNCERTAINTY\",\"MORE LOPSIDED LESS UNCERTAINTY\"]},{\"title\":\"lower theory panels\",\"position\":\"middle to lower band\",\"count\":3,\"labels\":[\"A ENTROPY — uncertainty before a message is known\",\"B NOISE — randomness that corrupts transmission\",\"C Redundancy & Error Correction — structure added so signals can survive failure\"]},{\"title\":\"THEORY THAT TRANSFORMED CIVILIZATION\",\"position\":\"bottom horizontal timeline\",\"count\":8,\"labels\":[\"1840s TELEGRAPHY\",\"1876+ TELEPHONE NETWORKS\",\"1930s–40s DIGITAL COMPUTERS\",\"1950s–60s SATELLITE COMMUNICATION\",\"1970s INTERNET PROTOCOLS\",\"1980s–90s DATA COMPRESSION\",\"1990s–2000s CRYPTOGRAPHY\",\"2010s+ AI & INFORMATION SYSTEMS\"]}],\"centerpiece\":\"a large abstract cloud of blue and gray signal noise, dots, lines, and waveforms behind the communication model, with arrows moving left to right through the five stages\"},\"visualElements\":{\"portrait\":{\"subject\":\"{argument name=\\\"scientist name\\\" default=\\\"Claude Shannon\\\"}\",\"placement\":\"left-center\",\"style\":\"black-and-white archival seated portrait at a desk with the face intentionally obscured by a pale square censor block, wearing suit and tie, writing on paper\"},\"objectsLeft\":[\"rotary telephone on desk\",\"open notebook or papers\",\"technical console with CRT screen and knobs behind portrait\",\"small icon row of 4 tools: oscilloscope, signal meter, relay, punched tape\"],\"communicationModel\":[\"book and symbols under source\",\"binary digits under encoder\",\"large noisy channel cloud with wave overlays\",\"binary digits and interpretation under decoder\",\"light bulb icon under destination\"],\"chartsAndDiagrams\":[\"bar chart for entropy probabilities\",\"two low vs high entropy mini bar charts\",\"tree diagram and entropy notation\",\"signal distortion sketches labeled thermal noise, cross talk, distortion\",\"error-correction binary pipeline from original message to recovered message\"],\"bottomDecor\":[\"small waveform legend with sine wave, digital signal, and noise\",\"archival stamp or footer on lower right\"]},\"color\":{\"background\":\"warm ivory paper\",\"primaryInk\":\"dark navy\",\"secondaryInk\":\"charcoal gray\",\"accent\":\"faded steel blue\"},\"composition\":\"symmetrical wide poster with dense boxed annotations, fine border lines, and a museum-quality educational infographic feel\",\"textDensity\":\"very high, with many small labels, formulas, captions, and historical notes in a carefully organized grid\",\"aspectRatio\":\"16:9 landscape\"}",
@@ -7223,7 +7268,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 802,
+    "id": 807,
     "title": "Ink-Wash Tribute Poster for Chen Uen",
     "category": "scene",
     "prompt": "Create a vintage editorial poster on aged rice paper celebrating {argument name=\"artist name\" default=\"CHEN UEN\"}, designed like a museum infographic mixed with Chinese ink wash illustration and calligraphy. The format is a single vertically oriented poster with a weathered parchment background, ink splatters, faded handwritten annotations, red seal stamps, and a scholarly, archival atmosphere. At the very top, place large black Chinese calligraphy for the name 鄭問, followed by a slash and the romanized name {argument name=\"romanized name\" default=\"CHEN UEN\"} in large serif capitals, with a small red seal beside it. Under the title, add the subtitle {argument name=\"subtitle text\" default=\"The Taiwanese Master Who Turned Comics into Ink-Born Epic\"} in elegant reddish-brown serif text. In the center, feature a dramatic painterly scene of 1 seated male artist in a loose white shirt at a desk, holding a brush over paper, his face intentionally obscured by a soft rectangular blur. Behind him, surround him with a swirling halo-like storm of monochrome ink-brush warriors and historical figures: exact count 9 visible character figures, including armored generals, swordsmen, and mounted riders, emerging from explosive black brushwork and smoke-like ink textures. On the left side, create a vertical section titled “Life & Milestones” with a black brushstroke header and smaller Chinese subtitle text. List exactly 6 timeline entries with red year markers and bilingual captions: 1958 born in Taiwan, 1983 Warrior Panther, 1989 Abi Sword, 1990 Heroes of the Eastern Zhou, 1991 Japan Cartoonists Association Award, 2017 legacy continues. Below that, add a small section titled “Ink in Detail” containing exactly 4 boxed brush studies labeled with short English captions: Dry brush texture, Ink wash gradient, Splatter energy, Bold contour line. On the right side, create a vertical section titled “Visual Method” with a black brushstroke header and smaller Chinese subtitle text. Include exactly 5 stacked boxed studies with image-and-caption layout: Brush as blade, Ink as atmosphere, Anatomy as fate, History as theatre, Speed lines become calligraphy. In the lower center, create a section titled “Major Works Constellation” with a dark brushstroke heading. Arrange exactly 5 circular work nodes around a central ink ring with Chinese calligraphy inside. Label the 5 nodes: Abi Sword, Heroes of the Eastern Zhou, Assassin Biographies, Magical Super Asia, Game character design legacy. Each circle contains a distinct monochrome or muted-color ink illustration, with subtle connecting marks like a constellation diagram. At the lower right, add a section titled “Studio Notes” containing exactly 6 visible objects: 4 hanging calligraphy brushes, 1 ink bowl, and 1 painter’s palette with blue and red pigment; beneath them place a sketchbook page with light pencil figure studies. Across the bottom, add a wide section titled “Why He Matters” with a black brushstroke header and smaller Chinese subtitle text, followed by a paragraph of serif body text in English describing his importance to comics, painting, calligraphy, cinema, and epic storytelling. Use a restrained palette of sepia, black ink, off-white paper, muted gray, with small accents of deep red and occasional blue. The whole image should feel like a refined cultural tribute poster, dense but balanced, highly detailed, painterly, and authentic to Chinese ink aesthetics.",
@@ -7232,7 +7277,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 803,
+    "id": 808,
     "title": "Water Signs Zodiac Character Poster",
     "category": "illustration-standing",
     "prompt": "{\"type\":\"Chinese zodiac-style character infographic poster\",\"subject\":\"twelve zodiac character list, water signs edition\",\"language\":\"Traditional Chinese\",\"format\":\"vertical poster\",\"style\":{\"overall\":\"elegant anime-inspired character catalog with editorial infographic layout\",\"rendering\":\"soft polished digital illustration, pastel gradients, delicate sparkles, ornamental border design\",\"mood\":\"dreamy, celestial, refined, feminine, aquatic\"},\"canvas\":{\"aspect_ratio\":\"2:3\",\"background\":\"very light pearl white with pale blue-lavender tint, subtle texture, thin decorative frame with filigree corners and tiny stars\"},\"header\":{\"title\":\"{argument name=\\\"headline text\\\" default=\\\"十二星座角色清單|水象星座\\\"}\",\"subtitle\":\"感受・直覺・共鳴\",\"icons\":[\"small stars\",\"water droplet emblem in top right\",\"curled cloud-like line art in top left\"]},\"layout\":{\"sections_count\":3,\"sections\":[{\"title\":\"巨蟹座 Cancer\",\"position\":\"top panel\",\"theme_color\":\"powder blue\",\"zodiac_symbol\":\"Cancer glyph inside circle at left\",\"constellation\":\"Cancer constellation at upper right\",\"count\":6,\"labels\":[\"元素:水\",\"概念:情感守護者,把人放在心上\",\"性格:溫柔、敏感、顧家\",\"行動原則:先確認感受,再保護重要的人\",\"戀愛傾向:慢慢靠近,越熟越黏\",\"人際怪癖:嘴上說沒事,實際會記很久\"],\"character\":{\"identity\":\"same young woman model reimagined as zodiac character\",\"pose\":\"half-body portrait, facing forward, arms gently wrapped around a large seashell pillow\",\"hair\":\"long dark hair in a low ponytail\",\"outfit\":\"light blue celestial slip dress with lace trim and sheer cardigan embroidered with stars and moons\",\"accessories\":\"minimal jewelry\",\"background\":\"soft blue night sky with crescent moon, seashell, sparkling stars, stylized ocean wave and tiny water droplets\"}},{\"title\":\"天蠍座 Scorpio\",\"position\":\"middle panel\",\"theme_color\":\"deep violet\",\"zodiac_symbol\":\"Scorpio glyph inside circle at left\",\"constellation\":\"Scorpio constellation at upper right\",\"count\":6,\"labels\":[\"元素:水\",\"概念:深海偵察者,情緒有深度\",\"性格:專注、神秘、意志強\",\"行動原則:先觀察,再一擊到位\",\"戀愛傾向:愛得深,重忠誠與獨占感\",\"人際怪癖:越在乎越不說,會偷偷試探\"],\"character\":{\"identity\":\"same young woman model reimagined as zodiac character\",\"pose\":\"half-body portrait, one hand near chin in a composed, enigmatic gesture\",\"hair\":\"long dark ponytail\",\"outfit\":\"black semi-sheer dress with gothic details and a dark plum off-shoulder shawl\",\"accessories\":\"dangling earrings and layered necklace\",\"background\":\"dark purple celestial sea scene with crescent moon, bubbles, stars, and curling misty water shapes\"}},{\"title\":\"雙魚座 Pisces\",\"position\":\"bottom panel\",\"theme_color\":\"lavender\",\"zodiac_symbol\":\"Pisces glyph inside circle at left\",\"constellation\":\"Pisces constellation at upper right\",\"count\":6,\"labels\":[\"元素:水\",\"概念:夢境共感者,靠直覺導航\",\"性格:浪漫、柔軟、有想像力\",\"行動原則:先感受,再順流找答案\",\"戀愛傾向:容易心動,渴望靈魂陪伴\",\"人際怪癖:常把別人的情緒也一起感受\"],\"character\":{\"identity\":\"same young woman model reimagined as zodiac character\",\"pose\":\"half-body portrait, one hand lifted as if balancing floating bubbles, other hand resting lightly at chest\",\"hair\":\"long dark ponytail with a pale flower hair ornament\",\"outfit\":\"translucent lavender fantasy dress with soft draped sleeves and shimmering fabric\",\"accessories\":\"delicate earrings and necklace\",\"background\":\"pale lilac underwater-celestial blend with bubbles, sparkles, and flowing translucent wave forms\"}}],\"dividers\":\"three horizontal framed panels with thin ornamental borders\"},\"footer\":{\"center_icon\":\"small blue seashell emblem\",\"decorations\":[\"tiny stars\",\"fine scrollwork\"]},\"constraints\":[\"all three zodiac entries must use the same woman as the base character with different styling, clothing, pose, and mood\",\"text should be clean, editorial, and readable\",\"each panel should clearly separate illustration area on the left and text block on the right\",\"maintain cohesive water-element theme across all 3 signs\",\"do not include the other nine zodiac signs in this image\"]}",
@@ -7241,7 +7286,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 804,
+    "id": 809,
     "title": "Earth Signs Zodiac Character Poster",
     "category": "illustration-standing",
     "prompt": "{\"type\":\"vintage zodiac character infographic poster\",\"theme\":\"earth signs only\",\"language\":\"Traditional Chinese\",\"style\":{\"overall\":\"elegant editorial infographic with soft anime-inspired live-action portrait compositing\",\"palette\":\"warm beige, cream, taupe, olive-gray, muted brown, antique gold\",\"mood\":\"stable, refined, calm, practical\",\"texture\":\"aged paper background with subtle speckles and thin ornamental borders\",\"rendering\":\"clean high-resolution print poster, soft lighting, delicate botanical and celestial line art\"},\"poster\":{\"orientation\":\"vertical\",\"aspect_ratio\":\"3:4\",\"title\":\"十二星座角色清單|土象星座\",\"subtitle\":\"穩定・務實・沉著\",\"decorations\":[\"ornamental corner filigree\",\"small gold sparkles\",\"botanical branches\",\"mountain illustrations\",\"thin panel dividers\"],\"sections_count\":3},\"layout\":{\"sections\":[{\"title\":\"金牛座 Taurus\",\"position\":\"top\",\"count\":1,\"labels\":[\"元素:土\",\"概念:感官收藏家,穩穩生活\",\"性格:務實、耐心、重享受\",\"行動原則:先確認值得,再長線投入\",\"戀愛傾向:慢熱但專情,重安全感\",\"人際怪癖:對喜歡的人會默默餵食\"]},{\"title\":\"處女座 Virgo\",\"position\":\"middle\",\"count\":1,\"labels\":[\"元素:土\",\"概念:秩序管理者,細節控場\",\"性格:理性、細膩、可靠\",\"行動原則:先整理,再精準出手\",\"戀愛傾向:用照顧和實際行動表達喜歡\",\"人際怪癖:嘴上挑剔,心裡其實很在乎\"]},{\"title\":\"摩羯座 Capricorn\",\"position\":\"bottom\",\"count\":1,\"labels\":[\"元素:土\",\"概念:登峰實幹家,目標導向\",\"性格:穩重、自律、有責任感\",\"行動原則:先規劃,再穩定推進\",\"戀愛傾向:慢熟務實,願意長期承諾\",\"人際怪癖:關心常包裝成提醒與安排\"]}],\"centerpiece\":\"three stacked horizontal character cards, each with a portrait on the left and text profile on the right\"},\"character\":{\"identity\":\"the same young East Asian woman appears in all 3 sections\",\"age\":\"early 20s\",\"hair\":\"long dark brown to black hair in a low ponytail with side part\",\"face\":\"soft feminine features, natural makeup, calm expression\",\"customization\":\"keep the same base character across all zodiac entries, differentiated by wardrobe, pose, props, and themed background motifs\"},\"cards\":[{\"sign\":\"Taurus\",\"symbol\":\"♉\",\"portrait\":{\"pose\":\"waist-up, slightly turned, holding a ceramic mug with both hands\",\"outfit\":\"cream knit sleeveless top under a soft sage-gray cardigan with delicate floral embroidery\",\"expression\":\"gentle, relaxed, nurturing\",\"props_count\":1,\"props\":[\"mug\"]},\"background\":\"large pale circular halo, floral branch illustration, soft botanical motifs, small mountain drawing in upper right\",\"visual_concept\":\"comfort, sensuality, domestic calm, slow living\"},{\"sign\":\"Virgo\",\"symbol\":\"♍\",\"portrait\":{\"pose\":\"waist-up, one hand holding a pen near the chin, the other arm holding an open notebook or planner\",\"outfit\":\"light cream blouse with a bow tie collar under a pale sage vest with gold buttons\",\"expression\":\"thoughtful, analytical, composed\",\"props_count\":2,\"props\":[\"pen\",\"notebook\"]},\"background\":\"fine geometric diagram lines, botanical sprigs, diamond emblem with leaf motif\",\"visual_concept\":\"order, precision, intelligence, organization\"},{\"sign\":\"Capricorn\",\"symbol\":\"♑\",\"portrait\":{\"pose\":\"waist-up, arms crossed, confident upright stance\",\"outfit\":\"charcoal tailored blazer over a dark vest and crisp white shirt, small round lapel pin\",\"expression\":\"serious, disciplined, self-assured\",\"props_count\":0,\"props\":[]},\"background\":\"dramatic layered mountain landscape in sepia tones with subtle star-like sparkles\",\"visual_concept\":\"ambition, endurance, authority, climbing toward goals\"}],\"typography\":{\"title_font\":\"classic high-contrast serif Chinese type\",\"sign_name_font\":\"large bold Chinese serif with elegant italic Latin zodiac name\",\"body_font\":\"clean readable Chinese print font\",\"icon_style\":\"filled circular brown icons next to each bullet line\"},\"composition\":{\"margin\":\"generous cream margins\",\"panel_style\":\"rounded rectangular panels with thin gold-brown borders\",\"spacing\":\"even vertical stacking with narrow separators\",\"text_alignment\":\"left-aligned profile bullets on the right side of each card\"}}",
@@ -7250,7 +7295,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 805,
+    "id": 810,
     "title": "Fire Sign Zodiac Character Poster",
     "category": "illustration-standing",
     "prompt": "A polished vertical infographic poster in elegant East Asian editorial style, themed around the fire signs of the zodiac using one consistent female character reimagined in three different costumes. Cream parchment background with thin ornamental borders, small corner flourishes, tiny sparkles, and warm red-orange-gold accents throughout. Large Chinese headline at the top reading {argument name=\"headline text\" default=\"十二星座角色清單|火象星座\"}, with a smaller subheading beneath reading {argument name=\"subheading text\" default=\"熱情・行動・勇氣\"}, and a decorative flame icon at the top right. The layout contains exactly 3 stacked profile panels with rounded rectangular borders and generous margins: Aries on top, Leo in the middle, Sagittarius on the bottom. Each panel is split visually with the character on the left and a text/spec area on the right, plus a zodiac symbol badge on the far left and a small constellation diagram on the far right.\n\nUse the same young East Asian woman in all 3 panels, slim build, long dark hair in a high ponytail, shown from about thigh-up to waist-up, facing slightly toward camera, styled as a fashion-model zodiac character sheet. Keep facial features neutral and refined, clean beauty lighting, soft airbrushed illustration-photo composite look.\n\nPanel 1: Aries. Chinese title and English subtitle: \"牡羊座 Aries\". Dominant color scheme: vivid red with warm coral highlights. Zodiac symbol badge shows Aries glyph. Constellation on the right. Behind the character, faint circular mystical line art and flame motifs. Outfit: sporty warrior idol styling with a white crop top, red open short-sleeve jacket with gold trim, red belt, and red wrist wraps or fingerless arm accessories. Pose: confident, energetic, one fist raised near the shoulder and the other hand on her hip. Include exactly 6 info lines with small circular icons before each line, all in Chinese: 1) \"元素:火\" 2) \"概念:點火者,直覺先行\" 3) \"性格:熱情、直接、好勝\" 4) \"行動原則:先衝再修正\" 5) \"戀愛傾向:心動就追,喜歡熱烈互動\" 6) \"人際怪癖:嫌節奏太慢時會自己接手\".\n\nPanel 2: Leo. Chinese title and English subtitle: \"獅子座 Leo\". Dominant color scheme: gold, champagne, and soft amber. Zodiac symbol badge shows Leo glyph. Constellation on the right. Background includes radiant sunburst styling and a faint majestic lion illustration silhouette behind the character. Outfit: glamorous regal gown in pale gold with ornate embroidery, jeweled bodice details, flowing translucent cape sleeves, elegant necklace, and a small crown or tiara. Pose: poised and queenly, one hand lightly touching the chest or collarbone, shoulders open, projecting confidence and star power. Include exactly 6 info lines with small circular icons before each line, all in Chinese: 1) \"元素:火\" 2) \"概念:舞台中心,自帶光芒\" 3) \"性格:大方、自信、要面子\" 4) \"行動原則:先定氣場,再帶隊前進\" 5) \"戀愛傾向:喜歡被偏愛,也樂於寵人\" 6) \"人際怪癖:明明在意,卻要裝沒事\".\n\nPanel 3: Sagittarius. Chinese title and English subtitle: \"射手座 Sagittarius\". Dominant color scheme: rust red, burnt orange, brown leather, and warm ivory. Zodiac symbol badge shows Sagittarius glyph. Constellation on the right. Background features faint compass-circle graphics and flame accents. Outfit: adventurous archer styling with an ivory blouse, red scarf, brown leather harness straps, utility belt, and arm bracers. Pose: dynamic action shot drawing a bow, arrow aimed to the right, with a small glowing spark at the bow grip or arrow rest. Include exactly 6 info lines with small circular icons before each line, all in Chinese: 1) \"元素:火\" 2) \"概念:自由旅人,邊走邊發現\" 3) \"性格:樂觀、坦率、好奇\" 4) \"行動原則:先出發,路上再找答案\" 5) \"戀愛傾向:喜歡輕鬆真誠,不愛被綁住\" 6) \"人際怪癖:聊到一半常被新鮮事帶走\".\n\nOverall design should feel premium, feminine, mystical, and collectible, like a social-media-ready zodiac character list poster. Use elegant serif-style Chinese typography for the main sign names and italic calligraphic English for Aries, Leo, and Sagittarius. Keep all text crisp, aligned, and readable. Add one small decorative fire emblem centered near the bottom border. Aspect ratio 3:4 portrait.",
@@ -7259,7 +7304,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 806,
+    "id": 811,
     "title": "Air Sign Zodiac Character Poster",
     "category": "illustration-standing",
     "prompt": "{\"type\":\"Chinese zodiac-themed character infographic poster\",\"format\":\"vertical poster\",\"aspect_ratio\":\"3:4\",\"style\":\"clean pastel editorial infographic with anime-inspired fashion photography, soft magical accents, elegant horoscope design, premium magazine layout\",\"background\":{\"color\":\"warm ivory\",\"border\":\"thin decorative gold frame with small ornamental corners and tiny sparkles\",\"top_right_motif\":\"large pale air-element swirl ornament\"},\"title_block\":{\"headline\":\"十二星座角色清單|風象星座\",\"subheadline\":\"靈活・交流・思辨\",\"alignment\":\"top center\",\"headline_color\":\"deep desaturated blue\",\"subheadline_color\":\"muted gold\"},\"subject\":{\"count\":3,\"description\":\"the same young East Asian woman used as the base character appears in 3 separate horoscope panels, each shown from about thigh-up to waist-up with long dark hair and soft feminine styling, photographed frontally and integrated into illustrated pastel zodiac backdrops\"},\"layout\":{\"sections\":[{\"title\":\"雙子座 Gemini\",\"position\":\"top panel\",\"count\":1,\"theme_color\":\"butter yellow and cream\",\"zodiac_symbol\":\"Gemini glyph inside a circle on the left\",\"constellation\":\"small Gemini constellation in the upper right\",\"character_pose\":\"playful double peace signs raised beside her face\",\"outfit\":\"pale yellow cardigan over a white ribbed crop top, light bottoms, yellow belt, delicate necklace\",\"background_motifs_count\":4,\"background_motifs\":[\"speech bubble icon\",\"sparkles\",\"curved flowing lines\",\"soft dots\"],\"text_items_count\":6,\"text_items\":[\"元素:風\",\"概念:資訊玩家,靈感跳接\",\"性格:機靈、善聊、多變\",\"行動原則:先交流,再快速轉向\",\"戀愛傾向:喜歡有趣互動與腦力火花\",\"人際怪癖:話題切換速度快到像開分頁\"]},{\"title\":\"天秤座 Libra\",\"position\":\"middle panel\",\"count\":1,\"theme_color\":\"blush pink and pastel lavender\",\"zodiac_symbol\":\"Libra glyph inside a circle on the left\",\"constellation\":\"small Libra constellation in the upper right\",\"character_pose\":\"one hand raised open-palmed as if presenting balance, the other hand near her chin in an elegant thoughtful pose\",\"outfit\":\"pink blazer draped over shoulders, pastel pink-and-blue wrapped dress, jeweled belt, earrings, necklace, bracelet\",\"background_motifs_count\":4,\"background_motifs\":[\"scales illustration\",\"flowing ribbon-like swirls\",\"sparkles\",\"soft gradient haze\"],\"text_items_count\":6,\"text_items\":[\"元素:風\",\"概念:關係設計師,追求平衡\",\"性格:優雅、圓融、審美強\",\"行動原則:先衡量,再找最順解法\",\"戀愛傾向:重氛圍與互相體面\",\"人際怪癖:選太久,但又很會照顧場面\"]},{\"title\":\"水瓶座 Aquarius\",\"position\":\"bottom panel\",\"count\":1,\"theme_color\":\"lavender, icy blue, and silver\",\"zodiac_symbol\":\"Aquarius glyph inside a circle on the left\",\"constellation\":\"small Aquarius constellation in the upper right\",\"character_pose\":\"holding and tilting a futuristic transparent vessel as glowing water-like energy pours out in looping streams\",\"outfit\":\"metallic silver crop top and skirt set with translucent iridescent jacket, futuristic straps, reflective accessories\",\"background_motifs_count\":4,\"background_motifs\":[\"glowing circular energy rings\",\"constellation lines\",\"sparkles\",\"light trails\"],\"text_items_count\":6,\"text_items\":[\"元素:風\",\"概念:未來觀察員,規則改革者\",\"性格:獨立、理想派、腦洞大\",\"行動原則:先思考原理,再另闢路線\",\"戀愛傾向:重精神共鳴,也需要個人空間\",\"人際怪癖:忽冷忽熱,其實是在充電\"]}],\"panel_count\":3},\"typography\":{\"languages\":[\"Traditional Chinese\",\"English zodiac names\"],\"headline_font\":\"elegant high-contrast serif\",\"body_font\":\"clean legible Chinese serif or sans-serif hybrid\",\"zodiac_english\":\"italic calligraphic serif\"},\"visual_rules\":{\"each_panel_has\":8,\"panel_elements\":[\"left zodiac glyph badge\",\"center-left character\",\"right text block\",\"English zodiac name\",\"small constellation\",\"pastel illustrated background motifs\",\"thin panel border\",\"6 bullet-style info lines with icons\"],\"spacing\":\"generous margins and symmetrical alignment\",\"render_quality\":\"high resolution, crisp print-ready infographic\"}}",
@@ -7268,7 +7313,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 807,
+    "id": 812,
     "title": "Ethnographic Plate for Tibetan Ceremonial Hat",
     "category": "scene",
     "prompt": "Using REFERENCE_0 and REFERENCE_1, create a clean ethnographic archive plate focused on the ceremonial hat. Use REFERENCE_0 as the historical Tibetan context and silhouette reference, and REFERENCE_1 as the color, material, and ornament reference for the hat. Isolate and reconstruct the hat as a museum-style object study, removing the seated body as the main subject. Present the hat on an off-white document page as a scholarly catalog sheet in Chinese with small romanization. Add 8 numbered callouts around the object with fine dashed leader lines, each pointing to a specific structural detail. The centerpiece should be one large three-quarter underside view of the hat. Also include exactly 4 supplementary views/details: 1 side-profile wearing sketch with a faint line-drawn bust, 1 underside interior view, 1 top-down view, and 2 square close-up material swatches. Add exactly 4 thread-color samples near the lower right: blue, red, white, and yellow. At the top center, add the large title {argument name=\"headline text\" default=\"唐徐帽\"} with the romanization {argument name=\"romanization\" default=\"(thang zhwa)\"} beneath it, plus a smaller subtitle describing it as a summer ceremonial hat of high-ranking Tibetan monks. In the upper left, add a boxed metadata panel with multiple short Chinese fields, and in the upper right add a plate number reading {argument name=\"plate number\" default=\"图版 No. 27\"}. At the bottom, add one bordered note paragraph in Chinese. Overall style: meticulous archival infographic, anthropological catalog illustration, historically informed, precise woven texture, ivory-gold base with blue and red ornament, elegant print layout, thin rules and decorative divider marks, high-detail object rendering on a plain paper background.",
@@ -7277,7 +7322,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 808,
+    "id": 813,
     "title": "Vintage PRS Guitar Lineage Poster",
     "category": "ui",
     "prompt": "{\"type\":\"luxury vintage guitar comparison infographic poster\",\"subject\":\"a highly detailed, vertically oriented PRS electric guitar lineup chart designed like a premium museum poster or collector's reference board\",\"style\":\"ornate, dark, glossy, high-contrast, gold-foil typography, elegant wood-and-metal textures, symmetrical grid layout, premium catalog aesthetic, subtle vintage patina, ultra sharp graphic design\",\"branding\":{\"main headline\":\"THE LEGENDARY LINEAGE OF {argument name=\\\"brand name\\\" default=\\\"PRS GUITARS\\\"}\",\"subheadline\":\"EVERY ICON. EVERY LINE. ONE HERITAGE.\",\"signature\":\"Paul Reed Smith\",\"left seal\":\"PAUL REED SMITH GUITARS\",\"right seal\":\"MADE IN MARYLAND U.S.A.\"},\"palette\":{\"background\":\"black and deep charcoal with dark figured wood accents\",\"primary\":\"antique gold\",\"secondary\":\"cream\",\"accent colors\":[\"deep green\",\"teal\",\"royal blue\",\"purple\",\"gold\",\"burgundy\"]},\"layout\":{\"format\":\"single-page vertical poster\",\"header\":{\"position\":\"top\",\"elements\":[\"large central title\",\"small tagline below\",\"script signature\",\"2 circular emblems in upper left and upper right\",\"3 horizontal legend boxes under the title\"]},\"sections\":[{\"title\":\"PRESTIGE TIER KEY\",\"position\":\"upper left below title\",\"count\":6,\"labels\":[\"SE\",\"S2\",\"CE\",\"CORE\",\"WOOD LIBRARY\",\"PRIVATE STOCK\"]},{\"title\":\"PICKUP ICON KEY\",\"position\":\"upper center-right below title\",\"count\":7,\"labels\":[\"HH\",\"HSH\",\"P-90\",\"SOAP\",\"58/15\",\"TCI\",\"Bass\"]},{\"title\":\"TONAL CHARACTER KEY\",\"position\":\"upper right below title\",\"count\":7,\"labels\":[\"Warm / Vintage\",\"Balanced / All-around\",\"Bright / Articulate\",\"High Gain / Modern\",\"Blues / Classic Rock\",\"Metal / Progressive\",\"Funk / Soul / Clean\"]},{\"title\":\"CORE\",\"position\":\"first main row left label\",\"count\":7,\"labels\":[\"Custom 24\",\"McCarty 594\",\"DGT (David Grissom)\",\"Custom 22\",\"Hollowbody II\",\"SC 594\",\"row category panel\"]},{\"title\":\"S2\",\"position\":\"second main row left label\",\"count\":6,\"labels\":[\"S2 Custom 24\",\"S2 McCarty 594\",\"S2 Standard 24\",\"S2 Vela\",\"S2 Singlecut\",\"S2 Mira\"]},{\"title\":\"SE\",\"position\":\"third main row left label\",\"count\":6,\"labels\":[\"SE Custom 24\",\"SE Standard 24\",\"SE Paul's Guitar\",\"SE Santana\",\"SE Hollowbody II\",\"SE Mark Holcomb\"]},{\"title\":\"CE\",\"position\":\"fourth main row left label\",\"count\":6,\"labels\":[\"CE 24\",\"CE 22\",\"CE 24 Semi-Hollow\",\"CE 24 Floyd\",\"CE 24 Satin\",\"CE Bass\"]},{\"title\":\"BOLT-ON SERIES\",\"position\":\"fifth main row left label\",\"count\":6,\"labels\":[\"NF 53\",\"Silver Sky\",\"NF 3\",\"NF 53 Satin\",\"DGT Bolt-On\",\"Studio\"]},{\"title\":\"PRIVATE STOCK\",\"position\":\"sixth main row left label\",\"count\":6,\"labels\":[\"Dragon I\",\"Frostbite\",\"#4004\",\"The Tree of Life\",\"#8731\",\"PS DGT\"]}],\"footer\":{\"position\":\"bottom\",\"elements\":[\"small badge at lower left\",\"centered company line\",\"right-side script signature\"]}},\"content grid\":{\"total guitar models shown\":37,\"card design\":\"each product card contains a guitar render, model name, year, small pickup icons, a short descriptive blurb, and origin/wood specs at the bottom\",\"row side panels\":6},\"visual details\":{\"guitars\":\"front-facing electric guitars with varied body shapes and highly polished figured maple tops, metallic and transparent finishes, some solid colors, some natural wood\",\"typography\":\"all caps serif headlines, small serif body text, script signature accents\",\"borders\":\"thin decorative gold rules around every panel and the full poster\",\"lighting\":\"studio-lit instruments against dark panel backgrounds\",\"render quality\":\"clean infographic precision with realistic product renders\"},\"camera\":\"straight-on flat poster view, no perspective distortion, centered composition\",\"quality\":\"ultra detailed, print-ready, high-resolution editorial infographic, luxury brand poster\"}",
@@ -7286,7 +7331,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 809,
+    "id": 814,
     "title": "Alishan One-Day Travel Poster",
     "category": "scene",
     "prompt": "Create a vintage illustrated travel poster in traditional Chinese for {argument name=\"destination name\" default=\"阿里山國家風景區\"}, designed as a one-day itinerary infographic with a split vertical layout. The left panel is a parchment-textured itinerary card in warm beige with ornate gold Art Nouveau borders and dark brown typography, and the right panel is a dramatic painted fantasy-realism map scene of a mountain journey at sunrise and sunset tones. At the top of the left panel, large headline text reads {argument name=\"headline text\" default=\"阿里山國家風景區一日遊\"}. Beneath it, include a short centered tagline in traditional Chinese: 「一座高山,五個經典景點。難忘的奇幻旅程。」 with a small decorative mountain divider. The left panel must contain exactly 5 numbered itinerary stops stacked vertically, each with a circular black-and-gold number badge, a small vignette illustration, a bold location name, a time in parentheses, and a short Chinese description. The 5 stops are: 1. 「阿里山車站」 at 「(8:00 AM)」 with a wooden mountain railway station illustration and description 「開啟探索神木與森林的旅程。」 2. 「阿里山森林鐵路」 at 「(9:30 AM)」 with a red-and-black steam train illustration and description 「穿越森林,體驗百年林鐵風情。」 3. 「神木區棧道」 at 「(11:30 AM)」 with giant cedar trees and elevated wooden boardwalk illustration and description 「漫步千年巨木下,感受森林靈氣。」 4. 「姊妹潭」 at 「(1:30 PM)」 with a tranquil forest lake and pavilion illustration and description 「欣賞靜謐湖光,聆聽自然樂章。」 5. 「小笠原山展望台」 at 「(4:00 PM)」 with a wooden observation deck above clouds at sunset illustration and description 「觀賞壯闊山景與雲海,欣賞日落。」 The right panel should depict a continuous glowing golden path winding through exactly 5 numbered map markers that match the left panel labels in order, with black-and-gold marker plaques reading: 1 「阿里山車站」, 2 「阿里山森林鐵路」, 3 「神木區棧道」, 4 「姊妹潭」, 5 「小笠原山展望台」. Show stop 1 as a rustic alpine wooden station perched on a cliff among pine forests; stop 2 as a small steam locomotive traveling on a curved mountain railway with smoke drifting upward; stop 3 as towering ancient red cypress trees with a spiral and zigzag wooden walkway around the trunks; stop 4 as an emerald lake surrounded by dense forest with a small pavilion and arched bridge; stop 5 as a lookout deck on a peak above a sea of clouds, facing a glowing sunset. The environment should feature layered mountain ranges, mist-filled valleys, evergreen forests, golden-hour light, luminous cloud seas, and a romantic painterly atmosphere with rich detail. At the bottom right, add a decorative compass rose labeled N, E, S, W, plus a dark green and gold information box with exactly 2 stats in traditional Chinese: 「總距離 ~9公里 / 5.6英里」 and 「預計時間 全天 - 14,500步」. Overall style: premium tourism poster, painterly digital illustration, nostalgic national-park brochure aesthetic, highly detailed, warm sepia and gold accents, elegant composition, readable Chinese text, vertical 2:3 poster.",
@@ -7295,7 +7340,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 810,
+    "id": 815,
     "title": "Dance Movement Reference Sheet",
     "category": "scene",
     "prompt": "[STYLE]\nmonochromatic grayscale illustration, 3D rendered character, clean instructional reference sheet, \nwhite background, comic-style cell grid layout, technical diagram aesthetic\n\n[LAYOUT]\n4x4 grid layout, 16 panels total, each panel separated by thin black border lines, \nnumbered cells from 1 to 16, consistent panel size\n\n[CHARACTER]\n{argument name=\"character\" default=\"young female dancer, athletic build, ponytail hairstyle, crop top and baggy pants, sneakers\"}, same character in all panels\n\n[PANEL STRUCTURE - per cell]\ntop-left: bold number badge + {argument name=\"title\" default=\"Korean title text\"}\ncenter: full-body character pose illustration\nbottom-left: {argument name=\"description\" default=\"Korean description text (3-4 lines)\"}\noverlay: directional arrows indicating movement direction\n\n[ARROWS / MOTION INDICATORS]\ncurved arrows, straight arrows, circular rotation indicators, \nplaced around the character to show movement flow and direction\n\n[RENDERING STYLE]\nhigh detail 3D sculpt style, soft studio lighting, subtle shadows, \nno color, grayscale shading, clean linework, game concept art quality\n\n[NEGATIVE]\nno background scenery, no color tones, no extra characters, \nno cluttered backgrounds",
@@ -7304,7 +7349,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 811,
+    "id": 816,
     "title": "Anime Museum Background Conversion",
     "category": "anime",
     "prompt": "Using the provided reference photo, recreate the same museum facade and frontal composition as a polished theatrical anime background illustration. Keep the architecture, signage, 3 flagpoles, broad steps, and overall layout consistent, but convert the image from realistic photography into a highly detailed hand-painted anime film style with clean linework, soft cel shading, gentle pastel stone colors, and crisp atmospheric lighting. Add dramatic sunlight from the upper right so the glass pyramid casts a large geometric lattice shadow across the central wall and left side of the entrance. Simplify and stylize the people into anime background characters, keeping the 2 visible groups: 1 lone figure on the left and 1 small cluster of 7 people near the center-right entrance. Preserve the clear blue-sky daytime mood while making the scene feel elegant, refined, and cinematic.",
@@ -7313,7 +7358,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 812,
+    "id": 817,
     "title": "16-Pose Dance Combat Reference Sheet",
     "category": "scene",
     "prompt": "{\"type\":\"pose reference sheet\",\"subject\":{\"theme\":\"hip-hop dance and combat-ready movement chart\",\"character\":{\"count\":1,\"gender_presentation\":\"female\",\"age_appearance\":\"young adult\",\"body_type\":\"fit athletic dancer\",\"skin_tone\":\"light tan\",\"hair\":{\"color\":\"black\",\"style\":\"high ponytail with loose strands\"},\"outfit\":{\"count\":5,\"items\":[\"white sports bra or cropped athletic top\",\"baggy purple jogger pants\",\"white chunky sneakers\",\"purple wristbands or forearm bands on both arms\",\"small hoop earrings\"]}}},\"style\":{\"image_type\":\"photorealistic studio pose sheet\",\"lighting\":\"clean even studio lighting\",\"background\":\"plain light gray to white seamless backdrop\",\"camera\":\"full-body framing, straight-on view, consistent distance\",\"rendering\":\"sharp realistic anatomy, dynamic motion, slight shadow under feet\",\"face\":\"intentionally blurred or obscured\"},\"layout\":{\"grid\":{\"rows\":4,\"columns\":4,\"count\":16},\"numbering\":{\"count\":16,\"labels\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\"],\"position\":\"top-left corner of each cell\"},\"cell_borders\":\"thin black divider lines between all panels\"},\"poses\":{\"count\":16,\"items\":[{\"label\":\"1\",\"description\":\"wide low squat, knees bent outward, torso angled slightly left, both arms extended loosely in a defensive dance stance\"},{\"label\":\"2\",\"description\":\"deep side lunge to the left, left arm pointing straight left, right hand near the head, energetic directional pose\"},{\"label\":\"3\",\"description\":\"low crouch with one hand touching the floor, one knee bent under the body, opposite arm extended horizontally\"},{\"label\":\"4\",\"description\":\"upright one-leg balance, left knee lifted high, both arms spread outward for rhythm and balance\"},{\"label\":\"5\",\"description\":\"similar one-leg raised pose with the other leg supporting, arms stretched outward in a lighter dance variation\"},{\"label\":\"6\",\"description\":\"very wide grounded squat, torso pitched forward, one hand reaching toward the floor between the legs, other arm extended back\"},{\"label\":\"7\",\"description\":\"dramatic standing back arch, chest lifted upward, hips forward, both arms opened behind and to the sides\"},{\"label\":\"8\",\"description\":\"small jump or suspended squat, both feet off the floor, knees bent, arms spread wide symmetrically\"},{\"label\":\"9\",\"description\":\"floor-supported seated lean, one hand planted behind, one arm reaching diagonally upward, legs bent to one side\"},{\"label\":\"10\",\"description\":\"front-facing balance with one knee raised to hip height, one arm bent in guard position and the other extended sideways\"},{\"label\":\"11\",\"description\":\"deep lateral stance, feet far apart, knees bent, both hands raised open near shoulder level like a ready combat pose\"},{\"label\":\"12\",\"description\":\"low side lunge split, one hand planted on the floor, the other arm reaching vertically overhead, torso arched upward\"},{\"label\":\"13\",\"description\":\"standing backward lean with relaxed bent knees, chest up, arms hanging loosely behind in a groove pose\"},{\"label\":\"14\",\"description\":\"compact twisting crouch, weight low over bent legs, torso rotated, one arm pulled in and the other extended outward\"},{\"label\":\"15\",\"description\":\"very wide side lunge stretch, one hand to the floor near the front foot, opposite arm reaching diagonally overhead\"},{\"label\":\"16\",\"description\":\"one-leg lifted pose with knee high, one hand behind the head and the other arm extended forward, confident finishing stance\"}]},\"composition\":\"show the same dancer in all 16 panels with consistent outfit and scale, centered within each frame, designed like a movement library or choreography reference chart\"}",
@@ -7322,7 +7367,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 813,
+    "id": 818,
     "title": "16-Panel Dance Pose Reference Sheet",
     "category": "scene",
     "prompt": "{\"type\":\"dance pose reference sheet\",\"style\":\"clean studio pose chart, photoreal fitness-dance reference, white seamless background, sharp full-body photography, soft even lighting, minimal shadows, thin black grid lines separating panels\",\"subject\":{\"count\":1,\"person\":{\"gender_presentation\":\"female\",\"age_appearance\":\"young adult\",\"build\":\"slim athletic toned dancer\",\"skin_tone\":\"light tan\",\"hair\":{\"color\":\"{argument name=\\\"hair color\\\" default=\\\"dark brown\\\"}\",\"style\":\"high ponytail with loose strands\"},\"outfit\":{\"count\":3,\"items\":[\"white fitted sports bra or cropped athletic tank\",\"baggy blue-gray jogger pants\",\"white sneakers\"]}}},\"layout\":{\"rows\":4,\"columns\":4,\"total_panels\":16,\"numbering\":\"black panel numbers in the top-left corner of each cell, labeled 1 through 16\",\"sections\":[{\"title\":\"pose grid\",\"position\":\"full page\",\"count\":16,\"labels\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\"]}]},\"poses\":{\"count\":16,\"items\":[{\"panel\":1,\"description\":\"wide stance, knees bent, torso upright, right arm extended straight to the right in a pointing gesture, left arm bent near the body\"},{\"panel\":2,\"description\":\"deep low squat facing forward, feet wide apart, one hand lifted in front of the chest, the other resting near the thigh\"},{\"panel\":3,\"description\":\"low floor-supported pose, leaning back on one hand with hips low, one knee bent under the body, opposite arm stretched diagonally upward\"},{\"panel\":4,\"description\":\"standing on one leg with the other knee raised, one arm curved overhead, opposite arm extended to the right in a strong dance line\"},{\"panel\":5,\"description\":\"deep squat with legs wide, one hand on thigh and the other arm reaching straight upward\"},{\"panel\":6,\"description\":\"light upright pose with one knee lifted and both arms relaxed outward for balance\"},{\"panel\":7,\"description\":\"wide stance with both arms crossed tightly in front of the chest, feet planted apart\"},{\"panel\":8,\"description\":\"low crouch close to the floor, one hand braced on the ground, the other arm crossing the torso\"},{\"panel\":9,\"description\":\"dynamic side-leaning wide stance, one arm bent upward beside the head, opposite arm pointing strongly to the right\"},{\"panel\":10,\"description\":\"compact crouch with weight centered low, one elbow resting near a knee and head tilted slightly downward\"},{\"panel\":11,\"description\":\"deep side lunge with one leg extended long to the side, one hand on the floor and the other arm reaching straight up\"},{\"panel\":12,\"description\":\"upright wide-legged stance, one arm extended vertically overhead, the other hand relaxed near the hip\"},{\"panel\":13,\"description\":\"standing balance pose with one knee raised and both hands held low near the thighs\"},{\"panel\":14,\"description\":\"low horse stance with knees bent wide and forearms crossed in front of the chest\"},{\"panel\":15,\"description\":\"kneeling or very low crouched pose with one hand on the floor and the other resting on the raised knee\"},{\"panel\":16,\"description\":\"high side kick, balancing on one leg while the other leg extends horizontally, both arms bent in a guarded fighting pose\"}]},\"intent\":\"a {argument name=\\\"sheet purpose\\\" default=\\\"dance move sheet chart that can also be used for combat pose reference\\\"}, emphasizing silhouette variety, balance, rhythm, and dynamic athletic body lines\",\"image_size\":\"landscape 16:9\"}",
@@ -7331,7 +7376,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 814,
+    "id": 819,
     "title": "16-Panel Female Dance Pose Sheet",
     "category": "scene",
     "prompt": "{\"type\":\"pose reference sheet\",\"subject\":{\"count\":1,\"description\":\"a fit young woman dancer shown repeatedly in a clean studio reference layout\",\"appearance\":{\"gender\":\"female\",\"age\":\"young adult\",\"build\":\"athletic, toned midriff\",\"skin tone\":\"light to medium tan\",\"hair\":{\"color\":\"dark brown\",\"style\":\"high messy ponytail with loose strands framing the face\"},\"expression\":\"neutral to focused\"},\"wardrobe\":{\"top\":\"charcoal gray sports bra or cropped athletic bralette\",\"bottom\":\"oversized dark gray parachute cargo pants with gathered ankles\",\"shoes\":\"white sneakers\",\"accessories\":[\"black wristband or fingerless glove on one hand\",\"subtle sporty styling\"]}},\"layout\":{\"background\":\"plain white seamless studio background\",\"grid\":{\"rows\":4,\"columns\":4,\"count\":16,\"cell labels\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\"]},\"style\":\"clean contact-sheet or choreography chart with thin black dividers between panels and small black numbers at the upper left of each panel\"},\"poses\":[{\"label\":\"1\",\"description\":\"relaxed standing pose, weight on one leg, one hand near hip, slight contrapposto\"},{\"label\":\"2\",\"description\":\"wide low dance stance, one arm bent behind the head, the other arm extended and pointing to the right\"},{\"label\":\"3\",\"description\":\"legs spread in a grounded stance, torso slightly tilted, one hand resting near the upper thigh\"},{\"label\":\"4\",\"description\":\"very low wide squat facing forward, torso leaning back, one hand near the face and the other near the thigh\"},{\"label\":\"5\",\"description\":\"wide side lunge stance, one arm arched overhead, the other arm extended outward in a stylized dance line\"},{\"label\":\"6\",\"description\":\"balancing on one leg with the other knee lifted high, one hand near the face in a punchy hip-hop pose\"},{\"label\":\"7\",\"description\":\"floorwork pose supported by one hand on the ground, torso reclined sideways, legs bent and lifted in a dynamic breakdance-like position\"},{\"label\":\"8\",\"description\":\"casual upright pose with one hand behind the head and one knee bent upward\"},{\"label\":\"9\",\"description\":\"one-legged balance pose with the lifted knee bent, both arms extended outward for motion and rhythm\"},{\"label\":\"10\",\"description\":\"low kneeling or crouched pose, one knee up and one knee down, one arm thrust forward toward the viewer\"},{\"label\":\"11\",\"description\":\"deep squat with legs apart, one arm curved overhead in a dramatic arc\"},{\"label\":\"12\",\"description\":\"standing lean to one side with one arm extended sideways and the other hand near the hip or thigh\"},{\"label\":\"13\",\"description\":\"reclining floor pose supported by one hand behind the body, one leg bent and one leg extended\"},{\"label\":\"14\",\"description\":\"upright standing pose with one arm fully extended and pointing to the right\"},{\"label\":\"15\",\"description\":\"front-facing pose stepping forward with one knee lifted, one arm reaching or pointing forward\"},{\"label\":\"16\",\"description\":\"wide confident stance with one arm pointing diagonally upward to the right\"}],\"rendering\":{\"medium\":\"photorealistic studio fashion and dance reference image\",\"lighting\":\"soft even studio lighting with faint shadows beneath the feet and body\",\"camera\":\"full-body framing, straight-on view, consistent distance in every panel\",\"quality\":\"sharp, high-resolution, realistic anatomy and fabric folds\"}}",
@@ -7340,7 +7385,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 815,
+    "id": 820,
     "title": "16-Pose Dance Reference Sheet",
     "category": "scene",
     "prompt": "{\"type\":\"pose reference sheet\",\"subject\":{\"category\":\"female dancer fitness model\",\"age_appearance\":\"young adult\",\"build\":\"slim athletic\",\"hair\":{\"color\":\"dark brown\",\"style\":\"high ponytail\"},\"outfit\":{\"top\":\"light gray or white sports bra crop top\",\"bottom\":\"baggy light gray sweatpants\",\"shoes\":\"white sneakers\"},\"face\":\"softly blurred or de-emphasized facial features\"},\"style\":{\"image_type\":\"studio dance pose chart\",\"background\":\"clean seamless white background\",\"lighting\":\"bright even studio lighting with minimal shadows\",\"color_palette\":\"neutral whites and light grays\",\"camera\":\"full-body framing, straight-on view, consistent distance\",\"rendering\":\"photorealistic\"},\"layout\":{\"grid\":{\"rows\":4,\"columns\":4,\"count\":16,\"border\":\"thin black dividers between cells\"},\"numbering\":{\"count\":16,\"labels\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\",\"13\",\"14\",\"15\",\"16\"],\"position\":\"top-left corner of each panel\"},\"sections\":[{\"title\":\"row 1\",\"position\":\"top\",\"count\":4,\"labels\":[\"1 side lunge with one arm extended straight sideways and the other bent near chest\",\"2 low floor pose leaning on one hand with one knee down and opposite arm arched upward\",\"3 wide squat facing front with both arms opened in angular dance position\",\"4 standing balance on one leg with opposite knee lifted and forearms crossed near chest\"]},{\"title\":\"row 2\",\"position\":\"upper-middle\",\"count\":4,\"labels\":[\"5 deep backbend in wide stance with torso arched and one arm curved overhead\",\"6 wide squat with one hand behind head and the other arm pointing outward\",\"7 kneeling side stretch with one hand on floor and opposite arm reaching straight up\",\"8 standing arabesque-style extension with torso tilted forward and one leg lifted high behind/sideways\"]},{\"title\":\"row 3\",\"position\":\"lower-middle\",\"count\":4,\"labels\":[\"9 wide squat with torso tilted left, one arm curved overhead and one arm extended low\",\"10 front-facing wide squat with both arms stretched diagonally in opposite directions\",\"11 relaxed standing pose with legs apart and both forearms crossing in front of torso\",\"12 floor recline supported on one hand and one knee, torso leaning back with bent legs\"]},{\"title\":\"row 4\",\"position\":\"bottom\",\"count\":4,\"labels\":[\"13 small jump or lifted balance with one knee raised and one arm bent upward\",\"14 low crouch squat with one hand reaching toward floor and other arm extended sideways\",\"15 dramatic side backbend in wide stance with hair swinging and one arm curved overhead\",\"16 powerful wide squat with one hand at chest and the other lowered to the side\"]}],\"overall_composition\":\"all 16 poses shown as separate panels in a uniform contact sheet\"},\"prompt\":\"Create a clean studio contact sheet of {argument name=\\\"pose count\\\" default=\\\"16\\\"} full-body dance or combat-reference poses featuring a {argument name=\\\"subject type\\\" default=\\\"young athletic woman\\\"} in a {argument name=\\\"outfit\\\" default=\\\"light gray sports bra, loose gray sweatpants, and white sneakers\\\"}. Use a seamless {argument name=\\\"background color\\\" default=\\\"white\\\"} background, bright even lighting, and a consistent straight-on camera. Arrange the poses in a 4x4 grid with thin black panel lines and small black numbers 1 through 16 in the top-left of each cell. The poses should mix standing, squatting, kneeling, floorwork, balance, kick-extension, backbend, and angular arm positions suitable for a dance sheet chart or combat movement reference. Keep the styling photorealistic, crisp, minimal, and instructional, with consistent wardrobe and hair across all panels.\"}",
@@ -7349,7 +7394,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 816,
+    "id": 821,
     "title": "Gas Giant Descent Storyboard",
     "category": "scene",
     "prompt": "{\"type\":\"cinematic sci-fi storyboard contact sheet\",\"subject\":{\"primary\":\"a small futuristic spacecraft descending into a massive gas giant storm system\",\"secondary\":\"an enormous leviathan-like silhouette hidden within the clouds\",\"mood\":\"oppressive, catastrophic, awe-struck, high tension, cosmic dread\",\"style\":\"photorealistic cinematic concept art with dark sci-fi realism, volumetric storm clouds, strong contrast, amber and black palette with occasional cold blue lightning\",\"aspect_ratio\":\"16:9\"},\"vehicle\":{\"design\":\"compact armored deep-atmosphere ship with 3 bright rear engines, angular industrial hull, worn metallic panels\",\"scale\":\"tiny compared to the planet and creature\"},\"layout\":{\"grid\":{\"rows\":3,\"columns\":4,\"count\":12},\"sections\":[{\"position\":\"row 1 col 1\",\"description\":\"wide exterior shot of the ship entering the upper atmosphere of a colossal gas giant at extreme speed, glowing clouds streaked with fire and friction around the vessel, curved planetary horizon visible\"},{\"position\":\"row 1 col 2\",\"description\":\"cockpit POV, dark interior filled with red and cyan holographic instruments, forward visibility collapsing into turbulent storm layers and electrical haze\"},{\"position\":\"row 1 col 3\",\"description\":\"exterior mid-wide shot of the ship diving into a gigantic rotating cloud funnel, surrounded by violent spiraling storm structure\"},{\"position\":\"row 1 col 4\",\"description\":\"extreme close exterior of the ship hull as bright lightning strikes dangerously close, white electric energy crawling across the metal surface\"},{\"position\":\"row 2 col 1\",\"description\":\"dashboard warning screen in red, showing a critical systems failure interface with the exact visible text count of 4 warning lines and 1 large percentage readout: ['WARNING','ENGINES COMPROMISED','THRUST FLUCTUATION','GRAVITY SPIKE DETECTED','DESCENT RATE -453%']\"},{\"position\":\"row 2 col 2\",\"description\":\"rear three-quarter exterior of the ship fighting turbulence inside dense storm clouds, engines burning hard while the craft barely holds course\"},{\"position\":\"row 2 col 3\",\"description\":\"massive circular disturbance forming in the clouds like an eye or maw, entire storm systems displaced by something huge moving beneath\"},{\"position\":\"row 2 col 4\",\"description\":\"second cockpit view with radar-like navigation display and red alert text, pilot making a blind evasive maneuver through lightning-filled darkness\"},{\"position\":\"row 3 col 1\",\"description\":\"first reveal of the colossal creature shape rising near the ship, black organic surface and immense curved anatomy emerging from darkness, ship tiny at lower left\"},{\"position\":\"row 3 col 2\",\"description\":\"spiral descent shot, ship caught inside a vortex tunnel of clouds, spinning downward with engines flaring as it struggles to recover\"},{\"position\":\"row 3 col 3\",\"description\":\"sudden breakthrough into a calm void, minimal composition, ship flying in eerie silence through dark open space with soft mist and no visible storm around it\"},{\"position\":\"row 3 col 4\",\"description\":\"final reveal, gigantic leviathan fully emerging behind or beside the ship in cleared space, backlit by a pale circular storm opening, enormous open maw-like silhouette dwarfing the craft\"}],\"continuity\":\"all 12 panels depict one continuous descent sequence from atmospheric entry to final creature reveal\"},\"lighting\":{\"primary\":\"glowing amber storm light\",\"secondary\":\"red cockpit interface glow\",\"accents\":\"blue-white lightning and engine exhaust\"},\"environment\":{\"location\":\"inside the upper and middle storm layers of a gigantic gas giant\",\"weather\":\"violent turbulence, electrical storms, vortex funnels, cloud walls, pressure chaos\",\"threat\":\"no safe zone, repeated near-failure, unknown colossal presence driving the storm\"}}",
@@ -7358,7 +7403,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 817,
+    "id": 822,
     "title": "Surreal Baroque Painting Reality Fracture",
     "category": "scene",
     "prompt": "A {argument name=\"painting style\" default=\"baroque oil painting\"} comes to life — its painted figures climbing out of the gilded frame into a {argument name=\"setting\" default=\"modern white gallery\"}, half their bodies still in flat 2D paint, half fully volumetric 3D humans, brushstrokes visible on their skin, the painting's background leaking watercolor clouds into the gallery ceiling, museum visitors frozen in shock, hyper-detailed, {argument name=\"artist influence\" default=\"René Magritte meets Pixar\"}, reality fracturing at every boundary",
@@ -7367,7 +7412,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 818,
+    "id": 823,
     "title": "Urban Alley Mural Artist",
     "category": "scene",
     "prompt": "A cinematic, ultra-realistic night scene of a {argument name=\"artist\" default=\"young male street artist\"} painting a large-scale {argument name=\"mural subject\" default=\"mural of a woman’s face\"} in a {argument name=\"setting\" default=\"narrow urban alley\"}. The camera angle is slightly low, creating a dramatic, powerful perspective. The artist has medium-length, slightly messy dark hair and light stubble or a short beard, giving him a rugged, creative look.\n\nHe wears a loose white t-shirt and casual jeans, slightly oversized, with a relaxed streetwear vibe. His posture is focused and engaged as he stands close to the wall, actively spray-painting.\n\nHe is creating a massive, hyper-realistic mural of a woman’s face on a textured brick wall. The mural is incredibly detailed—smooth skin tones, realistic lighting, expressive eyes, and glossy lips—appearing almost like a photograph. Fine mist from the spray paint is visible in the air, catching light and adding motion and atmosphere.\n\nThe setting is a narrow urban alley at night, surrounded by tall buildings. The environment is gritty and textured—aged brick walls, paint splashes, subtle grime, and urban wear. Neon signs and distant streetlights cast vibrant reflections in teal, magenta, and blue tones, creating a cinematic, slightly cyberpunk mood.\n\nLighting is dramatic and layered: cool ambient light fills the alley, while warmer neon highlights create contrast. A subtle rim light outlines the artist’s silhouette, separating him from the dark background. The mural is partially illuminated, acting as a strong focal point.\n\nAtmosphere includes light fog or mist, enhancing depth and making the lighting glow softly. The scene feels immersive, quiet, and artistically intense.\n\nDepth of field is moderately shallow: the artist and mural are in sharp focus, while the background fades into soft blur with bokeh highlights.\n\nStyle: hyper-realistic, cinematic photography, street art aesthetic, ultra-detailed textures, high dynamic range, subtle film grain.\n\nCamera details: 35mm or 50mm lens, f/1.8–f/2.8 aperture, low-light photography, slight low-angle shot, natural perspective.\n\nComposition: vertical frame (4:5 or 9:16), subject slightly off-center, mural dominating the frame for strong visual storytelling.\nGenerate image using uploaded image as reference",
@@ -7376,7 +7421,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 819,
+    "id": 824,
     "title": "RPG Map to Anime Event Scene",
     "category": "anime",
     "prompt": "Using the provided reference image, transform the top-down RPG town map into a polished anime-style event illustration from a human eye-level perspective. Keep the same village location and layout cues: the central stone well, the path network, the hedges, the wooden houses, and the narrow water canal on the left. Convert the 2 small sprite characters by the well into 2 full-size fantasy characters in the foreground: a silver-haired mage in a purple robe holding a staff, and a blonde elf in green-and-brown adventurer clothing, both leaning over and looking into the well. Add a cinematic JRPG feel with soft daylight, detailed painterly rendering, clean line art, and gentle depth of field. Preserve the sense that this scene is taking place in the same town square, but enrich it with natural perspective, more environmental detail, and 5 background villagers: 1 man cropped at the far left edge, 2 small figures standing on the center path in the distance, and 2 townspeople talking near the right-side buildings.",
@@ -7385,7 +7430,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 820,
+    "id": 825,
     "title": "Soft Pastel Anime Girl Full Body",
     "category": "anime",
     "prompt": "A full-body anime girl character design on a plain white background, centered and floating slightly, drawn in a soft minimalist pastel style with very thin gray linework and delicate flat colors. She has a petite youthful build and a cute, gentle silhouette, with special emphasis on a soft rounded face shape, smooth cheeks, and a softened jawline and chin. Her face is completely obscured by a blank skin-colored rectangular block with no facial features visible. She has short bob hair in {argument name=\"hair color\" default=\"light ash brown\"}, slightly tousled with wispy ends, long bangs covering part of the forehead, and a small ribbon hair tie on the right side in pale blue-gray. She wears 3 visible clothing pieces: an oversized pale blue cardigan with loose sleeves and front buttons, a cream-white slip dress with a scalloped neckline and a tiny button detail at the chest, and a frilled hem with a small ribbon near the right thigh. She is barefoot with slim pale legs, posed front-facing with both arms relaxed slightly outward, open hands, one leg straight and the other gently bent inward for a shy, weightless look. The illustration should feel airy, cute, understated, and clean, like a simple Japanese anime fashion sketch, with lots of negative space and no props, no shadows, and no background elements.",
@@ -7394,7 +7439,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 821,
+    "id": 826,
     "title": "Urban Fantasy Coexistence Crossing",
     "category": "scene",
     "prompt": "A highly detailed anime-style urban fantasy illustration set at a busy Tokyo-style scramble crossing on a bright clear day, viewed at street level with a wide cinematic composition. The city blends modern realism with mythic fantasy: dense high-rise buildings covered in giant billboards, a red broadcast tower in the middle distance, blue sky with fluffy clouds, and a crowded crosswalk full of pedestrians. In the foreground, show 7 prominent character figures: a silver-haired elf woman in a flowing white dress holding an iced drink and tote bag on the far left; a central schoolgirl with long dark hair, black animal ears, a navy school blazer, plaid skirt, blue ribbon, and large navy shoulder bag, lifting one hand to her head; a young man in a dark suit looking down at a smartphone; an androgynous white-haired angelic figure in an elegant white-and-gold ceremonial outfit with large white wings; a small blonde girl in an ornate pastel pink frilled dress beside the angel; a dark-haired woman in a black coat in right foreground profile; and a small blue-haired cat-eared child in a blue dress with a bow standing near a cave entrance on the right. In the midground crowd, include mixed humans and fantasy races walking together naturally. Add 4 clearly visible nonhuman or supernatural background beings: 1 dragon flying in the sky, 1 winged female angel descending above the street, 1 lizard-headed businessman in a suit near the angelic figure, and 1 tall red-skinned horned demon with crossed arms standing by the hillside path. On the right side, transition the city into a lush shrine hillside with large green trees, a red torii gate, stone steps, and a wooden signboard reading Japanese kanji. Below it, place a rocky cave-like tunnel entrance glowing blue, with a wooden sign over the entrance and several figures descending into an underground shared district lit by crystals. Show 6 major billboard/sign elements across the cityscape: a huge left billboard reading \"Shinpi Sekai 神秘世界\" with a cosmic planet image; a large central political poster with Japanese text and a raised fist icon; 2 rooftop signs reading \"未来研究所\" on separate buildings; a large right billboard with Japanese text about coexistence and silhouettes of different beings; and 1 vertical banner with Japanese text on a nearby building. Emphasize the theme of coexistence between ordinary modern city life and hidden fantasy societies. Crisp anime linework, polished light novel key visual rendering, rich textures, soft sunlight, subtle atmospheric perspective, vibrant but believable colors, intricate clothing details, and a sense of awe, everyday bustle, and worldbuilding depth.",
@@ -7403,7 +7448,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 822,
+    "id": 827,
     "title": "Parent-Child Miscommunication Infographic",
     "category": "scene",
     "prompt": "{\"type\":\"Japanese infographic\",\"style\":\"simple, easy-to-understand flat vector diagram, clean white background, rounded light-gray outer frame, minimal pastel color palette, presentation-slide design, clear hierarchy, lots of whitespace, modern sans-serif Japanese typography\",\"canvas\":{\"aspect_ratio\":\"16:9\"},\"headline\":{\"text\":\"{argument name=\\\"headline text\\\" default=\\\"親子のすれ違いは、記録があるかないかで起こる\\\"}\",\"position\":\"top center\",\"size\":\"large bold black\"},\"layout\":{\"structure\":\"2 side-by-side rounded panels beneath the headline\",\"sections\":[{\"title\":\"記録がない場合(ズレる)\",\"position\":\"left\",\"count\":8,\"header_color\":\"muted blue-gray\",\"panel_border\":\"light gray\",\"labels\":[\"親の記憶\",\"子どもの記憶\",\"あのとき決まったよね\",\"まだ考えてたのに\",\"ズレが大きくなる\",\"志望校がコロコロ変わる\",\"理由が『なんとなく』\",\"言ってることが違う\",\"関係がギクシャク\",\"現実を見てほしい\",\"ちゃんと決めてほしい\",\"口を出しすぎると関係が悪くなる\"],\"contents\":{\"top_left\":{\"type\":\"parent icon with thought bubble\",\"icon_color\":\"blue\",\"caption\":\"親の記憶\",\"bubble_text\":\"あのとき\\n決まったよね\"},\"top_right\":{\"type\":\"child icon with thought bubble\",\"icon_color\":\"pink\",\"caption\":\"子どもの記憶\",\"bubble_text\":\"まだ考えてたのに\"},\"center\":{\"type\":\"horizontal double-headed arrow\",\"color\":\"blue-gray\"},\"bottom_center\":{\"type\":\"downward arrow leading to burst shape\",\"color\":\"light gray\",\"burst_text\":\"ズレが\\n大きくなる\"},\"bottom_left\":{\"type\":\"rounded note box\",\"bullet_count\":4,\"bullets\":[\"志望校がコロコロ変わる\",\"理由が『なんとなく』\",\"言ってることが違う\",\"関係がギクシャク\"]},\"bottom_right\":{\"type\":\"rounded note box\",\"bullet_count\":3,\"bullets\":[\"現実を見てほしい\",\"ちゃんと決めてほしい\",\"口を出しすぎると関係が悪くなる\"]}}},{\"title\":\"記録がある場合(ズレにくい)\",\"position\":\"right\",\"count\":7,\"header_color\":\"mustard yellow\",\"panel_border\":\"light yellow\",\"labels\":[\"親の認識\",\"子どもの認識\",\"記録\"],\"contents\":{\"top_left\":{\"type\":\"parent icon with thought bubble containing document symbol\",\"icon_color\":\"blue\",\"caption\":\"親の認識\"},\"top_right\":{\"type\":\"child icon with thought bubble containing document symbol\",\"icon_color\":\"pink\",\"caption\":\"子どもの認識\"},\"center\":{\"type\":\"horizontal double-headed arrow\",\"color\":\"mustard yellow\"},\"bottom_center\":{\"type\":\"circular record icon with document symbol\",\"outline_color\":\"mustard yellow\",\"text\":\"記録\"},\"bottom_left_connector\":{\"type\":\"curved arrow from parent to record\",\"color\":\"blue\"},\"bottom_right_connector\":{\"type\":\"curved arrow from child to record\",\"color\":\"pink\"}}}],\"spacing\":\"balanced, symmetrical\"},\"visual_language\":{\"icons\":\"generic human bust icons and simple document line icons\",\"emphasis\":\"contrast the left panel's misunderstanding with the right panel's shared record\",\"mood\":\"educational, calm, practical\"},\"text_language\":\"Japanese\",\"render_quality\":\"crisp vector edges, infographic suitable for social media educational posts\"}",
@@ -7412,7 +7457,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 823,
+    "id": 828,
     "title": "Good Bath Day Editorial Poster",
     "category": "scene",
     "prompt": "Create a soft editorial lifestyle poster for {argument name=\"event date\" default=\"4.26\"} celebrating Japanese bath culture, designed like a refined magazine feature page in portrait orientation. The layout is split into two main columns with a pale cream and warm gray background, thin divider lines, elegant serif typography, and muted sage-green accents. At the top left, include the small heading “LIFESTYLE / FEATURE”, then a large date line reading “{argument name=\"event date\" default=\"4.26\"} EVENT”, followed by the large Japanese title “よい風呂の日” and the subtitle “特集” in sage green, with a small bathtub icon nearby. Beneath that, add the Japanese tagline “心も体も、ととのう時間。” and several short body-text blocks in Japanese explaining the meaning of Good Bath Day, including references to “4(よ)2(ふ)6(ろ)” and the benefits of bathing for body and mind. On the right side, show a bright, airy bathroom interior lit by soft natural morning light from a window, with beige and off-white tones, a wooden counter, folded white towels, a pump bottle, a sponge, woven baskets, and a few green plants. In front of the bathroom scene, place a youthful anime-style person with {argument name=\"hair color\" default=\"soft medium brown\"} tousled short hair, fair skin, and a relaxed expression, standing in a casual post-bath pose. The character wears a loose white T-shirt with a tiny dark square chest logo and light brown drawstring lounge pants, one hand in a pocket and the other holding a white towel up near the face and shoulder, conveying a fresh, just-bathed feeling. Near the character, include the handwritten-style Japanese side note “湯上がりの、リラックスタイム。” Add an oval badge on the lower right of the main image area with the English heading “GOOD BATH DAY” and Japanese explanatory text inside, plus a small bathtub icon. Below the main feature, include exactly 2 small inset images of the same character in the bathroom, each framed as rectangular mini-panels with narrow vertical Japanese captions beside them. At the bottom, create exactly 4 rounded rectangular information cards in a row: card 1 labeled “POINT 01” with the heading “お風呂の基本” and text about soaking in lukewarm water around 38–40°C; card 2 labeled “POINT 02” with the heading “日常でできること” and text about making bathing part of a routine instead of only showering; card 3 labeled “POINT 03” with the heading “楽しみ方・取り入れ方” and text about bath salts, scents, music, and lighting; card 4 labeled “まとめ” with concluding Japanese text about sustainable self-care. Decorate the cards with small illustrated elements such as leaves, a bathtub, a candle, a bottle, lavender sprigs, and a basket of folded towels. Along the very bottom, add a horizontal green tip strip labeled “今日からできる TIP” with exactly 3 checklist items: “就寝の1〜2時間前に入浴する”, “スマホは浴室に持ち込まない”, and “水分補給を忘れずに”. Place a final handwritten-style Japanese phrase at the lower right reading “自分をいたわる時間を。” The overall look should be clean, gentle, wellness-focused, feminine-neutral, and polished like a Japanese seasonal magazine infographic, with delicate anime illustration, soft shadows, subtle textures, and calm spa-like atmosphere.",
@@ -7421,7 +7466,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 824,
+    "id": 829,
     "title": "Japanese Sci-Fi Suit-Up Process Board",
     "category": "ui",
     "prompt": "{\"type\":\"Japanese sci-fi armor dressing-process infographic\",\"style\":\"cinematic live-action tokusatsu-inspired promotional board, realistic industrial lighting, polished metal surfaces, sharp photographic detail\",\"theme\":\"manual pre-battle suit-up sequence for a female hero in a red, silver, black, and blue protector suit\",\"subject\":{\"character\":{\"gender\":\"female\",\"age\":\"young adult\",\"identity\":\"helmetless heroine during assembly, face intentionally obscured or anonymized in every unhelmeted panel\",\"hair\":\"dark brown to black hair tied in a high ponytail with bangs\",\"undersuit\":\"glossy black skintight inner suit with silver chest panel and white neck ring\",\"armor\":\"retro-futuristic protector armor with red shoulder and arm plates, silver breastplate and torso plating, circular blue chest core, red waist unit, white gloves, red forearm guards with yellow stripe accents\",\"helmet\":\"round red-and-silver helmet with black visor\"},\"environment\":{\"location\":\"high-tech industrial hangar or armor bay\",\"background elements\":[\"metal framework\",\"robotic equipment\",\"tool benches\",\"armor racks\",\"computer monitors\",\"workshop lighting\",\"bay corridor marked BAY-07 in final panel\"]}},\"layout\":{\"header\":{\"count\":2,\"labels\":[\"ソルジャンヌ・スーツ 手動装着プロセス\",\"専用プロテクタースーツ『ソルジャンヌ』を、戦闘前に手動で装着する様子。各ユニットを確実に装着し、システムを起動する。\"],\"design\":\"wide black-to-red gradient banner across top, large bold white Japanese text, diagonal red accent\"},\"sections\":[{\"title\":\"1 インナースーツの確認\",\"position\":\"top-left\",\"count\":1,\"labels\":[\"各部のセンサーとコネクタをチェック。戦闘に備え、身体の状態を最終認する。\"],\"image\":\"three-quarter view of the heroine in only the black glossy inner suit, looking down while checking or tightening a wrist connector\"},{\"title\":\"2 胸部・肩部アーマーの装着\",\"position\":\"top-center\",\"count\":1,\"labels\":[\"胸部ユニットと肩部プロテクターを装着。コネクタを接続し、ロックを固定する。\"],\"image\":\"mid shot with chest armor and red shoulder plates installed, heroine fastening the front torso area with both hands\"},{\"title\":\"3 腰部ユニット・ベルトの固定\",\"position\":\"top-right\",\"count\":1,\"labels\":[\"ウエストユニットを装着し、各部のロックを確認。可動部の動作チェックを行う。\"],\"image\":\"mid shot with torso armor completed, heroine tightening or checking the waist belt and side locks\"},{\"title\":\"4 ヘルメットの準備\",\"position\":\"bottom-left\",\"count\":1,\"labels\":[\"ヘルメットのバイザーと内部システムをチェック。ヘッドセットとの同期を確認する。\"],\"image\":\"heroine holding the red helmet in both hands at chest height, showing the glossy black visor\"},{\"title\":\"5 ヘルメットの装着・システム起動\",\"position\":\"bottom-center\",\"count\":1,\"labels\":[\"ヘルメットを装着し、直上のコネクタをロック。全身のシステムが起動し、胸部コアが発光する。\"],\"image\":\"heroine placing the helmet onto her head with both hands; blue chest core glowing brightly\"},{\"title\":\"6 装着完了\",\"position\":\"bottom-right\",\"count\":1,\"labels\":[\"全システムの最終チェックを行い、戦闘モードへ。ソルジャンヌ、出撃準備完了!\"],\"image\":\"full-body frontal hero pose in a futuristic corridor, fully suited with helmet on, arms relaxed at sides\"}],\"footer\":{\"count\":1,\"labels\":[\"一つ一つの装着が、命を守り、力を引き出す。 ソルジャンヌの戦いは、ここから始まる。\"],\"design\":\"dark red cinematic footer strip with centered white Japanese slogan\"},\"grid\":{\"rows\":2,\"columns\":3,\"panel_count\":6,\"panel_borders\":\"thin white dividers\",\"number_badges\":6}},\"text_rendering\":{\"language\":\"Japanese\",\"font\":\"bold sans-serif headline with smaller sans-serif body text\",\"colors\":\"white text on black, red, and white info bars; red numbered squares with white numerals\"},\"composition\":\"16:9 wide infographic board, six equal photo panels arranged in a 3-by-2 grid, each panel captioned below with a red numbered box from 1 to 6\",\"lighting\":\"moody workshop lighting with metallic reflections and red accent lights, realistic shadows, cinematic sci-fi atmosphere\"}",
@@ -7430,7 +7475,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 825,
+    "id": 830,
     "title": "Dreamy Shibuya Bubble Girl",
     "category": "scene",
     "prompt": "A dreamy anime-style full-body illustration of a fashionable young woman standing in the middle of the Shibuya scramble crossing in Tokyo on a bright clear day, with the iconic cylindrical SHIBUYA 109 building centered in the background and recognizable commercial billboards surrounding it, including signs resembling H&M, DHC, DMM TV, Big Echo, and other dense Japanese city advertisements. She is the single main subject, posed gracefully as if floating or weightless, standing on top of one giant iridescent translucent soap bubble beneath her skirt. Her face is softly obscured and de-emphasized, while her long dark violet-black hair flows dramatically in the wind, with soft bangs and a pink floral headband accessory with ribbon on one side. She wears a sweet feminine spring outfit in pastel pink: a long-sleeved frilled blouse under a sleeveless pink dress with a ribbon tie at the chest, a tan belt at the waist, layered ruffles at the hem, and subtle sakura flower embroidery near the lower skirt. Her expression and body language should feel gentle, elegant, whimsical, and slightly magical. One hand is raised with her index finger pointing upward toward a floating bubble that contains 1 smartphone; her other hand holds a loop handle attached to a large transparent iridescent shopping-bag-like bubble containing 3 visible items: 1 SHIBUYA 109 paper shopping bag, 1 pink shopping bag or package, and 1 small pink bunny-faced pouch. Also include 1 separate floating smartphone/tablet-like device outside the bubbles near the lower left side, and 1 floating bubble on the lower right containing 1 compact camera. Surround her with many soap bubbles of different sizes, all highly reflective with rainbow highlights and delicate transparency, creating a soft sparkling atmosphere. The city scene should be busy but slightly softened, with pedestrians in the far background, crosswalk stripes in the foreground, and warm sunlight filtering through the urban canyon. Use polished high-detail anime illustration rendering, luminous pastel colors, glossy reflections, soft bloom, a romantic spring palette, and a magical everyday Tokyo aesthetic.",
@@ -7439,7 +7484,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 826,
+    "id": 831,
     "title": "Stormy Tropical City With Rooftop Plane",
     "category": "scene",
     "prompt": "A cinematic wide aerial view of a tropical coastal city at sunset during a violent storm, split dramatically between dark storm clouds on the left and blazing golden sunlight on the right. In the foreground, a small single-engine light airplane with a high wing and visible tail is parked or perched precariously on a flat rooftop, seen from behind and slightly above, centered near the bottom of the frame. To the left midair, 1 helicopter flies low over the city with its searchlight cast downward. In the sky, include 1 faint lightning bolt on the far left. The city below is dense with wet streets, reflective pavement, low-rise commercial buildings, and a few taller modern towers, including 1 prominent striped high-rise near the center. A glowing red circular neon sign is visible near the middle distance. On the right side, a calm bay or inlet curves through the city, lined with 1 row of tall palm trees along the waterfront road, and crossed by 1 long low bridge in the distance. The water and streets glisten from recent rain, reflecting the orange sunlight breaking through the clouds. Mood is tense, dramatic, and slightly surreal, like a movie still from an urban disaster thriller. Photorealistic, ultra-detailed, high dynamic range lighting, volumetric sun rays, storm atmosphere, wet surfaces, rich contrast, deep shadows, golden highlights, wide-angle lens, epic composition.",
@@ -7448,7 +7493,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 827,
+    "id": 832,
     "title": "Outdoor Sportswear Grid Campaign",
     "category": "scene",
     "prompt": "A dynamic 2×2 grid collage of modern outdoor sportswear advertising posters, each panel representing a different adventure lifestyle brand. High-energy, editorial-style composition with bold typography and textured graphic design.\n\nTop-left panel:\nAthletic male model in a bright blue insulated winter jacket, black snow pants, gloves, and sunglasses, stepping forward in a snowy environment. Snow particles flying, dramatic motion. Background features rough blue paint brush strokes. Bold distressed typography reads: “NEVER STOP EXPLORING.” Additional small text: “Built for extremes.” High contrast, rugged winter exploration theme.\n\nTop-right panel:\nFit male hiker climbing rocky terrain, wearing an olive green shirt, black trekking pants, and a large black backpack with orange straps. Dust and debris kicking up from the ground. Background includes orange paint strokes and sketched mountain graphics. Bold text: “BUILT FOR HERE – INDIA TESTED.” Handwritten Hindi accents and arrows. Warm earthy tones.\n\nBottom-left panel:\nCalm outdoor scene with a male model sitting on a rock, wearing a green jacket, beanie, sunglasses, and hiking shoes. Minimal scenic mountain illustration in the background with soft green tones. Typography reads: “ESCAPE THE NOISE – JUST GO OUTSIDE.” Clean, relaxed, nature-focused aesthetic with subtle graphic elements.\n\nBottom-right panel:\nEnergetic female runner in motion wearing a purple athletic t-shirt, black shorts, and running shoes. Bright, playful background with purple and yellow paint splashes, doodles, arrows, and sun illustration. Bold typography: “READY FOR EVERYONE – START YOUR JOURNEY.” Youthful, vibrant fitness energy.\n\nOverall style:\n\nHigh-resolution, photorealistic sportswear campaign\n\nBold brushstroke textures and grunge overlays\n\nMixed typography: distressed, handwritten, and modern sans-serif\n\nStrong color blocking per panel (blue, orange, green, purple)\n\nDynamic poses conveying motion, strength, and adventure\n\nClean grid layout with balanced spacing\n\nCommercial advertising / brand campaign aesthetic (Nike, Decathlon style)\n\nLighting: Professional, cinematic lighting with sharp detail and contrast\nMood: Energetic, adventurous, motivational\nAspect ratio: 1:1 (square collage)",
@@ -7457,7 +7502,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 828,
+    "id": 833,
     "title": "Topographic Letter Satellite Panels",
     "category": "scene",
     "prompt": "Ultra-realistic satellite view from space, a clean modern editorial layout of 9 vertical panels arranged side-by-side on a white background, together forming the word \"MADPENCIL\", each panel containing one letter created entirely from natural Earth topography, no artificial text overlays:\n\nPanel 1 (M): rugged mountain ranges and deep valleys forming a sharp, angular \"M\", rocky textures, high elevation shadows\nPanel 2 (A): winding river cutting through dense green forest forming an organic \"A\", strong contrast between water and vegetation\nPanel 3 (D): desert dunes and wind-sculpted sand patterns shaping a smooth \"D\", warm tones, soft gradients\nPanel 4 (P): agricultural farmland grids and patchwork fields forming a structured \"P\", geometric patterns clearly visible\nPanel 5 (E): glacier and ice formations carving a crisp \"E\", bright whites and icy blues, fractured textures\nPanel 6 (N): braided river system across floodplains forming \"N\", branching channels with natural flow lines\nPanel 7 (C): coastal shoreline and ocean edge shaping a curved \"C\", waves and sediment gradients visible\nPanel 8 (I): narrow canyon or straight river cutting through terrain forming a minimal \"I\", strong vertical emphasis\nPanel 9 (L): volcanic terrain with lava flows forming an \"L\", dark rock with glowing red/orange lava accents\n\ntop-down satellite perspective, NASA Earth observation style, hyper-detailed textures, realistic geography, consistent scale and lighting across all panels, minimal clouds, high contrast, sharp focus, subtle atmospheric haze, natural color grading, ultra high resolution 8K, clean spacing between panels, modern gallery-style composition, visually cohesive but each panel distinctly different biome, letters clearly readable yet organically integrated into terrain",
@@ -7466,7 +7511,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 829,
+    "id": 834,
     "title": "Iced Coffee Product Infographic",
     "category": "scene",
     "prompt": "A high-end café-style product photograph of a transparent glass filled with iced coffee, centered against a soft beige and cream seamless studio background. The drink shows a rich dark coffee base blending with creamy milk swirls, creating a smooth gradient effect. Several clear ice cubes are visible with realistic transparency and light refraction. The glass has subtle condensation droplets, adding freshness. Soft natural studio lighting creates delicate highlights and a clean shadow beneath the glass. Ultra-sharp focus, premium beverage advertisement style, DSLR macro photography, hyper realistic, 8K.\n\nPROMPT 2 - Create a hyper-realistic exploded vertical infographic composition of an iced coffee.\n\nTop → Bottom structure:\nFoam Layer (light creamy foam with soft airy texture)\n→ Coffee Liquid (rich dark espresso layer with smooth gradient)\n→ Ice Cubes (transparent cubes with sharp edges and reflections)\n→ Milk Layer (soft creamy white layer with smooth blend effect)\n→ Glass Base (clear minimal glass structure)\n\nAll elements must be perfectly centered, evenly spaced, and aligned vertically. Use a soft beige seamless background with clean café-style lighting and subtle realistic shadows beneath each floating element. The composition should feel like a premium beverage ad combined with a clean infographic layout.\n\nAdd clean minimalist text labels with thin pointer lines using these exact labels:\n“Foam”\n“Coffee”\n“Ice”\n“Milk”\n“Glass”\nUltra-realistic liquid detail, sharp reflections, premium commercial photography, 8K.",
@@ -7475,7 +7520,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 830,
+    "id": 835,
     "title": "Fashion Dress Collection Infographic",
     "category": "scene",
     "prompt": "{\n  \"image_type\": \"Commercial Fashion Infographic\",\n  \"subject\": {\n    \"model\": \"Young Asian woman with elegant features and dark hair tied in a loose bun\",\n    \"attire\": \"Satin midi dress with spaghetti straps and a draped cowl neckline\",\n    \"fit\": \"Bodycon / slim fit with side ruching and a subtle leg slit\"\n  },\n  \"layout_structure\": {\n    \"composition\": \"Multi-panel editorial layout\",\n    \"header\": \"Bold serif typography reading 'DRESS COLLECTION'\",\n    \"main_feature\": \"Large centered portrait of the model, a young Asian woman, wearing a wine-red satin dress\",\n    \"secondary_panels\": [\n      \"Dress Features grid with minimalist icons\",\n      \"Dress Guide sidebar detailing neckline, sleeve, and length\",\n      \"Color Collection row showing the dress in Black, Emerald Green, Navy, Champagne, and Royal Blue\",\n      \"Dress Style Guide footer featuring the model in various atmospheric evening settings\"\n    ]\n  },\n  \"aesthetic_style\": {\n    \"color_palette\": \"Deep jewel tones (Wine Red, Emerald, Navy, Royal Blue) contrasted with Champagne and Black against a warm cream or beige background\",\n    \"lighting\": \"Soft studio lighting with elegant highlights on the satin fabric texture\",\n    \"vibe\": \"Luxurious, timeless, and sophisticated commercial advertising\"\n  },\n  \"typography\": {\n    \"primary\": \"Classic Serif for titles\",\n    \"secondary\": \"Clean Sans-Serif for body text and technical details\"\n  }\n}",
@@ -7484,7 +7529,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 831,
+    "id": 836,
     "title": "Monochrome Fashion Cover",
     "category": "scene",
     "prompt": "Ultra-realistic high-fashion magazine cover, black and white cinematic portrait of a confident young female model, slightly messy wet-look hair, sharp jawline, intense gaze, natural glossy lips, wearing a premium black leather trench coat over a minimal outfit.\nThe model is posing slightly tilted forward with attitude, hands adjusting the coat, accessorized with multiple rings, ear piercings, and layered chain necklaces.\nLighting is dramatic studio lighting with soft shadows, high contrast, editorial Vogue-style aesthetic, ultra-detailed skin texture, 8K resolution, sharp focus.\nBackground is minimal gradient grey with soft light streaks for depth.\nMagazine cover layout included:\nLarge bold serif title at top: “VOID ELITE”\nSubtitle small: “Edition 07 / 2026”\nLeft text: “NOT BUILT TO FOLLOW — BUILT TO DOMINATE”\nBottom left: “HIGH-FASHION STREET LUXURY”\nRight vertical text: “UNTOUCHABLE PRESENCE”\nBottom right: “SILENCE IS POWER”\nAdd a small holographic glitch-style label over the eyes with text “ICON”\nStyle: luxury fashion editorial, Vogue, Harper’s Bazaar, monochrome aesthetic, modern typography, clean layout, ultra premium branding\n--ar 2:3 --style raw --quality 2 --sharp focus --photorealistic",
@@ -7493,7 +7538,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 832,
+    "id": 837,
     "title": "Fast Food Character Poster",
     "category": "illustration-standing",
     "prompt": "Use the character in image 1 as the main subject. Create a vertical poster ad in American fast food diner style. Low angle, wide lens. Red / yellow / white palette with ketchup splashes, melting cheese graphics, comic burst shapes, retro diner typography, and bold fast food poster collage aesthetic.",
@@ -7502,7 +7547,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 833,
+    "id": 838,
     "title": "New York across two centuries cinematic poster",
     "category": "scene",
     "prompt": "Create a cinematic 3:4 vertical poster of New York City that feels truly epic and unconventional, showing the passage from the 20th century to the 21st century in one seamless image. Place a lone figure at the center of the composition, standing in the middle of the street and looking forward as if witnessing New York across time. The left side should depict 20th-century New York with warm sepia atmosphere, vintage taxis, old newsstands, retro lamps, and landmarks like the Chrysler Building and Empire State Building. The right side should depict 21st-century New York with glass skyscrapers, One World Trade Center, digital billboards, and modern urban energy. Make the transition natural rather than split-screen, with coherent perspective, wet reflective pavement, realistic textures, atmospheric depth, and no text.",
@@ -7511,7 +7556,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 834,
+    "id": 839,
     "title": "Blue Tears cocktail tutorial infographic poster",
     "category": "scene",
     "prompt": "试着帮我生成调制一杯蓝色眼泪鸡尾酒（配料流程你自己发挥想象，但是要写清楚确保可复现）的流程教学图和概念设计宣传图，轻奢酒咖海报风格，横版。",
@@ -7520,7 +7565,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 835,
+    "id": 840,
     "title": "ASCII dengue infographic",
     "category": "scene",
     "prompt": "infográfico ASCII DENGUE",
@@ -7529,7 +7574,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 836,
+    "id": 841,
     "title": "Miniature City Knot Sculpture",
     "category": "scene",
     "prompt": "GPT Image 2 + Kling = 🔥 This was done for Tokyo. \n\n[VAR_CITY] = \"Tokyo, Japan\"     [NODE 1: BASE_TOPOLOGY] Generate a complex, self-intersecting 3D endless loop (e.g., a thick Trefoil Knot or Gordian Knot). Material_Output: Raw, unfinished layered birch plywood. Visible wood grain.  [NODE 2: INSTANCER_LOGIC] AI_INFERENCE_TRIGGER: Analyze [VAR_CITY]. Extract its iconic architectural style, specific landmarks, and road infrastructure.  Action: Instance these urban elements directly onto the surface normals of the [BASE_TOPOLOGY].  [NODE 3: GRAVITY_WARP] The gravity vector is strictly relative to the surface of the knot. Buildings must project outward from the wood, regardless of whether the surface is facing up, down, or sideways. The roads must follow the curvature perfectly. Tiny metallic cars dot the highways.  [RENDER_ENGINE] Execute Tree. Output as a physical macro-photography studio shot. The object sits on a blank museum pedestal. Soft, diffuse top-lighting. Shallow depth of field to emphasize the miniature scale.",
@@ -7538,7 +7583,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 837,
+    "id": 842,
     "title": "Taiwanese Food Blog Spread",
     "category": "vfx",
     "prompt": "A cozy restaurant table filled with a vibrant Taiwanese meal, shot in warm natural lighting. A large bowl of braised beef noodle soup with wide noodles, tender beef chunks, bok choy, and green onions sits in the foreground. Surrounding dishes include a bowl of rice topped with raw egg yolk, seaweed, kimchi, and chopped vegetables; a plate of Taiwanese fried chicken and tofu with greens; stir-fried water spinach with garlic; and a small dish of marinated vegetables. A tall elegant glass dessert with shrimp salad layered inside stands in the center. Wooden table surface, ceramic bowls, and a teapot in the background create a homely aesthetic. Handwritten-style Chinese text annotations and doodles are scattered around the dishes, adding a playful, lifestyle-blog feel. Soft depth of field, warm tones, high detail, food photography style.",
@@ -7547,7 +7592,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 838,
+    "id": 843,
     "title": "Alien Disclosure Dossier",
     "category": "scene",
     "prompt": "I asked GPT Image 2 to spill the beans on alien life. \n\ndo this for alien disclosure: <instruction>\nRole: You are \"The Declassification Officer,\" creating visually compelling intelligence dossiers.\n\nGoal: Produce a single vertical declassified case-file image about the chosen subject.\n\nPhase 1: Subject Classification\n- Analyze the input subject and reinterpret it as a high-priority intelligence target, anomaly, person of interest, secret invention, or unexplained event.\n- Assign:\n  - Case ID\n  - Threat level\n  - Classification level\n  - Status (active, missing, monitored, contained, unresolved)\n\nPhase 2: Document Structure\nDesign the image as a realistic but stylized dossier page with the following sections:\n- Header: agency-style title, case number, classification stamp.\n- Mugshot or main visual of the subject.\n- Summary paragraph.\n- Notable traits or observed abilities.\n- Timeline of 3–5 incidents.\n- Redacted notes.\n- Location sightings or evidence callouts.\n- Bottom section with stamp marks, signatures, and warnings.\n\nPhase 3: Visual Style\n- The entire output must be a single image.\n- Style: aged paper, photocopy texture, ink stamps, mild wear, redactions, handwritten annotations, paperclip shadows.\n- Include visual evidence elements such as photo corners, sticky notes, fingerprints, circles, arrows, highlighted lines.\n- Use readable layout and believable bureaucratic typography.\n\nPhase 4: Tone\n- Tone should be suspenseful, intriguing, and slightly cinematic.\n- Can be serious or humorous depending on the input.\n- Keep all content fictionalized if needed.\n\nOutput: One high-detail declassified dossier poster as a single finished image.\n</instruction>",
@@ -7556,7 +7601,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 839,
+    "id": 844,
     "title": "Empire Inferno Burger Poster",
     "category": "scene",
     "prompt": "A premium fast food advertisement poster with a cinematic composition and a clean white textured background with soft grey shading for depth.\nAt the top center, place a bold, modern logo text: “EMPIRE” with a minimal crown icon above it, sleek and premium typography.\nBelow the logo, add a large, dramatic headline in bold modern font:\n“NEW EMPIRE INFERNO BURGER”\n– The word INFERNO should have a fiery texture with flame elements integrated into the typography.\nAdd subtext below the headline in smaller clean font:\n“with signature hot sauce”\nMain composition (center focus):\nA hyper-realistic, ultra-detailed crispy chicken burger placed on a wooden board:\n– Thick, golden crunchy fried chicken fillet\n– Melted cheese dripping naturally\n– Fresh green lettuce and sliced jalapeños\n– Glossy toasted sesame bun\n– Spicy sauce visibly oozing out\n– Subtle steam/smoke rising to show heat and freshness\nAdditional food items:\n– A premium spicy pizza in the foreground with melted cheese, jalapeños, and spicy toppings\n– A black cup of creamy loaded fries (cheese sauce + jalapeños) placed to the side\nSide element:\n– A sleek glass bottle labeled “EMPIRE Signature Hot Sauce” with a premium black and red label design\nLighting:\n– High contrast studio lighting\n– Warm highlights on food\n– Soft shadows\n– Slight rim lighting for separation\nColor palette:\n– White and soft grey background\n– Fiery reds and oranges for spice\n– Golden browns for fried textures\n– Deep blacks for contrast elements\nExtra design elements:\n– Minimal spice icons or flame accents\n– Clean, modern layout with strong hierarchy\nBottom section:\n– Minimal icons and labels like: “Premium Chicken”, “Signature Hot Sauce”, “Fresh Ingredients”\n– NO order button or app store icons\nStyle:\nUltra-realistic, 8K food photography, commercial advertising, sharp focus, dramatic, premium global fast-food branding, highly detailed textures, mouthwatering presentation.",
@@ -7565,7 +7610,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 840,
+    "id": 845,
     "title": "Greek Yogurt Lifestyle Ad",
     "category": "vfx",
     "prompt": "Created by using GPT Image 2. \n\nPrompt👇\nUltra cinematic hyper-realistic premium dairy lifestyle advertisement, Milky Mist Greek Yogurt Natural cup placed as hero center foreground on glossy white marble counter, lid partially peeled revealing thick creamy yogurt with perfect spiral swirl texture, ultra-detailed micro highlights, condensation droplets on surface, branding ultra sharp\n\nBeautiful confident Indian woman (25–30), glowing natural skin with visible pores, soft blush tones, deep expressive brown eyes, long voluminous dark brown hair wind-blown with golden rim light, wearing minimal elegant light grey fitted t-shirt, leaning forward with both arms on counter framing the product, warm genuine smile, direct eye contact, friendly yet premium presence\n\nDynamic motion (hero effect): stainless steel spoon lifting thick yogurt upward creating smooth elastic creamy stretch, dramatic milk splash frozen mid-air around cup with suspended droplets (high-speed photography look), ultra realistic fluid physics, cinematic freeze motion\n\nForeground styling: fresh blueberries in white ceramic bowl, sliced strawberries with juice shine, crunchy granola scattered naturally, wooden spoon, mint leaves, premium editorial food styling (clean but rich composition)\n\nBackground: bright modern luxury kitchen interior, large soft window light from left, indoor plants softly blurred, warm cream tones, depth-rich cinematic bokeh, subtle lifestyle realism\n\nLighting: high-end commercial lighting setup, soft diffused key light from left, strong golden rim light on hair edges, product spotlight glow, deep soft shadows (not flat), HDR highlights on yogurt texture, magazine-level lighting\n\nComposition: 85mm lens, shallow depth of field f/1.8, subject slightly right, product perfectly centered and dominant, rule-of-thirds balance, luxury ad framing\n\nColor palette: pure white, sky blue, navy, fresh green, berry red, warm cream tones, ultra clean premium aesthetic\n\nStyle: Vogue-level editorial + Indian dairy commercial campaign, hyper-detailed, photorealistic, 8K ultra HD, crisp textures, luxury brand advertisement\n\nText overlay (optional, left side):\n“Thick. Creamy. Naturally Healthy.”\nsubtext: “High in Protein. Made with Love.”\nelegant serif + modern script combination\n\n--ar 4:5 --style raw --v 6 --q 2",
@@ -7574,7 +7619,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 841,
+    "id": 846,
     "title": "Fitness Boxing Campaign Collage Poster",
     "category": "scene",
     "prompt": "Create a high-end fitness boxing poster in a 3-panel collage layout.\nTop panel:\nA strong athletic woman boxer wearing a red boxing outfit (sports bra, shorts, boxing gloves, high socks, boxing shoes) leaning confidently against a worn heavy punching bag. Studio background with large bold red typography behind her (word like “FOCUS” or “IMPACT” in oversized distressed font). Clean minimal lighting, editorial fitness campaign style.\nBottom left panel:\nClose-up portrait of the same woman (shoulders and face). Slight sweat, sharp jawline, focused expression looking sideways. Boxing gloves visible near frame. Background includes large faded typography partially visible.\nBottom right panel:\nFull-body action pose of the woman throwing a punch at the punching bag. Dynamic stance, strong posture, gloves in motion. Same studio setup and typography in background (different word like “STRENGTH” or “DISCIPLINE”).\nOverall style:\npremium fitness brand campaign, dramatic studio lighting, soft shadows, high contrast, ultra realistic, sharp details, minimal color palette (red, white, neutral tones), clean composition, cinematic photography, 4k quality.\n\nCreate a high-resolution 8K portrait poster in an Urban Fashion Editorial Collage style, blending contemporary street-fashion aesthetics with premium editorial magazine design. The overall composition should feel bold, stylish, modern, and visually layered, combining elements of luxury fashion campaigns, urban culture, and artistic collage experimentation. Incorporate dynamic poster ornaments and decorative elements that strongly reflect the Urban Fashion Editorial Collage aesthetic, such as rip\n\nCreate a cinematic 16-panel storyboard infographic showing the adventure of a young female wildlife photographer traveling into a deep forest to photograph a majestic lion. Use a realistic movie-storyboard style with warm natural colors, dramatic sunlight, jungle atmosphere, cinematic camera angles, and professional wildlife documentary aesthetics. The same realistic young woman should appear consistently in every panel wearing outdoor explorer clothing, hiking boots, backpack, and carrying a pr\n\nI am “{Your Zodiac Sign}”\n\nCreate a poster inspired by Yumi’s Cells with the same soft, aesthetic, slice-of-life vibe and background style, the zodiac theme is fully reflected in the design. The subject’s face must remain completely unchanged and untouched. In hair, put some minimal highlights in color cyan. Surround the subject with multiple small, raw yet realistic cute chibi-style mini 3D versions of the subject, designed like expressive “cells” with oversized heads.....glossy high-detail fin\n\nVintage French New Wave movie poster, inspired by 1960s Jean-Luc Godard cinema, monochrome portrait of a rebellious woman holding a cigarette, messy bangs, confident expression, torn paper collage layout, distressed paper texture, retro typography, bold red blue and black color blocks, old newspaper clippings, cinematic Paris street photography, grainy black-and-white aesthetic, film strip elements, romantic noir atmosphere, high contrast lighting, handmade poster design, worn edges, analog film\n\nUltra-realistic cinematic anime movie poster of a female warrior inspired by a titan apocalypse universe, short black hair and red scarf flowing in wind, wielding dual swords with ODM gear while flying across a ruined city, colossal titan silhouette emerging through smoke and fog in the background, elegant double exposure layout with a large emotional side-profile portrait integrated into the environment, atmospheric destruction, ash particles, storm clouds, cinematic soft lighting, muted gray a\n\nA character promotional poster titled “Jujutsu Kaisen “ designed in a cinematic vertical key visual composition (9:16). The upper half features a large, softly glowing silhouette of an anime face formed from flowing wind and cherry blossom particles. The silhouette feels dreamy, delicate, and slightly transparent.\nThe lower section shows the full-body character standing gently in a calm pose, wearing an elegant modern kimono-inspired outfit with light fabric movement.\nInside the silhouette, use\n\nCreate a premium 4:5 vertical food-delivery infographic poster inspired by modern Uber Eats campaigns. Hyper-realistic cinematic commercial style, Gen-Z luxury advertising aesthetic, app-inspired UI storytelling, urban delivery energy, 8K ultra-detailed.\n\nMain focus: a delivery rider or delivery bag centered dramatically with gourmet food flying outward — burgers, pizza, fries, sushi, noodles, coffee, desserts, salads, and drinks suspended mid-air with motion blur trails showing delivery speed.\n\nThis ultra-cinematic dark fantasy poster is automatically generated using [\" \"] (face and hairstyle from the uploaded reference photo) as its outline, hyper-realistic portrait composition, a zoomed-in side profile of the subject, detailed skin textures, slightly messy, wet hair blowing in the wind, an intense and mysterious emotional expression, and an epic and dramatic atmosphere.\n\nDouble exposure composition featuring multiple scenes in realistic silhouette: [ ]\n\nRealistic style, dramatic dept\n\nUltra-premium vertical propaganda poster, A4 size. Subject: a young male warrior with spiky blonde hair, cloth headband bearing a metal leaf-engraved plate, orange-and-black combat uniform, and piercing blue eyes holding both exhaustion and unbreakable resolve.\nUPPER HALF — SILHOUETTE DOUBLE EXPOSURE\nLarge dramatic silhouette of the warrior's head and upper torso, face angled slightly off-center. Wild hair and headband cloth extend outward forming the dominant visual mass. Within the silhouette,\n\n{\n  \"type\": \"image_prompt\",\n  \"title\": \"Tokyo revengers propaganda poster\",\n  \"subject\": {\n    \"character\": \" Takemichi Hanagaki\",\n    \"source\": Tokyo revengera\",\n    \"focus\": \"iconic propaganda-style artistic reinterpretation\"\n  },\n  \"composition\": {\n    \"structure\": {\n      \"top_section\": {\n        \"description\": \"Large iconic visual of  Takemichi Hanagaki head, facial features, mask-like framing or half-body silhouette\",\n        \"purpose\": \"dominant symbolic focal point\"\n      },\n      \"middl\n\n“FLAVORS OF THE USA” Luxury Culinary Travel Poster\nUltra-detailed infographic travel poster titled “FLAVORS OF THE USA”, elegant luxury editorial design, vertical composition, sophisticated culinary magazine aesthetic blended with modern 3D isometric cartography.\n\nAt the center: a highly detailed 3D isometric map of the United States in carved ivory-white stone texture, divided into states with subtle engraved borders. \n\nThe map features miniature iconic American landmarks placed geographically:\n\n3:4 vertical premium poster, 8K, bold commercial layout × surreal realism  CORE IDEA: “YOUR COFFEE IS A WORLD.”  LAYOUT (INSPIRED BY SOURCE): BACKGROUND BLOCK: Large rounded rectangle in deep Starbucks green GIANT TYPOGRAPHY: “STAR” bold, cropped, sitting behind subject  SUBJECT: Young adult holding Starbucks cup toward camera same perspective as reference (foreground dominance) calm expression, slight curiosity\n PRODUCT + SURREAL TWIST: Starbucks cup in hand →Inside the cup: miniature forest ec\n\n🤣小时候看《Bleach》：\n“卍解！！！”\n长大后玩 AI：\n“镜片里倒映漫画分镜 + 前景动态条漫 + 蓝色灵压粒子 + 日漫拼贴构图 + 电影级光影 + 超近景压迫感……”\n\n以前以为久保带人是在画漫画。\n现在发现他其实是在提前给 GPT-Image-2 写提示词。\n这次测试我最上头的点不是“还原角色”，\n而是它终于能理解那种——\n“潮流视觉海报感 + 漫画叙事层次 + 动态镜头语言” 的混合审美。\n\nAI 现在已经不是“生成一张动漫图”了。\n而是在帮我们做：\n「不存在的动漫宇宙视觉总监」。\n顺便说一句——\n那个戴斗笠戴墨镜的版本，真的很像：\n“如果京乐春水开始做潮流品牌主理人。” 😂\n\n♥️提示词在这里，麻烦给个赞！\n超高细节二次元热血漫画风角色海报，少年死神角色正面半身特写，橙色炸毛短发，琥珀色眼睛，佩戴黑色圆框复古墨镜，冷峻严肃表情，正中央对称构图，镜头直视观众，强烈压迫感。\n\n眼镜镜片中倒映大量黑白漫画分镜与角色画面，背景也由密集的日漫漫画页拼贴组成，形成“角色记忆 / 名场面回顾”的视觉效果。前景漂浮多条高速运动的漫画分镜条带，带有动态模糊与景深虚化效果，穿插画面上下，营造速度感与空间层次。\n\n画面中散落蓝色灵压粒子 / 荧光能量碎片，形成冷暖撞色（橙发 vs 蓝色粒子）。整体采用《BLEACH》式热血少年漫画美学，融合现代潮流海报设计与高级动漫商业视觉。\n\nanime key visual, BLEACH style, manga collage poster, cinematic anime lighting, reflective glasses, manga panels reflection, dynamic motion blur, orange spiky hair, intense stare, ultra detailed anime illustration, shonen jump aesthetic, layered composition, high contrast shading, cel shading, glowing blue particles, dramatic close-up portrait, symmetrical composition, manga montage background, Japanese comic aesthetic, premium anime poster\n\nCreate a minimalist ultra-high-resolution travel poster in line-art style for TOKYO, portraying the city as a stylish everyday urban scene rather than a tourist postcard.\n\nMAIN COMPOSITION:\n\nCentral composition features Tokyo’s most iconic everyday street scene, intersection, alleyway, tram route, or pedestrian crossing.\n\nForeground includes local residents, commuters, cyclists, travelers, shoppers, students, and café visitors.\n\nPeople should naturally reflect Tokyo street fashion, local lifestyle, and modern urban culture.\n\nBackground filled with authentic Japanese signage, cafés, ramen shops, convenience stores, transport signs, storefronts, vending machines, and architectural details.\n\nLandmarks should blend subtly into daily life rather than dominate the composition.\n\nUse authentic Japanese typography and culturally recognizable visual elements.\n\nLarge centered title at the top: “TOKYO”\n\nSubtitle at the bottom in Japanese: “日本” or “東京”\n\nSTYLE:\n\nUltra-clean vector illustration\n\nSwiss modernist travel poster aesthetic\n\nMinimalist line-art\n\nMonoline drawing\n\nMid-century editorial illustration style\n\nArchitectural illustration\n\nJapanese graphic poster design\n\nCrisp geometric perspe\n\nGPT image 2 on Chatgpt \n\nPrompt 1 (Little girl version):\nKawaii scrapbook-style children photography poster, cute little girl with long black hair posing on green grass, wearing sporty gray and white outfit with bunny hair clips, pastel yellow and green theme, large playful bubble typography with name text, polaroid photo cutouts layered around the composition, plush bunny toy, banana milk box, macarons, ribbons, flowers and doodle graphics, hand-drawn hearts, stars and swirls, cheerful Korean aesthetic, soft daylight, whimsical collage layout, vibrant yet soft pastel tones, magazine-style kids photoshoot, ultra detailed, adorable and playful atmosphere, trendy social media scrapbook design.\n\nPrompt 2 (Baby version):\nCute kawaii scrapbook-style baby photography collage, smiling baby girl wearing soft cream bunny outfit and fluffy bunny-ear headband, sitting on bright green grass background, pastel yellow and light green aesthetic, multiple polaroid-style photo frames scattered around, plush bunny toys, banana milk carton, yellow macarons, ribbons, flowers, doodle hearts and sparkles, playful handwritten stickers and typography saying “little bunny” and “happy little star”, soft nat\n\nGPT Image 2 on ChatGPT \n\nPrompt;\n\nCreate a high-end anime character fashion illustration inspired by {character_name} from {franchise}, designed as a cinematic vertical collector poster with a bold contemporary visual identity.\nArt Direction\nReimagine the character through a fusion of:\npremium anime artwork\nfuturistic streetwear / utility fashion\nluxury editorial poster design\ngraphic-heavy modern composition\nThe artwork should feel stylish, iconic, and instantly recognizable while still looking like an original reinterpretation.\nCharacter Styling\nStudy the character’s core personality and express it visually through posture, styling, and atmosphere:\nfearless / heroic → forward momentum, energetic framing\nintelligent / composed → balanced stance, restrained motion\ndark / dangerous → shadow-heavy framing, sharp silhouettes\nchaotic / aggressive → fragmented effects, explosive composition\nPreserve recognizable identity elements from the original design:\nhairstyle\nsignature colors\nsymbols or emblems\niconic accessories\nweapon motifs\nsilhouette language\nFashion Design\nTransform the original outfit into a modern designer-techwear aesthetic:\nlayered utility jackets\ntactical straps and belt\n\n既然连这种的风格\n\n也能跑出来\n\n我是没想到的\n\nGPT Image 2开放性还是太高了\n\n这个提示词不一定能生图出来\n\n提示词:\n\nCinematic retro motel photography, seductive noir atmosphere, Asian woman in elegant black bunny costume sitting on a vintage motel bed, black satin corset bodysuit, sheer thigh-high stockings, black heels, bunny ears, white cuffs and bow tie, relaxed sensual pose, soft side profile, moody expression, warm amber lighting, hazy diffusion glow, dreamy soft focus, cinematic depth, voyeur perspective through translucent curtains, vintage casino slot machine in background, retro love motel interior, dim tungsten lamps, dusty pink and brown tones, nostalgic erotic noir aesthetic, subtle film grain, low contrast shadows, intimate atmosphere, 1970s inspired motel room, realistic skin texture, delicate highlights, quiet lonely mood, analog photography feel, high detail cinematic composition, shallow depth of field, soft bloom lighting, editorial fashion photography, Wong Kar-wai inspired color grading, tasteful sensuality, photorealistic, 35mm film look, masterpiece, ultra detailed, warm cinematic haze, atmospheric storytelling, muted reds and sepia tones, luxury retro aesthetic.\n\nI am “TAURUS.” Create a poster inspired by Yumi’s Cells with the same soft, aesthetic, slice-of-life vibe and background style, while fully reflecting the Taurus zodiac theme in the design. The subject’s face must remain completely unchanged and untouched. Surround the subject with multiple small, raw yet realistic cute chibi-style mini 3D versions of the subject, designed like expressive “cells” with oversized heads, glossy high-detail finishes, and playful emotions. Each mini character should reflect Taurus traits such as calmness, loyalty, comfort-loving energy, stubbornness, sensuality, patience, and love for luxury and food. Show them in different actions: one clinging onto the subject’s arm, one relaxing with a cozy blanket, one reading a book peacefully, one drinking coffee or tea, one holding snacks or dessert, one lying down using a phone, one refusing to move with a stubborn expression, one looking sleepy and unbothered, and one with soft messy “just woke up” energy. Add playful hand-drawn doodles interacting directly with the subject and chibi characters—outlining poses, sketching comfy cushions, steam from drinks, tiny flowers, sparkle details, and calm motion accents t\n\nGPT Image 2 on ChatGPT \n\nPrompt :\n\nUltra-premium sports editorial poster collage of a powerful female basketball athlete in a red and white uniform, cinematic Nike-style campaign aesthetic, glossy indoor basketball court reflections, dramatic studio lighting, bold oversized typography in background saying “BUILT DIFFERENT”, clean luxury sports branding, intense confident poses.\n\nTop panel: athlete sitting on polished court floor with one knee raised, basketball beside her, looking sideways with dominant confident expression, deep red seamless background, giant cream-colored typography behind subject, cinematic shadows, hyper realistic skin texture, sweat glow, high-fashion sports photography.\n\nBottom left panel: close-up beauty portrait of the athlete with eyes closed, glowing skin, slick hair, athletic elegance, minimal typography saying “PREPARE” and “PERFORM”.\n\nBottom right panel: dynamic low stance dribbling pose, action energy, motivational text saying “TRAIN HARD STAY HUNGRY”, luxury sports ad composition, reflective floor details.\n\nColor palette: deep crimson red, white accents, cream typography, glossy hardwood reflections. Style: modern sports magazine cover, luxury athlet\n\nA character promotional poster of [XXX], using a unified vertical key-visual composition. Each poster follows a hierarchical layout with a larger upper section and smaller lower section: the upper half features the character’s most recognizable head, facial contour, mask, or upper-body silhouette as a massive visual centerpiece, forming a highly identifiable silhouette-style dominant shape. The middle and lower section contains the full character as the secondary focal point, standing in a stable pose or subtle motion, creating the visual core of the composition. Inside the large silhouette and around the character, use double exposure and collage-style narrative composition, blending multiple scenes, symbolic imagery, small character interactions, supporting elements, and environments layered into mist, ink-wash textures, and negative space. Symmetrical or echoing side sub-scenes are placed on the left and right to create narrative tension and spatial variation. A flowing visual line runs vertically through the entire composition, connecting the main character, internal collage, and upper silhouette, enhancing visual unity and guiding the viewer’s eye. The overall image should pre\n\nGPT image 2 on ChatGPT \n\nPrompt 👇 \n\nCreate a high-resolution 8K portrait poster in an Urban Fashion Editorial Collage style, blending contemporary street-fashion aesthetics with premium editorial magazine design. The overall composition should feel bold, stylish, modern, and visually layered, combining elements of luxury fashion campaigns, urban culture, and artistic collage experimentation. Incorporate dynamic poster ornaments and decorative elements that strongly reflect the Urban Fashion Editorial Collage aesthetic, such as ripped paper textures, layered magazine cutouts, abstract geometric accents, expressive brush strokes, typography fragments, street-style graphic overlays, halftone textures, tape effects, paint splashes, handwritten scribbles, and fashionable editorial layout compositions. Every decorative element should feel intentional, stylish, and visually balanced rather than overcrowded. Humanity really looked at torn paper and graffiti textures and decided, “yes, this is luxury now.” Somehow it works.\n\nThe subject’s pose must not resemble the reference photo. Create a completely different body posture and facial expression with a more natural, expressive, and emotiona\n\nGPT image 2 on @Hailuo_AI \n\nPrompt - A colorful kids advertisement poster featuring an adorable 6-year-old girl with pigtails laughing and running beside a giant cartoon-style backpack 3x her height in bright blue and yellow colors with star patches and “STARPACK” written on the front pocket. The scene has a bright sunny yellow school background filled with floating pencils, stars, and books, creating a cheerful and energetic atmosphere. Massive friendly rounded typography reading “STARPACK” in blue and yellow fills the background, while the tagline at the bottom says, “Adventure fits right on your back.” Small grey text in the top-right corner reads “Designed with GPT Image 2.” The overall style blends photorealistic details with playful cartoon aesthetics, giving it a fun school commercial mood.\n\nultra-detailed ink sketch style portrait of a young man with curly hair, beard, and wearing\norange-tinted sunglasses and a denim jacket, looking slightly upward with a confident\nexpression\nart style: black and white pen illustration with cross-hatching and fine line shading, high\ndetail engraving style\nbackground: layered vintage newspaper collage with readable textures and headlines\ngraphic elements: bold orange and blue paint splashes behind the subject, dynamic\ncompositioncolor style: mostly monochrome with selective color accents (orange glasses\nand paint splashes, blue splashes)\nlighting: flat studio-style illustration lighting, no shadows from real light sources\ncomposition: centered portrait, poster design layout, clean hierarchy, sharp facial details\nno depth blur, no bokeh, crisp edges, high contrast ink texture\naspect ratio 4:6\n\nCreate a premium editorial travel poster illustration of [DESTINATION].\n\nStyle:\n\nflat vector illustration, ultra clean minimalism,\n\nmid-century modern aesthetic,\n\neditorial travel poster style (Scandinavian design inspired),\n\nno photorealism, no textures, no noise, no gradients\n\nComposition:\n\nvertical 4:5 poster layout,\n\nforeground: calm waterfront / road / natural edge\n\nmidground: colorful local houses or buildings with clean geometric shapes\n\nbackground: iconic natural landscape or mountain of [DESTINATION]\n\nadd 1–2 landmark structures (church, tower, bridge, etc.) subtly\n\nArchitecture:\n\nsimplified geometric buildings,\n\nclean edges, flat colors,\n\nslightly varied roof colors (harmonious palette, not random)\n\nColor palette:\n\nsoft, cohesive, location-inspired colors\n\npastel tones + muted contrast\n\nbright but not saturated\n\n(example: sky blue, coral, mustard, navy, soft green)\n\nLighting:\n\nbright daylight, soft shadows,\n\nclean and fresh atmosphere\n\nTypography:\n\nadd text at bottom center:\n\n\"[DESTINATION]\" (large, modern sans-serif, spaced letters)\n\n\"[COUNTRY]\" (small subtitle below)\n\nMood:\n\ncalm, clean, premium, slightly dreamy travel magazine feel\n\nQuality:\n\nultra clean edges,\n\nperfect alignment,\n\nno distortion,\n\nhigh resolution, print-ready\n\nA detailed watercolor travel poster of a lively city street, hand-painted urban sketch style, soft ink outlines, watercolor splashes, architectural detail, fashionable pedestrians walking through a busy avenue, cozy cafés and local shops, cinematic perspective, warm natural lighting, elegant travel magazine composition, large stylish city name typography at the top left, subtitle in handwritten script, subtle paper texture, atmospheric depth, realistic urban life, pastel earth tones, loose brush strokes, travel journal aesthetic, highly detailed, artistic tourism poster, European/Japanese street illustration vibe, white margin layout, premium editorial design\n\nCreate a vertical mid-century travel poster for [CITY NAME] featuring [LANDMARK]. Use a strict 3-color palette: cream paper, black technical linework, and [COLOR].\nStyle: Minimalist isometric bird's-eye view with ultra-fine hatching and screen-print texture.\nColor usage: Solid flat [COLOR] for the entire sky and small accents on roofs or streets. No gradients.\nText: Bold sans-serif \"[CITY NAME]\" at top in cream, with the local language name in smaller cream text below.\n\nHigh-fashion kawaii Y2K editorial poster featuring a stylish young woman standing confidently in the center. Soft dewy skin, glossy lips, airy bangs, flowing hair, trendy Korean-Japanese streetwear outfit with layered accessories. Background filled with colorful retro magazine graphics, chrome elements, stars, hearts, stickers, speech bubbles, playful UI overlays, barcode designs, and nostalgic pop-art visuals. Japanese kawaii typography mixed with Korean-style fashion campaign aesthetics. Bright studio flash lighting, cinematic composition, vibrant colors, layered poster design, ultra-detailed textures, luxury fashion magazine energy, sharp focus, premium 8K editorial look.\n\nUltra detailed vertical infographic poster showing the evolution of cameras from vintage film photography to futuristic AI cinematic systems. Include realistic renders of vintage film cameras, disposable cameras, VHS camcorders, DSLR cameras, mirrorless cameras, smartphone cinema rigs, drone cameras, and futuristic AI-powered cinema cameras. Arrange them in a clean timeline layout with glowing technical callouts, cinematic labels, UI overlays, camera specs, lens details, and photography icons. Dark premium background with gold and neon blue accents, realistic textures, dramatic studio lighting, cinematic photography aesthetic, modern editorial design, high-tech sci-fi feel, ultra sharp details, magazine-quality infographic style, symmetrical composition, realistic reflections, futuristic interface graphics.\n\nHigh-end portrait collage poster in vertical format. The background contains four layered rounded strips displaying black-and-white film-like images of a curly-haired male model wearing dark sunglasses in varied poses. In front, a vivid color cutout of the same character is placed to the left, dressed in an unbuttoned soft pink shirt, styled like a luxury fashion campaign with dramatic lighting and depth.\n\nCreate a minimalist ultra-high-resolution travel poster in line-art style for TOKYO, portraying the city as a stylish everyday urban scene rather than a tourist postcard.\n\nMAIN COMPOSITION:\n\nCentral composition features Tokyo's most iconic everyday street scene, intersection, alleyway, tram route, or pedestrian crossing.\n\nForeground includes local residents, commuters, cyclists, travelers, shoppers, students, and café visitors.\n\nPeople should naturally reflect Tokyo street fashion, local lifestyle, and modern urban culture.\n\nBackground filled with authentic Japanese signage, cafés, ramen shops, convenience stores, transport signs, storefronts, vending machines, and architectural details.\n\nLandmarks should blend subtly into daily life rather than dominate the composition.\n\nUse authentic Japanese typography and culturally recognizable visual elements.\n\nLarge centered title at the top: \"TOKYO\"\n\nSubtitle at the bottom in Japanese: \"日本\" or \"東京\"\n\nSTYLE:\n\nUltra-clean vector illustration\n\nSwiss modernist travel poster aesthetic\n\nMinimalist line-art\n\nMonoline drawing\n\nMid-century editorial illustration style\n\nArchitectural illustration\n\nJapanese graphic poster design\n\nCrisp geometric perspective\n\nExtremely clean negative space\n\nPremium travel-brand aesthetic\n\nLINE STYLE:\n\nMonochrome line illustration only\n\nThin, highly precise lines\n\nMinimal fill areas\n\nIntricate city-map-level detailing\n\nRhythmic arrangement of signs, buildings, windows, cables, and street objects\n\nVisually dense yet highly organized composition\n\nCOLOR SYSTEM — VERY IMPORTANT:\n\nUse only ONE primary ink color + ONE background color\n\nAutomatically select the color pairing that best represents Tokyo's atmosphere\n\nMonochrome silkscreen poster aesthetic\n\nNo rainbow palettes\n\nNo excessive neon\n\nColor should reflect Tokyo's architecture, nightlife, urban energy, and cultural identity\n\nRecommended palette for Tokyo:\n\nBright Japanese red ink on warm ivory background\n\nCOMPOSITION:\n\nVertical poster layout\n\nFrontal street-level perspective\n\nPedestrians naturally crossing streets and moving through the scene\n\nBalanced urban rhythm and visual flow\n\nShould feel like a premium city-brand campaign poster\n\nMOOD:\n\nStylish urban life\n\nCalm yet lively atmosphere\n\nHigh-end travel magazine cover aesthetic\n\nTimeless city identity\n\nPremium tourism campaign visuals\n\nMinimalist yet highly detailed\n\nTEXT QUALITY — EXTREMELY IMPORTANT:\n\nAll typography must be clean, readable, and professionally designed\n\nNo random symbols\n\nNo broken or distorted letters\n\nJapanese signage must appear authentic and natural\n\nHigh-end editorial typography layout\n\nOUTPUT:\n\nVertical poster composition\n\nUltra-detailed 8K resolution\n\nPrint-ready\n\nUltra-precise vector-quality rendering\n\nCreate a minimalist travel-poster style line art illustration of [CITY NAME], in a vertical poster format. Use clean architectural ink drawing lines with a monochrome palette (black, sepia, or muted red tones) on an off-white background. Feature an iconic landmark of the city centered in the distance, with detailed urban street perspective leading toward it. Include pedestrians crossing the street, cyclists, cars, storefronts, traffic lights, street signs, subway/metro signs, and local cultural details unique to the city. Add realistic building facades with fine line detail and light shading.\nAt the top, place the city name in very large bold modern sans-serif typography. At the bottom, add the country name and native-language text in a minimalist layout. Keep the composition symmetrical and balanced like a premium vintage travel poster mixed with modern Japanese editorial design.\nStyle keywords: ultra detailed line art, architectural sketch, urban perspective drawing, clean vector ink illustration, travel poster aesthetic, minimal monochrome, cinematic street scene, soft beige paper texture, highly detailed cityscape, contemporary poster design, elegant typography, Muji-style minimalism.\n\nCreate a premium playful kids-fashion editorial poster for [BRAND NAME].\n\nTOPIC:\n[KIDS FASHION / CHILDHOOD CAMPAIGN]\n\nSTYLE & ART DIRECTION:\n\nCute playful studio aesthetic\n\nKorean kids-fashion photography style\n\nMonochromatic color-coordinated composition\n\nMinimal lifestyle editorial branding\n\nBright cheerful atmosphere\n\nPinterest-inspired kids campaign\n\nSoft studio photography\n\nFun doodle typography design\n\nModern children-brand commercial aesthetic\n\nClean playful composition\n\nMAIN SUBJECT:\n\nA realistic happy child prominently seated or posed in the center\n\nCoordinated fashion outfit matching the props and background\n\nCute expressive smile and playful emotion\n\nFashionable kids styling\n\nA large playful prop integrated into the composition (telephone / toy / chair / object)\n\nPremium realistic children photography\n\nBright emotional atmosphere\n\nSoft realistic shadows beneath all objects\n\nStrong color harmony across all elements\n\nLAYOUT & COMPOSITION:\n\nSame exact playful editorial composition and structure as the reference design\n\nChild centered prominently\n\nSingle-color studio background\n\nLarge playful typography integrated into the composition\n\nHand-drawn doodles and sketch graphics around the subject\n\nSpacious clean layout\n\nMinimal visual clutter\n\nPinterest-style commercial hierarchy\n\nSoft balanced composition\n\nTEXT & TYPOGRAPHY:\n\nPlayful handwritten typography\n\nRounded children-brand fonts\n\nFun doodle text style\n\nCute lifestyle-brand hierarchy\n\nMain playful text:\n\"[MAIN PLAYFUL TEXT]\"\n\nSmall supporting text:\n\"[KIDS CAMPAIGN TAGLINE]\"\n\nDEPTH & LIGHTING:\n\nSoft studio lighting\n\nBright cheerful shadows\n\nSmooth realistic skin tones\n\nHigh-key photography atmosphere\n\nSoft editorial depth\n\nPremium commercial reflections\n\nEXTRA DESIGN DETAILS:\n\nHand-drawn doodles\n\nSpeech bubbles\n\nCute sketch lines\n\nMinimal playful icons\n\nScribble graphics\n\nFun childlike visual accents\n\nLifestyle decorative typography\n\nCOLOR PALETTE:\n\n[PRIMARY MONOCHROMATIC COLOR]\n\nSoft pastel accents\n\nWhite playful typography\n\nCoordinated fashion tones\n\nQUALITY:\n\nUltra realistic kids photography\n\nPremium children-brand campaign\n\nPinterest-quality editorial design\n\nBehance-level playful composition\n\nSame exact visual identity and layout as the reference\n\nUltra high resolution\n\nCreate a cozy Japanese-inspired whimsical folk-art illustration of a cute stylish [girl/boy/couple] in a dreamy handmade storybook aesthetic. The character should look youthful, soft-featured, adorable, and aesthetically fashionable with gentle glossy eyes, rosy cheeks, and elegant proportions. Keep the overall vibe warm, calming, artistic, and premium like a trendy Japanese café poster mixed with modern Pinterest folk-art.\nScene theme: [Japanese café / cozy street / bookstore / tea shop / flower market / convenience store / rainy Tokyo alley / picnic / classroom / bicycle street]\nCharacter details:\n[Girl/Boy/Couple]\nOutfit color: [sage green / muted coral / dusty blue / cream / terracotta / pastel yellow]\nHairstyle: [soft bangs / wavy hair / short fluffy hair / tied bun / long silky hair]\nExpression: [gentle smile / shy look / cozy happy vibe / soft eye contact]\nPose: [walking / holding coffee / sitting / looking at camera / talking together]\nBackground elements:\nJapanese lanterns\nCute café boards\nJapanese handwritten typography\nSmall Japanese posters and stickers\nTiny flowers and leaves\nDecorative hearts and stars\nBicycle / vending machine / tea cups / books / plants\nSoft doodle borders around the composition\nAdd aesthetic Japanese text naturally in the background: [Japanese café signs] [Japanese handwritten quotes] [vertical Japanese typography] [small Japanese labels and stamps]\n\nColor palette: [(sage green), (muted coral), (butter yellow), (warm cream), (dusty turquoise), (soft peach), (deep teal accents)]\n\nArt style:\nHand-painted marker texture\nGouache-style brush strokes\nSoft uneven outlines\nVisible paper grain\nHandmade imperfect beauty\nSimplified flat illustration shapes\nCozy Japanese stationery aesthetic\nPremium editorial composition\nBalanced clean layout with negative space\nRendering style: ultra detailed handcrafted illustration, Japanese folk-art fusion, whimsical doodle aesthetic, cozy lifestyle artwork, painterly flat design, trendy viral Pinterest illustration style, premium storybook poster, cute Japanese café vibe\n\nNegative prompt: avoid exact copy of Pinterest styles, avoid messy composition, avoid neon oversaturated colors, avoid anime exaggeration, avoid cluttered background, avoid generic AI look, avoid repetitive flowers everywhere, avoid low detail faces.\n\nCreate a high-end cinematic character design sheet intended for a premium film production.\nThe layout should feel like a curated art direction board rather than a rigid template. Avoid symmetrical grids, uniform spacing, or overly structured presentation. Instead, the composition should feel organic, slightly asymmetrical, and thoughtfully arranged like a real Hollywood concept pitch.\nDesign a grounded, realistic human character with believable body proportions, natural imperfections, and expressive performance-driven presence—like a professional actor captured during emotional and physical performance moments rather than a posed mannequin.\nUse a bright, clean, and well-lit background that enhances clarity and gives the sheet a fresh, modern studio feel.\nInclude:\n• Full-body turnaround views (front, 3/4 front, side, back, 3/4 back)\n\n• Multiple expressive facial studies from different angles showing emotional range\n• A cinematic hero portrait with strong character focus\n\n• Detailed breakdown of costume, accessories, and key props\n\n• Close-up studies of materials such as fabric texture, skin detail, and surface realism\n\n• Handwritten-style annotation notes, production markings, and design insights\n\n•A clear height reference scale integrated naturally into the composition\nThe character should feel like a real person existing in a film world—authentic, grounded, and emotionally alive rather than stylized or overly idealized.\nArt direction style:\n\nSemi-realistic cinematic design, high-budget film production quality, soft natural studio lighting with a bright tone, subtle depth of field, realistic material rendering, and emotionally readable expressions. Presentation should feel like a professional concept art portfolio used in major film pre-production.\nConsistency requirement:\n\nMaintain perfect continuity in facial identity, body proportions, hairstyle, outfit design, and material details across all angles and studies.\n\nCreate a high-end fashion product advertisement poster in portrait 4:5 ratio, clean minimal editorial style using a reference product image. Background is a warm off-white to light khaki gradient studio setup, very minimal, soft, airy, with subtle warm tones. Main product: an olive army green oversized waffle-knit long sleeve crewneck shirt, ghost-hung on a silver metal clothing rack stand with a visible clamp at the top-right. The shirt hangs naturally with slight drape, front-facing. On the center chest, include white puff embroidery text: “SVG” (first line with 3 small 4-point star inside the V), “STUDIOS W.I.P” (second line), “MOVEMENT THROUGH UNITY” (third line, slightly smaller), “SS26 - 29213” (fourth line, smallest). Add a small dark navy woven label patch on the right hem side seam and a visible dark navy neck tag at the collar. Typography: top center minimal brand logo “SVG STUDIOS” in olive green clean sans-serif, top-left italic cursive “Field” with a small dark olive rectangle badge below reading “edition” in white, behind the shirt place massive ultra-condensed olive green text “WAFFLE TEE” partially hidden and cut by the product, bleeding off edges. lower-left include handwritten “SVG” and large cursive “Studios” in olive tone. Bottom section features three diagonal detail strips: macro waffle-knit texture, closeup puff embroidery stitching, and closeup dark navy neck label, all with warm studio lighting. Between strips include small text “Built for movement, designed for unity. The SVG Studios WIP Waffle Longsleeve — SS26 Collection” Footer includes 4 small barcode at bottom-left, centered text “• WWW. SVGSTUDIOS. COM • • •” in spaced caps olive tone, and small text “MADE IN MALAYSIA • SS26 COLLECTION”. Color palette is olive army green, warm cream, and dark navy only. Overall style is clean editorial fashion lookbook, military-inspired streetwear campaign, soft diffused lighting, high contrast product focus, photorealistic, ultra detailed, 8K quality.\n\nCreate a premium anime-style commercial poster inspired by a real Taiwanese COSMED beauty store collaboration campaign. Vertical layout with a strong split composition: bold typography panel on the left and cinematic anime character scene on the right. Feature a stylish anime girl with short brown hair and expressive eyes wearing a white COSMED-branded windbreaker jacket with orange accents, holding a skincare serum bottle inside a modern beauty store filled with cosmetics and glowing shelves. Include transparent shopping bag with beauty products, realistic packaging details, soft cinematic lighting, glossy reflections, luxury skincare advertising aesthetic, warm orange and cream color palette, highly detailed anime rendering, Makoto Shinkai + modern commercial anime style, ultra-clean typography, realistic folds and textures, lifestyle branding atmosphere, elegant Japanese/Taiwanese retail design, depth of field, premium magazine advertisement look. Large bold text on left side: “BEAUTY IN LIFE. CARE IN EVERY CHOICE.” Include subtle molecular graphics and beauty icons. Ultra detailed, 8K, cinematic anime illustration, poster design, professional advertising composition, high-end retail campaign aesthetic --ar 2:3\n\nFamilyMart × AnimePoster Prompt:\nCreate a cinematic anime-style convenience store collaboration poster inspired by FamilyMart Taiwan. Vertical commercial poster layout with bold typography section on the left and anime character portrait on the right. Feature a cool blond anime boy wearing a navy-blue FamilyMart jacket with green and white accents, standing inside a neon-lit FamilyMart at night while holding a hot coffee cup. Background filled with convenience store shelves, glowing signs, vending machines, and cyberpunk-inspired blue lighting reflections. Add subtle chain accessories and urban street atmosphere. Typography should feel bold and modern with giant white slogan text: “EVERY DAY, MORE FOR YOU.” Premium anime illustration style with realistic lighting, glossy textures, cinematic shadows, detailed eyes, modern Japanese advertising design, blue-green color palette, retail branding aesthetic, ultra-detailed convenience store environment, lifestyle commercial vibe, anime x corporate collaboration campaign, 8K quality, dramatic depth of field, polished poster composition --ar 2:3\n\nPOYA × Yu Yu Hakusho Poster Prompt:\nCreate a high-end anime commercial poster inspired by a POYA beauty store collaboration with Yusuke Urameshi from Yu Yu Hakusho. Vertical split-layout advertisement with bright pink branding panel on the left and detailed anime character scene on the right. Feature Yusuke Urameshi wearing a stylish pink-and-white POYA varsity jacket while holding a cosmetic skincare bottle inside a glowing pink beauty store filled with premium products and neon signage. Include branded shopping bags, cosmetic displays, reflective surfaces, luxury beauty campaign atmosphere, feminine yet edgy fashion aesthetic. Large bold white typography on left side saying: “BEAUTY IS MY POWER. POYA IS MY CHOICE.” Use vibrant pink neon lighting, glossy magazine-quality rendering, cinematic anime shading, detailed hair highlights, dramatic retail lighting, premium product advertisement composition, Japanese commercial poster design, elegant beauty branding, ultra detailed 8K anime artwork, modern lifestyle campaign aesthetic --ar 2:3\n\nMcDonald’s × One Piece  Poster Prompt:\nCreate a bold anime crossover advertisement poster featuring Monkey D. Luffy working at McDonald’s in an official collaboration campaign style. Vertical commercial poster with iconic McDonald’s red-and-yellow branding. Split composition with oversized slogan typography on the left and cinematic anime scene on the right. Feature Luffy wearing a McDonald’s employee uniform inspired by One Piece aesthetics,smiling confidently inside a warmly lit McDonald’s restaurant. Include french fries, glowing menu boards.\n\nI am “VIRGO.” Create a poster inspired by Yumi’s Cells with the same soft, aesthetic, slice-of-life vibe and background style, while fully reflecting the Virgo zodiac theme in the design. The subject’s face must remain completely unchanged and untouched. Surround the subject with multiple small, raw yet realistic cute chibi-style mini 3D versions of the subject, designed like expressive “cells” with oversized heads, glossy high-detail finishes, and playful emotions. Each mini character should reflect Virgo traits such as organization, perfectionism, intelligence, neatness, overthinking, helpfulness, and calm focus. Show them in different actions: one clinging onto the subject’s arm, one reading a book carefully, one writing notes or checking a list, one drinking coffee while concentrating, one lying down using a phone while researching something, one making a wacky but slightly judgmental face, one looking tired or stressed from overthinking, one tidying things up, one pointing out details, and one with slightly messy “worked too hard” hair energy. Add playful hand-drawn doodles interacting directly with the subject and chibi characters—checklists, arrows, tiny labels, sparkles, paper-note doodles, neat outline sketches, and visual reactions to their actions to enhance movement and storytelling. Use a clean aesthetic composition, white sticker outlines, soft pastel sage, cream, soft olive, dusty beige, and light blue tones, high-detail glossy 3D chibi look, cute Korean-inspired design, with a raw natural poster feel, and the Virgo identity clearly integrated into the overall concept.\n\nCreate a high-detail portrait poster in a bold Japanese graffiti-inspired art style, combining modern urban street aesthetics with expressive Japanese visual culture. The poster should feature dynamic graffiti typography, layered spray-paint textures, hand-drawn symbols, abstract paint splashes, neon brush strokes, urban sticker elements, Japanese calligraphy accents, and decorative ornaments that strongly reinforce the energetic atmosphere of the design. The overall composition should feel artistic, rebellious, fashionable, and visually striking, while still maintaining a premium editorial poster quality instead of looking messy or overdone. Humanity somehow turned vandalism into luxury wall art. Impressive species.\n\nThe subject must not replicate the exact pose or expression from the reference photo. Instead, create a completely new pose that feels natural, confident, and full of life. The expression should appear emotionally expressive, charismatic, and engaging, avoiding stiff, awkward, flat, or emotionless body language. The pose should reflect the elegance and sophistication commonly seen in international fashion models, with stylish posture, natural movement, and subtle attitude that enhances the overall cinematic fashion aesthetic.\n\nThe outfit should feature contemporary stylish casual fashion with strong visual appeal. Avoid plain or repetitive clothing designs. Use fashionable layering, modern streetwear inspiration, premium casual styling, and a balanced combination of colors, patterns, textures, and fabric types that create a rich and non-monotonous appearance. The clothing should feel trendy, fashionable, youthful, and visually premium while still fitting naturally into the Japanese graffiti poster concept.\n\nThe background and poster decorations should be filled with thematic urban Japanese-inspired visual elements such as graffiti walls, spray textures, painted symbols, urban signage, layered stickers, modern Japanese graphic motifs, abstract shapes, paint drips, street fashion aesthetics, and stylish decorative compositions that enhance depth and artistic intensity without distracting from the subject.\n\nLighting should feel cinematic and fashionable, with strong contrast, clean highlights, realistic skin texture, and high-end editorial poster quality. The final result must look like a premium modern street-fashion campaign poster with highly detailed textures, balanced composition, vibrant color harmony, realistic proportions, ultra-sharp focus, and immersive visual storytelling.\n\nUltra-detailed, highly aesthetic, premium composition, realistic texture rendering, fashionable urban atmosphere, cinematic quality, poster-ready design, 8K ultra high resolution.\n\nUsing the brand name “[BRAND NAME]”, create a highly detailed cinematic poster:\n\n“HOW [BRAND NAME] TAKES OVER A CITY”\n\nGOAL:\nShow the brand expanding across an entire city ecosystem until it becomes impossible to ignore.\n\nThis must feel like:\nglobal campaign rollout + futuristic city domination + luxury advertising ecosystem.\n\nThe brand should appear integrated naturally into the city, not random logo placement.\n\nCORE RULE:\n\nEverything must be visually inspired by the brand identity of “[BRAND NAME]”:\n\nbrand colors\n\ntypography style\n\ndesign language\n\nvisual energy\n\naesthetic mood\n\nThe city itself should begin to feel transformed by the brand identity.\n\nMAIN STRUCTURE:\n\nVertical 4:5 poster\nDense multi layered composition\nHuge cinematic city scene mixed with many smaller detail panels\n\nTOP SECTION:\n\nInclude:\n\n“[BRAND NAME]” logo or wordmark\n\nCampaign title\n\nShort slogan (max 5 words)\n\nExample slogans:\n\n“The City Wears [BRAND NAME]”\n\n“One Brand. Everywhere.”\n\n“The Future Is [BRAND NAME]”\n\n“This City Runs On [BRAND NAME]”\n\nMAIN HERO SCENE:\n\nShow a massive cinematic city environment where “[BRAND NAME]” has become dominant.\n\nInclude:\n\ngiant digital billboards\n\nskyscraper LED screens\n\nbranded taxis\n\nbuses\n\ntrain wraps\n\nstorefronts\n\npublic transport stations\n\nbranded cafés\n\ninteractive street ads\n\nbranded drones or futuristic media systems\n\nThe city should feel alive and overloaded with coordinated branding.\n\nCITY ENVIRONMENT:\n\nCreate:\n\nrealistic streets\n\ncrowds of people\n\ntraffic\n\nnightlife\n\nurban lighting\n\nweather atmosphere\n\nThe branding should blend naturally into the environment.\n\nMICRO SCENES:\n\nAround the main scene, include many smaller panels showing:\n\npeople using branded products\n\nsocial media campaign visuals\n\nbranded pop up events\n\ndigital ads on phones\n\nbranded shopping bags\n\ninfluencer campaigns\n\ncafé branding\n\nevent installations\n\ngiant building projections\n\nADVERTISEMENT SYSTEM:\n\nOUTDOOR:\n\nbillboards\n\nLED towers\n\ntransit ads\n\nstreet posters\n\nDIGITAL:\n\nmobile ads\n\nsocial media ads\n\napp UI\n\ninteractive screens\n\nPHYSICAL:\n\npackaging\n\nshopping bags\n\nuniforms\n\nvehicles\n\nVISUAL DETAILS:\n\nAdd:\n\nglowing reflections\n\nrain reflections on streets\n\nholographic screens\n\nanimated signage\n\ncrowds interacting with ads\n\ncity lights matching the brand palette\n\nCOLOR SYSTEM:\n\nStrictly derived from the brand identity colors.\n\nUse:\n\nlighting\n\nreflections\n\natmosphere\n\nad screens\n\nto reinforce the brand identity.\n\nSTYLE:\n\ncinematic urban realism\n\nfuturistic advertising aesthetic\n\ndense but readable\n\nluxury campaign presentation\n\nInspired by:\n\nTokyo/Shibuya LED overload\n\nTimes Square campaigns\n\ncyberpunk city advertising\n\nluxury fashion campaign rollouts\n\nDEPTH:\n\n40 to 80 visual elements\n\nlayered foreground/midground/background\n\nmultiple scales of detail\n\nIMPORTANT RULES:\n\nno random logo spam\n\nbranding must feel intelligently integrated\n\nevery ad placement should feel intentional\n\nno empty areas\n\ncity must still feel believable\n\nFINAL FEEL:\n\nLike:\n\na billion dollar global campaign launch\n\na cinematic city takeover\n\na futuristic luxury advertising ecosystem\n\nNOT:\n\ngeneric mockups\n\nflat layouts\n\nrepetitive placements",
@@ -7583,7 +7628,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 842,
+    "id": 847,
     "title": "Hand-Torn Editorial Collage",
     "category": "scene",
     "prompt": "Transform the attached image into a collage artwork. Make it appear as if hand-torn from newspapers, magazines, and flyers and pasted. Every single expression should be completed using large, torn pieces of paper. Represent in detail the torn edges, wrinkles, overlaps, and glue marks on the paper. Use relatively large pieces of paper, not too small, and place them randomly at different angles and directions, with the paper orientation rotated haphazardly. Create it to look like an actual collage roughly hand-pasted by a person.",
@@ -7592,7 +7637,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 843,
+    "id": 848,
     "title": "Glowing Sailboat Night Illustration",
     "category": "scene",
     "prompt": "A luminous sailboat, outlined in glowing golden light, floats serenely on dark, rippling water under a starry night sky. The sails, translucent and faintly blue, catch the ethereal light, while the hull is a solid, dark silhouette. Numerous tiny, twinkling golden stars are scattered across the black expanse above, and a crescent moon hangs softly to the right. Lush, vibrant green reeds and grasses sprout from smooth, grey stones in the foreground, their tips adorned with delicate, glowing golden florets. The water reflects the golden outline of the sailboat, creating a shimmering, warm glow that contrasts with the cool, deep darkness of the night. The scene is composed with a slightly low angle, emphasizing the majestic presence of the sailboat against the vastness of the night. The overall atmosphere is magical, tranquil, and dreamlike, evoking a sense of peaceful adventure and celestial wonder. The style is reminiscent of digital fantasy art with glowing neon accents.",
@@ -7601,7 +7646,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 844,
+    "id": 849,
     "title": "Istanbul Line-Art Travel Poster",
     "category": "scene",
     "prompt": "Create a minimalist ultra-high-resolution travel poster in line-art style for ISTANBUL, portraying the city as a stylish everyday urban scene rather than a tourist postcard.\n\nMAIN COMPOSITION:\n\nCentral composition features Istanbul’s most iconic everyday urban scene — a lively tram street in Karaköy, Kadıköy, Beyoğlu, Eminönü, or a Bosphorus-side pedestrian avenue filled with daily life.\n\nForeground includes local residents, commuters, ferry passengers, café visitors, simit sellers, students, cyclists, street musicians, and shoppers naturally interacting within the city.\n\nPeople should authentically reflect modern Istanbul street fashion, layered urban lifestyle, and contemporary Turkish culture.\n\nBackground filled with authentic Turkish signage, tea houses, bookstores, tram lines, ferry terminals, cafés, bakeries, fish restaurants, street lamps, mosques integrated into skyline, apartment façades, hanging laundry, cats, seagulls, and dense architectural textures.\n\nSubtle landmarks blend naturally into daily life rather than dominating the composition — Galata Tower, Bosphorus ferries, nostalgic tram, mosque silhouettes, and waterfront railings should appear integrated into the urban rhythm.\n\nUse authentic Turkish typography and culturally recognizable street elements.\n\nLarge centered title at the top: “ISTANBUL”\n\nSubtitle at the bottom in Turkish: “Türkiye” or “İstanbul”\n\nSTYLE:\n\nUltra-clean vector illustration\nSwiss modernist travel poster aesthetic\nMinimalist line-art\nMonoline drawing\nMid-century editorial illustration style\nArchitectural illustration\nContemporary Turkish graphic poster design\nCrisp geometric perspective\nExtremely clean negative space\nPremium luxury travel-brand aesthetic\nHighly organized visual density\n\nLINE STYLE:\n\nMonochrome line illustration only\nThin, highly precise lines\nMinimal fill areas\nIntricate city-map-level detailing\nRhythmic arrangement of tram cables, balconies, ferry rails, windows, signage, cats, street furniture, and waterfront architecture\nVisually dense yet extremely balanced composition\nUltra-precise vector-quality rendering\n\nCOLOR SYSTEM — VERY IMPORTANT:\n\nUse only ONE primary ink color + ONE background color\nAutomatically select the color pairing that best represents Istanbul’s atmosphere\nMonochrome silkscreen poster aesthetic\nNo rainbow palettes\nNo excessive neon\nColor should reflect Istanbul’s maritime atmosphere, historic architecture, ferry culture, and urban warmth\nRecommended palette for Istanbul:\nDeep Bosphorus navy ink on warm cream background\n\nCOMPOSITION:\n\nVertical poster layout\nFrontal street-level perspective\nPedestrians naturally moving through tram streets, ferry exits, café terraces, and waterfront walkways\nBalanced urban rhythm and architectural layering\nStrong depth perspective with elegant negative space\nShould feel like a premium global city-brand campaign poster\n\nMOOD:\n\nStylish urban everyday life\nCalm yet vibrant atmosphere\nSophisticated metropolitan energy\nTimeless city identity\nHigh-end travel magazine cover aesthetic\nMinimalist yet ultra-detailed\nElegant Mediterranean-meets-modern urban mood\n\nTEXT QUALITY — EXTREMELY IMPORTANT:\n\nAll typography must be clean, readable, and professionally designed\nNo random symbols\nNo broken or distorted letters\nTurkish signage must appear authentic and natural\nEditorial-grade typography hierarchy\nPremium modernist poster layout\n\nOUTPUT:\n\nVertical poster composition\nUltra-detailed 8K resolution\nPrint-ready\nUltra-precise vector-quality rendering\nLuxury travel poster aesthetic\nMuseum-quality graphic design composition",
@@ -7610,7 +7655,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 845,
+    "id": 850,
     "title": "Dark Western Outlaw Poster",
     "category": "scene",
     "prompt": "高级电影感西部亡命徒海报，竖版 2:3 构图，暗黑西部游戏角色设定海报风格。\n\n一个神秘蒙面牛仔与黑马站在荒漠边境，人物全身正面，宽檐牛仔帽压低，花纹面巾遮住下半张脸，深色长发，黑色皮革手套，黑色西部夹克与多层皮革装备，子弹带、左轮枪套、金属腰带扣、厚重长靴，肩上披着红棕色几何图案披毯，边缘破损飘动。人物姿态冷静危险，一只手靠近枪套。右侧黑马半身入镜，带白色额纹，缰绳细节清晰。\n\n背景是暴风雨中的西部荒漠，闪电、乌云、远处峡谷岩壁、枯树、沙尘、烟雾、火星、泥地反光，氛围压抑史诗。\n\n画面左侧是复古羊皮纸留白，右侧是黑暗风暴场景，强烈明暗分割。加入大号竖排英文标题、通缉令信息、人物档案、坐标、地图网格、细线框、圆形罗盘图形、小红色标记、签名印章等高级海报排版元素。\n\n风格：黑色墨迹飞溅、旧纸纹理、电影级写实、暗黑西部、强烈明暗对比、皮革和金属超细节、尘土、泥点、划痕、烟雾、火星、边缘轮廓光、高级收藏级游戏海报、荒野大镖客氛围、艺术设定集质感、8K、高细节。",
@@ -7619,7 +7664,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 846,
+    "id": 851,
     "title": "Anime Streetwear Mascot Poster",
     "category": "anime",
     "prompt": "Stylized anime streetwear brand poster of a fast-food mascot character, full-body dynamic pose, highly detailed manga/anime illustration, modern urban fashion outfit inspired by the restaurant brand colors and identity, oversized hoodie, tactical straps, sneakers, chains, branded accessories, holding signature food item, bold graphic typography, editorial magazine layout, Japanese text elements, logos, promotional stickers, menu-style side panels, grunge textures, paint splashes, distressed paper background, collectible poster aesthetic, cyber street fashion meets commercial advertising, vibrant red/orange/black/white color palette, dramatic lighting, ultra detailed line art, cel-shaded anime rendering, energetic composition, high contrast, trendy hypebeast vibe, futuristic fast-food campaign art, iconic mascot redesign, layered collage graphics, branding everywhere on clothing and background, premium anime poster quality, vertical composition, sharp shadows, dynamic perspective, stylish and playful attitude.",
@@ -7628,7 +7673,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 847,
+    "id": 852,
     "title": "Wildlife Infographic Reference Poster",
     "category": "scene",
     "prompt": ".\n\nCreate a premium cinematic wildlife infographic poster centered around a rare or visually unique animal species such as (animal). The entire artwork must feel like a futuristic luxury wildlife dossier rather than a normal educational infographic.\nThe animal should dominate the composition with intense photorealistic detail: ultra-detailed fur/scales, realistic eyes, moisture textures, cinematic shadows, environmental interaction, dramatic posture, visible muscle definition, floating particles, and powerful eye contact.\nThe environment must fully match the chosen species: (environment).\nBuild dense layered infographic storytelling around the animal using: • anatomy callouts\n• adaptation systems\n• prey and diet visuals\n• ecosystem overlays\n• conservation status indicators\n• geographic range maps\n• hunting behavior graphics\n• climate danger visuals\n• detail inserts\n• tactical icon systems\n• scientific labels and compact data snippets\nThe layout should feel highly artistic and cinematic instead of educational. Use: • asymmetric editorial composition\n• layered transparent info panels\n• premium typography\n• subtle paper grain textures\n• contour-line overlays\n• holographic UI elements\n• cinematic infographic markers\n• museum-grade visual hierarchy\nBlend: (luxury editorial aesthetic) + (cinematic documentary realism) + (futuristic infographic design) + (collectible field-guide energy).\nColor Theme: (color theme)\nMood: (mood)\nLighting: dramatic cinematic lighting, volumetric fog, glowing rim light, atmospheric haze, realistic environmental reflections, high contrast shadows, ultra-premium editorial lighting.\nThe final artwork must look like a viral collectible wildlife poster people would instantly save, repost, print, and frame.\nUltra-realistic, 8K, cinematic infographic masterpiece, insanely detailed, premium art direction, tactile textures, layered storytelling, emotional visual impact, museum-quality composition, viral social-media-worthy aesthetic.",
@@ -7637,7 +7682,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 848,
+    "id": 853,
     "title": "Ancient Civilization Miniature Diorama",
     "category": "scene",
     "prompt": "A highly detailed miniature diorama of an ancient civilization under construction, displayed directly on top of large rolled-out architectural blueprints spread across a realistic wooden drafting table. The scene features iconic historical architecture from [CIVILIZATION OR LOCATION], including partially completed monuments, temples, towers, walls, palaces, streets, or ceremonial structures at different stages of construction. Tiny craftsmen, builders, engineers, and workers interact naturally throughout the scene using historically accurate tools, scaffolding, ramps, cranes, carts, stone blocks, timber frameworks, and construction platforms.\nThe miniature terrain blends seamlessly into the printed engineering drawings beneath, combining realistic sand, stone, earth, marble, vegetation, or desert textures with visible architectural floor plans, elevation sketches, measurements, annotations, and cross-sections. Surrounding the workspace are drafting instruments, compasses, rolled parchment plans, books, rulers, brass weights, candles, maps, carving tools, and historical reference materials that enhance the workshop atmosphere.\nSoft cinematic lighting with warm natural sunlight from a nearby window, shallow depth of field, ultra realistic textures, handcrafted museum-quality scale model aesthetic, intricate miniature detailing, photoreal materials, atmospheric realism, editorial architectural photography style, clean composition, immersive world-building, vertical composition, extremely high detail, realistic shadows, authentic historical mood.",
@@ -7646,7 +7691,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 849,
+    "id": 854,
     "title": "Japanese Fashion Collage Poster",
     "category": "scene",
     "prompt": "Cinematic vertical collage featuring a Japanese woman in elegant fashion captured during golden sunset. Background composed of warm-toned rounded storyboard frames arranged diagonally, each showing soft monochrome motion scenes—running fingers through hair, walking on bridge, looking at skyline, soft smile in wind. The main subject is in rich color with glowing sunset highlights, wearing flowing rust-orange designer dress with natural fabric movement. Emotional storytelling mood, romantic cinematic tone, high-end fashion editorial poster style.",
@@ -7655,7 +7700,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 850,
+    "id": 855,
     "title": "Bangkok Swiss Typography Poster",
     "category": "scene",
     "prompt": "Create an ultra-high-resolution Swiss modernist typography travel poster for BANGKOK THAILAND in a premium 16:9 layout.\n\nCORE CONCEPT:\nA massive bold condensed sans-serif word “BANGKOK” dominates the center composition.\nEach individual letter acts as a precise geometric window containing minimalist flat-vector illustrations of iconic Bangkok landmarks and authentic urban life scenes.\n\nINSIDE THE LETTERS INCLUDE:\n\nGrand Palace\n\nWat Arun\n\nWat Pho\n\nChao Phraya River\n\nTuk-tuks\n\nBTS Skytrain\n\nLong-tail boats\n\nChinatown signage\n\nRooftop bars\n\nStreet food stalls\n\nTemple roofs\n\nBangkok modern skyline\n\nThe scenes inside each letter must transition seamlessly across the typography, creating one continuous panoramic urban narrative while preserving perfectly clean letter edges and flawless typography integrity.\n\nTOP PANORAMIC RIBBON:\nAt the very top edge of the poster, create a thin elegant panoramic strip showing:\n\nBangkok skyline silhouette\n\nBTS train\n\nRiver boats\n\nBirds\n\nPalm trees\n\nCars and scooters\n\nStylized tropical sun\n\nMinimal clouds\n\nSTYLE & AESTHETIC:\nSwiss Graphic Design meets Mid-Century Modern travel poster aesthetics.\nFlat vector illustration only.\nArchitectural infographic precision.\n100% clean geometric shapes.\nNo gradients.\nNo photorealism.\nNo textures.\nNo grain.\nNo AI distortion.\nNo warped typography.\n\nVISUAL EXECUTION:\n\nSharp vector edges\n\nSophisticated negative space\n\nBalanced composition\n\nMinimalist architectural detailing\n\nPrecise geometric shadows\n\nMuseum-grade poster quality\n\nEditorial luxury aesthetic\n\nCOLOR PALETTE:\nMuted premium Southeast Asian palette inspired by Bangkok:\n\nRiver teal\n\nWarm coral\n\nTropical gold\n\nIvory\n\nSlate blue\n\nSoft terracotta\n\nBACKGROUND:\nSoft ivory or premium warm white background.\n\nTYPOGRAPHY:\nProfessional kerning and spacing.\nPerfectly legible text.\nHuman-designed graphic identity feel.\nLarge title:\n“BANGKOK”\nSmall elegant subtitle underneath:\n“THAILAND”\n\nATMOSPHERE:\nIntellectual, calm, avant-garde, collectible luxury travel poster found in a museum design store.\n\nOUTPUT:\nUltra-detailed 8K vector-style rendering, ultra sharp print-ready quality, high-end editorial poster design.",
@@ -7664,7 +7709,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 851,
+    "id": 856,
     "title": "Miniature Travel World Poster",
     "category": "scene",
     "prompt": "A cinematic hyper-detailed miniature travel diorama resting inside an open human palm, themed around [CITY/COUNTRY NAME] tourism and travel. A realistic passport and official travel visa card stand upright in the center of a tiny landscape inspired by the destination, surrounded by miniature travelers with luggage, scattered suitcases, local vegetation, iconic cultural elements, and detailed environmental textures matching the location. In the background, the famous skyline and landmark architecture of [CITY/COUNTRY NAME] rise softly with atmospheric depth, while the national flag waves beside the documents. A commercial airplane flies overhead in a bright blue sky with soft clouds. Ultra-realistic textures, shallow depth of field, warm sunlight, soft cinematic shadows, macro photography style, tilt-shift miniature effect, vibrant tourism atmosphere, highly detailed handcrafted diorama aesthetic, realistic skin texture on the hand, premium travel advertisement look --ar 1:1",
@@ -7673,7 +7718,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 852,
+    "id": 857,
     "title": "Japanese Graffiti Portrait",
     "category": "realistic",
     "prompt": "Design a high-detail portrait poster in a bold Japanese graffiti-inspired art style that fuses modern urban street aesthetics with expressive Japanese visual culture. Pack the poster with dynamic graffiti typography, layered spray-paint textures, hand-drawn motifs, abstract paint splashes, neon brush strokes, urban sticker elements, Japanese calligraphy accents, and decorative ornaments that amplify the energetic mood. Keep the overall composition artistic, rebellious, fashionable, and visually striking, yet still polished to premium editorial poster quality, never messy or overdone. The subject should NOT copy the exact pose or expression from any reference image. Instead, invent an entirely new pose that feels natural, confident, and alive. The expression should read as emotionally expressive, charismatic, and engaging, never stiff, awkward, flat, or blank. The pose should carry the elegance and sophistication of an international fashion model, with stylish posture, natural movement, and a subtle attitude that elevates the cinematic fashion vibe. The outfit must be contemporary, stylish, casual fashion with strong visual appeal. Skip plain or repetitive clothing. Lean into fashionable layering, modern streetwear inspiration, premium casual styling, and a balanced mix of colors, patterns, textures, and fabrics for a rich, non-monotonous look. The clothing should feel trendy, fashionable, youthful, and visually premium, while still belonging inside the Japanese graffiti poster concept. Fill the background and poster decorations with thematic urban Japanese-inspired elements: graffiti walls, spray textures, painted symbols, urban signage, layered stickers, modern Japanese graphic motifs, abstract shapes, paint drips, street fashion aesthetics, and stylish decorative compositions that deepen the artistic intensity without distracting from the subject. Lighting should feel cinematic and fashionable, with strong contrast, clean highlights, realistic skin texture, and high-end editorial poster quality. The final result must look like a premium modern street-fashion campaign poster, with highly detailed textures, balanced composition, vibrant color harmony, realistic proportions, ultra-sharp focus, and immersive visual storytelling. Ultra-detailed, highly aesthetic, premium composition, realistic texture rendering, fashionable urban atmosphere, cinematic quality, poster-ready design, 8K ultra high resolution. #AIart #GPTImage2",
@@ -7682,7 +7727,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 853,
+    "id": 858,
     "title": "Playlist Mood Album Cover",
     "category": "scene",
     "prompt": "Create an album cover inspired by this playlist: [playlist], translating its mood into colors, textures, objects, and cinematic composition, with no artist names. https://t.co/t1efbQ9sgP",
@@ -7691,7 +7736,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 854,
+    "id": 859,
     "title": "Play-Doh City Editorial",
     "category": "scene",
     "prompt": "Create an ultra-charming 3:4 editorial illustration of a five-year-old child sitting at a cozy craft table, happily building a handmade Play-Doh miniature [City Name]. The entire world must clearly look sculpted by a real child using colorful Play-Doh clay - soft rounded shapes, uneven geometry, tiny fingerprints, squished textures, slightly crooked buildings, playful proportions, imperfect symmetry, and adorable handcrafted charm. The miniature city should include recognizable landmarks, bridges, rivers, cafés, food stalls, apartment buildings, parks, trains, buses, tiny clay people, trees, clouds, and playful neighborhood scenes. Dense with delightful micro-details while remaining organized and cozy. The child should feel authentic and natural, wearing casual everyday clothing with a curious, proud expression. Avoid stereotypes or costume-like styling. Visual style: premium children’s editorial illustration, soft claymation-inspired rendering, miniature diorama photography mood, whimsical storytelling, high-end family travel magazine aesthetic, ultra detailed, handcrafted warmth. Lighting & color: bright neutral daylight, soft diffused natural indoor lighting, airy Scandinavian editorial mood, crisp whites, fresh pastel Play-Doh palette, slightly cool-neutral white balance, clean highlights, luminous soft shadows. Avoid yellow tint, orange cast, sepia tone, moody cinematic lighting, neon oversaturation, or dark shadows. The city must feel genuinely handmade by a talented five-year-old - playful, imperfect, emotional, and imaginative, never like professional miniature modeling or hyperreal sculpture. No fake text, logos, watermarks, AI artifacts, hyperreal architecture, or over-polished miniature aesthetics. Bottom-right corner: small handwritten white crayon sentence: Let’s play in [City Name] The handwriting should feel naturally childlike, cute, uneven, and readable.",
@@ -7700,7 +7745,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 855,
+    "id": 860,
     "title": "3D Liquid Art Poster",
     "category": "ui",
     "prompt": "A mesmerizing and explosively colorful vertical poster featuring giant 3D liquid fluid sculpture forms, enormous glossy morphing blob shapes in vivid electric colors — a massive melting form in hot magenta pink flowing and dripping downward, intersecting with a giant swirling wave of electric cobalt blue, a third liquid mass in neon lime green curling upward like a breaking ocean wave, all three liquid forms colliding at the center in a spectacular splash explosion with hundreds of flying colorful droplets frozen mid-air, each liquid surface rendered with a perfect mirror-glossy finish reflecting the surrounding colors in dazzling distorted highlights, the background a clean bright white making the vivid color explosions pop with maximum visual impact, smaller floating 3D geometric shapes — spheres cubes and diamonds — in candy yellow coral orange and violet orbiting the main liquid forms, bold heavy rounded white typography outlined in black at the top reading \"LET IT FLOW\" in massive bouncy letters, smaller subtitle below \"Create without limits\", tiny spark and splash symbols scattered as accents, ultra-saturated maximum color impact, premium 3D render quality, 9:16 vertical ratio",
@@ -7709,7 +7754,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 856,
+    "id": 861,
     "title": "Isometric Travel Poster",
     "category": "scene",
     "prompt": "Design a vertical retro mid-century travel poster of [CITY NAME] showcasing [LANDMARK]. Stick to a tight 3-color scheme: cream-toned paper background, black technical line drawing, plus one [COLOR] accent. Aesthetic: minimalist isometric top-down aerial perspective with very fine cross-hatching and silkscreen print grain. Color rules: fill the entire sky in flat solid [COLOR], add small [COLOR] touches on rooftops or street details. Zero gradients allowed. Typography: large bold sans-serif \"[CITY NAME]\" at the top in cream, with the city's name in its native language set smaller in cream beneath it. #AIart #GPTImage2",
@@ -7718,7 +7763,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 857,
+    "id": 862,
     "title": "Vintage Travel Postage Stamp",
     "category": "scene",
     "prompt": "Vintage travel postage stamp design featuring [CITY / COUNTRY], ultra-detailed illustrated souvenir stamp, elegant art deco typography spelling “[NAME]” across the center in large ornate serif letters, iconic landmarks and skyline of [PLACE], traditional cultural architecture, scenic local elements, palm trees / boats / streets / mountains depending on location, warm cinematic lighting, soft pastel sky, retro airmail aesthetics, aged paper texture, engraved print style, luxurious vintage tourism poster feel, intricate ornamental borders, postal cancellation mark with local language and English text, “3.50 AED” denomination, symmetrical composition, highly detailed linework, muted [COLOR PALETTE] color scheme, nostalgic philatelic artwork, premium collectible stamp aesthetic, realistic shading, textured ink print, retro travel poster style, 4k illustration, highly detailed vintage engraving.",
@@ -7727,7 +7772,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 858,
+    "id": 863,
     "title": "Vintage Paper Collage Set",
     "category": "scene",
     "prompt": "Aesthetic vintage paper collage portrait of a stylish woman taking a mirror selfie, made entirely from torn magazine and newspaper pieces, layered mixed-media artwork, neutral beige and brown tones, Vogue-inspired fashion editorial style, black sunglasses, sleek ponytail hairstyle, white corset top, silver jewelry, purple smartphone, textured ripped paper edges, handcrafted mosaic effect, realistic shadows and depth, chic typography cutouts, inspirational quotes scattered around, cozy luxury aesthetic, highly detailed analog collage art, soft warm lighting, Instagram moodboard vibe, premium editorial composition, ultra detailed, 4k Prompt : Vintage breakfast aesthetic collage made from torn magazine and newspaper clippings, artistic mixed-media paper mosaic style, croissants on a plate with jam, black coffee in a dark cup, fresh fruits and berries, butter dish with knife, café table atmosphere, dark green textured background, ripped paper layers with visible cracks and folds, lifestyle editorial typography, cozy European café vibe, warm earthy tones, handcrafted scrapbook look, realistic paper texture, aesthetic Pinterest moodboard composition, soft cinematic lighting, luxury brunch aesthetic, ultra detailed, high realism, 4k collage art style",
@@ -7736,7 +7781,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 859,
+    "id": 864,
     "title": "Cubist Kawaii Vector Portrait",
     "category": "realistic",
     "prompt": "Create a cute neo-expressionist cubist minimal vector portrait illustration, Picasso meets kawaii minimalism, inspired by stylized fashion editorials and playful modern art. Ultra-simplified exaggerated facial features with oversized abstract eyes, flat cartoon eye shapes, minimal black dots or single curved strokes, no realistic iris details, no eyelashes, extremely reduced facial detail. Tiny abstract nose drawn with one short angular line.￼ Small single-stroke lips, tiny soft geometric mouth shape, minimal expression marks, no realistic mouth anatomy. Rounded cheeks, dreamy innocent expression, playful asymmetrical proportions, elongated elegant neck, simplified geometric facial planes, stylized angular hair shapes, subtle caricature aesthetics, childlike artistic distortion.￼ Use clean scalable vector shapes, flat color blocking, bold primitive contour lines, sharp Bézier curves, abstract polygon composition, minimal linework, naive handmade drawing quality, expressive empty space, icon-like facial abstraction, no realistic rendering, 2D primitive facial symbols. Add subtle oil pastel grain overlays, rough handmade brush accents, raw scribbled handwritten marks, visible pigment texture, silkscreen poster feeling.￼ Vibrant limited color palette against deep matte black background. Luxury editorial gallery poster composition, contemporary fashion illustration, artsy modern cubist poster, stylish and adorable, premium print-ready vector artwork.￼",
@@ -7745,7 +7790,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 860,
+    "id": 865,
     "title": "Trash Polka Headphones Portrait",
     "category": "realistic",
     "prompt": "​A high-detail digital painting of a young woman wearing large, vibrant red over-ear headphones, looking directly at the viewer with a piercing gaze. The art style is a fusion of stylized realism and urban abstract expressionism. Her hair is messy, light brown/blonde with loose strands and sharp, geometric shards integrated into the locks. The composition features heavy ink splatters, paint drips, and chaotic red and black brushstrokes reminiscent of 'trash polka' art.￼ The background is a clean, minimalist off-white, making the bold red accents and fine linework pop. High contrast, sharp focus on the eyes, cinematic lighting, 8k resolution, trendy street art aesthetic. ​Key Technical Elements to Capture ​Color Palette: Dominated by Red, Black, and White. This high-contrast triad is essential for that aggressive, modern look. ​Artistic Influence: Mentioning \"Trash Polka\" or \"Ink Drip Art\" helps the AI understand the messy, splatter-heavy background and the \"shattered\" look of the hair. ​Character Features: Use terms like \"piercing gaze\" and \"stylized realism\" to ensure the face isn't too cartoonish or too photographic, hitting that perfect \"concept art\" middle ground. ​Graphic Elements: The image uses geometric shards and abstract textures overlapping the subject, which creates a sense of depth and digital glitchiness. Aspect ratio is 9:16",
@@ -7754,7 +7799,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 861,
+    "id": 866,
     "title": "3D Typography Travel Poster",
     "category": "3d",
     "prompt": "Create a 3:2 premium 3D typography-based travel poster for [CITY], using luxury editorial destination advertising fused with realistic sculptural letterform architecture. The city name “[CITY]” must be the dominant subject, occupying most of the canvas. Build the letters as large, realistic, three-dimensional sculptural forms made from glossy painted material, polished ceramic, soft plaster, carved stone, sunlit architectural surfaces, or city-adaptive materials. Each letter should physically transform into the city’s identity: landmarks, skyline silhouettes, arches, towers, domes, bridges, windows, balconies, cultural patterns, coastal forms, or street details must grow directly out of the letterforms. Landmarks should feel architecturally integrated, not pasted behind or around the word. A tower may rise from a vertical stem, a bridge may connect two letters, a dome may form the curve of a rounded letter, rooftops may shape the top edges, and windows or ornamental details may be embedded into the letter faces. Use a low-angle three-quarter camera view so the typography feels monumental, cinematic, premium, and friendly. Place the 3D city-name sculpture slightly low in the frame, filling the central and lower portions of the poster, with generous negative space above. At the top header, add a refined horizontal row of faded landmark symbols related to the city: tiny vector icons, or translucent architectural glyphs. Keep them very soft, elegant, and secondary, like premium magazine header details. Add each landmark name below its icon. Keep all faded and premium. Remove any visible sun from the top-left corner. Use bright natural daylight with a soft key light from the upper-left, gentle fill light, clean highlights, subtle ambient occlusion, and soft contact shadows beneath the letters. The lighting should feel cheerful, fresh, and editorial, not dark or overly cinematic. Use a bright city-adaptive palette based on [CITY]: coastal cities use aqua, coral, cream, and sunny yellow; historic cities use warm stone, terracotta, olive, and soft sky blue; tropical cities use turquoise, mango, palm green, and white; mountain cities use alpine blue, meadow green, snow white, and golden warmth; nightlife cities use violet, cyan, peach, and amber. Keep colors clean, optimistic, premium, and controlled. Add subtle editorial text elements to improve the poster: small uppercase header text such as “DESTINATION SERIES”, a tiny location code like “CITY / 01”, delicate vertical divider lines, a minimal footer line such as “VISIT [CITY]”, and small microtype coordinates or issue number near the bottom edge. These text elements must remain quiet and secondary so the large 3D city name stays the hero. Background should be clean and spacious with a soft sky gradient, delicate clouds, or abstract color field only. Do not place extra landmarks in the background; all major city identity must come from the typography itself, except the faded symbolic header row. Style: premium editorial travel advertising, luxury magazine cover, realistic 3D typographic sculpture, bright modern optimism, cheerful wanderlust, cultural identity, clean art direction. Negative prompt: avoid generic travel posters, separate landmark collages, landmarks pasted behind text, flat typography, cluttered backgrounds, visible sun in the top-left corner, excessive icons, dark cinematic lighting, muddy colors, cheap souvenir aesthetics, unreadable city name, distorted letters, random gradients, noisy textures, stock-template layouts, and overdecorated tourist graphics.",
@@ -7763,7 +7808,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 862,
+    "id": 867,
     "title": "泳装时尚杂志四宫格",
     "category": "scene",
     "prompt": "泳装时尚杂志广告页面，4:3 ，日本模特， S型曲线，【颜色】色系。（变换姿势和风格，四宫格展示）",
@@ -7772,7 +7817,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 863,
+    "id": 868,
     "title": "Monochrome Caricature Portrait Sheet",
     "category": "realistic",
     "prompt": "A stylized black-and-white pencil ink caricature portrait sheet featuring two distinct charismatic characters with contrasting face shapes and expressions. Drawn in a loose sketchbook style with visible construction lines, rough pencil strokes, expressive exaggerated facial proportions, modern caricature illustration aesthetic. \n\nLeft character: handsome charismatic man with messy hair, sharp jawline, confident smirk, expressive sideways eyes, slim long face, casual t-shirt. \n\nRight character: muscular bald man with raised eyebrow, thick neck, strong jawline, dominant confident expression, casual t-shirt. \n\nMinimal shading, thin crosshatching, clean line art, monochrome aesthetic, white background, artistic character design concept sketch, highly detailed hand-drawn look, playful exaggerated anatomy, professional caricature sketch style",
@@ -7781,7 +7826,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 864,
+    "id": 869,
     "title": "星河入梦 3D CG 插画",
     "category": "3d",
     "prompt": "一位成年东方幻想系女性角色，梦幻星河仙女风，3D CG 高精度插画质感，9:16 竖版构图，画面充满全息星河、流光粒子、银河丝带与柔雾光晕。\n\n人物位于画面中央偏左，半身到大腿视角，身体呈优雅的 S 型动态站姿。她的上半身微微向一侧倾斜，腰部自然收束并轻轻扭转，胯部向相反方向形成柔和弧线，一侧肩膀略微抬起，另一侧肩膀自然放松，整体姿态像在星河中缓慢旋转，既轻盈又具有女性柔美。头部微微低垂，脸部呈三分之二侧脸，眼神温柔、安静、梦幻，神情清冷而优雅。\n\n她拥有精致柔和的东方幻想系五官，白皙通透的肌肤，肌肤带有柔和的次表面散射与珍珠般高光，面部轮廓干净细腻，鼻梁纤细，嘴唇柔软，睫毛纤长。长发为淡银白色与浅粉紫色渐变，发丝被星风吹起，向画面右侧大面积飘散，形成流动感极强的弧线，与人物 S 型身体曲线相互呼应。\n\n服装是一件梦幻星河礼裙，材质轻盈透明但保持优雅克制，肩部为柔软薄纱结构，胸口与腰部有银河般的渐变流光纹理，颜色以浅粉、淡蓝、薰衣草紫、珍珠白为主，局部点缀金色星尘。裙身像星云与薄纱融合而成，轻盈飘动，围绕人物身体形成螺旋状流光带，强调腰线、肩颈线与整体 S 型姿态，但不刻意暴露。\n\n背景是梦幻宇宙星河空间，整体色调为淡粉色、浅蓝色、薰衣草紫与柔金色，充满细密星光、星尘粒子、银河流线、半透明全息光带。光线从左上方柔和洒下，在人物发丝、肩颈、脸颊和礼裙边缘形成温柔轮廓光。画面空气感强，光晕柔和，整体像漂浮在银河梦境中。\n\n构图要求：\n人物身体线条呈明显但自然的 S 型曲线；\n肩、腰、胯形成柔和的反向动态；\n头发与星河丝带共同形成环绕式流动；\n画面保留大量梦幻光雾与星尘；\n人物优雅、柔美、梦幻、高级；\n重点表现女性身姿的柔和曲线、星河仙女气质与高级幻想感。\n\n风格关键词：\ndreamy fantasy girl, celestial goddess, galaxy dress, holographic starlight, soft pastel colors, ethereal beauty, elegant S-curve pose, cinematic lighting, ultra detailed 3D CG, soft glow, translucent silk, star particles, romantic fantasy atmosphere, high-end illustration, 16K detail, vertical poster composition\n\n负面提示词：\n身体比例错误，畸形手指，多手指，多手臂，脸部崩坏，眼睛不对称，廉价质感，灰蒙蒙，脏色调，过度锐化，低清晰度，杂乱背景，文字，水印，logo",
@@ -7790,7 +7835,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 865,
+    "id": 870,
     "title": "Character Profile Sheet",
     "category": "illustration-standing",
     "prompt": "A stylish illustrated character profile sheet of a handsome young man sketchbook aesthetic, mixed media ink and watercolor style, highly detailed fashion portrait, messy dark curly hair, sharp blue eyes, short beard, confident expression, wearing a long black trench coat, dark casual clothes, brown leather backpack, rugged boots.\nThe page layout includes multiple poses and close-up portraits, surrounded by handwritten notes, doodles, symbols, travel sketches, cameras, mountains, coding references, and adventure elements.\nPersonality board design with handwritten text such as traveler, coder, photographer, teacher, sound engineer, Scorpio zodiac sign, river rafting, creative ideas, life goals, motivational notes.\nIncludes small chibi version of the character, laptop working scene, rafting action scene, map sketches, stars, arrows, and artistic scribbles.\nModern concept art meets fashion illustration, dynamic ink strokes, expressive line art, textured watercolor shading, warm paper background, cinematic composition, Pinterest aesthetic, highly detailed, visually rich, creative journal vibe, character design sheet, semi-realistic comic illustration.",
@@ -7799,7 +7844,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 866,
+    "id": 871,
     "title": "Korean Editorial Fashion Moodboard",
     "category": "scene",
     "prompt": "Create an ultra-realistic luxury fashion moodboard poster in a premium Korean editorial magazine style. A beautiful young woman stands elegantly in the center wearing a flowing ivory floral chiffon maxi dress with layered translucent fabric, tiny embroidered flowers, delicate lace trims, and soft movement in the fabric. Over it she wears a textured handmade mustard crochet cardigan with oversized sleeves and cozy vintage stitching details. She has long voluminous dark wavy hair with soft curtain bangs, glowing radiant skin, glossy peach makeup, subtle freckles, soft shimmer eyelids, glossy nude lips, and delicate gold jewelry including layered necklaces, pearl rings, and slim bracelets. She wears elegant cream lace-up heels and carries a handcrafted crochet tote bag decorated with sunflower charms, daisy patches, mini ribbons, tiny plush keychains, and aesthetic beads.\nThe background is a bright warm editorial studio with creamy beige gradients, golden sunlight rays, subtle shadows, soft reflections, floating dust particles, and dreamy glowing highlights. The layout should feel like a realistic Pinterest luxury collage board with clean spacing and balanced composition.\nAround the character include many small scrapbook-inspired collage sections:\n\n– close-up beauty portraits\n\n– sunflower photography\n\n– perfume bottle flatlays\n\n– jewelry editorials\n\n– cozy café lifestyle moments\n\n– fashion accessories\n\n– handwritten diary pieces\n\n– soft fabric texture swatches\n\n– vintage books\n\n– coffee cups\n\n– aesthetic shoes\n\n– makeup close-ups\n\n– hair inspiration photos\n\n– dried flower arrangements\n\n– cute doodles and tiny heart sketches\n\n– polaroid-style frames\n\n– paper tape pieces\n\n– editorial magazine snippets\nTypography should be very small, elegant, subtle, and blended naturally into the layout like luxury fashion magazine captions. Use tiny serif text such as: “golden aura”, “soft bloom”, “editorial notes”, “mood archive”, and “daily elegance”. Text must never dominate the image.\nOverall aesthetic: warm, feminine, luxurious, ultra detailed, realistic photography, soft dreamy atmosphere, premium Korean fashion magazine moodboard, cinematic lighting, highly aesthetic Pinterest composition, rich textures, airy and bright color palette.",
@@ -7808,7 +7853,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 867,
+    "id": 872,
     "title": "Busan Travel Journal Illustration",
     "category": "scene",
     "prompt": "Create a dreamy handcrafted ( CITY)travel journal illustration, as if painted in an artist’s personal sketchbook while traveling through (COUNTRY )\nSCENE: A romantic Busan coastal setting inspired by Gamcheon Culture Village + Haeundae + Songdo seaside charm. Feature: oceanfront promenade gentle waves seagulls Korean seaside cafés pastel coastal buildings tiny fishing boats paper lantern accents boardwalk details colorful Busan hillside houses in the distance beach umbrellas ocean breeze atmosphere subtle Korean storefront signage travel discovery mood \nSUBJECT: Place the woman from the uploaded reference naturally in the scene. Appearance:￼ long flowing copper auburn hair moving softly in the sea breeze hazel-green eyes fair skin natural elegant expression soft thoughtful gaze \nWARDROBE: romantic coastal travel styling cream knit sweater flowing midi skirt light trench coat or airy cardigan delicate scarf moving with wind comfortable elegant walking shoes \nPOSE OPTIONS: ((walking along the Busan seaside promenade)) OR ((sitting at a Korean seaside café sketching in a journal)) OR￼ ￼ ((holding a travel journal while looking toward the ocean)) OR ((standing near the railing with wind in hair, candid cinematic pose)) \nSTYLE: premium watercolor travel-journal illustration hand-drawn ink sketch detailing transparent watercolor washes aged textured paper pigment bleeding ink splatters vintage travel scrapbook aesthetic editorial artistic composition luxury Pinterest-worthy illustration \nADD SCRAPBOOK ELEMENTS: handwritten diary notes \"BUSAN\" \"KOREA\" tiny illustrated coastline map￼ metro ticket fragments passport stamps vintage postage marks boarding pass scraps coffee stains botanical doodles hand-drawn arrows tiny seashell sketches travel annotations paper tape collage small Korean handwritten notes \nCOLOR PALETTE: soft ocean blue dusty aqua muted sand beige faded coral warm cream seafoam green soft terracotta accents washed watercolor neutrals LIGHTING: golden morning seaside sunlight airy coastal glow romantic atmospheric haze gentle cinematic warmth\n COMPOSITION: vertical travel journal page 4:5 aspect ratio ultra detailed cozy nostalgic storytelling peaceful romantic vacation mood \nNEGATIVE PROMPT: CGI, photorealistic rendering, anime face, identity change, plastic skin, neon cyberpunk, futuristic objects, dark horror mood, distorted anatomy, extra limbs, messy cluttered composition, AI glitches, oversaturated colors \n￼ metro ticket fragments passport stamps vintage postage marks boarding pass scraps coffee stains botanical doodles hand-drawn arrows tiny seashell sketches travel annotations paper tape collage small Korean handwritten notes \nCOLOR PALETTE: soft ocean blue dusty aqua muted sand beige faded coral warm cream seafoam green soft terracotta accents washed watercolor neutrals LIGHTING: golden morning seaside sunlight airy coastal glow romantic atmospheric haze gentle cinematic warmth",
@@ -7817,7 +7862,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 868,
+    "id": 873,
     "title": "Borussia War Room Interior",
     "category": "scene",
     "prompt": "Photorealistic interior render, ultra-luxury industrial football war room and man cave, wide vertical 9:16. Borussia Dortmund signal yellow and black palette throughout.\n\nArchitecture: the room feels like the inside of a repurposed Ruhr Valley steel factory — exposed raw steel walls with riveted panel texture painted in matte black, massive yellow steel I-beams crossing the ceiling horizontally, concrete floor sealed in high-gloss black epoxy with the BVB09 crest inlaid in signal yellow resin at center, glowing from LED underlighting.\n\nBack wall: the entire wall is a recreation of the Gelbe Wand the Yellow Wall standing terrace at Signal Iduna Park a full-width photorealistic mural of 81,000 fans in yellow and black holding a massive tifo, receding into the distance, backlit from behind the wall to create depth and glow.\nIn front of the mural: a raised steel platform with a \nblack steel railing like a stadium terrace edge.\n\nLeft wall: raw black steel display wall — welded steel frame shadow boxes containing Bundesliga trophies, DFB-Pokal cups, Champions League runners-up plates in industrial mounts, all under harsh yellow spotlights. Between display boxes: \nBVB yellow jerseys framed in welded black steel frames, \nno names visible.\n\nCenter: two enormous black leather industrial recliners \nfacing a massive curved screen showing match footage \nunder Yellow Wall atmosphere, signal yellow cup holders built into the armrests.\nRight wall: black steel bar unit with yellow LED backlit shelving, yellow and black branded glassware, industrial pipe bar rail, three black steel bar stools with yellow leather seats.\n\nFloor detail: yellow painted hazard stripes along the \nperimeter of the room, like factory safety markings, \nadding to the industrial authenticity.\n\nCeiling: cluster of oversized industrial pendant lights \nin matte black steel with signal yellow interior, \ncasting pools of sharp yellow light across the black epoxy floor.\n\nWindow: steel-framed industrial window showing Signal Iduna Park stadium exterior at night, yellow exterior lights glowing through the Ruhr Valley fog.\n\nAtmosphere: raw industrial power, signal yellow burning against matte black, steel and concrete and light — the most intensecolour contrast of all twelve rooms. Photorealistic, 35mm, cinematic.",
@@ -7826,7 +7871,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 869,
+    "id": 874,
     "title": "Kawaii Muslim Cafe Scene",
     "category": "scene",
     "prompt": "Cute kawaii-style lifestyle photography, adorable chibi-inspired Muslim characters with soft rounded faces and blush cheeks, pastel aesthetic cafe environment, cozy playful atmosphere, ultra soft lighting, handmade paper-cutout illustration effect mixed with realistic photography, pastel blue, cream, pink, and beige color palette, whimsical interior design, toy-store aesthetic, cozy Korean cafe vibes, oversized cute props like giant ice cream decorations and pastel foam blocks, soft textured surfaces, minimal shadows, dreamy mood, wholesome friendship energy, aesthetic Instagram composition, highly detailed clothing fabrics, modest fashion with hijab styling, cute cartoon proportions, cozy storytelling scene, soft matte textures, handcrafted diorama look, warm emotional atmosphere, clean composition, adorable character expressions, Japanese kawaii aesthetic mixed with modern lifestyle photography, ultra detailed, playful and comforting vibe, Pinterest trending style, soft focus depth of field, pastel cinematic color grading, 8k.\n\nScene Variations:",
@@ -7835,7 +7880,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 870,
+    "id": 875,
     "title": "Marrakech Watercolor Travel Poster",
     "category": "scene",
     "prompt": "Vintage watercolor travel poster of Marrakech, Morocco with a warm beige textured background. Top features ornate Islamic geometric motif, text 'WELCOME TO MARRAKECH' in large serif terracotta font, subtitle 'WHERE TRADITION INSPIRES EVERY JOURNEY' with decorative diamond dividers. \n\nForeground shows a cozy rooftop café scene: wrought iron table and chair with mosaic top, Moroccan teapot and glass of tea, chalkboard sign reading 'EXPLORE THE COLORS OF MOROCCO' with a hand-drawn sketch of a Moroccan gate and palm tree below. Include a hanging black sign 'CAFÉ DE LA MÉDINA', potted cactus, ceramic vases, a lantern, and a colorful Berber rug draped over a stone wall.\n\nBackground depicts the Medina skyline with terracotta buildings, palm trees, the Koutoubia Mosque minaret, market stalls with umbrellas, crowds, and the Atlas Mountains in the distance under a soft sky with birds. Bougainvillea flowers and vines frame the left side. \n\nBottom center has a palm tree icon with text 'MOROCCO' and small decorative motifs. Soft watercolor style, warm earthy tones, nostalgic travel poster aesthetic, vertical 2:3 aspect ratio.\"",
@@ -7844,7 +7889,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 871,
+    "id": 876,
     "title": "Retro Travel Poster Collage",
     "category": "scene",
     "prompt": "Generate a retro travel poster collage style main visual for \"[Country Name] TRAVEL POSTERS\".\n\nOverall Layout:\n\nAntique beige paper background\n\nLarge, bold country names at the top (e.g., JAPAN / ITALY / FRANCE)\n\nCentral Subheading:\n\n“TRAVEL POSTERS FROM AROUND THE WORLD.”\n\n“CREATED ENTIRELY WITH CHATGPT USING JUST ONE PROMPT.”\n\nBottom: 2x3 six-grid poster layout\n\nEach grid represents a different city/region\n\nThin white borders between posters\n\nOverall resembling a high-end retro travel magazine cover + Midcentury travel poster design\n\nVisual Style:\n\nScandinavian Travel Poster\n\nMidcentury Modern\n\nVintage Editorial Design\n\nRetro Tourism Advertisement\n\nHigh-end minimalist typography\n\nWarm golden sunset lighting\n\nAntique printing texture\n\nCinematic lighting\n\nNo cartoonish feel\n\nHigh resolution\n\nExquisite details\n\nSoft retro color tones (beige, caramel, amber gold, dark brown)\n\nTypography heavy design\n\nCinematic composition\n\nPoster layout Aesthetic\n\nEach poster panel must include:\n\nCity name in English (extra large font)\n\nCountry name\n\nSmall slogan\n\nCoordinate numbers\n\nMinimalist icon\n\nRepresentative local landmark\n\nRetro travel poster composition\n\nPlease generate the following six city themes:\n\n1. [City 1] — [Representative attractions/atmosphere]\n\n2. [City 2] — [Representative attractions/atmosphere]\n\n3. [City 3] — [Representative attractions/atmosphere]\n\n4. [City 4] — [Representative attractions/atmosphere]\n\n5. [City 5] — [Representative attractions/atmosphere]\n\n6. [City 6] — [Representative attractions/atmosphere]\n\nAll text must be in English.\n\nThe overall style should resemble:\nhighend vintage travel advertisement poster,\neditorial layout design,\nretro tourism campaign,\nluxury magazine aesthetic,\nwarm cinematic sunset lighting,\nultra detailed,\n8k,\nclean typography,\nmuseum poster quality.",
@@ -7853,7 +7898,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 872,
+    "id": 877,
     "title": "Serene City Travel Illustration",
     "category": "scene",
     "prompt": "[CITY] = Seoul\n[COUNTRY] = South Korea\n[LANDMARK] = a recognizable landmark or scenic element of [CITY]\n\nCreate a serene architectural travel illustration inspired by [CITY], [COUNTRY], in a soft hand-drawn watercolor and ink style.\n\nMain concept:\nShow a quiet, charming street-side house or small building inspired by the everyday atmosphere of [CITY], [COUNTRY], while subtly incorporating [LANDMARK] in the composition.\nThe landmark should appear naturally in the background, distance, or surrounding scenery, so the image clearly feels connected to [CITY], [COUNTRY] without losing the calm residential mood.\n\nVisual style:\ndelicate hand-drawn architectural illustration,\nsoft watercolor washes,\nthin ink outlines,\nslightly imperfect sketch lines,\nwarm sunlit atmosphere,\ngentle pastel palette,\nsubtle paper texture,\nquiet travel sketchbook aesthetic,\nminimal yet detailed composition,\ncalm editorial illustration mood,\npoetic everyday scenery,\ncozy and refined visual tone,\nno photorealism,\nno harsh contrast,\nno saturated colors,\nno dramatic lighting.\n\nScene:\nA peaceful small house, café, studio, or local building with simple walls, a tiled or regionally inspired roof, painted doors or windows, and several potted plants arranged naturally in front.\nInclude subtle local architectural details and everyday design elements that feel authentic to [CITY], [COUNTRY].\nIncorporate [LANDMARK] as a softly integrated city symbol — for example, visible above rooftops, in the distance, or as part of the surrounding skyline or landscape.\nThe overall scene should feel quiet, elegant, warm, and locally rooted.\n\nComposition:\nlandscape travel-poster format,\nwide horizontal layout,\nlarge open sky occupying the upper half or upper-left area,\nmain building placed across the lower portion of the composition,\nbalanced negative space,\nfront-facing or slightly angled composition,\npotted plants and small objects along the base,\nlandmark subtly placed in the background or upper distance,\nclean and spacious layout,\nminimal but emotionally rich composition.\n\nTypography:\nInclude the city name “[CITY]” clearly in the image.\nRender “[CITY]” as elegant travel-poster typography, large but refined, placed prominently in the sky area or upper portion of the composition.\nOptionally include “[COUNTRY]” in smaller text beneath or near the city name.\nThe text should feel integrated into the poster design, not like a random overlay.\nUse clean, tasteful lettering that matches the calm watercolor travel-poster mood.\n\nColor palette:\npale sky blue,\nwarm cream,\nterracotta,\nmuted blue accents,\nolive and soft green,\nlight earthy browns,\nsoft natural neutrals.\n\nTexture:\nvisible watercolor paper grain,\ntransparent paint layering,\nsoft handmade brush texture,\ngentle ink-and-wash finish.\n\nMood:\npeaceful,\nsunny,\nquiet,\nnostalgic,\ncozy,\nrefined,\npoetic,\ncalm everyday travel atmosphere.\n\nImportant:\nThe image should express both the intimate charm of a local building and the identity of [CITY], [COUNTRY] through the inclusion of [LANDMARK].\nDo not make the landmark too dominant; it should support the mood rather than overpower the house scene.\nThe city name “[CITY]” must be visible and clearly readable in the final image.\n\nAspect ratio: 4:3 or 3:2\n\nCreator: @hermes_agent_kr on Threads",
@@ -7862,7 +7907,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 873,
+    "id": 878,
     "title": "Watercolor 2026 Calendar Poster",
     "category": "scene",
     "prompt": "使用上传的第一张图作为【整体风格与版式参考】，使用上传的第二张图作为【人物身份参考】。\n\n请生成一张完整的 2026 年全年日历插画海报。\n\n画面风格：\n保留参考图一的手绘水彩插画风格，温暖米白纸张背景，细腻墨线勾勒，柔和水彩晕染，轻微纸张纹理，带有季节感的小装饰元素，如花草、雪花、爱心、纸飞机、星星、云朵、树叶、相机、书本、咖啡杯、礼物、圣诞树等。整体氛围温柔、治愈、干净、生活感强，像一本手账风全年日历。\n\n版式要求：\n采用 3 列 × 4 行的全年月历排版，共 12 个月份。\n顶部居中写大标题：“2026”，使用手写感黑色笔刷字体。\n每个月份标题格式为：\n“01 January”\n“02 February”\n“03 March”\n一直到\n“12 December”。\n\n每个月份区域都包含：\n1. 月份英文标题\n2. 小型日历日期表\n3. 一位人物插画\n4. 对应季节的小场景装饰\n\n人物要求：\n将参考图一中的男性人物全部替换为参考图二中的女性人物。\n保持参考图二人物的核心特征：\n年轻亚洲女性，长棕黑色头发，空气刘海，戴细框眼镜，五官精致，表情温柔自然，略带安静、微醺、慵懒感。\n\n人物服装参考：\n宽松白色衬衫，黑色内搭，黑色短裙，黑色丝袜，黑色鞋子，细项链或 choker。\n服装需要融入手绘水彩风，不要像照片硬贴上去。\n\n每个月人物动作不同：\n1 月：坐着捧热咖啡，冬日温暖感  \n2 月：托腮坐着，周围有爱心元素  \n3 月：低头写手账或笔记本  \n4 月：拿着复古相机  \n5 月：坐着看书，旁边有书堆和茶杯  \n6 月：休闲坐姿，旁边有相机和蓝色水彩装饰  \n7 月：坐在躺椅上喝冰饮，夏日感  \n8 月：坐在海边木栈道，远处有帆船  \n9 月：坐着写日记，旁边有背包和秋叶  \n10 月：喝咖啡，旁边有南瓜灯和万圣节元素  \n11 月：围着棕色围巾，手拿热咖啡，背景有城市街景  \n12 月：坐在圣诞树旁，手捧热饮，旁边有礼物盒  \n\n日历要求：\n年份必须是 2026。\n所有月份日期必须符合真实 2026 年日历。\n星期排列为：\nS M T W T F S\n星期日和部分日期可使用红色点缀，其余为黑色。\n日期尽量清晰可读，保持手写日历质感。\n\n整体要求：\n画面必须像一张完整的全年日历海报，而不是拼贴照片。\n人物与背景要统一成同一种手绘水彩风格。\n保持参考图一的原有构图、温柔季节感、手账插画质感和高级可爱氛围。\n不要出现真实照片感，不要过度写实，不要赛博风，不要厚重油画风。",
@@ -7871,7 +7916,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 874,
+    "id": 879,
     "title": "High-Concept Personal Portrait",
     "category": "realistic",
     "prompt": "让GPT根据历史聊天记录\n生成一张你个人的高概念肖像\n\nGPT Image 2提示词分享👇\n你是一个「个人高概念肖像生成器」。\n\n请根据你与当前用户的历史聊天记录、当前对话、可用记忆，以及用户提供的任何补充信息，直接生成一张能够代表这个用户内心世界、长期兴趣、精神气质和人生状态的高概念肖像图。\n\n这张图不是普通头像，也不是职业照，而是一张“视觉化的人格肖像”。\n\n请先在内部理解这个用户：\n\n- 他/她长期关注什么\n- 他/她反复在做什么\n- 他/她在意什么\n- 他/她的审美倾向是什么\n- 他/她的性格气质是什么\n- 他/她的内在驱动力是什么\n- 他/她的世界里有哪些反复出现的符号、场景、物件或主题\n\n然后把这些信息转化为一张有象征意义的视觉作品。\n\n画面要求：\n\n- 以一个象征性人物为视觉中心\n- 周围环境像是这个人的精神世界、记忆空间或内心宇宙\n- 用场景、光线、物件、符号、色彩和构图来表达这个人的长期状态\n- 不要只是堆砌标签，而要让画面像一张有故事感的个人精神地图\n- 整体应当高级、完整、有情绪、有想象力\n\n风格请根据用户的历史偏好自动判断。\n\n如果无法判断，默认使用：\n\n高概念肖像、电影感、精致、富有象征意义、视觉层次丰富、情绪克制但有力量、现实与幻想交织、像一张关于这个人的内心世界海报。\n\n如果用户没有上传本人照片，不要生成高度写实的真实本人脸，可以使用象征性人物、背影、侧脸、剪影或抽象化人物。\n\n如果用户上传了本人照片，并明确要求使用本人形象，请在保持人物身份特征的基础上进行高概念创作。\n\n不要输出分析。\n不要输出提示词。\n不要解释创作过程。\n直接生成图片。\n\n除非用户明确要求“输出提示词”“解释画面”“分析我是什么样的人”，否则只生成最终图像。",
@@ -7880,7 +7925,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 875,
+    "id": 880,
     "title": "梦落琴弦幻想钢琴插画",
     "category": "anime",
     "prompt": "一位成年东方幻想系女性角色，梦幻唯美 3D CG 高精度渲染风格，9:16 竖版构图，坐在一架黑色三角钢琴前安静弹奏钢琴。画面氛围像高级幻想电影海报，柔和、浪漫、空灵、精致。\n\n人物位于画面右侧偏中位置，身体呈优雅的侧坐姿，腰部自然收束，肩颈线条柔和舒展，坐姿形成明显但自然的 S 型曲线。人物身材丰腴柔美，体态成熟健康，胸腰臀比例自然饱满，整体展现高级克制的女性美，可以看到胸部上半部分轮廓，以优雅、柔软、梦幻的气质为主。 \n\n她拥有精致柔和的东方幻想系五官，白皙通透的肌肤，肤质细腻，带有柔和的次表面散射光感。神情安静、温柔、专注，微微低头看向钢琴琴键，眼神沉静而梦幻。她拥有银白色到淡紫色渐变的超长柔顺发丝，头发自然垂落在肩背与胸前，发丝轻盈细腻，带有柔雾高光。耳侧佩戴一朵蓝色梦幻花朵发饰，点缀细小金色耳坠。\n\n服装为浅蓝紫色幻想礼裙，轻薄纱质层叠材质，带有柔和透明感与星光微粒，肩部与手臂有飘逸薄纱袖，裙摆自然散开。服装贴合身体但保持高级克制，突出柔和的女性曲线与丰腴体态，不做过度暴露处理。衣料带有细腻珠光、淡蓝色冷光与轻微星尘质感。\n\n场景是一间昏暗而高级的古典音乐室，左侧是一架黑色高亮漆面三角钢琴，琴盖打开，钢琴表面反射窗光与紫色花瓣。钢琴键清晰可见，人物双手自然放在琴键上，手指修长优雅，正在弹奏。背景有高大的复古窗户，窗外透入柔和冷白晨光，室内带有轻微雾气、空气尘埃与梦幻光晕。\n\n画面中大量紫色花瓣在空气中缓慢飘落，前景与背景都有虚化花瓣，形成强烈的空间层次。整体色彩以黑色钢琴、银白长发、淡蓝紫礼裙、紫色花瓣、冷白窗光为主，氛围高级、梦幻、浪漫、安静。光影柔和，边缘带有淡淡蓝紫辉光，电影级景深，精致细节，高级幻想插画质感，超清晰，8K，high detail, cinematic lighting, soft focus, dreamy atmosphere, elegant fantasy, premium 3D CG render。",
@@ -7889,7 +7934,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 876,
+    "id": 881,
     "title": "Coffee Girl By the River",
     "category": "scene",
     "prompt": "尝试一个固定模式的 gpt image 2  提示词结构,一个近景，一个中景\n\n生成一张图片：\n\n主体：一个端着咖啡的二次元女孩，正坐在河边，望着河里正在玩水的两只小狗\n场景：山谷里的一条小河，清空万里，天上飘着几片白云\n构图：中景，主体位于画面左侧，50mm 镜头，浅景深，背景轻微虚化\n光线：柔和的阳光从右上角照入\n风格：手绘线稿风格插画\n色彩：孔雀蓝、芥末黄、珊瑚粉、象牙白，简约而沉稳的配色方案\n细节：小河里的水流泛着阳光的反射\n氛围：温馨的日常氛围\n画质：简约而圆润的形态，保留墨水质感的粗犷线条\n避免：文字、水印、logo、畸形结构",
@@ -7898,7 +7943,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 877,
+    "id": 882,
     "title": "Floating Island Travel Poster",
     "category": "scene",
     "prompt": "Create a premium 9:16 hyper-realistic travel-poster of [COUNTRY NAME] in the same style as a luxury editorial miniature-map diorama: show the country as a recognizable floating island map with dramatic cliff edges, crystal-clear water, soft clouds, and a pure white  background. Use a clean, elegant poster layout with large culturally appropriate typography for “[COUNTRY NAME]” at the top, using a font style inspired by the country’s identity, history, script, or visual culture, plus a short refi",
@@ -7907,7 +7952,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 878,
+    "id": 883,
     "title": "Vintage Monochrome City Travel Poster",
     "category": "scene",
     "prompt": "Vintage monochrome city travel poster illustration, detailed urban sketch aesthetic, clean architectural line art mixed with soft watercolor shading, modern Southeast Asian city atmosphere, minimalist green-and-cream color palette, elegant travel poster typography, large bold city name at the top, bilingual typography with Asian characters, highly detailed street life scene, busy urban crossroads, flyovers, buses, motorcycles, cafes, local restaurants, pedestrians crossing streets, shopping mall",
@@ -7916,7 +7961,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 879,
+    "id": 884,
     "title": "Flat-Vector City Lifestyle Collage",
     "category": "scene",
     "prompt": "Create a sophisticated flat-vector editorial pattern illustration of [Melbourne], composed as a seamless lifestyle-art collage combining iconic landmarks, local culture, vacation scenes, and symbolic city objects.",
@@ -7925,7 +7970,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 880,
+    "id": 885,
     "title": "Sci-Fi Character Concept Sheet",
     "category": "illustration-standing",
     "prompt": "Create a 16:9 character concept sheet for a celestial voyager in an epic cinematic sci-fi fantasy aesthetic.",
@@ -7934,7 +7979,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 881,
+    "id": 886,
     "title": "Vintage Travel Collage Poster",
     "category": "scene",
     "prompt": "Vintage mixed-media travel collage poster, portrait orientation, themed around [COUNTRY].",
@@ -7943,7 +7988,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 882,
+    "id": 887,
     "title": "Premium Travel Infographic Poster",
     "category": "scene",
     "prompt": "Create an ultra-premium editorial travel infographic poster about FRANCE in a clean vertical 3:4 ratio.",
@@ -7952,7 +7997,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 883,
+    "id": 888,
     "title": "9-Frame Cinematic Storyboard Grid",
     "category": "scene",
     "prompt": "for GPT-2:\nCreate a single image storyboard with 9 cinematic frames arranged in a  3×3 grid. Each frame is a widescreen 16:9 panel with a film aspect ratio  letterbox. Style: ultra-cinematic sci-fi blockbuster mixed with premium  airline commercial. Think Blade Runner 2049 color grading meets a UEFA  Champions League broadcast opener meets a luxury brand TVC.",
@@ -7961,7 +8006,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 884,
+    "id": 889,
     "title": "复古1960年代啤酒广告海报",
     "category": "vfx",
     "prompt": "Authentic 1960s American advertising poster for [BREW], vintage mid-century commercial illustration, [PERSON DESCRIPTION] holding a frosty glass bottle of [BREW], bright optimistic lifestyle scene, nostalgic Americana atmosphere, bold [COLOR 1] and [COLOR 2] color palette, elegant retro typography, the text “[BREW]” prominently integrated into the poster design, authentic screen print texture, subtle paper grain, hand-painted illustration style, vintage Madison Avenue advertising aesthetic, clean composition, highly detailed, warm cinematic lighting, premium poster design, authentic 1960s print imperfections, painterly realism, soft brushwork, vertical composition 4:5",
@@ -7970,7 +8015,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 885,
+    "id": 890,
     "title": "电影导演提案板",
     "category": "scene",
     "prompt": "A premium director’s pitch presentation board for a high-budget cinematic production, showcasing a single, grounded human character with intense emotional readability and natural imperfections. The layout is art-directed and organically asymmetrical, avoiding rigid grids. Features a fluid, narrative full-body turnaround (capturing the character mid-stride across front, 3/4, profile, and rear views), detailed candid head studies expressing internal conflict, and a sweeping cinematic close-up portrait with dramatic Rembrandt lighting. Includes integrated texture macro-crops (weathered leather, realistic skin pores, distressed linen), minimalist production annotations, and an organic height scale. Shot on 35mm anamorphic, shallow depth of field, muted color grading, ultra-realistic textures, strict character and wardrobe consistency throughout.",
@@ -7979,7 +8024,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 886,
+    "id": 891,
     "title": "爆款美食信息图海报",
     "category": "vfx",
     "prompt": "Create a cinematic viral-style food poster for “Prediabetic Friendly Strawberry Cheesecake Overnight Oats” in a clean modern infographic aesthetic inspired by trendy TikTok and Pinterest recipe posters.\n\nThe poster should feature a large realistic mason jar filled with creamy strawberry cheesecake overnight oats layered with visible chia seeds, sliced strawberries around the inside glass, a thick cheesecake yogurt layer on top, fresh strawberries, and crushed walnuts. The oats should look ultra creamy, indulgent, healthy, and photorealistic with soft natural lighting and shallow depth of field.\nUse a soft pink, cream, and white color palette with bold typography.\nThe design should feel premium, feminine, modern, healthy, and social-media viral.\n\nMain headline in large stylish text:\n“STRAWBERRY Cheesecake OVERNIGHT OATS”\nAdd a pink label at the top saying:\n“PREDIABETIC FRIENDLY”\n\nInclude stylish infographic sections with rounded boxes and cute minimal icons for:\nINGREDIENTS\n½ cup rolled oats\n¾ cup unsweetened almond milk\n⅓ cup plain Greek yogurt\n1 tbsp chia seeds\n1 tbsp ground flaxseed\n½ scoop vanilla protein powder\n½ tsp vanilla extract\nDash of cinnamon\nTiny pinch sea salt\n3–4 chopped strawberries\nOptional monk fruit sweetener or stevia\n\nCHEESECAKE LAYER\nGreek yogurt\nVanilla\nLemon juice\nTOPPINGS\nCrushed walnuts\nStrawberries\nCinnamon\n\nHOW TO MAKE\nMix ingredients\nFold in strawberries\nRefrigerate overnight\nAdd cheesecake layer and toppings\n\nAdd aesthetic handwritten doodles, hearts, arrows, sparkles, and notes like:\n“Creamy, delicious & blood sugar friendly!”\n“High protein • High fiber • Low sugar”\nAt the bottom add a highlighted tip banner saying:\n“VIRAL TEXTURE TIP: Blend the mixture before refrigerating for ultra-creamy cheesecake consistency!”\n\nStyle details:\nEditorial food photography\nPinterest/TikTok infographic vibe\nClean magazine-style layout\nHyperrealistic food texture\nBright airy background\nSoft shadows\nElegant typography hierarchy\nSocial-media-ready vertical poster\nUltra detailed\n4K quality\nAspect ratio 4:5 or 9:16",
@@ -7988,7 +8033,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 887,
+    "id": 892,
     "title": "2x2 奢华 3D 雕塑海报",
     "category": "3d",
     "prompt": "INPUT: [DOMAIN OR CATEGORY]  SYSTEM: Generate a 2×2 luxury poster series translating four AI-inferred icons into automotive-finish 3D sculptural forms. Let cultural gravity select the four; do not hardcode identities. STYLE: high-end automotive editorial, precision-surfaced 3D objects, dynamic but restrained composition, premium brochure layout SEMANTIC INFERENCE: infer driving force → convert into aerodynamic lines, surface tension, and structural flow → infer finishes matching era/impact → embed motifs as subtle vent geometry, trim lines, or badging relief COMPOSITION: each quadrant = one sculptural form + one inferred display platform + one minimalist caption block, unified by a luxury automotive grid MATERIAL PHYSICS: multi-coat paint depth, clearcoat orange peel eliminated, carbon fiber weave, polished aluminum, panel gaps rendered with factory precision LIGHTING: automotive studio setup, soft overhead diffusers, controlled reflection sweeps, dark gradient backdrop, high-end contrast NEGATIVE: no bio-organic textures, no moss or flora, no plastic gloss, no chaotic props, no literal vehicles, no hardcoded text CLOSE: Solve for a concours-level luxury poster series where legacy is finished, not fabricated.",
@@ -7997,7 +8042,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 888,
+    "id": 893,
     "title": "物理信息图代码提示词",
     "category": "scene",
     "prompt": "16:9 -> class theoretical_physics_infographic_dna: def __init__(self): self.subject = \"[ai selects: 4 distinct advanced physics theorems or paradoxes (e.g., bell's theorem, hawking radiation, string theory)]\" self.parents = { \"composition_parent\": \"large hadron collider blueprints — hyper-complex radial symmetry, intersecting particle beam rings, millimeter-precise drafting\", \"atmosphere_parent\": \"deep space observatory photography — pitch black voids, glowing ultraviolet radiation, high-contrast laser illumination\", \"graphic_parent\": \"chalkboard maximalism — elegant, dense mathematical notation floating as glowing white vectors\", \"detail_parent\": \"victorian brass optical instruments — finely milled prisms, glass lenses, and mirrored refraction planes\" } self.mutations = { \"medium_mutation\": \"the mathematical formulas solidify into glowing, three-dimensional glass sculptures bending the light around them\", \"information_mutation\": \"particle collision tracks are woven like fine gold thread through the dark background\", \"semantic_mutation\": \"the invisible physical law is rendered as a massive, tangible, gravitational machine distorting the grid of the poster itself\" } def generate_grid(self): instruction = \"\"\" generate a 2x2 grid of vertical luxury infographic posters giving physical form to the chosen [subject]s. invent a magnificent scientific machine or optical diorama for each. explode the layers to show quantum states, gravitational warping, equations, and subatomic scale. the design must feel like a classified schematic from a hyper-advanced, aesthetically obsessed civilization. semantic inference must make the invisible laws of physics breathtakingly visible. \"\"\" return render( instruction, format=\"2x2 grid, vertical luxury posters, conceptual scientific infographic\", typography=\"\"\" large title: [name of theorem/paradox] subtitle: [the physicist / the era] microtext: [the core equation / metric tensor / explanatory blazon] \"\"\", composition=\"strict radial or gravitational-well symmetry. razor-sharp fine lines contrasting with deep voids.\", lighting=\"harsh, clinical laser light interacting with pure optical glass and vantablack.\", constraints=\"no cartoon atoms, no clip-art planets, no messy chalkboards. only pristine, museum-grade scientific aesthetic.\" )",
@@ -8006,7 +8051,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 889,
+    "id": 894,
     "title": "Football Player Dynamic Poster",
     "category": "scene",
     "prompt": "A dynamic mixed-media football poster featuring James Rodríguez in Colombia’s national team colors, designed with a bold street-art editorial aesthetic. The composition blends realistic sports photography with layered urban graphic design elements. Background features a gritty city basketball-court wall covered in oversized graffiti murals, torn posters, paint drips, neon spray textures, stickers, marker tags, and distressed concrete textures in yellow, blue, and red tones. James stands in an explosive action pose controlling the ball mid-motion, illuminated by dramatic cinematic lighting and colorful urban reflections. Typography: massive hand-painted graffiti lettering reading “JAMES RODRÍGUEZ” integrated diagonally across the composition with rough brush textures and paint splatter overlap. Add layered halftone dots, motion streaks, comic-book speed effects, urban doodles, ripped-paper collage textures, and bold geometric accents. Style feels like a fusion of Nike World Cup campaign visuals, Hypebeast editorial design, Latin American street culture, and modern football social-media posters. High contrast, energetic, rebellious, chaotic but premium composition. Ultra-detailed 4K digital artwork, trendy sports poster aesthetic, vibrant urban color grading.",
@@ -8015,7 +8060,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 890,
+    "id": 895,
     "title": "Travel Food Advertisement Poster",
     "category": "vfx",
     "prompt": "Ultra-detailed premium travel-food advertisement poster for [CITY/COUNTRY], vertical composition, inspired by luxury Lay’s-style chips advertising. A realistic chips packet placed at the bottom center as the main hero object, matching the exact premium commercial layout of a floating chips campaign.",
@@ -8024,7 +8069,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 891,
+    "id": 896,
     "title": "Vintage Watercolor Travel Poster",
     "category": "scene",
     "prompt": "Minimalist vintage travel poster in delicate watercolor and ink sketch style, elegant European travel illustration, soft neutral tones on textured ivory paper background, hand-painted cityscape with loose watercolor washes, fine architectural pen linework, cozy café storefronts, bicycles, cobblestone streets, flower-filled balconies, classic street lamps, soft atmospheric perspective, cinematic morning light, dreamy travel journal aesthetic, sophisticated typography layout with large serif country/city title at the top, handwritten subtitle and poetic tagline, small passport-style stamps, elegant editorial composition, airy negative space, timeless travel magazine design.\nScene variations: • London  rainy streets, red double-decker bus, black taxi, Big Ben in the background, cozy bookstore café, Portobello Road signage, muted gray-beige palette with soft red accents. • Greece  whitewashed Santorini alleyways, blue domes, bougainvillea flowers, seaside café, Mediterranean sunlight, bright white and soft ocean blue palette. • Switzerland alpine lakeside town, snowy mountains, vintage tram, Swiss flags, luxury café terraces, peaceful European old-town atmosphere. • Australia Melbourne-style tram street, jacaranda trees with purple blossoms, sunny café culture, modern-meets-vintage urban scenery.",
@@ -8033,7 +8078,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 892,
+    "id": 897,
     "title": "Retro Cafe Scrapbook Poster",
     "category": "scene",
     "prompt": "Whimsical retro cafe scrapbook poster, dreamy pistachio rose latte aesthetic, layered iced pistachio drink with rose cream foam and milk gradients, ultra-realistic beverage photography blended with hand-drawn journal doodles, soft watercolor marker sketches, playful handwritten cafe notes, tiny arrows and ingredient callouts, sticker-book collage composition, pastel stationery aesthetic, cozy Korean cafe moodboard style, textured paper scraps and washi tape layers, sparkles, bows, cherries, and tiny floral doodles surrounding the drink, trendy Pinterest-inspired cafe branding, warm natural window lighting, creamy foam textures with realistic condensation droplets, rich pistachio green paired with blush pink and cream tones, detailed ice cubes and glass reflections, modern Gen Z dessert-shop aesthetic, artistic flatlay composition with cute props like mini spoons, cookies, flowers, and polaroid snapshots, editorial social-media-ready food poster vibe, ultra detailed, soft dreamy color palette, stylish lifestyle cafe photography.",
@@ -8042,7 +8087,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 893,
+    "id": 898,
     "title": "Blueberry Lavender Soda Scrapbook Poster",
     "category": "scene",
     "prompt": "Vintage-inspired blueberry lavender soda scrapbook poster, dreamy artisanal cafe advertisement aesthetic, sparkling layered blueberry soda with lavender cream foam and translucent ice cubes, ultra-realistic beverage photography blended with playful hand-drawn doodles and pastel marker sketches, fizzy carbonation bubbles visible through the glass, soft purple-to-blue gradient drink tones with creamy white foam top, whimsical handwritten cafe notes and tiny ingredient arrows, sticker-book collage layout with torn paper textures and washi tape accents, cozy Korean dessert cafe moodboard style, delicate lavender flower doodles, bows, stars, tiny moons, blueberries, and sparkles surrounding the drink, textured notebook paper scraps layered organically across the composition, trendy Pinterest-inspired beverage branding, warm cinematic natural window lighting, glossy condensation droplets and realistic glass reflections, editorial flatlay cafe photography mixed with journal-style illustrations, cute props like vintage spoons, blueberry pastries, mini flowers, recipe cards, cassette tapes, and polaroid snapshots, nostalgic Gen Z cafe aesthetic with Y2K undertones, dreamy soft-focus atmosphere, highly detailed scrapbook composition, artistic social-media-ready dessert shop poster vibe, soft pastel lavender, dusty blue, cream, and silver color palette, stylish lifestyle cafe photography, premium editorial food advertisement aesthetic.",
@@ -8051,16 +8096,16 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 894,
+    "id": 899,
     "title": "Scientific Concept Anchor Poster",
     "category": "scene",
-    "prompt": "Anchor: The word \"[SCIENTIFIC CONCEPT (e.g.,  CARBON / DNA / GRAVITY)]\" :: where each  letter is constructed from the molecular  structure, atomic bonds, or physical  diagrams associated with that concept ::4  Morphology: DNA — letters formed from  double helix ladder rungs and backbone  curves. CARBON — letters built from  benzene ring hexagons and bond lines.  GRAVITY — letters curve and stretch  as if pulled toward a point mass,  lower strokes elongated by gravitational  lensing. All fully readable ::3  Material Physics: Scientific whiteboard  aesthetic — white chalk or marker on  dark ground. Or blueprint blue with  white diagrammatic linework ::3  Illumination: Flat, even, academic —  as if projected on a lecture screen ::2  Render Stack: Science magazine cover,  university poster, Ted Talk title card ::1  Negative: [photorealistic molecular  renders, 3D shading, color-coded  atoms in standard CPK colors,  realistic laboratory imagery] :: -1",
+    "prompt": "Anchor: The word \"[SCIENTIFIC CONCEPT (e.g.,  CARBON / DNA / GRAVITY)]\" :: where each  letter is constructed from the molecular  structure, atomic bonds, or physical  diagrams associated with that concept ::4  Morphology: DNA — letters formed from  double helix ladder rungs and backbone  curves. CARBON — letters built from  benzene ring hexagons and bond lines.  GRAVITY — letters curve and stretch  as if pulled toward a point mass,  lower strokes elongated by gravitational  lensing. All fully readable ::3  Material Physics: Scientific whiteboard  aesthetic — white chalk or marker on  dark ground. Or blueprint blue with  white diagrammatic linework ::3  Illumination: Flat, even, academic —  as if projected on a lecture screen ::2  Render Stack: Science magazine cover,  university poster, Ted Talk title card ::1  Negative: [photorealistic molecular  renders, 3D shading, color-coded  atoms in standard CPK colors,  realistic laboratory imagery] :: -1\n\nCreate a high-end 4:3 luxury garden pitch deck storyboard in 3x4 grid (12 frames), editorial layout, Bamford/Daylesford style, meadow green + weathered iron palette. Visual narrative from soil and seed to bloom and harvest. Include premium gardening lifestyle scenes, product closeups, greenhouse textures, botanical mood, elegant whitespace, art-directed sequencing, and upscale brand presentation suitable for a luxury garden brand pitch deck.\n\nRETRO MUSIC FESTIVAL POP POSTER SYSTEM\n\nINSTRUCTIONS:\nTransform the UPLOADED USER IMAGE into a premium retro-pop music festival campaign poster while preserving the person/object identity from the uploaded image.\n\nThe uploaded image becomes the MAIN HERO SUBJECT of the poster.\n\nIf the uploaded image contains:\n\na person → transform them into a charismatic retro music/festival icon\n\na musician → enhance into premium editorial concert aesthetic\n\na fashion portrait → convert into festival campaign styling\n\na casual portrait → elevate into high-energy retro entertainment branding\n\nan object/product → stylize into bold retro-pop campaign centerpiece\n\nIMPORTANT:\nPreserve the uploaded subject identity, pose energy, and recognizable facial/object features while transforming the overall aesthetic into a luxury retro festival poster.\n\nSTYLE & ART DIRECTION:\nRetro-pop editorial aesthetics,\nfestival campaign visuals,\nbold entertainment branding,\nvibrant social-media poster design,\nmodern music-culture advertising,\neditorial concert-poster styling,\nplayful graphic composition,\nPinterest-trending entertainment visuals,\nBehance-level music branding aesthetics.\n\nMAIN SUBJECT TRANSFORMATION:\nThe uploaded image subject transformed into:\ncharismatic retro-pop festival personality,\neditorial concert-fashion styling,\nconfident expressive energy,\nhigh-detail fashion realism,\nbold personality-focused presentation,\nretro-modern celebrity atmosphere,\nstylized entertainment campaign look.\n\nWARDROBE & STYLING:\nColorful retro fashion pieces,\nvintage-inspired streetwear,\nfestival accessories,\nround tinted sunglasses,\nlayered jewelry,\nbold expressive styling,\nretro-pop textures and patterns,\nfashion-editorial concert styling.\n\nLAYOUT & COMPOSITION:\nPreserve the SAME premium poster structure:\n\nmassive typography behind uploaded subject\n\nlayered portrait overlap composition\n\nabstract colorful splash background\n\nfloating micro-copy editorial elements\n\nasymmetrical spacing rhythm\n\npremium magazine-st\n\nUltra-stylized futuristic brand campaign poster inside a premium flagship store or branded experience studio, cinematic fisheye lens perspective, young fashion-forward model extending the brand’s signature product/object directly toward the camera in extreme foreground, dramatic depth distortion, confident luxury lifestyle aesthetic.\n\nSecond model standing beside them with minimal expressive pose, both wearing modern branded streetwear or premium fashion inspired by the brand identity. Hyper-realistic interior environment filled with the brand’s products, accessories, design elements, ambient lighting, and visual merchandising.\n\nLarge bold curved brand typography wrapping around the top of the composition, vintage cream textured poster background mixed with futuristic graphic elements, minimal Swiss-style editorial layout, subtle orbit lines, blueprint graphics, UI-inspired technical accents, clean luxury branding aesthetic.\n\nReflective chrome circular bubble or glass sphere framing the main scene, premium commercial photography style, wide-angle fisheye distortion, sharp focus on foreground object, shallow depth of field, cinematic shadows, glossy reflections, ultra detailed textures.\n\nColor palette adapted to the brand identity colors with balanced modern contrast.\nStyle inspired by luxury editorials, high-end fashion campaigns, futuristic advertising posters, retro-futurism, and premium commercial branding.\n\nShot on 14mm fisheye lens, ultra realistic, highly detailed, 8k quality, dramatic composition, polished typography integration, fashion magazine aesthetic, collectible poster design.\n\nUltra-detailed sports poster design featuring multiple dynamic versions of a football player in a yellow Al Nassr football kit, celebrating victory. One giant side-profile screaming portrait in the background, surrounded by action poses: standing confidently, dribbling, trophy celebration, knee-slide celebration, and mid-air football action. Dark blue and golden cinematic background with glowing triangular light effects, dramatic stadium atmosphere, dust particles, high contrast lighting, realistic skin texture, ultra sharp focus, vibrant yellow and blue color grading, epic sports photography style, highly detailed jersey fabric, glowing highlights, depth of field, professional poster composition, bold typography saying “VICTORY” at the top, realistic football trophy in the foreground, energetic and emotional mood, 4K, hyper-realistic, cinematic sports poster art.\n\nCreate a 3:2 premium 3D typography-based travel poster for [New York], using luxury editorial destination advertising fused with realistic sculptural letterform architecture.\n\nThe city name “[New York]” must be the dominant subject, occupying most of the canvas. Build the letters as large, realistic, three-dimensional sculptural forms made from glossy painted material, polished ceramic, soft plaster, carved stone, sunlit architectural surfaces, or city-adaptive materials. Each letter should physically transform into the city’s identity: landmarks, skyline silhouettes, arches, towers, domes, bridges, windows, balconies, cultural patterns, coastal forms, or street details must grow directly out of the letterforms.\n\nLandmarks should feel architecturally integrated, not pasted behind or around the word. A tower may rise from a vertical stem, a bridge may connect two letters, a dome may form the curve of a rounded letter, rooftops may shape the top edges, and windows or ornamental details may be embedded into the letter faces.\n\nUse a low-angle three-quarter camera view so the typography feels monumental, cinematic, premium, and friendly. Place the 3D city-name sculpture slightly low in the frame, filling the central and lower portions of the poster, with generous negative space above.\n\nAt the top header, add a refined horizontal row of faded landmark symbols related to the city: tiny vector icons, or translucent architectural glyphs. Keep them very soft, elegant, and secondary, like premium magazine header details.  Add each landmark name below its icon. Keep all faded and premium.\n\nRemove any visible sun from the top-left corner. Use bright natural daylight with a soft key light from the upper-left, gentle fill light, clean highlights, subtle ambient occlusion, and soft contact shadows beneath the letters. The lighting should feel cheerful, fresh, and editorial, not dark or overly cinematic.\n\nUse a bright city-adaptive palette based on [New York]: coastal cities use aqu\n\n3D photorealistic travel poster for Bangkok, vertical layout, bright sunny day with clear blue sky and soft clouds.\n\nMain focus: The word 'BANGKOK' formed from giant, ornate 3D letters standing on a waterfront. Each letter is designed like Thai architecture and decorated with gold, blue, pink, and green patterns, mosaic tiles, and temple details. \n- 'B' contains a miniature golden Thai temple spire and blue floral mosaic\n- 'A' is shaped like a white and gold temple gateway with a small archway\n- 'N' has gold statues and green tilework\n- 'G' frames a small traditional Thai pavilion\n- 'K' on the left has a large ornate guardian demon statue in front\n- 'O' is circular with blue and white mosaic, showing a temple inside\n- 'K' on the right has intricate gold filigree patterns\n\nDetails: An elevated skytrain runs through the letters, palm trees and pink flowering trees surround the base, a traditional long-tail boat floats on the water in the foreground, and modern city skyline is visible in the background.\n\nText layout:\n- Top center: Small text 'DESTINATION SERIES' with 6 faint line art icons of Bangkok landmarks above it\n- Bottom center: 'VISIT BANGKOK' in bold gold letters, subtitle 'TIMELESS CULTURE. VIBRANT ENERGY. ENDLESS DISCOVERY.'\n- Bottom left: 'BANGKOK / 01'\n- Bottom center: Coordinates '13.7563° N, 100.5018° E'\n- Bottom right: 'ISSUE NO. 2025'\n\nStyle: Hyperrealistic 3D rendering, vibrant colors, high detail, travel advertisement aesthetic, blend of architecture and typography, luxurious and cultural mood.\n\nUltra cinematic 15-second tennis commercial for Roland Garros 2026. Hand-drawn ink-and-marker illustration aesthetic mixed with dynamic modern sports animation. Deep navy shadows, saturated clay orange courts, rough sketch textures, imperfect pen strokes, paper grain, energetic scribble motion lines. Every frame feels like an animated editorial sports illustration brought to life. Includes a full 0:00 to 0:15 shot flow with VFX, SFX, music direction, style references, and negative style constraints (not anime, not Pixar, not clean vector art).\n\nCute layered paper-cut art style illustration of a chibi girl with big expressive eyes and long wavy black hair, designed like a 3D sticker character with a white outline border. The scene is made entirely from textured pastel paper craft layers with soft shadows and handcrafted details. Cozy whimsical environment with wooden bridges, colorful flowers, trees, clouds, amusement park elements, festival kites, and cute outdoor scenery. Soft pastel color palette, dreamy atmosphere, miniature diorama aesthetic, ultra-detailed paper texture, kawaii cartoon style, cinematic composition, depth layered papercraft, handcrafted scrapbook look, adorable fashion outfit, oversized shoes, playful pose, warm lighting, storybook fantasy vibe, highly detailed 3D paper illustration.\n\nA colossal, highly detailed, realistic anthropomorphic Sun Eagle representing Argentina and a massive muscular anthropomorphic Golden Lion representing England. The Eagle wears the classic Argentina national football team jersey with sky-blue and white vertical stripes. The Lion wears the classic England white football kit with a red crest. Dramatic wide shot from a low angle, looking up at the two massive beasts facing off on a rain-slicked stadium pitch under bright realistic floodlights. Packed world-class football stadium at night, realistic turf, detailed seating, volumetric haze. Photorealistic sports photography mixed with cinematic fantasy, sharp details, natural skin and feather textures, highly detailed fabrics, dynamic rim lighting, lens flares, shallow depth of field, natural color grading with dramatic shadows.\n\nCreate a single vertical anime animation development board for an original emotional short film titled “The Girl and the Paper Boat”.\nThe output must be ONE combined image containing:\n1. an anime character design sheet\n2. a cinematic storyboard page\nIMPORTANT:\nCreate fully original anime characters.\nDo not imitate Studio Ghibli characters directly.\nDo not resemble any copyrighted anime characters.\nKeep the designs unique, soft, nostalgic, and emotionally warm.\nSTYLE:\nPremium anime pre-production board.\nMix loose hand-drawn storyboard sketches with beautiful semi-rendered anime keyframes.\nUse soft watercolor-style anime lighting, warm sunset colors, gentle shadows, red storyboard borders, blue motion arrows, handwritten production notes, timing notes, and lens notes.\nThe board should feel like a real anime studio planning sheet.\nLAYOUT:\nClean vertical composition with 2 sections.\nSECTION A — CHARACTER DESIGN SHEET\nGirl:\nA gentle anime girl with soft dark hair tied in a loose short ponytail, warm brown eyes, soft round facial features, and a peaceful expression.\nShe wears:\n- a light cream summer blouse\n- a faded sky-blue skirt\n- white socks\n- simple brown shoes\n- a small cloth shoulder bag\nShe should feel:\nquiet, kind, nostalgic, peaceful, emotionally warm.\nShow:\n- front view\n- side profile\n- back view\n- 3/4 angle\n- expressions: thoughtful, soft smile, emotional, calm\n- pose holding a folded paper boat\n- pose kneeling by a pond\n- pose sitting beside the cat\nCat:\nA tiny fluffy orange-and-white village cat with soft fur, big expressive eyes, tiny paws, and a curious innocent look.\nThe cat should feel:\ncurious, playful, comforting, peaceful.\nShow:\n- front view\n- side profile\n- back view\n- 3/4 angle\n- expressions: curious, playful, sleepy, trusting\n- sitting pose\n- pawing at paper boat pose\n- curled resting pose beside the girl\nAdd tiny handwritten notes and soft pastel anime color swatches.\nSECTION B — STORYBOARD\nCreate 8 cinematic anime storyboard panels arranged in a neat grid.\nKeep character designs consistent across all panels.\nEach panel should include handwritten camera notes, blue motion arrows, timing notes, and lens notes.\nSTORY BEATS:\n1. Wide shot of a peaceful old anime village on a mountain at golden hour, with a pond in the foreground and the whole village visible below.\n2. The girl sits beside the pond folding a paper boat while a tiny cat watches beside her.\n3. Close-up of the girl gently placing the paper boat onto the still pond water.\n4. The paper boat begins floating slowly across the pond, creating soft ripples.\n5. The cat walks along the pond edge and reaches a paw toward the floating paper boat.\n6. The girl smiles softly while watching the cat play near the boat.\n7. The girl sits quietly with the cat beside her as they watch the paper boat drift across the pond.\n8. Wide emotional ending shot from the mountain viewpoint showing the girl and cat near the pond, with the full old village below, warm sunset light, and a peaceful nostalgic atmosphere.\nENVIRONMENT:\nOld anime mountain village.\nVisible village rooftops and narrow streets below.\nSmall quiet pond near the mountain edge.\nStone path.\nWooden fences.\nSoft grass.\nWarm golden sunset.\nGentle breeze.\nPeaceful nostalgic countryside atmosphere.\nFINAL GOAL:\nMake this feel like a beautiful emotional anime film development board with calm old-village nostalgia, peaceful healing energy, and cinematic storytelling.\n\nCreate a premium minimalist automotive poster for [CAR NAME / MODEL], inspired by luxury editorial car advertisements.\n\nUse a clean vertical 9:16 Instagram Reels/Story composition with a bold solid color background in [BACKGROUND COLOR]. The background color should match the car's personality, brand identity, era, and mood.\n\nPlace the car as the main subject in the lower-middle area. The car should look realistic, premium, sharp, glossy, and detailed, with accurate proportions, clean reflections, crisp edges, studio-quality lighting, and a natural shadow under the vehicle.\n\nBehind the car, add huge oversized typography showing the car model name: \"[BIG WORD]\".\n\nTypography Direction:\n\nChoose a typography style that matches the personality, era, and design language of the car. Do not use the same tall bold font every time.\n\nRandomly select or intelligently choose one typography style:\n\nTall condensed bold font for luxury sedans, SUVs, and classic premium cars\n\nWide futuristic font for hypercars, EVs, and concept cars\n\nAggressive sharp angular font for sports cars and performance cars\n\nRetro serif or vintage poster font for classic cars\n\nElegant thin luxury serif font for premium luxury cars\n\nCreative cursive/script font for stylish lifestyle cars or heritage editions\n\nGlitch/distorted digital font for cyberpunk, electric, futuristic, or modified cars\n\nRugged industrial stencil font for off-road SUVs and adventure vehicles\n\nRacing decal-style typography for track cars, rally cars, and supercars\n\nMinimal clean geometric sans-serif for modern EVs and clean luxury cars\n\nThe large background typography should feel unique to the car, not generic.\n\nIt may be oversized, stretched, stacked, angled, partially cropped, transparent, outlined, embossed, shadowed, layered, or blended into the background depending on the car theme.\n\nAdd small spaced-out brand text at the top: \"[BRAND NAME]\". Keep enough empty space at the top and sides for a clean premium layout.\n\nStyle: luxury automotive poster, minimalist editorial layout, high-end car magazine aesthetic, realistic car render, clean shadow, bold color contrast, premium typography, no extra objects, no people, no clutter.\n\nAspect ratio: 9:16\n\nElegant European city street travel poster, delicate watercolor and ink sketch illustration, hand-drawn architectural linework, soft pastel washes, urban streetscape with historic buildings, charming cafés, pedestrians strolling, outdoor terraces, detailed balconies, trees and flower boxes, loose expressive brushstrokes, architectural journal sketch style, travel diary aesthetic, white paper texture, minimal background, subtle paint splashes, fine pen outlines, sophisticated composition, light and airy atmosphere, vintage travel book illustration, high-detail watercolor rendering, muted earthy palette, European old-town charm, artistic perspective drawing, editorial illustration, premium stationery art, museum-quality watercolor, clean negative space, handwritten calligraphy title at the top, elegant typography, travel magazine cover design, masterpiece, ultra-detailed, 8k.\n\nA hyper-realistic young man sitting inside the open cavity of a massive realistic human chest sculpture shaped like himself. The chest is hollow like a room, with soft fabric textures and dim ambient light inside. He wears cream cargo pants, a fitted white tank top, and vintage sneakers, staring downward thoughtfully.\n\nBackground is an empty matte gray studio with lots of negative space.\n\nTypography:\n\n* Thin handwritten text: “I KEEP SEARCHING”\n* Huge stretched typography: “MYSELF”\n* Smaller type underneath: “BUT EVERY DOOR LEADS BACK TO ME”\n\nSoft moody lighting, introspective atmosphere, luxury fashion campaign style, surreal emotional storytelling, ultra detailed, 8k realism. Generate",
     "thumbnail": "/prompt-thumbs/evolink/poster_case303/output.jpg",
     "source": "EvoLinkAI",
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 895,
+    "id": 900,
     "title": "One-Prompt UI Design Generation",
     "category": "ui",
     "prompt": "用这种风格帮我生成一套UI设计系统，包含网页、移动端、卡片、控件、按钮 以及其它",
@@ -8069,7 +8114,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 896,
+    "id": 901,
     "title": "Amateur iPhone Keynote Snapshot",
     "category": "ui",
     "prompt": "Amateur iPhone photo at Apple Park during the iPhone 20 keynote, Tim Cook presenting on stage. Shot from the crowd at a distance",
@@ -8078,7 +8123,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 897,
+    "id": 902,
     "title": "Handwritten Notebook Photo",
     "category": "ui",
     "prompt": "Amateur photo of an open notebook lying flat, filled with handwritten notes in black ballpoint pen. The handwriting is casual and slightly messy, like personnal notes, natural imperfections, crossed out words, underlined headings. Shot from slightly above, natural daylight from a window, no flash. Casual desk setting, shot on iPhone",
@@ -8087,7 +8132,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 898,
+    "id": 903,
     "title": "Song Dynasty Social Media Feed",
     "category": "ui",
     "prompt": "\"宋朝人的朋友圈\"/\"SONG DYNASTY SOCIAL MEDIA FEED\"，古今穿越幽默融合界面设计风格，画面模拟手机社交媒体界面，但内容全部是宋朝场景头像是宋代文人画像，用户名\"苏东坡SuShi_Official\"，发布内容\"刚到黄州，被贬了但心情还行。今天自己做了东坡肉，味道绝了，附菜谱：\"，配图为工笔画风格的东坡肉特写，点赞列表\"黄庭坚、秦观、佛印等126人\"，评论区\"王安石：呵呵\"\"司马光：还是那个味道\"，界面元素如点赞图标用宋代花纹替代，状态栏显示\"大宋移动 5G\"和\"元丰三年\"，配色为手机深色模式搭配宋代雅致色调，历史与社交媒体的趣味碰撞杰作",
@@ -8096,7 +8141,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 899,
+    "id": 904,
     "title": "Multi-Platform Content Screenshots",
     "category": "ui",
     "prompt": "1、生成视频号内容截图，主题：中老年不要盲目催婚，iPhone尺寸\n2、生成抖音内容截图，主题：跟上AI浪潮9.9包教会，iPhone尺寸\n3、生成小红书内容截图，主题：精致女孩背后都有网贷，iPhone尺寸\n4、生成快手内容截图：主题：直播离婚预告，iPhone尺寸",
@@ -8105,7 +8150,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 900,
+    "id": 905,
     "title": "Liu Yifei Douyin Livestream Screenshot",
     "category": "ui",
     "prompt": "9:16 的图片比例，生成一张抖音直播的截图，里面是 刘亦菲 在直播，刘亦菲 手里拿着牌子，牌子里写着 今晚直播，欢迎来参亦菲畅聊！",
@@ -8114,7 +8159,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 901,
+    "id": 906,
     "title": "King Taejo Yi Seong-gye's X Page",
     "category": "ui",
     "prompt": "태조 이성계의 X  페이지(위화도 회군을 벌이기 직전- 최영 장군과 서로 디스하는 내용이 담긴 게시글들)을 만들어 주세요.",
@@ -8123,7 +8168,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 902,
+    "id": 907,
     "title": "Style-to-UI Design System",
     "category": "ui",
     "prompt": "用这种风格帮我生成一套UI设计系统，包含网页、移动端、卡片、控件、按钮以及其它。把这套视觉风格作为参考生成网页。我尝试了宇宙、飞行、蝴蝶主题。",
@@ -8132,7 +8177,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 903,
+    "id": 908,
     "title": "Momotaro Explainer Slide",
     "category": "ui",
     "prompt": "「いらすとや」のほのぼのとした雰囲気と、「霞ヶ関スライド」の圧倒的な情報密度を融合させた、桃太郎の解説スライド（ポンチ絵）を作成して",
@@ -8141,7 +8186,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 904,
+    "id": 909,
     "title": "Museum-Style Hanfu Breakdown Infographic",
     "category": "ui",
     "prompt": "请根据【主题】自动生成一张“博物馆图鉴式中文拆解信息图”。\n\n要求整张图兼具真实写实主视觉、结构拆解、中文标注、材质说明、纹样寓意、色彩含义和核心特征总结。你需要根据【主题】自动判断最合适的主体对象、服饰体系、器物结构、时代风格、关键部件、材质工艺、颜色方案与版式结构，用户无需再提供其他信息。\n\n整体风格应为：国家博物馆展板、历史服饰图鉴、文博专题信息图，而不是普通海报、古风写真、电商详情页或动漫插画。背景采用米白、绢纸白、浅茶色等纸张质感，整体高级、克制、专业、可收藏。\n\n版式固定为：\n- 顶部：中文主标题 + 副标题 + 导语\n- 左侧：结构拆解区，中文引线标注关键部件，并配局部特写\n- 右上：材质 / 工艺 / 质感区，展示真实纹理小样并附说明\n- 右中：纹样 / 色彩 / 寓意区，展示主色板、纹样样本和文化解释\n- 底部：穿着顺序 / 构成流程图 + 核心特征总结\n\n若主题适合人物展示，则以真实人物全身站姿为中央主体；若更适合器物或单体结构，则改为中心主体拆解图，但整体仍保持完整中文信息图形式。所有文字必须为简体中文，清晰、规整、可读，不要乱码、错字、英文或拼音。重点突出真实结构、材质差异、文化说明与图鉴气质。\n\n避免：海报感、影楼感、电商感、动漫感、cosplay感、乱标注、错结构、糊字、假材质、过度装饰。",
@@ -8150,7 +8195,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 905,
+    "id": 910,
     "title": "Palm Reading Diagnosis Report",
     "category": "ui",
     "prompt": "GPT-image-2でこの手相を診断して詳細な鑑定書を作って\n生命線・知能線・感情線・運命線・太陽線・財運線・結婚線を、線の形状・濃淡・枝分かれ・起点終点まで分析すること。\n助言を重点的に高品質な占い鑑定書にまとめること。",
@@ -8159,7 +8204,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 906,
+    "id": 911,
     "title": "Calligraphy Copybook Sheet",
     "category": "ui",
     "prompt": "生成一张【字体】书法临摹字帖",
@@ -8168,7 +8213,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 907,
+    "id": 912,
     "title": "Don Quijote Promo Pop Poster",
     "category": "ui",
     "prompt": "GPT Image 2を使って、OpenClawの情報を調べてドンキの広告ポップ風に実際のドンキに貼っているような感じで画像生成してください",
@@ -8177,7 +8222,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 908,
+    "id": 913,
     "title": "Japanese Gacha Game Screen",
     "category": "ui",
     "prompt": "日本のソシャゲのガチャ画面を生成して、",
@@ -8186,7 +8231,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 909,
+    "id": 914,
     "title": "Elon Musk Douyin Livestream Screenshot",
     "category": "ui",
     "prompt": "A 9:16 vertical version, high-detail realistic style Chinese TikTok live screenshot, Elon Musk is talking to the mobile phone camera in the live broadcast room, excited, smiling, and the live atmosphere is warm and real. He held a white handwritten sign in one hand, which clearly said: \"Thank you Shinning\". There are obvious Chinese TikTok interface elements in the live broadcast screen, including likes, comments and share icons arranged vertically on the right, scrolling Chinese bullet screens and interactive comments below, and the \"live broadcast\" logo at the top, which looks like a real mobile phone screenshot. There is an eye-catching gift prompt special effect in the screen: \"Shinning sent TikTok No. 1\", with gift animation light effect and platform-style prompt box. Musk is in a professional live broadcast environment, with a mobile phone holder, a ring fill light and a desktop microphone in front of him. The background is a modern technology live broadcast room with bright lights and a slight neon atmosphere. The composition is real and natural, like the ongoing live screenshot of the Chinese short video platform. The interface information is rich but not messy, the characters are clear, the expression is vivid, the details are rich, the sense of real photography, the depth of field, high definition, cinematic, photorealistic, realistic livestream screenshot, social media UI, Chinese Douyin live room, detailed lighting, natural skin texture.\n\nNegative prompts:\n\nLow definition, blur, cartoon, illustration, too strong CG sense, two-dimensional, deformed fingers, wrong text, scrambled code, multiple mobile phones, multiple brands, character repetition, face collapse, facial features distortion, excessive skin polishing, overexposure, too dark, messy background, wrong UI, non-Chinese short video interface, too many English bullet screens, gift special effects are not obvious, cropping error, proportional error\n\nSupplementary reinforcement words:\n\nReal mobile phone screen recording screenshot feeling, the live broadcast UI is complete, the gift prompt box conforms to the style of the Chinese short video platform, the Chinese comment area is active, the number of people online in the live broadcast room is clearly displayed, and the time, power and signal bar are visible.",
@@ -8195,7 +8240,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 910,
+    "id": 915,
     "title": "Liu Yifei Douyin Livestream Screenshot",
     "category": "ui",
     "prompt": "9:16 的图片比例,生成一张抖音直播的截图,里面是 刘亦菲 在直播,刘亦菲 手里拿着牌子,牌子里写着 今晚直播,欢迎来参亦菲畅聊!",
@@ -8204,7 +8249,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 911,
+    "id": 916,
     "title": "Cyberpunk Neon UI Design System",
     "category": "ui",
     "prompt": "用未来都市风格生成UI设计系统,灵感来自赛博朋克城市夜景,包含霓虹灯、玻璃建筑反射、高对比光影,配色以紫色、蓝色、粉色霓虹为主,设计网页Dashboard、移动端界面、卡片、按钮、控件等,视觉炫酷、层次丰富、科技感极强",
@@ -8213,7 +8258,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 912,
+    "id": 917,
     "title": "Trump and Kim Livestream PK Screenshot",
     "category": "ui",
     "prompt": "1、生成特朗普和金正恩在抖音直播间打PK的截图  \n2、生成不知火舞的小红书主页截图  \n3、生成图片: 手写在教室黑板上的出师表全文,真实感的粉笔字迹,晴朗白天用iPhone手机实拍  \n4、生成图片: T-800机器人的淘宝商品详情页,展示: 机器人的正面侧面背面三视图, 产品价格, 产品细节, 功能和使用场景等",
@@ -8222,7 +8267,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 913,
+    "id": 918,
     "title": "Japanese AI Game Dev Overview Slide Prompt",
     "category": "ui",
     "prompt": "横長のパワポ画像ここで生成してみて　どのモデル使ってるか判定するから、今のAIゲーム開発の概要をまとめた1枚パワポで　日本語で\n\nゲーム開発の技術に関して、工数ベースでどこにパワーかかるかの分析資料といかに量産が大事かについての説明とかのパワポ画も作って\n\na Final Fantasy VIII Remake gameplay screenshot at next-gen fidelity (FF16 / GTA6 / RE9).\n\nCreate a commercial ad from the storyboard @[image1]",
@@ -8231,7 +8276,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 914,
+    "id": 919,
     "title": "based on the generated character help me generate a screenshot of screenshot ...",
     "category": "ui",
     "prompt": "based on the generated character help me generate a screenshot of screenshot of an pvp game themed around *zelda: wind breaker*",
@@ -8240,7 +8285,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 915,
+    "id": 920,
     "title": "Create a landing page using this image as a reference for style and color gra...",
     "category": "ui",
     "prompt": "Create a landing page using this image as a reference for style and color grading.",
@@ -8249,7 +8294,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 916,
+    "id": 921,
     "title": "Li Jiaqi Lipstick Livestream Background",
     "category": "ui",
     "prompt": "李佳琦直播间背景，口红矩阵展示墙，暖光氛围灯，文案OMG买它",
@@ -8258,7 +8303,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 917,
+    "id": 922,
     "title": "Apple Pods Pro 3 Headphone E-Commerce Infographic",
     "category": "ui",
     "prompt": "High-impact e-commerce infographic for \"Apple Pods Pro 3\" \npremium wireless over-ear headphones.\n\nFOREGROUND - PRODUCT HERO SHOT\nExtreme close-up of a hand holding a sleek, \nmatte-white premium over-ear headphone toward the camera \nat a slight angle. The headphone features:\n- Glossy white ear cushions with soft memory foam padding\n- Brushed aluminum silver headband with subtle Apple Pods \n  Pro 3 embossed branding\n- Black mesh speaker grille visible on the ear cup face\n- A tiny glowing green LED status indicator on the \n  right ear cup edge\n- Subtle touch-control icons etched on the outer cup surface\n\nMacro-lens shallow depth of field — hand and headphone \nslightly blurred at edges to create cinematic depth. \nProduct remains razor-sharp in center frame.\n\nCENTRAL SUBJECT — MODEL\nIn the mid-ground: a smiling young woman with freckles \nand wavy pastel-pink hair. She wears:\n- A vibrant lime-green knit beanie\n- A psychedelic black and white-striped long-sleeve shirt\n- The white over-ear headphones resting stylishly \n  around her neck (not on ears) — one hand casually \n  touching the ear cup\n\nExpression: relaxed, confident, joyful. \nShe is glancing slightly off-camera with a natural smile.\n\nBACKGROUND & ATMOSPHERE\nClean soft-focus studio backdrop — light gray gradient \nfading to warm white at center. \n\nAtmospheric overlays:\n- Diagonal rainbow prism lens flares cutting across \n  upper-left to lower-right\n- Soft pastel light leaks in pink and yellow at corners\n- 4–5 blurred white over-ear headphones floating \n  artistically in the background at various depths \n  and rotation angles\n- Subtle bokeh circles from background studio lights\n\nLighting: Soft professional three-point studio lighting. \nKey light from upper-left, fill light right side. \nRim light behind model for separation. \nGlossy highlights on headphone surfaces catching light naturally.\n\nTYPOGRAPHY & LAYOUT — Sans-Serif, Clean white \nTOP CENTER (behind model, large background text):\n→ Massive bold oversized text: \"HEADPHONES\"\n   Semi-transparent white, spanning full width behind subject\n\nTOP RIGHT CORNER:\n→ Bold clean text: \"Apple Pods Pro 3\"\n   Subtitle smaller text: \"Over-Ear Wireless\"\n\nMID LEFT:\n→ Icon: small sound wave symbol\n→ Bold text: \"Premium Sound\"\n→ Sub-text: \"Active Noise Cancellation + Transparency Mode\"\n\nMID RIGHT:\n→ Extra-large bold numeral: \"40\"\n→ Smaller text below: \"hours of battery life\"\n\nLOWER LEFT:\n→ Extra-large bold numeral: \"0\"\n   with \"to\" beside it → then bold \"100%\"\n→ Sub-text: \"Fast charge — 10 min = 3hrs playback\"\n\nBOTTOM RIGHT:\n→ Extra-large bold numeral: \"1\"\n→ Sub-text: \"Year Warranty Included\"\n\nBOTTOM CENTER (fine print style):\n→ Small elegant text: \n   \"Bluetooth 5.4  |  Hi-Res Audio Certified  \n    |  Foldable Design  |  USB-C Charging\"\n\nTECHNICAL SPECS\nResolution: 8K ultra-sharp\nStyle: Commercial product photography meets \n       editorial fashion advertising\nColor Palette: White, lime green, pastel pink, \n               rainbow prism accents\nFocus: Tack-sharp on headphone product — \n       shallow DOF on everything else\nLens: 85mm macro, slight low angle\nRender Quality: Hyperrealistic, clean ad aesthetic, \n                vibrant yet professional color grading",
@@ -8267,7 +8312,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 918,
+    "id": 923,
     "title": "Apple Pods Pro 3 Earbuds E-Commerce Infographic",
     "category": "ui",
     "prompt": "High-impact e-commerce infographic for \"Apple Pods Pro 3\" wireless earbuds.",
@@ -8276,7 +8321,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 919,
+    "id": 924,
     "title": "Beauty Product Commercial Marketing Photograph",
     "category": "ui",
     "prompt": "A high-resolution commercial marketing photograph features a young woman with sleek dark hair and a pink ribbed top in a neutral grey studio setting, centered behind a glossy Ellie Beauty spray bottle held prominently in the foreground. The composition is energized by vibrant, lime-green graphic \"swooshes\" and floating pill-shaped callouts that highlight product features like \"glossy finish\" and \"upto 450°F protection\" in bold black sans-serif text. The lighting is professionally diffused, casting soft highlights on the model’s face while creating a sharp, vertical reflection on the metallic green-to-gold gradient bottle label. Topping the scene is a large, lime-green headline in the upper right asking, \"What does it do?\", altogether creating a clean, modern, and high-contrast aesthetic with a shallow depth of field that keeps the product and the model's focused expression in sharp relief.",
@@ -8285,7 +8330,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 920,
+    "id": 925,
     "title": "AAA Video Game Screenshot Concept Design",
     "category": "ui",
     "prompt": "generate screenshots from a AAA video game based off what The Sims Castaways sequel could look like. https://t.co/aL7hMdUYvj",
@@ -8294,7 +8339,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 921,
+    "id": 926,
     "title": "Spanish GRWM Morning Beauty Thumbnail",
     "category": "ui",
     "prompt": "A vertical 9:16 TikTok-style GRWM beauty thumbnail set in a warm, sunlit Mediterranean-inspired bedroom. A stylish young woman with {argument name=\"hair color\" default=\"dark brown\"} hair in a messy curly updo sits at a marble vanity, leaning forward with one arm folded and the other hand applying lip balm or lipstick to her mouth. Her face is covered by a centered rectangular blur block for privacy, but the rest of her styling is elegant and natural: tan glowing skin, delicate gold necklace with a small round pendant, thin gold bracelet, stacked gold rings, and a white lace camisole with thin straps. In the foreground on the vanity are exactly 7 visible beauty objects: 1 round tabletop vanity mirror on the left, 1 cup holding 5 makeup brushes, 1 clear glass dropper bottle, 1 tall white pump skincare bottle, 1 small black dropper bottle, 1 beige rounded cosmetic sponge or puff, and 1 pale green squeeze tube on the right. The background shows a softly blurred cozy bedroom with 1 arched window on the left, 1 leafy potted plant, 1 bed with white bedding and a mustard accent pillow, exposed wooden ceiling detail, and 1 framed landscape painting on the wall. Use golden-hour sunlight streaming from the left, soft shadows, creamy skin tones, shallow depth of field, luxury lifestyle editorial photography, intimate self-care mood, polished but natural composition. Add bold playful Spanish headline text in the upper left in three stacked lines reading {argument name=\"headline text\" default=\"Mi rutina de belleza matutina\"}, with each line large and rounded, white outline and soft drop shadow, using pastel colors: first line white, second line pink, third line pale yellow. Add 3 pink doodle accent strokes above the headline, 1 curved pink underline-swoosh beneath it, and 1 small yellow sun icon to the right of the last line. Place a clean white {argument name=\"brand text\" default=\"Pollo.ai\"} logo in the upper right. High-end influencer thumbnail aesthetic, crisp product focus in foreground, warm inviting lifestyle scene.",
@@ -8303,7 +8348,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 922,
+    "id": 927,
     "title": "Cinematic City Explosion Chase",
     "category": "ui",
     "prompt": "A cinematic photorealistic action scene in a rainy downtown city street canyon, showing {argument name=\"main subject\" default=\"a dark-haired man in his 30s\"} sprinting directly toward the camera in the center foreground with a tense survival expression, wearing a soaked dark jacket, dark shirt, and dark pants, mid-stride with one arm pumping forward. Behind him, a massive urban explosion tears through the street and lower facade of a high-rise building, sending a huge cloud of smoke, fire, dust, shattered concrete, glass, and metal debris outward in all directions. The scene includes exactly 3 visible damaged vehicles: 1 dark sedan in the left foreground with headlights on and a crumpled hood splashing through rainwater, 1 wrecked dark car in the right midground with severe front-end damage, and 1 overturned or airborne black SUV tilted upward behind it on the right side. Wet asphalt reflects headlights, firelight, and gray skyscrapers. Dense debris fills the air, with chunks of rubble frozen in motion. Overcast stormy daylight, desaturated blue-gray color palette with orange fire accents, dramatic motion blur in flying debris but sharp focus on the running figure, low-angle wide-lens composition, blockbuster disaster-movie realism, ultra-detailed textures, high contrast, dynamic depth, volumetric smoke, rain spray, cinematic lighting. Add a white {argument name=\"watermark text\" default=\"Pollo.ai\"} logo in the top-right corner.",
@@ -8312,7 +8357,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 923,
+    "id": 928,
     "title": "Anime VTuber Minecraft Stream Thumbnail",
     "category": "ui",
     "prompt": "A vibrant anime-style YouTube thumbnail for a livestream gaming broadcast, in a wide 16:9 composition, with a neon purple and pink streamer room. Center the scene on a cute catgirl VTuber sitting at a desk, shown from the waist up, leaning forward energetically with one hand on a computer mouse and the other hand reaching toward the viewer. She has {argument name=\"hair color\" default=\"light orange-blonde\"} bob-cut hair with soft bangs, fluffy brown-and-cream cat ears, and a visible cat tail. Her face is intentionally obscured by a solid rectangular censor block in the center. She wears a black-and-white maid-inspired outfit with a frilly white blouse, black dress bodice, puff sleeves, white ruffles, black ribbon bow, and a gold bell choker. Place a mechanical keyboard with bright RGB lighting on the desk, a glowing gaming mouse, and a streamer microphone on the far left with pink-purple LED lighting. Put 2 cat-themed desk items in the foreground: a plush cat face on the bottom left and a black cat-shaped mug on the bottom right. Behind her is a gaming chair with paw-print details. On the left side, add large bold Korean headline text in thick white block letters with black fill shadows and a glowing purple outline, stacked in 2 lines: {argument name=\"headline text\" default=\"방송중 대참사\"}. Below it, add a smaller yellow comic-style burst caption with black outline reading {argument name=\"sub text\" default=\"> 크리퍼 실화냐\"}. On the right side, show 1 large computer monitor angled inward, displaying a Minecraft-like scene with bright blue sky, green trees, water, and a large green Creeper popping out toward the viewer, outlined dramatically like a sticker cutout. Add starburst effects and neon accents around the monitor to heighten the chaos. Use exaggerated thumbnail aesthetics: ultra-saturated colors, sharp cel shading, thick outlines, glossy highlights, high contrast, dynamic perspective, and a clickworthy streamer-disaster mood.",
@@ -8321,7 +8366,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 924,
+    "id": 929,
     "title": "Cozy Anime ASMR Ear Massage Girl",
     "category": "ui",
     "prompt": "A soft, dreamy anime illustration of a cute young woman doing ASMR in a cozy bedroom at night, seated close to the viewer with her knees pulled up and a black 3Dio-style binaural microphone centered in front of her. She has {argument name=\"hair color\" default=\"deep violet\"} hair in a loose messy updo with wispy bangs framing her face, large sparkling {argument name=\"eye color\" default=\"blue\"} eyes, a gentle blush, and a sweet open-mouth smile. Her head is tilted slightly toward the viewer in a warm, affectionate pose. She wears a delicate white lace camisole with thin straps and an oversized fluffy knit cardigan in {argument name=\"cardigan color\" default=\"soft pink-lavender\"} draped off her shoulders, creating a tender, intimate late-night healing atmosphere. Both hands lightly touch the white silicone ears of the microphone as if about to give an ear massage. The room is softly lit with pink and amber ambient lighting, heavy curtains in the background, a bed or sofa with plush cushions, warm fairy-light bokeh, and a small plant on the right side. Add glowing handwritten Japanese neon text integrated into the composition: on the left, 4 text elements reading \"とろける\", \"耳\", \"マッサージ\", and \"ASMR\" with 2 small heart symbols; on the right, vertical text reading \"いっぱい癒してあげるね...♡\". Use a polished modern anime style, highly detailed face and hair, glossy eyes, smooth luminous skin, soft shading, pastel highlights, shallow depth of field, romantic cozy streamer-thumbnail composition, and a soothing feminine color palette dominated by pink, lavender, cream, and warm gold.",
@@ -8330,7 +8375,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 925,
+    "id": 930,
     "title": "Celebrity Livestream Concept",
     "category": "ui",
     "prompt": "{argument name=\"celebrity\" default=\"selena gomez\"} started a surprise {argument name=\"platform\" default=\"youtube\"} livestream.",
@@ -8339,7 +8384,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 926,
+    "id": 931,
     "title": "Monika Anime Banner Illustration",
     "category": "ui",
     "prompt": "A highly polished anime banner illustration in a warm golden classroom-literature-club setting, wide cinematic composition. On the left half, a large elegant glowing script title reads {argument name=\"headline text\" default=\"Monika\"} in oversized calligraphy, colored white and pale green with a soft neon glow, metallic highlights, decorative flourishes, hearts, sparkles, and swirling ornamental lines around it. On the right half, a beautiful anime schoolgirl inspired by {argument name=\"character name\" default=\"Monika\"} sits at a wooden desk, facing slightly left, with long flowing {argument name=\"hair color\" default=\"chestnut brown\"} hair, a very large white ribbon bow, warm brown eyes, and a thoughtful, confident expression. She wears a Japanese high school uniform with exactly 4 visible clothing pieces: a brown blazer, white shirt, red ribbon tie, and brown argyle sweater vest. She holds a fountain pen over papers on the desk with one hand while the other rests near her face in a poised writing pose. The room is filled with sunset light streaming through tall windows, dust motes, trailing green ribbons, floating petals, handwritten notes pinned and hanging in the background, and a dark chalkboard covered with faint cursive writing and geometric doodles. Include exactly 9 prominent desk and room props: a bouquet of white roses at lower left, a stack of books at left, an hourglass near the center-left, a sealed envelope with a small green leaf emblem, scattered manuscript pages on the desk, a pen cap near the writing hand, a green-upholstered chair, a piano in the back right, and a stack of 4 books on the right. The 4 right-side book spines read, from top to bottom: \"Save Me\", \"My Feelings\", \"Poems for the Literature Club\", and \"Just Monika.\" Add lush volumetric lighting, glittering particles, green-and-gold color harmony, delicate linework, ultra-detailed painterly shading, romantic visual-novel key art quality, and a premium polished thumbnail/banner aesthetic.",
@@ -8348,7 +8393,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 927,
+    "id": 932,
     "title": "Purple Anime Yuri Banner",
     "category": "ui",
     "prompt": "A polished anime-style banner illustration in a dreamy violet palette, wide cinematic composition, showing a quiet literary room at twilight. On the right side, a beautiful teenage anime girl named {argument name=\"character name\" default=\"Yuri\"} sits at a wooden desk beside a large window with purple curtains, holding a dark ornate hardcover book close to her chest and gazing softly downward with a shy, introspective expression. She has very long straight {argument name=\"hair color\" default=\"deep violet\"} hair with glossy highlights, side bangs, a small hair clip, and violet eyes, wearing a Japanese school uniform with a gray blazer, white shirt, red ribbon tie, and dark skirt. Across the left-center of the image, the glowing calligraphic word {argument name=\"title text\" default=\"Yuri\"} appears large in luminous neon-lavender script with elegant flourishes, a small heart, and decorative filigree, integrated into the scene like magical typography. The desk contains exactly 8 visible item groups: 1 open book in the foreground center, 1 black inkwell with a white feather quill, 1 closed book near the candle, 1 stack of books under papers, 1 loose handwritten page in front, 1 small purple flower on the desk, 1 floral porcelain teacup with saucer on the right, and 1 dark book stack at the far right. Additional background details include exactly 6 decorative environmental elements: 1 lit candle in a glass holder on the left, 1 cluster of purple flowers in the left foreground, 1 hanging spray of purple blossoms in the upper left, 1 pinned botanical note in the upper right, 1 bookshelf with books and flowers in the right background, and 1 sunset sky visible through the window. Add drifting flower petals, faint handwritten script textures, ornate gold border lines around the frame, soft volumetric window light, subtle sparkles, rich shadows, and a romantic melancholic atmosphere. Highly detailed, clean line art, glossy anime rendering, premium visual-novel key art, perfect for a niche anime banner or character-themed thumbnail.",
@@ -8357,7 +8402,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 928,
+    "id": 933,
     "title": "Pink Anime Natsuki Banner",
     "category": "ui",
     "prompt": "A glossy pastel pink anime banner in a wide cinematic layout, themed around cute romance and sweets. Place a confident teenage anime girl on the right side, shown from about thigh-up, with short fluffy bob hair in {argument name=\"hair color\" default=\"soft pink\"}, large pink-magenta eyes, a small gentle smile, and arms crossed. She wears a Japanese school uniform: 1 brown blazer, 1 white shirt, 1 red ribbon bow at the collar, and 1 dark navy-and-purple plaid skirt. Add 2 red ribbon hair accessories, one larger bow on the side and one smaller ribbon accent. On the left half, feature the large handwritten script name {argument name=\"character name\" default=\"Natsuki\"} in bold glossy 3D cursive, white-to-pink fill with bright pink outline, soft bevel, subtle drop shadow, sparkles, and a small heart flourish integrated into the lettering. The background should be a layered scrapbook collage in blush pink tones with notebook paper texture, faint grid and torn paper details, scattered doodled hearts, flower petals, sparkles, and cute bakery motifs. Include exactly 4 pinned or taped sketch-style portrait cards of the same girl behind her on the upper-right and mid-right, arranged like overlapping polaroids. Add exactly 2 cupcakes in the foreground near the bottom left and lower center-left, both with pink frosting, striped wrappers, and tiny heart toppers or candy accents. Frame the composition with flowing satin ribbons and bows: exactly 4 major ribbon elements visible, including 1 bow near the top left, 1 bow near the bottom left, and 2 long curling ribbons sweeping across the top and right edges. Use a soft high-detail anime illustration style, polished lighting, dreamy bloom, romantic Valentine palette, delicate textures, and a clean impactful thumbnail-like composition.",
@@ -8366,7 +8411,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 929,
+    "id": 934,
     "title": "Dreamy Anime Sayori Banner",
     "category": "ui",
     "prompt": "A wide anime banner illustration of {argument name=\"character name\" default=\"Sayori\"} in a bright dreamy classroom, rendered in a polished, high-end visual novel style with soft painterly lighting, warm pastel colors, and sparkling atmosphere. Show a cheerful teenage schoolgirl with short fluffy coral-pink hair, messy bob layers, and a large red bow on the right side of her head, wearing a Japanese school uniform with a light brown blazer, white shirt, red ribbon tie, brown sweater vest, and pleated navy skirt. She stands slightly left of center with arms open wide in an inviting, joyful pose, as if welcoming the viewer, with dynamic perspective and gentle motion in her hair and clothes. Her face is intentionally obscured by a flat rectangular skin-tone censor block. Behind her, tall classroom windows reveal a vivid blue sky with soft white clouds and warm sunlight streaming in. The right half of the image features a large decorative handwritten script reading {argument name=\"headline text\" default=\"Sayori\"}, cream-white lettering with a soft orange-gold outline and glow, integrated into a scrapbook-like wall background. Surround the scene with hanging photo prints clipped to string, including sky photos and a sunflower photo, plus hand-drawn doodles of clouds, stars, hearts, and a sun. Add blue and yellow paper stars, ribbons, floating confetti, a blue paper airplane, notebook pages, a spiral sketchbook, and scattered stationery elements. Place sunflowers prominently in the foreground and edges, with warm golden bokeh and soft depth of field. Make the composition energetic, cute, nostalgic, and emotionally uplifting, like a premium anime-themed YouTube banner or character tribute header, ultra-detailed, clean, stylish, luminous, and impact-focused.",
@@ -8375,7 +8420,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 930,
+    "id": 935,
     "title": "Cyberpunk 404 Witch Summoning",
     "category": "ui",
     "prompt": "A dramatic anime-style cyberpunk witch standing on a dark rooftop high above a dense futuristic city at night, viewed from a slightly elevated angle. The main subject is a petite young witch girl with pale skin, short icy blue bobbed hair, pointed elf-like ears, and glowing red eyes, wearing a sly confident smile. She raises a black wand overhead in her right hand, with a dangling orb charm at the tip glowing faintly purple and red. Her oversized crooked witch hat is black with purple lining and covered in stitched patches, warning labels, straps, and white graphics including a large “404” and a skull emblem. She wears a black and purple techwear outfit: oversized hooded jacket with many straps and tags, black crop top with “404” on the chest, layered belts, short bottoms, fishnet on one leg, black lace-up combat boots, chokers, and metallic accessories. Several hanging straps and tags visibly read words like “WITCH 404,” “404,” and glitch-themed markings. Beneath and beside her, a large glowing violet magic circle mixed with hacker interface aesthetics is projected on the rooftop floor, filled with occult rings, sigils, a central skull symbol, and scattered neon system text such as error-code fragments, creating a fusion of sorcery and digital corruption. Emerging from the circle is 1 large armored summoned figure: a black futuristic demon-knight or robotic familiar with jagged reflective armor, a narrow purple-lit visor, and a heavy weapon held in one hand, partially dissolving into purple energy shards and smoke. The background shows a sprawling rainy megacity of apartment towers and industrial rooftops, packed with windows, balconies, cables, signs, and haze. On a nearby building wall is a giant vertical graffiti-style sign with 3 readable elements: “404”, “Witch”, and “ERROR NOT FOUND”, plus a smaller “E404”. Additional purple neon glitch text and symbols are scattered across rooftops and in the air. Use a dark palette of black, indigo, and deep violet with sharp magenta-purple highlights, cinematic contrast, reflective wet surfaces, dense detail, and a high-end polished illustration style. The mood is occult, edgy, stylish, and dangerous, combining urban fantasy, hacker aesthetics, and magical summoning.",
@@ -8384,7 +8429,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 931,
+    "id": 936,
     "title": "Anime Fantasy Travel Movie Poster",
     "category": "ui",
     "prompt": "A cinematic anime movie poster for a fictional film titled {argument name=\"headline text\" default=\"EL VIAJE DE LA LUNA DE PLATA\"}, in polished modern Japanese animation style with a natural, less over-detailed look. Center a teenage anime girl from mid-thigh up, facing forward, with a short silver bob haircut, pale skin, a black choker, small black geometric earrings, a white tank top, and a dark navy oversized zip hoodie with two yellow stripes running down the sleeves. She has a backpack strap over one shoulder and both hands tucked casually into the hoodie pockets. Her face is obscured by a flat rectangular censor block in a muted beige tone, covering the entire face area. Place her in a dramatic twilight coastal city setting that blends travel, nostalgia, and fantasy: on the left, a lit train platform with a commuter train approaching, its destination sign showing Japanese characters; behind it, a glowing city skyline with a ferris wheel. In the distance and lower left, layered mountains and a winding illuminated valley road. On the right, a cliffside coast at sunset with the sea reflecting warm light, a crescent moon in the sky, several flying seabirds, and a curving highway descending along the hillside. Also on the right, include a wooden signpost with exactly 3 directional signs labeled \"NUEVOS CAMINOS\", \"VIEJOS RECUERDOS\", and \"SIN LÍMITES\". At the top center, add the Spanish tagline {argument name=\"tagline text\" default=\"CADA DESTINO CAMBIA SU HISTORIA\"} in elegant serif capitals. On the upper left, create an awards column in gold typography with laurel wreaths and exactly 4 award blocks: one text block reading \"GANADORA DE MÚLTIPLES PREMIOS\" with 5 gold stars beneath it, then three laurel award sections reading \"MEJOR PELÍCULA ANIMADA / FESTIVAL INTERNACIONAL DE ANIMACIÓN / 2024\", \"PREMIO DEL PÚBLICO / FESTIVAL INTERNACIONAL DE CINE / 2024\", and \"MEJOR BANDA SONORA ORIGINAL / ACADEMIA DE CINE ANIMADO / 2024\". Place the film title large across the lower center in luminous ornate serif lettering with a magical glow and sweeping flourishes, layered partly over the character. Beneath it, add the Spanish quote {argument name=\"quote\" default=\"A veces, para encontrarte... tienes que perderte en el mundo.\"}. Below that, add \"UNA PELÍCULA DE ESTUDIO LUMINARIA\" in small caps. At the bottom, add the release line {argument name=\"release text\" default=\"PRÓXIMAMENTE EN CINES\"} in large gold serif capitals, plus tiny production logos and credits along the footer, including a small studio emblem on the left. Rich blue, violet, and warm sunset orange palette, glossy poster lighting, romantic adventure mood, balanced composition, highly polished theatrical key art, vertical one-sheet film poster.",
@@ -8393,7 +8438,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 932,
+    "id": 937,
     "title": "Anime Music Bootcamp Promo Poster",
     "category": "ui",
     "prompt": "Create a dramatic Japanese anime-style promotional thumbnail poster for an event, vertical 4:5 composition, ultra-detailed, cinematic, neon-lit, high contrast, designed like a social media announcement image. The main subject is a beautiful anime girl centered slightly right, shown from the waist up, with long flowing {argument name=\"hair color\" default=\"deep blue\"} hair blowing in the wind, decorated with small star hairpins, wearing a dark hoodie and large studio headphones around her neck, against a glowing sunset-to-night city skyline filled with sparkling lights, music-energy particles, lens flares, and flying glowing petals. Her face area is obscured by a soft rectangular blur block. Use a vivid palette of electric blue, violet, magenta, gold, and sunset orange. Fill the design with layered Japanese typography that is crisp, readable, and integrated into the art like a polished event advertisement. Include exactly 8 major text groups: top left copy reading 「始まるのは、キミと創る 音楽の物語。」 with a smaller subcopy beneath reading 「AIを使って、みんなで音楽をつくる特別な3日間。」; top right a glowing marquee sign reading 「GW連休!」 and a smaller neon box below reading 「みんなで最高の音楽をつくろう!」; center main title with small English text 「AI MUSIC BOOTCAMP 2」 above huge Japanese title text 「AI音楽 ブートキャンプ 2」; a gigantic gold metallic announcement across the middle reading 「開催決定!」; a date bar reading 「開催期間」 followed by 「5.2 SAT 土」 and 「5.4 MON 月」; a hashtag callout near the bottom reading 「参加はカンタン!! #AI音楽ブートキャンプ2 をつけて投稿するだけ!」; a lower encouragement line reading 「初心者も大歓迎! みんなで最高の音楽体験を!」; and 3 bottom feature captions with icons reading 「一緒に学ぶ 仲間とつながる」, 「AIで創る 新しい音楽体験」, and 「想いをカタチに 自分だけの1曲を」. On the left edge, add a vertical filmstrip with exactly 4 inset panels showing the same girl in music-related scenes: 1) performing on a stage before a crowd, 2) working at a music production desk with screens and equipment, 3) singing into a microphone, 4) playing an acoustic guitar. Add exactly 2 neon music-themed icon illustrations in the lower area: a tilted smartphone with a music note on the lower left and a glowing microphone with musical notes on the lower right. Make the text effects glossy, luminous, and embossed with gold and white highlights, with energetic streaks and spark explosions around the headline. The overall feeling should be inspiring, celebratory, futuristic, and emotionally uplifting, like a high-impact Japanese Golden Week music bootcamp ad for {argument name=\"event name\" default=\"AI音楽ブートキャンプ 2\"}.",
@@ -8402,7 +8447,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 933,
+    "id": 938,
     "title": "Tropical Parrot Pixel Mosaic",
     "category": "ui",
     "prompt": "A vibrant pixel-art style mosaic of a tropical parrot perched on a small brown branch in the middle of dense rainforest foliage. The entire image is rendered as a tight grid of tiny square tiles with visible black outlines, creating a stained-glass or LED-screen effect. The bird is shown in side profile facing right, with a large curved black beak, a pale cream face, a bright red-orange forehead and throat, vivid green upper body, and long wings and tail in saturated blue and cyan. The surrounding jungle is filled edge to edge with layered green leaves in many shades, with a soft light green glow behind the parrot to separate it from the background. High color contrast, rich tropical palette, crisp tile pattern, centered composition, decorative digital mosaic aesthetic.",
@@ -8411,7 +8456,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 934,
+    "id": 939,
     "title": "Golden Cocktail in Greenhouse Bar",
     "category": "ui",
     "prompt": "A cinematic vertical photo of a hand holding up a large balloon wine glass filled with a sparkling golden-yellow citrus cocktail in a lush indoor greenhouse bar. The drink is backlit by warm late-afternoon sunlight, making it glow translucent amber. Inside the glass there is 1 visible citrus wedge, and at the rim there is 1 fresh mint garnish cluster. The hand enters from the lower left, delicately gripping the stem, wearing 1 chunky translucent amber bracelet. The setting is dense with tropical greenery, hanging ferns, and vine-covered walls, with a bright greenhouse roof structure visible overhead and 2 warm exposed hanging bulbs softly glowing in the background. Use shallow depth of field with creamy bokeh, strong sun rays filtering through leaves, soft haze, and rich green-and-gold color contrast. Add a blurred foreground leaf or plant along the right edge to frame the composition. The lower background should suggest a busy café or cocktail lounge with indistinct people, but keep them heavily out of focus. Photorealistic, elegant lifestyle photography, moody yet sun-drenched, shot from a low angle looking upward at the raised glass, high detail on condensation, glass reflections, and the luminous drink.",
@@ -8420,7 +8465,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 935,
+    "id": 940,
     "title": "Multi-Panel Image Board Template",
     "category": "ui",
     "prompt": "Create a {argument name=\"grid layout\" default=\"4x3\"} borderless grid where each panel is an independent image of the {argument name=\"subject\" default=\"a young woman\"}. Maintain strong subject consistency across all panels, with consistent color and lighting. Depict {argument name=\"theme\" default=\"childhood memories\"} with a {argument name=\"mood\" default=\"warm, nostalgic\"} mood in {argument name=\"style\" default=\"nostalgic cinematic realism\"} style. No text. No gap.",
@@ -8429,7 +8474,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 936,
+    "id": 941,
     "title": "Handwritten Realistic Letter",
     "category": "ui",
     "prompt": "Create a highly realistic image of a handwritten letter containing a ({argument name=\"message\" default=\"message or reflection carrying meanings of affection and loyalty to my account followers\"}) on lined paper, with very touching words written in liquid ink pen",
@@ -8438,7 +8483,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 937,
+    "id": 942,
     "title": "Anime Band Finale at Budokan",
     "category": "ui",
     "prompt": "A dramatic anime concert illustration seen from behind the performers onstage, showing 4 teenage girls standing shoulder to shoulder at the front of a huge indoor arena, arms around each other in a triumphant post-performance moment. The camera is positioned slightly behind and below them, facing out toward the audience and the giant venue screen. The atmosphere is dazzling and emotional, filled with dense blue-and-gold confetti, sparkling particles, and strong white stage spotlights pouring down from above. The crowd fills the entire arena as a sea of tiny glowing blue lights. At center top, a giant rectangular screen displays elegant serif concert text: {argument name=\"band name\" default=\"ELEMAYU\"}, \"1st LIVE at 日本武道館\", {argument name=\"concert date\" default=\"2024.6.15\"}, and \"SOLD OUT\". On both upper side walls of the arena, the large venue name \"日本武道館\" is visible. The 4 girls all wear matching dark stage outfits: black or very dark navy hooded jackets with subtle decorative back prints, short pleated skirts, and live-performance styling. Count and depict all 4 members distinctly from left to right: 1) a girl with short wavy silver-lavender hair holding a bass guitar slung over her shoulder, 2) a girl with long straight black hair holding a red electric guitar, 3) a girl with fluffy shoulder-length blonde hair holding a dark guitar, 4) a girl with brown hair in a high ponytail, no visible instrument, raising one arm high and holding a drumstick or baton in celebration while the other arm wraps around the blonde member. Show their backs and silhouettes rim-lit by stage light, with soft highlights on their hair. Include stage equipment: a microphone stand and part of a bass neck at the far left, and a visible drum kit with cymbals at the right edge. The stage floor is glossy and reflective, covered with scattered confetti and several blue flower bouquets near the bottom foreground. Use rich midnight blues, violet shadows, warm golden sparkles, and cinematic bloom. The mood should feel like a sold-out dream performance finale, sentimental, victorious, and breathtakingly luminous, in highly detailed painterly anime style.",
@@ -8447,7 +8492,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 938,
+    "id": 943,
     "title": "Anime Girl and Man Date Photo Collage",
     "category": "ui",
     "prompt": "A 4x4 photo collage of 16 warm, cinematic lifestyle snapshots featuring a real adult man and an anime-style young woman companion posed together as if in casual date photos. The man has short dark hair, light skin, an average build, and wears a plain dark navy or black long-sleeve shirt; his face is intentionally obscured and softly blurred in every frame. The anime girl has long blonde twin ponytails, large blue eyes, light skin, and a slim petite build, wearing a black sleeveless top, layered silver necklaces including a cross pendant, black wrist accessories, a red plaid pleated mini skirt, and black-and-white striped thigh-high socks. Blend realistic photography with a convincingly integrated 2D anime character, keeping her clean cel-shaded look while matching the scene lighting, perspective, focus, and color grading so she appears naturally present beside him. Use moody evening tones, soft bokeh, shallow depth of field, and intimate candid couple energy. The 16 panels are: 1) close indoor portrait with both seated close together, the girl resting beside him; 2) nighttime city street side profile conversation under blurred streetlights; 3) indoors, both reading a book together, the girl leaning on his shoulder; 4) outdoor cafe table, both holding takeaway coffee cups; 5) restaurant table with multiple dishes visible, dining together; 6) mirror selfie in an elevator, the man holding a smartphone while the girl makes a peace sign; 7) car interior road-trip shot, the man driving and the anime girl in the passenger seat; 8) seaside sunset from behind, both sitting side by side watching the ocean; 9) neon-lit city night portrait, the girl pointing toward the camera; 10) intimate elevator close-up, the girl with eyes closed leaning affectionately against him; 11) full mirror selfie in an elevator showing more of both outfits; 12) night city skyline portrait with a lit tower in the background; 13) camera selfie close-up, the man holding a compact camera toward a mirror or reflective surface; 14) cozy indoor lounge moment, the man holding a glass of red wine while the girl smiles and makes a peace sign; 15) rear full-body rainy night street shot, the pair walking away hand in hand under glowing streetlights; 16) extreme close-up night portrait with the girl flashing a peace sign. Keep the collage tightly gridded with thin white dividers, square overall format, consistent amber-brown color grading, romantic urban realism, and subtle social-media photo-dump aesthetics.",
@@ -8456,7 +8501,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 939,
+    "id": 944,
     "title": "Luxury Lifestyle Mustang Shot",
     "category": "ui",
     "prompt": "A stylish young woman with {argument name=\"hair style\" default=\"long wavy blonde hair\"}, defined cheekbones, and a confident expression, wearing black sunglasses and a {argument name=\"clothing\" default=\"thick white puffer jacket\"} over a fitted black top, standing confidently in front of a {argument name=\"car\" default=\"vibrant hot-pink Ford Mustang\"}. She is posing with one hand slightly raised near her chest, exuding effortless attitude and elegance. The car is parked on a scenic coastal road lined with blooming pink cherry blossom trees and tall palm trees. Behind them is a calm sea under a dramatic overcast sky with soft clouds. Pink petals are scattered on the wet asphalt. A wooden bench is visible on the left side near the water. Cinematic lighting, photorealistic, ultra-detailed skin texture, natural lighting reflections, Instagram-style luxury lifestyle shot, vibrant colors, moody atmosphere, 8k resolution --ar 9:16 --stylize 250",
@@ -8465,7 +8510,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 940,
+    "id": 945,
     "title": "Anime Friends Eating Soba",
     "category": "ui",
     "prompt": "A cozy anime-style interior of a traditional Japanese soba restaurant, viewed from table height in a booth, with two young women seated across the near corners of a rectangular wooden table and facing the viewer in a casual dining snapshot. The left woman has long straight pastel {argument name=\"hair color\" default=\"lavender with cyan highlights\"} hair with glossy strands and soft bangs, and wears a white kimono-style top with bright blue trim and a deep blue obi-like sash skirt; she is slightly curvy, sitting on the left red vinyl bench, turned a little toward the camera, raising her left hand in an open friendly wave. The right woman has a sleek short bob in dark brown to black with a purple underlayer visible near the ends, red rectangular glasses, small earrings, a fitted charcoal-gray long-sleeve scoop-neck top, and light blue jeans; she sits on the right red vinyl bench, leaning slightly toward the table and holding chopsticks in her right hand as if about to eat. Place 2 large black bowls of soba on the table, one in front of each woman, both filled with dark broth, noodles, sliced duck meat, and chopped green onions; add 1 clear water glass near the center back of the table and 2 small condiment dishes beside it. The restaurant should feel warm and nostalgic, with wooden paneling, a shoji-style window on the left, a small potted plant on the windowsill, a back counter with condiments and utensils, and a navy noren curtain on the right bearing large white Japanese text \"蕎麦\" and smaller vertical text \"手打ちそば\". On the back wall, show 7 vertical wooden menu boards with Japanese dish names and prices, including labels such as \"もりそば\", \"ざるそば\", \"かけそば\", \"たぬきそば\", \"肉そば\", \"天ぷらそば\", and \"鴨南蛮そば\". Use clean polished anime rendering, crisp line art, soft warm lighting, detailed food illustration, rich wood textures, and a friendly everyday outing mood.",
@@ -8474,7 +8519,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 941,
+    "id": 946,
     "title": "Gothic Android Warrior Cathedral Key Art",
     "category": "ui",
     "prompt": "A cinematic dark fantasy anime illustration in a ruined gothic cathedral, vertical composition. Show a lone female android-like warrior from behind, centered slightly low in frame, kneeling or sitting back on her heels on a reflective stone floor. She has extremely long flowing {argument name=\"hair color\" default=\"silver white\"} hair spreading across the floor and air, a sleek black blindfold visor covering her eyes, and a black high-cut gothic combat dress with elegant straps, long black opera gloves, and thigh-high black boots. Her physique is slim and graceful. She holds 1 large ornate sword upright in front of her, with both hands resting on the hilt, the blade planted on the ground like a memorial. The sword has a dark blade and a decorative gold ring-like guard near the handle. The atmosphere is solemn, tragic, and reverent. Place 3 tall pointed arched windows in the background, glowing with cold white backlight through haze and dust. Include 4 stone angel statues total: 2 larger angels in the left background and 2 in the right background, partially obscured by fog and darkness. Fill the air with drifting ash, snow-like particles, black debris fragments, and a few faint orange embers near the floor. Use dramatic volumetric light rays, soft bloom, smoky mist, high contrast, and a desaturated palette of charcoal gray, silver, blue-gray, and black. The scene should feel like a memorial after a battle, highly detailed, ultra-polished, melancholic, ethereal, and game key art inspired by {argument name=\"franchise title\" default=\"NieR:Automata\"}. Add 1 vertical Japanese title inscription near the lower left reading {argument name=\"vertical text\" default=\"儚き夢と共にあれ\"}, with 1 small vertical English subtitle beside it reading {argument name=\"subtitle text\" default=\"NieR:Automata\"}.",
@@ -8483,7 +8528,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 942,
+    "id": 947,
     "title": "Cloud shape doodle generation",
     "category": "ui",
     "prompt": "Based on the shape of the {argument name=\"subject\" default=\"clouds\"} in the image, identify what object, animal, or person they most resemble. Do not change the original image; instead, draw that object, animal, or person over the original image in a {argument name=\"art style\" default=\"doodle\"} style.",
@@ -8492,7 +8537,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 943,
+    "id": 948,
     "title": "Rural Station Schoolgirl Scene",
     "category": "ui",
     "prompt": "A cinematic anime-style illustration of a quiet rural Japanese train station in early summer, filled with travel nostalgia and bright midday light. In the foreground, one high school girl stands alone on the platform near the left side of the frame, facing slightly toward the viewer with a shy, gentle posture, her legs together and one foot angled inward. She has {argument name=\"hair color\" default=\"black\"} short bobbed hair with soft bangs, and wears a classic Japanese sailor school uniform: a white long-sleeved sailor blouse with navy trim, a vivid red neckerchief, a dark navy pleated skirt, white socks, and dark brown loafers. She holds a dark school bag in one hand at her side. Her expression should feel calm, a little wistful, as if she was just about to speak before the train arrived. Place her beside an old weathered wooden station building with large windowpanes and a simple wooden bench. Above her is 1 hanging station sign reading {argument name=\"station name\" default=\"山ノ下駅\"}, with smaller romanized text “YAMANOSHITA” and small local line information beneath it. The right half of the image opens to 1 set of railway tracks receding into the distance, bordered by lush green grass and wildflowers, with 1 small local train approaching from far down the line. Add a few utility poles running alongside the tracks. In the deep background, show a dramatic mountain range with lingering snow on the peaks under a vivid blue sky with scattered white clouds. Composition should balance the girl on the left and the railway perspective on the right, with detailed background scenery, crisp sunlight, soft anime rendering, realistic textures in the station wood and rails, and a heartfelt slice-of-life travel mood.",
@@ -8501,7 +8546,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 944,
+    "id": 949,
     "title": "Anime Characters in Real Izakaya Photo",
     "category": "ui",
     "prompt": "A candid indoor restaurant photo in a realistic anime-inspired style, showing two young women seated at a small worn wooden table inside a cozy Japanese izakaya with vertical wood-paneled walls and a clear plastic tent-like curtain on the right side. The camera is slightly above table height and angled diagonally toward the table, creating a casual snapshot feeling. One woman is in the left foreground with her back mostly to the viewer, leaning forward over the table; she has long straight dark hair and wears a bulky dark navy or black puffer jacket with a large hood. The second woman sits across from her on the right, facing the camera with a relaxed posture and one arm bent on the table; she has shoulder-length dark brown to black hair, a center part, a black puffer jacket, and a light inner shirt. Replace only the people with clean, natural-looking anime characters while keeping the restaurant environment photorealistic and unchanged. Preserve the mixed-media look of anime characters composited believably into a real photo. On the table, include 2 stainless steel mugs, 2 pairs of chopsticks, 1 smartphone with a bright blue case near the center-left edge of the table, 1 cigarette pack near the right woman, 1 large oval plate with thinly sliced white onions and a lemon wedge, 1 small dish of green vegetables, 1 small plate of brown food, 1 small plate with toast or grilled bread, 1 small dark bowl, 2 small empty white bowls, and 1 printed handwritten Japanese menu sheet lying on the lower right corner of the table. In the upper left background, include a wooden counter with white ceramic bottles and dishes, plus 1 handwritten Japanese wall menu poster. Warm indoor lighting, everyday nightlife atmosphere, documentary realism, detailed wood grain, slightly cluttered tabletop, authentic casual dining scene in Japan.",
@@ -8510,7 +8555,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 945,
+    "id": 950,
     "title": "Anime Campers in a Winter Tent",
     "category": "ui",
     "prompt": "A cozy winter camping scene inside a large beige canvas tent, rendered as a semi-realistic anime illustration with natural lighting and realistic environmental detail. Show exactly 2 seated young women around a compact kerosene heater used as a camp table, with a large black metal pot resting on top. The viewpoint is a candid wide-angle photo composition from slightly above seated height, making the scene feel like a casual snapshot taken inside the tent. The woman on the left has {argument name=\"hair color\" default=\"dark brown\"} hair tied in a high ponytail with loose bangs, and wears a fluffy brown fleece jacket, dark pants, and a red lanyard with an ID card. She sits in a low camping chair and leans forward, using chopsticks over a small bowl or food container in her hands. The woman on the right has {argument name=\"hair color\" default=\"black\"} shoulder-length hair and wears a muted purple hoodie layered under a black puffer vest, light gray sweatpants, and dark shoes. She sits in another low camping chair, resting her cheek on one hand in a relaxed, sleepy pose. Keep both faces obscured by a soft rectangular blur block, as if anonymized in a posted photo. Around them, include exactly 4 red beverage cans visible in the scene: 2 on the wooden table planks near the center, 1 cropped in the lower right foreground, and 1 farther back near the right side. Build a low U-shaped arrangement of 3 wooden bench planks surrounding the heater. Add small camping details: 1 olive duffel bag on the left ground, 1 plastic storage box with supplies behind the left woman, 1 white plastic shopping bag on top of the box, 1 small bowl on the table, 1 colorful snack package on the right-side plank, 1 soft brown cloth on the far left floor, and 1 black metal rack frame standing at the back right. The tent interior should have taut canvas walls, visible seams and support poles, a gravel ground, and a warm muted color palette. Preserve the feeling of a real camping photo where only the people have been turned into anime-style characters while the setting remains highly realistic.",
@@ -8519,7 +8564,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 946,
+    "id": 951,
     "title": "BMW Performance Social Poster",
     "category": "ui",
     "prompt": "Create a 4:5 vertical social poster in ultra high resolution, 8K print quality sharpness. Use the {argument name=\"car model\" default=\"BMW car\"} from the reference image as the main subject and use the background structure/composition from the reference image, but transform it into a BMW themed design. Replace all black tones with a flat {argument name=\"background color\" default=\"high-saturation BMW blue\"} background. Keep the same layout, spacing, visual balance, and poster composition from the reference image. Background should use a smooth gradient from slightly lighter electric blue at the top to deep navy blue at the bottom. Add subtle grain texture (2 to 3%) and faint rectangular overlays (2 to 4% opacity). Keep it clean, graphic, premium, and non-realistic. Add a soft contact shadow under the car. Use the same BMW from the reference image, changing only the {argument name=\"paint finish\" default=\"matte frozen blue\"} or deep metallic navy. Keep the original body shape, wheels, stance, and design details from the reference image. Show the car in a rear 3/4 perspective matching the reference image angle exactly. Use a slightly elevated camera angle. Position the car slightly right of center. Include visible carbon roof, aggressive rear diffuser, sharp controlled reflections, and subtle brake details. Keep composition identical to the reference image: Top: branding Middle: giant type Center: car overlapping text Bottom: editorial block and specs Typography: Primary text: “BMW” Ultra condensed bold sans serif, tall vertical scaling like the reference poster. Color deep navy or near black. Static text with no distortion. Acts as structural backdrop. Secondary header: “BMW M4 G82” Thin font with wide tracking. Logo area: BMW roundel centered above. Editorial block: Headline: “BMW — Where Driving Becomes Instinct” Body copy focused on: driver connection control performance precision Use the same boxed editorial layout as the reference image. Background faded text: “M4” large scale with 3 to 5% opacity behind the box. Bottom left: “ M4 G82” Bottom right specs: 405 kW / 550 PS 3.4 s 307 km/h Lighting should be clean studio lighting with sharp but controlled highlights. Color grading should use deep blues, high contrast, clean blacks. Camera lens: 50mm, slightly elevated rear 3/4 angle. Mood: Performance. Precision. Driver focus. Add Bottom-right watermark: harboriis , with small x and Instagram logo",
@@ -8528,7 +8573,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 947,
+    "id": 952,
     "title": "Cinematic Chicken Momos Ad Poster",
     "category": "ui",
     "prompt": "A hyper-realistic cinematic street-food advertisement poster for {argument name=\"brand name\" default=\"Licious\"} frozen {argument name=\"product name\" default=\"Chicken Momos\"}, shot in a dark premium studio with dramatic moody lighting, deep navy-black background, glossy black tabletop, and high contrast commercial food photography styling. The composition is a square social-media ad layout with oversized bold condensed white sans-serif headline text on the left reading {argument name=\"headline text\" default=\"PERFECTLY MADE.\"} stacked across two lines, and a smaller white subheadline beneath it reading {argument name=\"tagline text\" default=\"PRECISION IN EVERY BITE.\"}. Along the far left edge, add thin vertical small caps text reading “FRESH • CLEAN • CONTROLLED”. Across the upper-right background, repeat the phrase “CUT / STEAM / SERVE / REPEAT” in a subtle dark gray pattern, and faintly repeat “CUT / STEAM / SERVE / REPEAT” again near the bottom-left floor area as perspective text. Feature exactly 6 momos total: 5 intact steamed chicken momos floating and arranged dynamically across the center and right side, and 1 split-open momo in the center revealing juicy orange-brown chicken filling with herbs, with a glossy red-orange sauce droplet dripping downward from the opened dumpling. Scatter small chili flakes, herb bits, and seasoning particles suspended in the air around the momos for explosive motion. Place exactly 3 retail product boxes on the right side, staggered in depth, black packaging with the {argument name=\"brand name\" default=\"Licious\"} logo and red product title “CHICKEN MOMOS,” including food photography of the dumplings on the box front. At the bottom right foreground, place 1 small black bowl filled with bright red dipping sauce. Add a thin footer line of small white text across the bottom reading “CHICKEN MOMOS • FRESHLY PREPARED • 2026 EDITION” and place “licious.com” in the lower-right corner. Use premium ad design, ultra-detailed food texture, glossy highlights on the dumplings, subtle steam sheen, crisp typography, shallow depth of field, and a polished high-end commercial campaign aesthetic.",
@@ -8537,7 +8582,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 948,
+    "id": 953,
     "title": "Nostalgic 16-Photo Couple Grid",
     "category": "ui",
     "prompt": "{\"type\":\"16-photo nostalgic contact sheet collage\",\"style\":\"dreamy film photography, soft blur, slightly underexposed, candid youthful romance, flash snapshots mixed with ambient dusk light, subtle grain, sentimental and bittersweet mood\",\"subject\":{\"people_count\":2,\"relationship\":\"young couple or former lovers spending time together\",\"ages\":\"early 20s\",\"appearance\":{\"male\":{\"build\":\"slim\",\"hair\":\"short dark hair\",\"clothing\":\"loose white short-sleeve shirt, camera strap around neck in several shots\"},\"female\":{\"build\":\"slim\",\"hair\":\"shoulder-length dark hair\",\"clothing\":\"light sleeveless tops or soft casual summer clothes\"}},\"faces\":\"intentionally obscured by soft rectangular blur blocks over every visible face\"},\"layout\":{\"grid\":{\"rows\":4,\"columns\":4,\"count\":16,\"border\":\"thin white dividers, equal square cells\"},\"images\":[{\"position\":\"row 1 col 1\",\"description\":\"close cropped portrait of the woman in a white top at night, soft flash, dark background\"},{\"position\":\"row 1 col 2\",\"description\":\"close cropped blurred two-person selfie framing, both subjects partially visible, dark nighttime setting\"},{\"position\":\"row 1 col 3\",\"description\":\"young man standing at night and holding a compact silver camera up to his face, white shirt, distant lights behind him\"},{\"position\":\"row 1 col 4\",\"description\":\"woman on a beach or shoreline in low light, softly blurred, ocean horizon behind her\"},{\"position\":\"row 2 col 1\",\"description\":\"street candid of the man holding a camera near his face while walking outdoors in the evening, urban background with motion blur\"},{\"position\":\"row 2 col 2\",\"description\":\"close-up of the woman indoors or in a dim warm setting, hand raised near her face, flash-lit snapshot\"},{\"position\":\"row 2 col 3\",\"description\":\"blurred two-shot of the couple sitting close together by water at dusk, intimate candid composition\"},{\"position\":\"row 2 col 4\",\"description\":\"young man outdoors in greenery during daytime or early evening, looking down at a camera in his hands, white shirt and camera strap visible\"},{\"position\":\"row 3 col 1\",\"description\":\"woman close to the camera giving a peace sign, casual sleeveless top, sandy or beachlike background\"},{\"position\":\"row 3 col 2\",\"description\":\"back view of the man in a white shirt looking out over a cityscape at night from a high vantage point\"},{\"position\":\"row 3 col 3\",\"description\":\"woman indoors at night holding a compact camera directly toward the viewer, city lights beyond a window, flash aesthetic\"},{\"position\":\"row 3 col 4\",\"description\":\"tight cropped two-person selfie-like frame with both subjects partially visible, dark background\"},{\"position\":\"row 4 col 1\",\"description\":\"young man at the waterfront at dusk holding a camera to his eye, cloudy blue sky and distant shoreline behind him\"},{\"position\":\"row 4 col 2\",\"description\":\"soft night portrait of the woman on a city street with warm bokeh lights in the background\"},{\"position\":\"row 4 col 3\",\"description\":\"close intimate couple snapshot with both faces near each other, one subject making a peace sign, heavy blur and flash look\"},{\"position\":\"row 4 col 4\",\"description\":\"rear view of the woman walking alone down a warmly lit narrow street at night, shoulder-length hair and light top visible\"}]},\"composition\":\"each square feels like a memory fragment from one summer evening and a few nearby outings, varied framing, natural imperfection, casual amateur photography\",\"color_palette\":\"muted blues, warm tungsten yellows, soft skin tones, dark greens, charcoal night shadows, faded white clothing\",\"camera_look\":\"35mm point-and-shoot or disposable camera feel, shallow focus, motion blur, bloom around lights, occasional flash overexposure\",\"quality\":\"high-resolution collage with authentic analog softness, emotionally evocative and realistic\"}",
@@ -8546,7 +8591,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 949,
+    "id": 954,
     "title": "Anime BL Promo Thumbnail",
     "category": "ui",
     "prompt": "A bright, polished anime-style promotional thumbnail with a summer romance atmosphere. The composition is split visually, with large typography on the left and two handsome young men on the right. On the left side, place layered translucent white panels with soft glow and sparkles over a sky-blue background, featuring large elegant serif text \"GPT\" in a blue gradient at the top and \"BL\" in a lavender-to-violet gradient below. Add three lines of Japanese text arranged between and under them: \"最新の画像生成で\", \"作って\", and \"遊んでみた\", in deep blue calligraphic Japanese type. Include subtle decorative accents such as small star glints, diagonal light streaks, dotted texture, and a cyan underline swoosh beneath the middle text. On the right side, show 2 anime boys from the waist up, leaning casually together beside a chain-link fence under leafy trees. The taller boy has tousled dark brown hair, a navy overshirt worn open over a white T-shirt, layered silver necklaces, and holds 1 plastic cup of iced coffee with a straw. The shorter boy has messy silver-white hair, a white T-shirt with a small crest emblem on the chest, black backpack straps over both shoulders, layered silver necklaces, and one small earring. Their poses are relaxed and intimate, with the dark-haired boy’s arm resting around the other. Use a luminous blue-and-white palette with soft sunlight, lens flare, bokeh, and a faint cityscape in the background, creating a clean social-media header or article thumbnail aesthetic.",
@@ -8555,7 +8600,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 950,
+    "id": 955,
     "title": "Artist and Ethereal Muse at Night",
     "category": "ui",
     "prompt": "A cinematic anime-inspired digital illustration set at night inside a cozy artist's room with large window panes and a warm city glow outside. On the left, a young male artist with {argument name=\"hair color\" default=\"dark brown\"} messy hair sits at a cluttered desk in side profile, leaning forward with one hand near his mouth and the other drawing with a pen on a tablet or sketchbook. The desk is covered with exactly 1 pen cup filled with pencils, 1 coffee mug, 1 open laptop or pen-display showing a sunset landscape, 1 spiral sketchbook with manga-style character drawings, 2 additional drawing books or pads, 1 small stack of about 4 books, and many scattered art cards and printed illustrations. On the right, a luminous ethereal anime girl made of blue-white light appears life-sized, facing the artist with both hands gently extended toward him. Her form is translucent, delicate, and composed of glowing contour lines, starry particles, and flowing strands of light, with long windblown hair and a soft dress-like silhouette. Between them, a magical stream of golden and white light spirals upward from the artist's desk into the air, connecting creator and creation. Inside this swirling ribbon are exactly 12 to 16 floating image fragments and sketch pages: monochrome character sketches, scenic sunset paintings, small photo-like panels, and tiny icon-like cards, all orbiting in a curved arc from lower center to upper left and upper center. Around the upper half of the image, dozens of glowing musical notes float through the air, mixed with sparkling particles, creating the feeling that inspiration has become visible sound and memory. The palette is rich warm gold and amber on the artist's side, contrasted with cool electric blue and white on the spirit girl's side, with dramatic rim light, volumetric glow, intricate particles, and a dreamy emotional atmosphere. Composition is vertical, highly detailed, intimate, and poetic, evoking the relationship between {argument name=\"person one\" default=\"you\"} and {argument name=\"person two\" default=\"me\"} as artist and imagined muse, where drawings, music, memories, and fantasy physically manifest in the room. Add a small handwritten note card on the desk with {argument name=\"note text\" default=\"二人だけの物語\"}, and display one prominent artwork on the desk and one floating scenic panel using {argument name=\"scene theme\" default=\"sunset sky over a distant city\"}.",
@@ -8564,7 +8609,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 951,
+    "id": 956,
     "title": "Brand Collage Social Template",
     "category": "ui",
     "prompt": "[BRAND NAME = CHANGE TO YOUR BRAND].\nAct as a Social Media Art Director and Digital Collage Artist specializing in bold, youth-oriented brand content for Instagram and digital campaigns. PHASE 1: CONCEPTUAL FRAMEWORK Create a dynamic digital collage that merges fashion photography with graphic design chaos. This is controlled rebellion – a composition that feels spontaneous and energetic while maintaining brand coherence. The aesthetic is anti-polished: torn edges, layered textures, hand-drawn elements, and bold color blocking that screams confidence and movement. PHASE 2: MODEL & PHOTOGRAPHY - Subject: One model (diverse casting, age 18-30) in a dynamic, confident pose - Pose Energy: 80% attitude, 20% natural – sitting, jumping, mid-motion, or power stance (avoid static standing) - Outfit: Street style/athleisure that aligns with [BRAND NAME] aesthetic – casual but styled - Hero Product: Feature 1 signature [BRAND NAME] product prominently (sneakers, bag, apparel) – this is the visual anchor - Photography Style: Editorial fashion cutout – model extracted from background with clean edges - Camera Angle: Slight low angle to empower subject (hero perspective) - Crop: Full body or 3/4 body showing hero product clearly - Background Removal: Model cut out cleanly for layering over collage elements PHASE 3: COLOR BLOCKING FOUNDATION - Primary Color Blob: Large organic shape (40-60% of composition) in bold, saturated brand color behind/around model - Shape Style: Irregular, hand-painted aesthetic – think Photoshop brush strokes or torn paper texture (NOT perfect geometric shapes) - Color Selection (Autonomous): Choose 1 hero color from [BRAND NAME] palette: - Texture: Visible brush strokes, grain, or subtle noise (15-25% opacity) – avoid flat digital fills - Placement: Blob positioned to frame model without obscuring key product details PHASE 4: GRAPHIC ELEMENTS LAYER Add 3-5 abstract graphic elements scattered across composition: - Element Types: - Color Palette: Use 2-3 accent colors total (main blob color + 1-2 contrasting tones from brand palette) - Placement: Asymmetric scatter – top-left and bottom-right zones primarily (avoid center crowding) - Scale: Mix small (5% of canvas) and medium (15% of canvas) elements – nothing overpowering - Aesthetic: Analog/handmade feel – imperfect circles, rough edges, visible texture PHASE 5: TYPOGRAPHY INTEGRATION - Brand Logo: Clean [BRAND NAME] logo placed in upper-left or upper-right quadrant (10-15% of width) - Slogan/Tagline: If [BRAND NAME] has an iconic slogan, integrate it using: - Supporting Copy: Optional 1-line descriptor (e.g., \"A MOMENT OF YOUR STYLE\") in smaller uppercase sans-serif - Type Treatment: Mix of aligned and slightly rotated text (2-5° angles) for dynamic energy - Hierarchy: Logo largest → Slogan medium → Copy smallest PHASE 6: TEXTURE & BACKGROUND - Base Layer: Off-white or light gray textured background (NOT pure white) - Texture Options (Autonomous selection): - Color: RGB 245-250 (near-white with warmth) – maintains brightness while adding depth - Treatment: Texture should be felt, not seen – enhances tactility without competing with foreground PHASE 7: COMPOSITION RULES - Layout: Asymmetric balance – model off-center, graphic elements counter-balance - Breathing Room: 15-20% negative space (textured background visible) to prevent claustrophobia - Layering Order: Background texture → Color blob → Graphic elements → Model (cutout) → Typography top layer - Focal Point: Model + hero product = primary focus (60% visual weight), graphics support (40%) - Movement: Diagonal lines and angled elements create directional flow (top-left to bottom-right or vice versa) PHASE 8: BRAND INTELLIGENCE (AUTONOMOUS) Autonomously adapt composition based on [BRAND NAME] personality: - Streetwear/Sportswear (Nike, Adidas, Supreme): - Luxury Streetwear (Balenciaga, Off-White, Gucci): - Beauty/Lifestyle (Glossier, Fenty, Skims): - Tech/Modern (Apple, Tesla, Beats): PHASE 9: SOCIAL MEDIA FOOTER (OPTIONAL) - Bottom Strip: Clean white or light gray bar at bottom 8-10% of frame - Content: Social media handles (Instagram, Facebook, Twitter) in small sans-serif - Layout: Three-column grid with platform icons or text handles - Aesthetic: Minimal and professional – contrast with chaotic collage above TECHNICAL SPECS: - Aspect Ratio: 4:5 (Instagram feed) or 1:1 (square social post) - Resolution: 2400x3000px minimum (high-quality for zoom and detail) - Color Mode: sRGB, vibrant saturation (Instagram-optimized) - File Aesthetic: Digital collage that mimics analog craft (Photoshop + hand-drawn hybrid) - Model Photography: 85mm lens, f/2.8, shallow depth of field on original shoot (before cutout) - Style Reference: Nike social campaigns, Spotify wrapped graphics, Gen Z Instagram aesthetics, Hypebeast x streetwear collabs - Mood: Confident, energetic, youthful, authentic chaos, anti-corporate polish",
@@ -8573,7 +8618,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 952,
+    "id": 957,
     "title": "Outfit Breakdown Chart",
     "category": "ui",
     "prompt": "Create a clean vertical fashion infographic from the uploaded portrait. Preserve the same face identity, hairstyle, body shape, and overall outfit style. Place the full-body character in the center in a relaxed T-pose, facing forward. Surround the character with realistic photo-style outfit breakdown elements, connected by thin arrows.\n\nInclude separate cutout sections for: head details, cardigan, sailor top, inner blouse, plaid skirt, bag, socks, loafers, color palette, styling notes, and fabric texture. Add 3–4 head close-ups from different angles at the top. Use short English handwritten-style labels and concise bullet points.\n\nVisual style: soft pastel cream and blush-pink background, clean fashion board layout, elegant magazine-style composition, sweet preppy aesthetic, realistic fabric textures, delicate borders, small bow and heart doodles, airy and polished design. Keep the text short, readable, and fully in English. Original vertical aspect ratio.\n\nNegative Prompt:\n\nChinese text, long text, messy layout, old parchment background, yellow aged paper, blurry details, distorted face, changed identity, extra limbs, bad hands, duplicated body, unrealistic fabric, cartoon style, anime style, 3D render, watermark, logo, unreadable typography, overcrowded design, harsh colors, low resolution.",
@@ -8582,7 +8627,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 953,
+    "id": 958,
     "title": "Recipe Infographic Layout",
     "category": "ui",
     "prompt": "Create step-by-step recipe infographic for creamy garlic mushroom pasta, top-down view, minimal style on white background, ingredient photos labeled: \"200g spaghetti\", \"150g mushrooms\", \"3 garlic cloves\", \"200ml cream\", \"1 tbsp olive oil\", \"parmesan\", \"parsley\", dotted lines showing process steps with icons (boiling pot, sauté pan, mixing), final plated pasta shot at the bottom",
@@ -8591,7 +8636,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 954,
+    "id": 959,
     "title": "Personal Color Analysis Graphic Board",
     "category": "ui",
     "prompt": "Create a personal color analysis graphic using this portrait. Point out which season colour suits the subject best. Show side-by-side clothing color comparisons to highlight which colors suit the subject best. List out what texture/accessories/hairstyle suit the subject best. Make it visual-first, with short labels only and no paragraphs.",
@@ -8600,7 +8645,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 955,
+    "id": 960,
     "title": "Futuristic Hall Fashion Shot Sequence",
     "category": "ui",
     "prompt": "Frame 1 (Top-Down Establishing)\nExtreme top-down shot in futuristic white curved hall, subject centered but compressed against smooth reflective floor, body aligned straight but slightly angled, arms close to body with subtle tension, head tilted upward toward camera, gaze directed straight up, strong circular architectural lines framing composition, soft studio lighting creating gentle gradients, shallow depth of field at f/1.2, smartphone-like proximity despite height, clean minimal atmosphere, dynamic opening frame, subtle athletic readiness, wearing full beige suit with white t-shirt and white sleek sneakers, Peter Lindbergh influence\nFrame 2 (Low Angle Power)\nExtreme low angle from floor level, subject towering above camera, legs forming strong base, torso slightly leaning forward, shoulders squared, arms slightly away from body, head angled downward, gaze into lens, strong vertical distortion, reflective floor amplifying silhouette, soft studio lighting with controlled highlights, shallow depth f/1.2, powerful dominance frame, subtle athletic tension, full beige suit, white t-shirt, white sleek sneakers, Peter Lindbergh influence\nFrame 3 (Wide Isolation)\nWide long shot, subject very small within vast futuristic hall, surrounded by curved white architecture, large negative space dominating composition, subject standing still, body straight, arms relaxed but structured, head slightly turned, gaze outward into space, minimal reflections, soft even lighting, shallow depth f/1.2 isolating subject despite distance, cinematic silence, full beige suit, white t-shirt, white sleek sneakers, Peter Lindbergh influence\nFrame 4 (Dynamic Close-Up Tilt)\nClose-up with strong diagonal tilt, subject leaning into frame, shoulders sharply angled, one arm crossing body, head tilted sideways, gaze slightly off camera, tight crop cutting part of body, soft lighting wrapping contours, shallow depth f/1.2 isolating face plane, intense proximity and tension, full beige suit, white t-shirt visible, Peter Lindbergh influence\nFrame 5 (Motion Step Forward)\nMid shot, subject stepping forward dynamically, one leg extended, weight shifting, arms slightly swinging with controlled motion, shoulders rotated, head facing forward, gaze ahead, slight motion blur on edges, futuristic curved walls passing behind, soft studio lighting, shallow depth f/1.2, transitional energy frame, full beige suit, white t-shirt, white sleek sneakers, Peter Lindbergh influence\nFrame 6 (Final Grounded Frame)\nFull body frontal shot, subject standing firmly, legs slightly apart, arms held with controlled tension, shoulders squared, head facing forward, gaze into camera, symmetrical composition slightly offset, minimal futuristic background, soft lighting emphasizing structure, shallow depth f/1.2, strong final impact frame, subtle athletic readiness, full beige suit, white t-shirt, white sleek sneakers, Peter Lindbergh influence\n\nNegative Commands (apply to all frames):\nno text, no watermark, no low quality, no cartoonish style\n\nAspect Ratio: 3:4",
@@ -8609,7 +8654,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 956,
+    "id": 961,
     "title": "Annotated Coffee Table Mood Board",
     "category": "ui",
     "prompt": "Use the uploaded photo as the main base image.\n\nBased on the coffee, drinks, desserts, plates, props, table setting, and overall composition shown in the image, create an aesthetic and emotional result that naturally reflects the real elements in the photo. Do not add any people. Stay true to the actual types of food and drinks, their arrangement, and the atmosphere captured in the original image.\n\nThen, carefully observe each element in the photo and add hand-drawn style annotations that match each subject:\n\nUse white pen-style sketch lines with a rough, slightly uneven, hand-drawn feel\n\nInclude object outlines, arrows, and dotted lines to guide visual flow\n\nAdd short handwritten Korean notes in a casual, introspective, emotional tone\n\nFor drinks: describe taste, temperature, and mood\n\nFor desserts: describe texture and flavor\n\nFor the space: describe the ambiance\n\nInclude a short overall summary of the scene\n\nSubtly incorporate small details like steam, sparkles, hearts, or tiny emotive symbols\n\nMaintain a clean, spacious layout with an Instagram story or magazine memo-like aesthetic\n\nThe final result should look like an emotionally styled version of the original photo, without forcing in any elements that don’t naturally belong to it",
@@ -8618,7 +8663,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 957,
+    "id": 962,
     "title": "High-Fashion Beverage Campaign Board",
     "category": "ui",
     "prompt": "Create a high-fashion editorial beverage campaign set on a minimalist rooftop at golden hour. Ultra-clean composition with strong negative space, warm sun flare, and soft shadows.\n\nA stylish male model with sharp features and effortless confidence is posed like a fashion editorial—slightly turned away, sipping from the can. He wears elevated linen tailoring in monochrome cream tones, partially unbuttoned, with subtle jewelry.\n\nForeground: a sculptural stone pedestal holding a large hero can of AURELIS – Blood Orange Basil, hyper-detailed with condensation and botanical artwork.\n\nTypography is bold, oversized, and editorial: GOOD DAYS IN EVERY CAN\n\nUse refined serif typography with dramatic scale and spacing. Keep layout asymmetrical and magazine-like.\n\nAdd subtle microcopy: “Botanical. Bright. Made to sparkle.”\n\nMinimal icons (thin line style): LOW SUGAR / REAL FRUIT / LIGHTLY SPARKLING / 12 OZ\n\nBottom strip: 3 cans styled like a luxury product lineup with fruit + herbs arranged like still life photography:\n\nBlood Orange Basil\n\nPeach Ginger\n\nLime Mint\n\nCTA: SHOP FLAVORS →\n\nStyle: Vogue campaign, luxury branding, cinematic lighting, ultra-realistic, muted tones, high contrast, premium finish.\nAspect ratio: vertical (4:5 or 9:16)\n\n🌿 2. Minimal Premium (Apple-style)\n\nPrompt:\n\nCreate a minimalist premium beverage ad with a sunlit rooftop setting and extremely clean composition.\n\nBackground: soft gradient sky with warm golden-hour tones, minimal distractions, large negative space.\n\nA relaxed male model sits casually, taking a sip from the can. Wardrobe: simple, modern, neutral linen outfit.\n\nCenterpiece: a large floating or pedestal-mounted can of AURELIS – Blood Orange Basil, perfectly lit with soft reflections and visible condensation.\n\nTypography: SUN IN EVERY SIP\n\nUse modern minimal typography, centered, with generous spacing.\n\nSupporting line: “Real botanicals. Effortless refreshment.”\n\nIcons aligned horizontally: LOW SUGAR • REAL FRUIT • LIGHTLY SPARKLING • 12 OZ\n\nBottom section: 3 cans evenly spaced, perfectly aligned with subtle shadows:\n\nBlood Orange Basil\n\nPeach Ginger\n\nLime Mint\n\nCTA button (pill-shaped): SHOP FLAVORS\n\nStyle: Apple-level minimalism, ultra-clean layout, soft gradients, modern luxury, highly polished product rendering.\nAspect ratio: vertical (4:5 or 9:16)\n\n🍊 3. Bold Gen Z Premium Version\n\nPrompt:\n\nCreate a bold, scroll-stopping vertical beverage ad set on a rooftop during golden hour with vibrant citrus energy.\n\nLighting: warm, saturated sunlight, glowing highlights, high contrast.\n\nA confident male model drinks directly from the can mid-action, candid and dynamic.\n\nHero can: oversized, slightly exaggerated scale on a textured stone pedestal, covered in condensation.\n\nTypography: DRINK THE SUN\n\nUse large, expressive typography with strong contrast (deep green + burnt orange), slightly overlapping layout.\n\nTagline: “Fresh. Bright. Addictive.”\n\nFeature icons arranged dynamically: LOW SUGAR\nREAL FRUIT\nLIGHTLY SPARKLING\n12 OZ\n\nBottom: 3 cans with energetic ingredient styling:\n\nBlood Orange Basil (splashes, citrus slices)\n\nPeach Ginger (fresh peach + ginger root)\n\nLime Mint (lime wedges + mint leaves)\n\nCTA: SHOP FLAVORS →\n\nStyle: premium but bold, modern campaign aesthetic, slightly experimental layout, high contrast, social-first, dynamic composition.\nAspect ratio: vertical (9:16 preferred)\n\n除了这种破屏穿越风格\n\n现在甚至能直接把人物\n\n从社交媒体界面里冲出来！\n\n构图、透视、视觉冲击\n\n电影感光影\n\n几乎一次成型\n\n玻璃碎裂 + 3D纵深 + UI融合\n\n已经不只是单纯出图了\n\n更像是在GPT Image 2 \n\n直接生成一整套视觉设计方案\n\n提示词：\n\n动态的豪华商业广告海报，特色是超现实3D渲染的充满活力的年轻女性，以上传的女性面部作为参考，穿着高级亮橙色设计师服装、豪华配饰以及时尚的金色墨镜，自信地从一个巨大的金色智能手机屏幕中爆发出色。她的姿势有力且时尚，一只运动鞋通过强烈的强制透视戏剧性地穿过数字显示屏，踏入现实。\n\n构图在前台强调她白色豪华运动鞋，带有纹理口香糖鞋底，通过电影般的广角镜头失真和浅景深增强。漂浮的闪亮3D社交媒体图标、金色几何元素和豪华品牌图形环绕着她，营造出高端影响者营销美学。\n\n明亮的摄影棚灯光营造出充满活力的优质促销氛围，金属金色手机边缘的丰富反射与哑光织物质地形成对比。主导的橙色、白色和金色调色板传递出超现代豪华X / Twitter 广告氛围。干净的白色背景上带有大胆的编辑排版、优质软件品牌元素、优雅的UI图形、漂浮的互动图标以及时尚的二维码区域。\n\n超现实8K品质、电影般的阴影、精致的商业艺术指导、豪华女性能量、时尚营销美学、现代社交媒体品牌、闪亮反射以及高端数字广告风格。\n\n宽高比：3:4。\n\nReimagine the full image as a whimsical handcrafted folk-art illustration filled with playful doodle aesthetics. Replace the original colors with a fresh, vibrant palette featuring bold contrasting tones and cheerful accents. Convert every object and detail into simplified flat forms with soft irregular outlines, textured brush-like fills, and an intentionally imperfect handmade appearance, as if sketched and colored on clean white paper with markers and paint pens. The final artwork should feel charming, naïve, and storybook-inspired, combining decorative folk patterns, quirky shapes, and lighthearted visual energy in a cute, imaginative style.\n\nGPT Image 2 on ChatGPT \n\nPrompt;\n\nCreate a premium square “reference-style transportation infographic” centered around {VEHICLE_NAME}, designed as a beautifully curated engineering handbook page rather than a commercial poster.\n\nThe composition should feel like a modern visual encyclopedia mixed with a high-end industrial design manual and elite editorial infographic system.\n\nVisual Direction:\n\n• 1:1 square composition\n• Soft light-toned technical background with subtle blueprint textures and schematic overlays\n• Elegant muted palette using graphite gray, titanium silver, deep navy, steel blue, and soft white accents\n• Refined editorial typography hierarchy\n• Rounded modular information cards with clean spacing\n• Gentle realistic shadows and premium UI-style dividers\n• Minimal technical iconography\n• Extremely detailed central vehicle render viewed in dramatic three-quarter perspective\n• Thin precision annotation lines pointing toward engineering systems and structural details\n• Clean, organized “knowledge-first” layout with high information density but breathable spacing\n\nMain Subject Presentation:\n\nA stunning ultra-detailed realistic render of the {VEHICLE_NAME} placed at the cen\n\nA screenshot from a live Wimbledon TV broadcast during a packed Centre Court match. The camera cuts to the audience, an unbelievably attractive woman in her 20s with long black hair, flawless skin, elegant makeup, and a luxurious aura, seated in the VIP section wearing a sophisticated cream-white low-cut summer outfit with subtle jewelry. She smiles naturally while reacting to the match, unaware she's on camera. Wealthy spectators and champagne glasses around her, old-money tennis atmosphere, shallow depth of field. Full live tennis broadcast overlay: scoreboard, network watermark, broadcast graphics, 16:9 aspect ratio. The image looks exactly like a real TV screenshot, telephoto broadcast lens, realistic live color grading, slight compression artifacts, interlacing grain, subtle motion blur, imperfect live-camera framing.",
@@ -8627,7 +8672,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 958,
+    "id": 963,
     "title": "Handwritten Study Infographic Poster",
     "category": "ui",
     "prompt": "Aesthetic handwritten study infographic poster designed like a beautifully organized digital-notebook page, soft pastel color palette with gentle tones of baby pink, sky blue, mint green, lavender, and soft yellow highlights. The background is a realistic notebook paper grid texture with subtle shadows and paper grain for authenticity.\nThe layout is clean and structured like high-quality study notes, featuring neatly written handwritten-style typography in smooth black ink and blue pen. Content is arranged in well-spaced bullet points, numbered sections, and small boxed highlights for key information. Important words are emphasized using pastel highlighter strokes in pink, yellow, and light blue.\n\nDecorative elements include cute hand-drawn doodles in the margins such as stars, arrows, hearts, smiley faces, paper clips, sticky notes, and simple icons (books, pens, lightbulb,checklist). Sticky notes are layered naturally on the page with soft shadows, slightly tilted for a realistic collage effect.\n\nThe composition feels cozy, aesthetic, and highly organized—like a Pinterest viral study aesthetic or an Instagram “studygram” post. Soft lighting, gentle shadows, and minimal clutter ensure readability while maintaining visual charm. The design feels calming, motivating, and academically inspiring.\n\nUltra-detailed, 4K resolution, top-down flat lay perspective, modern stationery aesthetic, soft depth of field, realistic paper texture, high-end digital illustration style.",
@@ -8636,7 +8681,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 959,
+    "id": 964,
     "title": "Brand Identity Moodboard System",
     "category": "ui",
     "prompt": "Full-blown brand identity system [BRAND NAME] — Brand Identity Moodboard STEP 1 — DECODE THE BRAND Extract from real brand guidelines only: - Colors: full official palette (primary, secondary, neutrals, accents) — exact, no approximations - Type: weight, width, tracking, capitalization character — applied identically across all cards - Copy: real slogans, campaigns, product names, manifesto phrases — zero invented text - World: the domain (sport / tech / fashion / music / etc.) — all imagery stays inside it STEP 2 — OUTPUT Single 16:9 flat image. Black (#000–#0A0A0A) background. 8 cards in an asymmetric 3-column grid. Uniform 8–12px gaps. Rounded corners 8–12px. Every card uses only Step 1 colors, type, and copy. CARDS — in order: 1. LOGO LOCKUP (wide, top-left) — brand color BG, official logo/wordmark, oversized cropped logo mark as structural graphic. No photo. 2. EDITORIAL PHOTO (mid-left) — dark photo from brand world, manifesto headline in brand type over image, wordmark small at bottom. 3. CAMPAIGN BANNER (wide, bottom-left) — flat accent color BG, real event/campaign headline bold-condensed left side, action photo cropped into right side. 4. STORY FORMAT (tall, center full-height) — full-bleed photo, oversized display type partially cropped by edges, date/location detail top. Mobile story proportions. 5. TYPOGRAPHIC POSTER (upper center-right) — vivid accent BG, campaign headline with one letter replaced by a real brand-world object, edition tag below. 6. COLOR PALETTE (center-right) — vertical equal stripes, one per brand color, color name labeled bottom each stripe. No photo. Zero decoration. 7. PRODUCT MOCKUP (upper right) — studio photo of real brand product or branded device/interface, neutral BG, accurate logo/color/type placement. 8. TYPE PATTERN (lower right) — brand name/slogan repeated as all-over pattern at varied sizes/angles, editorial photo overlaid and color-treated to integrate. RULE: A person who knows this brand must immediately confirm every card belongs to it. Output quality: Behance brand identity case study / agency pitch deck.",
@@ -8645,7 +8690,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 960,
+    "id": 965,
     "title": "Landscape Architecture Board",
     "category": "ui",
     "prompt": "Generate a 3:4 vertical, competition-grade landscape architecture presentation board. The board blends photorealistic aerial rendering with refined architectural diagram language, in the style of a high-end international landscape competition submission. Mood: calm, atmospheric, regenerative, ecological, scientific yet poetic. Layout (three stacked zones): 1. Top zone: analytical ecological diagrams and mapping overlays. 2. Middle zone: a large aerial landscape rendering as the primary focal image. 3. Bottom zone: a continuous sectional cut through the ecological landscape system. Top analytical zone: • Simplified ecological maps with soft, transparent color overlays. • Ultra-thin linework in white and pale gray. • Diagrams of water flow, circulation systems, ecological networks, habitat zones, and landscape connectivity. • Dashed lines for movement and flow. • Minimal annotations and soft ecological icons. • Floating overlay effect sitting above the rendering. • Very light pastel tones, high transparency, clean spacing, no dense clutter. Middle aerial rendering: • Bird's-eye view of an ecological restoration landscape. • Wetlands, ponds, flowing water systems, vegetation patches, bioswales, regenerative terrain. • Soft, slightly desaturated palette of greens, browns, and muted water blues. • Atmospheric depth with subtle haze in the distance. • Gentle human and ecological activity: walking paths, birds, small environmental interactions. • Wide landscape depth, smooth terrain transitions, calm cinematic environmental lighting. • Soft paper-texture finish integrated into the rendering. Bottom sectional cut: • Continuous section through terrain and ecological systems. • Soil layers, hydrology, groundwater movement, vegetation roots, ecological restoration processes, water filtration systems. • Thin white or pale linework, muted tones, minimal color. • Arrows indicating water movement and ecological flow. • Elegant architectural drafting quality, seamlessly merged into the board. Diagram language: extremely thin and precise linework, slightly softened edges (no harsh vector look), minimal labels, clean scientific notation, soft ecological symbols, balanced between scientific clarity and poetic visualization. Color system: • Base: desaturated greens, earthy browns, muted blue water tones. • Overlay: pale green, soft cyan, light beige, translucent pastel layers. • Avoid saturated accents, harsh contrast, bright reds, or overly graphic colors. Texture and atmosphere: soft atmospheric rendering, slight environmental haze, diffused lighting, subtle paper-grain or printed board texture, refined competition-board aesthetic. Format: 3:4 vertical architectural competition board composition. #AIart #GPTImage2",
@@ -8654,7 +8699,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 961,
+    "id": 966,
     "title": "Graphic Design Portfolio Mockup",
     "category": "ui",
     "prompt": "Create a premium graphic design portfolio mockup in a professional creative studio style. Show a clean, elegant workspace presentation featuring multiple graphic design project cards arranged in a refined grid layout, a modern laptop screen displaying a portfolio homepage, and several printed posters laid out neatly on the desk and mounted on the wall. Use a polished creative-director aesthetic with soft shadows, subtle depth, realistic materials, and a high-end studio atmosphere. Include sleek typography placeholders, branding samples, editorial-style poster designs, business cards, stationery, notebook, pen, coffee cup, desk lamp, and small plant for a realistic studio setup. The design should have a clean grid layout, balanced spacing, soft realistic shadows, premium lighting, and neutral luxury tones such as black, white, warm beige, gray, champagne, and cream. Make the laptop screen show a minimal portfolio interface with project thumbnails, navigation menu, and bold hero text. Add multiple portfolio project cards such as logo design, brand identity, poster design, packaging design, social media design, UI/UX design, and advertising campaign mockups. Arrange everything professionally with a modern minimalist style, sharp details, clean typography, elegant composition, and a premium creative agency presentation look. Style: high-end graphic design portfolio, modern creative studio, luxury branding mockup, clean desk setup, realistic shadows, editorial layout, minimalist premium design, professional presentation, 4K, ultra-detailed.",
@@ -8663,7 +8708,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 962,
+    "id": 967,
     "title": "Neo-Noir Character Design Board",
     "category": "ui",
     "prompt": "Create a cinematic realistic character design board for a high-budget neo-noir film production set in a rain-soaked futuristic city. Use a dark charcoal and electric cyan color palette with neon reflections in the background. Avoid generic grids or symmetrical layouts; composition should feel like a stylized director’s pitch board. Design a grounded human character with realistic anatomy, subtle imperfections, and strong emotional presence. Include full-body turnarounds, expressive head angles, cinematic portrait, wardrobe breakdown, fabric texture detail, and production notes. Background: blurred cyberpunk city lights, wet glass reflections, moody atmosphere, soft neon glow. Style: semi-realistic cinematic realism, high contrast lighting, shallow depth of field, film grain, emotional intensity.",
@@ -8672,7 +8717,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 963,
+    "id": 968,
     "title": "Heliotropic Architecture Board",
     "category": "ui",
     "prompt": "16:9 autonomous kinetic architecture, the heliotropic tracking mechanics of [aerospace/solar tracking array] shaping an adaptive, luxury [outdoor architectural structure], sequence from [astronomical/solar path diagrams] to [robotic kinematic wireframes] to a programmable louvre abstraction to the final architectural installation, ai to infer smart-motor integration and weather-responsive materials utilizing [material 1] and [material 2], featuring time-lapse shadow projection diagrams, [aesthetic style] aesthetic, presentation layout: solar path charts at the top, robotic hinge details in the margins, stunning photorealistic architectural render below, [lighting style].  input: [deep space network satellite dish array], [smart kinetic patio pergola], [equatorial solar trajectory mapping], [multi-axis pivoting joint schematics], [photovoltaic-coated tinted glass], [extruded matte bronze aluminum], [contemporary silicon valley billionaire estate], [golden hour sunlight casting intricate geometric shadows]",
@@ -8681,7 +8726,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 964,
+    "id": 969,
     "title": "Brand Identity Guideline Board",
     "category": "ui",
     "prompt": "Using the uploaded logo for (Brand name) generate a high-end, agency-grade brand identity system poster.\n\nOBJECTIVE\nCreate a complete, presentation-ready brand guideline board that looks like it was designed by a top branding studio. The result must feel commercial, realistic, and client-deliverable, not conceptual.\n\nINTELLIGENCE RULE (THIS IS WHAT YOU WERE MISSING)\nBefore designing, analyze the logo and infer:\n3 identity traits (based on analysis)\n\nCOLOR SYSTEM (SMART GENERATION)\nExtract palette from logo automatically\nInclude:\nPrimary colors (3–5)\nSecondary colors (3–5)\nAccent colors\n\nEach must show:\nHEX codes\nlabeled usage (primary / UI / highlight / background)\n\nAlso generate:\ngradients\ncolor combinations\ntonal variations\n\nTYPOGRAPHY SYSTEM (MATCH PERSONALITY)\nSelect typography style based on brand:\nluxury → elegant serif\ntech → geometric sans\nstreet → bold condensed\ncorporate → clean neutral sans\n\nShow:\nheadline / subheadline / body\nreal text examples (brand-relevant, not lorem ipsum)\nclear hierarchy\n\nVISUAL LANGUAGE\nDefine and visualize:\nimage style (editorial / lifestyle / futuristic / minimal)\nlighting (soft / dramatic / high contrast)\nmood (energetic / premium / calm / disruptive)\n\nShow:\n3–5 visual tiles\n\nBRAND APPLICATIONS (REALISM BOOST)\nGenerate consistent mockups:\npackaging or product\nwebsite hero\nmobile UI\n3 social media creatives\nbusiness card\nbillboard / ad\n\nAll must feel real-world usable.\n\nLAYOUT SYSTEM\ngrid system\nspacing scale (4pt / 8pt system)\n\nShow:\nUI components\ncards\nbuttons\nlayout examples\n\nICONOGRAPHY\n6–10 icons style derived from brand (rounded / sharp / minimal / filled)\n\nPATTERNS & ELEMENTS\nshapes derived from logo\nrepeating motifs\nbackground systems\n\nMICRO DETAILS (THIS CREATES “PREMIUM FEEL”)\nshadows\nreflections\ntextures\ndepth layering\n\nVISUAL STYLE CONTROL\nmodern editorial + system design hybrid\nstrong hierarchy\nlayered composition\ncontrolled spacing\n\nDENSITY RULE\nminimum 30–50 elements\nmix of macro + micro components\nno empty or filler space\n\nHARD RESTRICTIONS\nno placeholders\nno generic UI\nno inconsistent styles\nno random colors\n\nFINAL OUTPUT\nA high-end brand system poster that looks:\nBehance feature-worthy\nagency presentation-ready\nvisually consistent and detailed",
@@ -8690,7 +8735,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 965,
+    "id": 970,
     "title": "Illustrated 2027 Desktop Calendar",
     "category": "ui",
     "prompt": "use this reference photo to create a desktop calendar for January-December 2027. Format: A4 vertical. Features: Korean illustration style, distinct character features, natural expressions, full-body composition, dynamic poses, exquisite clothing details, hand-drawn doodle style, splatter brushstrokes, free lines, a mix of pastels and ink, comic sketch texture, simple white background, symbolic elements around the edges, strong atmosphere, high detail, high quality.",
@@ -8699,7 +8744,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 966,
+    "id": 971,
     "title": "Monoluxe Automotive Poster Grid",
     "category": "ui",
     "prompt": "Monoluxe Automotive Posters 🔥\n\nImages on ChatGPT by GPT image 2.\n\nPrompt⤵️\n\n\"A high-quality editorial automotive poster split into a 2x2 grid layout, each quadrant featuring one iconic car with a bold typographic name as the background. Top-left: Toyota Corolla AE86 in Cobalt Blue, side profile view, floating above its reflection, massive \"COROLLA\" text behind in matching blue tones, cobalt blue panel background, small detail inset photos of interior and headlights in the corner, editorial body copy below the car. Top-right: Volkswagen Beetle in golden yellow, side profile, \"BEETLE\" in massive serif bold letters behind it, warm golden yellow panel, vintage feel, small detail thumbnails of curved body panel and round taillights. Bottom-left: Honda Civic Type R in Championship Red, aggressive front-three-quarter angle, massive \"CIVIC TYPE R\" text melting into the dark red background, dramatic low-angle lighting, small thumbnail of front grille and wing spoiler. Bottom-right: Classic Mini Cooper in burnt orange/rust tone, side profile, \"MINI\" in oversized bold condensed font, amber-orange panel, detail thumbnails of door handle and round taillight cluster. All four panels have a dark bottom section with white serif editorial description text, small divider lines, and 2–3 small square detail photos. Overall layout: vertical 9:13 poster, magazine-editorial aesthetic, graphic design studio quality, automotive illustration meets print poster art. A subtle \"OzairAI\" text appears naturally engraved on one of the license plates in the Corolla panel. Ultra photorealistic, 8K, no text overlays, cinematic color grading.\"",
@@ -8708,7 +8753,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 967,
+    "id": 972,
     "title": "Exploded Vehicle View",
     "category": "ui",
     "prompt": "Create an ultra detailed exploded view of the iconic [vehicle name].\n[Vehicle] is suspended in mid-air with all mechanical parts separated and floating in perfect alignment, showing the full internal structure of the vehicle. White background",
@@ -8717,7 +8762,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 968,
+    "id": 973,
     "title": "Male Glow-Up Analysis Poster",
     "category": "ui",
     "prompt": "I will upload a face photo/selfie.\n\nCreate an ULTRA PREMIUM AI MALE GLOW-UP ANALYSIS POSTER with a luxury fashion-tech aesthetic.\n\nIMPORTANT:\nThe uploaded face and identity must remain EXACTLY THE SAME.\n\nDo NOT change:\n- facial structure\n- eyes\n- nose\n- lips\n- jawline\n- skin tone\n- facial proportions\n- identity\n\nThe face should look 100% identical to the uploaded image.\n\nYou MAY enhance:\n- hairstyle\n- beard style\n- expression\n- outfit\n- lighting\n- posture\n- styling\n- background\n- overall attractiveness\n\nSTYLE:\nThe final result should look like:\n- a luxury grooming brand campaign\n- a futuristic men’s fashion magazine\n- a premium AI self-improvement dashboard\n- cinematic and extremely expensive\n\nNO basic infographic look.\nNO cheap AI poster style.\nNO cartoonish design.\n\nTHEME:\nUse a premium modern luxury aesthetic:\n- matte black\n- champagne gold\n- warm beige\n- silver accents\n- dark graphite\n- soft cinematic lighting\n\nAdd:\n- glassmorphism UI\n- floating premium panels\n- luxury typography\n- subtle reflections\n- realistic shadows\n- elegant spacing\n- premium composition\n\nCENTER SUBJECT:\n- Place the uploaded face in the center\n- Make him look like a high-status modern male model\n- Confident masculine expression\n- Attractive but realistic\n- Strong eye contact\n- Natural skin texture\n\nHAIRSTYLE SECTION:\nCreate premium hairstyle recommendations using the SAME FACE:\n- textured quiff\n- low taper\n- side part flow\n- modern messy hairstyle\n- clean slick back\n\nBEARD SECTION:\nUsing the SAME FACE:\n- light stubble\n- short boxed beard\n- clean shave\n- sharp jawline beard\n\nOUTFIT STYLE SECTION:\nCreate multiple premium outfit inspirations using the SAME FACE:\n- old money\n- smart casual\n- luxury streetwear\n- classy formal\n- monochrome black fit\n\nAll outfits should look:\n- tailored\n- masculine\n- expensive\n- editorial quality\n\nFACE ANALYSIS SECTION:\nInclude:\n- face shape\n- jawline analysis\n- facial harmony\n- symmetry\n- hairstyle compatibility\n- skin undertone\n- attractiveness strengths\n\nCOLOR PALETTE SECTION:\nShow best clothing colors:\n- black\n- cream\n- olive\n- navy\n- charcoal\n- white\n\nGLASSES SECTION:\nShow glasses/sunglasses styles that suit the face:\n- aviator\n- rectangle\n- wayfarer\n- round metal\n\nBEST ANGLES SECTION:\nCreate multiple mini portraits using the SAME FACE:\n- 3/4 angle\n- side profile\n- eye-level\n- slight down angle\n\nBACKGROUND:\nLuxury studio environment:\n- blurred city lights\n- elegant interior\n- premium fashion studio\n- cinematic depth\n- luxury apartment vibe\n\nTEXT STYLE:\nMinimal, clean, elegant.\nLooks like a premium fashion editorial mixed with AI analysis.\n\nQUALITY:\n- ultra realistic\n- hyper detailed\n- 8K\n- cinematic realism\n- luxury aesthetic\n- highly polished\n- visually addictive",
@@ -8726,7 +8771,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 969,
+    "id": 974,
     "title": "Tokyo Pink Fashion Collage",
     "category": "ui",
     "prompt": "GPT Image 2 on ChatGPT                         \n\nPrompt :\n\nCreate a premium 1:1 luxury fashion collage featuring the same stylish Japanese college girl in multiple cinematic portrait moments across one artistic composition. Blend ultra-realistic anime-inspired beauty with luxury editorial aesthetics. Include close-up beauty shots, candid walking moments, stylish classroom fashion, playful mirror selfies, rooftop sunset poses, and soft emotional expressions while maintaining identical character identity throughout. Use asymmetrical overlapping photo layers, torn magazine textures, glossy reflections, handwritten fashion notes, dreamy pink gradients, cinematic bloom lighting, and tiny  size integrated typography like “TOKYO PINK”, “ICON”, “YOUTH MODE”, and “LUXE GIRL”. Ultra detailed, cinematic, modern Japanese fashion campaign aesthetic, soft depth of field, premium social media advertisement style, 8K.",
@@ -8735,7 +8780,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 970,
+    "id": 975,
     "title": "Sony Camera Reference Infographic",
     "category": "ui",
     "prompt": "Create a premium square “reference-style photography equipment infographic” centered around a modern Sony mirrorless camera such as the {CAMERA_MODEL}, designed as a beautifully curated camera-engineering handbook page rather than a retail advertisement.\n\nThe composition should feel like a modern visual encyclopedia mixed with an elite photographer’s field guide and high-end editorial infographic system.\n\nVisual Direction:\n\n• 1:1 square composition\n• Dark premium studio-tech background with subtle photography-grid textures, optical schematics, and cinematic UI overlays\n• Elegant muted palette using matte black, graphite gray, titanium silver, warm orange accents, and subtle electric-blue highlights\n• Refined editorial typography hierarchy\n• Rounded modular information cards with clean spacing\n• Gentle realistic reflections and premium HUD-style dividers\n• Minimal professional photography iconography\n• Extremely detailed central camera render viewed in dramatic three-quarter perspective with studio lighting and shallow depth-of-field aesthetics\n• Thin precision annotation lines pointing toward camera hardware systems and imaging technologies\n• Clean, organized “knowledge-first” layout with high information density but breathable spacing\n\nMain Subject Presentation:\n\nA stunning ultra-detailed realistic render of the {CAMERA_MODEL} placed at the center, featuring premium magnesium-alloy body textures, realistic lens glass reflections, tactile control dials, advanced sensor detailing, cinematic lighting, and ultra-realistic photography gear presentation.\n\nSurround the camera with scientific and engineering callouts explaining:\n\n• full-frame image sensor\n• AI autofocus system\n• image stabilization technology\n• electronic viewfinder system\n• advanced video recording features\n• dual card-slot architecture\n• battery performance system\n• weather-sealed body design\n• lens ecosystem compatibility\n• wireless connectivity systems\n\nInclude modular infographic sections such as:\n\n• Camera Overview\n• Technical Specifications\n• Dimensions & Build\n• Sensor & Image Quality\n• Processor & Performance\n• Autofocus & Subject Tracking\n• Video Recording Features\n• Stabilization Technology\n• Shooting Modes & Burst Performance\n• Lens Ecosystem\n• Battery & Power System\n• Connectivity Features\n• Professional Workflow Integration\n• Included Accessories & Box Contents\n• “Top 5 Reasons to Choose” section\n• Ideal Photography & Filmmaking Use Cases\n\nAdd small premium visualization modules like:\n\n• sensor cutaway diagrams\n• autofocus coverage maps\n• stabilization system graphics\n• lens ecosystem displays\n• battery performance charts\n• video codec comparison tables\n• camera blueprint dimensions\n• menu/UI mockups\n• accessory ecosystem visuals\n• performance benchmark graphics\n\nStyle Keywords:\n\n“premium photography encyclopedia”\n“editorial camera handbook”\n“high-end photography infographic”\n“scientific imaging technology poster”\n“museum-quality camera reference page”\n“modular photography knowledge system”\n“clean cinematography editorial design”\n“ultra-detailed camera visualization”\n\nAvoid:\n\n• generic e-commerce advertisement aesthetics\n• cluttered tech layouts\n• unrealistic sci-fi hologram effects\n• cartoon camera styling\n• excessive cyberpunk neon overload\n• low-detail product renders\n\nThe final result should resemble a professionally published photography-equipment reference-book page created for photographers, cinematographers, content creators, camera collectors, engineers, and educational imaging archives.",
@@ -8744,7 +8789,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 971,
+    "id": 976,
     "title": "Desk Setup Audit Infographic",
     "category": "ui",
     "prompt": "Create a visual-first, editorial-style infographic auditing the desk setup in the attached photo. Show a side-by-side of current vs. optimized setup with annotations on monitor height, chair position, lighting, cable management, and clutter. Rate each issue with symbols like Top Fix, (working), (acceptable), (costing energy), and (actively hurting), tying each to a consequence like back pain, eye strain, or focus loss. Rank fixes by impact and group them into free fixes, under $50, and worth the investment. Include a Focus Forecast gauge predicting daily deep work hours possible with the current setup vs. after the top 3 fixes. Keep it clean, minimal text, no paragraphs.",
@@ -8753,7 +8798,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 972,
+    "id": 977,
     "title": "Country Sports Infographic",
     "category": "ui",
     "prompt": "Create a premium editorial infographic in a high-end magazine style about [COUNTRY]’s most iconic national [SPORT]\n\nUse a sophisticated dark navy blue, beige, and warm gold color palette with clean minimalist typography and subtle grid lines.\n\nLayout structure (perfectly balanced, cinematic composition for vertical format):\n\n- Central large hero image: A hyper-realistic, cinematic golden-hour photograph of [SPORT] in action — [detailed action scene description with iconic player or moment, stadium/venue, national colors, dramatic lighting], extremely detailed, National Geographic level photography, 8k resolution. The image should be vertically oriented and fill the central space beautifully.\n\n- Top banner: Elegant title “[COUNTRY]’s National Passion: [SPORT]” in bold modern serif font with the [COUNTRY] flag subtly integrated.\n\nFour structured content panels surrounding the central image in a clean vertical asymmetrical grid:\n\n1. History & Origins (above center): Short paragraph on [brief history: when introduced, key milestones, how it became national obsession]. Include 1–2 small historical icons or timeline markers.\n\n2. Legendary Athletes (upper right or below top banner): [Athlete 1], [Athlete 2], [Athlete 3], [Athlete 4] — small portrait thumbnails with key achievements and one signature quote or record each.\n\n3. Key Statistics (below central image, left side): Clean infographic-style stats in bold numbers:\n   - [Stat 1]\n   - [Stat 2]\n   - [Stat 3]\n   - [Stat 4]\n   Use small relevant icons (trophy, stadium, crowd, sport-specific items, etc.).\n\n4. Cultural Significance (below central image, right side): [How the sport shapes national identity, traditions, rivalries, daily life, and culture]. Include 1–2 small cultural photos or symbols.\n\nDesign rules:\n- Luxurious editorial magazine aesthetic (think National Geographic × Kinfolk × Bloomberg Businessweek)\n- Thin gold accent lines, subtle shadows, generous white space\n- Small [COUNTRY] flag in the top-right corner\n- Professional sans-serif body text, elegant serif headings\n- Overall ultra-clean, balanced, premium feel with cinematic depth and rich texture\n- Aspect ratio 9:16 (vertical, mobile-friendly), ultra-high detail, no text distortion, sharp typography",
@@ -8762,7 +8807,7 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 973,
+    "id": 978,
     "title": "Die-Cut Sticker Illustration",
     "category": "ui",
     "prompt": "Transform the uploaded image into a premium die-cut sticker illustration while keeping the main subject fully recognizable. Remove or simplify the original background and cleanly isolate the primary subject. Add a thick soft cream or beige sticker border around the entire silhouette with a subtle realistic drop shadow to create a floating sticker effect. Preserve important textures and details while slightly stylizing the image with enhanced colors, cinematic contrast, and a polished editorial l",
@@ -8771,11 +8816,20 @@ export const PROMPT_LIBRARY_GENERATED: PromptCard[] = [
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   },
   {
-    "id": 974,
+    "id": 979,
     "title": "Rider-Waite Tarot Card",
     "category": "ui",
     "prompt": "Create a Tarot card based on what you know about me, in the classic style of Rider-Waite. Portray me as a drawn figure with an expressive, but slightly uneven black line of ink, with vivid fluctuations and variations in the stroke, with flat colors without shading. Add delicate visual elements of the Tarot around the figure. convey the texture of the paper and the feeling of a printed impression.",
     "thumbnail": "/prompt-thumbs/evolink/ui_case159/output.jpg",
+    "source": "EvoLinkAI",
+    "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
+  },
+  {
+    "id": 980,
+    "title": "Sitcom Intro Storyboard Sheet",
+    "category": "ui",
+    "prompt": "Create a professional film production storyboard for a 15-second sitcom intro montage in a premium pitch deck presentation. Use multi-panel storyboard sheet layout, cinematic 16:9 framing per panel, clean panel borders, shot descriptions beneath each frame, timing notes, and transition indicators between panels. Maintain strict character consistency for Super Mei, Edvard, and Fenrir across all panels. Include a complete sequence of title flash, living room, backyard walkies, kitchen powers, convenience store raid, monster battle, bonus domestic comedy beats, closing hero shot, and logo slam. Visual style: cinematic sitcom, high-budget live-action network comedy, production-ready fidelity, not animated or illustrated.\n\nUsing the uploaded logo for (Brand name) generate a high-end, agency-grade brand identity system poster. ---  OBJECTIVE Create a complete, presentation-ready brand guideline board that looks like it was designed by a top branding studio.\n\nThe result must feel commercial, realistic, and client-deliverable, not conceptual. ---  INTELLIGENCE RULE (THIS IS WHAT YOU WERE MISSING) Before designing, analyze the logo and infer:3 identity traits (based on analysis) ---  COLOR SYSTEM (SMART GENERATION) Extract palette from logo automatically Include: Primary colors (3–5) Secondary colors (3–5) Accent colors Each must show: HEX codes labeled usage (primary / UI / highlight / background) Also generate: gradients color combinations tonal\n\nvariations ---  TYPOGRAPHY SYSTEM (MATCH PERSONALITY) Select typography style based on brand: luxury → elegant serif tech → geometric sans street → bold condensed",
+    "thumbnail": "/prompt-thumbs/evolink/ui_case161/output.jpg",
     "source": "EvoLinkAI",
     "sourceUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts"
   }

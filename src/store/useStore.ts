@@ -20,6 +20,7 @@ export interface ApiProfile {
   apiKey: string;
   baseUrl: string;
   model: string;
+  userAgent?: string;
 }
 
 export interface ChatMessage {
@@ -79,6 +80,8 @@ interface AppState {
   setApiKey: (v: string) => void;
   baseUrl: string;
   setBaseUrl: (v: string) => void;
+  apiUserAgent: string;
+  setApiUserAgent: (v: string) => void;
   apiMode: 'images' | 'responses';
   setApiMode: (v: 'images' | 'responses') => void;
   apiProfiles: ApiProfile[];
@@ -178,6 +181,8 @@ export const useStore = create<AppState>()(
       setApiKey: (v) => set({ apiKey: v }),
       baseUrl: DEFAULT_BASE_URL,
       setBaseUrl: (v) => set({ baseUrl: v }),
+      apiUserAgent: '',
+      setApiUserAgent: (v) => set({ apiUserAgent: v }),
       apiMode: 'images',
       setApiMode: (v) => set({ apiMode: v }),
       apiProfiles: [],
@@ -190,6 +195,7 @@ export const useStore = create<AppState>()(
             apiKey: s.apiKey,
             baseUrl: s.baseUrl,
             model: s.model,
+            userAgent: s.apiUserAgent,
           };
           return { apiProfiles: [...s.apiProfiles, profile], activeProfileId: profile.id };
         }),
@@ -197,7 +203,7 @@ export const useStore = create<AppState>()(
         set((s) => {
           const p = s.apiProfiles.find((x) => x.id === id);
           if (!p) return {};
-          return { apiKey: p.apiKey, baseUrl: p.baseUrl, model: p.model, activeProfileId: id };
+          return { apiKey: p.apiKey, baseUrl: p.baseUrl, model: p.model, apiUserAgent: p.userAgent ?? '', activeProfileId: id };
         }),
       deleteProfile: (id) =>
         set((s) => ({
@@ -231,6 +237,7 @@ export const useStore = create<AppState>()(
       partialize: (state) => ({
         apiKey: state.apiKey,
         baseUrl: state.baseUrl,
+        apiUserAgent: state.apiUserAgent,
         model: state.model,
         apiMode: state.apiMode,
         apiProfiles: state.apiProfiles,

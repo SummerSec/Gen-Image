@@ -31,7 +31,8 @@ function createClient(apiKey: string, baseUrl: string): OpenAI {
     baseURL: normalizedBaseUrl,
     dangerouslyAllowBrowser: true,
     fetch: (input, init) => {
-      if (!useCorsProxy) return fetch(input, init);
+      const nextInit = withForwardedUserAgent(init);
+      if (!useCorsProxy) return fetch(input, nextInit);
       const url =
         typeof input === 'string'
           ? input
@@ -40,9 +41,35 @@ function createClient(apiKey: string, baseUrl: string): OpenAI {
             : input instanceof Request
               ? input.url
               : String(input);
-      return fetch(`${corsProxyUrl}${url}`, init);
+      return fetch(`${corsProxyUrl}${url}`, nextInit);
     },
   });
+}
+
+function withForwardedUserAgent(init?: RequestInit): RequestInit | undefined {
+  const userAgent = useStore.getState().apiUserAgent.trim();
+  if (!userAgent) return init;
+
+  const headers = new Headers(init?.headers);
+  headers.set('X-User-Agent', userAgent);
+  return { ...init, headers };
+}
+
+function getJsonHeaders(apiKey: string): Headers {
+  const headers = new Headers({
+    'Content-Type': 'application/json',
+    Authorization: `Bearer ${apiKey}`,
+  });
+  const userAgent = useStore.getState().apiUserAgent.trim();
+  if (userAgent) headers.set('X-User-Agent', userAgent);
+  return headers;
+}
+
+function getAuthHeaders(apiKey: string): Headers {
+  const headers = new Headers({ Authorization: `Bearer ${apiKey}` });
+  const userAgent = useStore.getState().apiUserAgent.trim();
+  if (userAgent) headers.set('X-User-Agent', userAgent);
+  return headers;
 }
 
 export async function generateImage(params: GenerateParams): Promise<string> {
@@ -76,10 +103,7 @@ export async function generateImage(params: GenerateParams): Promise<string> {
 
     const resp = await fetch(url, {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${apiKey}`,
-      },
+      headers: getJsonHeaders(apiKey),
       body: JSON.stringify(body),
     });
 
@@ -146,7 +170,7 @@ export async function editImage(params: {
 
   const resp = await fetch(url, {
     method: 'POST',
-    headers: { Authorization: `Bearer ${params.apiKey}` },
+    headers: getAuthHeaders(params.apiKey),
     body: form,
   });
 
@@ -180,7 +204,7 @@ async function generateViaResponses(params: {
 
   const resp = await fetch(url, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${params.apiKey}` },
+    headers: getJsonHeaders(params.apiKey),
     body: JSON.stringify({
       model: params.model,
       input: [{ role: 'user', content }],

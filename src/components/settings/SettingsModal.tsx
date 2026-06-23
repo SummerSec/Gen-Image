@@ -27,6 +27,8 @@ export default function SettingsModal({ open, onClose }: Props) {
   const setApiKey = useStore((s) => s.setApiKey);
   const baseUrl = useStore((s) => s.baseUrl);
   const setBaseUrl = useStore((s) => s.setBaseUrl);
+  const apiUserAgent = useStore((s) => s.apiUserAgent);
+  const setApiUserAgent = useStore((s) => s.setApiUserAgent);
   const apiMode = useStore((s) => s.apiMode);
   const setApiMode = useStore((s) => s.setApiMode);
   const model = useStore((s) => s.model);
@@ -52,6 +54,7 @@ export default function SettingsModal({ open, onClose }: Props) {
   const [section, setSection] = useState<Section>('api');
   const [localKey, setLocalKey] = useState(apiKey);
   const [localUrl, setLocalUrl] = useState(baseUrl);
+  const [localUserAgent, setLocalUserAgent] = useState(apiUserAgent);
   const [localApiMode, setLocalApiMode] = useState(apiMode);
   const [localModel, setLocalModel] = useState(model);
   const [localB64, setLocalB64] = useState(responseFormatB64);
@@ -66,18 +69,20 @@ export default function SettingsModal({ open, onClose }: Props) {
     if (!open) return;
     setLocalKey(apiKey);
     setLocalUrl(baseUrl);
+    setLocalUserAgent(apiUserAgent);
     setLocalApiMode(apiMode);
     setLocalModel(model);
     setLocalB64(responseFormatB64);
     setLocalUseCorsProxy(useCorsProxy);
     setLocalCorsProxyUrl(corsProxyUrl);
-  }, [open, apiKey, baseUrl, apiMode, model, responseFormatB64, useCorsProxy, corsProxyUrl]);
+  }, [open, apiKey, baseUrl, apiUserAgent, apiMode, model, responseFormatB64, useCorsProxy, corsProxyUrl]);
 
   if (!open) return null;
 
   const handleSave = () => {
     setApiKey(localKey.trim());
     setBaseUrl(localUrl.trim());
+    setApiUserAgent(localUserAgent.trim());
     setApiMode(localApiMode);
     setModel(localModel.trim());
     setResponseFormatB64(localB64);
@@ -85,6 +90,15 @@ export default function SettingsModal({ open, onClose }: Props) {
     setCorsProxyUrl(localCorsProxyUrl.trim());
     setSaved(true);
     setTimeout(() => setSaved(false), 1500);
+  };
+
+  const handleSaveProfile = () => {
+    setApiKey(localKey.trim());
+    setBaseUrl(localUrl.trim());
+    setApiUserAgent(localUserAgent.trim());
+    setModel(localModel.trim());
+    saveCurrentAsProfile(profileName);
+    setProfileName('');
   };
 
   const handleAdminLogin = () => {
@@ -152,13 +166,19 @@ export default function SettingsModal({ open, onClose }: Props) {
                   <p className="text-[10px] text-[#71717A] mt-1">密钥仅存储在本地浏览器（localStorage）中</p>
                 </div>
 
+                <div>
+                  <label className="text-xs font-medium text-[#71717A] mb-1.5 block">User-Agent</label>
+                  <input type="text" value={localUserAgent} onChange={(e) => setLocalUserAgent(e.target.value)} placeholder="Mozilla/5.0 ..." className={inputCls} />
+                  <p className="text-[10px] text-[#71717A] mt-1">前端会发送 X-User-Agent 转发头；浏览器不能可靠覆盖真实 User-Agent，需要代理支持转发才会生效。</p>
+                </div>
+
                 <div className="border-t border-[#E5E7EB] pt-4">
                   <h3 className="text-sm font-medium text-[#18181B] mb-2">配置管理</h3>
                   {apiProfiles.length > 0 && (
                     <div className="flex flex-col gap-1.5 mb-3">
                       {apiProfiles.map((p) => (
                         <div key={p.id} className={`flex items-center gap-2 rounded-lg border px-3 py-2 ${p.id === activeProfileId ? 'border-[#5e6ad2] bg-[#F1F2F5]' : 'border-[#E5E7EB]'}`}>
-                          <button onClick={() => { applyProfile(p.id); const s = useStore.getState(); setLocalKey(s.apiKey); setLocalUrl(s.baseUrl); setLocalModel(s.model); }} className="flex-1 text-left min-w-0">
+                          <button onClick={() => { applyProfile(p.id); const s = useStore.getState(); setLocalKey(s.apiKey); setLocalUrl(s.baseUrl); setLocalUserAgent(s.apiUserAgent); setLocalModel(s.model); }} className="flex-1 text-left min-w-0">
                             <p className="text-xs font-medium text-[#18181B] truncate">{p.name}</p>
                             <p className="text-[10px] text-[#71717A] truncate">{p.model} · {p.baseUrl}</p>
                           </button>
@@ -169,7 +189,7 @@ export default function SettingsModal({ open, onClose }: Props) {
                   )}
                   <div className="flex gap-2">
                     <input type="text" value={profileName} onChange={(e) => setProfileName(e.target.value)} placeholder="配置名称" className="flex-1 h-9 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#5e6ad2]" />
-                    <button onClick={() => { setApiKey(localKey.trim()); setBaseUrl(localUrl.trim()); setModel(localModel.trim()); saveCurrentAsProfile(profileName); setProfileName(''); }} className="h-9 px-4 rounded-lg border border-[#E5E7EB] text-sm text-[#18181B] hover:border-[#D1D5DB] transition-colors">另存为</button>
+                    <button onClick={handleSaveProfile} className="h-9 px-4 rounded-lg border border-[#E5E7EB] text-sm text-[#18181B] hover:border-[#D1D5DB] transition-colors">另存为</button>
                   </div>
                   <p className="text-[10px] text-[#71717A] mt-1">保存当前 Base URL / 模型 / API Key 为一套配置，可随时切换</p>
                 </div>

@@ -11,6 +11,7 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
   const [visibleCountByKey, setVisibleCountByKey] = useState<Record<string, number>>({});
   const [tick, setTick] = useState(0);
   const [panelTab, setPanelTab] = useState<'library' | 'history'>('library');
+  const [copiedPromptId, setCopiedPromptId] = useState<string | number | null>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
 
   const activeTab = useStore((s) => s.activeTab);
@@ -81,6 +82,23 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
   }, [doLoadMore, hasMoreCurrent, filteredPrompts.length]);
 
   const totalCount = filteredAllPrompts.length;
+
+  const copyPrompt = async (prompt: string, id: string | number) => {
+    try {
+      await navigator.clipboard.writeText(prompt);
+    } catch {
+      const textarea = document.createElement('textarea');
+      textarea.value = prompt;
+      textarea.style.position = 'fixed';
+      textarea.style.opacity = '0';
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+    }
+    setCopiedPromptId(id);
+    window.setTimeout(() => setCopiedPromptId((current) => (current === id ? null : current)), 1200);
+  };
 
   return (
     <aside className="w-full h-full bg-[#FFFFFF] border-l border-[#E5E7EB] flex flex-col overflow-hidden">
@@ -185,9 +203,27 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
                     setPrompt(card.prompt);
                     setReferenceImages(card.thumbnail ? [card.thumbnail] : []);
                   }}
-                  className="text-left rounded-xl border border-[#E5E7EB] bg-[#FFFFFF] overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all"
+                  className="group relative text-left rounded-xl border border-[#E5E7EB] bg-[#FFFFFF] overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all"
                   title={`点击：填入提示词 + 添加示例图为参考 · 来源：${card.source}`}
                 >
+                  <span
+                    role="button"
+                    tabIndex={0}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      void copyPrompt(card.prompt, card.id);
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key !== 'Enter' && e.key !== ' ') return;
+                      e.preventDefault();
+                      e.stopPropagation();
+                      void copyPrompt(card.prompt, card.id);
+                    }}
+                    className="absolute right-1.5 top-1.5 z-10 h-6 rounded-md bg-black/55 px-2 text-[10px] leading-6 text-white opacity-0 shadow-sm transition-opacity hover:bg-black/70 group-hover:opacity-100 focus:opacity-100"
+                    title="复制提示词"
+                  >
+                    {copiedPromptId === card.id ? '已复制' : '复制'}
+                  </span>
                   <div className={`aspect-[1/1.16] bg-gradient-to-br ${gradient} flex items-center justify-center overflow-hidden`}>
                     {card.thumbnail ? (
                       <img src={card.thumbnail} alt={card.title} className="w-full h-full object-cover" loading="lazy" />

@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { useStore } from '../../store/useStore';
 import Composer from './Composer';
 import MaskEditor from '../canvas/MaskEditor';
-import { ImageIcon } from '../common/Icons';
+import { CopyIcon, ImageIcon } from '../common/Icons';
+import { copyText } from '../../utils/clipboard';
 
 export default function Conversation() {
   const messages = useStore((s) => s.messages);
@@ -10,6 +11,7 @@ export default function Conversation() {
   const addReferenceImage = useStore((s) => s.addReferenceImage);
   const [maskImg, setMaskImg] = useState<string | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
+  const [copiedMessageId, setCopiedMessageId] = useState<string | null>(null);
   const [elapsed, setElapsed] = useState(0);
   const endRef = useRef<HTMLDivElement>(null);
 
@@ -34,6 +36,13 @@ export default function Conversation() {
     a.click();
   };
 
+  const copyMessageText = async (id: string, text?: string) => {
+    if (!text?.trim()) return;
+    await copyText(text);
+    setCopiedMessageId(id);
+    window.setTimeout(() => setCopiedMessageId((current) => (current === id ? null : current)), 1200);
+  };
+
   return (
     <main className="flex-1 flex flex-col min-w-0 bg-[#F7F8FA]">
       <div className="flex-1 overflow-y-auto scrollbar-hide px-4 py-6">
@@ -48,7 +57,18 @@ export default function Conversation() {
             messages.map((m) => (
               <div key={m.id} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                 {m.role === 'user' ? (
-                  <div className="max-w-[80%] rounded-2xl rounded-br-sm bg-[#5e6ad2] text-white px-3.5 py-2 text-sm whitespace-pre-wrap">{m.text}</div>
+                  <div className="group flex max-w-[80%] items-end gap-1.5">
+                    <button
+                      type="button"
+                      onClick={() => void copyMessageText(m.id, m.text)}
+                      className="mb-1 h-7 px-2 rounded-full border border-[#E5E7EB] bg-white text-[11px] text-[#71717A] shadow-sm opacity-0 transition-opacity hover:text-[#18181B] hover:border-[#D1D5DB] group-hover:opacity-100 focus:opacity-100 inline-flex items-center gap-1"
+                      title="复制这条提示词"
+                    >
+                      <CopyIcon className="w-3 h-3" />
+                      {copiedMessageId === m.id ? '已复制' : '复制'}
+                    </button>
+                    <div className="rounded-2xl rounded-br-sm bg-[#5e6ad2] text-white px-3.5 py-2 text-sm whitespace-pre-wrap">{m.text}</div>
+                  </div>
                 ) : m.pending ? (
                   <div className="flex items-center gap-2 rounded-2xl bg-white border border-[#E5E7EB] px-4 py-3 text-sm text-[#71717A]">
                     <span className="w-4 h-4 border-2 border-[#5e6ad2] border-t-transparent rounded-full animate-spin" />生成中… {elapsed}s

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useStore } from '../../store/useStore';
+import { copyText } from '../../utils/clipboard';
 
 interface Props {
   open: boolean;
@@ -64,6 +65,7 @@ export default function SettingsModal({ open, onClose }: Props) {
   const [localUseCorsProxy, setLocalUseCorsProxy] = useState(useCorsProxy);
   const [localCorsProxyUrl, setLocalCorsProxyUrl] = useState(corsProxyUrl);
   const [saved, setSaved] = useState(false);
+  const [copiedKey, setCopiedKey] = useState(false);
   const [profileName, setProfileName] = useState('');
   const [adminPassword, setAdminPassword] = useState('');
   const [adminError, setAdminError] = useState('');
@@ -105,6 +107,14 @@ export default function SettingsModal({ open, onClose }: Props) {
     setModel(localModel.trim());
     saveCurrentAsProfile(profileName);
     setProfileName('');
+  };
+
+  const handleCopyKey = async () => {
+    const key = localKey.trim();
+    if (!key) return;
+    await copyText(key);
+    setCopiedKey(true);
+    window.setTimeout(() => setCopiedKey(false), 1200);
   };
 
   const handleAdminLogin = () => {
@@ -167,8 +177,19 @@ export default function SettingsModal({ open, onClose }: Props) {
                 </div>
                 <div>
                   <label className="text-xs font-medium text-[#71717A] mb-1.5 block">API Key</label>
-                  <input type="password" value={localKey} onChange={(e) => setLocalKey(e.target.value)} placeholder="sk-..." className={inputCls}
-                    onFocus={(e) => { e.target.type = 'text'; }} onBlur={(e) => { if (!e.target.value) e.target.type = 'password'; }} />
+                  <div className="flex gap-2">
+                    <input type="password" value={localKey} onChange={(e) => setLocalKey(e.target.value)} placeholder="sk-..." className={`${inputCls} min-w-0 flex-1`}
+                      onFocus={(e) => { e.target.type = 'text'; }} onBlur={(e) => { if (!e.target.value) e.target.type = 'password'; }} />
+                    <button
+                      type="button"
+                      onClick={handleCopyKey}
+                      disabled={!localKey.trim()}
+                      className="h-10 px-3 rounded-lg border border-[#E5E7EB] text-xs text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB] disabled:opacity-50 disabled:hover:text-[#71717A] disabled:hover:border-[#E5E7EB] whitespace-nowrap transition-colors"
+                      title="复制 API Key"
+                    >
+                      {copiedKey ? '已复制' : '复制'}
+                    </button>
+                  </div>
                   <p className="text-[10px] text-[#71717A] mt-1">密钥仅存储在本地浏览器（localStorage）中</p>
                 </div>
 

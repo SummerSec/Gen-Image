@@ -3,7 +3,8 @@ import { useStore } from '../../store/useStore';
 import { generateImage } from '../../services/api';
 import { applyWatermark } from '../../services/watermark';
 import { RATIO_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
-import { PlusIcon } from '../common/Icons';
+import { CopyIcon, PlusIcon } from '../common/Icons';
+import { copyText } from '../../utils/clipboard';
 
 // Unified composer: prompt + params + reference images + send (single-shot or iterative).
 export default function Composer() {
@@ -21,9 +22,18 @@ export default function Composer() {
   const isGenerating = useStore((s) => s.isGenerating);
   const [dragOver, setDragOver] = useState(false);
   const [preview, setPreview] = useState<string | null>(null);
+  const [copiedPrompt, setCopiedPrompt] = useState(false);
 
   const addFiles = (files: File[]) =>
     files.filter((f) => f.type.startsWith('image/')).forEach((f) => addReferenceImage(URL.createObjectURL(f)));
+
+  const copyCurrentPrompt = async () => {
+    const text = prompt.trim();
+    if (!text) return;
+    await copyText(text);
+    setCopiedPrompt(true);
+    window.setTimeout(() => setCopiedPrompt(false), 1200);
+  };
 
   useEffect(() => {
     const onPaste = (e: ClipboardEvent) => {
@@ -121,6 +131,16 @@ export default function Composer() {
         <select value={generateCount} onChange={(e) => setGenerateCount(parseInt(e.target.value, 10))} className="h-7 rounded-md border border-[#E5E7EB] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer">
           {[1, 2, 3, 4].map((n) => <option key={n} value={n}>{n} 张</option>)}
         </select>
+        <button
+          type="button"
+          onClick={copyCurrentPrompt}
+          disabled={!prompt.trim()}
+          className="h-7 px-2 rounded-md border border-[#E5E7EB] bg-white text-[12px] text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB] disabled:opacity-50 disabled:hover:text-[#71717A] disabled:hover:border-[#E5E7EB] inline-flex items-center gap-1"
+          title="复制当前提示词"
+        >
+          <CopyIcon className="w-3.5 h-3.5" />
+          {copiedPrompt ? '已复制' : '复制'}
+        </button>
         <button onClick={send} disabled={isGenerating || !prompt.trim()} className="ml-auto h-8 px-5 rounded-full bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#4F58C9] disabled:opacity-50 whitespace-nowrap">
           {isGenerating ? '生成中…' : '发送'}
         </button>

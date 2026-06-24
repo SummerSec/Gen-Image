@@ -3,6 +3,7 @@ import { useStore } from '../../store/useStore';
 import { getPromptLibrary, hasMorePrompts, loadMorePrompts } from '../../data/prompts';
 import { TABS } from '../../data/options';
 import { MagnifyingGlassIcon } from '../common/Icons';
+import { copyText } from '../../utils/clipboard';
 
 const PAGE_SIZE = 48;
 
@@ -84,18 +85,7 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
   const totalCount = filteredAllPrompts.length;
 
   const copyPrompt = async (prompt: string, id: string | number) => {
-    try {
-      await navigator.clipboard.writeText(prompt);
-    } catch {
-      const textarea = document.createElement('textarea');
-      textarea.value = prompt;
-      textarea.style.position = 'fixed';
-      textarea.style.opacity = '0';
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textarea);
-    }
+    await copyText(prompt);
     setCopiedPromptId(id);
     window.setTimeout(() => setCopiedPromptId((current) => (current === id ? null : current)), 1200);
   };

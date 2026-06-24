@@ -99,13 +99,13 @@ export default function MaskEditor({ open, imageUrl, onClose }: Props) {
 
   return (
     <div className="fixed inset-0 z-50 bg-black/50 flex flex-col p-4 lg:p-6">
-      <div className="mx-auto flex h-full w-full max-w-4xl flex-col overflow-hidden rounded-2xl border border-[#E5E7EB] bg-[#FFFFFF] shadow-2xl">
-        <div className="flex items-center justify-between border-b border-[#E5E7EB] px-5 py-3">
+      <div className="mx-auto flex h-full w-full max-w-4xl flex-col overflow-hidden rounded-xl border border-[#E6E8EE] bg-[#FFFFFF] studio-surface-shadow">
+        <div className="flex items-center justify-between border-b border-[#E6E8EE] px-5 py-3">
           <div>
             <h2 className="text-base font-semibold text-[#18181B]">局部重绘</h2>
             <p className="mt-0.5 text-xs text-[#71717A]">涂抹要重新生成的区域，提示词描述替换内容</p>
           </div>
-          <button onClick={onClose} className="h-8 w-8 rounded-full border border-[#E5E7EB] text-[#71717A] hover:text-[#18181B]">×</button>
+          <button onClick={onClose} className="h-8 w-8 rounded-lg border border-[#E6E8EE] text-[#71717A] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] hover:text-[#18181B]">×</button>
         </div>
 
         <div className="flex-1 min-h-0 overflow-auto bg-[#FFFFFF] p-4 flex items-center justify-center">
@@ -124,17 +124,17 @@ export default function MaskEditor({ open, imageUrl, onClose }: Props) {
 
         {error && <p className="px-5 py-2 text-xs text-red-500">{error}</p>}
 
-        <div className="flex items-center gap-3 border-t border-[#E5E7EB] px-5 py-3">
+        <div className="flex items-center gap-3 border-t border-[#E6E8EE] px-5 py-3">
           <label className="flex items-center gap-2 text-xs text-[#71717A]">
             笔刷
             <input type="range" min={10} max={120} value={brush} onChange={(e) => setBrush(+e.target.value)} />
           </label>
-          <button onClick={clear} className="h-8 rounded-full border border-[#E5E7EB] px-3 text-xs text-[#71717A] hover:text-[#18181B]">清除涂抹</button>
+          <button onClick={clear} className="h-8 rounded-lg border border-[#E6E8EE] px-3 text-xs text-[#71717A] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] hover:text-[#18181B]">清除涂抹</button>
           <div className="flex-1" />
           <button
             onClick={handleApply}
             disabled={busy}
-            className="h-9 rounded-full bg-[#5e6ad2] px-6 text-sm font-medium text-white hover:bg-[#4F58C9] disabled:opacity-50"
+            className="h-9 rounded-lg bg-[#5e6ad2] px-6 text-sm font-medium text-white shadow-sm hover:bg-[#4F58C9] disabled:opacity-50"
           >
             {busy ? '重绘中...' : '生成'}
           </button>

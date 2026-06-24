@@ -91,23 +91,23 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
   };
 
   return (
-    <aside className="w-full h-full bg-[#FFFFFF] border-l border-[#E5E7EB] flex flex-col overflow-hidden">
+    <aside className="w-full h-full bg-[#FFFFFF] border-l border-[#E6E8EE] flex flex-col overflow-hidden">
       {/* Header */}
-      <div className="px-5 pt-4 pb-0">
+      <div className="border-b border-[#EEF0F4] bg-white/95 px-5 pt-4 pb-0 backdrop-blur">
         <div className="flex items-center justify-between mb-3">
-          <div className="flex items-center gap-1 rounded-full bg-[#F1F2F5] p-0.5">
-            <button onClick={() => setPanelTab('library')} className={`h-7 px-3 rounded-full text-xs font-medium transition-colors ${panelTab === 'library' ? 'bg-white text-[#18181B] shadow-sm' : 'text-[#71717A]'}`}>提示词库</button>
-            <button onClick={() => setPanelTab('history')} className={`h-7 px-3 rounded-full text-xs font-medium transition-colors ${panelTab === 'history' ? 'bg-white text-[#18181B] shadow-sm' : 'text-[#71717A]'}`}>历史 {history.length > 0 && `(${history.length})`}</button>
+          <div className="flex items-center gap-1 rounded-lg bg-[#F4F5F7] p-0.5">
+            <button onClick={() => setPanelTab('library')} className={`h-8 px-3 rounded-md text-xs font-medium transition-colors ${panelTab === 'library' ? 'bg-white text-[#18181B] shadow-sm' : 'text-[#71717A] hover:text-[#18181B]'}`}>提示词库</button>
+            <button onClick={() => setPanelTab('history')} className={`h-8 px-3 rounded-md text-xs font-medium transition-colors ${panelTab === 'history' ? 'bg-white text-[#18181B] shadow-sm' : 'text-[#71717A] hover:text-[#18181B]'}`}>历史 {history.length > 0 && `(${history.length})`}</button>
           </div>
           {onClose && (
-            <button onClick={onClose} className="w-7 h-7 rounded-full border border-[#E5E7EB] flex items-center justify-center text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB]" title="收起">×</button>
+            <button onClick={onClose} className="w-8 h-8 rounded-lg border border-[#E6E8EE] flex items-center justify-center text-[#71717A] hover:text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA]" title="收起">×</button>
           )}
         </div>
 
         {panelTab === 'library' && (
           <>
             {/* Search */}
-            <div className="flex items-center bg-[#F1F2F5] rounded-full h-10 px-3 gap-2 mb-3">
+            <div className="flex items-center bg-[#F7F8FA] border border-[#E6E8EE] rounded-lg h-10 px-3 gap-2 mb-3 transition-colors focus-within:border-[#B8BDEB] focus-within:bg-white">
               <MagnifyingGlassIcon className="w-4 h-4 text-[#71717A] flex-shrink-0" />
               <input
                 type="text"
@@ -125,10 +125,10 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
-                    className={`h-7 px-3 rounded-full text-xs font-medium whitespace-nowrap transition-colors flex-shrink-0 ${
+                    className={`h-7 px-3 rounded-md text-xs font-medium whitespace-nowrap transition-colors flex-shrink-0 ${
                       activeTab === tab.id
                         ? 'bg-[#5e6ad2] text-white'
-                        : 'text-[#71717A] hover:text-[#18181B] hover:bg-[#F1F2F5]'
+                        : 'text-[#71717A] hover:text-[#18181B] hover:bg-[#F4F5F7]'
                     }`}
                   >
                     {tab.label}
@@ -142,18 +142,18 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
       </div>
 
       {panelTab === 'history' ? (
-        <div className="flex-1 overflow-y-auto px-5 pb-6 scrollbar-hide">
+        <div className="flex-1 overflow-y-auto px-5 py-5 scrollbar-hide">
           {history.length === 0 ? (
-            <p className="text-sm text-[#71717A] mt-4">暂无历史记录</p>
+            <p className="text-sm text-[#71717A]">暂无历史记录</p>
           ) : (
             <div className="grid grid-cols-2 gap-3">
               {history.map((item) => (
-                <div key={item.id} className="group relative rounded-xl border border-[#E5E7EB] overflow-hidden">
+                <div key={item.id} className="group relative overflow-hidden rounded-lg border border-[#E6E8EE] bg-[#F7F8FA] transition-all hover:-translate-y-0.5 hover:border-[#C9CDD8] hover:shadow-sm">
                   <button onClick={() => addReferenceImage(item.url)} className="block w-full" title="点击转为参考图">
                     <img src={item.url} alt="" className="w-full aspect-square object-cover" loading="lazy" />
                   </button>
-                  <button onClick={() => toggleFavorite(item.id)} className={`absolute top-1 left-1 w-5 h-5 rounded-full text-[10px] flex items-center justify-center ${item.favorite ? 'bg-amber-400 text-white' : 'bg-black/40 text-white opacity-0 group-hover:opacity-100'}`}>★</button>
-                  <button onClick={() => removeHistory(item.id)} className="absolute top-1 right-1 w-5 h-5 rounded-full bg-black/50 text-white text-[11px] flex items-center justify-center opacity-0 group-hover:opacity-100">×</button>
+                  <button onClick={() => toggleFavorite(item.id)} className={`absolute top-1.5 left-1.5 w-6 h-6 rounded-md text-[10px] flex items-center justify-center backdrop-blur ${item.favorite ? 'bg-amber-400 text-white' : 'bg-black/45 text-white opacity-0 group-hover:opacity-100'}`}>★</button>
+                  <button onClick={() => removeHistory(item.id)} className="absolute top-1.5 right-1.5 w-6 h-6 rounded-md bg-black/55 text-white text-[11px] flex items-center justify-center opacity-0 backdrop-blur group-hover:opacity-100">×</button>
                 </div>
               ))}
             </div>
@@ -161,7 +161,7 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
         </div>
       ) : (
       /* Grid */
-      <div className="flex-1 overflow-y-auto px-5 pb-6 scrollbar-hide">
+      <div className="flex-1 overflow-y-auto px-5 py-5 scrollbar-hide">
         {filteredPrompts.length > 0 ? (
           <div className="grid grid-cols-2 gap-3">
             {filteredPrompts.map((card) => {
@@ -193,7 +193,7 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
                     setPrompt(card.prompt);
                     setReferenceImages(card.thumbnail ? [card.thumbnail] : []);
                   }}
-                  className="group relative text-left rounded-xl border border-[#E5E7EB] bg-[#FFFFFF] overflow-hidden hover:shadow-md hover:-translate-y-0.5 transition-all"
+                  className="group relative overflow-hidden rounded-lg border border-[#E6E8EE] bg-[#FFFFFF] text-left transition-all hover:-translate-y-0.5 hover:border-[#C9CDD8] hover:shadow-sm"
                   title={`点击：填入提示词 + 添加示例图为参考 · 来源：${card.source}`}
                 >
                   <span
@@ -209,7 +209,7 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
                       e.stopPropagation();
                       void copyPrompt(card.prompt, card.id);
                     }}
-                    className="absolute right-1.5 top-1.5 z-10 h-6 rounded-md bg-black/55 px-2 text-[10px] leading-6 text-white opacity-0 shadow-sm transition-opacity hover:bg-black/70 group-hover:opacity-100 focus:opacity-100"
+                    className="absolute right-1.5 top-1.5 z-10 h-6 rounded-md bg-black/60 px-2 text-[10px] leading-6 text-white opacity-0 shadow-sm backdrop-blur transition-opacity hover:bg-black/75 group-hover:opacity-100 focus:opacity-100"
                     title="复制提示词"
                   >
                     {copiedPromptId === card.id ? '已复制' : '复制'}
@@ -223,7 +223,7 @@ export default function RightPanel({ onClose }: { onClose?: () => void }) {
                       </svg>
                     )}
                   </div>
-                  <div className="p-2">
+                  <div className="border-t border-[#EEF0F4] p-2">
                     <p className="text-xs font-medium text-[#18181B] truncate">{card.title}</p>
                     <p className="text-[10px] text-[#71717A] mt-0.5 truncate">
                       {categoryLabelMap[card.category] || card.category} · {card.source}

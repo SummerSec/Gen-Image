@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-studio-bg: #F7F8FA;
-  --color-studio-border: #E5E7EB;
+  --color-studio-bg: #F4F5F7;
+  --color-studio-border: #E6E8EE;
   --color-studio-text: #18181B;
   --color-studio-muted: #71717A;
   --color-studio-faint: #A1A1AA;
@@ -15,11 +15,16 @@ body {
   margin: 0;
   font-family: "LXGW WenKai", "PingFang SC", "Microsoft YaHei", ui-sans-serif, system-ui, -apple-system, sans-serif;
   color: var(--color-studio-text);
-  background: var(--color-studio-bg);
+  background:
+    linear-gradient(180deg, #FBFBFC 0%, var(--color-studio-bg) 38%, var(--color-studio-bg) 100%);
 }
 
 * {
   box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(94, 106, 210, 0.18);
 }
 
 button {
@@ -48,6 +53,14 @@ textarea:focus-visible {
 /* Custom scrollbar */
 .scrollbar-hide::-webkit-scrollbar { display: none; }
 .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+.studio-surface-shadow {
+  box-shadow: 0 18px 48px rgba(24, 24, 27, 0.08), 0 2px 8px rgba(24, 24, 27, 0.04);
+}
+
+.studio-float-shadow {
+  box-shadow: 0 10px 26px rgba(24, 24, 27, 0.09), 0 1px 3px rgba(24, 24, 27, 0.08);
+}
 
 /* Horizontal discoverable scrollbar for tab strips */
 .horizontal-scrollbar {

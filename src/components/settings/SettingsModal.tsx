@@ -16,7 +16,7 @@ const NAV: { id: Section; label: string }[] = [
   { id: 'about', label: '关于' },
 ];
 
-const inputCls = 'w-full h-10 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#5e6ad2]';
+const inputCls = 'w-full h-10 rounded-lg border border-[#E6E8EE] bg-white px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none transition-colors focus:border-[#9EA5E6]';
 const Toggle = ({ on, onClick }: { on: boolean; onClick: () => void }) => (
   <button onClick={onClick} className={`relative w-10 h-5 rounded-full transition-colors duration-200 ${on ? 'bg-[#5e6ad2]' : 'bg-[#D1D5DB]'}`}>
     <span className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform duration-200 ${on ? 'translate-x-5' : 'translate-x-0'}`} />
@@ -130,24 +130,24 @@ export default function SettingsModal({ open, onClose }: Props) {
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/40 flex items-center justify-center p-4 lg:p-6">
-      <div className="bg-white rounded-2xl border border-[#E5E7EB] w-full max-w-2xl h-[80vh] max-h-[640px] shadow-2xl overflow-hidden flex flex-col">
-        <div className="flex items-center justify-between px-6 py-4 border-b border-[#E5E7EB] flex-shrink-0">
+    <div className="fixed inset-0 z-50 bg-black/35 flex items-center justify-center p-4 lg:p-6">
+      <div className="bg-white rounded-xl border border-[#E6E8EE] w-full max-w-2xl h-[80vh] max-h-[640px] studio-surface-shadow overflow-hidden flex flex-col">
+        <div className="flex items-center justify-between px-6 py-4 border-b border-[#E6E8EE] flex-shrink-0">
           <h2 className="text-lg font-semibold text-[#18181B]">设置</h2>
           <div className="flex items-center gap-3">
             <span className="text-xs text-[#A1A1AA]" style={{ fontFamily: "'JetBrains Mono', monospace" }}>v{__APP_VERSION__}</span>
-            <button onClick={onClose} className="w-8 h-8 rounded-full border border-[#E5E7EB] flex items-center justify-center text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB]">×</button>
+            <button onClick={onClose} className="w-8 h-8 rounded-lg border border-[#E6E8EE] flex items-center justify-center text-[#71717A] hover:text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA]">×</button>
           </div>
         </div>
 
         <div className="flex-1 min-h-0 flex">
           {/* Sidebar */}
-          <nav className="w-36 lg:w-44 flex-shrink-0 border-r border-[#E5E7EB] p-2 flex flex-col gap-0.5 overflow-y-auto">
+          <nav className="w-36 lg:w-44 flex-shrink-0 border-r border-[#E6E8EE] bg-[#FAFAFB] p-2 flex flex-col gap-0.5 overflow-y-auto">
             {NAV.map((n) => (
               <button
                 key={n.id}
                 onClick={() => setSection(n.id)}
-                className={`text-left h-9 px-3 rounded-lg text-sm transition-colors ${section === n.id ? 'bg-[#F1F2F5] text-[#18181B] font-medium' : 'text-[#71717A] hover:text-[#18181B] hover:bg-[#F7F8FA]'}`}
+                className={`text-left h-9 px-3 rounded-lg text-sm transition-colors ${section === n.id ? 'bg-white text-[#18181B] font-medium shadow-sm' : 'text-[#71717A] hover:text-[#18181B] hover:bg-white'}`}
               >
                 {n.label}
               </button>
@@ -184,7 +184,7 @@ export default function SettingsModal({ open, onClose }: Props) {
                       type="button"
                       onClick={handleCopyKey}
                       disabled={!localKey.trim()}
-                      className="h-10 px-3 rounded-lg border border-[#E5E7EB] text-xs text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB] disabled:opacity-50 disabled:hover:text-[#71717A] disabled:hover:border-[#E5E7EB] whitespace-nowrap transition-colors"
+                      className="h-10 px-3 rounded-lg border border-[#E6E8EE] text-xs text-[#71717A] hover:text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] disabled:opacity-50 disabled:hover:text-[#71717A] disabled:hover:border-[#E6E8EE] whitespace-nowrap transition-colors"
                       title="复制 API Key"
                     >
                       {copiedKey ? '已复制' : '复制'}
@@ -209,12 +209,12 @@ export default function SettingsModal({ open, onClose }: Props) {
                   <p className="text-[10px] text-[#71717A] mt-1">开启后请求会增加 X-User-Agent 自定义请求头；关闭时不会发送该请求头。</p>
                 </div>
 
-                <div className="border-t border-[#E5E7EB] pt-4">
+                <div className="border-t border-[#E6E8EE] pt-4">
                   <h3 className="text-sm font-medium text-[#18181B] mb-2">配置管理</h3>
                   {apiProfiles.length > 0 && (
                     <div className="flex flex-col gap-1.5 mb-3">
                       {apiProfiles.map((p) => (
-                        <div key={p.id} className={`flex items-center gap-2 rounded-lg border px-3 py-2 ${p.id === activeProfileId ? 'border-[#5e6ad2] bg-[#F1F2F5]' : 'border-[#E5E7EB]'}`}>
+                        <div key={p.id} className={`flex items-center gap-2 rounded-lg border px-3 py-2 ${p.id === activeProfileId ? 'border-[#9EA5E6] bg-[#F6F7FF]' : 'border-[#E6E8EE]'}`}>
                           <button onClick={() => { applyProfile(p.id); const s = useStore.getState(); setLocalKey(s.apiKey); setLocalUrl(s.baseUrl); setLocalUserAgentEnabled(s.apiUserAgentEnabled); setLocalUserAgent(s.apiUserAgent); setLocalModel(s.model); }} className="flex-1 text-left min-w-0">
                             <p className="text-xs font-medium text-[#18181B] truncate">{p.name}</p>
                             <p className="text-[10px] text-[#71717A] truncate">{p.model} · {p.baseUrl}</p>
@@ -225,8 +225,8 @@ export default function SettingsModal({ open, onClose }: Props) {
                     </div>
                   )}
                   <div className="flex gap-2">
-                    <input type="text" value={profileName} onChange={(e) => setProfileName(e.target.value)} placeholder="配置名称" className="flex-1 h-9 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#5e6ad2]" />
-                    <button onClick={handleSaveProfile} className="h-9 px-4 rounded-lg border border-[#E5E7EB] text-sm text-[#18181B] hover:border-[#D1D5DB] transition-colors">另存为</button>
+                    <input type="text" value={profileName} onChange={(e) => setProfileName(e.target.value)} placeholder="配置名称" className="flex-1 h-9 rounded-lg border border-[#E6E8EE] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#9EA5E6]" />
+                    <button onClick={handleSaveProfile} className="h-9 px-4 rounded-lg border border-[#E6E8EE] text-sm text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] transition-colors">另存为</button>
                   </div>
                   <p className="text-[10px] text-[#71717A] mt-1">保存当前 Base URL / 模型 / API Key 为一套配置，可随时切换</p>
                 </div>
@@ -241,7 +241,7 @@ export default function SettingsModal({ open, onClose }: Props) {
                 </div>
                 <p className="text-[10px] text-[#71717A] -mt-2">开启后在请求体追加 response_format: b64_json，接口直接返回 Base64 图片数据而非 URL。并非所有服务商和网关都支持，若报错可关闭。</p>
 
-                <div className="flex items-center justify-between border-t border-[#E5E7EB] pt-4">
+                <div className="flex items-center justify-between border-t border-[#E6E8EE] pt-4">
                   <label className="text-xs font-medium text-[#71717A]">CORS 代理</label>
                   <Toggle on={localUseCorsProxy} onClick={() => setLocalUseCorsProxy(!localUseCorsProxy)} />
                 </div>
@@ -252,7 +252,7 @@ export default function SettingsModal({ open, onClose }: Props) {
                   </div>
                 )}
 
-                <div className="flex items-center justify-between border-t border-[#E5E7EB] pt-4">
+                <div className="flex items-center justify-between border-t border-[#E6E8EE] pt-4">
                   <label className="text-xs font-medium text-[#71717A]">生成图片水印</label>
                   {isAdmin ? (
                     <Toggle on={watermarkEnabled} onClick={() => setWatermarkEnabled(!watermarkEnabled)} />
@@ -263,13 +263,13 @@ export default function SettingsModal({ open, onClose }: Props) {
                 <p className="text-[10px] text-[#71717A] -mt-2">默认开启：生成图片右下角添加 gen-img.sumsec.me 水印，仅管理员可关闭。</p>
                 {!isAdmin && (
                   <div className="flex gap-2">
-                    <input type="password" value={adminPassword} onChange={(e) => { setAdminPassword(e.target.value); setAdminError(''); }} onKeyDown={(e) => { if (e.key === 'Enter') handleAdminLogin(); }} placeholder="管理员密码（关闭水印）" className="flex-1 h-9 rounded-lg border border-[#E5E7EB] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#5e6ad2]" />
+                    <input type="password" value={adminPassword} onChange={(e) => { setAdminPassword(e.target.value); setAdminError(''); }} onKeyDown={(e) => { if (e.key === 'Enter') handleAdminLogin(); }} placeholder="管理员密码（关闭水印）" className="flex-1 h-9 rounded-lg border border-[#E6E8EE] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#9EA5E6]" />
                     <button onClick={handleAdminLogin} className="h-9 px-4 rounded-lg bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#4F58C9] transition-colors">验证</button>
                   </div>
                 )}
                 {adminError && <p className="text-[11px] text-red-500 -mt-2">{adminError}</p>}
                 {isAdmin && (
-                  <button onClick={() => setIsAdmin(false)} className="h-8 rounded-lg border border-[#E5E7EB] px-3 text-xs text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB] transition-colors self-start">退出管理员</button>
+                  <button onClick={() => setIsAdmin(false)} className="h-8 rounded-lg border border-[#E6E8EE] px-3 text-xs text-[#71717A] hover:text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] transition-colors self-start">退出管理员</button>
                 )}
               </>
             )}
@@ -293,8 +293,8 @@ export default function SettingsModal({ open, onClose }: Props) {
         </div>
 
         {(section === 'api' || section === 'options') && (
-          <div className="px-6 py-3 border-t border-[#E5E7EB] flex-shrink-0">
-            <button onClick={handleSave} className="w-full h-11 rounded-full bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#4F58C9] transition-colors">
+          <div className="px-6 py-3 border-t border-[#E6E8EE] flex-shrink-0">
+            <button onClick={handleSave} className="w-full h-11 rounded-lg bg-[#5e6ad2] text-white text-sm font-medium shadow-sm hover:bg-[#4F58C9] transition-colors">
               {saved ? '✓ 已保存' : '保存设置'}
             </button>
           </div>

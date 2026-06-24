@@ -94,16 +94,16 @@ export default function Composer() {
       onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
       onDragLeave={() => setDragOver(false)}
       onDrop={(e) => { e.preventDefault(); setDragOver(false); addFiles(Array.from(e.dataTransfer.files)); }}
-      className={`mx-auto w-full max-w-3xl rounded-2xl border bg-white shadow-sm transition-colors focus-within:border-[#5e6ad2] focus-within:ring-2 focus-within:ring-[#5e6ad2]/20 ${dragOver ? 'border-[#5e6ad2] ring-2 ring-[#5e6ad2]/20' : 'border-[#E5E7EB]'}`}
+      className={`mx-auto w-full max-w-3xl rounded-xl border bg-white/95 backdrop-blur studio-surface-shadow transition-all focus-within:border-[#9EA5E6] focus-within:ring-2 focus-within:ring-[#5e6ad2]/15 ${dragOver ? 'border-[#5e6ad2] ring-2 ring-[#5e6ad2]/20' : 'border-[#E6E8EE]'}`}
     >
       {referenceImages.length > 0 && (
         <div className="flex gap-2 p-3 pb-0 overflow-x-auto scrollbar-hide">
           {referenceImages.map((url, i) => (
-            <div key={i} className="relative w-12 h-12 rounded-lg border border-[#E5E7EB] flex-shrink-0 overflow-hidden">
+            <div key={i} className="relative w-12 h-12 rounded-lg border border-[#E6E8EE] flex-shrink-0 overflow-hidden">
               <button type="button" onClick={() => setPreview(url)} className="block w-full h-full" title="点击放大">
                 <img src={url} alt="" className="w-full h-full object-cover" />
               </button>
-              <button onClick={() => removeReferenceImage(i)} className="absolute top-0.5 right-0.5 w-4 h-4 rounded-full bg-black/60 text-white text-[10px] leading-none">×</button>
+              <button onClick={() => removeReferenceImage(i)} className="absolute top-0.5 right-0.5 w-4 h-4 rounded-md bg-black/60 text-white text-[10px] leading-none">×</button>
             </div>
           ))}
         </div>
@@ -114,34 +114,34 @@ export default function Composer() {
         onChange={(e) => setPrompt(e.target.value)}
         onKeyDown={(e) => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) { e.preventDefault(); void send(); } }}
         placeholder="描述你想生成的图像，Ctrl/⌘+Enter 发送（可粘贴/拖拽参考图，右侧词库点选填入）"
-        className="w-full min-h-[72px] max-h-48 resize-none bg-transparent border-none outline-none focus-visible:outline-none p-3 text-sm text-[#18181B] placeholder-[#A1A1AA] leading-relaxed"
+        className="w-full min-h-[88px] max-h-48 resize-none bg-transparent border-none outline-none focus-visible:outline-none px-4 py-3 text-sm text-[#18181B] placeholder-[#A1A1AA] leading-6"
       />
 
-      <div className="flex flex-wrap items-center gap-2 px-3 py-2 border-t border-[#E5E7EB]">
-        <label className="flex items-center gap-1 text-[12px] text-[#71717A] cursor-pointer hover:text-[#3F3F46] whitespace-nowrap">
+      <div className="flex flex-wrap items-center gap-2 border-t border-[#EEF0F4] bg-[#FAFAFB] px-3 py-2.5">
+        <label className="flex h-8 items-center gap-1.5 rounded-lg px-2 text-[12px] text-[#71717A] cursor-pointer hover:bg-white hover:text-[#18181B] whitespace-nowrap">
           <PlusIcon className="w-3.5 h-3.5 flex-shrink-0" />参考图
           <input type="file" accept="image/*" multiple className="hidden" onChange={(e) => { addFiles(Array.from(e.target.files ?? [])); e.target.value = ''; }} />
         </label>
-        <select value={aspectRatio} onChange={(e) => setAspectRatio(e.target.value)} className="h-7 rounded-md border border-[#E5E7EB] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer">
+        <select value={aspectRatio} onChange={(e) => setAspectRatio(e.target.value)} className="h-8 rounded-lg border border-[#E6E8EE] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer hover:border-[#BFC4CF]">
           {RATIO_OPTIONS.map((r) => <option key={r.id} value={r.id}>{r.label} {r.desc}</option>)}
         </select>
-        <select value={resolution} onChange={(e) => setResolution(e.target.value)} className="h-7 rounded-md border border-[#E5E7EB] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer">
+        <select value={resolution} onChange={(e) => setResolution(e.target.value)} className="h-8 rounded-lg border border-[#E6E8EE] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer hover:border-[#BFC4CF]">
           {RESOLUTION_OPTIONS.map((r) => <option key={r.id} value={r.id}>{r.label}</option>)}
         </select>
-        <select value={generateCount} onChange={(e) => setGenerateCount(parseInt(e.target.value, 10))} className="h-7 rounded-md border border-[#E5E7EB] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer">
+        <select value={generateCount} onChange={(e) => setGenerateCount(parseInt(e.target.value, 10))} className="h-8 rounded-lg border border-[#E6E8EE] bg-white px-2 text-[12px] text-[#3F3F46] outline-none cursor-pointer hover:border-[#BFC4CF]">
           {[1, 2, 3, 4].map((n) => <option key={n} value={n}>{n} 张</option>)}
         </select>
         <button
           type="button"
           onClick={copyCurrentPrompt}
           disabled={!prompt.trim()}
-          className="h-7 px-2 rounded-md border border-[#E5E7EB] bg-white text-[12px] text-[#71717A] hover:text-[#18181B] hover:border-[#D1D5DB] disabled:opacity-50 disabled:hover:text-[#71717A] disabled:hover:border-[#E5E7EB] inline-flex items-center gap-1"
+          className="h-8 px-2.5 rounded-lg border border-[#E6E8EE] bg-white text-[12px] text-[#71717A] hover:text-[#18181B] hover:border-[#BFC4CF] disabled:opacity-50 disabled:hover:text-[#71717A] disabled:hover:border-[#E6E8EE] inline-flex items-center gap-1"
           title="复制当前提示词"
         >
           <CopyIcon className="w-3.5 h-3.5" />
           {copiedPrompt ? '已复制' : '复制'}
         </button>
-        <button onClick={send} disabled={isGenerating || !prompt.trim()} className="ml-auto h-8 px-5 rounded-full bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#4F58C9] disabled:opacity-50 whitespace-nowrap">
+        <button onClick={send} disabled={isGenerating || !prompt.trim()} className="ml-auto h-9 px-5 rounded-lg bg-[#5e6ad2] text-white text-sm font-medium shadow-sm hover:bg-[#4F58C9] disabled:opacity-50 whitespace-nowrap">
           {isGenerating ? '生成中…' : '发送'}
         </button>
       </div>

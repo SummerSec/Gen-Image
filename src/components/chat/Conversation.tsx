@@ -44,48 +44,52 @@ export default function Conversation() {
   };
 
   return (
-    <main className="flex-1 flex flex-col min-w-0 bg-[#F7F8FA]">
-      <div className="flex-1 overflow-y-auto scrollbar-hide px-4 py-6">
+    <main className="flex-1 flex flex-col min-w-0 bg-[#F4F5F7]">
+      <div className="flex-1 overflow-y-auto scrollbar-hide px-4 py-6 lg:px-8">
         <div className="mx-auto w-full max-w-3xl flex flex-col gap-4">
           {messages.length === 0 ? (
-            <div className="mt-[12vh] flex flex-col items-center gap-3 text-center">
-              <ImageIcon className="w-12 h-12 text-[#D1D5DB]" />
-              <h2 className="text-lg font-medium text-[#3F3F46]">开始创作</h2>
-              <p className="text-sm text-[#A1A1AA] max-w-sm">在下方输入提示词生成图片，继续输入即可在上一张结果上迭代修改；也可从右侧「提示词库」挑选模板填入。</p>
+            <div className="mt-[12vh] flex flex-col items-center gap-4 text-center">
+              <div className="flex h-14 w-14 items-center justify-center rounded-xl border border-[#E6E8EE] bg-white studio-float-shadow">
+                <ImageIcon className="w-7 h-7 text-[#5e6ad2]" />
+              </div>
+              <div>
+                <h2 className="text-xl font-semibold text-[#18181B]">开始创作</h2>
+                <p className="mt-2 text-sm leading-6 text-[#71717A] max-w-md">输入提示词生成图片，继续输入可基于上一张结果迭代；右侧词库可快速填入模板和参考图。</p>
+              </div>
             </div>
           ) : (
             messages.map((m) => (
               <div key={m.id} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
                 {m.role === 'user' ? (
-                  <div className="group flex max-w-[80%] items-end gap-1.5">
+                  <div className="group flex max-w-[86%] items-end gap-2 sm:max-w-[80%]">
                     <button
                       type="button"
                       onClick={() => void copyMessageText(m.id, m.text)}
-                      className="mb-1 h-7 px-2 rounded-full border border-[#E5E7EB] bg-white text-[11px] text-[#71717A] shadow-sm opacity-0 transition-opacity hover:text-[#18181B] hover:border-[#D1D5DB] group-hover:opacity-100 focus:opacity-100 inline-flex items-center gap-1"
+                      className="mb-1 h-7 px-2 rounded-md border border-[#E6E8EE] bg-white text-[11px] text-[#71717A] shadow-sm opacity-100 transition-all hover:text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] sm:opacity-0 sm:group-hover:opacity-100 focus:opacity-100 inline-flex items-center gap-1"
                       title="复制这条提示词"
                     >
                       <CopyIcon className="w-3 h-3" />
                       {copiedMessageId === m.id ? '已复制' : '复制'}
                     </button>
-                    <div className="rounded-2xl rounded-br-sm bg-[#5e6ad2] text-white px-3.5 py-2 text-sm whitespace-pre-wrap">{m.text}</div>
+                    <div className="rounded-xl rounded-br-sm bg-[#5e6ad2] text-white px-3.5 py-2.5 text-sm leading-6 whitespace-pre-wrap shadow-sm">{m.text}</div>
                   </div>
                 ) : m.pending ? (
-                  <div className="flex items-center gap-2 rounded-2xl bg-white border border-[#E5E7EB] px-4 py-3 text-sm text-[#71717A]">
+                  <div className="flex items-center gap-2 rounded-xl bg-white border border-[#E6E8EE] px-4 py-3 text-sm text-[#71717A] studio-float-shadow">
                     <span className="w-4 h-4 border-2 border-[#5e6ad2] border-t-transparent rounded-full animate-spin" />生成中… {elapsed}s
                   </div>
                 ) : m.image ? (
-                  <div className="group relative max-w-[80%] rounded-2xl overflow-hidden border border-[#E5E7EB] bg-white">
+                  <div className="group relative max-w-[86%] overflow-hidden rounded-xl border border-[#E6E8EE] bg-white studio-surface-shadow sm:max-w-[80%]">
                     <button type="button" onClick={() => setPreview(m.image!)} className="block" title="点击放大">
                       <img src={m.image} alt="" className="block max-h-[60vh] w-auto" />
                     </button>
-                    <div className="absolute bottom-2 right-2 flex gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity">
-                      <button onClick={() => addReferenceImage(m.image!)} className="h-7 px-2.5 rounded-full bg-black/60 text-white text-[11px] hover:bg-black/75">转参考图</button>
-                      <button onClick={() => setMaskImg(m.image!)} className="h-7 px-2.5 rounded-full bg-black/60 text-white text-[11px] hover:bg-black/75">局部重绘</button>
-                      <button onClick={() => download(m.image!)} className="h-7 px-2.5 rounded-full bg-black/60 text-white text-[11px] hover:bg-black/75">下载</button>
+                    <div className="absolute bottom-2 right-2 flex gap-1.5 opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100">
+                      <button onClick={() => addReferenceImage(m.image!)} className="h-7 px-2.5 rounded-md bg-black/65 text-white text-[11px] backdrop-blur hover:bg-black/80">转参考图</button>
+                      <button onClick={() => setMaskImg(m.image!)} className="h-7 px-2.5 rounded-md bg-black/65 text-white text-[11px] backdrop-blur hover:bg-black/80">局部重绘</button>
+                      <button onClick={() => download(m.image!)} className="h-7 px-2.5 rounded-md bg-black/65 text-white text-[11px] backdrop-blur hover:bg-black/80">下载</button>
                     </div>
                   </div>
                 ) : (
-                  <div className="max-w-[80%] rounded-2xl bg-red-50 border border-red-200 text-red-700 px-3.5 py-2 text-sm">{m.text}</div>
+                  <div className="max-w-[86%] rounded-xl bg-red-50 border border-red-200 text-red-700 px-3.5 py-2 text-sm sm:max-w-[80%]">{m.text}</div>
                 )}
               </div>
             ))
@@ -94,7 +98,7 @@ export default function Conversation() {
         </div>
       </div>
 
-      <div className="px-4 pb-4 pt-1">
+      <div className="px-4 pb-4 pt-1 lg:px-8">
         <Composer />
       </div>
 

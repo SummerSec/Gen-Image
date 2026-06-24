@@ -16,7 +16,7 @@ export default function App() {
   }, [hydrateHistory]);
 
   return (
-    <div className="h-screen flex flex-col bg-[#F7F8FA] overflow-hidden">
+    <div className="h-screen flex flex-col bg-[#F4F5F7] overflow-hidden">
       <Topbar
         onSettings={() => setSettingsOpen(true)}
         onNewSession={newSession}

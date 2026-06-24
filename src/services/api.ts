@@ -47,7 +47,8 @@ function createClient(apiKey: string, baseUrl: string): OpenAI {
 }
 
 function withForwardedUserAgent(init?: RequestInit): RequestInit | undefined {
-  const userAgent = useStore.getState().apiUserAgent.trim();
+  const { apiUserAgentEnabled, apiUserAgent } = useStore.getState();
+  const userAgent = apiUserAgentEnabled ? apiUserAgent.trim() : '';
   if (!userAgent) return init;
 
   const headers = new Headers(init?.headers);
@@ -60,14 +61,16 @@ function getJsonHeaders(apiKey: string): Headers {
     'Content-Type': 'application/json',
     Authorization: `Bearer ${apiKey}`,
   });
-  const userAgent = useStore.getState().apiUserAgent.trim();
+  const { apiUserAgentEnabled, apiUserAgent } = useStore.getState();
+  const userAgent = apiUserAgentEnabled ? apiUserAgent.trim() : '';
   if (userAgent) headers.set('X-User-Agent', userAgent);
   return headers;
 }
 
 function getAuthHeaders(apiKey: string): Headers {
   const headers = new Headers({ Authorization: `Bearer ${apiKey}` });
-  const userAgent = useStore.getState().apiUserAgent.trim();
+  const { apiUserAgentEnabled, apiUserAgent } = useStore.getState();
+  const userAgent = apiUserAgentEnabled ? apiUserAgent.trim() : '';
   if (userAgent) headers.set('X-User-Agent', userAgent);
   return headers;
 }

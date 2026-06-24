@@ -20,6 +20,7 @@ export interface ApiProfile {
   apiKey: string;
   baseUrl: string;
   model: string;
+  userAgentEnabled?: boolean;
   userAgent?: string;
 }
 
@@ -82,6 +83,8 @@ interface AppState {
   setBaseUrl: (v: string) => void;
   apiUserAgent: string;
   setApiUserAgent: (v: string) => void;
+  apiUserAgentEnabled: boolean;
+  setApiUserAgentEnabled: (v: boolean) => void;
   apiMode: 'images' | 'responses';
   setApiMode: (v: 'images' | 'responses') => void;
   apiProfiles: ApiProfile[];
@@ -183,6 +186,8 @@ export const useStore = create<AppState>()(
       setBaseUrl: (v) => set({ baseUrl: v }),
       apiUserAgent: '',
       setApiUserAgent: (v) => set({ apiUserAgent: v }),
+      apiUserAgentEnabled: false,
+      setApiUserAgentEnabled: (v) => set({ apiUserAgentEnabled: v }),
       apiMode: 'images',
       setApiMode: (v) => set({ apiMode: v }),
       apiProfiles: [],
@@ -195,6 +200,7 @@ export const useStore = create<AppState>()(
             apiKey: s.apiKey,
             baseUrl: s.baseUrl,
             model: s.model,
+            userAgentEnabled: s.apiUserAgentEnabled,
             userAgent: s.apiUserAgent,
           };
           return { apiProfiles: [...s.apiProfiles, profile], activeProfileId: profile.id };
@@ -203,7 +209,7 @@ export const useStore = create<AppState>()(
         set((s) => {
           const p = s.apiProfiles.find((x) => x.id === id);
           if (!p) return {};
-          return { apiKey: p.apiKey, baseUrl: p.baseUrl, model: p.model, apiUserAgent: p.userAgent ?? '', activeProfileId: id };
+          return { apiKey: p.apiKey, baseUrl: p.baseUrl, model: p.model, apiUserAgentEnabled: p.userAgentEnabled ?? false, apiUserAgent: p.userAgent ?? '', activeProfileId: id };
         }),
       deleteProfile: (id) =>
         set((s) => ({
@@ -224,19 +230,25 @@ export const useStore = create<AppState>()(
     {
       name: 'gen-image-settings',
       storage: createJSONStorage(() => localStorage),
-      version: 1,
+      version: 2,
       migrate: (persistedState) => {
         const state = persistedState as Partial<AppState>;
+        const nextState = { ...state };
 
-        if (state.baseUrl === LEGACY_DEFAULT_BASE_URL) {
-          return { ...state, baseUrl: DEFAULT_BASE_URL };
+        if (nextState.baseUrl === LEGACY_DEFAULT_BASE_URL) {
+          nextState.baseUrl = DEFAULT_BASE_URL;
         }
 
-        return state;
+        if (nextState.apiUserAgentEnabled === undefined && nextState.apiUserAgent?.trim()) {
+          nextState.apiUserAgentEnabled = true;
+        }
+
+        return nextState;
       },
       partialize: (state) => ({
         apiKey: state.apiKey,
         baseUrl: state.baseUrl,
+        apiUserAgentEnabled: state.apiUserAgentEnabled,
         apiUserAgent: state.apiUserAgent,
         model: state.model,
         apiMode: state.apiMode,

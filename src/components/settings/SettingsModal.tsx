@@ -27,6 +27,8 @@ export default function SettingsModal({ open, onClose }: Props) {
   const setApiKey = useStore((s) => s.setApiKey);
   const baseUrl = useStore((s) => s.baseUrl);
   const setBaseUrl = useStore((s) => s.setBaseUrl);
+  const apiUserAgentEnabled = useStore((s) => s.apiUserAgentEnabled);
+  const setApiUserAgentEnabled = useStore((s) => s.setApiUserAgentEnabled);
   const apiUserAgent = useStore((s) => s.apiUserAgent);
   const setApiUserAgent = useStore((s) => s.setApiUserAgent);
   const apiMode = useStore((s) => s.apiMode);
@@ -54,6 +56,7 @@ export default function SettingsModal({ open, onClose }: Props) {
   const [section, setSection] = useState<Section>('api');
   const [localKey, setLocalKey] = useState(apiKey);
   const [localUrl, setLocalUrl] = useState(baseUrl);
+  const [localUserAgentEnabled, setLocalUserAgentEnabled] = useState(apiUserAgentEnabled);
   const [localUserAgent, setLocalUserAgent] = useState(apiUserAgent);
   const [localApiMode, setLocalApiMode] = useState(apiMode);
   const [localModel, setLocalModel] = useState(model);
@@ -69,19 +72,21 @@ export default function SettingsModal({ open, onClose }: Props) {
     if (!open) return;
     setLocalKey(apiKey);
     setLocalUrl(baseUrl);
+    setLocalUserAgentEnabled(apiUserAgentEnabled);
     setLocalUserAgent(apiUserAgent);
     setLocalApiMode(apiMode);
     setLocalModel(model);
     setLocalB64(responseFormatB64);
     setLocalUseCorsProxy(useCorsProxy);
     setLocalCorsProxyUrl(corsProxyUrl);
-  }, [open, apiKey, baseUrl, apiUserAgent, apiMode, model, responseFormatB64, useCorsProxy, corsProxyUrl]);
+  }, [open, apiKey, baseUrl, apiUserAgentEnabled, apiUserAgent, apiMode, model, responseFormatB64, useCorsProxy, corsProxyUrl]);
 
   if (!open) return null;
 
   const handleSave = () => {
     setApiKey(localKey.trim());
     setBaseUrl(localUrl.trim());
+    setApiUserAgentEnabled(localUserAgentEnabled);
     setApiUserAgent(localUserAgent.trim());
     setApiMode(localApiMode);
     setModel(localModel.trim());
@@ -95,6 +100,7 @@ export default function SettingsModal({ open, onClose }: Props) {
   const handleSaveProfile = () => {
     setApiKey(localKey.trim());
     setBaseUrl(localUrl.trim());
+    setApiUserAgentEnabled(localUserAgentEnabled);
     setApiUserAgent(localUserAgent.trim());
     setModel(localModel.trim());
     saveCurrentAsProfile(profileName);
@@ -167,9 +173,19 @@ export default function SettingsModal({ open, onClose }: Props) {
                 </div>
 
                 <div>
-                  <label className="text-xs font-medium text-[#71717A] mb-1.5 block">User-Agent</label>
-                  <input type="text" value={localUserAgent} onChange={(e) => setLocalUserAgent(e.target.value)} placeholder="Mozilla/5.0 ..." className={inputCls} />
-                  <p className="text-[10px] text-[#71717A] mt-1">前端会发送 X-User-Agent 转发头；浏览器不能可靠覆盖真实 User-Agent，需要代理支持转发才会生效。</p>
+                  <div className="flex items-center justify-between mb-1.5">
+                    <label className="text-xs font-medium text-[#71717A]">启用自定义 User-Agent</label>
+                    <Toggle on={localUserAgentEnabled} onClick={() => setLocalUserAgentEnabled(!localUserAgentEnabled)} />
+                  </div>
+                  <input
+                    type="text"
+                    value={localUserAgent}
+                    onChange={(e) => setLocalUserAgent(e.target.value)}
+                    placeholder="Mozilla/5.0 ..."
+                    disabled={!localUserAgentEnabled}
+                    className={`${inputCls} disabled:bg-[#F7F8FA] disabled:text-[#A1A1AA]`}
+                  />
+                  <p className="text-[10px] text-[#71717A] mt-1">开启后请求会增加 X-User-Agent 自定义请求头；关闭时不会发送该请求头。</p>
                 </div>
 
                 <div className="border-t border-[#E5E7EB] pt-4">
@@ -178,7 +194,7 @@ export default function SettingsModal({ open, onClose }: Props) {
                     <div className="flex flex-col gap-1.5 mb-3">
                       {apiProfiles.map((p) => (
                         <div key={p.id} className={`flex items-center gap-2 rounded-lg border px-3 py-2 ${p.id === activeProfileId ? 'border-[#5e6ad2] bg-[#F1F2F5]' : 'border-[#E5E7EB]'}`}>
-                          <button onClick={() => { applyProfile(p.id); const s = useStore.getState(); setLocalKey(s.apiKey); setLocalUrl(s.baseUrl); setLocalUserAgent(s.apiUserAgent); setLocalModel(s.model); }} className="flex-1 text-left min-w-0">
+                          <button onClick={() => { applyProfile(p.id); const s = useStore.getState(); setLocalKey(s.apiKey); setLocalUrl(s.baseUrl); setLocalUserAgentEnabled(s.apiUserAgentEnabled); setLocalUserAgent(s.apiUserAgent); setLocalModel(s.model); }} className="flex-1 text-left min-w-0">
                             <p className="text-xs font-medium text-[#18181B] truncate">{p.name}</p>
                             <p className="text-[10px] text-[#71717A] truncate">{p.model} · {p.baseUrl}</p>
                           </button>

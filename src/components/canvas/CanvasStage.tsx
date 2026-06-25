@@ -4,7 +4,10 @@ import MaskEditor from './MaskEditor';
 
 export default function CanvasStage() {
   const messages = useStore((s) => s.messages);
+  const referenceImages = useStore((s) => s.referenceImages);
   const addReferenceImage = useStore((s) => s.addReferenceImage);
+  const removeReferenceImage = useStore((s) => s.removeReferenceImage);
+  const setReferenceImages = useStore((s) => s.setReferenceImages);
   const [maskImg, setMaskImg] = useState<string | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
 
@@ -31,6 +34,41 @@ export default function CanvasStage() {
             <button onClick={() => addReferenceImage(latestImage)} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">转参考图</button>
             <button onClick={() => setMaskImg(latestImage)} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">局部重绘</button>
             <button onClick={() => download(latestImage)} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">下载</button>
+          </div>
+        </section>
+      ) : referenceImages.length > 0 ? (
+        <section className="group relative flex h-full max-h-[720px] w-full max-w-5xl overflow-hidden rounded-[34px] border border-[#D7D9DD] bg-[#F4F5F7] text-[#101113] shadow-[0_28px_90px_rgba(16,17,19,0.18)]">
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(16,17,19,0.045)_1px,transparent_1px),linear-gradient(to_bottom,rgba(16,17,19,0.045)_1px,transparent_1px)] bg-[size:34px_34px]" />
+          <div className="absolute left-6 top-6 z-10 flex h-9 items-center rounded-full border border-white/70 bg-white/75 px-3 text-[10px] font-semibold uppercase tracking-[0.22em] text-[#A66B2F] shadow-sm backdrop-blur">
+            02 · Reference
+          </div>
+          <button
+            type="button"
+            onClick={() => setPreview(referenceImages[0])}
+            className="relative z-0 flex h-full w-full items-center justify-center overflow-hidden"
+            title="点击放大参考图"
+          >
+            <img src={referenceImages[0]} alt="" className="h-full w-full object-cover" />
+          </button>
+
+          {referenceImages.length > 1 && (
+            <div className="absolute bottom-6 left-1/2 z-20 flex max-w-[80%] -translate-x-1/2 gap-2 overflow-x-auto rounded-2xl border border-white/60 bg-white/80 p-2 shadow-lg backdrop-blur">
+              {referenceImages.map((url, index) => (
+                <button
+                  key={`${url}-${index}`}
+                  type="button"
+                  onClick={() => setReferenceImages([url, ...referenceImages.filter((_, i) => i !== index)])}
+                  className={`h-14 w-14 flex-shrink-0 overflow-hidden rounded-xl border ${index === 0 ? 'border-[#A66B2F]' : 'border-[#D1D4DA]'}`}
+                >
+                  <img src={url} alt="" className="h-full w-full object-cover" />
+                </button>
+              ))}
+            </div>
+          )}
+
+          <div className="absolute bottom-6 right-6 z-20 flex gap-2 opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100">
+            <button onClick={() => setPreview(referenceImages[0])} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">放大</button>
+            <button onClick={() => removeReferenceImage(0)} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">移除</button>
           </div>
         </section>
       ) : (

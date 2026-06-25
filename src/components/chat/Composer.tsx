@@ -1,8 +1,7 @@
 ﻿import { useEffect, useState } from 'react';
 import { useStore } from '../../store/useStore';
 import { RATIO_OPTIONS, RESOLUTION_OPTIONS } from '../../data/options';
-import { CopyIcon, PlusIcon } from '../common/Icons';
-import { copyText } from '../../utils/clipboard';
+import { PlusIcon } from '../common/Icons';
 import { useImageGeneration } from '../../hooks/useImageGeneration';
 
 interface Props {
@@ -22,18 +21,9 @@ export default function Composer({ variant = 'dock' }: Props) {
   const removeReferenceImage = useStore((s) => s.removeReferenceImage);
   const [dragOver, setDragOver] = useState(false);
   const [preview, setPreview] = useState<string | null>(null);
-  const [copiedPrompt, setCopiedPrompt] = useState(false);
 
   const addFiles = (files: File[]) =>
     files.filter((f) => f.type.startsWith('image/')).forEach((f) => addReferenceImage(URL.createObjectURL(f)));
-
-  const copyCurrentPrompt = async () => {
-    const text = prompt.trim();
-    if (!text) return;
-    await copyText(text);
-    setCopiedPrompt(true);
-    window.setTimeout(() => setCopiedPrompt(false), 1200);
-  };
 
   useEffect(() => {
     const onPaste = (e: ClipboardEvent) => {
@@ -94,10 +84,6 @@ export default function Composer({ variant = 'dock' }: Props) {
         <select value={generateCount} onChange={(e) => setGenerateCount(parseInt(e.target.value, 10))} className="h-9 rounded-lg border border-white/10 bg-[#242528] px-2.5 text-[12px] text-[#E8E1D6] outline-none cursor-pointer hover:border-white/20">
           {[1, 2, 3, 4].map((n) => <option key={n} value={n}>{n} 张</option>)}
         </select>
-        <button type="button" onClick={copyCurrentPrompt} disabled={!prompt.trim()} className="h-9 px-2.5 rounded-lg border border-white/10 bg-[#242528] text-[12px] text-[#B9B0A5] disabled:opacity-50 inline-flex items-center gap-1 hover:border-white/20 hover:text-white disabled:hover:text-[#B9B0A5]" title="复制当前提示词">
-          <CopyIcon className="w-3.5 h-3.5" />
-          {copiedPrompt ? '已复制' : '复制'}
-        </button>
         <button onClick={send} disabled={isGenerating || !prompt.trim()} className={`${isPanel ? 'col-span-2 w-full' : 'ml-auto'} h-10 px-6 rounded-lg bg-[#D6A85D] text-sm font-semibold text-[#16110A] shadow-sm disabled:opacity-50 whitespace-nowrap transition-colors hover:bg-[#E7BF7A]`}>
           {isGenerating ? '生成中…' : '发送'}
         </button>

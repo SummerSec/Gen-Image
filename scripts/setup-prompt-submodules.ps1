@@ -13,7 +13,7 @@ if (-not (Test-Path "external/awesome-gpt-image-2")) {
 }
 
 if (-not (Test-Path "external/awesome-gpt-image-2-api-prompts")) {
-  git submodule add --force https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts external/awesome-gpt-image-2-api-prompts
+  git submodule add --force https://github.com/mageia/awesome-gpt-image-2-API-and-Prompts external/awesome-gpt-image-2-api-prompts
 }
 
 git submodule update --init --remote --recursive

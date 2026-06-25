@@ -7,7 +7,7 @@
 ## 仓库来源
 
 - `freestylefly/awesome-gpt-image-2`
-- `EvoLinkAI/awesome-gpt-image-2-API-and-Prompts`
+- `mageia/awesome-gpt-image-2-API-and-Prompts`
 
 ## 一次性初始化
 
@@ -20,7 +20,7 @@ powershell -ExecutionPolicy Bypass -File scripts/setup-prompt-submodules.ps1
 如果你偏好手动命令：
 
 ```bash
-git submodule add https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts external/awesome-gpt-image-2-api-prompts
+git submodule add https://github.com/mageia/awesome-gpt-image-2-API-and-Prompts external/awesome-gpt-image-2-api-prompts
 git submodule add https://github.com/freestylefly/awesome-gpt-image-2 external/awesome-gpt-image-2
 git submodule update --init --recursive
 ```

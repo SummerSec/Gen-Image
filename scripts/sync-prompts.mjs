@@ -10,12 +10,12 @@ const FREESTYLE_THUMB_ROOT = path.join(LOCAL_THUMB_ROOT, 'freestylefly');
 const EVOLINK_REPO = path.join(ROOT, 'external', 'awesome-gpt-image-2-api-prompts');
 const FREESTYLE_REPO = path.join(ROOT, 'external', 'awesome-gpt-image-2');
 
-const EVOLINK_REPO_URL = 'https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts';
+const EVOLINK_REPO_URL = 'https://github.com/mageia/awesome-gpt-image-2-API-and-Prompts';
 const FREESTYLE_REPO_URL = 'https://github.com/freestylefly/awesome-gpt-image-2';
 const EVOLINK_LOGO = '/prompt-thumbs/evolink/logo.png';
 const FREESTYLE_FALLBACK = '/prompt-thumbs/freestylefly/case1.jpg';
 const EVOLINK_RAW_PREFIX =
-  'https://raw.githubusercontent.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts/main/';
+  'https://raw.githubusercontent.com/mageia/awesome-gpt-image-2-API-and-Prompts/main/';
 const FREESTYLE_IMAGE_EXTS = ['jpg', 'png', 'webp', 'jpeg'];
 
 function exists(filePath) {

@@ -4,6 +4,7 @@ import MaskEditor from './MaskEditor';
 
 export default function CanvasStage() {
   const messages = useStore((s) => s.messages);
+  const libraryPreviewImage = useStore((s) => s.libraryPreviewImage);
   const referenceImages = useStore((s) => s.referenceImages);
   const addReferenceImage = useStore((s) => s.addReferenceImage);
   const removeReferenceImage = useStore((s) => s.removeReferenceImage);
@@ -23,6 +24,8 @@ export default function CanvasStage() {
     a.click();
   };
 
+  const stageReferenceImage = referenceImages[0] ?? libraryPreviewImage;
+
   return (
     <main className="studio-stage studio-canvas-grid relative flex min-w-0 flex-1 items-center justify-center overflow-hidden px-5 py-6">
       {latestImage ? (
@@ -36,7 +39,7 @@ export default function CanvasStage() {
             <button onClick={() => download(latestImage)} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">下载</button>
           </div>
         </section>
-      ) : referenceImages.length > 0 ? (
+      ) : stageReferenceImage ? (
         <section className="group relative flex h-full max-h-[720px] w-full max-w-5xl overflow-hidden rounded-[34px] border border-[#D7D9DD] bg-[#F4F5F7] text-[#101113] shadow-[0_28px_90px_rgba(16,17,19,0.18)]">
           <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(16,17,19,0.045)_1px,transparent_1px),linear-gradient(to_bottom,rgba(16,17,19,0.045)_1px,transparent_1px)] bg-[size:34px_34px]" />
           <div className="absolute left-6 top-6 z-10 flex h-9 items-center rounded-full border border-white/70 bg-white/75 px-3 text-[10px] font-semibold uppercase tracking-[0.22em] text-[#A66B2F] shadow-sm backdrop-blur">
@@ -44,11 +47,11 @@ export default function CanvasStage() {
           </div>
           <button
             type="button"
-            onClick={() => setPreview(referenceImages[0])}
+            onClick={() => setPreview(stageReferenceImage)}
             className="relative z-0 flex h-full w-full items-center justify-center overflow-hidden"
             title="点击放大参考图"
           >
-            <img src={referenceImages[0]} alt="" className="h-full w-full object-cover" />
+            <img src={stageReferenceImage} alt="" className="h-full w-full object-cover" />
           </button>
 
           {referenceImages.length > 1 && (
@@ -67,8 +70,10 @@ export default function CanvasStage() {
           )}
 
           <div className="absolute bottom-6 right-6 z-20 flex gap-2 opacity-100 transition-opacity sm:opacity-0 sm:group-hover:opacity-100">
-            <button onClick={() => setPreview(referenceImages[0])} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">放大</button>
-            <button onClick={() => removeReferenceImage(0)} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">移除</button>
+            <button onClick={() => setPreview(stageReferenceImage)} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">放大</button>
+            {referenceImages.length > 0 && (
+              <button onClick={() => removeReferenceImage(0)} className="h-9 rounded-xl bg-black/70 px-3 text-xs text-white backdrop-blur hover:bg-black/85">移除</button>
+            )}
           </div>
         </section>
       ) : (

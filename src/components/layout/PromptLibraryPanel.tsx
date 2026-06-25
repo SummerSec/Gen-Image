@@ -37,6 +37,7 @@ interface Props {
 export default function PromptLibraryPanel({ prompts, totalCount, hasMoreCurrent, isSourceLoading, sentinelRef }: Props) {
   const [copiedPromptId, setCopiedPromptId] = useState<string | number | null>(null);
   const setPrompt = useStore((s) => s.setPrompt);
+  const setLibraryPreviewImage = useStore((s) => s.setLibraryPreviewImage);
   const setReferenceImages = useStore((s) => s.setReferenceImages);
 
   const copyPrompt = async (prompt: string, id: string | number) => {
@@ -58,6 +59,7 @@ export default function PromptLibraryPanel({ prompts, totalCount, hasMoreCurrent
             key={card.id}
             onClick={() => {
               setPrompt(card.prompt);
+              setLibraryPreviewImage(card.thumbnail || null);
               setReferenceImages(card.thumbnail ? [card.thumbnail] : []);
             }}
             className="group relative overflow-hidden rounded-[18px] bg-[#202124] text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_24px_60px_rgba(0,0,0,0.42)]"

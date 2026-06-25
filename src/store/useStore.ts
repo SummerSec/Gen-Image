@@ -53,6 +53,8 @@ interface AppState {
   setCfgScale: (v: number) => void;
   generateCount: number;
   setGenerateCount: (v: number) => void;
+  libraryPreviewImage: string | null;
+  setLibraryPreviewImage: (url: string | null) => void;
   referenceImages: string[];
   addReferenceImage: (url: string) => void;
   setReferenceImages: (urls: string[]) => void;
@@ -128,6 +130,8 @@ export const useStore = create<AppState>()(
       setCfgScale: (v) => set({ cfgScale: v }),
       generateCount: 1,
       setGenerateCount: (v) => set({ generateCount: v }),
+      libraryPreviewImage: null,
+      setLibraryPreviewImage: (url) => set({ libraryPreviewImage: url }),
       referenceImages: [],
       addReferenceImage: (url) =>
         set((s) => ({ referenceImages: [...s.referenceImages, url] })),
@@ -140,7 +144,7 @@ export const useStore = create<AppState>()(
       addMessage: (m) => set((s) => ({ messages: [...s.messages, m] })),
       updateMessage: (id, patch) =>
         set((s) => ({ messages: s.messages.map((m) => (m.id === id ? { ...m, ...patch } : m)) })),
-      newSession: () => set({ messages: [], referenceImages: [], prompt: '' }),
+      newSession: () => set({ messages: [], referenceImages: [], libraryPreviewImage: null, prompt: '' }),
       isGenerating: false,
       setIsGenerating: (v) => set({ isGenerating: v }),
       history: [],

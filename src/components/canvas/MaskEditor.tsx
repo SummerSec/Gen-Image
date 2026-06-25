@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+﻿import { useEffect, useRef, useState } from 'react';
 import { useStore } from '../../store/useStore';
 import { editImage, getSizeForRatio } from '../../services/api';
 import { applyWatermark } from '../../services/watermark';
@@ -9,7 +9,6 @@ interface Props {
   onClose: () => void;
 }
 
-// Visual mask editor: user paints the area to regenerate (inpainting).
 export default function MaskEditor({ open, imageUrl, onClose }: Props) {
   const baseRef = useRef<HTMLCanvasElement>(null);
   const paintRef = useRef<HTMLCanvasElement>(null);
@@ -23,23 +22,23 @@ export default function MaskEditor({ open, imageUrl, onClose }: Props) {
     const img = new Image();
     img.crossOrigin = 'anonymous';
     img.onload = () => {
-      for (const c of [baseRef.current, paintRef.current]) {
-        if (!c) continue;
-        c.width = img.naturalWidth;
-        c.height = img.naturalHeight;
+      for (const canvas of [baseRef.current, paintRef.current]) {
+        if (!canvas) continue;
+        canvas.width = img.naturalWidth;
+        canvas.height = img.naturalHeight;
       }
       baseRef.current?.getContext('2d')?.drawImage(img, 0, 0);
     };
-    img.onerror = () => setError('图片无法加载（可能跨域），请改用本地/生成图片');
+    img.onerror = () => setError('图片无法加载（可能跨域），请改用本地或生成图片');
     img.src = imageUrl;
   }, [open, imageUrl]);
 
   if (!open || !imageUrl) return null;
 
   const pos = (e: React.PointerEvent) => {
-    const c = paintRef.current!;
-    const r = c.getBoundingClientRect();
-    return { x: ((e.clientX - r.left) / r.width) * c.width, y: ((e.clientY - r.top) / r.height) * c.height };
+    const canvas = paintRef.current!;
+    const rect = canvas.getBoundingClientRect();
+    return { x: ((e.clientX - rect.left) / rect.width) * canvas.width, y: ((e.clientY - rect.top) / rect.height) * canvas.height };
   };
 
   const paint = (e: React.PointerEvent) => {
@@ -55,30 +54,35 @@ export default function MaskEditor({ open, imageUrl, onClose }: Props) {
   const clear = () => paintRef.current?.getContext('2d')?.clearRect(0, 0, paintRef.current.width, paintRef.current.height);
 
   const buildMask = (): Promise<Blob> => {
-    const paint = paintRef.current!;
+    const paintCanvas = paintRef.current!;
     const mask = document.createElement('canvas');
-    mask.width = paint.width;
-    mask.height = paint.height;
+    mask.width = paintCanvas.width;
+    mask.height = paintCanvas.height;
     const ctx = mask.getContext('2d')!;
     ctx.fillStyle = '#fff';
     ctx.fillRect(0, 0, mask.width, mask.height);
-    const painted = paint.getContext('2d')!.getImageData(0, 0, paint.width, paint.height).data;
+    const painted = paintCanvas.getContext('2d')!.getImageData(0, 0, paintCanvas.width, paintCanvas.height).data;
     const out = ctx.getImageData(0, 0, mask.width, mask.height);
     for (let i = 3; i < painted.length; i += 4) {
-      if (painted[i] > 10) out.data[i] = 0; // painted → transparent → editable
+      if (painted[i] > 10) out.data[i] = 0;
     }
     ctx.putImageData(out, 0, 0);
-    return new Promise((res) => mask.toBlob((b) => res(b!), 'image/png'));
+    return new Promise((resolve) => mask.toBlob((blob) => resolve(blob!), 'image/png'));
   };
 
-  const toBlob = (c: HTMLCanvasElement): Promise<Blob> =>
-    new Promise((res) => c.toBlob((b) => res(b!), 'image/png'));
+  const toBlob = (canvas: HTMLCanvasElement): Promise<Blob> =>
+    new Promise((resolve) => canvas.toBlob((blob) => resolve(blob!), 'image/png'));
 
   const handleApply = async () => {
-    const { prompt, model, apiKey, baseUrl, aspectRatio, watermarkEnabled, setGeneratedImage, addHistory, addMessage } =
-      useStore.getState();
-    if (!prompt.trim()) return setError('请先在下方输入框填写提示词，描述要替换的内容');
-    if (!apiKey.trim()) return setError('请先配置 API Key');
+    const { prompt, model, apiKey, baseUrl, aspectRatio, watermarkEnabled, setGeneratedImage, addHistory, addMessage } = useStore.getState();
+    if (!prompt.trim()) {
+      setError('请先在输入框填写提示词，描述要替换的内容');
+      return;
+    }
+    if (!apiKey.trim()) {
+      setError('请先配置 API Key');
+      return;
+    }
     setBusy(true);
     setError(null);
     try {
@@ -131,11 +135,7 @@ export default function MaskEditor({ open, imageUrl, onClose }: Props) {
           </label>
           <button onClick={clear} className="h-8 rounded-lg border border-[#E6E8EE] px-3 text-xs text-[#71717A] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] hover:text-[#18181B]">清除涂抹</button>
           <div className="flex-1" />
-          <button
-            onClick={handleApply}
-            disabled={busy}
-            className="h-9 rounded-lg bg-[#5e6ad2] px-6 text-sm font-medium text-white shadow-sm hover:bg-[#4F58C9] disabled:opacity-50"
-          >
+          <button onClick={handleApply} disabled={busy} className="h-9 rounded-lg bg-[#D6A85D] px-6 text-sm font-medium text-[#16110A] shadow-sm hover:bg-[#E7BF7A] disabled:opacity-50">
             {busy ? '重绘中...' : '生成'}
           </button>
         </div>

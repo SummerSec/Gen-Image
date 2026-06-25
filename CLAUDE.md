@@ -1,6 +1,6 @@
-# CLAUDE.md
+# Repository Agent Guide
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code), Codex, and other coding agents when working with code in this repository. `AGENTS.md` is a symlink to this file so all agent instructions stay in one place.
 
 ## Tech Stack
 

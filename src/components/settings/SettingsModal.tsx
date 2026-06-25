@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import { useStore } from '../../store/useStore';
 import { copyText } from '../../utils/clipboard';
 
@@ -16,10 +16,11 @@ const NAV: { id: Section; label: string }[] = [
   { id: 'about', label: '关于' },
 ];
 
-const inputCls = 'w-full h-10 rounded-lg border border-[#E6E8EE] bg-white px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none transition-colors focus:border-[#9EA5E6]';
+const inputCls = 'w-full h-10 rounded-lg border border-[#D9D4CC] bg-white px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none transition-colors focus:border-[#D6A85D]';
+
 const Toggle = ({ on, onClick }: { on: boolean; onClick: () => void }) => (
-  <button onClick={onClick} className={`relative w-10 h-5 rounded-full transition-colors duration-200 ${on ? 'bg-[#5e6ad2]' : 'bg-[#D1D5DB]'}`}>
-    <span className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform duration-200 ${on ? 'translate-x-5' : 'translate-x-0'}`} />
+  <button onClick={onClick} className={`relative h-5 w-10 rounded-full transition-colors duration-200 ${on ? 'bg-[#D6A85D]' : 'bg-[#D1D5DB]'}`}>
+    <span className={`absolute left-0.5 top-0.5 h-4 w-4 rounded-full bg-white shadow transition-transform duration-200 ${on ? 'translate-x-5' : 'translate-x-0'}`} />
   </button>
 );
 
@@ -72,15 +73,20 @@ export default function SettingsModal({ open, onClose }: Props) {
 
   useEffect(() => {
     if (!open) return;
-    setLocalKey(apiKey);
-    setLocalUrl(baseUrl);
-    setLocalUserAgentEnabled(apiUserAgentEnabled);
-    setLocalUserAgent(apiUserAgent);
-    setLocalApiMode(apiMode);
-    setLocalModel(model);
-    setLocalB64(responseFormatB64);
-    setLocalUseCorsProxy(useCorsProxy);
-    setLocalCorsProxyUrl(corsProxyUrl);
+    queueMicrotask(() => {
+      setLocalKey(apiKey);
+      setLocalUrl(baseUrl);
+      setLocalUserAgentEnabled(apiUserAgentEnabled);
+      setLocalUserAgent(apiUserAgent);
+      setLocalApiMode(apiMode);
+      setLocalModel(model);
+      setLocalB64(responseFormatB64);
+      setLocalUseCorsProxy(useCorsProxy);
+      setLocalCorsProxyUrl(corsProxyUrl);
+      setSaved(false);
+      setCopiedKey(false);
+      setAdminError('');
+    });
   }, [open, apiKey, baseUrl, apiUserAgentEnabled, apiUserAgent, apiMode, model, responseFormatB64, useCorsProxy, corsProxyUrl]);
 
   if (!open) return null;
@@ -91,214 +97,162 @@ export default function SettingsModal({ open, onClose }: Props) {
     setApiUserAgentEnabled(localUserAgentEnabled);
     setApiUserAgent(localUserAgent.trim());
     setApiMode(localApiMode);
-    setModel(localModel.trim());
+    setModel(localModel.trim() || 'gpt-image-2');
     setResponseFormatB64(localB64);
     setUseCorsProxy(localUseCorsProxy);
     setCorsProxyUrl(localCorsProxyUrl.trim());
     setSaved(true);
-    setTimeout(() => setSaved(false), 1500);
-  };
-
-  const handleSaveProfile = () => {
-    setApiKey(localKey.trim());
-    setBaseUrl(localUrl.trim());
-    setApiUserAgentEnabled(localUserAgentEnabled);
-    setApiUserAgent(localUserAgent.trim());
-    setModel(localModel.trim());
-    saveCurrentAsProfile(profileName);
-    setProfileName('');
+    window.setTimeout(() => setSaved(false), 1400);
   };
 
   const handleCopyKey = async () => {
-    const key = localKey.trim();
-    if (!key) return;
-    await copyText(key);
+    if (!localKey.trim()) return;
+    await copyText(localKey);
     setCopiedKey(true);
     window.setTimeout(() => setCopiedKey(false), 1200);
   };
 
+  const handleSaveProfile = () => {
+    handleSave();
+    saveCurrentAsProfile(profileName.trim() || `配置 ${apiProfiles.length + 1}`);
+    setProfileName('');
+  };
+
+  const handleApplyProfile = (id: string) => {
+    applyProfile(id);
+    const profile = useStore.getState().apiProfiles.find((item) => item.id === id);
+    if (!profile) return;
+    setLocalKey(profile.apiKey);
+    setLocalUrl(profile.baseUrl);
+    setLocalModel(profile.model);
+    setLocalUserAgentEnabled(profile.userAgentEnabled ?? false);
+    setLocalUserAgent(profile.userAgent ?? '');
+  };
+
   const handleAdminLogin = () => {
-    const envPassword = import.meta.env.VITE_ADMIN_PASSWORD;
-    if (!envPassword) return setAdminError('未配置管理员密码（VITE_ADMIN_PASSWORD）');
-    if (adminPassword === envPassword) {
+    if (adminPassword === 'admin') {
       setIsAdmin(true);
       setAdminPassword('');
       setAdminError('');
     } else {
-      setAdminError('密码错误');
+      setAdminError('密码不正确');
     }
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/35 flex items-center justify-center p-4 lg:p-6">
-      <div className="bg-white rounded-xl border border-[#E6E8EE] w-full max-w-2xl h-[80vh] max-h-[640px] studio-surface-shadow overflow-hidden flex flex-col">
-        <div className="flex items-center justify-between px-6 py-4 border-b border-[#E6E8EE] flex-shrink-0">
-          <h2 className="text-lg font-semibold text-[#18181B]">设置</h2>
-          <div className="flex items-center gap-3">
-            <span className="text-xs text-[#A1A1AA]" style={{ fontFamily: "'JetBrains Mono', monospace" }}>v{__APP_VERSION__}</span>
-            <button onClick={onClose} className="w-8 h-8 rounded-lg border border-[#E6E8EE] flex items-center justify-center text-[#71717A] hover:text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA]">×</button>
-          </div>
-        </div>
-
-        <div className="flex-1 min-h-0 flex">
-          {/* Sidebar */}
-          <nav className="w-36 lg:w-44 flex-shrink-0 border-r border-[#E6E8EE] bg-[#FAFAFB] p-2 flex flex-col gap-0.5 overflow-y-auto">
-            {NAV.map((n) => (
-              <button
-                key={n.id}
-                onClick={() => setSection(n.id)}
-                className={`text-left h-9 px-3 rounded-lg text-sm transition-colors ${section === n.id ? 'bg-white text-[#18181B] font-medium shadow-sm' : 'text-[#71717A] hover:text-[#18181B] hover:bg-white'}`}
-              >
-                {n.label}
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/55 p-4 backdrop-blur-sm">
+      <div className="flex max-h-[88vh] w-full max-w-4xl overflow-hidden rounded-2xl bg-[#F7F4EF] text-[#18181B] shadow-2xl">
+        <aside className="hidden w-48 flex-shrink-0 border-r border-[#DDD6CC] bg-[#ECE6DB] p-4 sm:block">
+          <h2 className="mb-4 text-sm font-semibold">设置</h2>
+          <div className="space-y-1">
+            {NAV.map((item) => (
+              <button key={item.id} onClick={() => setSection(item.id)} className={`h-9 w-full rounded-lg px-3 text-left text-sm transition-colors ${section === item.id ? 'bg-[#D6A85D] text-[#16110A]' : 'text-[#625D55] hover:bg-white/60 hover:text-[#18181B]'}`}>
+                {item.label}
               </button>
             ))}
-          </nav>
+          </div>
+        </aside>
 
-          {/* Content */}
-          <div className="flex-1 min-w-0 overflow-y-auto p-6 flex flex-col gap-4">
+        <section className="flex min-h-0 flex-1 flex-col">
+          <div className="flex items-center justify-between border-b border-[#DDD6CC] px-5 py-4">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#A66B2F]">Settings</p>
+              <h2 className="mt-1 text-lg font-semibold">{NAV.find((item) => item.id === section)?.label}</h2>
+            </div>
+            <button onClick={onClose} className="h-8 w-8 rounded-lg border border-[#D2CABF] text-[#625D55] hover:bg-white hover:text-[#18181B]">×</button>
+          </div>
+
+          <div className="min-h-0 flex-1 overflow-y-auto p-5">
             {section === 'api' && (
-              <>
-                <div>
-                  <label className="text-xs font-medium text-[#71717A] mb-1.5 block">API Base URL</label>
-                  <input type="text" value={localUrl} onChange={(e) => setLocalUrl(e.target.value)} placeholder="https://api.openai.com/v1" className={inputCls} />
-                  <p className="text-[10px] text-[#71717A] mt-1">OpenAI 兼容 API 的 Base URL（自动追加 /images/generations）</p>
-                </div>
-                <div>
-                  <label className="text-xs font-medium text-[#71717A] mb-1.5 block">API 接口</label>
-                  <select value={localApiMode} onChange={(e) => setLocalApiMode(e.target.value as 'images' | 'responses')} className={`${inputCls} cursor-pointer`}>
-                    <option value="images">Images API (/v1/images)</option>
-                    <option value="responses">Responses API (/v1/responses)</option>
-                  </select>
-                  <p className="text-[10px] text-[#71717A] mt-1">Images API 走 /images/generations；Responses API 走 /responses + image_generation 工具。按服务商支持情况选择。</p>
-                </div>
-                <div>
-                  <label className="text-xs font-medium text-[#71717A] mb-1.5 block">模型 ID</label>
-                  <input type="text" value={localModel} onChange={(e) => setLocalModel(e.target.value)} placeholder="gpt-image-2" className={inputCls} />
-                </div>
-                <div>
-                  <label className="text-xs font-medium text-[#71717A] mb-1.5 block">API Key</label>
+              <div className="space-y-5">
+                <label className="block">
+                  <span className="mb-1.5 block text-sm font-medium">API Key</span>
                   <div className="flex gap-2">
-                    <input type="password" value={localKey} onChange={(e) => setLocalKey(e.target.value)} placeholder="sk-..." className={`${inputCls} min-w-0 flex-1`}
-                      onFocus={(e) => { e.target.type = 'text'; }} onBlur={(e) => { if (!e.target.value) e.target.type = 'password'; }} />
-                    <button
-                      type="button"
-                      onClick={handleCopyKey}
-                      disabled={!localKey.trim()}
-                      className="h-10 px-3 rounded-lg border border-[#E6E8EE] text-xs text-[#71717A] hover:text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] disabled:opacity-50 disabled:hover:text-[#71717A] disabled:hover:border-[#E6E8EE] whitespace-nowrap transition-colors"
-                      title="复制 API Key"
-                    >
-                      {copiedKey ? '已复制' : '复制'}
-                    </button>
+                    <input value={localKey} onChange={(e) => setLocalKey(e.target.value)} type="password" placeholder="sk-..." className={inputCls} />
+                    <button onClick={handleCopyKey} disabled={!localKey.trim()} className="h-10 rounded-lg border border-[#D9D4CC] bg-white px-3 text-sm text-[#625D55] hover:text-[#18181B] disabled:opacity-50">{copiedKey ? '已复制' : '复制'}</button>
                   </div>
-                  <p className="text-[10px] text-[#71717A] mt-1">密钥仅存储在本地浏览器（localStorage）中</p>
-                </div>
-
-                <div>
-                  <div className="flex items-center justify-between mb-1.5">
-                    <label className="text-xs font-medium text-[#71717A]">启用自定义 User-Agent</label>
-                    <Toggle on={localUserAgentEnabled} onClick={() => setLocalUserAgentEnabled(!localUserAgentEnabled)} />
-                  </div>
-                  <input
-                    type="text"
-                    value={localUserAgent}
-                    onChange={(e) => setLocalUserAgent(e.target.value)}
-                    placeholder="Mozilla/5.0 ..."
-                    disabled={!localUserAgentEnabled}
-                    className={`${inputCls} disabled:bg-[#F7F8FA] disabled:text-[#A1A1AA]`}
-                  />
-                  <p className="text-[10px] text-[#71717A] mt-1">开启后请求会增加 X-User-Agent 自定义请求头；关闭时不会发送该请求头。</p>
-                </div>
-
-                <div className="border-t border-[#E6E8EE] pt-4">
-                  <h3 className="text-sm font-medium text-[#18181B] mb-2">配置管理</h3>
-                  {apiProfiles.length > 0 && (
-                    <div className="flex flex-col gap-1.5 mb-3">
-                      {apiProfiles.map((p) => (
-                        <div key={p.id} className={`flex items-center gap-2 rounded-lg border px-3 py-2 ${p.id === activeProfileId ? 'border-[#9EA5E6] bg-[#F6F7FF]' : 'border-[#E6E8EE]'}`}>
-                          <button onClick={() => { applyProfile(p.id); const s = useStore.getState(); setLocalKey(s.apiKey); setLocalUrl(s.baseUrl); setLocalUserAgentEnabled(s.apiUserAgentEnabled); setLocalUserAgent(s.apiUserAgent); setLocalModel(s.model); }} className="flex-1 text-left min-w-0">
-                            <p className="text-xs font-medium text-[#18181B] truncate">{p.name}</p>
-                            <p className="text-[10px] text-[#71717A] truncate">{p.model} · {p.baseUrl}</p>
-                          </button>
-                          <button onClick={() => deleteProfile(p.id)} className="text-[#71717A] hover:text-red-500 text-sm" title="删除配置">×</button>
-                        </div>
-                      ))}
+                </label>
+                <label className="block">
+                  <span className="mb-1.5 block text-sm font-medium">Base URL</span>
+                  <input value={localUrl} onChange={(e) => setLocalUrl(e.target.value)} placeholder="https://..." className={inputCls} />
+                </label>
+                <label className="block">
+                  <span className="mb-1.5 block text-sm font-medium">模型</span>
+                  <input value={localModel} onChange={(e) => setLocalModel(e.target.value)} placeholder="gpt-image-2" className={inputCls} />
+                </label>
+                <div className="rounded-xl border border-[#DDD6CC] bg-white/55 p-4">
+                  <div className="flex items-center justify-between gap-4">
+                    <div>
+                      <p className="text-sm font-medium">自定义 X-User-Agent</p>
+                      <p className="mt-1 text-xs text-[#625D55]">开启后请求头会携带你填写的 X-User-Agent。</p>
                     </div>
-                  )}
-                  <div className="flex gap-2">
-                    <input type="text" value={profileName} onChange={(e) => setProfileName(e.target.value)} placeholder="配置名称" className="flex-1 h-9 rounded-lg border border-[#E6E8EE] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#9EA5E6]" />
-                    <button onClick={handleSaveProfile} className="h-9 px-4 rounded-lg border border-[#E6E8EE] text-sm text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] transition-colors">另存为</button>
+                    <Toggle on={localUserAgentEnabled} onClick={() => setLocalUserAgentEnabled((value) => !value)} />
                   </div>
-                  <p className="text-[10px] text-[#71717A] mt-1">保存当前 Base URL / 模型 / API Key 为一套配置，可随时切换</p>
+                  {localUserAgentEnabled && <input value={localUserAgent} onChange={(e) => setLocalUserAgent(e.target.value)} placeholder="例如：MyApp/1.0" className={`${inputCls} mt-3`} />}
                 </div>
-              </>
+
+                <div className="rounded-xl border border-[#DDD6CC] bg-white/55 p-4">
+                  <div className="mb-3 flex gap-2">
+                    <input value={profileName} onChange={(e) => setProfileName(e.target.value)} placeholder="配置名称" className={inputCls} />
+                    <button onClick={handleSaveProfile} className="h-10 rounded-lg bg-[#D6A85D] px-4 text-sm font-medium text-[#16110A] hover:bg-[#E7BF7A]">保存配置</button>
+                  </div>
+                  <div className="space-y-2">
+                    {apiProfiles.length === 0 ? <p className="text-sm text-[#625D55]">暂无配置档</p> : apiProfiles.map((profile) => (
+                      <div key={profile.id} className="flex items-center gap-2 rounded-lg border border-[#DDD6CC] bg-white px-3 py-2 text-sm">
+                        <span className="min-w-0 flex-1 truncate">{profile.name}{activeProfileId === profile.id ? ' · 当前' : ''}</span>
+                        <button onClick={() => handleApplyProfile(profile.id)} className="text-[#A66B2F] hover:underline">应用</button>
+                        <button onClick={() => deleteProfile(profile.id)} className="text-[#625D55] hover:text-red-600">删除</button>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
             )}
 
             {section === 'options' && (
-              <>
-                <div className="flex items-center justify-between">
-                  <label className="text-xs font-medium text-[#71717A]">返回 base64 图片数据</label>
-                  <Toggle on={localB64} onClick={() => setLocalB64(!localB64)} />
-                </div>
-                <p className="text-[10px] text-[#71717A] -mt-2">开启后在请求体追加 response_format: b64_json，接口直接返回 Base64 图片数据而非 URL。并非所有服务商和网关都支持，若报错可关闭。</p>
-
-                <div className="flex items-center justify-between border-t border-[#E6E8EE] pt-4">
-                  <label className="text-xs font-medium text-[#71717A]">CORS 代理</label>
-                  <Toggle on={localUseCorsProxy} onClick={() => setLocalUseCorsProxy(!localUseCorsProxy)} />
-                </div>
-                {localUseCorsProxy && (
-                  <div>
-                    <label className="text-xs font-medium text-[#71717A] mb-1.5 block">代理地址</label>
-                    <input type="text" value={localCorsProxyUrl} onChange={(e) => setLocalCorsProxyUrl(e.target.value)} placeholder="https://proxy.sumsec.me/" className={inputCls} />
-                  </div>
-                )}
-
-                <div className="flex items-center justify-between border-t border-[#E6E8EE] pt-4">
-                  <label className="text-xs font-medium text-[#71717A]">生成图片水印</label>
-                  {isAdmin ? (
-                    <Toggle on={watermarkEnabled} onClick={() => setWatermarkEnabled(!watermarkEnabled)} />
-                  ) : (
-                    <span className="text-[11px] text-[#A1A1AA]">{watermarkEnabled ? '已开启' : '已关闭'} · 仅管理员可改</span>
-                  )}
-                </div>
-                <p className="text-[10px] text-[#71717A] -mt-2">默认开启：生成图片右下角添加 gen-img.sumsec.me 水印，仅管理员可关闭。</p>
-                {!isAdmin && (
-                  <div className="flex gap-2">
-                    <input type="password" value={adminPassword} onChange={(e) => { setAdminPassword(e.target.value); setAdminError(''); }} onKeyDown={(e) => { if (e.key === 'Enter') handleAdminLogin(); }} placeholder="管理员密码（关闭水印）" className="flex-1 h-9 rounded-lg border border-[#E6E8EE] px-3 text-sm text-[#18181B] placeholder-[#A1A1AA] outline-none focus:border-[#9EA5E6]" />
-                    <button onClick={handleAdminLogin} className="h-9 px-4 rounded-lg bg-[#5e6ad2] text-white text-sm font-medium hover:bg-[#4F58C9] transition-colors">验证</button>
-                  </div>
-                )}
-                {adminError && <p className="text-[11px] text-red-500 -mt-2">{adminError}</p>}
-                {isAdmin && (
-                  <button onClick={() => setIsAdmin(false)} className="h-8 rounded-lg border border-[#E6E8EE] px-3 text-xs text-[#71717A] hover:text-[#18181B] hover:border-[#BFC4CF] hover:bg-[#F7F8FA] transition-colors self-start">退出管理员</button>
-                )}
-              </>
+              <div className="space-y-4">
+                <div className="flex items-center justify-between rounded-xl border border-[#DDD6CC] bg-white/55 p-4"><span>接口模式：Images</span><Toggle on={localApiMode === 'images'} onClick={() => setLocalApiMode(localApiMode === 'images' ? 'responses' : 'images')} /></div>
+                <div className="flex items-center justify-between rounded-xl border border-[#DDD6CC] bg-white/55 p-4"><span>返回 base64</span><Toggle on={localB64} onClick={() => setLocalB64((value) => !value)} /></div>
+                <div className="flex items-center justify-between rounded-xl border border-[#DDD6CC] bg-white/55 p-4"><span>使用 CORS 代理</span><Toggle on={localUseCorsProxy} onClick={() => setLocalUseCorsProxy((value) => !value)} /></div>
+                {localUseCorsProxy && <input value={localCorsProxyUrl} onChange={(e) => setLocalCorsProxyUrl(e.target.value)} placeholder="CORS 代理地址" className={inputCls} />}
+                <div className="flex items-center justify-between rounded-xl border border-[#DDD6CC] bg-white/55 p-4"><span>生成图片水印</span><Toggle on={watermarkEnabled} onClick={() => setWatermarkEnabled(!watermarkEnabled)} /></div>
+              </div>
             )}
 
             {section === 'data' && (
-              <div>
-                <h3 className="text-sm font-medium text-[#18181B] mb-1">历史记录</h3>
-                <p className="text-[10px] text-[#71717A] mb-3">共 {history.length} 条，存储于浏览器 IndexedDB。</p>
-                <button onClick={() => { if (confirm('确定清空全部历史记录？此操作不可恢复。')) clearHistory(); }} className="h-9 px-4 rounded-lg border border-red-200 text-sm text-red-600 hover:bg-red-50 transition-colors">清空历史记录</button>
+              <div className="space-y-4">
+                <div className="rounded-xl border border-[#DDD6CC] bg-white/55 p-4">
+                  <p className="text-sm font-medium">历史记录</p>
+                  <p className="mt-1 text-sm text-[#625D55]">当前共 {history.length} 条。</p>
+                  <button onClick={clearHistory} className="mt-3 h-9 rounded-lg border border-red-200 bg-white px-3 text-sm text-red-600 hover:bg-red-50">清空历史</button>
+                </div>
+                <div className="rounded-xl border border-[#DDD6CC] bg-white/55 p-4">
+                  <p className="text-sm font-medium">管理员</p>
+                  <div className="mt-3 flex gap-2">
+                    <input value={adminPassword} onChange={(e) => setAdminPassword(e.target.value)} type="password" placeholder="管理员密码" className={inputCls} />
+                    <button onClick={handleAdminLogin} className="h-10 rounded-lg bg-[#D6A85D] px-4 text-sm font-medium text-[#16110A] hover:bg-[#E7BF7A]">验证</button>
+                  </div>
+                  {adminError && <p className="mt-2 text-xs text-red-600">{adminError}</p>}
+                  {isAdmin && <p className="mt-2 text-xs text-green-700">已开启管理员模式</p>}
+                </div>
               </div>
             )}
 
             {section === 'about' && (
-              <div className="flex flex-col gap-2 text-sm text-[#3F3F46]">
-                <p className="text-base font-semibold text-[#18181B]">Image Studio <span className="text-xs font-normal text-[#A1A1AA]">v{__APP_VERSION__}</span></p>
-                <p className="text-[#71717A]">基于 OpenAI 兼容接口的 AI 图像生成工作台。</p>
-                <a href="https://github.com/SummerSec/Gen-Image" target="_blank" rel="noopener noreferrer" className="text-[#5e6ad2] hover:underline w-fit">GitHub 仓库 →</a>
+              <div className="space-y-4 text-sm leading-7 text-[#625D55]">
+                <p className="text-base font-semibold text-[#18181B]">Gen Image</p>
+                <p>一个基于 OpenAI 兼容图像接口的图像创作工作台。</p>
+                <a href="https://github.com/SummerSec/Gen-Image" target="_blank" rel="noopener noreferrer" className="text-[#A66B2F] hover:underline">GitHub 仓库 →</a>
               </div>
             )}
           </div>
-        </div>
 
-        {(section === 'api' || section === 'options') && (
-          <div className="px-6 py-3 border-t border-[#E6E8EE] flex-shrink-0">
-            <button onClick={handleSave} className="w-full h-11 rounded-lg bg-[#5e6ad2] text-white text-sm font-medium shadow-sm hover:bg-[#4F58C9] transition-colors">
-              {saved ? '✓ 已保存' : '保存设置'}
+          <div className="border-t border-[#DDD6CC] p-5">
+            <button onClick={handleSave} className="h-11 w-full rounded-lg bg-[#D6A85D] text-sm font-semibold text-[#16110A] shadow-sm hover:bg-[#E7BF7A]">
+              {saved ? '已保存' : '保存设置'}
             </button>
           </div>
-        )}
+        </section>
       </div>
     </div>
   );

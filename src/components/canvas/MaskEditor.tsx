@@ -74,7 +74,7 @@ export default function MaskEditor({ open, imageUrl, onClose }: Props) {
     new Promise((resolve) => canvas.toBlob((blob) => resolve(blob!), 'image/png'));
 
   const handleApply = async () => {
-    const { prompt, model, apiKey, baseUrl, aspectRatio, watermarkEnabled, setGeneratedImage, addHistory, addMessage } = useStore.getState();
+    const { prompt, model, apiKey, baseUrl, aspectRatio, resolution, watermarkEnabled, setGeneratedImage, addHistory, addMessage } = useStore.getState();
     if (!prompt.trim()) {
       setError('请先在输入框填写提示词，描述要替换的内容');
       return;
@@ -87,7 +87,7 @@ export default function MaskEditor({ open, imageUrl, onClose }: Props) {
     setError(null);
     try {
       const [image, mask] = await Promise.all([toBlob(baseRef.current!), buildMask()]);
-      let result = await editImage({ image, mask, prompt, model, size: getSizeForRatio(aspectRatio), apiKey, baseUrl });
+      let result = await editImage({ image, mask, prompt, model, size: getSizeForRatio(aspectRatio, resolution, model), apiKey, baseUrl });
       if (watermarkEnabled) result = await applyWatermark(result);
       setGeneratedImage(result);
       addMessage({ id: `${Date.now()}-u`, role: 'user', text: `局部重绘：${prompt}` });

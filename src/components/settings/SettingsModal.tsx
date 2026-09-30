@@ -212,7 +212,13 @@ export default function SettingsModal({ open, onClose }: Props) {
             {section === 'options' && (
               <div className="space-y-4">
                 <div className="flex items-center justify-between rounded-xl border border-[#DDD6CC] bg-white/55 p-4"><span>接口模式：Images</span><Toggle on={localApiMode === 'images'} onClick={() => setLocalApiMode(localApiMode === 'images' ? 'responses' : 'images')} /></div>
-                <div className="flex items-center justify-between rounded-xl border border-[#DDD6CC] bg-white/55 p-4"><span>返回 base64</span><Toggle on={localB64} onClick={() => setLocalB64((value) => !value)} /></div>
+                <div className="flex items-center justify-between rounded-xl border border-[#DDD6CC] bg-white/55 p-4">
+                  <div>
+                    <p>返回 base64</p>
+                    <p className="mt-1 text-xs text-[#625D55]">仅 DALL·E 有效。GPT Image 始终返回 base64，会改用 output_format。</p>
+                  </div>
+                  <Toggle on={localB64} onClick={() => setLocalB64((value) => !value)} />
+                </div>
                 <div className="flex items-center justify-between rounded-xl border border-[#DDD6CC] bg-white/55 p-4"><span>使用 CORS 代理</span><Toggle on={localUseCorsProxy} onClick={() => setLocalUseCorsProxy((value) => !value)} /></div>
                 {localUseCorsProxy && <input value={localCorsProxyUrl} onChange={(e) => setLocalCorsProxyUrl(e.target.value)} placeholder="CORS 代理地址" className={inputCls} />}
                 <div className="flex items-center justify-between rounded-xl border border-[#DDD6CC] bg-white/55 p-4"><span>生成图片水印</span><Toggle on={watermarkEnabled} onClick={() => setWatermarkEnabled(!watermarkEnabled)} /></div>

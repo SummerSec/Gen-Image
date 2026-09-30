@@ -13,12 +13,15 @@ export const RATIO_OPTIONS = [
   { id: '1:1', label: '正方形', desc: '1:1', w: 1024, h: 1024 },
   { id: '3:4', label: '竖版', desc: '3:4', w: 768, h: 1024 },
   { id: '4:3', label: '横版', desc: '4:3', w: 1024, h: 768 },
-  { id: '9:16', label: '全屏', desc: '9:16', w: 576, h: 1024 },
-  { id: '16:9', label: '宽屏', desc: '16:9', w: 1024, h: 576 },
+  { id: '9:16', label: '全屏', desc: '9:16', w: 720, h: 1280 },
+  { id: '16:9', label: '宽屏', desc: '16:9', w: 1280, h: 720 },
 ];
 
 export const MODEL_OPTIONS = [
+  { id: 'gpt-image-2.5-flare', label: 'GPT-IMAGE-2.5 Flare' },
+  { id: 'gpt-image-2.5-sunburst', label: 'GPT-IMAGE-2.5 Sunburst' },
   { id: 'gpt-image-2', label: 'GPT-IMAGE-2' },
+  { id: 'gpt-image-1.5', label: 'GPT-IMAGE-1.5' },
   { id: 'gemini-2.0-flash', label: 'Gemini 2.0 Flash' },
   { id: 'dall-e-3', label: 'DALL·E 3' },
 ];

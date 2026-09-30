@@ -1,13 +1,39 @@
 import OpenAI from 'openai';
+import type { ImageGenerateParamsNonStreaming } from 'openai/resources/images';
 import { useStore } from '../store/useStore';
 
-const RATIO_SIZES: Record<string, { w: number; h: number }> = {
-  '1:1': { w: 1024, h: 1024 },
-  '3:4': { w: 768, h: 1024 },
-  '4:3': { w: 1024, h: 768 },
-  '9:16': { w: 576, h: 1024 },
-  '16:9': { w: 1024, h: 576 },
+// GPT Image 2/2.5: edges ÷16, pixels 655360–8294400, aspect ≤3:1
+const GPT_IMAGE_SIZES: Record<string, Record<string, string>> = {
+  '1k': {
+    '1:1': '1024x1024',
+    '3:4': '768x1024',
+    '4:3': '1024x768',
+    '9:16': '720x1280',
+    '16:9': '1280x720',
+  },
+  '2k': {
+    '1:1': '2048x2048',
+    '3:4': '1536x2048',
+    '4:3': '2048x1536',
+    '9:16': '1152x2048',
+    '16:9': '2048x1152',
+  },
+  '4k': {
+    '1:1': '2880x2880',
+    '3:4': '2160x2880',
+    '4:3': '2880x2160',
+    '9:16': '2160x3840',
+    '16:9': '3840x2160',
+  },
 };
+
+function isGptImageModel(model: string): boolean {
+  return /^(gpt-image|chatgpt-image)/i.test(model);
+}
+
+function isLegacyGptImage(model: string): boolean {
+  return /^gpt-image-1(\b|[.-])/i.test(model);
+}
 
 export interface GenerateParams {
   prompt: string;
@@ -75,9 +101,20 @@ function getAuthHeaders(apiKey: string): Headers {
   return headers;
 }
 
+function buildImageFields(prompt: string, model: string, size: string): ImageGenerateParamsNonStreaming {
+  const body: ImageGenerateParamsNonStreaming = { prompt, model, size, n: 1 };
+  if (isGptImageModel(model)) {
+    // GPT Image 始终返回 b64_json，response_format 会导致 400
+    body.output_format = 'png';
+  } else {
+    body.response_format = useStore.getState().responseFormatB64 ? 'b64_json' : 'url';
+  }
+  return body;
+}
+
 export async function generateImage(params: GenerateParams): Promise<string> {
-  const { prompt, model, aspectRatio, referenceImages, apiKey, baseUrl } = params;
-  const size = getSizeForRatio(aspectRatio);
+  const { prompt, model, resolution, aspectRatio, referenceImages, apiKey, baseUrl } = params;
+  const size = getSizeForRatio(aspectRatio, resolution, model);
 
   if (useStore.getState().apiMode === 'responses') {
     return generateViaResponses({ prompt, model, size, referenceImages, apiKey, baseUrl });
@@ -88,15 +125,7 @@ export async function generateImage(params: GenerateParams): Promise<string> {
     const apiUrl = `${baseUrl.replace(/\/$/, '')}/images/generations`;
     const { useCorsProxy, corsProxyUrl } = useStore.getState();
     const url = useCorsProxy ? `${corsProxyUrl}${apiUrl}` : apiUrl;
-
-    // Append response_format: b64_json when enabled in settings (not all providers support it)
-    const preferBase64 = useStore.getState().responseFormatB64;
-    const body: Record<string, unknown> = {
-      model,
-      prompt,
-      size,
-      response_format: preferBase64 ? 'b64_json' : 'url',
-    };
+    const body: Record<string, unknown> = { ...buildImageFields(prompt, model, size) };
 
     const images: string[] = [];
     for (const refUrl of referenceImages) {
@@ -127,17 +156,8 @@ export async function generateImage(params: GenerateParams): Promise<string> {
     throw new Error('API 未返回图片数据');
   }
 
-  // Standard path: use OpenAI SDK
-  // Append response_format: b64_json when enabled in settings (not all providers support it)
-  const preferBase64 = useStore.getState().responseFormatB64;
   const client = createClient(apiKey, baseUrl);
-  const response = await client.images.generate({
-    prompt,
-    model,
-    size,
-    n: 1,
-    response_format: preferBase64 ? 'b64_json' : 'url',
-  });
+  const response = await client.images.generate(buildImageFields(prompt, model, size));
 
   const item = response.data?.[0];
   if (item?.url) {
@@ -326,8 +346,17 @@ async function formatApiError(resp: Response): Promise<string> {
   return `API 请求失败 (${resp.status}): ${errText || 'Unknown error'}`;
 }
 
-export function getSizeForRatio(ratio: string): string {
-  const r = RATIO_SIZES[ratio];
-  if (!r) return '1024x1024';
-  return `${r.w}x${r.h}`;
+export function getSizeForRatio(ratio: string, resolution = '1k', model = 'gpt-image-2'): string {
+  if (/^dall-e-2/i.test(model)) return '1024x1024';
+  if (/^dall-e-3/i.test(model)) {
+    if (ratio === '1:1') return '1024x1024';
+    if (ratio === '3:4' || ratio === '9:16') return '1024x1792';
+    return '1792x1024';
+  }
+  if (isLegacyGptImage(model)) {
+    if (ratio === '1:1') return '1024x1024';
+    if (ratio === '3:4' || ratio === '9:16') return '1024x1536';
+    return '1536x1024';
+  }
+  return GPT_IMAGE_SIZES[resolution]?.[ratio] ?? GPT_IMAGE_SIZES['1k']?.[ratio] ?? '1024x1024';
 }
